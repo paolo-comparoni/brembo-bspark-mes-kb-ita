@@ -1,10 +1,1810 @@
-# Recording B-SPARK Key User Training Line Operator Mapello (M1)-20260225_075641UTC-Meeting Recording
+---
+title: "Key User Training Line Operator Mapello M1 - Sessione 1 fondamenti MES e shop floor"
+source_file: "SourcesMd/TrainingBrembo/20_MES Line Operator/MAPELLO M1/Recording B-SPARK Key User Training Line Operator Mapello (M1)-20260225_075641UTC-Meeting Recording.md"
+project: "Brembo B-Spark"
+scope: "Operational_KT"
+plants: [MAPELLO]
+---
+
+# Key User Training Line Operator Mapello M1 - Sessione 1 fondamenti MES e shop floor
 
 > Documento sorgente: `E:\BremboDocs\TrainingBrembo\20_MES Line Operator\MAPELLO M1\Recording B-SPARK Key User Training Line Operator Mapello (M1)-20260225_075641UTC-Meeting Recording.docx`  
 > Tipo: Word (.docx)
 
-# File audio
+## Apertura sessione e ruolo dei key user
 
-# 
+- 00:00:02 Relatore 1Allora ti dico, la mamma ti.
+- 00:00:05 Relatore 2E mi assunti, faccio un po' problema.
+- 00:00:08 Relatore 2Tu cosa ti va?
+- 00:00:11 Relatore 1OK, sì vabbè, sto a prendere lasciato.
+- 00:00:14 Relatore 3Qua.
+- 00:00:15 Relatore 4Non mi aspettavo niente di.
+- 00:00:16 Relatore 2Dirmi l'avevo scritto.
+- 00:00:19 Relatore 2Un giorno ho detto soltanto, magari è necessario.
+- 00:07:42 Relatore 5Buongiorno.
+- 00:07:54 Relatore 6Ma se ne trovano, e vabbè che sia.
+- 00:08:04 Relatore 8Cambia.
+- 00:08:06 Relatore 7Ci senti?
+- 00:08:08 Relatore 9Sì, Buongiorno a tutti.
+- 00:08:10 Relatore 7Per bene Jacopo.
+- 00:08:12 Relatore 9Meglio di ieri.
+- 00:08:15 Relatore 8Metti il canale.
+- 00:08:18 Relatore 2No.
+- 00:08:24 Relatore 8Cristian.
+- 00:08:27 Relatore 5Mi sentite?
+- 00:08:27 Relatore 8Ah, OK.
+- 00:08:28 Relatore 2sì
+- 00:08:31 Relatore 5Sì, sì, vi sento, poi c'è molto.
+- 00:08:40 Relatore 5Amore, ma penso sia normale. Ditemi quando siete pronti a cominciare la sessione adesso io non vi vedo, però datemi voi la via.
+- 00:08:50 Relatore 8Devo solo che confido.
+- 00:08:56 Relatore 9Scusate non proposta, non è che avete anche una webcam così almeno capiamo se state interagendo con noi o meno perché si sente, però c'è tanto rumore, quindi se se metteste la webcam almeno capiamo che quando siete rivolti verso di voi state parlando con noi.
+- 00:09:13 Relatore 7Non c'è Jacopo.
+- 00:09:15 Relatore 7Ok.
+- 00:09:16 Relatore 2Tre minuti.
+- 00:09:19 Relatore 7Chiamiamo i mercati di domande specifiche, facciamo solo direttamente i vostri nomi.
+- 00:09:25 Relatore 3Bene.
+- 00:09:27 Relatore 9Perfetto.
+- 00:09:31 Relatore 8Sono.
+- 00:09:35 Relatore 2Sì, assolutamente. Dica.
+- 00:09:45 Relatore 10Scusa.
+- 00:09:47 Relatore 8Perfetto.
+- 00:09:47 Relatore 8Faccio se non.
+- 00:09:48 Relatore 2È.
+- 00:09:49 Relatore 11Ancora arrivato ho detto, mi leggi?
+- 00:09:52 Relatore 7No, no, no. Ho sentito o.
+- 00:09:54 Relatore 2K Senti scusa.
+- 00:10:01 Relatore 2Ah, no.
+- 00:10:02 Relatore 12Okay.
+- 00:10:04 Relatore 2Fai il timido.
+- 00:10:10 Relatore 2Mi serve bene, scusami.
+- 00:10:13 Relatore 10Avresti un'altra copia di benvenuto in Ocse ne.
+- 00:10:16 Relatore 11Abbiamo fatto le copie per chi non aveva.
+- 00:10:18 Relatore 2Il laptop gliene abbiamo tutte uguali poi.
+- 00:10:20 Relatore 3Altrimenti ci sono.
+- 00:10:24 Relatore 2142 diversi.
+- 00:10:26 Relatore 7Mi sa che.
+- 00:10:27 Relatore 11E sono due.
+- 00:10:27 Relatore 8Vedo Fabio.
+- 00:10:34 Relatore 11Cosa fare? Una vecchia che.
+- 00:10:35 Relatore 2Lei è la scanzone.
+- 00:10:42 Relatore 10Di quest'ora l'ho già fatta nell'Ufficio.
+- 00:10:50 Relatore 2Quindi.
+- 00:10:53 Relatore 2Mi dispiace i panni ci siamo, qualcuno ci.
+- 00:10:55 Relatore 3Metteremo in occhio.
+- 00:10:58 Relatore 2Sono io?
+- 00:11:02 Relatore 11Ok, allora appuntamento alla mezz'ora.
+- 00:11:04 Relatore 13Perché non so?
+- 00:11:04 Relatore 7Se Samantha voleva dare 1 1 presentazione sul progetto, adesso partiamo direttamente con la formazione al nostro progetto con la.
+- 00:11:15 Relatore 5Sì, faccio giusto magari una breve introduzione. Buongiorno a tutti, mi spiace non potervi vedere. Sono Samantha Stroppa. Per chi non mi conoscesse, faccio parte della struttura transformation, lavoro con Matteo stoico nell'area di program management di shango insieme ai miei colleghi supervisioniamo un po' tutte tutte le attività relative al progetto. Oggi siamo qui perché di fatto inizia.
+- 00:11:42 Relatore 5Per voi.
+- 00:11:44 Relatore 5L'importante, diciamo, percorso di formazione che poi vi vedrà coinvolti nelle prossime settimane.
+- 00:11:50 Relatore 5Appunto sulla parte di formazione lato MES, quindi per relativamente al sistema di produzione. E che poi di fatto è un percorso che continuerà fino al go live previsto per il 4 maggio. Voi siete qui perché in qualche modo siete stati identificati come key user da parte dei giorni onere e da parte della struttura organizzativa ovviamente Brembo e il RU diciamo il vostro ruolo è un po' duplice, no?
+- 00:12:15 Relatore 5Durante queste sessioni da un lato sicuramente diciamo ruolo di in qualche modo?
+- 00:12:23 Relatore 5Partecipanti a queste sessioni per acquisire il know how specifico E necessario che poi vi vi guiderà, vi accompagnerà appunto in approccio Live. E il secondo ruolo invece poi di quello di formatori, quindi come come sapete poi una volta acquisite le competenze.
+- 00:12:44 Relatore 5Sulla parte di appunto sistema MES vi verrà chiesto nelle prossime settimane, è in procinto del dell'aiv di andare a formare poi, a cascata tutti quelli che sono identificati come gli utilizzatori finali del sistema, quindi il vostro ruolo è sicuramente chiave determinante.
+- 00:13:03 Relatore 5Nella appunto, nella nell'approcciare il Live e garantire in qualche modo la redines anche organizzativa.
+- 00:13:11 Relatore 5Rispetto appunto quelli che sono poi le le competenze, l'operatività che dovrà essere appunto attivata.
+- 00:13:17 Relatore 5Al giorno uno delle operation.
+- 00:13:19 Relatore 5John, le sessioni diciamo sono.
+- 00:13:23 Relatore 5In parte teoriche, in parte pratiche. Adesso magari poi diciamo. Christian nel TEAM di Engineering ci spiega esattamente rispetto alle sessioni previste, quando farete teorie? Quando ci sarà la possibilità invece di andare a sistema e fare degli esercizi e poi la sessione diciamo, si concluderà.
+- 00:13:43 Relatore 5Con una breve prova, così come previsto da tutti i corsi Brembo di valutazione per verificare l'acquisizione delle competenze delle conoscenze del corso. Avete tutta una serie di documenti a disposizione. Qui trovate il link relativo al materiale che i formatori vi faranno vedere in questi giorni e che potrete poi utilizzare sia diciamo durante queste sessioni spero vi siano stati consegnati cartacei.
+- 00:14:08 Relatore 5Su cui ovviamente potete prendere gli appunti e usarli come meglio diciamo ritenete opportuno.
+- 00:14:16 Relatore 5Che poi è il materiale che potrete usare per fare la formazione lato end news.
+- 00:14:20 Relatore 50.
+- 00:14:23 Relatore 5Io diciamo avrei concluso la la parte introduttiva, se non ci sono domande per me lascerei la parola al team di Engineering che magari vi spiega come sono strutturati questi due giorni di formazione, quindi come è strutturata la teoria e quando si potrà vedere.
+- 00:14:42 Relatore 5Il sistema e lasciarvi provare, andare a sistema e fare appunto degli esercizi guidati e buona sessione a tutti. Se avete bisogno di me potete iscrivermi offline.
+- 00:14:54 Relatore 7Grazie.
+- 00:14:57 Relatore 7E come diceva Samantha, noi siamo dell'azienda Engineering.
 
-[Recording B-SPARK Key User Training Line Operator Mapello (M1)-20260225\_075641UTC-Meeting Recording.mp3Trascrizione00:00:02 Relatore 1Allora ti dico, la mamma ti.00:00:05 Relatore 2E mi assunti, faccio un po' problema.00:00:08 Relatore 2Tu cosa ti va?00:00:11 Relatore 1OK, sì vabbè, sto a prendere lasciato.00:00:14 Relatore 3Qua.00:00:15 Relatore 4Non mi aspettavo niente di.00:00:16 Relatore 2Dirmi l'avevo scritto.00:00:19 Relatore 2Un giorno ho detto soltanto, magari è necessario.00:07:42 Relatore 5Buongiorno.00:07:54 Relatore 6Ma se ne trovano, e vabbè che sia.00:08:04 Relatore 8Cambia.00:08:06 Relatore 7Ci senti?00:08:08 Relatore 9Sì, Buongiorno a tutti.00:08:10 Relatore 7Per bene Jacopo.00:08:12 Relatore 9Meglio di ieri.00:08:15 Relatore 8Metti il canale.00:08:18 Relatore 2No.00:08:24 Relatore 8Cristian.00:08:27 Relatore 5Mi sentite?00:08:27 Relatore 8Ah, OK.00:08:28 Relatore 2sì00:08:31 Relatore 5Sì, sì, vi sento, poi c'è molto.00:08:40 Relatore 5Amore, ma penso sia normale. Ditemi quando siete pronti a cominciare la sessione adesso io non vi vedo, però datemi voi la via.00:08:50 Relatore 8Devo solo che confido.00:08:56 Relatore 9Scusate non proposta, non è che avete anche una webcam così almeno capiamo se state interagendo con noi o meno perché si sente, però c'è tanto rumore, quindi se se metteste la webcam almeno capiamo che quando siete rivolti verso di voi state parlando con noi.00:09:13 Relatore 7Non c'è Jacopo.00:09:15 Relatore 7Ok.00:09:16 Relatore 2Tre minuti.00:09:19 Relatore 7Chiamiamo i mercati di domande specifiche, facciamo solo direttamente i vostri nomi.00:09:25 Relatore 3Bene.00:09:27 Relatore 9Perfetto.00:09:31 Relatore 8Sono.00:09:35 Relatore 2Sì, assolutamente. Dica.00:09:45 Relatore 10Scusa.00:09:47 Relatore 8Perfetto.00:09:47 Relatore 8Faccio se non.00:09:48 Relatore 2È.00:09:49 Relatore 11Ancora arrivato ho detto, mi leggi?00:09:52 Relatore 7No, no, no. Ho sentito o.00:09:54 Relatore 2K Senti scusa.00:10:01 Relatore 2Ah, no.00:10:02 Relatore 12Okay.00:10:04 Relatore 2Fai il timido.00:10:10 Relatore 2Mi serve bene, scusami.00:10:13 Relatore 10Avresti un'altra copia di benvenuto in Ocse ne.00:10:16 Relatore 11Abbiamo fatto le copie per chi non aveva.00:10:18 Relatore 2Il laptop gliene abbiamo tutte uguali poi.00:10:20 Relatore 3Altrimenti ci sono.00:10:24 Relatore 2142 diversi.00:10:26 Relatore 7Mi sa che.00:10:27 Relatore 11E sono due.00:10:27 Relatore 8Vedo Fabio.00:10:34 Relatore 11Cosa fare? Una vecchia che.00:10:35 Relatore 2Lei è la scanzone.00:10:42 Relatore 10Di quest'ora l'ho già fatta nell'Ufficio.00:10:50 Relatore 2Quindi.00:10:53 Relatore 2Mi dispiace i panni ci siamo, qualcuno ci.00:10:55 Relatore 3Metteremo in occhio.00:10:58 Relatore 2Sono io?00:11:02 Relatore 11Ok, allora appuntamento alla mezz'ora.00:11:04 Relatore 13Perché non so?00:11:04 Relatore 7Se Samantha voleva dare 1 1 presentazione sul progetto, adesso partiamo direttamente con la formazione al nostro progetto con la.00:11:15 Relatore 5Sì, faccio giusto magari una breve introduzione. Buongiorno a tutti, mi spiace non potervi vedere. Sono Samantha Stroppa. Per chi non mi conoscesse, faccio parte della struttura transformation, lavoro con Matteo stoico nell'area di program management di shango insieme ai miei colleghi supervisioniamo un po' tutte tutte le attività relative al progetto. Oggi siamo qui perché di fatto inizia.00:11:42 Relatore 5Per voi.00:11:44 Relatore 5L'importante, diciamo, percorso di formazione che poi vi vedrà coinvolti nelle prossime settimane.00:11:50 Relatore 5Appunto sulla parte di formazione lato MES, quindi per relativamente al sistema di produzione. E che poi di fatto è un percorso che continuerà fino al go live previsto per il 4 maggio. Voi siete qui perché in qualche modo siete stati identificati come key user da parte dei giorni onere e da parte della struttura organizzativa ovviamente Brembo e il RU diciamo il vostro ruolo è un po' duplice, no?00:12:15 Relatore 5Durante queste sessioni da un lato sicuramente diciamo ruolo di in qualche modo?00:12:23 Relatore 5Partecipanti a queste sessioni per acquisire il know how specifico E necessario che poi vi vi guiderà, vi accompagnerà appunto in approccio Live. E il secondo ruolo invece poi di quello di formatori, quindi come come sapete poi una volta acquisite le competenze.00:12:44 Relatore 5Sulla parte di appunto sistema MES vi verrà chiesto nelle prossime settimane, è in procinto del dell'aiv di andare a formare poi, a cascata tutti quelli che sono identificati come gli utilizzatori finali del sistema, quindi il vostro ruolo è sicuramente chiave determinante.00:13:03 Relatore 5Nella appunto, nella nell'approcciare il Live e garantire in qualche modo la redines anche organizzativa.00:13:11 Relatore 5Rispetto appunto quelli che sono poi le le competenze, l'operatività che dovrà essere appunto attivata.00:13:17 Relatore 5Al giorno uno delle operation.00:13:19 Relatore 5John, le sessioni diciamo sono.00:13:23 Relatore 5In parte teoriche, in parte pratiche. Adesso magari poi diciamo. Christian nel TEAM di Engineering ci spiega esattamente rispetto alle sessioni previste, quando farete teorie? Quando ci sarà la possibilità invece di andare a sistema e fare degli esercizi e poi la sessione diciamo, si concluderà.00:13:43 Relatore 5Con una breve prova, così come previsto da tutti i corsi Brembo di valutazione per verificare l'acquisizione delle competenze delle conoscenze del corso. Avete tutta una serie di documenti a disposizione. Qui trovate il link relativo al materiale che i formatori vi faranno vedere in questi giorni e che potrete poi utilizzare sia diciamo durante queste sessioni spero vi siano stati consegnati cartacei.00:14:08 Relatore 5Su cui ovviamente potete prendere gli appunti e usarli come meglio diciamo ritenete opportuno.00:14:16 Relatore 5Che poi è il materiale che potrete usare per fare la formazione lato end news.00:14:20 Relatore 50.00:14:23 Relatore 5Io diciamo avrei concluso la la parte introduttiva, se non ci sono domande per me lascerei la parola al team di Engineering che magari vi spiega come sono strutturati questi due giorni di formazione, quindi come è strutturata la teoria e quando si potrà vedere.00:14:42 Relatore 5Il sistema e lasciarvi provare, andare a sistema e fare appunto degli esercizi guidati e buona sessione a tutti. Se avete bisogno di me potete iscrivermi offline.00:14:54 Relatore 7Grazie.00:14:57 Relatore 7E come diceva Samantha, noi siamo dell'azienda Engineering.00:15:03 Relatore 7Lo scopo di questo training quanta dare poi la formazione per il nuovo MES che verrà implementato a breve.00:15:14 Relatore 7Annalisa è la docente, io sono Cristian Napoli che sono il project manager e collegati. In Colle c'è tutto il la leadership del team tecnico. Nel caso fanno delle domande un po' più specifiche.00:15:29 Relatore 7In analisi uno.00:15:29 Relatore 8Vuoi? Certo. Buongiorno, comincerò a prendere sono la docente del corso Office intermes. Mi chiamo Annalisa Sciaro.00:15:39 Relatore 8In corso sarà si utilizza questi due moduli teorici.00:15:44 Relatore 8Il primo modulo riguarderà un overview, quindi una panoramica della delle applicazioni, delle funzionalità che ci sono su p center, il secondo modulo invece entrerà più nell'aspetto operativo, quindi nella produttiva della produzione.00:16:02 Relatore 8Poi, come accennavano i colleghi, ci sarà poi una prova pratica.00:16:10 Relatore 8Vabbè, vedremo tutto ciò che riguarda gli ori.00:16:15 Relatore 8Quello che viene fatto è la linea.00:16:20 Relatore 8Possiamo iniziare a parlare sulla la cosa molto importante.00:16:27 Relatore 8Center MS, chiediamo tutti.00:16:32 Relatore 8Il MES è proprio un software che gestisce e controlla l'esecuzione della posizione.00:16:40 Relatore 8Manufactu richieste future system.00:16:44 Relatore 8Monitora in tempo reale quello che accade nella produzione, la linea produttiva.00:16:51 Relatore 8E cosa fa?00:16:54 Relatore 8Converte.00:16:55 Relatore 8Gli ordini che vengono spediti, che arrivano per sapere è un software gestionale.00:17:03 Relatore 8Che gestisce gli ordini e ha la strategia al suo interno per quanto riguarda la produzione.00:17:11 Relatore 8Questo qua li converte, converte, riceve gli ordini di Whatsapp.00:17:18 Relatore 8E riconverte in istruzioni operative.00:17:21 Relatore 8Che dovrà seguire comunque l'operatore presente sulla linea di produzione.00:17:26 Relatore 8Inoltre, che cosa?00:17:27 Relatore 8Fa.00:17:29 Relatore 8Spedisce le informazioni che che vengono eseguite, e quindi gli esiti della produzione, a sato, in modo tale da essere da esserci un collegamento diretto in allineamento delle giacenze tra SAP e MES.00:17:49 Relatore 8Conoscete più o meno gli happy? Sap è un gestionale proprio che si interfaccia con con gli ordini, con quelli.00:17:58 Relatore 8Fornitori, che gestisce proprio la strategia.00:18:03 Relatore 8Quali sono i vantaggi di ecocenter MES? Sicuramente una pianificazione chiara. Che cosa indica una pianificazione delle operazioni non è più complessa, molto più chiara, più definita, più coordinate.00:18:19 Relatore 8Il monitoraggio abbiamo detto prima che il MES monitora esattamente.00:18:25 Relatore 8Le fasi, la fase positiva, quindi tutto ciò che viene fatto nel linea di fruizione, vedete voi.00:18:33 Relatore 2Sì, sì.00:18:36 Relatore 8Viene proprio monitorato in tempo reale, controllato, monitorato esattamente tutto ciò che viene fatto.00:18:43 Relatore 8Della linea funsiva.00:18:47 Relatore 8Che cosa c'è ulteriormente? La tracciabilità, quindi le movimentazioni che ci sono, dei materiali vengono registrate o i cani che sappiamo esattamente dove si trova il container?00:19:01 Relatore 8Togliere il CD sul cellulare?00:19:05 Relatore 2CDCD.00:19:09 Relatore 8Cosa fa? Riduce gli errori. Perché? Perché ci sono proprio delle procedure?00:19:16 Relatore 8Automatizzate.00:19:18 Relatore 8Che consentono di minimizzare le le attività.00:19:23 Relatore 8E la riduzione vera e propria dell'orrore.00:19:25 Relatore 8Che può accadere?00:19:28 Relatore 8L'acquisizione dei dati semplificata che cos'è è una raccolta dei dati.00:19:33 Relatore 8L'sms è molto più semplice.00:19:36 Relatore 8Non più complessa.00:19:39 Relatore 8Una riduzione della Carta e della burocrazia.00:19:43 Relatore 8Ci sono delle procedure autorizzate molto seguito, ci sono le istruzioni operative, quindi la Carta va a ridursi.00:19:54 Relatore 8L'utilizzo della Carta delle istruzioni digitali chiare perché l'operatore a tutti gli effetti.00:20:03 Relatore 8Utilizza.00:20:05 Relatore 8Delle istruzioni che arrivano.00:20:09 Relatore 8Dall'ordine le istruzioni che l'operatore dovrà seguire.00:20:14 Relatore 8Il riconoscimento della della produttività è proprio il riconoscimento vero e proprio dei risultati produttivi. Com'è andata? La linea di produzione, quindi sono proprio delle.00:20:27 Relatore 8Le misurazioni e delle valorizzazioni e della del performance della linea.00:20:42 Relatore 8I livelli della processione.00:20:44 Relatore 8Vengono descritti perché, quali sono i beni?00:20:53 Relatore 8Per lo standard.00:20:56 Relatore 8Definito in livelli in livelli, come è organizzata la produzione?00:21:01 Relatore 12Come.00:21:04 Relatore 8Il livello più alto è il verti.00:21:09 Relatore 8Software gestionale.00:21:12 Relatore 8Quello più pianifica.00:21:14 Relatore 8Stabiliscono proprio che cosa c'è da produrre e quando c'è da produrre. Questo naturalmente è una gestione Saf per cui in base agli ordini, cioè in base alle strategie che hanno direttamente fatto.00:21:32 Relatore 8Il livello tre, il MES, quindi senza PRESS il coordinamento possiamo chiamare orchestratore, perché alla fine il MES riceve da SAP.00:21:44 Relatore 8Le informazioni necessarie per la produzione e coordina, trasforma, come diceva prima, le decisioni che avevano dall'alto in vere e proprie azioni.00:21:57 Relatore 8I concreti introduzione, le istruzioni, cosa dobbiamo fare, cosa deve fare, deve sapere l'operatore presente in linea.00:22:05 Relatore 8E monitora monitoraggio in tempo reale.00:22:11 Relatore 8Tutto ciò che avviene in modo tale che sia proprio come stabilito, come previsto deve essere.00:22:17 Relatore 8Sto dettanto dall'alto e poi MES.00:22:23 Relatore 8Il livello uno e due.00:22:27 Relatore 8Sono proprio l'esecuzione operatori, gli operatori macchine e quindi tutto ciò che viene fatto fisicamente.00:22:36 Relatore 8All'interno dell'approvazione.00:22:42 Relatore 8Sicuramente il MES.00:22:46 Relatore 8Questo software che gestisce e monitora.00:22:51 Relatore 8Bene.00:22:51 Relatore 8Processo produttivo?00:22:53 Relatore 8Deve conoscere com'è lo stabilimento, com'è la produzione, quindi come, come avvengono, come avvengono queste informazioni, come vengono date al mese queste informazioni? Tutte e due le modalità.00:23:08 Relatore 8Due modelli.00:23:10 Relatore 8Il Planet Modeling.00:23:12 Relatore 8Modello utente della struttura fisica del player.00:23:18 Relatore 8E il modello?00:23:21 Relatore 8Process modeling.00:23:23 Relatore 8Appunto, come avvengono le cose?00:23:26 Relatore 8Il secondo pandello iniziamo a parlare del primo, dove avvengono la struttura fisica della produzione?00:23:35 Relatore 8Beh, questo tipo di modello è proprio.00:23:39 Relatore 8Jessica, buona struttura gerarchica.00:23:42 Relatore 8In alto abbiamo il primo livello.00:23:46 Relatore 8Alto Enterprise, il gruppo.00:23:50 Relatore 8Membro.00:23:52 Relatore 8Freddo.00:23:54 Relatore 8Il sito operativo.00:23:57 Relatore 8Lento, in questo caso è un appello.00:24:00 Relatore 8L'altro stabilimento è furno.00:24:04 Relatore 8La linea di posizione.00:24:07 Relatore 8Si, la fast online o l'account online vedo tre.00:24:10 Relatore 8Ci sono proprio i livelli, quelli li guarderemo nella prova pratica, appunto, quando vedremo il.00:24:11 Relatore 8Piano bello.00:24:13 Relatore 8È un'altro livello, vedrete poi che nel center test.00:24:27 Relatore 8Lascio flor e quindi l'altro modulo.00:24:31 Relatore 8Che cos'è il Wall Center?00:24:34 Relatore 8È proprio la stazione di lavoro.00:24:38 Relatore 8L'unità produttiva.00:24:40 Relatore 8Ok, quindi riassumendo, questi qua sono i livelli.00:24:45 Relatore 8Che conosce, che deve conoscere o che center per entrare nel mondo della produzione?00:24:51 Relatore 8Eh, boh.00:24:54 Relatore 8Il processo modeling.00:24:56 Relatore 8Quindi come avvengono le cose?00:25:00 Relatore 8Molto importante.00:25:02 Relatore 8Possiamo parlare?00:25:04 Relatore 8Della delle sequenze di operazioni.00:25:09 Relatore 8Cos'è la bof? Ne parleremo ancora, venite avanti.00:25:15 Relatore 8Sono le sequenze di operazioni PIL of Possess.00:25:20 Relatore 8La lista di operazioni di processi.00:25:25 Relatore 8E vengono spediti, accendiamo già.00:25:28 Relatore 8A parte.00:25:30 Relatore 8Stop, viene ricevuto da SAP.00:25:35 Relatore 8Invia annesso molto importante.00:25:38 Relatore 8Informazione.00:25:42 Relatore 8La bomba.00:25:44 Relatore 8Off material, la distinta del materiale, la lista dei materiali. Vediamo tutti.00:25:53 Relatore 8Lo so cos'è, è proprio la lista dei materiali che sono necessari per la fase operativa che stiamo seguendo in questo momento.00:26:05 Relatore 8I tool, le attrezzature necessarie, le attrezzature che.00:26:10 Relatore 8Ti richiamo un po' di sì.00:26:11 Relatore 8Anche.00:26:13 Relatore 8Le istruzioni.00:26:15 Relatore 8C'eravamo prima che.00:26:18 Relatore 8Il nes o ti sei permesso?00:26:22 Relatore 8Ricevere taglia fissato.00:26:26 Relatore 8Software professionale e conosce fornitori.00:26:30 Relatore 12O.00:26:33 Relatore 8Riceve gli ordini.00:26:36 Relatore 8Gli ordini vengono convertiti.00:26:40 Relatore 8Le istruzioni per gli operatori.00:26:45 Relatore 8I controlli di qualità?00:26:49 Relatore 8All'interno del modello.00:26:52 Relatore 8Process modeling.00:26:54 Relatore 8Quindi il modello d'accesso.00:26:58 Relatore 8Ci sono le verifiche.00:26:59 Relatore 8Da eseguire puntuali sia del componente.00:27:03 Relatore 8Nella fase prodotto finale.00:27:12 Relatore 8Per la struttura Petrarca, come abbiamo detto.00:27:16 Relatore 8C'è anche il files.00:27:18 Relatore 8Prendo il plank, appello no?00:27:26 Relatore 8Le linee di produzione.00:27:28 Relatore 8Casting cuffing.00:27:32 Relatore 8File.00:27:34 Relatore 8I workstadt delle stazioni, il lavoro.00:27:38 Relatore 8Dove proprio gli operatori.00:27:42 Relatore 8Sono guidati dal MES.00:27:44 Relatore 8Delle stazioni di lavoro c'è l'operatore e il MES.00:27:49 Relatore 8Esegue, diciamo fa da, fa da guida.00:27:54 Relatore 8Ogni attività che viene svolta.00:27:58 Relatore 8Nel Work Center è proprio uno specifico ordine di produzione, work order, anche la.00:28:09 Relatore 8La cooperazione nella fase inglese. Così quando entriamo nella nella parte pratica abbiamo gli abbinamenti, work order, ordini di produzione, ordine di lavorazione.00:28:27 Relatore 8Abbiamo detto.00:28:29 Relatore 8Oh, che ci sono nel process modeling?00:28:33 Relatore 8La lista dei materiali.00:28:36 Relatore 12Osman e Office.00:28:40 Relatore 8La Siria dalla lista dei materiali distinguere i materiali.00:28:46 Relatore 8Vedremo poi quando entreremo proprio nella pratica, qui abbiamo inserito una immagine per fare un esempio.00:28:55 Relatore 8La lista dei batteri.00:28:58 Relatore 8I materiali non vengono inseriti manualmente.00:29:02 Relatore 8Esatto, ci dà indicazioni, esatto che invia materiali.00:29:10 Relatore 8E se sono materiali si può produrre.00:29:14 Relatore 8All'anagrafica dei materiali? Vedremo, poi entrerò proprio nel merito di questa pagina.00:29:23 Relatore 8Però associati tutti i lotti.00:29:26 Relatore 8Che cosa per i prime componenti dei lavoratori e materiali?00:29:34 Relatore 2Ciò che è per te.00:29:40 Relatore 8I container CDO richiamate CD. Corretto male bene.00:29:47 Relatore 8Vorrei dimenticarli OK.00:29:50 Relatore 8I lotti all'interno della produzione naturalmente materiale non è.00:29:58 Relatore 8Che mi dico oggi no container contenitori.00:30:05 Relatore 8Nel in un sistema MES la definizione material tracking unit altre.00:30:14 Relatore 8Che avremo la lista di tutti i container, quindi tutti i lotti.00:30:19 Relatore 8Che vengono movimentati, mossi all'interno.00:30:25 Relatore 8Dello stabilimento.00:30:27 Relatore 8È importante, è importante sapere che ogni container.00:30:32 Relatore 8Deriva da un container Skype.00:30:36 Relatore 8Modello di contenuto.00:30:40 Relatore 8Questa parola contenuta in cui poi la vedremo insieme.00:30:44 Relatore 8Entreremo proprio sempre nella parte pratica per perché sono quelle, forse avete il box.00:30:49 Relatore 2Sì.00:30:50 Relatore 8Ma facciamo un esempio, nel box carrello alla fusione.00:30:55 Relatore 8Dell'anno, nella prima fase anche del carrello.00:30:59 Relatore 13Sì, certo.00:31:01 Relatore 8No, che poi non vengono tracciati dalla fusione al taglio vengono messi.00:31:06 Relatore 2Forse assegnamenti c'è scritto dentro.00:31:10 Relatore 4Il container è l'identificativo del singolo contenitore, quello che per noi è l'ID del del CD, mentre il container Type è il tipo di imballo in cui è il materiale. Il container poi è scritto chiedete dopo.00:31:23 Relatore 2Sì, un po'.00:31:25 Relatore 8È l'unità.00:31:28 Relatore 4È la handling unit, quindi l'unità di movimentazione del materiale SAP. Lo chiama handling unit nel mese chiamato container, ma è logicamente quello che oggi chiamiamo.00:31:40 Relatore 4Chi è il singolo cassone?00:31:43 Relatore 8Che l'unità, l'unità, logica, non so come.00:31:47 Relatore 4È liti del \*\*\*\*\*\*\*.00:31:52 Relatore 8Peter ha detto, che container?00:31:55 Relatore 8All'interno ha una deriva da un conto reside, è importante questa associazione?00:32:02 Relatore 8Perché all'interno del container container di contenitore Esistono delle proprietà, tra cui.00:32:10 Relatore 8La quantità massima di umiltà, nello specifico?00:32:14 Relatore 8Io faccio sempre l'esempio del pallet, all'interno di un pallet possiamo contenere 100 unità, utilizziamo questo 100, la massima capacità.00:32:26 Relatore 8La Pro B?00:32:27 Relatore 8È inserita nel container, è importante poi per l'operatore quando andrà a chiudere.00:32:36 Relatore 8Fine con l'operazione che sta facendo, quella è una tolleranza, diciamo.00:32:42 Relatore 8Prossimamente per rimangono le più ufficiali con.00:32:47 Relatore 13La crisi ore fare i.00:32:49 Relatore 8Materassi, la prima quantità o massima sarà già nel quel sistema.00:32:55 Relatore 8Perché dovrai essere disturbato il menù, sicché il tuo.00:33:02 Relatore 12Sì.00:33:03 Relatore 8Ci siamo? No, no, scusi.00:33:10 Relatore 14Aspetta la Laura.00:33:14 Relatore 8Sì, prego.00:33:17 Relatore 15Seguita massima.00:33:20 Relatore 2No.00:33:21 Relatore 8Ci sente anche il collega Jacopo, nel caso.00:33:24 Relatore 15Che se non abbiamo l'imbaldi l'imballo cliente dobbiamo utilizzare un imballo alternativo che magari ha un multiplo di imballo maggiore.00:33:34 Relatore 8Generico Type.00:33:36 Relatore 8E Jacopo Iela, non so se avete sentito.00:33:39 Relatore 7Dice che non si sente bene?00:33:41 Relatore 3La.00:33:44 Relatore 8Ci sentite?00:33:46 Relatore 16Te Annalisa, te ti sento benissimo.00:33:49 Relatore 16Gli altri meno.00:33:51 Relatore 8Si può?00:33:55 Relatore 15Che se il multiplo di ballo deve essere sforato, quindi dobbiamo aumentare la quantità nell'imballo perché l'imballo cliente non ce l'abbiamo, dobbiamo utilizzare quello alternativo che prevede un motivo di imballo più alto. Il sistema lo prevede o.00:34:11 Relatore 8No, allora in realtà prego.00:34:15 Relatore 16No, vai, vai, vai, Annalisa.00:34:17 Relatore 8No, no, no, no, di tutto mi dispiacerebbe.00:34:19 Relatore 16Ok allora se al prodotto finito non è stato specificato un container Type specifico, allora e deve andare oltre alla quantità c'è. Lì associamo di solito un genery container che non non impone diciamo un contraente. Poi sullo sullo Start e il complete dell'ordine in base al container Type.00:34:46 Relatore 15E ci lascia aperto praticamente la quantità massima.00:34:49 Relatore 16Esattamente, esattamente scegli generi container quindi non hai un blocco.00:34:50Sì.00:34:54 Relatore 15Ok, OK, OK, Ciao poi.00:34:56 Relatore 8Lo lo vedremo poi nella parte pratica, perché nel momento della chiusura del completamento dell'operazione vediamo proprio che viene segnalato il container Type per indicare quello il tuo container Type, ma c'è la possibilità di mettere un Generic OK?00:35:10 Relatore 15Grazie.00:35:13 Relatore 8Quindi ritorniamo attimo.00:35:14 Relatore 1Ritenuto un anno per cui noi in fonderia breve, siccome abbiamo i codici, ogni codice andrà solo.00:35:22 Relatore 6Può container.00:35:24 Relatore 14Sì, ci dice, già stabilito dall'inizio, però.00:35:27 Relatore 8Questo è stato.00:35:28 Relatore 14Però se noi sappiamo il contenitore piccolo è quello grande c'abbiamo due container tavolo.00:35:31 Relatore 8Abbiamo messo.00:35:34 Relatore 14Perché se vuoi.00:35:35 Relatore 14Puoi mettere anche meno, perché non di più.00:35:38 Relatore 1Perché fa utilizzare due contenitori?00:35:42 Relatore 8Li abbiamo scelti.00:35:44 Relatore 3No, no così.00:35:47 Relatore 1Noi andiamo a fare il periodo.00:35:49 Relatore 2Di potenza e.00:35:50 Relatore 2Poi una notte.00:35:51 Relatore 14Il meno sì, in di più.00:35:51 Relatore 8E quindi si fa il carrello che fai sul tre?00:35:55 Relatore 1Ma i palazzi come i grandi?00:35:58 Relatore 1Noi distruggiamo in fase piccoli, dovremmo essere sempre.00:36:03 Relatore 1Eccetera rispetto alla quantità che non vorrebbe diritto, dobbiamo fare tutti e due.00:36:04 Relatore 14Beh, non si di più no?00:36:09 Relatore 2Effettivamente.00:36:13 Relatore 8No, perché devi mettere il sistema un contenitore predefinito.00:36:19 Relatore 2Sistema di?00:36:19 Relatore 6E secondo me si può anche il 600 può fare quello generico, fare 101 secondo me si poteva fare contenitore AE contenitore B.00:36:27 Relatore 1Non c'è, però si può.00:36:32 Relatore 6E se si può fare quello generico lo puoi.00:36:34 Relatore 6Forzare scusa un attimo.00:36:35 Relatore 1Ascolta.00:36:38 Relatore 1Mi piace.00:36:45 Relatore 6Prima parte di una, comunque anche loro lo.00:36:48 Relatore 8Passi cioè come fai il sistema a sapere che in quel momento stai trattando quello più basso?00:37:00 Relatore 6Sì, sì, sì, sì. Comunque in.00:37:02 Relatore 8Questa parte qua poi la vediamo anche nell'area protettiva, cioè nel anche lì se volete.00:37:09 Relatore 8Per approfondire, si può anche più avanti tra parte pratica.00:37:15 Relatore 8Facciamo un attimo questa successione, perché dobbiamo ricordarcela per il container?00:37:21 Relatore 8Container, container, viene ricevuto da SAP e SAP uccide.00:37:27 Relatore 8Lei non tiene il 16 umano.00:37:29 Relatore 8La promessa e il SAP si chiama Handly unit unità.00:37:36 Relatore 12Pronto.00:37:39 Relatore 8Quindi, tornando al container.00:37:44 Relatore 8Di CD Pilotti.00:37:47 Relatore 8Tengono recapitati i lotti tener, tengono recapitati in un'area.00:37:56 Relatore 8Come si chiama? Viene definita Immes Pattern.00:38:01 Relatore 8È la famosa vostra macchina, tre macchina.00:38:06 Relatore 8Macchina, mentre in SAP.00:38:09 Relatore 8Ti chiamo PSA.00:38:11 Relatore 8Adaption Staging area.00:38:17 Relatore 8Quindi c'è questa corrispondenza?00:38:20 Relatore 8Come avviene il consumo dei lotti?00:38:24 Relatore 8Noi abbiamo i nostri container, i nostri lotti lì vicino.00:38:27 Relatore 8Dell'area della stazione di lavoro.00:38:30 Relatore 2Non è è meglio che non sia ancora una lotta?00:38:35 Relatore 1Container, almeno.00:38:40 Relatore 8Vedi CD OK.00:38:43 Relatore 8Sì, abbiamo adesso strani.00:38:46 Relatore 1Altrimenti non lo caricano il lotto il lotto.00:38:49 Relatore 8Sì, sì, ho capito.00:38:50 Relatore 1Il BEST, la rivoluzione che ha magari 10.000.00:38:52 Relatore 2Il.00:38:53 Relatore 8Batch.00:38:56 Relatore 8Sì, sì, no, no.00:38:58 Relatore 8Sono squadra parte.00:39:02 Relatore 8Quindi.00:39:03 Relatore 8I container come vengono svuotati?00:39:07 Relatore 8Così OK, la lettura del container come viene è un barcode l'operatore.00:39:12 Relatore 8Scansiona.00:39:15 Relatore 8Il codice.00:39:17 Relatore 8È d'accordo?00:39:19 Relatore 8E al momento della scansione lo il.00:39:23 Relatore 8Prodotto, componente viene consumato.00:39:28 Relatore 8Visto che conta comporta comporta che vi è un aggiornamento delle giacenze in temporale, finché noi abbiamo detto che sono monitorati in tempo reale e c'è un'associazione diretta tra esatto, consumiamo.00:39:44 Relatore 8La giacenza.00:39:46 Relatore 8Viene aggiornata in tempo reale su SAP, poi vedremo la parte praticamente utilizzato.00:39:56 Relatore 8Tantissimo tra Whatsapp.00:40:00 Relatore 8Soci e sono immediatamente, tanto la giacenza viene decrementata sul prodotto anche adesso, adesso non è così.00:40:12 Relatore 2Dice siamo.00:40:16 Relatore 14Nel centrale non risulta che.00:40:19 Relatore 8Anche.00:40:21 Relatore 8Poi valutiamo i nostri colleghi.00:40:27 Relatore 8Nel momento in cui noi, quando?00:40:32 Relatore 8Quando la spalla prego, preso.00:40:41 Relatore 8Quando?00:40:46 Relatore 4Ci ha messo all'oca quella quantità di consumo senza continuarle effettivamente, poi invece quando chiudi il CDI fa effettivamente a consumare la quantità in base ai pezzi.00:40:57 Relatore 15Che dichiara sorta del re di buffer del Buffer.00:41:01 Relatore 4Qui dice questa roba qua, io non sto lavorando, quindi è la terza in pancia fino a quando mi dici quanti?00:41:05 Relatore 3Eh.00:41:06 Relatore 8Sì, sì.00:41:07 Relatore 15Ha scaricato, non ha scaricato la linea, cioè.00:41:08 Relatore 8Da magazzino.00:41:11 Relatore 15In base all'ordine produzione.00:41:11 Relatore 2Lo fa alla fine.00:41:13 Relatore 4Quando tu vai a dichiarare civili persone inviti con te.00:41:17 Relatore 15No, è su quella base di quel wapper del Wapper, sono consumato, viene riaprirà, lascio? OK, lascio.00:41:24 Relatore 8Ok nella nella prova pratica sarà ancora molto più chiara la situazione.00:41:30 Relatore 8Spiegazioni.00:41:35 Relatore 8Naturalmente ci sono dei controlli, non è che.00:41:39 Relatore 8Senatore Scansiona il container.00:41:43 Relatore 8Se sbaglia container, nel senso che quel prodotto non era quello corretto, non era quello corretto, naturalmente viene segnalato.00:41:51 Relatore 8Al sistema MES.00:41:54 Relatore 8Durante la lavorazione.00:41:58 Relatore 8Che cosa avviene?00:42:00 Relatore 8I nuovi prodotti?00:42:03 Relatore 8Vengono naturalmente come come il mio ingresso, riceviamo con te, neanche in uscita c'è il container perché il prodotto stiamo consumando deve essere messo dentro un container.00:42:17 Relatore 8Positivo, adatto per il trasporto.00:42:22 Relatore 8Che cosa accade però quando noi?00:42:25 Relatore 8Consumiamo il componente. Quindi arriviamo alla dichiarazione, la presenza finale del menu.00:42:32 Relatore 8Dell'operazione.00:42:35 Relatore 8Il sistema deve stampare un'etichetta perché giustamente il container deve essere.00:42:40 Relatore 12Un.00:42:41 Relatore 8Codice.00:42:47 Relatore 8Abbiamo parlato prima del buffer, quindi della.00:42:52 Relatore 8Dell'area vicino alla all'operatore al terminal di all'area OPEN.00:43:00 Relatore 8L'operatore.00:43:03 Relatore 8Questa associazione però deve essere fatta, cioè nel senso io sono l'operator terminal.00:43:11 Relatore 8La stazione di lavoro.00:43:14 Relatore 8Work center.00:43:16 Relatore 8Al Work Center dobbiamo associare.00:43:19 Relatore 8Stiamo per dare la corrispondenza.00:43:24 Relatore 8Esiste anche.00:43:26 Relatore 8La verifica disponibilità.00:43:29 Relatore 8Che consente.00:43:31 Relatore 8Se di verificare se nel passer abbiamo una quantità sufficiente?00:43:38 Relatore 8Utilizzare per la produzione il prodotto finale.00:43:42 Relatore 8Se la quantità non è sufficiente, c'è proprio una verifica, abbiamo detto.00:43:48 Relatore 8L'operatore cosa fa, lo può fare?00:43:52 Relatore 8Può richiedere del materiale, quindi io ne avevo bisogno 100 per produrre il prodotto finale X.00:44:01 Relatore 8In realtà il componente ne ha solo 70, prende 70 perché il momento io li ho.00:44:08 Relatore 8Però la quantità dei 30, quindi questa differenza, questa mancanza di quantità.00:44:16 Relatore 8Poi fu richiesta direttamente da SAP SAP.00:44:21 Relatore 8Del del magazzino.00:44:24 Relatore 8Poi c'è una possibilità che si chiama richiesta materiale, poi la vedremo, per ogni componente c'è questa funzionalità.00:44:33 Relatore 8Questo già già da accennare, la funzionalità.00:44:36 Relatore 8Per noi no, non fare il Buffet. Sono diventati solo per le anni. Esatto. Ah.00:44:42 Relatore 1Lo riprendo solo.00:44:43 Relatore 1Un componente per l'anima.00:44:46 Relatore 1Però una richiesta si basa sulla quantità che devo chiedere, uno è totale o sulla quantità dell'unità?00:44:54 Relatore 2Il compagno?00:44:58 Relatore 8Jacopo Yella avete compreso la domanda?00:45:03 Relatore 16No, non devi ripetere perché non ho sentito?00:45:06 Relatore 1La richiesta del componente che faremo noi al al casting si basa sulla quantità del contenitore o sulla quantità?00:45:15 Relatore 1Dell'ordine in funzione.00:45:19 Relatore 16Allora, in base AC. Alla quantità di cui.00:45:25 Relatore 16C'è il fabbisogno dell'ordine per quel specifico material, quel componente materiale.00:45:32 Relatore 16Sta manda manda lo stock su quel specifico buffer e tramite il CD Scansioniamo EE soddisfando la quantità di cui abbiamo bisogno per quel specifico specifico materiale.00:45:50 Relatore 16Non so se ti ho risposto.00:45:54 Relatore 8Magari ci siamo scritti.00:45:56 Relatore 8Non fai la chiamata materiale all'assistenza?00:45:59 Relatore 8Quello che ti arriva lì, nel perché te lo conosce, voglio dire, l'operatore.00:46:07 Relatore 1Puoi parlargli anche.00:46:08 Relatore 1Il centro tutto insieme al risolvimento dell'ordine.00:46:11 Relatore 16No.00:46:13 Relatore 16La chiamata materiale lo fai esattamente con la quantità di cui hai bisogno.00:46:17 Relatore 16Per quel specifico ordine.00:46:22 Relatore 2Va bene, ci vediamo più avanti.00:46:27 Relatore 8Magari nella funzionalità vera e propria, magari. Entriamo nel merito e cerchiamo di dire.00:46:34 Relatore 8Garantiscono le risposte in fino ad anche alle 15.00:46:42 Relatore 8Quindi la seconda, finché son tutte le pause.00:46:53 Relatore 2Siamo con semplicemente.00:46:56 Relatore 1Sì, ma quando siamo nel pompiere devo essere bloccato, quindi?00:47:01 Relatore 8Non concedere.00:47:05 Relatore 8Sì, abbiamo detto che nel nel process malling abbiamo.00:47:10 Relatore 8La bom non so se vi ricordate nelle slide precedenti o delle prime processo.00:47:15 Relatore 8Nella bom abbiamo proprio la lista dei materiali, quindi del delle materie prime componenti semilavorati.00:47:25 Relatore 8Da utilizzare per la produzione del prodotto fritto.00:47:32 Relatore 8Suoni, materiale, suoni, voce, abbiamo la tradizione, la richiesta se dobbiamo produrre il fondo polizze.00:47:38 Relatore 8C'è bisogno di.00:47:39 Relatore 8Il componente uno partito 10 volte, due quantità, dobbiamo proporre magari un frutto.00:47:50 Relatore 8Naturalmente.00:47:52 Relatore 8La bomba.00:47:54 Relatore 8Guida al consumo di materiali insomma, questa parte qui la vedremo proprio nel dettaglio, direttamente su.00:48:01 Relatore 8Da user Interface, l'interfaccia operativa dell'operatore.00:48:09 Relatore 8Bilock process mi piace tipo dei protesti.00:48:13 Relatore 8Abbiamo detto che la rivista.00:48:17 Relatore 8Lista dei processi che ci sono.00:48:20 Relatore 8Ho da fare sentire.00:48:25 Relatore 8Nel nello specifico.00:48:31 Relatore 8Te lo specifichi? Qua abbiamo proprio le operazioni.00:48:36 Relatore 8All'interno.00:48:39 Relatore 8Della della giustizia di processi, quindi della vof.00:48:44 Relatore 8Non abbiamo così detto, ma lo ripeto più volte nella nella vof la vof e nel MES definizione bop e nel MES, mentre il sub si chiama routine.00:48:57 Relatore 8Deve partecipare.00:48:59 Relatore 8All'inizio della vof è un nostro giro articolo gerarchica importante.00:49:05 Relatore 8Ricordare questa parte, la bop e il padre.00:49:10 Relatore 8Tutto sotto ci sono le operazioni che deve eseguire.00:49:15 Relatore 8Il.00:49:17 Relatore 8Operatore.00:49:19 Relatore 8Le operazioni sono all'interno del buon corpo, quindi workcorders.00:49:25 Relatore 8Fuori da seguire.00:49:28 Relatore 8Da svolgere.00:49:30 Relatore 8Che cosa ci cosa?00:49:35 Relatore 8C'è all'interno delle operation.00:49:38 Relatore 8Vedremo anche fra l'altro se riesce ancora meglio.00:49:44 Relatore 8Il primo livello della è proprio la operation, all'interno dell'operazione abbiamo le istruzioni operative, abbiamo dette prima a giudizio.00:49:57 Relatore 8Da svolgere proprio nel ciclo produttivo. Una documentazione.00:50:03 Relatore 8Che l'operatore deve anche fisicamente.00:50:07 Relatore 8Per il prodotto.00:50:11 Relatore 8Oppure c'è una tecnologia?00:50:14 Relatore 8Documentazioni, altri tipi di documentazioni necessarie per la produzione.00:50:20 Relatore 8Il materiale da consumare?00:50:22 Relatore 8Adesso la operation.00:50:25 Relatore 8E le attrezzature da usare, quindi ha tutto il necessario per poter procedere nell'attività.00:50:31 Relatore 8Una cosa molto importante è la Policy Station che vedremo.00:50:38 Relatore 8E che fa parte proprio della.00:50:42 Relatore 8E le regole?00:50:44 Relatore 8Da seguire per l'acqua Italia.00:50:53 Relatore 8Cosa accade?00:50:55 Relatore 8Durante il ciclo produttivo, l'operatore davanti a sé l'operation l'operazione.00:51:01 Relatore 8È un sottoinsieme del workcorder.00:51:05 Relatore 8E può.00:51:08 Relatore 8Cioè non può neve attivare l'operazione. Ci sarà poi un tasto che vedremo nella parte pratica sulla destra.00:51:16 Relatore 8C'è proprio un tasto avvia operazione.00:51:19 Relatore 8L'operatore.00:51:21 Relatore 8Ciao, davanti a portare i dati di lavoro seleziona l'ordine e procede nella nella nella parte di avvio dell'operazione e dichiara in questo punto.00:51:35 Relatore 8La quantità da lavorare?00:51:37 Relatore 8Può essere totale o anche solo iniziale.00:51:42 Relatore 8È possibile?00:51:45 Relatore 8Una volta completata, provate le attività.00:51:50 Relatore 8Per quella la quantità che abbiamo dichiarato, l'operazione diventa.00:51:56 Relatore 8Cambia l'operazione, cambia in completata, quindi da bianca in completata.00:52:03 Relatore 8Sia che venga la chiusura completa oppure le chiusure parziali, lo vedremo sempre la parte.00:52:12 Relatore 8Aspetta.00:52:15 Relatore 8Potrebbe comprendere che l'operazione diventa completa.00:52:22 Relatore 8Sì, a volte l'operatore proprio dice, OK, ho terminato la mia operazione.00:52:29 Relatore 8Può entrare nel senso razziale, il che.00:52:31 Relatore 8È totale e l'operazione, ribadisco direttamente.00:52:36 Relatore 8Se l'operazione perché abbiamo detto che il portone può avere da una io non so di mapello, però da una è in di operazioni se siamo sull'ultima.00:52:47 Relatore 8Operazione, la quantità prodotta viene automaticamente.00:52:53 Relatore 8Verità nel container di uscita perché abbiamo detto che abbiamo un ingresso e uno l'uscita del container CD.00:53:02 Relatore 8Sta dicendo che.00:53:06 Relatore 8Abbiamo detto che il maestro CE la fa, MES converse.00:53:16 Relatore 8Gli ordini ricevuti da Samuele dall'alto, dalla pianificazione di cui gestisce le strategie.00:53:24 Relatore 8Della produzione.00:53:26 Relatore 8Piacerebbe soffine?00:53:30 Relatore 8Ripartenza e l'ordine?00:53:35 Relatore 8Al suo interno ci sono tutte le le informazioni necessarie per arrivare al prodotto finito.00:53:44 Relatore 8II work sono trasmessi da SAP, non possono essere inseriti a mano, quindi extra APP vi vi ricordate i livelli della produzione SAP MES poi?00:53:59 Relatore 8Attiva.00:54:02 Relatore 8All'interno del work code ci sono.00:54:07 Relatore 8E quantità i materiali vedremo poi.00:54:12 Relatore 8La parte ancora?00:54:14 Relatore 8Importante per la pratica.00:54:18 Relatore 8I materiali, le ostruzioni operative ed è importante anche focalizzare il punto per i controlli qualità.00:54:25 Relatore 8Per quanto deve.00:54:28 Relatore 8Dell'operazione associata al Wordpad avremo anche una parte veramente importante che è quella delle verifiche.00:54:36 Relatore 8Puntuali componente.00:54:41 Relatore 8Politico.00:54:47 Relatore 8Che cosa? Cosa deve fare l'operatore? Questa è una l'anagrafica di tutti gli ordini che spedirà SAP.00:54:55 Relatore 8Poi vedremo da parte sopra.00:54:58 Relatore 8Questa.00:55:00 Relatore 8Inizialmente sarà possibile fare dei filtri per magari estrarre gli ordini necessari. La giornata, questa è la parte.00:55:11 Relatore 8No delle informazioni importanti anche lo status attivo you.00:55:16 Relatore 8Ported.00:55:19 Relatore 8L'operatore cosa deve fare nel momento in cui arriva l'ordine, l'esposizione nella stazione di lavoro?00:55:26 Relatore 8Che Stato ha bilanciato a questo punto?00:55:29 Relatore 8Potete fare l'attività produttiva?00:55:34 Relatore 8Al termine, al termine.00:55:37 Relatore 8Data la conclusione del dell'ordine, quindi finito, è stato.00:55:44 Relatore 8Pronto questo cosa la la.00:55:51 Relatore 8L'operatore quando effettua la chiusura completamento dell'ordine dell'operazione.00:55:58 Relatore 8Questa attività consente proprio uno scarico automatico dei consumi verso staff famoso allineamento di giacenze S SAP.00:56:10 Relatore 86.00:56:15 Relatore 1Siamo sì, sì, ci siamo, dico loro.00:56:16 Relatore 2Sentiamo.00:56:18 Relatore 1Praticamente ogni volta che i vitalizi che ti chiederà italiano un contenitore eh? In automatico viene scaricata 1 1 quantità di alluminio, tutto quello che c'è nella bocca in realtà nella distinta della distinta per cui va scaricata dal legno caricare dei pezzi sul sulla fase successiva.00:56:38 Relatore 13.00:56:46 Relatore 13Sei numeri sono diversi.00:56:49 Relatore 2Cioè.00:56:50 Relatore 13Il CD iniziale dovrebbe essere 50, io parlo per uno.00:56:54 Relatore 13Ripeti il numero i pezzi deve essere il 50 sì per motivi X 1 48.00:57:01 Relatore 13Oggi è tipo lo Stato o in qualche maniera devo fare il risultato?00:57:08 Relatore 8Ma il prodotto finito di quanto?00:57:12 Relatore 13Allora invece il i test iniziali sono 50 per motivi X che possono essere mancanti sono stati scartati, ne abbiamo solo 48. I due pezzi non coincideranno mai con quelli precedenti.00:57:28 Relatore 9Allora in realtà non.00:57:32 Relatore 9Ci sono due modi per fare questo allora, innanzitutto c'è la possibilità di chiudere un cassone parziale, quindi non non chiuderlo con l'intera quantità.00:57:42 Relatore 9O in alternativa, si può startare.00:57:46 Relatore 9La la differenza. Ad oggi per fare l'overquantity esistono tre possibilità, ci sono degli e questo è un'impostazione lato SAP ci sono degli ordini che hanno quantità infinite, quindi fondamentalmente anche se la quantità nominale è 100 si può startare anche un milione.00:58:03 Relatore 9Ci sono degli ordini dove c'è una tolleranza, quindi per esempio se l'ordine nominale è 100 ma ha una tolleranza del 10% posso startare fino a 110 e quindi quel 10% serve proprio per sopperire agli eventuali scrap. Il calcolo di questo 10% è un calcolo che viene fatto dal pianificatore degli ordini, quindi si basa sulla media degli scrap per linea direi, o per processo.00:58:30 Relatore 9Oppure c'è una terza alternativa che tramite un'impostazione lato lato MES è possibile startare la quantità?00:58:39 Relatore 9Scrappata, quindi fondamentalmente ipotizziamo di nuovo una quantità nominale da 100.00:58:45 Relatore 9Ne ho scappati due. Posso arrivare a startare fino a 102. Se poi di nuovo ne scarto 5 posso arrivare a stare fino a 107, quindi tra virgolette, a valle degli Scrap. il MES mi dà la possibilità di startare la differenza scrappata.00:59:00 Relatore 9E quindi permettere all'operatore di chiudere sempre i cassoni o comunque di.00:59:06 Relatore 9Soddisfare la quantità nominale di buoni prevista.00:59:12 Relatore 2Grazie, ecco.00:59:15 Relatore 1Intendevi sull'ordine, tu potevi solo su.00:59:18 Relatore 13Noi abbiamo varie fasi, la prima fase creiamo 100 pastiglie, 100 pezzi.00:59:25 Relatore 13Poi le pastiglie vanno alla fase successiva.00:59:28 Relatore 13Ipoteticamente dovrebbero essere 100 ma per un errore di calcolo o.00:59:33 Relatore 13Né scarto, cioè si sono criccati 10 pezzi.00:59:38 Relatore 13Non posso più chiudere l'accento dopo il 90 perché sennò trascino in tutte le fasi successive la mancanza.00:59:45 Relatore 1Contenitore per cui no, solo fosse poi si riferiva.00:59:51 Relatore 13Noi però lavoriamo con no, no, certo, no, no.00:59:52 Relatore 6E voi siete.00:59:53 Relatore 9Allora io mi riferivo all'ordine, però logicamente la quantità startata nell'ordine poi si traduce in delle dichiarazioni sul contenitore OK, quindi di nuovo ipotizziamo di avere cassoni da 20 pezzi, OK?01:00:08 Relatore 9Io ho l'ordine nominale da 100 starto 100, il primo cassone lo chiudo, il secondo cassone lo chiudo, il terzo cassone l'ho chiuso, quindi ho fatto 60 pezzi, ok?01:00:19 Relatore 9Il quarto cassone.01:00:22 Relatore 9Trovo tre scrap, perché li devo buttare via OK quindi di quei 40 pezzi che mi rimangono ne ho disponibili 37 e quindi non riuscirei a chiudere tutti e due i cassoni che io mi aspetto di chiudere.01:00:36 Relatore 9Il il sistema mi permette di sopperire a quella mancanza e quindi di startare quelle la differenza di tre per poter chiudere entrambi i cassoni. Quindi comunque lo start dell'ordine dell'operazione mi permette cioè o meglio dà la possibilità all'operatore di andare sempre a chiudere dei cassoni. OK, poi è logico che potrebbe succedere dei casi in cui io magari ho raggiunto la la percentuale di di tolleranza, perché magari.01:01:04 Relatore 9Il pianificatore logicamente ha fatto un calcolo.01:01:06 Relatore 9Sulle sul passato, magari a questo giro invece di di strapparne 5 ne ho scrapati 10. È logico che ci possono essere dei casi in cui il cassone non riesco a chiuderlo per intero. Però come vi dicevo in quei casi lì il MES permette di chiudere il cassone parziale, consapevole del fatto che il cassone aveva una capacità da 20 pezzi, ma io magari l'ho chiuso a 17.01:01:28 Relatore 9Perché fondamentalmente l'ordine non mi permetteva di fare altro, quindi da un certo punto di vista lì è logico che possono esserci dei casi limite dove io non riesco a soddisfare la quantità nominale prevista dalla pianificazione. Però dovete considerare che comunque la pianificazione è strettamente legata a quanto io poi mando in magazzino, quindi è logico che se la pianificazione vede che non ho soddisfatto.01:01:54 Relatore 9Nell'ordine precedente una quantità attesa perché magari il cliente se ne aspettava 100, ma io gliene ho fatti 97.01:02:00 Relatore 9È logico che l'ordine successivo andrà a sopperire a questa mancanza.01:02:05 Relatore 9Ora di preciso la logica lato SAP io non la conosco, perché non non lo facciamo noi però di per sé dovete considerare che.01:02:14 Relatore 9L'atto MES lato operatività, quello che voi dovete garantire è cercare il più possibile di soddisfare la la quantità nominale dell'ordine perché è stata ragionata sulla base di di di ordini e costi.01:02:28 Relatore 9Poi è logico che voi potete arrivare fino a un certo punto nel momento in cui, da un certo punto di vista, avete la sfortuna di andare oltre la quantità prevista di.01:02:38 Relatore 9Scrap e quello?01:02:39 Relatore 9Non è non è colpa di nessuno, da un certo punto di vista il sistema comunque vi permette di andare avanti.01:02:46 Relatore 11Ma la musica?01:02:47 Relatore 8Che si decide di usare e deve servire.01:02:48 Relatore 13Va.01:02:52 Relatore 2Produzione.01:02:53 Relatore 9Scusa, io non ho sentito bene la domanda.01:02:56 Relatore 8Utilizzare per esempio se vuole mantenere una percentuale in più di ulteriori nel 38%, finire una percentuale di intolleranza del 10%, quindi loro possono continuare a dichiarare fino a quel 10% in più. Viene utilizzata su tutti gli ordini e vengono staccati.01:03:16 Relatore 9Allora la logica è decisa a livello di ordine, quindi a noi l'ordine può arrivare o con, come vi dicevo prima, quantità infinita.01:03:28 Relatore 9E quindi in quel caso?01:03:29 Relatore 9È un'impostazione del workcenter che ci permette di dire, posso veramente lavorare a quantità infinita o posso lavorare a quantità?01:03:41 Relatore 9Di diciamo di allineamento degli Scrub oppure SAP ci manda già l'ordine con percentuale definita e quindi noi non non abbiamo possibilità di andare oltre quella capacità definita perché sennò sappa dei problemi.01:03:56 Relatore 9Chi decide questo? Purtroppo non so dirvelo. Io credo che sia.01:04:02 Relatore 9Il il management o comunque chi? Chi decide di come fare gli ordini che decide in base all'ordine, in base alla linea, in base al processo? Come definire questi ordini?01:04:13 Relatore 8Quindi hai capito bene, questo programmatore quando staccato ogni ordine di produzione deve inserire lo speck, legge ovviamente questa variante.01:04:21 Relatore 12Prima.01:04:22 Relatore 2Perché il 10% va fissa?01:04:24 Relatore 8Su tutti gli ordini non è no, però, gli ha detto.01:04:31 Relatore 8Può essere 13, però.01:04:35 Relatore 13E la percentuale del del.01:04:38 Relatore 8Solare, ripeti messa il 5%.01:04:42 Relatore 13Sarebbe più facile. I testimoni ordini di produzione.01:04:43 Relatore 14Eh, ma siccome noi giochiamo questa cosa qui, è giusto quello che ha detto Lei, siccome non giochiamo sul 10%, che può essere il 20 che può essere il 5%, noi facciamo parecchio gioco su questa cosa, quindi bisogna stare attenti a cosa mettere.01:04:56 Relatore 8Sì, ma questa cosa chiediamo a Paolo.01:04:59 Relatore 8Cioè tipo i portamuzzi quando mi servono 50 che hanno la percentuale di scarto del 30%, comunque furono 200.01:05:08 Relatore 2I fondi 50.01:05:12 Relatore 1Loro chiama domani sì, un po'.01:05:14 Relatore 1Su, addirittura parlavi di di Senti.01:05:17 Relatore 9Eh, male se riesci ad avvicinarti un po' al microfono.01:05:22 Relatore 8Assolutamente.01:05:25 Relatore 1Indicazioni imparziali?01:05:28 Relatore 1Naturalmente le dichiarazioni parziale, il materiale rimane nella fase precedente, cioè non viene completata operazione di dichiarazione.01:05:37 Relatore 17Sì.01:05:37 Relatore 1Whatsapp adesso praticamente sono imparziali, comunque va a togliere giacenza, cioè come legittima è solamente una quantità parziale.01:05:48 Relatore 1E.01:05:48 Relatore 12Basta.01:05:50 Relatore 9Allora mettiamo, diciamo così allora.01:05:53 Relatore 9Tu la tomessa.01:05:53 Relatore 1Dai, spero ti aspetto, poi te lo chiudo proprio un genitore o no?01:05:57 Relatore 9Allora esatto, ti spiego lato MES.01:06:01 Relatore 9Per darvi un minimo di nomenclatura corretta per lato mese.01:06:05 Relatore 9Essa la dichiarazione parziale, così come la stiamo con con queste parole si identifica una dichiarazione dove io ho riempito il cassone per metà o per una sotto parte.01:06:21 Relatore 9E decido per adesso di lasciarlo lì. Questi sono i casi in cui, per esempio, sono a fine turno.01:06:27 Relatore 9Però ho prodotto, dei 24 pezzi che dovevo produrre ne ho prodotti 20, quindi ho.01:06:34 Relatore 9La.01:06:34 Relatore 9Possibilità di farne 24, ma è il mio turno, è finito. Allora faccio una dichiarazione parziale che mi stampa un'etichetta, ma non manda SAP solo il consumo di quei 20 pezzi, non dei 24. Questo mi permette di dare la possibilità al mio collega successivo di riempire quei quattro pezzi di differenza.01:06:51 Relatore 9Penso se invece torniamo al caso che facevamo prima, ossia io ho fatto troppi scrap, quindi l'ordine non mi permette più di fare nessun'altra produzione. Ho un cassone da 20 pezzi, allora quella è una dichiarazione di cassone chiuso. Quindi fondamentalmente a SAP dirò, ho un cassone da 20 pezzi.01:07:13 Relatore 9E ASAP non interessa che quel cassone ne poteva contenere 24, io ce ne ho messi 20, nessuno mi obbliga, cioè non c'è nessun obbligo da parte né del MES né di SAP.01:07:23 Relatore 9Di riempire sempre il cassone per al 100%, quindi.01:07:30 Relatore 9Non ho capito.01:07:31 Relatore 1Per cui può essere chiuso anche con 20 pezzi.01:07:34 Relatore 9Certo, sì, sì, sì, nessuno. Nessuno obbliga l'operatore di riempire al 100% il cassone. Posso decidere di riempirlo parzialmente e di mandarlo in magazzino perché non ho non non ho possibilità di andare oltre perché appunto, come dice?01:07:48 Relatore 1Io ho la possibilità o di fare 1 1 dichiarazione parziale o una dichiarazione completa in qualsiasi caso.01:07:55 Relatore 12Vabbè.01:07:55 Relatore 9Corretto, sì, sì.01:07:57 Relatore 2Perché?01:07:58 Relatore 15Sì, però è una cosa.01:08:01 Relatore 15La la dichiarazione dello scarto invece ha lato operatore e la gestione dello scarto lato sistema com'è che funziona?01:08:09 Relatore 8Ecco, poi hai sentito?01:08:10 Relatore 17Sì, sì, sì.01:08:11 Relatore 9Sì, sì, allora.01:08:14 Relatore 9Fondamentalmente.01:08:16 Relatore 9Come quello che succede è che quando tu fai una dichiarazione di allora, quando tu decidi di fare la dichiarazione di scarto, tu hai due possibilità, puoi decidere di scartarlo direttamente e fare uno scrap, oppure di metterlo in quarantena.01:08:30 Relatore 9Ora se parliamo di casting logicamente scappiamo tutto perché tanto ritorna a essere fuso, quindi da un certo punto di vista non esiste la possibilità di quarantenarlo. Cioè non è che posso fare un rework di di un ragno. OK, fondamentalmente lo lo rifondo e fine, però in negli altri casi cutting eccetera eccetera io ho la possibilità di dichiarare una quarantena. La quarantena significa fondamentalmente ho trovato un difetto.01:08:54 Relatore 9E faccio valutare all'operatore di rework o di di qualità se quel pezzo è da buttare via oppure da reworkare. Quando tu fai una dichiarazione che sia di scrappo di quarantena, \*\*\* up viene mandato comunque ai consumi perché tu comunque quel pezzo l'hai prodotto, okay?01:09:11 Relatore 9Quindi direi a SAP, io per produrre questi due pezzi di scrap ho consumato due anime, OK?01:09:20 Relatore 9Sap.01:09:21 Relatore 9Farà una movimentazione, quindi prenderà quei pezzi, li metterà in una bin di scrap o rework o quarantena e se è scrap ha una gestione interna che gestisce lo scrap, quindi se deve essere diffuso lo manda in fonderia, se invece deve essere buttato via lo metterà nel nel cestino. La parte di quarantena invece ha proprio un cassone fisico dove ci sono tutti i pezzi da valutare e quindi c'è tutta una fase lato.01:09:48 Relatore 9Chiamiamola supervisore.01:09:49 Relatore 9Supervisore di qualità che prenderà tutti i pezzi che sono stati dichiarati come quarantena farà la valutazione.01:09:56 Relatore 9E deciderà se deve andare nell'area di rework, quindi può essere riparato, oppure se deve andare direttamente nel nel nel Bean di di di Scrap oppure se banalmente l'operatore si è sbagliato, ha visto un graffio, in realtà quel graffio non non è un problema e lo riporto in in produzione.01:10:14 Relatore 9Nel momento in cui il pezzo è stato.01:10:18 Relatore 9O reworkato quindi messo a posto oppure rimesso in produzione, sap genera un ordine specifico che per gestire tutti questi pezzi che sono stati.01:10:28 Relatore 9Ti messi a posto OK? Quindi tu quando anche quando dichiari quarantena quel pezzo lì per te è stato prodotto e quindi non rientrerà più nel tuo ciclo di produzione tu l'hai già fatto e potrei andare avanti. È la linea successiva che vedrà dei pezzi magari totalmente nuovi che hai creato te dalla tua dalla tua linea oppure dei pezzi che sono stati messi a posto da dall'operatore di di rework però di per sé lato.01:10:54 Relatore 9Specifica linea, quando tu dichiari quel pezzo per te, esce dalla linea.01:10:58 Relatore 9Mia EE va in un'altro processo che a te non interessa per la tua linea specifica.01:11:04 Relatore 15E se lo scarto è semilavorato, cioè a metà del processo di produzione, interrompo la produzione di questo pezzo perché ha una difettosità?01:11:14 Relatore 15E quindi ha subito metà dell'elaborazioni.01:11:17 Relatore 9Allora?01:11:19 Relatore 17Se se per.01:11:20 Relatore 9Allora se noi parliamo di un ordine con più operazioni?01:11:25 Relatore 9E nel processo di fonderia non ce n'è. Nel possesso di friction qualcosa c'è, quindi non.01:11:29 Relatore 9So bene qual è la vostra linea di produzione, quindi parlo più in generale, io posso avere degli ordini che hanno più operazioni, quindi più step.01:11:38 Relatore 9E i più step possono essere come dicevi te io ho una prima fase di lavorazione e una seconda fase di lavorazione. La prima si parlava per esempio delle pastiglie, noi abbiamo tutta la parte di holding e poi andiamo nel e Treatment giusto? In quel caso lì la gestione è fatta da due operazioni diverse, tutta la parte di di pressatura e poi la parte di lavorazione nel nel forno.01:12:01 Relatore 9In quel caso lì, quando io.01:12:04 Relatore 9Ho a metà della fase una difettosità. Io comunque dichiaro uno scrap del materiale finito. Perché? Perché?01:12:13 Relatore 9Tutti i materiali di consumo sono in prima fase OK, quindi gli ordini sono già stati.01:12:20 Relatore 9Organizzati in modo che tutti i materiali di consumo siano sempre nelle prime fasi. Perché comunque la dichiarazione di scrap anche a metà di un di una.01:12:30 Relatore 9Di di un processo mi butta via del materiale.01:12:34 Relatore 9Che io ho già utilizzato per fare, per per farlo, quel pezzo.01:12:37 Relatore 9Hai però anche la possibilità invece di buttare via un materiale di consumo, quindi banalmente.01:12:44 Relatore 9Sei al casting hai prodotto un ragno, arrivi al cutting e ti accorgi che quel ragno ha una difettosità, quindi prima di di iniziare a fare la fase di cutting, quindi prima di iniziare a tagliarlo, dichiari che quel pezzo che ti è arrivato dalla linea precedente tu non lo puoi usare.01:13:02 Relatore 9Allora questa è una dichiarazione di scarto, non del prodotto finito, ma del prodotto di consumo.01:13:08 Relatore 9OK, quindi il prodotto di consumo che ti è arrivato dall'altra linea non è utilizzabile, tu lo dichiari già come scarto, quello ha lo stesso processo di movimentazione, quindi anche quello tornerà a far parte del tornerà nel Bean di Scrappo, nel Bean di di quarantena e verrà.01:13:26 Relatore 9Seguirà lo stesso processo. Però mio Consiglio, vi Consiglio adesso di finire la parte teorica, così tutte queste cose ve le faccio vedere nella parte pratica che sono un po' più visibili a vista perché farvele adesso nella parte teorica senza avere nulla davanti.01:13:41 Relatore 9Credo che per voi sia molto complicato seguire quello che sto dicendo, quindi?01:13:46 Relatore 9Capisco le le domande, capisco l'interesse, spero più o meno di avere risposto a tutto, però secondo me conviene vederlo direttamente sul sistema, così capite anche gli step di processo.01:14:00 Relatore 8OK.01:14:03 Relatore 8Chiudiamo con la fase della gestione del del gruppo di lavoro.01:14:10 Relatore 8Durante il processo espulsivo, l'operatore.01:14:15 Relatore 8Funziona il proprio call center, quindi?01:14:19 Relatore 8Stazione di lavoro.01:14:22 Relatore 8E si ritrova ad avere la lista uno ha più ordini.01:14:28 Relatore 8Seguire.01:14:30 Relatore 8Prima di iniziare, però, l'attività.01:14:33 Relatore 8È necessario per l'ordine sia associato gruppo utente a parte del gruppo di lavoro o con. Poi lo vedremo sempre nella parte pratica abbiamo proprio un'interfaccia.01:14:48 Relatore 8Icona, consente di inserire.01:14:52 Relatore 8L'operatore che dovrà no o degli operatori che dovranno lavorare?01:14:58 Relatore 8In quella stazione di lavoro.01:15:00 Relatore 8Quindi.01:15:03 Relatore 8Seguita questa attività di.01:15:07 Relatore 8Operatore che fa parte del gruppo di lavoro.01:15:12 Relatore 8Possibile farlo anche in tempo reale.01:15:15 Relatore 8Ci siamo accorti che in quella stazione di lavoro abbiamo.01:15:21 Relatore 8Indicato due operatori, in realtà ci sono due terzo.01:15:24 Relatore 8Il terzo operatore doveva doveva far parte del gruppo, c'è una c'è la possibilità di farlo in tempo reale.01:15:32 Relatore 8Te devi sempre utilizzando il tasto, il bottone, l'icona che che poi vedremo fase pratica.01:15:40 Relatore 8La lezione pratica.01:15:43 Relatore 8È possibile aggiungere il terzo operatore degli operatori necessari che avevamo magari qualche motivo dimenticato di unire al gruppo?01:15:55 Relatore 8Un membro del del team del gruppo.01:15:59 Relatore 8Possia avviare l'operazione.01:16:03 Relatore 8Che mettere in.01:16:04 Relatore 8Parte la preparazione e lo porta intero.01:16:07 Relatore 2Gruppo in seguito.01:16:10 Relatore 8Nell'associato all'operazione all'ordine stesso.01:16:15 Relatore 8Al termine dell'attività.01:16:18 Relatore 8Ipotizziamo di essere a fine turno.01:16:20 Relatore 8L'operatore può lasciare il.01:16:24 Relatore 8Il team.01:16:26 Relatore 8Non erro, Jacopo.01:16:27 Relatore 12Per me.01:16:31 Relatore 8E quindi se Dimmi se se se non erro ci dovrebbe essere l'attività automatica, l'operatore si dimentica.01:16:39 Relatore 8Di lasciare il gruppo, c'è il sistema che capisce l'orario, interpreta l'orario di fine turno e toglie l'operatore, stacca l'operatore.01:16:48 Relatore 9Sì, in pratica, in pratica.01:16:50 Relatore 8Vabbè, dopo.01:16:51 Relatore 9Ad ad oggi in Italia non c'è, non è ancora attiva, ma si attiverà a breve.01:16:55 Relatore 9Tutta la parte di calendario gestita da un'altro sistema che si chiama DPM che gestisce tutta la parte di appunto turnistica eccetera. Nel momento in cui il turno finisce mando un segnale al MES il quale fa un logout di tutti gli operatori. OK quindi fondamentalmente anche se uno si dimentica a fine turno di uscire, è il sistema stesso che lo lo mette fuori senza senza problemi.01:17:18 Relatore 8È proprio le facevano scattare del termine.01:17:20 Relatore 2Che che.01:17:21 Relatore 14Dicono a noi, non è che.01:17:23 Relatore 1Più avanti, al termine del \*\*\*\*, l'operatore, perché attualmente i formelli non avviene, deve comunque fare una dichiarazione parziale.01:17:32 Relatore 9Allora?01:17:33 Relatore 9Questo.01:17:34 Relatore 9Credo sia un processo Brembo, quindi credo di sì, nel senso che ad oggi non a quanto per la qualità non possono rimanere dei cassoni senza senza etichetta OK?01:17:47 Relatore 12No.01:17:48 Relatore 9Quindi credo questo però vi consiglio di chiederlo comunque AA al Management, soprattutto alla parte qualità perché?01:17:57 Relatore 1Connetti, Connetti Vabbè cos'è connetterlo Connect no l'operatore si droga vai ai contenitori che che ha sul turno.01:18:06 Relatore 1Tutto, sempre quello che arrivava nel futuro successivo.01:18:10 Relatore 4Però stampa un parziale.01:18:12 Relatore 1Come già lo stanno, esistono Corno.01:18:13 Relatore 14Esiste un colpo sì.01:18:16 Relatore 7Per tutte le domande che riguardano il processo di business, magari Samantha.01:18:21 Relatore 7Non so se devo collezionare dopo che ne parliamo in una sessione diversa.01:18:27 Relatore 9Mettiamola così, io non posso dirvi se farlo o non farlo, perché non è un processo che che.01:18:33 Relatore 17C'è se se.01:18:33 Relatore 9Sentiamo il business, sicuramente vi dirà di sì. Però diciamo che poi il processo come verrà definito, cioè il processo deve rimanere lo stesso, non è che cambiamo il processo, il sistema permette di farlo poi a discrezione secondo me di processo e processo se farlo o meno.01:18:51 Relatore 9Non ho le le facoltà di darvi questa risposta, purtroppo.01:18:57 Relatore 7No, ma infatti no.01:18:59 Relatore 7Samantha gli ha dato anche indicazioni quel sulle domande che riguardano il processo di business.01:19:04 Relatore 7Poi le le gestiamo a parte, cioè noi ci bastiamo più sulla parte del meteo.01:19:09 Relatore 1La signora Rendi comodo dal punto di vista di.01:19:12 Relatore 1Devi perdere, sai, abbiamo anche un punto.01:19:15 Relatore 2Leggi mi contesto qui, così si ferma lì.01:19:32 Relatore 1Perché se se uno fa ride per dichiarazione parziale?01:19:38 Relatore 1Animale cicli, cioè?01:19:41 Relatore 1E mi lascia lì. Poi continua l'altra funzione.01:19:45 Relatore 1Va bene, salviamo i ragazzi, portiamo via.01:19:46 Relatore 14Ecco, potremmo.01:19:47 Relatore 14Possiamo fare virtualmente, se loro vogliono il paziente significa che rimane lì, sulla macchina arriva quello del secondo, se lo apre di nuovo.01:19:51 Relatore 1Hai trovato?01:19:55 Relatore 1Vorrei che quello tirassi che quello che arriva devi riaprire.01:20:00 Relatore 14E vabbè, farò.01:20:01 Relatore 1Ok, 5 macchine, 5 Aprile, 5 parziali con tutte le fine del mattino, non solo negli anni eccetera ciò.01:20:03 Relatore 2Certo che tutte.01:20:08 Relatore 2Ci rimane 1 20 sul tuo titolo.01:20:11 Relatore 13Voglio no facciamo così, se noi arriviamo dobbiamo aprire II sei parziali per una macchina.01:20:18 Relatore 14Eh, lo so, ma per noi non c'è facile così nel.01:20:20 Relatore 13Senso che la mia domanda era, se in automatico viene buttato fuori l'operatore perché si è dimenticato di uscire e quindi ha dimenticato anche di chiudere la produzione?01:20:33 Relatore 15A forzarla e chiudere la produzione o rimane questa produzione senza operatori lavori in in lavoro? Metterò in automatico il parziale penso no.01:20:42 Relatore 9No, no, no, no. Allora il.01:20:44 Relatore 2AX ti.01:20:46 Relatore 13Blocca, ti lascio nel limbo.01:20:48 Relatore 14E vado per succedere a noi adesso.01:20:50 Relatore 7Vi lascio uscire.01:20:51 Relatore 2No, non.01:20:51 Relatore 14Ti lascio uscire, giusto? Non ti lasciano uscire.01:20:54 Relatore 13Se mi dimentico non c'è in automatico che mi butta fuori col DPM.01:21:00 Relatore 15Si può forzare allora? Sì, però devo forzare anche la la chiusura della produzione.01:21:05 Relatore 13A noi l'operatore anche se non fa la manutenzione di un primo livello, non riesce a uscire dal sistema.01:21:13 Relatore 1Sì, sì, no.01:21:15 Relatore 13Tutta, leggermente, tutto.01:21:16 Relatore 1Grazie 1000 per questa cosa.01:21:16 Relatore 13Questo.01:21:18 Relatore 14Che sono importanti, almeno faccio mai ricordo.01:21:21 Relatore 9Allora diciamo che ad oggi il cambio turno prevede solo la rimozione dell'utente dal gruppo. La produzione rimane esattamente come come era prima del cambio turno, quindi non.01:21:35 Relatore 9Non viene, non non viene toccata la produzione, ma da un certo punto di vista non si possono fare altre operazioni, nel senso che se poi l'operatore prova a fare qualcos'altro, sistema ti ferma e ti dice no, non c'è nessuno nel gruppo, non si può andare avanti.01:21:49 Relatore 9OK, quindi fondamentalmente.01:21:52 Relatore 9Non fa nessun cambio alla produzione, quindi rimane. Rimane esattamente uno screenshot di quello che che è successo fino al momento del cambia turno e tutte le operazioni successive. Deve essere fatto almeno con un login, quindi fondamentalmente se l'operatore ha finito il turno ma vuole fare l'ultima dichiarazione, basta che si rilogga a fare la dichiarazione.01:22:11 Relatore 9E poi se ne va.01:22:12 Relatore 9Senza.01:22:12 Relatore 12Premi.01:22:13OK.01:22:16 Relatore 9Non il cambio turno non ha impatti sulla produzione, perché?01:22:21 Relatore 9Questa logica era già stata decisa anche a livello di ostrova, perché c'è il rischio da un certo punto di vista, che se il fine turno mi fa una pausa di un'operazione o da un certo punto di vista mi impedisce di fare.01:22:35 Relatore 91 1 determinato una determinata azione c'è il rischio che poi io non riesco a capire che cosa è successo perché magari non mi sono accorto che era erano le era 12:00 è finito il mio turno devo andare e però non mi funziona niente quindi tra virgolette cioè c'è il panico quindi in quel caso l'operazione che si sta eseguendo in quel momento può finire ma tutte le operazioni successive quindi START, pause e cose varie vengono bloccate perché di perché il il sistema si aspetta almeno un operatore loggato.01:23:06 Relatore 9Questo è come ad oggi, poi potrebbe essere diverso rispetto a quello che avete che avete su AX.01:23:13 Relatore 9Di nuovo, secondo me è parte delle domande che si può fare lato lato business per capire come è stato pensato il processo ad oggi.01:23:25 Relatore 8Ok, io farei una pausa di 10 minuti prima di iniziare con l'altro bollo.01:23:34 Relatore 2Perfetto.01:23:36 Relatore 4Puoi.01:23:37 Relatore 12Puoi sì.01:23:48 Relatore 14Io devo.01:23:49 Relatore 10Perché Sergio spiel?01:23:53 Relatore 2Aspettami che capisco, no, mi fa mi pare quella una classe.01:24:04 Relatore 13E a cercare la produzione delle persone.01:24:11 Relatore 2E io penso al mio cavo, grazie.01:24:16 Relatore 2Distrugge, sento la si è sentito.01:24:19 Relatore 6Io sono usciro.01:46:04 Relatore 2Sì, dopo ti ho appena preso.01:46:10 Relatore 2Mandami, l'orario pranzo.01:46:21 Relatore 2Lo ripeti?01:46:28 Relatore 2No, devo anche aprirlo, sposarti.01:46:41 Relatore 13Tutti lo lascar, poi la foto che l'ho lasciato 16 minuti.01:46:48 Relatore 8Fino a che?01:46:49 Relatore 2Punto, prendi l'aereo.01:46:51 Relatore 12No.01:46:56 Relatore 12Mi scusi, come guideranno? Ok?01:47:05 Relatore 1Proprio il prrobert.br Cobert e richiesta bene chi gioca in.01:47:09 Relatore 6Riga da green.01:47:11 Relatore 212 libri belli.01:47:13 Relatore 2Buongiorno, sono.01:47:23 Relatore 7Claudia.01:47:25 Relatore 7Aspetti, ti piaccio? Accedi.01:47:28 Relatore 2Senti.01:47:29 Relatore 7Non al DSB poi, perché qua vediamo, la rimetto oggi.01:47:33 Relatore 8No, Eh sì Nicola, sì, ce l'ho.01:47:38 Relatore 8Il bello, l'ultimo appello.01:47:41 Relatore 7È il link, quello sì, repetitive, mapello dovreste averle nelle nelle slide.01:47:59 Relatore 8Ecco qua.01:48:01 Relatore 8Calmo.01:48:03 Relatore 12Ah.01:48:05 Relatore 2Faccio segmento.01:48:09 Relatore 2Sono qui con le cose.01:48:10 Relatore 8Sono tutto dei lavori standby.01:48:12 Relatore 7Sono quelli che sono, però serve sempre l'utente ci sono.01:48:15 Relatore 2Sì.01:48:19 Relatore 8Così abbiamo, vediamo se.01:48:26 Relatore 7No, forse ancora non accedo.01:48:30 Relatore 8Allora mamma?01:48:34 Relatore 8No, si collega nessuno.01:48:37 Relatore 8Grazie ci siamo, qui siamo la parte della.01:48:45 Relatore 7Sì, li posso trovare. Se andiamo a preparare anche i sondaggi c'è già la dovreste conoscere la password. La conoscete.01:48:55 Relatore 12Per.01:48:56 Relatore 2Non è così?01:49:00 Relatore 2T'ho finito, sennò si riusciamo a prendere un po' degli occhi.01:49:04 Relatore 14Reati.01:49:05 Relatore 2Ti canto le gambe.01:49:07 Relatore 12Tanti ginocchio e tanto c'è scritto.01:49:13 Relatore 2Cambia.01:49:16 Relatore 2Perfetto, sono sabbia, partiamo in circolo, nessuno, nessuno ci fa baciare.01:49:30 Relatore 2È più normale di cui si diventa.01:49:32 Relatore 2Sì, una pistola. Una pistola. La pistola è ancora bella.01:49:36 Relatore 2Perché sono stanno, un po' perché questo.01:49:39 Relatore 12No.01:49:44 Relatore 13Sì, la devi smettere.01:49:49 Relatore 2C'è rotto la Microsoft.01:49:49 Relatore 7E devi accederci.01:49:50 Relatore 7Con quelli potenziali sulla rotellina per il film.01:49:53 Relatore 2Hai visto la rete?01:49:56 Relatore 2Se tu dici si svolge un attimo anche.01:50:00 Relatore 7Quello del sei dell'altri premier?01:50:07 Relatore 2Sì, per me.01:50:10 Relatore 2Sì, sì, scriveva.01:50:13 Relatore 2Insieme, certo, per l'approvazione del caffè, ma dobbiamo arrivare.01:50:22 Relatore 2Le faccio.01:50:25 Relatore 2Io pensavo che.01:50:28 Relatore 2Capisci un po' più sì, sì, certo.01:50:39 Relatore 2Il problema è.01:50:44 Relatore 2No, comunque mi pare di aver capito che c'è tutto. Chiede alluminio tutto.01:50:50 Relatore 7Sì, sì e poi andiamo.01:50:51 Relatore 2Questo.01:50:55 Relatore 2A shocking.01:50:59 Relatore 2Dopo lavoro.01:51:03 Relatore 2Vedrai sapere la sbaglia sicura a sparare sì, sì, no è un errore. Cioè il problema è che dopodiché lascia andare, senti quello il problema, almeno se tu sbagli a spararmi dici no, lo porta davanti, invece tu fai tutto il giro invece è bloccato già all'inizio quello progetto, perché non ti ho mandato in giro?01:51:23 Relatore 2Ecco, Fammi vedere dentro.01:51:31 Relatore 2Oh, mi ha preso un po', s'è messa male Francesco.01:51:36 Relatore 2Come si chiama?01:51:44 Relatore 2Costruzione politico? No, no, per andare lui.01:51:44 Relatore 1Però.01:51:47 Relatore 2Aspetta, adesso devo prendere diventerà.01:51:48 Relatore 3Provare invece che colorazione provi.01:51:52 Relatore 2Quello là e quelli che ho capito è tutta l'acquario.01:51:56 Relatore 6Non mettilo facile.01:51:58 Relatore 12Ah.01:52:00 Relatore 2Benissimo, neanche io acceso.01:52:03 Relatore 2Grazie.01:52:04 Relatore 2Non abbiamo impostato quelli che non sappiamo.01:52:07 Relatore 2La prima volta che vedo niente, no?01:52:09 Relatore 2Di solito si non lo scrive.01:52:10Ma lui ci vuole il solare lascialo.01:52:12 Relatore 2Prima di chiedere la roba parecchio.01:52:14 Relatore 2Vicino a Valerio.01:52:21 Relatore 2A kozanky anch'io anch'io.01:52:24 Relatore 2Ci sta bene?01:52:28 Relatore 10Aspetta.01:52:31 Relatore 12Che.01:52:32 Relatore 2Mi metto vicino a tua simuela.01:52:34 Relatore 2Va bene?01:52:37 Relatore 2Ah, libro.01:52:49 Relatore 8Niente, sì, non lo so.01:52:52 Relatore 2Poi dopo mangiato.01:52:57 Relatore 2Io arrivo, arrivo.01:53:00 Relatore 1Quanto tu vai. No, no, non.01:53:02 Relatore 1Ci sentiamo, possiamo dichiarare.01:53:04 Relatore 2Possiamo dichiarare non stai male per imbarazzo?01:53:09 Relatore 2Sto vicino al mio.01:53:13 Relatore 8Partigiani.01:53:15 Relatore 2Per forza volevamo guardare qua, dobbiamo guardare qua se.01:53:20 Relatore 1Un.01:53:23 Relatore 12Roberto.01:53:24 Relatore 13Nostro collega dei problemi serio questo.01:53:27 Relatore 1Cosa?01:53:29 Relatore 2Ha fatto?01:53:35 Relatore 2Sto.01:53:35 Relatore 2Hotel puoi sentire?01:53:39 Relatore 2Mi scrivi?01:53:46 Relatore 2Succede.01:53:52 Relatore 2Filippo, Oh, basta, subito verde.01:53:56 Relatore 8Le percepisce?01:54:00 Relatore 8Allora il sito qua e poi l'hai fatto, OK?01:54:01 Relatore 2Sì, sì alle stelle.01:54:07 Relatore 8Speriamo velocemente andiamo direttamente ripetitive sull'area interfaccia operatore.01:54:16 Relatore 2PDF.01:54:18 Relatore 8All'interno dell'interfaccia vedremo l'addio, lo staff, il dottore in alto a destra per attivare l'operazione, il consumo dei materiali vedremo poi la bomba e la lista dei materiali da consumare.01:54:34 Relatore 8La gestione degli scalfi, il completamento.01:54:37 Relatore 8Del passaggio vedremo proprio la parte diciamo dei container.01:54:43 Relatore 2E la e l'altra?01:54:49 Relatore 8Allora questa è l'interfaccia, adesso vedremo proprio direttamente.01:55:02 Relatore 8Sulla sul link prendo tre ripetitive, questa è la pagina iniziale, vediamo.01:55:10 Relatore 8Nell'immediato.01:55:12 Relatore 8E cosa succede? Che cosa vedremo qui? Vedremo sicuramente.01:55:18 Relatore 8Pisa Call center. In questo caso abbiamo più. Quale motivo perché la mia macchina no l'annalisa in questo momento?01:55:28 Relatore 8Non è associata a nessun Works, quindi avremo i Work center, la lista dei worksen, l'operatore deve selezionare la lista.01:55:36 Relatore 8I work center pro.01:55:39 Relatore 8E il terminale Annalisa.01:55:43 Relatore 8Ha più work center collegati vedrò i miei call center OK se in realtà io 1 1 solo col worksenter Annalisa può.01:55:54 Relatore 8Utilizzare worksen X OK.01:55:57 Relatore 8Questa parte è bypassata, andiamo direttamente sulla lista del degli ordini, OK?01:56:04 Relatore 8Velocementepoientriamodiciamonel.tv.01:56:09 Relatore 8Questo è l'ordine.01:56:12 Relatore 8La lista degli ordini da uno ad Enne orfini, OK.01:56:17 Relatore 8Vedremo poi sopra i vari filtri, molto appena entriamo nella fase.01:56:24 Relatore 8Dimostrativa.01:56:26 Relatore 7Prego.01:56:29 Relatore 1Se io faccio parte di un punto mi trovo solo i miei, ho trovato troppo.01:56:33 Relatore 4Cioè dai.01:56:34 Relatore 11Così.01:56:35 Relatore 8Il il gruppo è associato all'ordine.01:56:39 Relatore 8All'ordine il gruppo associato all'ordine.01:56:43 Relatore 3Gruppo di persone luittente.01:56:46 Relatore 17No, aspetta, aspetta.01:56:48 Relatore 9Allora il il il workcenter è legato a 1 1 o più terminali, in generale uno. Quello che può succedere è che c'è uno stesso terminale che fa riferimento a più work center.01:57:04 Relatore 9E quindi fondamentalmente, quando voi accedete al terminale vedete solo il Work center che fa riferimento a quel.01:57:12 Relatore 9Finale se invece un terminale è legato a un solo work center, tutta la parte di selezione del work center non verrà fatta, verrete automaticamente indirizzati alla landing page dove dovete scegliere l'ordine da selezionare.01:57:27 Relatore 8Il capitale che tu sei?01:57:29 Relatore 1Offerto.01:57:31 Relatore 8Perfetto, poi vedremo esattamente.01:57:33 Relatore 2Ce ne sono anche adesso c'ha.01:57:36 Relatore 8Come è strutturata l'ordine?01:57:39 Relatore 8Lo lo ribadisco, lo vedremo a breve.01:57:43 Relatore 8Questa iconcina qua.01:57:44 Relatore 8Se la vediamo verde è un ordine nuovo.01:57:49 Relatore 8Ce la dobbiamo con un cioè, poi poi vedremo le tre fasi.01:57:54 Relatore 8Presidente dell'opera in pausa e invece ce la vediamo attiva, c'è un'opportunità in esecuzione. Queste sono le informazioni che vedremo nell'ordine.01:58:03 Relatore 8La quantità?01:58:05 Relatore 8La quantità da.01:58:07 Relatore 8Produrre la quantità.01:58:10 Relatore 8Prodotta in Progress.01:58:13 Relatore 8E qui la quantità.01:58:16 Relatore 8O mettiamo per esempio che lo vedremo, che poi invece la quantità è completata il codice del work order?01:58:24 Relatore 7Ok adesso.01:58:25 Relatore 8Il prodotto finale?01:58:28 Relatore 7No, giusto una.01:58:31 Relatore 7Gli abbiamo dato accesso al sistema, però poi lo adesso è solo in esplorazione. OK adesso e poi insieme ad Annalisa vediamo dove andare, come cliccare su quale, quali sono i punti.01:58:45 Relatore 7Perché altrimenti è chiaramente così, sembra che le cose non funzionano, ovviamente.01:58:49 Relatore 7Però invece non è nient'altro che sapere che qual è.01:58:52 Relatore 2La sezione.01:58:54 Relatore 8Ok, entreremo nello statistico, quindi nella soluzione.01:58:59 Relatore 8E i tanti fratelli Con Pietro, l'associazione aziendale.01:59:04 Relatore 8Questo è il trattino che consentirà di aggiungere gli operatori all'elenco di lavoro.01:59:12 Relatore 8Adesso lo vediamo, se no qual è anche.01:59:16 Relatore 13Ok.01:59:19 Relatore 8Un \*\*\*\*\*\*\*\*\*, c'è una confort?01:59:23 Relatore 8Sai qualcosa dice Pauli, qualcosa tipo quando iniziavo l'operazione discendiamo lo scout.01:59:26 Relatore 2Sì, sì, sì.01:59:31 Relatore 8Possiamo inserire la quantità?01:59:35 Relatore 8L'ecografia dell'ordine nel senso dell'ordine ho una quantità inferiore. Ah, scusami precedente hai parlato di tre di quantità.01:59:45 Relatore 8Allora vedo che ci sono dei successo, 5 quantità diverse, vi lascio vicino quindi lo zero e la quantità di implica? Sì, adesso quella parte di poste non è proprio quella. Magari quando entriamo vediamo nello specifico, la prima è la quantità pianificata.02:00:04 Relatore 8Approfittamento zero sì.02:00:09 Relatore 8Sistemare decisamente la slide, poi la quantità prodotta e la quantità completata. Vedremo che allo Stato se noi mettiamo ipotizziamo di avere il 100 come quantità finale allo staff decidiamo.02:00:22 Relatore 8Di mettere 10, cioè?02:00:24 Relatore 8Vedremo il decremento, 90 e 10 nella prima parte, in quella pianificata due e 90 nella seconda, quella esattamente.02:00:31 Relatore 2Sì, anche non di più, per magari prendo l'offerta.02:00:34 Relatore 8Di ecogress.02:00:35 Relatore 7È sbagliato?02:00:37Annulla.02:00:41 Relatore 2Posso fare domani?02:00:43 Relatore 2Face.02:00:44 Relatore 10Il capo tour aggiungevano il mezzo Riccione.02:00:47 Relatore 10Porti 10 meno OK ma più dal box li aggiungo tutti impostazioni per postazione devo spostarmi a raggiungere gli operatori.02:00:59 Relatore 8Chiudere.02:01:00 Relatore 1O quello che.02:01:00 Relatore 10Ci scappa il turno, aggiungevano letto, i membri presenti.02:01:01 Relatore 2Prima che c'era una sessione attività.02:01:04 Relatore 10Il suo inizio turno dopo di seguire.02:01:05 Relatore 2Anche.02:01:05 Relatore 10I recuperatori dal dal mio portatile.02:01:08 Relatore 10Del mio PC.02:01:10 Relatore 8Non è così. Per definire meglio sentiamo un attimo Jacopo. Hai sentito Jacopo? La domanda?02:01:12 Relatore 4È più Ricci Domenico.02:01:17 Relatore 9No, potete ripetermi, scusate che non c'è un.02:01:19 Relatore 17Po' di rumore?02:01:19 Relatore 1Chiedeva se è il.02:01:20 Relatore 4Capoturno a dover fare la l'aggiunta dei membri a, cioè deve farlo su tutte le linee lui all'inizio del turno o lo deve fare postazione per postazione.02:01:31 Relatore 9Allora deve essere fatto postazione per postazione, ma lo devono fare gli operatori stessi.02:01:37 Relatore 9Il sistema adesso vi faremo vedere prevede anche la lettura del barcode, quindi basta semplicemente che loro vadano sul sistema e tramite barcode loro tra virgolette.02:01:50 Relatore 9Scansioni nel loro badge automaticamente avvengono inseriti.02:01:54 Relatore 4Cioè è corretto che venga fatto postazione per postazione, ma secondo me è sbagliato che è.02:01:59 Relatore 4Il capo turno aggiungerlo.02:02:01 Relatore 2E l'operazione spesso che aggiunge.02:02:03 Relatore 9Deve deve essere fatto postazione per postazione per il fatto che la visto che la postazione di per sé ha un utente legato alla postazione, quindi di per sé non è 1 1 utente per singolo user, ma è un utente generico per postazioni.02:02:18 Relatore 9Bene, serve che la postazione sappia quali sono gli utenti che in quel momento sta lavorando su quella postazione. Poi è logico che ci potranno essere utenti che lavorano su più postazioni, però serve sapere quale utente lavora e su quale postazione perché poi in quel modo è possibile anche gestire tutta la parte di non product activities o comunque tutta la parte di.02:02:41 Relatore 9Tracciamento delle operazioni che sono state eseguite su workcenter.02:02:46 Relatore 13Scusa un attimo, non ho capito bene una cosa. Quindi operatore può essere loggato su più impianti?02:02:54 Relatore 13Perché adesso noi abbiamo i fitti sì, per compensare le macchine dove non c'è l'operatore.02:03:00 Relatore 13Quindi abbiamo dei fichetti.02:03:04 Relatore 9Allora ad oggi la il terminale del workcenter ha un utente di terminale, quindi il Work Center Googc l 141 avrà l'utente goog l 141.02:03:17 Relatore 9Il gruppo è semplicemente serve solo per associare quel work center a degli operatori, il fatto che possono esistere degli utenti che.02:03:28 Relatore 9Possano lavorare su più macchine, permette quindi di poter loggarsi al gruppo su macchine diverse.02:03:34 Relatore 9È logico che.02:03:38 Relatore 9È buona prassi se io adesso sto lavorando sulla 141 e poi mi devo spostare sulla 142, sulla 141 non ci lavoro più.02:03:47 Relatore 9Slogarsi.02:03:48 Relatore 9Però di per sé l'importante è che si sia loggati, perché in quel caso almeno verrà fatta la tracciatura della del lavoro.02:03:57 Relatore 12OK.02:04:02 Relatore 8Entriamo nel destro dell'applicazione.02:04:07 Relatore 8Chiara situazione.02:04:10 Relatore 8Un attimo che mi apro.02:04:12 Relatore 8Apertura del del Brembo.02:04:15 Relatore 9Sì, se vuoi ce l'ho già aperta io, Annalisa così.02:04:21 Relatore 9Se, se preferisci posso posso lasciare io, Dimmi te.02:04:25 Relatore 8Sì, sì.02:04:26 Relatore 12Ok, OK.02:04:28 Relatore 12Grazie.02:04:29 Relatore 9OK, allora?02:04:32 Relatore 8Un secondo perdonami, ma devo ridere.02:04:35 Relatore 8Conosci.02:04:36 Relatore 9Ah, OK, scusami.02:04:39 Relatore 8Vai pure grazie.02:04:41 Relatore 9OK, io per adesso ho preso 1 1 workcenter di casting OK? Diciamo che più o meno le operazioni che adesso vi farò vedere sono standard per tutte.02:04:56 Relatore 9Per tutti i processi.02:04:59 Relatore 9Se tratto qualcosa di specifico processo ve lo ve lo faccio notare, però in generale prendete questo esempio come più o meno lo standard, poi se faccio un qualcosa di specifico o se altri processi hanno qualcosa di diverso, ve lo faccio, ve lo ve lo esplicito direttamente.02:05:13 Relatore 9Allora come come diceva Annalisa, adesso io sto simulando come se fossi davanti al terminale della guvc l 231 OK, quindi come vedete appena io ho fatto l'accesso automaticamente il sistema mi ha indirizzato direttamente sulla pagina perché sto simulando il fatto che il Workcenter è legato a un suo cioè o meglio il terminale è legato a un solo, a un solo work center e quindi io vedo.02:05:39 Relatore 9Vedo solo questo. OK. Poi logicamente ci possono essere anche terminali tipo terminali fuori linea che potranno essere legati a tutti i work center, oppure solo un gruppo di work center. Il sistema permette di fare qualunque tipo di configurazione.02:05:54 Relatore 12OK.02:05:56 Relatore 9Allora qua come vedete io ho tutti gli ordini che sono attualmente presenti sul sistema.02:06:02 Relatore 9Qua viene indicato la quantità per ogni per ogni ordine, il numero dell'ordine, il materiale che sta andando a produrre in questo caso mi sembrano tutti uguali, stesso materiale e la descrizione del materiale. OK come vedete io qua ho alcuni pulsanti e in particolare ho il gruppo OK nel gruppo qua come vedete in questo momento non ho nessuno. Questa è la dropdown che vi facevo.02:06:27 Relatore 9Dicevo prima, dove l'operatore può tranquillamente?02:06:29 Relatore 9Scansionare il tuo badge.02:06:31 Relatore 9Ad oggi quello che vedete sono direttamente i nomi, perché per siamo in un ambiente di quality, quindi non abbiamo non sono stati mappati in Active directory i badge direttamente, però nel momento in cui voi nel momento in cui saremo in produzione verranno mappati gli utenti come identificatore del badge e quindi nel momento in cui loro scansionano qua, il sistema automaticamente selezionerà il loro utente in automatico, quindi o in automatico scansiona e viene aggiunto.02:07:00 Relatore 9Ok, quindi loro dovranno solo beggiarsi, fondamentalmente come se se facessero il labeggiata a inizio turno.02:07:07Okay.02:07:11 Relatore 9Ipotizziamo 111 situazione standard, quindi nel casting non è proprio così. Però negli altri, negli altri, negli altri processi quello che succederà è che io sono davanti alla linea e quindi ho la necessità di fare una chiamata materiale, la prima chiamata materiale, perché io da un certo punto di vista sul inizio linea.02:07:35 Relatore 9Non ho non ho ancora materiale.02:07:36 Relatore 9E quindi io posso cliccare.02:07:38 Relatore 9Aspetta, in questo caso non ho, non ho.02:07:40 Relatore 1Scusate il tastino, le anime le chiamiamo anche noi.02:07:44 Relatore 9Ah, nel casting. È vero, è vero, scusate, chiamate le anime. Quindi fondamentalmente ipotizziamo che io sto scartando questo, questa ordine.02:07:56 Relatore 9Ah OK, in questo caso manca la configurazione delle anime.02:08:01 Relatore 9Fatemi fatemi usare un'altro work center perché questo qua non è stato configurato.02:08:07Lato.02:08:12 Relatore 12Accendi, non accendi proprio tu.02:08:13 Relatore 8Pa.02:08:15 Relatore 9Quindi andiamo torniamo al caso. OK, sono qua, devo iniziare un mio ordine, faccio la la stage in coda come vedete io ad oggi adesso non ho selezionato nessun ordine, quindi il sistema mi presenta davanti tutti i materiali che potenzialmente posso andare a chiamare. Se poi seleziono un determinato ordine il sistema mi dice per quell'ordine.02:08:36 Relatore 9Quanto effettivamente ci aspettiamo di avere per quell'ordine?02:08:40 Relatore 9Eh, e quanto effettivamente abbiamo?02:08:41 Relatore 8Proprio scusami Jacopo, Perdonami, adesso andiamo un pochettino con con calma perché bisogna individuare bene gli aspetti, OK?02:08:47 Relatore 9Ok, OK, OK, OK.02:08:51 Relatore 9Torniamo indietro. Allora sono arrivato sulla, sulla mia, sulla mia stazione. Devo iniziare a fare una produzione. Vedo che.02:08:59 Relatore 9Ha inizio linea non ho nessun materiale OKE quindi devo fare la first stage in call OK quindi fare la prima chiamata materiale.02:09:09 Relatore 9Se io so già qual è il mio ordine che devo produrre, io posso cliccare l'ordine e automaticamente il sistema mi prefiltra l'ordine che voglio che devo, cioè il materiale che devo.02:09:22 Relatore 9Chiamare se invece.02:09:23 Relatore 8Anzi, vogliamo, cioè scusami, scusami se non mi avrebbe fatto.02:09:28 Relatore 8Deve scegliere.02:09:31 Relatore 9Allora?02:09:33 Relatore 9Lo allora voi adesso vedete tanti, tanti, tanti ordini perché siamo in un ambiente di dove ce ne abbiamo messi tanti.02:09:40 Relatore 9Quando ci sarà la produzione mi aspetto che gli ordini saranno molto, molto meno.02:09:46 Relatore 9Quale ordine startare di preciso?02:09:50 Relatore 9Non so come come verrà deciso di per sé, però voi sapete qual è il materiale che è stato che è stato deciso di produrre su quella linea, OK?02:10:01 Relatore 8Faccio l'esempio su quella l'isola che hai schiacciato prima c'erano 4 4 ordini, tutti con dello stesso codice e ci e ci può essere una cosa della genere l'unica cosa che si differenzia oggi?02:10:13 Relatore 8È il numero del batch che qua non vedo.02:10:18 Relatore 9Allora?02:10:18 Relatore 8Si stacca l'ordine, stacca anche il numero del o. Il betch viene staccato quando fai la protezione.02:10:27 Relatore 9Allora no, il l'ordine contiene già il numero del batch. Ve lo faccio vedere. Allora l'ordine contiene già il numero del batch.02:10:36 Relatore 9Che è questo qua, come vedete è indicato qua sopra, no?02:10:38 Relatore 9Allora questa è la stessa domanda che mi è.02:10:43 Relatore 9Stata fatta ieri quello che che che.02:10:45 Relatore 2Ah, comunque.02:10:48 Relatore 17Scusate perché non non vedendovi Visa vino non riesco ad associare le voci alle persone.02:10:54 Relatore 9E allora sì, l'ordine mi arriva già col col col batch.02:11:00 Relatore 9Arrivandomi già col batch, io posso.02:11:03 Relatore 9Filtrare per batch però, come come dicevo ieri, il per esempio in questo caso hanno tutti lo stesso batch, ma ripeto, siamo in un ambiente di equality quindi.02:11:14 Relatore 9Non non non fate caso al fatto che ce ne siano tanti, dovrebbe essercene solo uno, però di per sé quello che il problema che mi è stato giustamente posto ieri è il fatto che io il batch che sto utilizzando per il filtraggio.02:11:26 Relatore 9È il badge che andrò a produrre, non il batch che mi arriva dalla stazione precedente, OK?02:11:34 Relatore 9Quindi.02:11:36 Relatore 9Questo è effettivamente rispetto al vostro, al vostro utilizzo standard? In AX è 1 1 differenza e di nuovo secondo me è una di quelle domande da da porre al business, perché il filtraggio del batch come il filtraggio del prodotto è 1 1? Richiesta che era stata già.02:11:56 Relatore 9Scusate.02:11:58 Relatore 8No, no, prego, prego Jacopo.02:11:59 Relatore 9Ah OK OK. Era una richiesta che era già stata fatta anche per gli ambienti di Ostrava e su Ostrava era stata fatta così, però purtroppo io non so dirvi come verrà. Vi verranno presentati la selezione dell'ordine.02:12:15 Relatore 9Non so se c'è Andrea lì e lui lo sa, o comunque perché io personalmente non non so. I nostra vado oggi come fanno a selezionare lo quale ordine seleziono, in base a che, quale, quale pro?02:12:29 Relatore 9Un principio?02:12:31 Relatore 4Ma credo credo che gli arrivi già una produzione.02:12:33 Relatore 2La.02:12:34 Relatore 2E poi saluta Federico.02:12:37 Relatore 4Prego un criterio in AIC per per decidere quale stampare quante nostra ma non c'ero, quindi non può salire.02:12:47 Relatore 5La logica.02:12:47 Relatore 8Mi dice che.02:12:50 Relatore 8Parto e nel ritorno.02:12:52 Relatore 12Ti amo.02:12:54 Relatore 8Lascio aperto perché non lo finisco i dati ho aperto per due pezzi che rimane lì, poi ne inserisco in un'altro ordine per 100 pezzi, così via sia vengono lasciati aperti rilasciami dire.02:13:07 Relatore 4In teoria dovrebbero essere chiusi.02:13:10 Relatore 8Bravissimo, mi vien da dire, OK, se tu vieni in una situazione pubblica quindi giornalmente vengono chiusi in base alla valutazione l'operatore vedrà solo.02:13:19 Relatore 2Il suo nome per.02:13:19 Relatore 4Gli ultimi?02:13:20 Relatore 8Introdurre e non si crea il.02:13:21 Relatore 4Problema in teoria, dovrà.02:13:23 Relatore 4Staremo a sentirti.02:13:27 Relatore 8Ma l'operatore della produzione può segnalare da qualche parte i chirurghi sui dati. Ordinato anche un residuo in due effetti.02:13:38 Relatore 1Mi.02:13:39 Relatore 3Aspetta.02:13:43 Relatore 9Rifatemi un attimo la domanda, perché l'ho?02:13:44 Relatore 9Sentita un po' lontana.02:13:45 Relatore 13Chiami.02:13:47 Relatore 8Fino a prima.02:13:48 Relatore 2Perché?02:13:49 Relatore 1Un'altra soluzione c'è una fase di setup che.02:13:54 Relatore 1Che forse io il pane non è considerata.02:13:57 Relatore 1Al digitale implica comunque sia l'affidamento stampo utile, il codice serie di produzione.02:14:04 Relatore 1E l'ottimo sempre che viene trascinato solo per una questione di stabilità, poi non so se a terminale questo rimane traccia, cioè rimane traccia dell'ordine che stiamo lavorando.02:14:19 Relatore 1Non ho capito.02:14:24 Relatore 9E mi ha rifatto un attimo la la la domanda da più vicino cerco di di rispondervi e magari darvi una mano. Però l'ho sentita AA tratti, scusate.02:14:31 Relatore 2Apri.02:14:33 Relatore 1Non so, allora?02:14:34 Relatore 8Sentiamo qua, ma il microfono lei sentirà?02:14:38 Relatore 12Allora?02:14:38 Relatore 8Vicino a me.02:14:40 Relatore 1Ciao allora tu hai fatto vedere già il la videata la Schermata?02:14:47 Relatore 1Ti prendete una lavorazione dell'operatore, però prima del prima di questa fase c'è una fase di avviamento viene fatto forse tanto dovrebbe avvenire l'abbinamento stampo ordine.02:15:02 Relatore 1E codice.02:15:04 Relatore 1Io presumo, però non sono sicuro, presumo che l'ordine che è in lavorazione soprattutto nel caso, il che è sempre lo stesso per il numero di telefono, mi rimanga visibile alla parte.02:15:04 Relatore 9Certo.02:15:11 Relatore 2Lavoro.02:15:13 Relatore 2Perché?02:15:18 Relatore 1Oppure l'operatore va a scelta?02:15:21 Relatore 1Su sull'enne ordini che che rivalgono la garanzia oppure.02:15:27 Relatore 9Allora?02:15:29 Relatore 9La la configurazione che che che dicevi giustamente però viene fatta a livello di SAP, nel senso che SAP fa tutte queste impostazioni con il tool con tutte le varie cose e ci manda già queste informazioni.02:15:44 Relatore 9La pianificazione degli ordini è anch'essa fatta dal pianificatore di SAP, quindi quando l'ordine viene mandato AA MES è una pianificazione che viene generata e organizzata da SAP.02:15:57 Relatore 9Lato MES, voi vedrete quali sono gli ordini effettivamente.02:16:02 Relatore 9Attivabili.02:16:05 Relatore 9Sia qua sulla pagina operatore e di nuovo come diceva, come diceva Annalisa dal dalle varie semaforini che vedete qua sotto, capite quali sono gli ordini che sono già stati startati, per esempio questo quelli che devono ancora essere startati o quelli che sono attualmente attivi?02:16:27 Relatore 9Avete anche la possibilità di ordinarle sulla base dello Stato e quindi vi verranno messi prima gli ordini attivi e poi gli ordini da startare avete la possibilità di di default la l'organizzazione basata sulla estimete START Time, quindi fondamentalmente sono ordinati per quando sarebbero dovuti partire, quindi.02:16:48 Relatore 9La logica se se allestimento è start time è corretta dovrebbe dire vado in ordine, OK, quindi fondamentalmente se io qua avessi materiali diversi posso dire OK, oggi devo fare questo è il secondo, faccio questo OK.02:17:00 Relatore 3Io.02:17:01 Relatore 1Praticamente lo sei già.02:17:05 Relatore 9Come come dicevo giustamente la collega c'è la possibilità di filtrare per batch, ma ad oggi il batch che filtra il batch dell'ordine stesso che quindi non è il batch legato al CDI che.02:17:15 Relatore 9Io ho su, su.02:17:17 Relatore 9Sulla linea no, quindi io non posso filtrare sulla base del materiale da consumare, ma posso filtrare sulla base del batch che mi aspetto di produrre?02:17:26 Relatore 9Che quindi quello non so se voi lo sapete già prima di produrre, quindi quello è un secondo me è una delle domande di differenza rispetto AX.02:17:37 Relatore 9Che si può porre al business e quindi sulla base di quello fare fare 1 1 ragionamento. La cosa che posso dirvi io è che non per il golive ma successivamente è stata richiesta una modifica al fine di mostrare il gli ordini solo rilevanti per quella giornata, nel senso che verrà imposta, verrà data la possibilità ai supervisori di dare.02:18:03 Relatore 9Una priorità agli ordini?02:18:04 Relatore 9E quindi dare un valore a ogni.02:18:07 Relatore 9L'ordine da uno a 100 e sulla base di quello il sistema mostrerà per lo stesso partner number solo quelli che hanno priorità massima OK. In questo modo cosa succederà? Che poi l'operatore vedrà solo gli ordini che sono prioritari, se qualcosa cambia perché magari c'è un ordine più prioritario o cosa, il supervisore cambierà il la la severità dell'ordine, quindi automaticamente per l'operatore cambieranno le operazioni.02:18:38 Relatore 9Però questo qua è una change che verrà fatta successivamente.02:18:42 Relatore 9E quindi probabilmente è già stato pensato questo ipotetico problema e quindi c'è già una soluzione in mente, però vi consiglio comunque di di alzare la la domanda verso il business così da tenere traccia anche di questo tipo di Delta rispetto AXOK.02:19:02 Relatore 2Ecco.02:19:03 Relatore 8OK.02:19:04 Relatore 9OK, quindi come vi dicevo, io sono.02:19:07 Relatore 9Sono davanti al mio, al mio terminale, non ho vedo che non ho nessun CDI sulla mia linea e devo fare la chiamata se non seleziono niente il sistema mi dà, mi dà tutti i materiali che devo andare a chiamare sennò posso selezionare un determinato ordine e quindi il sistema mi dirà Guarda che per questo ordine.02:19:27 Relatore 8Pensate che hai citato gli altri suoi?02:19:33 Relatore 9Allora sono qua, seleziono il pulsante di di chiamata materiale stage incall e qua in alto a destra seleziono l'ordine OK qua. Adesso vedete, fatemi fare una cosa qua.02:19:38 Relatore 12Prima.02:19:49 Relatore 12Chiamo.02:19:51 Relatore 9Faccio solo una cosa, scusate, ma perché vedete una cosa sbagliata? Perché?02:19:57 Relatore 9Errore di configurazione? Fatemi un attimo, così almeno non non vi confondo.02:20:02 Relatore 8Senza questo momento la configurazione del dell'equivement.02:20:06 Relatore 12Ok.02:20:07 Relatore 9Allora quindi ritorniamo alla alla nostra casa. OK, sono qua. Io sono.02:20:13 Relatore 9All'inizio del mio turno clicco il pulsante e seleziono il mio.02:20:16 Relatore 9Ordine. Come vi dicevo prima, questa cosa può essere diciamo velocizzata dicendo OK, io so già che voglio andare a produrre quest'ordine. Seleziono il mio ordine, clicco il pulsante di stage incall e automaticamente il sistema mi prefiltra già il mio ordine.02:20:34 Relatore 9Quello che vedete?02:20:34 Relatore 8Aspetta un attimo.02:20:36 Relatore 8Esame giudiziario, quindi o si apre la il telefonino e si seleziona l'ordine, oppure si seleziona l'ordine e si prende il tasto telefono OK.02:20:47 Relatore 8Principale come un po' di individuare direttamente.02:20:50 Relatore 8No madre o.02:20:52 Relatore 9OK, quindi cosa succede, per esempio?02:20:55 Relatore 2Un secondo perdonami.02:21:03 Relatore 14Non si apre.02:21:03 Relatore 6Si apre, non si apre niente la schermata così.02:21:09 Relatore 8Senti, siamo qui.02:21:12 Relatore 8Ah, OK, OK.02:21:15 Relatore 8Siccome mi avete più work center in questo momento selezionate o preferite qua il work center che magari sta utilizzando Jacopo OK o eventualmente lo selezionate e fate sulla destra, avete Save.02:21:30 Relatore 8Accendo Save, voi state dicendo al sistema, io voglio lavorare su questo.02:21:36 Relatore 8Worksenter OK.02:21:37 Relatore 2Ok.02:21:37 Relatore 8OK.02:21:38 Relatore 8Siamo chiaro?02:21:39 Relatore 2Ma bello saldo c'è il box.02:21:43 Relatore 7Sì, no, va bene, no.02:21:43 Relatore 8Center che il cappello è il sito.02:21:48 Relatore 2141 se.02:21:50 Relatore 2Voi avete il prossimo, quello specifico.02:21:54 Relatore 2Essere abilitati.02:22:01 Relatore 8Grazie, scusate piuttosto il quello che sento, il viaggio.02:22:08 Relatore 2C.02:22:09 Relatore 8L 141 e a destra.02:22:11 Relatore 2Sì.02:22:14 Relatore 2Lei non debba nutrire.02:22:16 Relatore 8Se ci siete?02:22:18Va.02:22:19 Relatore 2Bene.02:22:19 Relatore 8Sape il tasto a destra in modo tale da dire sto selezionando quelle clement quel quel work center diciamo.02:22:26 Relatore 2Perché è uscito?02:22:28 Relatore 8Scritto perché magari lo si sente.02:22:28 Relatore 10Ce l'ho appena ce l'hai già fatto.02:22:29 Relatore 2Un servizio c'è più la destra.02:22:31 Relatore 2Pronto.02:22:32 Relatore 8Dimmi se ci siete tutti, prego.02:22:35 Relatore 7Azienda, vado a metterci il vestito.02:22:40 Relatore 8No.02:22:42 Relatore 2Proprio.02:22:43 Relatore 2Ciao.02:22:44 Relatore 2Sì, io sono arrivato a questo, poi vengo a Brescia, mi chiamo e lui aspettavo, sono almeno adesso per aver visto.02:22:51 Relatore 8L'ordine OK, non.02:22:52 Relatore 2Lo sapevo di.02:22:54 Relatore 2Ah, OK, Fammi proviamo, proviamo, ci fai un attimino detta il giornale.02:22:59 Relatore 3Non.02:23:00 Relatore 2Ti lascio e quindi?02:23:01 Relatore 8È chiaro, no l'operatore se associa macchina, altrimenti c'è qualcosa.02:23:08 Relatore 8Prima pagina iniziale sarà la lista di compleanno. Gli ordini hai selezionato Jacopo scusa il.02:23:13 Relatore 9Ma per adesso, per adesso niente, dobbiamo ancora fare la stage in call.02:23:18 Relatore 7Macchine dell'aria OK, tutti selezionati. Lega alla macchina ti prego. Poi ovviamente mi stretto in linea collegato sono mappati, lo facciamo dal PC, dobbiamo scegliere noi la scansione alla collegarci.02:23:28 Relatore 2Ho fatto un corso.02:23:34 Relatore 2Per richiamare.02:23:40 Relatore 7E quelli sono praticamente tutte le.02:23:41 Relatore 8Chiedete Eh, OK.02:23:44 Relatore 7Le stazioni dell'area.02:23:48 Relatore 17Ci siete?02:23:50 Relatore 8Siete nella selezione delle Kim della Work center OKOK? Vediamo.02:23:57 Relatore 17Credo che qualcuno.02:23:58 Relatore 8Quindi avete la lista degli ordini. Perfetto. Ok, grazie.02:24:01 Relatore 9Credo che che qualcuno abbia abbia cliccato qualcosa perché hanno fatto una chiamata materiale, però ne ne prendo un'altro, giusto per farvi capire come.02:24:10 Relatore 2Va bene, allora non ve lo faccio alla prova.02:24:13 Relatore 9Vabbè, nessun problema, nessun problema, OK?02:24:18 Relatore 9Va, va bene, basta, basta che che non è un problema assolutamente. Era solo per farvi, per farvi capire.02:24:26 Relatore 9Fondamentalmente, quando voi fate la chiamata, quando voi fate la prima chiamata materiale, come vedete qua, c'è un semaforo di status, okay, questa qua che è stata una chiamata che è stata appena fatta, come vedete mi sta dicendo il sistema che è già stata fatta una chiamata materiale, OK?02:24:41 Relatore 9E quindi il semafori non è andato, è andato grigio, sennò il semaforo è verde.02:24:48O.02:24:48 Relatore 17K la logica.02:24:49 Relatore 9È fondamentalmente quando io sono nella fase iniziale, quindi devo fare la chiamata, Io faccio la call e il semaforo diventa grigio nel momento in cui EWM riceve la chiamata.02:25:03 Relatore 9Il SEMAFORINO diventerà giallo e quindi mi verrà notificato il fatto che mi stanno per portare il materiale.02:25:11 Relatore 9E in questo caso poi potrebbero succedere due casi o il semaforo mi torna a essere verde e quindi effettivamente mi è arrivato del materiale sul mio buffer.02:25:20 Relatore 9Sulla mia Psi oppure il semaforo diventa rosso e quindi c'è stato un problema latte WM.02:25:27 Relatore 9Come vedete, finché il semaforo è grigio o giallo io non posso fare altre chiamate per questo materiale su questa Psi, OK?02:25:37 Relatore 9Se invece il semaforo è rosso o verde, il il viene riabilitato, il il il pulsante di chiamata e io posso fare altre chiamate, OK.02:25:49 Relatore 1Scusa, posso fare un'ipotesi?02:25:51 Relatore 1Sì che ho fatto la chiamata e il pulsante diventa rosso.02:25:58 Relatore 1Non lo so, anche il tasto portato il materiale, ma il pulsante rimane rosso.02:26:02 Relatore 1È bloccante.02:26:04 Relatore 9Allora no, nel senso che appunto il pulsante rosso significa che WMO ha interrotto il delivery.02:26:13 Relatore 9O ci sono stati dei problemi di comunicazione e quindi non riesce a portarci il il materiale? Ok quindi il pulsante rosso significa che a voi il materiale non arriverà mai.02:26:24 Relatore 9Quindi non può succedere che il semaforo è rosso, ma voi avete del materiale in linea, perché se è successo vuol dire che qualcuno ve l'ha portato veramente. Ma è da WM, non lo sa e quindi quello è un problema ed è da notificare un supervisore dicendo guardate che io vedo vedo che in realtà il materiale non mi sta arrivando, però io lo vedo in linea quindi non lo troverò nel buffer quando proverò a consumarlo.02:26:47 Relatore 9OK.02:26:48 Relatore 9Se invece il pulsante verde vuol dire che il il il la che il il cassone vi è arrivato una cosa importante come vedete qua vengono indicate due quantità, la quantità effettivamente che ci si aspetta per questo ordine OKE, la quantità attualmente presente nel vostro buffer, come vedete qua mi sta dicendo che io nel mio buffer ho zero pezzi disponibili.02:27:15 Relatore 9Ma a me ne servono 398.02:27:18 Relatore 9Tu la cosa?02:27:19 Relatore 9Importante da sapere è che quando voi fate una chiamata non gli mandate la quantità che voi volete, ma semplicemente gli state dicendo Io ho bisogno di questo materiale in questo buffer aws quindi vi manderà il cassone con quel materiale in quella Psi, quindi potrebbe succedere che invece di mandarvene 398 ve ne manderà 100.02:27:43 Relatore 9O 10 o 5, voi non potete saperlo a priori perché wm fa dei ragionamenti all'interno del magazzino.02:27:50 Relatore 9Che, tra virgolette, non riguardano il MES e quindi di per sé.02:27:55 Relatore 9Lui non non può garantire tutta la quantità necessaria per produrre l'ordine, lui cerca di ottimizzare il magazzino, quindi quello che potrà succedere è che fondamentalmente voi ne la mandate la la chiamata, ve ne mandano 10, voi non potete iniziare la produzione, quindi dovete fargliene un'altra.02:28:14 Relatore 9Non se diciamo il magazzino è gestito correttamente, non succederanno spesso queste cose qua, però potrebbe succedere banalmente che voi volete fare tutta la produzione, quindi startup, tutti i 100 pezzi.02:28:25 Relatore 9Ve ne servono 398.02:28:28 Relatore 9EE da un certo punto di vista ve ne arrivano 100 quindi dovete richiederla, ve ne arriveranno 200, dovete richiederla fino a che non arrivate alla quantità necessaria.02:28:41 Relatore 9La.02:28:42 Relatore 1Magazzino può mandarlo senza la chiamata.02:28:45 Relatore 9Il magazzino può mandarla senza la chiamata? Assolutamente sì, sì, sì, sì.02:28:51 Relatore 9Può succedere che magari me ne portano, però in generale.02:28:55 Relatore 9La vedo difficile, nel senso che o gliel'avete detto tra virgolette a voce a qualcheduno portamela e può succedere, si può fare.02:29:03 Relatore 9Però in generale, a livello di processo sarebbe più corretto farla da terminare la chiamata.02:29:08 Relatore 9Di per sé non è non è vincolante, nel senso che se voi non fate la chiamata, ma il materiale vi arriva, va bene lo stesso, nessuno vi.02:29:15 Relatore 9Vi. Vi.02:29:16 Relatore 9Vi crea problemi, l'importante è che il materiale arrivi in qualche modo OK.02:29:22 Relatore 15E con che criterio il sistema fa arrivare il materiale quantità di materiale?02:29:27 Relatore 4È questo qua è.02:29:28 Relatore 9Un è una è una domanda che dovete fare? WM, perché non lo so?02:29:32 Relatore 14Tipo.02:29:32 Relatore 8Ho visto ci saranno le cose, ma leggere.02:29:34 Relatore 15No, no, chiaro, chiaro però.02:29:37 Relatore 12Stai.02:29:39 Relatore 15Schema con una quantità minima ci sia un cassone, l'ultimo il primo cassone che dovrebbe uscire, una quantità, uno può uscire un cassone e poi?02:29:49 Relatore 4Quindi.02:29:49 Relatore 15Io praticamente sono da subito fermo, quindi ho due ore di attesa materiale più altre due ore di attesa materiale.02:29:56 Relatore 15Da noi è così.02:29:58 Relatore 9Potrebbe, potrebbe succedere.02:30:00 Relatore 1535 linee.02:30:04 Relatore 9Diciamo che di per sé non succederà mai che arriva un cassone con un solo pezzo, perché nel WM ci sono delle logiche di repacking che permettono di, tra virgolette, riempire i cassoni in modo che siano almeno i più pieni possibili, OK?02:30:18 Relatore 8Anche lui succede che ci sono pochissimi pezzi cosiddetti resi finisco oggi.02:30:27 Relatore 810 anni e poi la formazione, ricorderanno, saranno quelli lì. Insomma, nel momento in cui magari è pronta, si rende conto e chi dice, Fammi subito la chiamata in magazzino, ti prendo già subito l'altro cassone da portarti.02:30:43 Relatore 15Ok, quindi lascio un passo a parola.02:30:46 Relatore 8Quindi ci sarà una dai passaparola, però è riflessione.02:30:49 Relatore 8Intelligenza e capacità del magazzino e legge che sta portando un pezzo e sa che dopo due minuti.02:30:57 Relatore 8Deve andare a riprenderti.02:30:59 Relatore 2Cioè che ne fa? Io ormai l'ha chiamato la Giorgia.02:31:01 Relatore 15Abbiamo una chiamata materiale di due ore di attesa, noi il l'operatore di linea sa che ha al momento chiama materiale materiale a due ore di tempo per arrivare.02:31:13 Relatore 1Serie di.02:31:15 Relatore 8Tranquillo quello che provo da quell'ora e mezza, però ripeto quando li porto il taccone che non è pieno da 500 anni?02:31:20 Relatore 13E ma loro magari cambiano le 12.02:31:23 Relatore 8Io, cioè nel momento in cui lo porto lo vede se lo segna mi dice l'operatore comunque emargina la infamata, quindi fa di notte di non aver ragione.02:31:31 Relatore 15Il tempo. Il tempo di attesa maggiore? Noi ce l'abbiamo, no? Dal momento in cui il materiale viene portato. Il materiale a terra o sul carrello se sono sbaglio. Poi c'è anche la posizione a carrello. Vabbè.02:31:46 Relatore 15Carrello linea ma l'attesa maggiore ce l'abbiamo da momento in cui ho chiamato il materiale, al momento in cui viene carica sul carrello, quindi.02:31:59 Relatore 15Il labedo.02:32:00 Relatore 8Noi interagiamo comunque con la punizione.02:32:04 Relatore 8Aspetti lui?02:32:08 Relatore 8Chi preleva il materiale perché fosse mai diverso?02:32:12 Relatore 8C'è chi prendeva il materiale da velo, è la stessa persona che serve poi la linea.02:32:16 Relatore 15Noi no, poi addirittura un'altro reparto.02:32:20 Relatore 15Due parti separate addirittura per quello che la vedo molto dura, come.02:32:26 Relatore 15Come flusso.02:32:29 Relatore 15Proprio a livello di flusso parlo.02:32:33 Relatore 1Saluto Pietro, sei tutta la senza chiamate.02:32:37 Relatore 15Poi ho sempre smentito che parlava di repackaging nel caso di piccole quantità questo carico del magazzino. Quindi io faccio un rating? No, è uno, il magazzino deve fare.02:32:45 Relatore 6Sì, sì, sì, sì, sì.02:32:49 Relatore 15Però immagino si debbano crearsi delle figure ad hoc per questa cosa, cosa che ad oggi non esiste.02:32:54 Relatore 1Già nessuno lo fa.02:32:57 Relatore 15No, parlo di noi pure.02:32:58 Relatore 15No, però però cosa che ho fatto, mi ero molto convinta anche lei.02:33:03 Relatore 8Il reparto Australia lo pone delle persone dedicate, qua è stato attribuito al mare.02:33:11 Relatore 9Allora diciamo che austrava c'è proprio un'area di repack dedicata, quindi in Italia non essendoci la il posto per farlo so che lo faranno direttamente a magazzino, però purtroppo non saprei dirvi. Lo fai come?02:33:26 Relatore 9Però vi consiglio anche questo, magari in questo caso potete domandarlo direttamente da WM che sanno hanno già un'idea di come.02:33:34 Relatore 9Di come verrà verrà gestita?02:33:36 Relatore 8Della stessa persona che fa questo lavoro che stai facendo vedere adesso?02:33:42 Relatore 2La chiamata al contrario si può fare.02:33:47 Relatore 14Quando fai il reso la devi fare.02:33:50 Relatore 2Allora te lo spiego, Eh?02:33:50 Relatore 12Okay.02:33:51 Relatore 13Spero.02:33:51 Relatore 3Le.02:33:53 Relatore 8Anime, non ha utilizzato i miei prepara.02:33:56 Relatore 2È meglio non dire il resto, certo, spero infatti.02:34:00 Relatore 3Allora?02:34:02 Relatore 1Ho detto spero.02:34:02 Relatore 8Schiaccia il bottone è già fatto.02:34:07 Relatore 2Tu hai fatto.02:34:07 Relatore 17Allora aspettate, aspettate, aspettate allora.02:34:07 Relatore 8Le cose giuste ci danno i conti.02:34:12 Relatore 9Il reso, il reso è è gestito anche questo dal magazzino, quindi voi non dovete mai fare il reso del vuoto a meno che non siete in un ambiente con la GV perché in quel caso logicamente dovete dirgli io non so se li tra qualcuno di voi. C'è chi lavora nel reparto con con AGV però di.02:34:31 Relatore 9Diversi.02:34:32 Relatore 8Hotel fortunato, non c'è problema.02:34:35 Relatore 9OK, allora?02:34:35 Relatore 4Franci può solo solo la parte di officina vicino.02:34:39 Relatore 9Sì, sì, vabbè era giusto per per dare un contesto a tutti. Ah, come vedete adesso materiale mi è arrivato.02:34:45 Relatore 12Perché?02:34:46 Relatore 17È diventato verde.02:34:49 Relatore 17OK, fondamentalmente comunque.02:34:53 Relatore 17Quello che che.02:34:56 Relatore 9Che vi volevo dire è.02:34:58 Relatore 17Il.02:35:01 Relatore 9Chi lavora con la GV logicamente deve fare il reso perché deve dirgli la la Baia. Invece chi non lavora con la GV reso non lo deve fare, ma verrà fatto automaticamente da chi fa il da chi gestisce il magazzino. Perché fondamentalmente il processo che viene usato ad Ostrava e che anche e che è stato deciso di usare anche in Italia è che.02:35:26 Relatore 9La persona che si occupa del magazzino che deve girare dalle linee riceverà una notifica alla TWM che è stata fatta una produzione quindi sono stati consumati x pezzi, quindi sa che c'era un cassone da 10 pezzi e quel cassone è stato totalmente svuotato e quindi verrà sulla linea vi prenderà via il il cassone.02:35:50 Relatore 9Da dal fine linea e lo porterà in magazzino e lui farà automaticamente il reso quindi sul MES ad oggi non avete il pulsante di reso ma verrà fatto la TWM quindi?02:36:02 Relatore 9Dovete cioè ora chi lo fa? Non non so dirvelo io, ma credo che ve lo diranno i colleghi di WM. Però fondamentalmente late da WM verrà fatto una richiesta di reso.02:36:14 Relatore 9EEEI cassoni vi verrà portato via lato MES non c'è questa questa resa materiale a meno che non siamo in nel contesto AGV.02:36:27 Relatore 8Ok.02:36:28 Relatore 6OK.02:36:29 Relatore 9Quindi fondamentalmente adesso spartiamo scartiamo il nostro, il nostro ordine.02:36:36 Relatore 2Ok, scusate, sì, troppo veloce, preferisco la premo.02:36:37 Relatore 11Scusami, un attimo di carta.02:36:43 Relatore 17Sì, scusate son.02:36:44 Relatore 9Tanto, troppo veloce. Non ero fatto senza pensare. Ah, bisogna logicamente selezionare l'ordine e cliccare sul pulsante di start. Quando fate lo start, il sistema automaticamente vi indirizza verso questa pagina qua. Okay, questa pagina qua.02:36:59 Relatore 9Ve la descrivo un pochino allora, fondamentalmente.02:37:03 Relatore 9Qua viene indicato quali sono i materiali.02:37:06 Relatore 14Molto diverso, Eh?02:37:08 Relatore 8La vostra era soddisfatto? Difficoltà di stare.02:37:13 Relatore 2E basta, come finisce?02:37:19 Relatore 8Ordine qui, questa, questa.02:37:22 Relatore 8Il concina serve proprio per entrare nell'ordine.02:37:26 Relatore 9Però non cliccatelo perché sennò mi stampate altre quantità.02:37:27 Relatore 8E lo.02:37:29 Relatore 8Eh lo sta facendo, non sta frase è uguale solo che lui ha fatto lo start dell'ordine. Agendo lo start dell'ordine entriamo in una via più limpida, diciamo, dove possiamo riferire le informazioni. Che cosa avete voi invece?02:37:31 Relatore 12No.02:37:42 Relatore 3Ciao.02:37:47 Relatore 2Ci sono.02:37:50 Relatore 8Arriviamo.02:37:51 Relatore 3Ah, OK.02:37:53 Relatore 78 ore da qua cambia la stazione.02:37:54 Relatore 2E io c'ho il smartphone Repubblica mi hai chiarito.02:37:55 Relatore 7Come diceva?02:37:56 Relatore 7Jacopo.02:38:00 Relatore 8Ipotesi riusciamo ad arrivare in anticipato?02:38:05 Relatore 14Come vi ha detto lui è.02:38:08 Relatore 8Così ho selezionato l'ordine, fate lo start o ignorate nell'ordine, fatelo lo start.02:38:16 Relatore 8Infatti, lo Start Kia. Poi però Jacopo possiamo.02:38:17 Relatore 12No, Carmine, va bene.02:38:20 Relatore 7Fare start no, perciò lo fai.02:38:21 Relatore 7Tu no, l'ho.02:38:22 Relatore 17Già fatto, io non non fatelo altro.02:38:24 Relatore 2Ho fatto fino alle 15 e l'ha già fatta.02:38:25 Relatore 8Cioè allora Ida?02:38:26 Relatore 8Fatto, le altre forse.02:38:28 Relatore 9Sì, vabbè, ma aspettate, aspettate un attimo allora.02:38:28 Relatore 8Ricordatevi che.02:38:33 Relatore 9Giusto per farvi capire quello che dicevo prima.02:38:36 Relatore 9Se adesso provate a fare start su questo ordine, entra in gioco.02:38:39 Relatore 4Fate la.02:38:41 Relatore 2Ha chiamato.02:38:42 Relatore 9Mi sentite?02:38:44 Relatore 2Se.02:38:44 Relatore 7Jacopo vai parla.02:38:46 Relatore 9Voi provate a fare lo START su questo ordine entra di nuovo in gioco la questione che vi dicevo prima del.02:38:52 Relatore 9La della percentuale di accessibilità no, quindi fondamentalmente io faccio adesso sto provando a startare ulteriori 10 rispetto a quelli che ho già startato oppure diciamo 100 OK, quando faccio start il sistema come vedete mi blocca e mi dice la start Quantity excited. Vabbè sarà in italiano.02:39:13 Relatore 9Ovviamente va oltre la la la tollerance.02:39:19 Relatore 9Permessa che in questo caso era 0% e quindi fondamentalmente ne posso startare solo quella nominale. OK logicamente se la fosse stata 10% ma avrebbe detto ne puoi startare uno. Se fosse stata 50% mi mi diceva Ne puoi startare 5 e così via. Quindi fondamentalmente qua verrà sempre indicato la quantità che voi avete la possibilità di startare.02:39:40 Relatore 9OK. In ulteriore rispetto allo al al nominale, OK.02:39:46 Relatore 9Quando voi avete startato venite indirizzati su questa pagina qua. Questa pagina qua contiene diverse informazioni, allora sulla testata iniziale voi vedete il materiale che state andando a produrre.02:39:57 Relatore 9La descrizione del materiale, il batch di quest'ordine.02:40:01 Relatore 9La il Work center che state utilizzando OK, qua sotto vedete tutti i materiali che sono materiali o da consumare tipo questi, oppure materiali chiamati di tipo reference che sono materiali che sono automaticamente mandati in back flash AEWM quindi su cui voi non avete.02:40:22 Relatore 9Non avete necessità di di di consumarlo perché sono.02:40:28 Relatore 9Info, cioè sono materiali che non non hanno 1 1 tracciabilità OK.02:40:34 Relatore 9Come vedete però io in questo momento vedo anche qua il mio semaforo rosso. Perché? Perché io la chiamata di prima?02:40:42 Relatore 9È andato in errore, quindi mi è arrivato il materiale, ma in realtà quel materiale che mi era arrivato, come dicevamo prima, mi è arrivato perché qualcuno me l'ha portato, ma in realtà la chiamata che ho fatto io è andato in errore.02:40:53 Relatore 9Questo significa che di per sé in realtà qua c'è stato un errore, ma il motivo è semplicemente che il fatto che adesso nessuno sta gestendo late WM la la movimentazione del materiale, quindi è corretto che sia in rosso.02:41:06 Relatore 9Però di per sé questo è un caso in cui voi dovreste dire, guardate che io non ho il materiale in linea e c'ho rosso, oppure guardate che io ho il materiale in linea e c'ho rosso, è successo qualcosa alla TWM?02:41:18 Relatore 9Quindi voi potete continuare la produzione perché il materiale ce l'avete, se riuscite a consumarlo vuol dire che tutto è andato a buon fine.02:41:24 Relatore 9Però per buona prassi è dire guardate che io vedo un errore lato EWM, quindi controllate se in magazzino ci sono stati dei problemi. OK comunque anche da questa pagina qua voi avete la possibilità di fare un'ulteriore chiamata materiale quindi semplicemente cliccando sull'iconcina del.02:41:43 Relatore 9Del della GPU? Beh del del movimentazione materiale, voi potete selezionare il vostro buffer e fare un'ulteriore chiamata.02:41:53 Relatore 8Davanti, chiaro questa parte avete.02:41:58 Relatore 8Ok.02:42:00 Relatore 2Dai.02:42:02 Relatore 9Come vedete, però, quando io entro non ho la possibilità di fare nessun tipo di dichiarazione. Questo perché? Perché io prima di tutto devo selezionare il Tool.02:42:11 Relatore 9La mold che mi serve per fare in questo caso siamo in un casting, quindi la mold che mi serve per fare la mia, la mia produzione, quindi.02:42:22 Relatore 9Voi avrete davanti a voi il seriale della Molden, lo scansionerete automaticamente la validità. Io non ho una mold davanti a me e quindi me lo vado a recuperare dalla dalla mia anagrafica.02:42:31 Relatore 8Aspetta un attimo, si apro una cosa.02:42:34 Relatore 1Saranno viene fatto solo nella prima fase di setup.02:42:36 Relatore 2Beh.02:42:38 Relatore 1Scuola.02:42:38 Relatore 17Scusate.02:42:41 Relatore 8Stanco viene stanca sulla prima fase di setup.02:42:45 Relatore 14Sì, perché questo fa 28 F.02:42:47 Relatore 1Lo stampo dovrebbe essere abbinato solo nella prima fase, quella del setup per la produzione, qua non deve essere abbinato.02:42:55 Relatore 9Eh no qua quando è il momento in cui fai lo start deve essere, deve bisogna validare la molte che si sta usando. Non è una, non è un abbinamento sull'ordine. Infatti come come vedete se io vado sulla pagina dell'ordine.02:43:10 Relatore 9C'ho una multa associata, aspettate che sto usando un ordine diverso, quindi se io adesso vado.02:43:16 Relatore 9Sulla pagina dell'ordine.02:43:19 Relatore 8Scusami un attimo, Jacopo, questa è la.02:43:21 Relatore 14Parte in cui posso io devo richiamare di nuovo lo stampo che me?02:43:23 Relatore 14Lo vede su scusami, grazie.02:43:25 Relatore 9Non no, non è, non è una non non state richiamando lo stampo, altre non state chiamando lo stampo.02:43:30 Relatore 2Ce l'hai post due?02:43:32 Relatore 9Aspettate, non state chiamando lo stampo, state semplicemente validando lo stampo che state utilizzando.02:43:39 Relatore 1Ogni inizio, ogni inizio, quindi c'era ogni inizio turno da validare lo scan.02:43:44 Relatore 9Ogni inizio, ogni start dell'ordine, bisogna validare lo stampo.02:43:47 Relatore 14Quindi devo scrivere di nuovo S 28 F quattro?02:43:51 Relatore 8Preparare penso che voglia di altri rapporti.02:43:52 Relatore 2Prova per sparare a scrivere.02:43:54 Relatore 14Cioè ma dipende dalla stessa operazione però cioè devo riportare giù?02:44:00 Relatore 17Scusate, io vi sento.02:44:00 Relatore 8Un conto senso sta indicando scusa via cosa sta indicando il tool Definition, il codice S 28 stanno descrivendo sotto codice deve essere riportato all'interno del text tool.02:44:13 Relatore 9No, allora.02:44:15 Relatore 9Voi avete.02:44:17 Relatore 91 1 Tool, una ma.02:44:20 Relatore 9Che appartiene a questo tipologia di molde, OK.02:44:26 Relatore 9Voi qua dovete inserire il seriale della molte che state utilizzando perché bisogna tenere traccia di quante battute ha fatto quella. Molte bisogna tenere traccia di quanto è stato utilizzato quella mold e in più dovete validare il fatto che voi state usando una mold corretta. Perché?02:44:45 Relatore 1Non può cambiare.02:44:46 Relatore 1Lo stampo?02:44:49 Relatore 1L'abbinamento ordine di produzione stampo univoco lo può cambiarlo? Quando lo faccio più?02:44:53 Relatore 9E sono e sono assolutamente d'accordo con te. Ma ti faccio un esempio, tu hai selezionato l'ordine sbagliato che ha un'altra mold, e tu vai a vai a produrre con quello non c'è, per quanto in realtà l'abbinamento è diverso. Questo serve proprio per innanzitutto ridurre la possibilità di errore, nel senso che tu.02:45:12 Relatore 9In questo modo sei sicuro che stai usando un ordine che è stato abbinato a quella mold e non un'altro ordine che hai abbinato a un'altra mold prima di tutto e secondariamente in questo modo, tu stai tracciando il fatto che quella mold è stata utilizzata per questo ordine? Per questo ordine sono state fatte 200 battute EE la mall in totale ha fatto 2000 battute.02:45:37 Relatore 9Fra fra tutti gli ordini.02:45:38 Relatore 9A te serve questo tipo di associazione sia per essere sicuro che stai usando l'ordine corretto, sia per validare il fatto che la Molda è corretta, sia per tenere traccia di cosa sta facendo la molda.02:45:50 Relatore 14Scusa, non la posso solo collegare quello lì.02:45:53 Relatore 9Non ho capito.02:45:54 Relatore 14Non posso solo recarmi e basta senza stare a scrivere la stessa cosa.02:45:56 Relatore 1Regalato.02:45:59 Relatore 1E questo qua da vedere.02:46:00 Relatore 8Secondo, cioè invece, che conferma.02:46:05 Relatore 9Allora scusate, aspettate allora.02:46:05 Relatore 8Potrebbero cercarlo, perché?02:46:10 Relatore 14Va bene per l'operatore Salve.02:46:12 Relatore 9Ragazzi Aspettate, aspettate, scusate, scusate, quello che vedete qua non è il seriale della vostra mold, questo qua è il tipo della mold.02:46:12 Relatore 2Non blocco proprio.02:46:21 Relatore 9OK, il seriale in questo caso è S 28 F 44 21 ST01OK che come vedete qua è diverso.02:46:32 Relatore 9OK, questo perché? Perché io per la stessa definizione di tool posso avere 1000 seriali perché magari una mold si rompe, quindi devo cambiare seriale. Quindi per un ordine ho usato l's T 0 1, per l'altro ordine devo usare l's T 0 2 che fanno riferimento alla stessa definizione. OK, però sono due seriali diversi.02:46:53 Relatore 12Ti chiamo.02:46:55 Relatore 8Di nuovo.02:46:55 Relatore 9Il seriale è abbinato all'ordine e quindi voi dovete validare questo abbinamento.02:47:03 Relatore 2Scusa.02:47:04 Relatore 1Non vedo come posso uno.02:47:06 Relatore 1Sì, prendine un'altro, visto che la Gold è.02:47:09 Relatore 8Fissata su.02:47:10 Relatore 2Cioè su uno.02:47:11 Relatore 1Su una macchina e non può essere cambiata.02:47:13 Relatore 9No, non puoi prendere un'altra mold, ma puoi sbagliare a usare l'ordine.02:47:16 Relatore 1Infatti ma infatti ma quando faccio il Setup faccio questo, controllo questo abbinamento ma poi più nessuno può cambiarlo ecco come fa l'operatore a.02:47:25 Relatore 1Cambiare lo start.02:47:26 Relatore 9Non sto cambiando lo stampo, non sto cambiando lo stampo, non sto cambiando nulla.02:47:30 Relatore 9Io sto solo validando.02:47:32 Relatore 1Sì, però non posso certificare una cosa che che è abbastanza impossibile da.02:47:38 Relatore 1E a cosa mi so spiegato?02:47:44 Relatore 1È considerato però farli fare abbinare da molto l'operatore.02:47:45 Relatore 9Io ho capito allora?02:47:47 Relatore 2Ho capito?02:47:49 Relatore 9Ma non allora ho capito la vostra preoccupazione.02:47:55 Relatore 9È un'altra domanda che secondo me dovete portare al business perché questo è lo stesso procedimento che fanno ad Ostrava.02:48:02 Relatore 9E ad Ostia vanno davanti a loro il seriale e loro scansionano il seriale e validano. Non è che cambiano nulla, non fanno un cambiamento di molte, non fanno 1 1 Replacement semplicemente.02:48:11 Relatore 11Pazienti da.02:48:12 Relatore 13Scoppiare.02:48:14 Relatore 8Tu da Jacopo chiederò qui che da inserire.02:48:17 Relatore 9Non ho capito, scusate.02:48:20 Relatore 8Se lo se lo sai, chi è che gli dà il seriale all'operatore?02:48:25 Relatore 9Sulla mold dovrebbe essere lì, attaccata alla Molde, dovrebbe esserci 1 1. Barcode che identifica il seriale.02:48:33 Relatore 1No, sicuramente no.02:48:36 Relatore 9E allora non so come rispondere, purtroppo non non non conosco il processo che che fate voi adesso in Italia. Per questo però.02:48:47 Relatore 8Per rimborsare il mio computer quando si può togliere il campo e ti e ti lascia lì vicino. Interessante.02:48:55 Relatore 14Sì, ma non vorrei che lui parlava prima che.02:48:58 Relatore 8No, no, no, no, quello è che lo stampo che ne ha.02:49:01 Relatore 14Ha un progressivo 0 1.02:49:10 Relatore 8C'ha una femmina. C'è anche il suo padre che ha chiamato quando sta dicendo, poi stai caricando il tre, il 5, il 7 è quello che tu TI ti Afghanistan. Però esatto, adesso tu lo fai col meccanico.02:49:19 Relatore 1In due pagine servono oggi.02:49:25 Relatore 8Secondo me a sto punto.02:49:28 Relatore 8Tutti quel suo CD ti deve portare quando ti porta le istanze o da da caricare in mano, forse deve andare.02:49:33 Relatore 7Io lo so.02:49:34 Relatore 7Che sono praticamente alla fine del mondo.02:49:36 Relatore 7Allora io non sono così. Domande. Ora rimbalziamo su di te.02:49:44 Relatore 4Eh sì, è da verificare, però è più più che di sistema, è da verificare con campana e.02:49:50 Relatore 8Sì, ma.02:49:52 Relatore 14Non ha senso avere il barcode lì, fai un Flag e confermi quello là che.02:49:56 Relatore 12No, perché lui mi dice che.02:49:56 Relatore 4C'è scritto Eh no, che lo puoi mettere?02:50:00 Relatore 8Ci dice che tu stai usando Google due, il tre, il quattro.02:50:02 Relatore 4Cioè lì c'è l'articolo dello stampo, ma non il seriale dello stampo.02:50:06 Relatore 8Aspetti un liberatore? Cosa deve fare? Ti sento, ti stanno di ferito.02:50:11 Relatore 8Poi il meccanico non c'è più chi perché lo stampo sta su 5 giorni quando ricordassero?02:50:17 Relatore 2E Rossella? E si risolta anche adesso, troppo depresso.02:50:19 Relatore 1Sì, però, complessi, perché?02:50:22 Relatore 1Andare a cercare l'ultimo, poi ordinare lo stalker. Poi lo faccio 4 4 impostazioni diverse. Passo due ore.02:50:32 Relatore 8Fa sapere quell'ordine lì che è aperto per per quelle indicazioni.02:50:41 Relatore 7E Jacopo mi viene avanti. E poi magari tutte queste domande che sono un.02:50:46 Relatore 7Po' più anche a.02:50:47 Relatore 7Livello di processo le le guardiamo insieme al business.02:50:51 Relatore 7Però Jacopo, se andiamo.02:50:53 Relatore 7Avanti con il flusso, lo vediamo.02:50:53 Relatore 9Sì, sì, io.02:50:56 Relatore 7Praticamente quasi finito, quindi.02:50:58 Relatore 9OK.02:50:59 Relatore 12Quindi una volta il medico.02:51:00 Relatore 7Giro, abbiamo tutto fatto, almeno il posto completo.02:51:04 Relatore 9Ok, una volta che hanno scansionato il seriale come vedete il sistema mi valida il fatto che sto usando questo seriale? Questo è il tool Definition, questo è il seriale della della molte. Ok, una volta fatto questo io ho.02:51:19 Relatore 9Davanti a me il il mio materiale, il mio cassone e devo andarlo a consumare di nuovo. Io purtroppo adesso davanti non ho un cassone, quindi lo vado a recuperare virtualmente un.02:51:32 Relatore 9Un attimo.02:51:33 Relatore 9Però voi nel vostro caso avete un CDI davanti e quindi?02:51:38 Relatore 9È molto più più semplice perché scansionate direttamente il cassone allora ne prenderò allora.02:51:45Mi ha detto.02:51:45 Relatore 1Sta verificando, non ho capito cosa scansioniamo le cassone.02:51:50 Relatore 8Sì, applauso.02:51:51 Relatore 9Il il Barcode, il CDI.02:51:54 Relatore 2Dimmi.02:51:54 Relatore 1Non ho, non ho, non ho capito nulla.02:51:58 Relatore 9Però devi.02:51:58 Relatore 1Sto passando via produzione.02:52:02 Relatore 8Fare l'anima qualche.02:52:03 Relatore 9Devi sparare là, nel.02:52:04 Relatore 1Domanda.02:52:06 Relatore 8Ok.02:52:07 Relatore 9Devi sparare questo materiale qua, che è il materiale di consumo che ti serve per produrre la il tuo ragno.02:52:14 Relatore 8Jacopo, scusami, posso tornare indietro un passo. Perché? Perché i ragazzi non lo sappiano. E lei, i codici gruppi.02:52:23 Relatore 8Perché ci hanno doppia anima? La chiamata è una.02:52:28 Relatore 2Certo.02:52:28 Relatore 13Tutto corretto?02:52:30 Relatore 9Sì, sì, sì, sì.02:52:31 Relatore 8Per un operatore avrà diciamo in verde.02:52:36 Relatore 82 2 codici, ma mi deve chiamare sempre una perché è contenuta insieme l'altro conflitto.02:52:43 Relatore 8Se me le chiamate la l'animale, l'anima B mi state chiamando come contenitori ed io ho sorriso l'amico però.02:52:53 Relatore 8Purtroppo il blocco è uno dei due semafori neri non.02:52:59 Relatore 8Siamo riusciti dalla richiesta.02:53:04 Relatore 9E allora quindi io adesso vado a scansionare il il mio cassone, OK?02:53:11 Relatore 9Come vedete, io qua avevo.02:53:14 Relatore 9Nel mio cassone avevo.02:53:17 Relatore 9Avevo 70 pezzi, 79 pezzi, adesso ne ho 69 perché fondamentalmente ho.02:53:25 Relatore 9Allocato.02:53:27 Relatore 910 pezzi.02:53:30 Relatore 9A questo, a questo ordine, OK, adesso qua ho.02:53:36 Relatore 9Diverse scelte, prima fra tutte posso andare a completare e quindi cliccando sul pulsante di complete ho la possibilità di dichiarare dei buoni?02:53:47 Relatore 9Ho la possibilità anche di dichiarare degli scarti, quindi posso andare a cliccare sul pulsante di scarto e quindi dire.02:53:57 Relatore 9La motivazione dello scarto OK e la quantità di scarto. Una volta che ho selezionato questi due posso dire che tipo di scarto sto facendo. Se è uno scarto immediato, quindi deve essere buttato via direttamente, oppure se è una quarantena e quindi fondamentalmente deve essere mandato, come vi dicevo prima, nell'area di quarantena per essere rilavorato.02:54:21 Relatore 9O comunque rielaborare.02:54:22 Relatore 1Sto già sto dicendo qua però.02:54:24 Relatore 13Ha già finito?02:54:26 Relatore 9Non ho capito, scusate.02:54:27 Relatore 1Cosa producendo o stai parlando delle anime che.02:54:30 Relatore 2No, no, no.02:54:31 Relatore 9Sto, sto già producendo, sto solo facendo delle dichiarazioni di produzione.02:54:35 Relatore 9Ok.02:54:37 Relatore 9Cioè sto già scusate non so se è successo, sto già facendo.02:54:45 Relatore 9Aspettate, mi mi è partito un computer. Non so, non capisco cosa sia successo, probabilmente qualcuno sta già facendo. Avete mica cliccato qualcosa? Perché ho paura che sia stato mandato un completamento.02:54:57 Relatore 2Storia infrastrutturale.02:54:58 Relatore 3Ti ho detto no.02:55:00 Relatore 9Vabbè poco male allora va bene, ne ne prendo un'altro, non succede niente.02:55:06 Relatore 9Però.02:55:07 Relatore 9Non, non, non.02:55:08 Relatore 9Non state a toccare ancora niente, perché sennò.02:55:12 Relatore 9Devo saltare da.02:55:12 Relatore 9Un ordine all'altro è è un po' un problema.02:55:16 Relatore 11Ti sei persa. Io prima di tutto hai perso la comunicazione che non potevano toccare a sistema. Forse hai perso. A me però non mi è parso di capire che non potevano giocare nulla.02:55:25 Relatore 9Allora diciamo, diciamo che stiamo che stiamo facendo facendo le stesse cose sulla stessa, sulla stessa macchina, quindi se, se, se se me lo fate sul mio stesso ordine è come se state producendo il mio.02:55:37 Relatore 9Bene, però non è un problema, ne ho trovato un'altro, non succede niente, era solo per per piuttosto ditemelo così almeno so come come muovermi perché sennò mi.02:55:48 Relatore 9Mi mi appaiono degli errori al sistema che non riesco a capire.02:55:52 Relatore 9Tutto lì è solo quello. Detto questo non è un problema, risolviamo. Così ne prendo un'altro. Mi prendo di nuovo 1 1.02:56:06 Relatore 9Un tener OK, Ah.02:56:09 Relatore 9Questo qua non va bene. Ah, perché?02:56:12Va bene, OK?02:56:15 Relatore 9Detto questo, di nuovo, quindi io ho fatto il il consumo, adesso posso dichiarare sto dichiarando produzione, posso dichiarare dei buoni o degli scrap?02:56:27 Relatore 9In alternativa, però, prima posso decidere di fare delle dichiarazioni sulle cavità, perché?02:56:36 Relatore 9Logicamente dal mio ragno mi usciranno delle cavità e io posso già predichiarare il fatto che.02:56:44 Relatore 9I nelle le varie i vari pezzi del ragno, magari ce n'è uno OAO più di uno che ha delle difettosità questo cosa vuol dire? Che poi quando il mio ragno arriverà nella fase successiva di cutting, questi pezzi saranno automaticamente scrup?02:56:58 Relatore 9Pati e quindi buttati via da a causa della dichiarazione che ho fatto io precedentemente, perché fondamentalmente quello che succederà è che io avrò davanti il mio ragno, vedo che ci sono il il pezzo almeno.02:57:13 Relatore 9Io sto parlando di come, di come.02:57:16 Relatore 9Succede a Ostra, ma poi magari voi la la gestite in maniera diversa però.02:57:23 Relatore 9A mia memoria, a nostra va quello che fanno e che fondamentalmente hanno davanti il loro, il loro ragno che adesso disegnano in maniera.02:57:29 Relatore 13Uguale, uguale.02:57:30 Relatore 8Confermano che è uguale.02:57:33 Relatore 9Ok, OK, Perfetto. Quindi fondamentalmente avranno il ragno con.02:57:38 Relatore 9Diverse cavità. Ora adesso ne metto quattro, possono essere 2, 8 quello che volete. Fondamentalmente mi sembra di ricordare che si fa un segno sulla cavità.02:57:48 Relatore 9Pallata OK.02:57:49 Relatore 8Non è in confine, c'è la pietra.02:57:52 Relatore 9Ok quindi fondamentalmente viene fatta per fare queste dichiarazioni, oltre a mettere l'X sulla sulla cavità fallata voi cosa dovete fare? Dovete selezionare la cavità adesso in questo caso nell'esempio che ho preso c'è solo una cavità, però qua potrete vedere tutte le cavità che che hanno la difesosità selezionare il il.02:58:12 Relatore 9Tipo di difettosi.02:58:12 Relatore 9Età e specificare la quantità.02:58:17 Relatore 9E poi generare il.02:58:21 Relatore 9Il lo scrap della della dell'anima, OK, analogamente a quello che abbiamo fatto prima, però qua, in questo caso vi ricordo che stiamo scrappando il materiale finito, mentre in questo caso invece stiamo scappando il materiale successivo al cutting, quindi l'anima stessa.02:58:45 Relatore 9Per la complete, invece, quando?02:58:48 Relatore 9Quando si vado vado a completare io, devo specificargli qual è la quantità?02:58:53 Relatore 9E posso decidere di stampare o meno l'etichetta in generale di default sempre da stampare EE posso lanciare il comando di completamento OK?02:59:06 Relatore 9Come vi dicevo prima, qua vedete il pulsante di parshall completion, quindi di completamento parziale, che per per farvelo identificare ha un bello sfondo giallo paglierino, così capite che è totalmente diverso da una completamento totale.02:59:22 Relatore 9E questa è esattamente quello che che vi spiegavo prima, ossia io posso andare a completare parzialmente un mio cassone dicendo io sto finendo il turno, ne metto 5 pezzi e faccio il completamento parziale stampando l'etichetta o non stampandola a seconda del processo e così poi successivamente il mio collega che sta facendo, che sta arrivando, che inizia il turno, vedrà che ha un cassone parzialmente completato.02:59:50 Relatore 9E quindi può lui potrà andare sulla sulla pulsante di completamento.02:59:55 Relatore 9Chiedere al sistema di riutilizzare un cassone che ha davanti il sistema.02:59:59 Relatore 9Caso in cui ci siano dei cassoni pendenti, automaticamente gli filerà questo questo valore o, alternativamente, potrà scansionare la l'etichetta parziale al scansionamento dell'etichetta parziale. Qua verrà mostrata la quantità effettiva che è contenuta in quel cassone e lui potrà fare la differenza. Quindi se ipotizziamo di avere fatti 5 prima e il cassone da 10 io qua completerò a 5.03:00:24 Relatore 9Al mio completamento mi uscirà un'etichetta con 10 pezzi con tutte le informazioni che mi servono e quindi quel \*\*\*\*\*\*\* potrà essere portato in.03:00:30 Relatore 9Magazzino.03:00:31 Relatore 9Logicamente la dichiarazione parziale non manda le informazioni a SAP che il il cassone è stato completato perché solo le i completamenti totali possono essere rimandati.03:00:43 Relatore 1L'ha detto?03:00:45 Relatore 9Scusate.03:00:47 Relatore 1No, è una cosa.03:00:50 Relatore 1Il l'etichetta, cioè il CD del parziale, poi va buttato.03:00:54 Relatore 9Sì, logicamente il CD del parziale e poi va buttato.03:00:57 Relatore 9Contiene esattamente le stesse informazioni, però logicamente le quantità sono sono sbagliate, OK, quindi in quel caso il CD dovrà essere buttato?03:01:08 Relatore 9EE però al al al nuovo completamento vi verrà generato un'altro un'altro CD, quindi potete sostituirlo.03:01:17 Relatore 9Quindi fondamentalmente.03:01:19 Relatore 9Quello che risulterà è che è stato prodotto nel turno 1 5 pezzi per quel cassone nel turno due sono stati prodotti altri 5. Il totale fa 10. Verrà stampato un'etichetta da 10 con l'informazione del CD con tutte le barcode e tutte le le icone che servono vengono attaccate sul cassone. e a SAP verrà mandato 1 1 messaggio dicendo sono stati prodotti 10 pezzi in questo cassone 123.03:01:45 Relatore 9Di questo materiale e quindi SAP porterà il cassone alla alla fase successiva.03:01:52 Relatore 9La fase successiva è quella di cutting e quindi quando quel cassone.03:01:57 Relatore 9Su cui io avevo dichiarato una difettosità sul sulla sull'anima.03:02:04 Relatore 17X.03:02:05 Relatore 9Automaticamente, quando scansionerà il consumo, verrà generato uno scrap automatico di quella partnumber.03:02:15 Relatore 9E quindi il.03:02:16 Relatore 9L'operatore non dovrà fare niente. L'unica cosa che dovrà fare all'uscita del cutting quel pezzo lì, metterlo da parte, buttarlo, portarlo diciamo nell'area di di scrap, senza dover fare nessun tipo di dichiarazione perché la dichiarazione è già stata eseguita automaticamente, OK?03:02:34 Relatore 8Gian Pietro.03:02:36 Relatore 9Ok.03:02:38 Relatore 2A fare il cartellino?03:02:40 Relatore 9Quello che vedrà.03:02:44 Relatore 1Hai già aspettato?03:02:45 Relatore 6Mi dica.03:02:46 Relatore 2No, perché non funziona.03:02:48 Relatore 9Quello che vedrà fondamentalmente l'operatore del cutting sarà.03:02:50 Relatore 14Perché la differenza tra parziali?03:02:54 Relatore 1Che differenza nel nel layout tra il parziale e definitivo?03:03:01 Relatore 9Nel layout della stampa.03:03:03 Relatore 1Sì, delle gambe dell'informazione. Cioè si è litigato uno speciale uno.03:03:05 Relatore 9Allora?03:03:08Sì, sì, sì.03:03:08 Relatore 9Sì, sì, allora se allora non so se in Italia sarà di nuovo così. Non posso dirvelo io perché non gestisco le stampe.03:03:16 Relatore 9Nella in Ostrava c'è proprio scritto, un parshal bello grosso in cima.03:03:23 Relatore 9Se ricordo bene da qualche parte, comunque è identificato il fatto che ci sia che è un sia un parziale.03:03:31 Relatore 9Quale? in Italia non so come verranno gestite le etichette perché so che ci sono delle dimensioni leggermente diverse, quindi su quello di nuovo secondo me è una domanda che dovete tenere presente o fare al business dicendo Guardate che noi ne abbiamo bisogno perché so che il nostro vanno delle delle etichette che sono leggermente diverse. A livello di layaut quello che fa il MES è semplicemente mandare l'informazione al al sistema di stampa.03:03:55 Relatore 13Scusa, ogni dichiarazione degli scarti dobbiamo farla mentre scartiamo il pezzo OA fine produzione?03:04:05 Relatore 13Perché ora la regola dice, scarto un pezzo più chiaro tramite il CD ed isolo.03:04:12 Relatore 13Il pezzo di scarto?03:04:15 Relatore 9È di nuovo una domanda di processo su cui io non posso risponderti, ad oggi ti direi.03:04:21 Relatore 9Che rimane esattamente così. Però di nuovo processo io non posso, non so dirvelo, cioè è meglio che non ve lo dica io, perché magari dico delle cose sbagliate.03:04:26 Relatore 4Dal punto di vista del sistema, come oggi, mi aspetto che tu possa dichiarare lo scarto mentre stai producendo OA fine produzione.03:04:37 Relatore 9Assolutamente l'unico limite che ha lo scarto, ma che è lo stesso limite che ha la il completamento, quindi dichiarazione dei buoni, è il fatto che ci deve essere consumato qualcosa.03:04:47 Relatore 9Cosa? Perché logicamente io non posso mandare a SAP una dichiarazione di un cassone di buoni o di scarti senza avergli detto che ho consumato del materiale per fare quella dichiarazione. Quindi l'unico limite è infatti, come vi ho fatto vedere prima, quando entrano in ordine senza aver scansionato i pulsanti sono disabilitati. Io non posso dichiarare né scarto né buoni fino a che non ho fatto il consumo necessario per poterli dichiarare.03:05:15 Relatore 9Quindi di nuovo, se io ho come vedete?03:05:20 Relatore 9Anche in questo caso OK, io ho quattro pezzi startati, però non ho nessuna nessuna quantità.03:05:22 Relatore 2Proprio il nostro aspetto addosso.03:05:28 Relatore 2Che si compone.03:05:28 Relatore 9Scansionata.03:05:30 Relatore 9Quel l'unica quantità che ho scansionato l'ho scansionata per le i pezzi che ho già completato, se io vado qua nella declaration vedete che io non posso startare quantità maggiori, quindi anche se ci mettessi qua.03:05:46 Relatore 910 vedete qua mi dice deve essere minore di quella disponibile. Perché? Perché io non ho consumato la quantità corretta per poter fare almeno una dichiarazione. Analogamente se io vado sul completamento io posso dire provo a completarne quattro e il sistema mi mi bloccherà dicendomi Guarda che.03:06:09 Relatore 9Non non puoi completarle perché non c'è abbastanza quantità consumata.03:06:13 Relatore 9Non so se mi avete seguito perché sento un po' di di rumore, OK OK OK, perfetto.03:06:18 Relatore 1Sì.03:06:22 Relatore 9E niente. Quindi fondamentalmente la la logica è questa.03:06:29 Relatore 9Non so se.03:06:29 Relatore 14Prendo la fase successiva, voglio scappare.03:06:34 Relatore 9È esattamente la stessa cosa. Logicamente a differenza nelle fasi successive non c'è la possibilità di di di fare una dichiarazione di di cavità, quindi logicamente questi due pulsanti sono disabilitati. Io farò sempre dichiarazioni di di materiale finito nel cutting, cosa importante visto che noi stiamo parlando di.03:06:57 Relatore 91 1 cosa tipo questa dove io ho magari quattro anime di cui.03:07:02 Relatore 8Perché stiamo andando fuori in radio, se vogliamo poi.03:07:06 Relatore 9Ok, dico solo, dico solo questo, molto, molto velocemente.03:07:11 Relatore 13Ah, con lei come Rossi?03:07:11 Relatore 8Ok.03:07:12 Relatore 9Cerco di spiegare molto velocemente, logicamente noi non al casting possiamo produrre un'anima di questo tipo, dove un materiale sinistro e il materiale destro OK nel cutting questo si tradurrà in.03:07:25 Relatore 9Nel momento di scrap avere qua due materiali, uno per il sinistro e uno per il destro, perché logicamente al cutting. Io queste due cose le produco in due, diciamo in due modi diversi, perché una è sinistra e l'altro a destra. Quindi l'unica differenza è che rispetto a al casting qua avrete uno o più materiali a seconda di cosa si va, che tipo di materiale si va a produrre tutto lì però la concetto è lo stesso, seleziono materiale seleziono, il tipo di di failor e la quantità.03:07:53 Relatore 9Analogamente nella complete avrete in cima la la selezione del materiale e poi la dichiarazione, quindi qua avrete n materiale a seconda del numero di di prodotti che devo devono uscire da quella linea di produttiva.03:08:09 Relatore 2O.03:08:09 Relatore 8Ok.03:08:10 Relatore 17K.03:08:10 Relatore 1Prossima domanda?03:08:12 Relatore 17Certo.03:08:13 Relatore 1Utilissimo se durante la fase di chiamata dei materiali trovo del materiale di scarto tipo un'anima di scarto come era dichiaro.03:08:13 Relatore 12Ah, ho capito?03:08:21 Relatore 9Allora in questo caso?03:08:24 Relatore 9Buona domanda.03:08:26 Relatore 9Quando si va a fare un consumo?03:08:30 Relatore 9Automaticamente il sistema ti dice quale container è stato consumato e quale batch. OK, qua c'è un'altro pulsantino che è molto simile a questi dove ti dà la possibilità di scartare del materiale consumato. OK, quindi anche qua voi andrete a selezionare il materiale e potete consumare la quantità.03:08:48 Relatore 9Scartare la quantità consumata, il layout è sempre lo stesso, l'unica differenza è che in questo caso non avete sulla sinistra il materiale, perché il materiale è il materiale di consumo.03:08:57 Relatore 9Il BB zero è l'anima.03:09:00 Relatore 1Va bene, grazie.03:09:02 Relatore 2Un attimo la domanda da fare.03:09:03 Relatore 6Prego, prego, prego.03:09:04 Relatore 8Prego, prego se se Jacopo stai sentendo.03:09:09 Relatore 10Sistema è in inglese.03:09:11 Relatore 9No, allora adesso ve lo stiamo. Ve lo stiamo mostrando in inglese per il semplice fatto che non ci sono ancora le traduzioni italiane, perché come abbiamo fatto per ostrava verrà fornita. Ora non so a chi però verrà fornita 1 1, fondamentalmente la lista di tutte le le scritte che vedete.03:09:32 Relatore 9Che una possibile traduzione in italiano perché almeno quello più o meno lo sappiamo, però logicamente verrà passata a voi perché magari la il nomenclatore che usiamo noi tipo buffer container, parshall complete e cose varie non non rientrano tra virgolette nelle vostre corde e quindi logicamente.03:09:50 Relatore 9Sta un po' AA chi poi riceverà questa lista andare ad adattare sulla base di di come voi.03:09:56 Relatore 9Poi parlate del sistema perché poi da un certo punto di vista noi usiamo degli standard che sono appunto container, buffer eccetera eccetera. Però magari il nostro standard non a voi non dice niente OKE, quindi poi logicamente ci sarà questo questo passo di traduzione. Adesso ve lo stiamo facendo vedere in inglese, perché inglese è la lingua di default del sistema.03:10:17 Relatore 9Però logicamente si può cambiare lingua senza problemi.03:10:20 Relatore 7Ok, grazie.03:10:21 Relatore 8Noi che lo vediamo però in italiano volevo dirti che hai fatto caso dove c'è la cornetta?03:10:27 Relatore 9No, no, sì, sì. Non non guardatelo in italiano, perché in italiano non ci sono ancora le traduzioni fatte. No, no, assolutamente.03:10:29 Relatore 12Che.03:10:34 Relatore 8Ci sarà quella lì? Se poi vuoi quella destra del tempo indicare.03:10:35 Relatore 12No, no, no. Dove dobbiamo prepararti per tornare?03:10:41No, no, no, non.03:10:41 Relatore 8È ancora dato il.03:10:45 Relatore 7Bene, chiaramente voi state vedendo un sistema di training, non è il sistema di produzione. Poi il sistema di produzione sarà completo con tutte le produzioni. Capito? Uguale a questo verbale.03:10:57 Relatore 7Grazie o no?03:10:58 Relatore 1Come fare dei test adesso?03:11:00 Relatore 1OK, così fuori da questa informazione.03:11:00 Relatore 2Tutti.03:11:05 Relatore 7Poi ha sempre questa è un'altra domanda da fare oggi, ma dovresti avere il U at.03:11:13 Relatore 7Per fare dei test.03:11:14 Relatore 7Ma comunque domani c'è un'altra sessione, sempre con voi.03:11:18 Relatore 7Però e poi in futuro nelle prossime settimane dovrebbe dovrebbe essere stato organizzato dall'elezione di u.at.03:11:24 Relatore 2Con il giorno, però.03:11:31 Relatore 7Samantha.03:11:32 Relatore 70.03:11:36 Relatore 3Sì, dopo.03:11:38 Relatore 2Ciao un attimo Eh, ingaggiano.03:11:39 Relatore 13Ok, a domani, grazie.03:11:41 Relatore 13Però voglio arrivare la bisogna, Ciao, Ciao Ciao.03:11:46 Relatore 1Per fare i giorni non si vedevano.03:11:47 Relatore 13Prima di un.03:11:48 Relatore 13Po' più di te valutavo gli esami.03:11:51 Relatore 2Sì, sì, faglielo trovare.03:11:56 Relatore 7Sì, no, scusa, io a te sono dei test.](https://engit-my.sharepoint.com/personal/paolo_comparoni_eng_it/Documents/File%20trascritti/Recording%20B-SPARK%20Key%20User%20Training%20Line%20Operator%20Mapello%20\(M1\)-20260225_075641UTC-Meeting%20Recording.mp3)
+## Panoramica MES, livelli e modellazione della produzione
+
+- 00:15:03 Relatore 7Lo scopo di questo training quanta dare poi la formazione per il nuovo MES che verrà implementato a breve.
+- 00:15:14 Relatore 7Annalisa è la docente, io sono Cristian Napoli che sono il project manager e collegati. In Colle c'è tutto il la leadership del team tecnico. Nel caso fanno delle domande un po' più specifiche.
+- 00:15:29 Relatore 7In analisi uno.
+- 00:15:29 Relatore 8Vuoi? Certo. Buongiorno, comincerò a prendere sono la docente del corso Office intermes. Mi chiamo Annalisa Sciaro.
+- 00:15:39 Relatore 8In corso sarà si utilizza questi due moduli teorici.
+- 00:15:44 Relatore 8Il primo modulo riguarderà un overview, quindi una panoramica della delle applicazioni, delle funzionalità che ci sono su p center, il secondo modulo invece entrerà più nell'aspetto operativo, quindi nella produttiva della produzione.
+- 00:16:02 Relatore 8Poi, come accennavano i colleghi, ci sarà poi una prova pratica.
+- 00:16:10 Relatore 8Vabbè, vedremo tutto ciò che riguarda gli ori.
+- 00:16:15 Relatore 8Quello che viene fatto è la linea.
+- 00:16:20 Relatore 8Possiamo iniziare a parlare sulla la cosa molto importante.
+- 00:16:27 Relatore 8Center MS, chiediamo tutti.
+- 00:16:32 Relatore 8Il MES è proprio un software che gestisce e controlla l'esecuzione della posizione.
+- 00:16:40 Relatore 8Manufactu richieste future system.
+- 00:16:44 Relatore 8Monitora in tempo reale quello che accade nella produzione, la linea produttiva.
+- 00:16:51 Relatore 8E cosa fa?
+- 00:16:54 Relatore 8Converte.
+- 00:16:55 Relatore 8Gli ordini che vengono spediti, che arrivano per sapere è un software gestionale.
+- 00:17:03 Relatore 8Che gestisce gli ordini e ha la strategia al suo interno per quanto riguarda la produzione.
+- 00:17:11 Relatore 8Questo qua li converte, converte, riceve gli ordini di Whatsapp.
+- 00:17:18 Relatore 8E riconverte in istruzioni operative.
+- 00:17:21 Relatore 8Che dovrà seguire comunque l'operatore presente sulla linea di produzione.
+- 00:17:26 Relatore 8Inoltre, che cosa?
+- 00:17:27 Relatore 8Fa.
+- 00:17:29 Relatore 8Spedisce le informazioni che che vengono eseguite, e quindi gli esiti della produzione, a sato, in modo tale da essere da esserci un collegamento diretto in allineamento delle giacenze tra SAP e MES.
+- 00:17:49 Relatore 8Conoscete più o meno gli happy? Sap è un gestionale proprio che si interfaccia con con gli ordini, con quelli.
+- 00:17:58 Relatore 8Fornitori, che gestisce proprio la strategia.
+- 00:18:03 Relatore 8Quali sono i vantaggi di ecocenter MES? Sicuramente una pianificazione chiara. Che cosa indica una pianificazione delle operazioni non è più complessa, molto più chiara, più definita, più coordinate.
+- 00:18:19 Relatore 8Il monitoraggio abbiamo detto prima che il MES monitora esattamente.
+- 00:18:25 Relatore 8Le fasi, la fase positiva, quindi tutto ciò che viene fatto nel linea di fruizione, vedete voi.
+- 00:18:33 Relatore 2Sì, sì.
+- 00:18:36 Relatore 8Viene proprio monitorato in tempo reale, controllato, monitorato esattamente tutto ciò che viene fatto.
+- 00:18:43 Relatore 8Della linea funsiva.
+- 00:18:47 Relatore 8Che cosa c'è ulteriormente? La tracciabilità, quindi le movimentazioni che ci sono, dei materiali vengono registrate o i cani che sappiamo esattamente dove si trova il container?
+- 00:19:01 Relatore 8Togliere il CD sul cellulare?
+- 00:19:05 Relatore 2CDCD.
+- 00:19:09 Relatore 8Cosa fa? Riduce gli errori. Perché? Perché ci sono proprio delle procedure?
+- 00:19:16 Relatore 8Automatizzate.
+- 00:19:18 Relatore 8Che consentono di minimizzare le le attività.
+- 00:19:23 Relatore 8E la riduzione vera e propria dell'orrore.
+- 00:19:25 Relatore 8Che può accadere?
+- 00:19:28 Relatore 8L'acquisizione dei dati semplificata che cos'è è una raccolta dei dati.
+- 00:19:33 Relatore 8L'sms è molto più semplice.
+- 00:19:36 Relatore 8Non più complessa.
+- 00:19:39 Relatore 8Una riduzione della Carta e della burocrazia.
+- 00:19:43 Relatore 8Ci sono delle procedure autorizzate molto seguito, ci sono le istruzioni operative, quindi la Carta va a ridursi.
+- 00:19:54 Relatore 8L'utilizzo della Carta delle istruzioni digitali chiare perché l'operatore a tutti gli effetti.
+- 00:20:03 Relatore 8Utilizza.
+- 00:20:05 Relatore 8Delle istruzioni che arrivano.
+- 00:20:09 Relatore 8Dall'ordine le istruzioni che l'operatore dovrà seguire.
+- 00:20:14 Relatore 8Il riconoscimento della della produttività è proprio il riconoscimento vero e proprio dei risultati produttivi. Com'è andata? La linea di produzione, quindi sono proprio delle.
+- 00:20:27 Relatore 8Le misurazioni e delle valorizzazioni e della del performance della linea.
+- 00:20:42 Relatore 8I livelli della processione.
+- 00:20:44 Relatore 8Vengono descritti perché, quali sono i beni?
+- 00:20:53 Relatore 8Per lo standard.
+- 00:20:56 Relatore 8Definito in livelli in livelli, come è organizzata la produzione?
+- 00:21:01 Relatore 12Come.
+- 00:21:04 Relatore 8Il livello più alto è il verti.
+- 00:21:09 Relatore 8Software gestionale.
+- 00:21:12 Relatore 8Quello più pianifica.
+- 00:21:14 Relatore 8Stabiliscono proprio che cosa c'è da produrre e quando c'è da produrre. Questo naturalmente è una gestione Saf per cui in base agli ordini, cioè in base alle strategie che hanno direttamente fatto.
+- 00:21:32 Relatore 8Il livello tre, il MES, quindi senza PRESS il coordinamento possiamo chiamare orchestratore, perché alla fine il MES riceve da SAP.
+- 00:21:44 Relatore 8Le informazioni necessarie per la produzione e coordina, trasforma, come diceva prima, le decisioni che avevano dall'alto in vere e proprie azioni.
+- 00:21:57 Relatore 8I concreti introduzione, le istruzioni, cosa dobbiamo fare, cosa deve fare, deve sapere l'operatore presente in linea.
+- 00:22:05 Relatore 8E monitora monitoraggio in tempo reale.
+- 00:22:11 Relatore 8Tutto ciò che avviene in modo tale che sia proprio come stabilito, come previsto deve essere.
+- 00:22:17 Relatore 8Sto dettanto dall'alto e poi MES.
+- 00:22:23 Relatore 8Il livello uno e due.
+- 00:22:27 Relatore 8Sono proprio l'esecuzione operatori, gli operatori macchine e quindi tutto ciò che viene fatto fisicamente.
+- 00:22:36 Relatore 8All'interno dell'approvazione.
+- 00:22:42 Relatore 8Sicuramente il MES.
+- 00:22:46 Relatore 8Questo software che gestisce e monitora.
+- 00:22:51 Relatore 8Bene.
+- 00:22:51 Relatore 8Processo produttivo?
+- 00:22:53 Relatore 8Deve conoscere com'è lo stabilimento, com'è la produzione, quindi come, come avvengono, come avvengono queste informazioni, come vengono date al mese queste informazioni? Tutte e due le modalità.
+- 00:23:08 Relatore 8Due modelli.
+- 00:23:10 Relatore 8Il Planet Modeling.
+- 00:23:12 Relatore 8Modello utente della struttura fisica del player.
+- 00:23:18 Relatore 8E il modello?
+- 00:23:21 Relatore 8Process modeling.
+- 00:23:23 Relatore 8Appunto, come avvengono le cose?
+- 00:23:26 Relatore 8Il secondo pandello iniziamo a parlare del primo, dove avvengono la struttura fisica della produzione?
+- 00:23:35 Relatore 8Beh, questo tipo di modello è proprio.
+- 00:23:39 Relatore 8Jessica, buona struttura gerarchica.
+- 00:23:42 Relatore 8In alto abbiamo il primo livello.
+- 00:23:46 Relatore 8Alto Enterprise, il gruppo.
+- 00:23:50 Relatore 8Membro.
+- 00:23:52 Relatore 8Freddo.
+- 00:23:54 Relatore 8Il sito operativo.
+- 00:23:57 Relatore 8Lento, in questo caso è un appello.
+- 00:24:00 Relatore 8L'altro stabilimento è furno.
+- 00:24:04 Relatore 8La linea di posizione.
+- 00:24:07 Relatore 8Si, la fast online o l'account online vedo tre.
+- 00:24:10 Relatore 8Ci sono proprio i livelli, quelli li guarderemo nella prova pratica, appunto, quando vedremo il.
+- 00:24:11 Relatore 8Piano bello.
+- 00:24:13 Relatore 8È un'altro livello, vedrete poi che nel center test.
+- 00:24:27 Relatore 8Lascio flor e quindi l'altro modulo.
+- 00:24:31 Relatore 8Che cos'è il Wall Center?
+- 00:24:34 Relatore 8È proprio la stazione di lavoro.
+- 00:24:38 Relatore 8L'unità produttiva.
+- 00:24:40 Relatore 8Ok, quindi riassumendo, questi qua sono i livelli.
+- 00:24:45 Relatore 8Che conosce, che deve conoscere o che center per entrare nel mondo della produzione?
+- 00:24:51 Relatore 8Eh, boh.
+- 00:24:54 Relatore 8Il processo modeling.
+- 00:24:56 Relatore 8Quindi come avvengono le cose?
+- 00:25:00 Relatore 8Molto importante.
+- 00:25:02 Relatore 8Possiamo parlare?
+- 00:25:04 Relatore 8Della delle sequenze di operazioni.
+- 00:25:09 Relatore 8Cos'è la bof? Ne parleremo ancora, venite avanti.
+- 00:25:15 Relatore 8Sono le sequenze di operazioni PIL of Possess.
+- 00:25:20 Relatore 8La lista di operazioni di processi.
+- 00:25:25 Relatore 8E vengono spediti, accendiamo già.
+- 00:25:28 Relatore 8A parte.
+- 00:25:30 Relatore 8Stop, viene ricevuto da SAP.
+- 00:25:35 Relatore 8Invia annesso molto importante.
+- 00:25:38 Relatore 8Informazione.
+- 00:25:42 Relatore 8La bomba.
+- 00:25:44 Relatore 8Off material, la distinta del materiale, la lista dei materiali. Vediamo tutti.
+- 00:25:53 Relatore 8Lo so cos'è, è proprio la lista dei materiali che sono necessari per la fase operativa che stiamo seguendo in questo momento.
+- 00:26:05 Relatore 8I tool, le attrezzature necessarie, le attrezzature che.
+- 00:26:10 Relatore 8Ti richiamo un po' di sì.
+- 00:26:11 Relatore 8Anche.
+- 00:26:13 Relatore 8Le istruzioni.
+- 00:26:15 Relatore 8C'eravamo prima che.
+- 00:26:18 Relatore 8Il nes o ti sei permesso?
+- 00:26:22 Relatore 8Ricevere taglia fissato.
+- 00:26:26 Relatore 8Software professionale e conosce fornitori.
+- 00:26:30 Relatore 12O.
+- 00:26:33 Relatore 8Riceve gli ordini.
+- 00:26:36 Relatore 8Gli ordini vengono convertiti.
+- 00:26:40 Relatore 8Le istruzioni per gli operatori.
+- 00:26:45 Relatore 8I controlli di qualità?
+- 00:26:49 Relatore 8All'interno del modello.
+- 00:26:52 Relatore 8Process modeling.
+- 00:26:54 Relatore 8Quindi il modello d'accesso.
+- 00:26:58 Relatore 8Ci sono le verifiche.
+- 00:26:59 Relatore 8Da eseguire puntuali sia del componente.
+- 00:27:03 Relatore 8Nella fase prodotto finale.
+- 00:27:12 Relatore 8Per la struttura Petrarca, come abbiamo detto.
+- 00:27:16 Relatore 8C'è anche il files.
+- 00:27:18 Relatore 8Prendo il plank, appello no?
+- 00:27:26 Relatore 8Le linee di produzione.
+- 00:27:28 Relatore 8Casting cuffing.
+- 00:27:32 Relatore 8File.
+- 00:27:34 Relatore 8I workstadt delle stazioni, il lavoro.
+- 00:27:38 Relatore 8Dove proprio gli operatori.
+- 00:27:42 Relatore 8Sono guidati dal MES.
+- 00:27:44 Relatore 8Delle stazioni di lavoro c'è l'operatore e il MES.
+- 00:27:49 Relatore 8Esegue, diciamo fa da, fa da guida.
+- 00:27:54 Relatore 8Ogni attività che viene svolta.
+- 00:27:58 Relatore 8Nel Work Center è proprio uno specifico ordine di produzione, work order, anche la.
+- 00:28:09 Relatore 8La cooperazione nella fase inglese. Così quando entriamo nella nella parte pratica abbiamo gli abbinamenti, work order, ordini di produzione, ordine di lavorazione.
+- 00:28:27 Relatore 8Abbiamo detto.
+- 00:28:29 Relatore 8Oh, che ci sono nel process modeling?
+- 00:28:33 Relatore 8La lista dei materiali.
+- 00:28:36 Relatore 12Osman e Office.
+- 00:28:40 Relatore 8La Siria dalla lista dei materiali distinguere i materiali.
+- 00:28:46 Relatore 8Vedremo poi quando entreremo proprio nella pratica, qui abbiamo inserito una immagine per fare un esempio.
+- 00:28:55 Relatore 8La lista dei batteri.
+- 00:28:58 Relatore 8I materiali non vengono inseriti manualmente.
+- 00:29:02 Relatore 8Esatto, ci dà indicazioni, esatto che invia materiali.
+- 00:29:10 Relatore 8E se sono materiali si può produrre.
+- 00:29:14 Relatore 8All'anagrafica dei materiali? Vedremo, poi entrerò proprio nel merito di questa pagina.
+- 00:29:23 Relatore 8Però associati tutti i lotti.
+- 00:29:26 Relatore 8Che cosa per i prime componenti dei lavoratori e materiali?
+- 00:29:34 Relatore 2Ciò che è per te.
+- 00:29:40 Relatore 8I container CDO richiamate CD. Corretto male bene.
+- 00:29:47 Relatore 8Vorrei dimenticarli OK.
+- 00:29:50 Relatore 8I lotti all'interno della produzione naturalmente materiale non è.
+- 00:29:58 Relatore 8Che mi dico oggi no container contenitori.
+- 00:30:05 Relatore 8Nel in un sistema MES la definizione material tracking unit altre.
+- 00:30:14 Relatore 8Che avremo la lista di tutti i container, quindi tutti i lotti.
+- 00:30:19 Relatore 8Che vengono movimentati, mossi all'interno.
+- 00:30:25 Relatore 8Dello stabilimento.
+- 00:30:27 Relatore 8È importante, è importante sapere che ogni container.
+- 00:30:32 Relatore 8Deriva da un container Skype.
+- 00:30:36 Relatore 8Modello di contenuto.
+- 00:30:40 Relatore 8Questa parola contenuta in cui poi la vedremo insieme.
+- 00:30:44 Relatore 8Entreremo proprio sempre nella parte pratica per perché sono quelle, forse avete il box.
+- 00:30:49 Relatore 2Sì.
+- 00:30:50 Relatore 8Ma facciamo un esempio, nel box carrello alla fusione.
+- 00:30:55 Relatore 8Dell'anno, nella prima fase anche del carrello.
+- 00:30:59 Relatore 13Sì, certo.
+- 00:31:01 Relatore 8No, che poi non vengono tracciati dalla fusione al taglio vengono messi.
+- 00:31:06 Relatore 2Forse assegnamenti c'è scritto dentro.
+- 00:31:10 Relatore 4Il container è l'identificativo del singolo contenitore, quello che per noi è l'ID del del CD, mentre il container Type è il tipo di imballo in cui è il materiale. Il container poi è scritto chiedete dopo.
+- 00:31:23 Relatore 2Sì, un po'.
+- 00:31:25 Relatore 8È l'unità.
+- 00:31:28 Relatore 4È la handling unit, quindi l'unità di movimentazione del materiale SAP. Lo chiama handling unit nel mese chiamato container, ma è logicamente quello che oggi chiamiamo.
+- 00:31:40 Relatore 4Chi è il singolo cassone?
+- 00:31:43 Relatore 8Che l'unità, l'unità, logica, non so come.
+- 00:31:47 Relatore 4È liti del \*\*\*\*\*\*\*.
+- 00:31:52 Relatore 8Peter ha detto, che container?
+- 00:31:55 Relatore 8All'interno ha una deriva da un conto reside, è importante questa associazione?
+- 00:32:02 Relatore 8Perché all'interno del container container di contenitore Esistono delle proprietà, tra cui.
+- 00:32:10 Relatore 8La quantità massima di umiltà, nello specifico?
+- 00:32:14 Relatore 8Io faccio sempre l'esempio del pallet, all'interno di un pallet possiamo contenere 100 unità, utilizziamo questo 100, la massima capacità.
+- 00:32:26 Relatore 8La Pro B?
+- 00:32:27 Relatore 8È inserita nel container, è importante poi per l'operatore quando andrà a chiudere.
+- 00:32:36 Relatore 8Fine con l'operazione che sta facendo, quella è una tolleranza, diciamo.
+- 00:32:42 Relatore 8Prossimamente per rimangono le più ufficiali con.
+- 00:32:47 Relatore 13La crisi ore fare i.
+- 00:32:49 Relatore 8Materassi, la prima quantità o massima sarà già nel quel sistema.
+- 00:32:55 Relatore 8Perché dovrai essere disturbato il menù, sicché il tuo.
+- 00:33:02 Relatore 12Sì.
+- 00:33:03 Relatore 8Ci siamo? No, no, scusi.
+- 00:33:10 Relatore 14Aspetta la Laura.
+- 00:33:14 Relatore 8Sì, prego.
+- 00:33:17 Relatore 15Seguita massima.
+- 00:33:20 Relatore 2No.
+- 00:33:21 Relatore 8Ci sente anche il collega Jacopo, nel caso.
+- 00:33:24 Relatore 15Che se non abbiamo l'imbaldi l'imballo cliente dobbiamo utilizzare un imballo alternativo che magari ha un multiplo di imballo maggiore.
+- 00:33:34 Relatore 8Generico Type.
+- 00:33:36 Relatore 8E Jacopo Iela, non so se avete sentito.
+- 00:33:39 Relatore 7Dice che non si sente bene?
+- 00:33:41 Relatore 3La.
+- 00:33:44 Relatore 8Ci sentite?
+- 00:33:46 Relatore 16Te Annalisa, te ti sento benissimo.
+- 00:33:49 Relatore 16Gli altri meno.
+- 00:33:51 Relatore 8Si può?
+- 00:33:55 Relatore 15Che se il multiplo di ballo deve essere sforato, quindi dobbiamo aumentare la quantità nell'imballo perché l'imballo cliente non ce l'abbiamo, dobbiamo utilizzare quello alternativo che prevede un motivo di imballo più alto. Il sistema lo prevede o.
+- 00:34:11 Relatore 8No, allora in realtà prego.
+- 00:34:15 Relatore 16No, vai, vai, vai, Annalisa.
+- 00:34:17 Relatore 8No, no, no, no, di tutto mi dispiacerebbe.
+- 00:34:19 Relatore 16Ok allora se al prodotto finito non è stato specificato un container Type specifico, allora e deve andare oltre alla quantità c'è. Lì associamo di solito un genery container che non non impone diciamo un contraente. Poi sullo sullo Start e il complete dell'ordine in base al container Type.
+- 00:34:46 Relatore 15E ci lascia aperto praticamente la quantità massima.
+- 00:34:49 Relatore 16Esattamente, esattamente scegli generi container quindi non hai un blocco.00:34:50Sì.
+- 00:34:54 Relatore 15Ok, OK, OK, Ciao poi.
+- 00:34:56 Relatore 8Lo lo vedremo poi nella parte pratica, perché nel momento della chiusura del completamento dell'operazione vediamo proprio che viene segnalato il container Type per indicare quello il tuo container Type, ma c'è la possibilità di mettere un Generic OK?
+- 00:35:10 Relatore 15Grazie.
+- 00:35:13 Relatore 8Quindi ritorniamo attimo.
+- 00:35:14 Relatore 1Ritenuto un anno per cui noi in fonderia breve, siccome abbiamo i codici, ogni codice andrà solo.
+- 00:35:22 Relatore 6Può container.
+- 00:35:24 Relatore 14Sì, ci dice, già stabilito dall'inizio, però.
+- 00:35:27 Relatore 8Questo è stato.
+- 00:35:28 Relatore 14Però se noi sappiamo il contenitore piccolo è quello grande c'abbiamo due container tavolo.
+- 00:35:31 Relatore 8Abbiamo messo.
+- 00:35:34 Relatore 14Perché se vuoi.
+- 00:35:35 Relatore 14Puoi mettere anche meno, perché non di più.
+- 00:35:38 Relatore 1Perché fa utilizzare due contenitori?
+- 00:35:42 Relatore 8Li abbiamo scelti.
+- 00:35:44 Relatore 3No, no così.
+- 00:35:47 Relatore 1Noi andiamo a fare il periodo.
+- 00:35:49 Relatore 2Di potenza e.
+- 00:35:50 Relatore 2Poi una notte.
+- 00:35:51 Relatore 14Il meno sì, in di più.
+- 00:35:51 Relatore 8E quindi si fa il carrello che fai sul tre?
+- 00:35:55 Relatore 1Ma i palazzi come i grandi?
+- 00:35:58 Relatore 1Noi distruggiamo in fase piccoli, dovremmo essere sempre.
+- 00:36:03 Relatore 1Eccetera rispetto alla quantità che non vorrebbe diritto, dobbiamo fare tutti e due.
+- 00:36:04 Relatore 14Beh, non si di più no?
+- 00:36:09 Relatore 2Effettivamente.
+- 00:36:13 Relatore 8No, perché devi mettere il sistema un contenitore predefinito.
+- 00:36:19 Relatore 2Sistema di?
+- 00:36:19 Relatore 6E secondo me si può anche il 600 può fare quello generico, fare 101 secondo me si poteva fare contenitore AE contenitore B.
+- 00:36:27 Relatore 1Non c'è, però si può.
+- 00:36:32 Relatore 6E se si può fare quello generico lo puoi.
+- 00:36:34 Relatore 6Forzare scusa un attimo.
+- 00:36:35 Relatore 1Ascolta.
+- 00:36:38 Relatore 1Mi piace.
+- 00:36:45 Relatore 6Prima parte di una, comunque anche loro lo.
+- 00:36:48 Relatore 8Passi cioè come fai il sistema a sapere che in quel momento stai trattando quello più basso?
+- 00:37:00 Relatore 6Sì, sì, sì, sì. Comunque in.
+- 00:37:02 Relatore 8Questa parte qua poi la vediamo anche nell'area protettiva, cioè nel anche lì se volete.
+- 00:37:09 Relatore 8Per approfondire, si può anche più avanti tra parte pratica.
+- 00:37:15 Relatore 8Facciamo un attimo questa successione, perché dobbiamo ricordarcela per il container?
+- 00:37:21 Relatore 8Container, container, viene ricevuto da SAP e SAP uccide.
+- 00:37:27 Relatore 8Lei non tiene il 16 umano.
+- 00:37:29 Relatore 8La promessa e il SAP si chiama Handly unit unità.
+- 00:37:36 Relatore 12Pronto.
+- 00:37:39 Relatore 8Quindi, tornando al container.
+- 00:37:44 Relatore 8Di CD Pilotti.
+- 00:37:47 Relatore 8Tengono recapitati i lotti tener, tengono recapitati in un'area.
+- 00:37:56 Relatore 8Come si chiama? Viene definita Immes Pattern.
+- 00:38:01 Relatore 8È la famosa vostra macchina, tre macchina.
+- 00:38:06 Relatore 8Macchina, mentre in SAP.
+- 00:38:09 Relatore 8Ti chiamo PSA.
+- 00:38:11 Relatore 8Adaption Staging area.
+- 00:38:17 Relatore 8Quindi c'è questa corrispondenza?
+- 00:38:20 Relatore 8Come avviene il consumo dei lotti?
+- 00:38:24 Relatore 8Noi abbiamo i nostri container, i nostri lotti lì vicino.
+- 00:38:27 Relatore 8Dell'area della stazione di lavoro.
+- 00:38:30 Relatore 2Non è è meglio che non sia ancora una lotta?
+- 00:38:35 Relatore 1Container, almeno.
+- 00:38:40 Relatore 8Vedi CD OK.
+- 00:38:43 Relatore 8Sì, abbiamo adesso strani.
+- 00:38:46 Relatore 1Altrimenti non lo caricano il lotto il lotto.
+- 00:38:49 Relatore 8Sì, sì, ho capito.
+- 00:38:50 Relatore 1Il BEST, la rivoluzione che ha magari 10.000.
+- 00:38:52 Relatore 2Il.
+- 00:38:53 Relatore 8Batch.
+- 00:38:56 Relatore 8Sì, sì, no, no.
+- 00:38:58 Relatore 8Sono squadra parte.
+- 00:39:02 Relatore 8Quindi.
+- 00:39:03 Relatore 8I container come vengono svuotati?
+- 00:39:07 Relatore 8Così OK, la lettura del container come viene è un barcode l'operatore.
+- 00:39:12 Relatore 8Scansiona.
+- 00:39:15 Relatore 8Il codice.
+- 00:39:17 Relatore 8È d'accordo?
+- 00:39:19 Relatore 8E al momento della scansione lo il.
+- 00:39:23 Relatore 8Prodotto, componente viene consumato.
+- 00:39:28 Relatore 8Visto che conta comporta comporta che vi è un aggiornamento delle giacenze in temporale, finché noi abbiamo detto che sono monitorati in tempo reale e c'è un'associazione diretta tra esatto, consumiamo.
+- 00:39:44 Relatore 8La giacenza.
+- 00:39:46 Relatore 8Viene aggiornata in tempo reale su SAP, poi vedremo la parte praticamente utilizzato.
+- 00:39:56 Relatore 8Tantissimo tra Whatsapp.
+
+## Work center, materiali, container e buffer
+
+- 00:40:00 Relatore 8Soci e sono immediatamente, tanto la giacenza viene decrementata sul prodotto anche adesso, adesso non è così.
+- 00:40:12 Relatore 2Dice siamo.
+- 00:40:16 Relatore 14Nel centrale non risulta che.
+- 00:40:19 Relatore 8Anche.
+- 00:40:21 Relatore 8Poi valutiamo i nostri colleghi.
+- 00:40:27 Relatore 8Nel momento in cui noi, quando?
+- 00:40:32 Relatore 8Quando la spalla prego, preso.
+- 00:40:41 Relatore 8Quando?
+- 00:40:46 Relatore 4Ci ha messo all'oca quella quantità di consumo senza continuarle effettivamente, poi invece quando chiudi il CDI fa effettivamente a consumare la quantità in base ai pezzi.
+- 00:40:57 Relatore 15Che dichiara sorta del re di buffer del Buffer.
+- 00:41:01 Relatore 4Qui dice questa roba qua, io non sto lavorando, quindi è la terza in pancia fino a quando mi dici quanti?
+- 00:41:05 Relatore 3Eh.
+- 00:41:06 Relatore 8Sì, sì.
+- 00:41:07 Relatore 15Ha scaricato, non ha scaricato la linea, cioè.
+- 00:41:08 Relatore 8Da magazzino.
+- 00:41:11 Relatore 15In base all'ordine produzione.
+- 00:41:11 Relatore 2Lo fa alla fine.
+- 00:41:13 Relatore 4Quando tu vai a dichiarare civili persone inviti con te.
+- 00:41:17 Relatore 15No, è su quella base di quel wapper del Wapper, sono consumato, viene riaprirà, lascio? OK, lascio.
+- 00:41:24 Relatore 8Ok nella nella prova pratica sarà ancora molto più chiara la situazione.
+- 00:41:30 Relatore 8Spiegazioni.
+- 00:41:35 Relatore 8Naturalmente ci sono dei controlli, non è che.
+- 00:41:39 Relatore 8Senatore Scansiona il container.
+- 00:41:43 Relatore 8Se sbaglia container, nel senso che quel prodotto non era quello corretto, non era quello corretto, naturalmente viene segnalato.
+- 00:41:51 Relatore 8Al sistema MES.
+- 00:41:54 Relatore 8Durante la lavorazione.
+- 00:41:58 Relatore 8Che cosa avviene?
+- 00:42:00 Relatore 8I nuovi prodotti?
+- 00:42:03 Relatore 8Vengono naturalmente come come il mio ingresso, riceviamo con te, neanche in uscita c'è il container perché il prodotto stiamo consumando deve essere messo dentro un container.
+- 00:42:17 Relatore 8Positivo, adatto per il trasporto.
+- 00:42:22 Relatore 8Che cosa accade però quando noi?
+- 00:42:25 Relatore 8Consumiamo il componente. Quindi arriviamo alla dichiarazione, la presenza finale del menu.
+- 00:42:32 Relatore 8Dell'operazione.
+- 00:42:35 Relatore 8Il sistema deve stampare un'etichetta perché giustamente il container deve essere.
+- 00:42:40 Relatore 12Un.
+- 00:42:41 Relatore 8Codice.
+- 00:42:47 Relatore 8Abbiamo parlato prima del buffer, quindi della.
+- 00:42:52 Relatore 8Dell'area vicino alla all'operatore al terminal di all'area OPEN.
+- 00:43:00 Relatore 8L'operatore.
+- 00:43:03 Relatore 8Questa associazione però deve essere fatta, cioè nel senso io sono l'operator terminal.
+- 00:43:11 Relatore 8La stazione di lavoro.
+- 00:43:14 Relatore 8Work center.
+- 00:43:16 Relatore 8Al Work Center dobbiamo associare.
+- 00:43:19 Relatore 8Stiamo per dare la corrispondenza.
+- 00:43:24 Relatore 8Esiste anche.
+- 00:43:26 Relatore 8La verifica disponibilità.
+- 00:43:29 Relatore 8Che consente.
+- 00:43:31 Relatore 8Se di verificare se nel passer abbiamo una quantità sufficiente?
+- 00:43:38 Relatore 8Utilizzare per la produzione il prodotto finale.
+- 00:43:42 Relatore 8Se la quantità non è sufficiente, c'è proprio una verifica, abbiamo detto.
+- 00:43:48 Relatore 8L'operatore cosa fa, lo può fare?
+- 00:43:52 Relatore 8Può richiedere del materiale, quindi io ne avevo bisogno 100 per produrre il prodotto finale X.
+- 00:44:01 Relatore 8In realtà il componente ne ha solo 70, prende 70 perché il momento io li ho.
+- 00:44:08 Relatore 8Però la quantità dei 30, quindi questa differenza, questa mancanza di quantità.
+- 00:44:16 Relatore 8Poi fu richiesta direttamente da SAP SAP.
+- 00:44:21 Relatore 8Del del magazzino.
+- 00:44:24 Relatore 8Poi c'è una possibilità che si chiama richiesta materiale, poi la vedremo, per ogni componente c'è questa funzionalità.
+- 00:44:33 Relatore 8Questo già già da accennare, la funzionalità.
+- 00:44:36 Relatore 8Per noi no, non fare il Buffet. Sono diventati solo per le anni. Esatto. Ah.
+- 00:44:42 Relatore 1Lo riprendo solo.
+- 00:44:43 Relatore 1Un componente per l'anima.
+- 00:44:46 Relatore 1Però una richiesta si basa sulla quantità che devo chiedere, uno è totale o sulla quantità dell'unità?
+- 00:44:54 Relatore 2Il compagno?
+- 00:44:58 Relatore 8Jacopo Yella avete compreso la domanda?
+- 00:45:03 Relatore 16No, non devi ripetere perché non ho sentito?
+- 00:45:06 Relatore 1La richiesta del componente che faremo noi al al casting si basa sulla quantità del contenitore o sulla quantità?
+- 00:45:15 Relatore 1Dell'ordine in funzione.
+- 00:45:19 Relatore 16Allora, in base AC. Alla quantità di cui.
+- 00:45:25 Relatore 16C'è il fabbisogno dell'ordine per quel specifico material, quel componente materiale.
+- 00:45:32 Relatore 16Sta manda manda lo stock su quel specifico buffer e tramite il CD Scansioniamo EE soddisfando la quantità di cui abbiamo bisogno per quel specifico specifico materiale.
+- 00:45:50 Relatore 16Non so se ti ho risposto.
+- 00:45:54 Relatore 8Magari ci siamo scritti.
+- 00:45:56 Relatore 8Non fai la chiamata materiale all'assistenza?
+- 00:45:59 Relatore 8Quello che ti arriva lì, nel perché te lo conosce, voglio dire, l'operatore.
+- 00:46:07 Relatore 1Puoi parlargli anche.
+- 00:46:08 Relatore 1Il centro tutto insieme al risolvimento dell'ordine.
+- 00:46:11 Relatore 16No.
+- 00:46:13 Relatore 16La chiamata materiale lo fai esattamente con la quantità di cui hai bisogno.
+- 00:46:17 Relatore 16Per quel specifico ordine.
+- 00:46:22 Relatore 2Va bene, ci vediamo più avanti.
+- 00:46:27 Relatore 8Magari nella funzionalità vera e propria, magari. Entriamo nel merito e cerchiamo di dire.
+- 00:46:34 Relatore 8Garantiscono le risposte in fino ad anche alle 15.
+- 00:46:42 Relatore 8Quindi la seconda, finché son tutte le pause.
+- 00:46:53 Relatore 2Siamo con semplicemente.
+- 00:46:56 Relatore 1Sì, ma quando siamo nel pompiere devo essere bloccato, quindi?
+- 00:47:01 Relatore 8Non concedere.
+- 00:47:05 Relatore 8Sì, abbiamo detto che nel nel process malling abbiamo.
+- 00:47:10 Relatore 8La bom non so se vi ricordate nelle slide precedenti o delle prime processo.
+- 00:47:15 Relatore 8Nella bom abbiamo proprio la lista dei materiali, quindi del delle materie prime componenti semilavorati.
+- 00:47:25 Relatore 8Da utilizzare per la produzione del prodotto fritto.
+- 00:47:32 Relatore 8Suoni, materiale, suoni, voce, abbiamo la tradizione, la richiesta se dobbiamo produrre il fondo polizze.
+- 00:47:38 Relatore 8C'è bisogno di.
+- 00:47:39 Relatore 8Il componente uno partito 10 volte, due quantità, dobbiamo proporre magari un frutto.
+- 00:47:50 Relatore 8Naturalmente.
+- 00:47:52 Relatore 8La bomba.
+- 00:47:54 Relatore 8Guida al consumo di materiali insomma, questa parte qui la vedremo proprio nel dettaglio, direttamente su.
+- 00:48:01 Relatore 8Da user Interface, l'interfaccia operativa dell'operatore.
+- 00:48:09 Relatore 8Bilock process mi piace tipo dei protesti.
+- 00:48:13 Relatore 8Abbiamo detto che la rivista.
+- 00:48:17 Relatore 8Lista dei processi che ci sono.
+- 00:48:20 Relatore 8Ho da fare sentire.
+- 00:48:25 Relatore 8Nel nello specifico.
+- 00:48:31 Relatore 8Te lo specifichi? Qua abbiamo proprio le operazioni.
+- 00:48:36 Relatore 8All'interno.
+- 00:48:39 Relatore 8Della della giustizia di processi, quindi della vof.
+- 00:48:44 Relatore 8Non abbiamo così detto, ma lo ripeto più volte nella nella vof la vof e nel MES definizione bop e nel MES, mentre il sub si chiama routine.
+- 00:48:57 Relatore 8Deve partecipare.
+- 00:48:59 Relatore 8All'inizio della vof è un nostro giro articolo gerarchica importante.
+- 00:49:05 Relatore 8Ricordare questa parte, la bop e il padre.
+- 00:49:10 Relatore 8Tutto sotto ci sono le operazioni che deve eseguire.
+- 00:49:15 Relatore 8Il.
+- 00:49:17 Relatore 8Operatore.
+- 00:49:19 Relatore 8Le operazioni sono all'interno del buon corpo, quindi workcorders.
+- 00:49:25 Relatore 8Fuori da seguire.
+- 00:49:28 Relatore 8Da svolgere.
+- 00:49:30 Relatore 8Che cosa ci cosa?
+- 00:49:35 Relatore 8C'è all'interno delle operation.
+- 00:49:38 Relatore 8Vedremo anche fra l'altro se riesce ancora meglio.
+- 00:49:44 Relatore 8Il primo livello della è proprio la operation, all'interno dell'operazione abbiamo le istruzioni operative, abbiamo dette prima a giudizio.
+- 00:49:57 Relatore 8Da svolgere proprio nel ciclo produttivo. Una documentazione.
+- 00:50:03 Relatore 8Che l'operatore deve anche fisicamente.
+- 00:50:07 Relatore 8Per il prodotto.
+- 00:50:11 Relatore 8Oppure c'è una tecnologia?
+- 00:50:14 Relatore 8Documentazioni, altri tipi di documentazioni necessarie per la produzione.
+- 00:50:20 Relatore 8Il materiale da consumare?
+- 00:50:22 Relatore 8Adesso la operation.
+- 00:50:25 Relatore 8E le attrezzature da usare, quindi ha tutto il necessario per poter procedere nell'attività.
+- 00:50:31 Relatore 8Una cosa molto importante è la Policy Station che vedremo.
+- 00:50:38 Relatore 8E che fa parte proprio della.
+- 00:50:42 Relatore 8E le regole?
+- 00:50:44 Relatore 8Da seguire per l'acqua Italia.
+- 00:50:53 Relatore 8Cosa accade?
+- 00:50:55 Relatore 8Durante il ciclo produttivo, l'operatore davanti a sé l'operation l'operazione.
+- 00:51:01 Relatore 8È un sottoinsieme del workcorder.
+- 00:51:05 Relatore 8E può.
+- 00:51:08 Relatore 8Cioè non può neve attivare l'operazione. Ci sarà poi un tasto che vedremo nella parte pratica sulla destra.
+- 00:51:16 Relatore 8C'è proprio un tasto avvia operazione.
+- 00:51:19 Relatore 8L'operatore.
+- 00:51:21 Relatore 8Ciao, davanti a portare i dati di lavoro seleziona l'ordine e procede nella nella nella parte di avvio dell'operazione e dichiara in questo punto.
+- 00:51:35 Relatore 8La quantità da lavorare?
+- 00:51:37 Relatore 8Può essere totale o anche solo iniziale.
+- 00:51:42 Relatore 8È possibile?
+- 00:51:45 Relatore 8Una volta completata, provate le attività.
+- 00:51:50 Relatore 8Per quella la quantità che abbiamo dichiarato, l'operazione diventa.
+- 00:51:56 Relatore 8Cambia l'operazione, cambia in completata, quindi da bianca in completata.
+- 00:52:03 Relatore 8Sia che venga la chiusura completa oppure le chiusure parziali, lo vedremo sempre la parte.
+- 00:52:12 Relatore 8Aspetta.
+- 00:52:15 Relatore 8Potrebbe comprendere che l'operazione diventa completa.
+- 00:52:22 Relatore 8Sì, a volte l'operatore proprio dice, OK, ho terminato la mia operazione.
+- 00:52:29 Relatore 8Può entrare nel senso razziale, il che.
+- 00:52:31 Relatore 8È totale e l'operazione, ribadisco direttamente.
+- 00:52:36 Relatore 8Se l'operazione perché abbiamo detto che il portone può avere da una io non so di mapello, però da una è in di operazioni se siamo sull'ultima.
+- 00:52:47 Relatore 8Operazione, la quantità prodotta viene automaticamente.
+- 00:52:53 Relatore 8Verità nel container di uscita perché abbiamo detto che abbiamo un ingresso e uno l'uscita del container CD.
+- 00:53:02 Relatore 8Sta dicendo che.
+- 00:53:06 Relatore 8Abbiamo detto che il maestro CE la fa, MES converse.
+- 00:53:16 Relatore 8Gli ordini ricevuti da Samuele dall'alto, dalla pianificazione di cui gestisce le strategie.
+- 00:53:24 Relatore 8Della produzione.
+- 00:53:26 Relatore 8Piacerebbe soffine?
+- 00:53:30 Relatore 8Ripartenza e l'ordine?
+- 00:53:35 Relatore 8Al suo interno ci sono tutte le le informazioni necessarie per arrivare al prodotto finito.
+- 00:53:44 Relatore 8II work sono trasmessi da SAP, non possono essere inseriti a mano, quindi extra APP vi vi ricordate i livelli della produzione SAP MES poi?
+- 00:53:59 Relatore 8Attiva.
+- 00:54:02 Relatore 8All'interno del work code ci sono.
+- 00:54:07 Relatore 8E quantità i materiali vedremo poi.
+- 00:54:12 Relatore 8La parte ancora?
+- 00:54:14 Relatore 8Importante per la pratica.
+- 00:54:18 Relatore 8I materiali, le ostruzioni operative ed è importante anche focalizzare il punto per i controlli qualità.
+- 00:54:25 Relatore 8Per quanto deve.
+- 00:54:28 Relatore 8Dell'operazione associata al Wordpad avremo anche una parte veramente importante che è quella delle verifiche.
+- 00:54:36 Relatore 8Puntuali componente.
+- 00:54:41 Relatore 8Politico.
+- 00:54:47 Relatore 8Che cosa? Cosa deve fare l'operatore? Questa è una l'anagrafica di tutti gli ordini che spedirà SAP.
+- 00:54:55 Relatore 8Poi vedremo da parte sopra.
+- 00:54:58 Relatore 8Questa.
+- 00:55:00 Relatore 8Inizialmente sarà possibile fare dei filtri per magari estrarre gli ordini necessari. La giornata, questa è la parte.
+- 00:55:11 Relatore 8No delle informazioni importanti anche lo status attivo you.
+- 00:55:16 Relatore 8Ported.
+- 00:55:19 Relatore 8L'operatore cosa deve fare nel momento in cui arriva l'ordine, l'esposizione nella stazione di lavoro?
+- 00:55:26 Relatore 8Che Stato ha bilanciato a questo punto?
+- 00:55:29 Relatore 8Potete fare l'attività produttiva?
+- 00:55:34 Relatore 8Al termine, al termine.
+- 00:55:37 Relatore 8Data la conclusione del dell'ordine, quindi finito, è stato.
+- 00:55:44 Relatore 8Pronto questo cosa la la.
+- 00:55:51 Relatore 8L'operatore quando effettua la chiusura completamento dell'ordine dell'operazione.
+- 00:55:58 Relatore 8Questa attività consente proprio uno scarico automatico dei consumi verso staff famoso allineamento di giacenze S SAP.
+- 00:56:10 Relatore 86.
+- 00:56:15 Relatore 1Siamo sì, sì, ci siamo, dico loro.
+- 00:56:16 Relatore 2Sentiamo.
+- 00:56:18 Relatore 1Praticamente ogni volta che i vitalizi che ti chiederà italiano un contenitore eh? In automatico viene scaricata 1 1 quantità di alluminio, tutto quello che c'è nella bocca in realtà nella distinta della distinta per cui va scaricata dal legno caricare dei pezzi sul sulla fase successiva.
+- 00:56:38 Relatore 13.
+- 00:56:46 Relatore 13Sei numeri sono diversi.
+- 00:56:49 Relatore 2Cioè.
+- 00:56:50 Relatore 13Il CD iniziale dovrebbe essere 50, io parlo per uno.
+- 00:56:54 Relatore 13Ripeti il numero i pezzi deve essere il 50 sì per motivi X 1 48.
+- 00:57:01 Relatore 13Oggi è tipo lo Stato o in qualche maniera devo fare il risultato?
+- 00:57:08 Relatore 8Ma il prodotto finito di quanto?
+- 00:57:12 Relatore 13Allora invece il i test iniziali sono 50 per motivi X che possono essere mancanti sono stati scartati, ne abbiamo solo 48. I due pezzi non coincideranno mai con quelli precedenti.
+- 00:57:28 Relatore 9Allora in realtà non.
+- 00:57:32 Relatore 9Ci sono due modi per fare questo allora, innanzitutto c'è la possibilità di chiudere un cassone parziale, quindi non non chiuderlo con l'intera quantità.
+- 00:57:42 Relatore 9O in alternativa, si può startare.
+- 00:57:46 Relatore 9La la differenza. Ad oggi per fare l'overquantity esistono tre possibilità, ci sono degli e questo è un'impostazione lato SAP ci sono degli ordini che hanno quantità infinite, quindi fondamentalmente anche se la quantità nominale è 100 si può startare anche un milione.
+- 00:58:03 Relatore 9Ci sono degli ordini dove c'è una tolleranza, quindi per esempio se l'ordine nominale è 100 ma ha una tolleranza del 10% posso startare fino a 110 e quindi quel 10% serve proprio per sopperire agli eventuali scrap. Il calcolo di questo 10% è un calcolo che viene fatto dal pianificatore degli ordini, quindi si basa sulla media degli scrap per linea direi, o per processo.
+- 00:58:30 Relatore 9Oppure c'è una terza alternativa che tramite un'impostazione lato lato MES è possibile startare la quantità?
+- 00:58:39 Relatore 9Scrappata, quindi fondamentalmente ipotizziamo di nuovo una quantità nominale da 100.
+- 00:58:45 Relatore 9Ne ho scappati due. Posso arrivare a startare fino a 102. Se poi di nuovo ne scarto 5 posso arrivare a stare fino a 107, quindi tra virgolette, a valle degli Scrap. il MES mi dà la possibilità di startare la differenza scrappata.
+- 00:59:00 Relatore 9E quindi permettere all'operatore di chiudere sempre i cassoni o comunque di.
+- 00:59:06 Relatore 9Soddisfare la quantità nominale di buoni prevista.
+- 00:59:12 Relatore 2Grazie, ecco.
+- 00:59:15 Relatore 1Intendevi sull'ordine, tu potevi solo su.
+- 00:59:18 Relatore 13Noi abbiamo varie fasi, la prima fase creiamo 100 pastiglie, 100 pezzi.
+- 00:59:25 Relatore 13Poi le pastiglie vanno alla fase successiva.
+- 00:59:28 Relatore 13Ipoteticamente dovrebbero essere 100 ma per un errore di calcolo o.
+- 00:59:33 Relatore 13Né scarto, cioè si sono criccati 10 pezzi.
+- 00:59:38 Relatore 13Non posso più chiudere l'accento dopo il 90 perché sennò trascino in tutte le fasi successive la mancanza.
+- 00:59:45 Relatore 1Contenitore per cui no, solo fosse poi si riferiva.
+- 00:59:51 Relatore 13Noi però lavoriamo con no, no, certo, no, no.
+- 00:59:52 Relatore 6E voi siete.
+- 00:59:53 Relatore 9Allora io mi riferivo all'ordine, però logicamente la quantità startata nell'ordine poi si traduce in delle dichiarazioni sul contenitore OK, quindi di nuovo ipotizziamo di avere cassoni da 20 pezzi, OK?
+- 01:00:08 Relatore 9Io ho l'ordine nominale da 100 starto 100, il primo cassone lo chiudo, il secondo cassone lo chiudo, il terzo cassone l'ho chiuso, quindi ho fatto 60 pezzi, ok?
+- 01:00:19 Relatore 9Il quarto cassone.
+- 01:00:22 Relatore 9Trovo tre scrap, perché li devo buttare via OK quindi di quei 40 pezzi che mi rimangono ne ho disponibili 37 e quindi non riuscirei a chiudere tutti e due i cassoni che io mi aspetto di chiudere.
+- 01:00:36 Relatore 9Il il sistema mi permette di sopperire a quella mancanza e quindi di startare quelle la differenza di tre per poter chiudere entrambi i cassoni. Quindi comunque lo start dell'ordine dell'operazione mi permette cioè o meglio dà la possibilità all'operatore di andare sempre a chiudere dei cassoni. OK, poi è logico che potrebbe succedere dei casi in cui io magari ho raggiunto la la percentuale di di tolleranza, perché magari.
+- 01:01:04 Relatore 9Il pianificatore logicamente ha fatto un calcolo.
+- 01:01:06 Relatore 9Sulle sul passato, magari a questo giro invece di di strapparne 5 ne ho scrapati 10. È logico che ci possono essere dei casi in cui il cassone non riesco a chiuderlo per intero. Però come vi dicevo in quei casi lì il MES permette di chiudere il cassone parziale, consapevole del fatto che il cassone aveva una capacità da 20 pezzi, ma io magari l'ho chiuso a 17.
+- 01:01:28 Relatore 9Perché fondamentalmente l'ordine non mi permetteva di fare altro, quindi da un certo punto di vista lì è logico che possono esserci dei casi limite dove io non riesco a soddisfare la quantità nominale prevista dalla pianificazione. Però dovete considerare che comunque la pianificazione è strettamente legata a quanto io poi mando in magazzino, quindi è logico che se la pianificazione vede che non ho soddisfatto.
+- 01:01:54 Relatore 9Nell'ordine precedente una quantità attesa perché magari il cliente se ne aspettava 100, ma io gliene ho fatti 97.
+- 01:02:00 Relatore 9È logico che l'ordine successivo andrà a sopperire a questa mancanza.
+- 01:02:05 Relatore 9Ora di preciso la logica lato SAP io non la conosco, perché non non lo facciamo noi però di per sé dovete considerare che.
+- 01:02:14 Relatore 9L'atto MES lato operatività, quello che voi dovete garantire è cercare il più possibile di soddisfare la la quantità nominale dell'ordine perché è stata ragionata sulla base di di di ordini e costi.
+- 01:02:28 Relatore 9Poi è logico che voi potete arrivare fino a un certo punto nel momento in cui, da un certo punto di vista, avete la sfortuna di andare oltre la quantità prevista di.
+- 01:02:38 Relatore 9Scrap e quello?
+- 01:02:39 Relatore 9Non è non è colpa di nessuno, da un certo punto di vista il sistema comunque vi permette di andare avanti.
+- 01:02:46 Relatore 11Ma la musica?
+- 01:02:47 Relatore 8Che si decide di usare e deve servire.
+- 01:02:48 Relatore 13Va.
+- 01:02:52 Relatore 2Produzione.
+- 01:02:53 Relatore 9Scusa, io non ho sentito bene la domanda.
+- 01:02:56 Relatore 8Utilizzare per esempio se vuole mantenere una percentuale in più di ulteriori nel 38%, finire una percentuale di intolleranza del 10%, quindi loro possono continuare a dichiarare fino a quel 10% in più. Viene utilizzata su tutti gli ordini e vengono staccati.
+- 01:03:16 Relatore 9Allora la logica è decisa a livello di ordine, quindi a noi l'ordine può arrivare o con, come vi dicevo prima, quantità infinita.
+- 01:03:28 Relatore 9E quindi in quel caso?
+- 01:03:29 Relatore 9È un'impostazione del workcenter che ci permette di dire, posso veramente lavorare a quantità infinita o posso lavorare a quantità?
+- 01:03:41 Relatore 9Di diciamo di allineamento degli Scrub oppure SAP ci manda già l'ordine con percentuale definita e quindi noi non non abbiamo possibilità di andare oltre quella capacità definita perché sennò sappa dei problemi.
+- 01:03:56 Relatore 9Chi decide questo? Purtroppo non so dirvelo. Io credo che sia.
+- 01:04:02 Relatore 9Il il management o comunque chi? Chi decide di come fare gli ordini che decide in base all'ordine, in base alla linea, in base al processo? Come definire questi ordini?
+- 01:04:13 Relatore 8Quindi hai capito bene, questo programmatore quando staccato ogni ordine di produzione deve inserire lo speck, legge ovviamente questa variante.
+- 01:04:21 Relatore 12Prima.
+- 01:04:22 Relatore 2Perché il 10% va fissa?
+- 01:04:24 Relatore 8Su tutti gli ordini non è no, però, gli ha detto.
+- 01:04:31 Relatore 8Può essere 13, però.
+- 01:04:35 Relatore 13E la percentuale del del.
+- 01:04:38 Relatore 8Solare, ripeti messa il 5%.
+- 01:04:42 Relatore 13Sarebbe più facile. I testimoni ordini di produzione.
+- 01:04:43 Relatore 14Eh, ma siccome noi giochiamo questa cosa qui, è giusto quello che ha detto Lei, siccome non giochiamo sul 10%, che può essere il 20 che può essere il 5%, noi facciamo parecchio gioco su questa cosa, quindi bisogna stare attenti a cosa mettere.
+- 01:04:56 Relatore 8Sì, ma questa cosa chiediamo a Paolo.
+- 01:04:59 Relatore 8Cioè tipo i portamuzzi quando mi servono 50 che hanno la percentuale di scarto del 30%, comunque furono 200.
+- 01:05:08 Relatore 2I fondi 50.
+- 01:05:12 Relatore 1Loro chiama domani sì, un po'.
+- 01:05:14 Relatore 1Su, addirittura parlavi di di Senti.
+- 01:05:17 Relatore 9Eh, male se riesci ad avvicinarti un po' al microfono.
+- 01:05:22 Relatore 8Assolutamente.
+- 01:05:25 Relatore 1Indicazioni imparziali?
+- 01:05:28 Relatore 1Naturalmente le dichiarazioni parziale, il materiale rimane nella fase precedente, cioè non viene completata operazione di dichiarazione.
+- 01:05:37 Relatore 17Sì.
+- 01:05:37 Relatore 1Whatsapp adesso praticamente sono imparziali, comunque va a togliere giacenza, cioè come legittima è solamente una quantità parziale.
+- 01:05:48 Relatore 1E.
+- 01:05:48 Relatore 12Basta.
+- 01:05:50 Relatore 9Allora mettiamo, diciamo così allora.
+- 01:05:53 Relatore 9Tu la tomessa.
+- 01:05:53 Relatore 1Dai, spero ti aspetto, poi te lo chiudo proprio un genitore o no?
+- 01:05:57 Relatore 9Allora esatto, ti spiego lato MES.
+- 01:06:01 Relatore 9Per darvi un minimo di nomenclatura corretta per lato mese.
+- 01:06:05 Relatore 9Essa la dichiarazione parziale, così come la stiamo con con queste parole si identifica una dichiarazione dove io ho riempito il cassone per metà o per una sotto parte.
+- 01:06:21 Relatore 9E decido per adesso di lasciarlo lì. Questi sono i casi in cui, per esempio, sono a fine turno.
+- 01:06:27 Relatore 9Però ho prodotto, dei 24 pezzi che dovevo produrre ne ho prodotti 20, quindi ho.
+- 01:06:34 Relatore 9La.
+- 01:06:34 Relatore 9Possibilità di farne 24, ma è il mio turno, è finito. Allora faccio una dichiarazione parziale che mi stampa un'etichetta, ma non manda SAP solo il consumo di quei 20 pezzi, non dei 24. Questo mi permette di dare la possibilità al mio collega successivo di riempire quei quattro pezzi di differenza.
+- 01:06:51 Relatore 9Penso se invece torniamo al caso che facevamo prima, ossia io ho fatto troppi scrap, quindi l'ordine non mi permette più di fare nessun'altra produzione. Ho un cassone da 20 pezzi, allora quella è una dichiarazione di cassone chiuso. Quindi fondamentalmente a SAP dirò, ho un cassone da 20 pezzi.
+- 01:07:13 Relatore 9E ASAP non interessa che quel cassone ne poteva contenere 24, io ce ne ho messi 20, nessuno mi obbliga, cioè non c'è nessun obbligo da parte né del MES né di SAP.
+- 01:07:23 Relatore 9Di riempire sempre il cassone per al 100%, quindi.
+- 01:07:30 Relatore 9Non ho capito.
+- 01:07:31 Relatore 1Per cui può essere chiuso anche con 20 pezzi.
+- 01:07:34 Relatore 9Certo, sì, sì, sì, nessuno. Nessuno obbliga l'operatore di riempire al 100% il cassone. Posso decidere di riempirlo parzialmente e di mandarlo in magazzino perché non ho non non ho possibilità di andare oltre perché appunto, come dice?
+- 01:07:48 Relatore 1Io ho la possibilità o di fare 1 1 dichiarazione parziale o una dichiarazione completa in qualsiasi caso.
+- 01:07:55 Relatore 12Vabbè.
+- 01:07:55 Relatore 9Corretto, sì, sì.
+- 01:07:57 Relatore 2Perché?
+- 01:07:58 Relatore 15Sì, però è una cosa.
+- 01:08:01 Relatore 15La la dichiarazione dello scarto invece ha lato operatore e la gestione dello scarto lato sistema com'è che funziona?
+- 01:08:09 Relatore 8Ecco, poi hai sentito?
+- 01:08:10 Relatore 17Sì, sì, sì.
+- 01:08:11 Relatore 9Sì, sì, allora.
+- 01:08:14 Relatore 9Fondamentalmente.
+- 01:08:16 Relatore 9Come quello che succede è che quando tu fai una dichiarazione di allora, quando tu decidi di fare la dichiarazione di scarto, tu hai due possibilità, puoi decidere di scartarlo direttamente e fare uno scrap, oppure di metterlo in quarantena.
+- 01:08:30 Relatore 9Ora se parliamo di casting logicamente scappiamo tutto perché tanto ritorna a essere fuso, quindi da un certo punto di vista non esiste la possibilità di quarantenarlo. Cioè non è che posso fare un rework di di un ragno. OK, fondamentalmente lo lo rifondo e fine, però in negli altri casi cutting eccetera eccetera io ho la possibilità di dichiarare una quarantena. La quarantena significa fondamentalmente ho trovato un difetto.
+- 01:08:54 Relatore 9E faccio valutare all'operatore di rework o di di qualità se quel pezzo è da buttare via oppure da reworkare. Quando tu fai una dichiarazione che sia di scrappo di quarantena, \*\*\* up viene mandato comunque ai consumi perché tu comunque quel pezzo l'hai prodotto, okay?
+- 01:09:11 Relatore 9Quindi direi a SAP, io per produrre questi due pezzi di scrap ho consumato due anime, OK?
+- 01:09:20 Relatore 9Sap.
+- 01:09:21 Relatore 9Farà una movimentazione, quindi prenderà quei pezzi, li metterà in una bin di scrap o rework o quarantena e se è scrap ha una gestione interna che gestisce lo scrap, quindi se deve essere diffuso lo manda in fonderia, se invece deve essere buttato via lo metterà nel nel cestino. La parte di quarantena invece ha proprio un cassone fisico dove ci sono tutti i pezzi da valutare e quindi c'è tutta una fase lato.
+- 01:09:48 Relatore 9Chiamiamola supervisore.
+- 01:09:49 Relatore 9Supervisore di qualità che prenderà tutti i pezzi che sono stati dichiarati come quarantena farà la valutazione.
+- 01:09:56 Relatore 9E deciderà se deve andare nell'area di rework, quindi può essere riparato, oppure se deve andare direttamente nel nel nel Bean di di di Scrap oppure se banalmente l'operatore si è sbagliato, ha visto un graffio, in realtà quel graffio non non è un problema e lo riporto in in produzione.
+
+## Ordini, team, consumi e scarti
+
+- 01:10:14 Relatore 9Nel momento in cui il pezzo è stato.
+- 01:10:18 Relatore 9O reworkato quindi messo a posto oppure rimesso in produzione, sap genera un ordine specifico che per gestire tutti questi pezzi che sono stati.
+- 01:10:28 Relatore 9Ti messi a posto OK? Quindi tu quando anche quando dichiari quarantena quel pezzo lì per te è stato prodotto e quindi non rientrerà più nel tuo ciclo di produzione tu l'hai già fatto e potrei andare avanti. È la linea successiva che vedrà dei pezzi magari totalmente nuovi che hai creato te dalla tua dalla tua linea oppure dei pezzi che sono stati messi a posto da dall'operatore di di rework però di per sé lato.
+- 01:10:54 Relatore 9Specifica linea, quando tu dichiari quel pezzo per te, esce dalla linea.
+- 01:10:58 Relatore 9Mia EE va in un'altro processo che a te non interessa per la tua linea specifica.
+- 01:11:04 Relatore 15E se lo scarto è semilavorato, cioè a metà del processo di produzione, interrompo la produzione di questo pezzo perché ha una difettosità?
+- 01:11:14 Relatore 15E quindi ha subito metà dell'elaborazioni.
+- 01:11:17 Relatore 9Allora?
+- 01:11:19 Relatore 17Se se per.
+- 01:11:20 Relatore 9Allora se noi parliamo di un ordine con più operazioni?
+- 01:11:25 Relatore 9E nel processo di fonderia non ce n'è. Nel possesso di friction qualcosa c'è, quindi non.
+- 01:11:29 Relatore 9So bene qual è la vostra linea di produzione, quindi parlo più in generale, io posso avere degli ordini che hanno più operazioni, quindi più step.
+- 01:11:38 Relatore 9E i più step possono essere come dicevi te io ho una prima fase di lavorazione e una seconda fase di lavorazione. La prima si parlava per esempio delle pastiglie, noi abbiamo tutta la parte di holding e poi andiamo nel e Treatment giusto? In quel caso lì la gestione è fatta da due operazioni diverse, tutta la parte di di pressatura e poi la parte di lavorazione nel nel forno.
+- 01:12:01 Relatore 9In quel caso lì, quando io.
+- 01:12:04 Relatore 9Ho a metà della fase una difettosità. Io comunque dichiaro uno scrap del materiale finito. Perché? Perché?
+- 01:12:13 Relatore 9Tutti i materiali di consumo sono in prima fase OK, quindi gli ordini sono già stati.
+- 01:12:20 Relatore 9Organizzati in modo che tutti i materiali di consumo siano sempre nelle prime fasi. Perché comunque la dichiarazione di scrap anche a metà di un di una.
+- 01:12:30 Relatore 9Di di un processo mi butta via del materiale.
+- 01:12:34 Relatore 9Che io ho già utilizzato per fare, per per farlo, quel pezzo.
+- 01:12:37 Relatore 9Hai però anche la possibilità invece di buttare via un materiale di consumo, quindi banalmente.
+- 01:12:44 Relatore 9Sei al casting hai prodotto un ragno, arrivi al cutting e ti accorgi che quel ragno ha una difettosità, quindi prima di di iniziare a fare la fase di cutting, quindi prima di iniziare a tagliarlo, dichiari che quel pezzo che ti è arrivato dalla linea precedente tu non lo puoi usare.
+- 01:13:02 Relatore 9Allora questa è una dichiarazione di scarto, non del prodotto finito, ma del prodotto di consumo.
+- 01:13:08 Relatore 9OK, quindi il prodotto di consumo che ti è arrivato dall'altra linea non è utilizzabile, tu lo dichiari già come scarto, quello ha lo stesso processo di movimentazione, quindi anche quello tornerà a far parte del tornerà nel Bean di Scrappo, nel Bean di di quarantena e verrà.
+- 01:13:26 Relatore 9Seguirà lo stesso processo. Però mio Consiglio, vi Consiglio adesso di finire la parte teorica, così tutte queste cose ve le faccio vedere nella parte pratica che sono un po' più visibili a vista perché farvele adesso nella parte teorica senza avere nulla davanti.
+- 01:13:41 Relatore 9Credo che per voi sia molto complicato seguire quello che sto dicendo, quindi?
+- 01:13:46 Relatore 9Capisco le le domande, capisco l'interesse, spero più o meno di avere risposto a tutto, però secondo me conviene vederlo direttamente sul sistema, così capite anche gli step di processo.
+- 01:14:00 Relatore 8OK.
+- 01:14:03 Relatore 8Chiudiamo con la fase della gestione del del gruppo di lavoro.
+- 01:14:10 Relatore 8Durante il processo espulsivo, l'operatore.
+- 01:14:15 Relatore 8Funziona il proprio call center, quindi?
+- 01:14:19 Relatore 8Stazione di lavoro.
+- 01:14:22 Relatore 8E si ritrova ad avere la lista uno ha più ordini.
+- 01:14:28 Relatore 8Seguire.
+- 01:14:30 Relatore 8Prima di iniziare, però, l'attività.
+- 01:14:33 Relatore 8È necessario per l'ordine sia associato gruppo utente a parte del gruppo di lavoro o con. Poi lo vedremo sempre nella parte pratica abbiamo proprio un'interfaccia.
+- 01:14:48 Relatore 8Icona, consente di inserire.
+- 01:14:52 Relatore 8L'operatore che dovrà no o degli operatori che dovranno lavorare?
+- 01:14:58 Relatore 8In quella stazione di lavoro.
+- 01:15:00 Relatore 8Quindi.
+- 01:15:03 Relatore 8Seguita questa attività di.
+- 01:15:07 Relatore 8Operatore che fa parte del gruppo di lavoro.
+- 01:15:12 Relatore 8Possibile farlo anche in tempo reale.
+- 01:15:15 Relatore 8Ci siamo accorti che in quella stazione di lavoro abbiamo.
+- 01:15:21 Relatore 8Indicato due operatori, in realtà ci sono due terzo.
+- 01:15:24 Relatore 8Il terzo operatore doveva doveva far parte del gruppo, c'è una c'è la possibilità di farlo in tempo reale.
+- 01:15:32 Relatore 8Te devi sempre utilizzando il tasto, il bottone, l'icona che che poi vedremo fase pratica.
+- 01:15:40 Relatore 8La lezione pratica.
+- 01:15:43 Relatore 8È possibile aggiungere il terzo operatore degli operatori necessari che avevamo magari qualche motivo dimenticato di unire al gruppo?
+- 01:15:55 Relatore 8Un membro del del team del gruppo.
+- 01:15:59 Relatore 8Possia avviare l'operazione.
+- 01:16:03 Relatore 8Che mettere in.
+- 01:16:04 Relatore 8Parte la preparazione e lo porta intero.
+- 01:16:07 Relatore 2Gruppo in seguito.
+- 01:16:10 Relatore 8Nell'associato all'operazione all'ordine stesso.
+- 01:16:15 Relatore 8Al termine dell'attività.
+- 01:16:18 Relatore 8Ipotizziamo di essere a fine turno.
+- 01:16:20 Relatore 8L'operatore può lasciare il.
+- 01:16:24 Relatore 8Il team.
+- 01:16:26 Relatore 8Non erro, Jacopo.
+- 01:16:27 Relatore 12Per me.
+- 01:16:31 Relatore 8E quindi se Dimmi se se se non erro ci dovrebbe essere l'attività automatica, l'operatore si dimentica.
+- 01:16:39 Relatore 8Di lasciare il gruppo, c'è il sistema che capisce l'orario, interpreta l'orario di fine turno e toglie l'operatore, stacca l'operatore.
+- 01:16:48 Relatore 9Sì, in pratica, in pratica.
+- 01:16:50 Relatore 8Vabbè, dopo.
+- 01:16:51 Relatore 9Ad ad oggi in Italia non c'è, non è ancora attiva, ma si attiverà a breve.
+- 01:16:55 Relatore 9Tutta la parte di calendario gestita da un'altro sistema che si chiama DPM che gestisce tutta la parte di appunto turnistica eccetera. Nel momento in cui il turno finisce mando un segnale al MES il quale fa un logout di tutti gli operatori. OK quindi fondamentalmente anche se uno si dimentica a fine turno di uscire, è il sistema stesso che lo lo mette fuori senza senza problemi.
+- 01:17:18 Relatore 8È proprio le facevano scattare del termine.
+- 01:17:20 Relatore 2Che che.
+- 01:17:21 Relatore 14Dicono a noi, non è che.
+- 01:17:23 Relatore 1Più avanti, al termine del \*\*\*\*, l'operatore, perché attualmente i formelli non avviene, deve comunque fare una dichiarazione parziale.
+- 01:17:32 Relatore 9Allora?
+- 01:17:33 Relatore 9Questo.
+- 01:17:34 Relatore 9Credo sia un processo Brembo, quindi credo di sì, nel senso che ad oggi non a quanto per la qualità non possono rimanere dei cassoni senza senza etichetta OK?
+- 01:17:47 Relatore 12No.
+- 01:17:48 Relatore 9Quindi credo questo però vi consiglio di chiederlo comunque AA al Management, soprattutto alla parte qualità perché?
+- 01:17:57 Relatore 1Connetti, Connetti Vabbè cos'è connetterlo Connect no l'operatore si droga vai ai contenitori che che ha sul turno.
+- 01:18:06 Relatore 1Tutto, sempre quello che arrivava nel futuro successivo.
+- 01:18:10 Relatore 4Però stampa un parziale.
+- 01:18:12 Relatore 1Come già lo stanno, esistono Corno.
+- 01:18:13 Relatore 14Esiste un colpo sì.
+- 01:18:16 Relatore 7Per tutte le domande che riguardano il processo di business, magari Samantha.
+- 01:18:21 Relatore 7Non so se devo collezionare dopo che ne parliamo in una sessione diversa.
+- 01:18:27 Relatore 9Mettiamola così, io non posso dirvi se farlo o non farlo, perché non è un processo che che.
+- 01:18:33 Relatore 17C'è se se.
+- 01:18:33 Relatore 9Sentiamo il business, sicuramente vi dirà di sì. Però diciamo che poi il processo come verrà definito, cioè il processo deve rimanere lo stesso, non è che cambiamo il processo, il sistema permette di farlo poi a discrezione secondo me di processo e processo se farlo o meno.
+- 01:18:51 Relatore 9Non ho le le facoltà di darvi questa risposta, purtroppo.
+- 01:18:57 Relatore 7No, ma infatti no.
+- 01:18:59 Relatore 7Samantha gli ha dato anche indicazioni quel sulle domande che riguardano il processo di business.
+- 01:19:04 Relatore 7Poi le le gestiamo a parte, cioè noi ci bastiamo più sulla parte del meteo.
+- 01:19:09 Relatore 1La signora Rendi comodo dal punto di vista di.
+- 01:19:12 Relatore 1Devi perdere, sai, abbiamo anche un punto.
+- 01:19:15 Relatore 2Leggi mi contesto qui, così si ferma lì.
+- 01:19:32 Relatore 1Perché se se uno fa ride per dichiarazione parziale?
+- 01:19:38 Relatore 1Animale cicli, cioè?
+- 01:19:41 Relatore 1E mi lascia lì. Poi continua l'altra funzione.
+- 01:19:45 Relatore 1Va bene, salviamo i ragazzi, portiamo via.
+- 01:19:46 Relatore 14Ecco, potremmo.
+- 01:19:47 Relatore 14Possiamo fare virtualmente, se loro vogliono il paziente significa che rimane lì, sulla macchina arriva quello del secondo, se lo apre di nuovo.
+- 01:19:51 Relatore 1Hai trovato?
+- 01:19:55 Relatore 1Vorrei che quello tirassi che quello che arriva devi riaprire.
+- 01:20:00 Relatore 14E vabbè, farò.
+- 01:20:01 Relatore 1Ok, 5 macchine, 5 Aprile, 5 parziali con tutte le fine del mattino, non solo negli anni eccetera ciò.
+- 01:20:03 Relatore 2Certo che tutte.
+- 01:20:08 Relatore 2Ci rimane 1 20 sul tuo titolo.
+- 01:20:11 Relatore 13Voglio no facciamo così, se noi arriviamo dobbiamo aprire II sei parziali per una macchina.
+- 01:20:18 Relatore 14Eh, lo so, ma per noi non c'è facile così nel.
+- 01:20:20 Relatore 13Senso che la mia domanda era, se in automatico viene buttato fuori l'operatore perché si è dimenticato di uscire e quindi ha dimenticato anche di chiudere la produzione?
+- 01:20:33 Relatore 15A forzarla e chiudere la produzione o rimane questa produzione senza operatori lavori in in lavoro? Metterò in automatico il parziale penso no.
+- 01:20:42 Relatore 9No, no, no, no. Allora il.
+- 01:20:44 Relatore 2AX ti.
+- 01:20:46 Relatore 13Blocca, ti lascio nel limbo.
+- 01:20:48 Relatore 14E vado per succedere a noi adesso.
+- 01:20:50 Relatore 7Vi lascio uscire.
+- 01:20:51 Relatore 2No, non.
+- 01:20:51 Relatore 14Ti lascio uscire, giusto? Non ti lasciano uscire.
+- 01:20:54 Relatore 13Se mi dimentico non c'è in automatico che mi butta fuori col DPM.
+- 01:21:00 Relatore 15Si può forzare allora? Sì, però devo forzare anche la la chiusura della produzione.
+- 01:21:05 Relatore 13A noi l'operatore anche se non fa la manutenzione di un primo livello, non riesce a uscire dal sistema.
+- 01:21:13 Relatore 1Sì, sì, no.
+- 01:21:15 Relatore 13Tutta, leggermente, tutto.
+- 01:21:16 Relatore 1Grazie 1000 per questa cosa.
+- 01:21:16 Relatore 13Questo.
+- 01:21:18 Relatore 14Che sono importanti, almeno faccio mai ricordo.
+- 01:21:21 Relatore 9Allora diciamo che ad oggi il cambio turno prevede solo la rimozione dell'utente dal gruppo. La produzione rimane esattamente come come era prima del cambio turno, quindi non.
+- 01:21:35 Relatore 9Non viene, non non viene toccata la produzione, ma da un certo punto di vista non si possono fare altre operazioni, nel senso che se poi l'operatore prova a fare qualcos'altro, sistema ti ferma e ti dice no, non c'è nessuno nel gruppo, non si può andare avanti.
+- 01:21:49 Relatore 9OK, quindi fondamentalmente.
+- 01:21:52 Relatore 9Non fa nessun cambio alla produzione, quindi rimane. Rimane esattamente uno screenshot di quello che che è successo fino al momento del cambia turno e tutte le operazioni successive. Deve essere fatto almeno con un login, quindi fondamentalmente se l'operatore ha finito il turno ma vuole fare l'ultima dichiarazione, basta che si rilogga a fare la dichiarazione.
+- 01:22:11 Relatore 9E poi se ne va.
+- 01:22:12 Relatore 9Senza.
+- 01:22:12 Relatore 12Premi.01:22:13OK.
+- 01:22:16 Relatore 9Non il cambio turno non ha impatti sulla produzione, perché?
+- 01:22:21 Relatore 9Questa logica era già stata decisa anche a livello di ostrova, perché c'è il rischio da un certo punto di vista, che se il fine turno mi fa una pausa di un'operazione o da un certo punto di vista mi impedisce di fare.
+- 01:22:35 Relatore 91 1 determinato una determinata azione c'è il rischio che poi io non riesco a capire che cosa è successo perché magari non mi sono accorto che era erano le era 12:00 è finito il mio turno devo andare e però non mi funziona niente quindi tra virgolette cioè c'è il panico quindi in quel caso l'operazione che si sta eseguendo in quel momento può finire ma tutte le operazioni successive quindi START, pause e cose varie vengono bloccate perché di perché il il sistema si aspetta almeno un operatore loggato.
+- 01:23:06 Relatore 9Questo è come ad oggi, poi potrebbe essere diverso rispetto a quello che avete che avete su AX.
+- 01:23:13 Relatore 9Di nuovo, secondo me è parte delle domande che si può fare lato lato business per capire come è stato pensato il processo ad oggi.
+- 01:23:25 Relatore 8Ok, io farei una pausa di 10 minuti prima di iniziare con l'altro bollo.
+- 01:23:34 Relatore 2Perfetto.
+- 01:23:36 Relatore 4Puoi.
+- 01:23:37 Relatore 12Puoi sì.
+- 01:23:48 Relatore 14Io devo.
+- 01:23:49 Relatore 10Perché Sergio spiel?
+- 01:23:53 Relatore 2Aspettami che capisco, no, mi fa mi pare quella una classe.
+- 01:24:04 Relatore 13E a cercare la produzione delle persone.
+- 01:24:11 Relatore 2E io penso al mio cavo, grazie.
+- 01:24:16 Relatore 2Distrugge, sento la si è sentito.
+- 01:24:19 Relatore 6Io sono usciro.
+- 01:46:04 Relatore 2Sì, dopo ti ho appena preso.
+- 01:46:10 Relatore 2Mandami, l'orario pranzo.
+- 01:46:21 Relatore 2Lo ripeti?
+- 01:46:28 Relatore 2No, devo anche aprirlo, sposarti.
+- 01:46:41 Relatore 13Tutti lo lascar, poi la foto che l'ho lasciato 16 minuti.
+- 01:46:48 Relatore 8Fino a che?
+- 01:46:49 Relatore 2Punto, prendi l'aereo.
+- 01:46:51 Relatore 12No.
+- 01:46:56 Relatore 12Mi scusi, come guideranno? Ok?
+- 01:47:05 Relatore 1Proprio il prrobert.br Cobert e richiesta bene chi gioca in.
+- 01:47:09 Relatore 6Riga da green.
+- 01:47:11 Relatore 212 libri belli.
+- 01:47:13 Relatore 2Buongiorno, sono.
+- 01:47:23 Relatore 7Claudia.
+- 01:47:25 Relatore 7Aspetti, ti piaccio? Accedi.
+- 01:47:28 Relatore 2Senti.
+- 01:47:29 Relatore 7Non al DSB poi, perché qua vediamo, la rimetto oggi.
+- 01:47:33 Relatore 8No, Eh sì Nicola, sì, ce l'ho.
+- 01:47:38 Relatore 8Il bello, l'ultimo appello.
+- 01:47:41 Relatore 7È il link, quello sì, repetitive, mapello dovreste averle nelle nelle slide.
+- 01:47:59 Relatore 8Ecco qua.
+- 01:48:01 Relatore 8Calmo.
+- 01:48:03 Relatore 12Ah.
+- 01:48:05 Relatore 2Faccio segmento.
+- 01:48:09 Relatore 2Sono qui con le cose.
+- 01:48:10 Relatore 8Sono tutto dei lavori standby.
+- 01:48:12 Relatore 7Sono quelli che sono, però serve sempre l'utente ci sono.
+- 01:48:15 Relatore 2Sì.
+- 01:48:19 Relatore 8Così abbiamo, vediamo se.
+- 01:48:26 Relatore 7No, forse ancora non accedo.
+- 01:48:30 Relatore 8Allora mamma?
+- 01:48:34 Relatore 8No, si collega nessuno.
+- 01:48:37 Relatore 8Grazie ci siamo, qui siamo la parte della.
+- 01:48:45 Relatore 7Sì, li posso trovare. Se andiamo a preparare anche i sondaggi c'è già la dovreste conoscere la password. La conoscete.
+- 01:48:55 Relatore 12Per.
+- 01:48:56 Relatore 2Non è così?
+- 01:49:00 Relatore 2T'ho finito, sennò si riusciamo a prendere un po' degli occhi.
+- 01:49:04 Relatore 14Reati.
+- 01:49:05 Relatore 2Ti canto le gambe.
+- 01:49:07 Relatore 12Tanti ginocchio e tanto c'è scritto.
+- 01:49:13 Relatore 2Cambia.
+- 01:49:16 Relatore 2Perfetto, sono sabbia, partiamo in circolo, nessuno, nessuno ci fa baciare.
+- 01:49:30 Relatore 2È più normale di cui si diventa.
+- 01:49:32 Relatore 2Sì, una pistola. Una pistola. La pistola è ancora bella.
+- 01:49:36 Relatore 2Perché sono stanno, un po' perché questo.
+- 01:49:39 Relatore 12No.
+- 01:49:44 Relatore 13Sì, la devi smettere.
+- 01:49:49 Relatore 2C'è rotto la Microsoft.
+- 01:49:49 Relatore 7E devi accederci.
+- 01:49:50 Relatore 7Con quelli potenziali sulla rotellina per il film.
+- 01:49:53 Relatore 2Hai visto la rete?
+- 01:49:56 Relatore 2Se tu dici si svolge un attimo anche.
+- 01:50:00 Relatore 7Quello del sei dell'altri premier?
+- 01:50:07 Relatore 2Sì, per me.
+- 01:50:10 Relatore 2Sì, sì, scriveva.
+- 01:50:13 Relatore 2Insieme, certo, per l'approvazione del caffè, ma dobbiamo arrivare.
+- 01:50:22 Relatore 2Le faccio.
+- 01:50:25 Relatore 2Io pensavo che.
+- 01:50:28 Relatore 2Capisci un po' più sì, sì, certo.
+- 01:50:39 Relatore 2Il problema è.
+- 01:50:44 Relatore 2No, comunque mi pare di aver capito che c'è tutto. Chiede alluminio tutto.
+- 01:50:50 Relatore 7Sì, sì e poi andiamo.
+- 01:50:51 Relatore 2Questo.
+- 01:50:55 Relatore 2A shocking.
+- 01:50:59 Relatore 2Dopo lavoro.
+- 01:51:03 Relatore 2Vedrai sapere la sbaglia sicura a sparare sì, sì, no è un errore. Cioè il problema è che dopodiché lascia andare, senti quello il problema, almeno se tu sbagli a spararmi dici no, lo porta davanti, invece tu fai tutto il giro invece è bloccato già all'inizio quello progetto, perché non ti ho mandato in giro?
+- 01:51:23 Relatore 2Ecco, Fammi vedere dentro.
+- 01:51:31 Relatore 2Oh, mi ha preso un po', s'è messa male Francesco.
+- 01:51:36 Relatore 2Come si chiama?
+- 01:51:44 Relatore 2Costruzione politico? No, no, per andare lui.
+- 01:51:44 Relatore 1Però.
+- 01:51:47 Relatore 2Aspetta, adesso devo prendere diventerà.
+- 01:51:48 Relatore 3Provare invece che colorazione provi.
+- 01:51:52 Relatore 2Quello là e quelli che ho capito è tutta l'acquario.
+- 01:51:56 Relatore 6Non mettilo facile.
+- 01:51:58 Relatore 12Ah.
+- 01:52:00 Relatore 2Benissimo, neanche io acceso.
+- 01:52:03 Relatore 2Grazie.
+- 01:52:04 Relatore 2Non abbiamo impostato quelli che non sappiamo.
+- 01:52:07 Relatore 2La prima volta che vedo niente, no?
+- 01:52:09 Relatore 2Di solito si non lo scrive.01:52:10Ma lui ci vuole il solare lascialo.
+- 01:52:12 Relatore 2Prima di chiedere la roba parecchio.
+- 01:52:14 Relatore 2Vicino a Valerio.
+- 01:52:21 Relatore 2A kozanky anch'io anch'io.
+- 01:52:24 Relatore 2Ci sta bene?
+- 01:52:28 Relatore 10Aspetta.
+- 01:52:31 Relatore 12Che.
+- 01:52:32 Relatore 2Mi metto vicino a tua simuela.
+- 01:52:34 Relatore 2Va bene?
+- 01:52:37 Relatore 2Ah, libro.
+- 01:52:49 Relatore 8Niente, sì, non lo so.
+- 01:52:52 Relatore 2Poi dopo mangiato.
+- 01:52:57 Relatore 2Io arrivo, arrivo.
+- 01:53:00 Relatore 1Quanto tu vai. No, no, non.
+- 01:53:02 Relatore 1Ci sentiamo, possiamo dichiarare.
+- 01:53:04 Relatore 2Possiamo dichiarare non stai male per imbarazzo?
+- 01:53:09 Relatore 2Sto vicino al mio.
+- 01:53:13 Relatore 8Partigiani.
+- 01:53:15 Relatore 2Per forza volevamo guardare qua, dobbiamo guardare qua se.
+- 01:53:20 Relatore 1Un.
+- 01:53:23 Relatore 12Roberto.
+- 01:53:24 Relatore 13Nostro collega dei problemi serio questo.
+- 01:53:27 Relatore 1Cosa?
+- 01:53:29 Relatore 2Ha fatto?
+- 01:53:35 Relatore 2Sto.
+- 01:53:35 Relatore 2Hotel puoi sentire?
+- 01:53:39 Relatore 2Mi scrivi?
+- 01:53:46 Relatore 2Succede.
+- 01:53:52 Relatore 2Filippo, Oh, basta, subito verde.
+- 01:53:56 Relatore 8Le percepisce?
+- 01:54:00 Relatore 8Allora il sito qua e poi l'hai fatto, OK?
+- 01:54:01 Relatore 2Sì, sì alle stelle.
+- 01:54:07 Relatore 8Speriamo velocemente andiamo direttamente ripetitive sull'area interfaccia operatore.
+- 01:54:16 Relatore 2PDF.
+- 01:54:18 Relatore 8All'interno dell'interfaccia vedremo l'addio, lo staff, il dottore in alto a destra per attivare l'operazione, il consumo dei materiali vedremo poi la bomba e la lista dei materiali da consumare.
+- 01:54:34 Relatore 8La gestione degli scalfi, il completamento.
+- 01:54:37 Relatore 8Del passaggio vedremo proprio la parte diciamo dei container.
+- 01:54:43 Relatore 2E la e l'altra?
+- 01:54:49 Relatore 8Allora questa è l'interfaccia, adesso vedremo proprio direttamente.
+- 01:55:02 Relatore 8Sulla sul link prendo tre ripetitive, questa è la pagina iniziale, vediamo.
+- 01:55:10 Relatore 8Nell'immediato.
+- 01:55:12 Relatore 8E cosa succede? Che cosa vedremo qui? Vedremo sicuramente.
+- 01:55:18 Relatore 8Pisa Call center. In questo caso abbiamo più. Quale motivo perché la mia macchina no l'annalisa in questo momento?
+- 01:55:28 Relatore 8Non è associata a nessun Works, quindi avremo i Work center, la lista dei worksen, l'operatore deve selezionare la lista.
+- 01:55:36 Relatore 8I work center pro.
+- 01:55:39 Relatore 8E il terminale Annalisa.
+- 01:55:43 Relatore 8Ha più work center collegati vedrò i miei call center OK se in realtà io 1 1 solo col worksenter Annalisa può.
+- 01:55:54 Relatore 8Utilizzare worksen X OK.
+- 01:55:57 Relatore 8Questa parte è bypassata, andiamo direttamente sulla lista del degli ordini, OK?
+- 01:56:04 Relatore 8Velocementepoientriamodiciamonel.tv.
+- 01:56:09 Relatore 8Questo è l'ordine.
+- 01:56:12 Relatore 8La lista degli ordini da uno ad Enne orfini, OK.
+- 01:56:17 Relatore 8Vedremo poi sopra i vari filtri, molto appena entriamo nella fase.
+- 01:56:24 Relatore 8Dimostrativa.
+- 01:56:26 Relatore 7Prego.
+- 01:56:29 Relatore 1Se io faccio parte di un punto mi trovo solo i miei, ho trovato troppo.
+- 01:56:33 Relatore 4Cioè dai.
+- 01:56:34 Relatore 11Così.
+- 01:56:35 Relatore 8Il il gruppo è associato all'ordine.
+- 01:56:39 Relatore 8All'ordine il gruppo associato all'ordine.
+- 01:56:43 Relatore 3Gruppo di persone luittente.
+- 01:56:46 Relatore 17No, aspetta, aspetta.
+- 01:56:48 Relatore 9Allora il il il workcenter è legato a 1 1 o più terminali, in generale uno. Quello che può succedere è che c'è uno stesso terminale che fa riferimento a più work center.
+- 01:57:04 Relatore 9E quindi fondamentalmente, quando voi accedete al terminale vedete solo il Work center che fa riferimento a quel.
+- 01:57:12 Relatore 9Finale se invece un terminale è legato a un solo work center, tutta la parte di selezione del work center non verrà fatta, verrete automaticamente indirizzati alla landing page dove dovete scegliere l'ordine da selezionare.
+- 01:57:27 Relatore 8Il capitale che tu sei?
+- 01:57:29 Relatore 1Offerto.
+- 01:57:31 Relatore 8Perfetto, poi vedremo esattamente.
+- 01:57:33 Relatore 2Ce ne sono anche adesso c'ha.
+- 01:57:36 Relatore 8Come è strutturata l'ordine?
+- 01:57:39 Relatore 8Lo lo ribadisco, lo vedremo a breve.
+- 01:57:43 Relatore 8Questa iconcina qua.
+- 01:57:44 Relatore 8Se la vediamo verde è un ordine nuovo.
+- 01:57:49 Relatore 8Ce la dobbiamo con un cioè, poi poi vedremo le tre fasi.
+- 01:57:54 Relatore 8Presidente dell'opera in pausa e invece ce la vediamo attiva, c'è un'opportunità in esecuzione. Queste sono le informazioni che vedremo nell'ordine.
+- 01:58:03 Relatore 8La quantità?
+- 01:58:05 Relatore 8La quantità da.
+- 01:58:07 Relatore 8Produrre la quantità.
+- 01:58:10 Relatore 8Prodotta in Progress.
+- 01:58:13 Relatore 8E qui la quantità.
+- 01:58:16 Relatore 8O mettiamo per esempio che lo vedremo, che poi invece la quantità è completata il codice del work order?
+- 01:58:24 Relatore 7Ok adesso.
+- 01:58:25 Relatore 8Il prodotto finale?
+- 01:58:28 Relatore 7No, giusto una.
+- 01:58:31 Relatore 7Gli abbiamo dato accesso al sistema, però poi lo adesso è solo in esplorazione. OK adesso e poi insieme ad Annalisa vediamo dove andare, come cliccare su quale, quali sono i punti.
+- 01:58:45 Relatore 7Perché altrimenti è chiaramente così, sembra che le cose non funzionano, ovviamente.
+- 01:58:49 Relatore 7Però invece non è nient'altro che sapere che qual è.
+- 01:58:52 Relatore 2La sezione.
+- 01:58:54 Relatore 8Ok, entreremo nello statistico, quindi nella soluzione.
+- 01:58:59 Relatore 8E i tanti fratelli Con Pietro, l'associazione aziendale.
+- 01:59:04 Relatore 8Questo è il trattino che consentirà di aggiungere gli operatori all'elenco di lavoro.
+- 01:59:12 Relatore 8Adesso lo vediamo, se no qual è anche.
+- 01:59:16 Relatore 13Ok.
+- 01:59:19 Relatore 8Un \*\*\*\*\*\*\*\*\*, c'è una confort?
+- 01:59:23 Relatore 8Sai qualcosa dice Pauli, qualcosa tipo quando iniziavo l'operazione discendiamo lo scout.
+- 01:59:26 Relatore 2Sì, sì, sì.
+- 01:59:31 Relatore 8Possiamo inserire la quantità?
+- 01:59:35 Relatore 8L'ecografia dell'ordine nel senso dell'ordine ho una quantità inferiore. Ah, scusami precedente hai parlato di tre di quantità.
+- 01:59:45 Relatore 8Allora vedo che ci sono dei successo, 5 quantità diverse, vi lascio vicino quindi lo zero e la quantità di implica? Sì, adesso quella parte di poste non è proprio quella. Magari quando entriamo vediamo nello specifico, la prima è la quantità pianificata.
+- 02:00:04 Relatore 8Approfittamento zero sì.
+- 02:00:09 Relatore 8Sistemare decisamente la slide, poi la quantità prodotta e la quantità completata. Vedremo che allo Stato se noi mettiamo ipotizziamo di avere il 100 come quantità finale allo staff decidiamo.
+- 02:00:22 Relatore 8Di mettere 10, cioè?
+- 02:00:24 Relatore 8Vedremo il decremento, 90 e 10 nella prima parte, in quella pianificata due e 90 nella seconda, quella esattamente.
+- 02:00:31 Relatore 2Sì, anche non di più, per magari prendo l'offerta.
+- 02:00:34 Relatore 8Di ecogress.
+- 02:00:35 Relatore 7È sbagliato?02:00:37Annulla.
+- 02:00:41 Relatore 2Posso fare domani?
+- 02:00:43 Relatore 2Face.
+- 02:00:44 Relatore 10Il capo tour aggiungevano il mezzo Riccione.
+- 02:00:47 Relatore 10Porti 10 meno OK ma più dal box li aggiungo tutti impostazioni per postazione devo spostarmi a raggiungere gli operatori.
+- 02:00:59 Relatore 8Chiudere.
+- 02:01:00 Relatore 1O quello che.
+- 02:01:00 Relatore 10Ci scappa il turno, aggiungevano letto, i membri presenti.
+- 02:01:01 Relatore 2Prima che c'era una sessione attività.
+- 02:01:04 Relatore 10Il suo inizio turno dopo di seguire.
+- 02:01:05 Relatore 2Anche.
+- 02:01:05 Relatore 10I recuperatori dal dal mio portatile.
+- 02:01:08 Relatore 10Del mio PC.
+- 02:01:10 Relatore 8Non è così. Per definire meglio sentiamo un attimo Jacopo. Hai sentito Jacopo? La domanda?
+- 02:01:12 Relatore 4È più Ricci Domenico.
+- 02:01:17 Relatore 9No, potete ripetermi, scusate che non c'è un.
+- 02:01:19 Relatore 17Po' di rumore?
+- 02:01:19 Relatore 1Chiedeva se è il.
+- 02:01:20 Relatore 4Capoturno a dover fare la l'aggiunta dei membri a, cioè deve farlo su tutte le linee lui all'inizio del turno o lo deve fare postazione per postazione.
+- 02:01:31 Relatore 9Allora deve essere fatto postazione per postazione, ma lo devono fare gli operatori stessi.
+- 02:01:37 Relatore 9Il sistema adesso vi faremo vedere prevede anche la lettura del barcode, quindi basta semplicemente che loro vadano sul sistema e tramite barcode loro tra virgolette.
+- 02:01:50 Relatore 9Scansioni nel loro badge automaticamente avvengono inseriti.
+- 02:01:54 Relatore 4Cioè è corretto che venga fatto postazione per postazione, ma secondo me è sbagliato che è.
+- 02:01:59 Relatore 4Il capo turno aggiungerlo.
+- 02:02:01 Relatore 2E l'operazione spesso che aggiunge.
+- 02:02:03 Relatore 9Deve deve essere fatto postazione per postazione per il fatto che la visto che la postazione di per sé ha un utente legato alla postazione, quindi di per sé non è 1 1 utente per singolo user, ma è un utente generico per postazioni.
+- 02:02:18 Relatore 9Bene, serve che la postazione sappia quali sono gli utenti che in quel momento sta lavorando su quella postazione. Poi è logico che ci potranno essere utenti che lavorano su più postazioni, però serve sapere quale utente lavora e su quale postazione perché poi in quel modo è possibile anche gestire tutta la parte di non product activities o comunque tutta la parte di.
+- 02:02:41 Relatore 9Tracciamento delle operazioni che sono state eseguite su workcenter.
+- 02:02:46 Relatore 13Scusa un attimo, non ho capito bene una cosa. Quindi operatore può essere loggato su più impianti?
+- 02:02:54 Relatore 13Perché adesso noi abbiamo i fitti sì, per compensare le macchine dove non c'è l'operatore.
+- 02:03:00 Relatore 13Quindi abbiamo dei fichetti.
+- 02:03:04 Relatore 9Allora ad oggi la il terminale del workcenter ha un utente di terminale, quindi il Work Center Googc l 141 avrà l'utente goog l 141.
+- 02:03:17 Relatore 9Il gruppo è semplicemente serve solo per associare quel work center a degli operatori, il fatto che possono esistere degli utenti che.
+- 02:03:28 Relatore 9Possano lavorare su più macchine, permette quindi di poter loggarsi al gruppo su macchine diverse.
+- 02:03:34 Relatore 9È logico che.
+- 02:03:38 Relatore 9È buona prassi se io adesso sto lavorando sulla 141 e poi mi devo spostare sulla 142, sulla 141 non ci lavoro più.
+- 02:03:47 Relatore 9Slogarsi.
+- 02:03:48 Relatore 9Però di per sé l'importante è che si sia loggati, perché in quel caso almeno verrà fatta la tracciatura della del lavoro.
+- 02:03:57 Relatore 12OK.
+- 02:04:02 Relatore 8Entriamo nel destro dell'applicazione.
+- 02:04:07 Relatore 8Chiara situazione.
+- 02:04:10 Relatore 8Un attimo che mi apro.
+- 02:04:12 Relatore 8Apertura del del Brembo.
+- 02:04:15 Relatore 9Sì, se vuoi ce l'ho già aperta io, Annalisa così.
+- 02:04:21 Relatore 9Se, se preferisci posso posso lasciare io, Dimmi te.
+- 02:04:25 Relatore 8Sì, sì.
+- 02:04:26 Relatore 12Ok, OK.
+- 02:04:28 Relatore 12Grazie.
+- 02:04:29 Relatore 9OK, allora?
+- 02:04:32 Relatore 8Un secondo perdonami, ma devo ridere.
+- 02:04:35 Relatore 8Conosci.
+- 02:04:36 Relatore 9Ah, OK, scusami.
+- 02:04:39 Relatore 8Vai pure grazie.
+- 02:04:41 Relatore 9OK, io per adesso ho preso 1 1 workcenter di casting OK? Diciamo che più o meno le operazioni che adesso vi farò vedere sono standard per tutte.
+- 02:04:56 Relatore 9Per tutti i processi.
+- 02:04:59 Relatore 9Se tratto qualcosa di specifico processo ve lo ve lo faccio notare, però in generale prendete questo esempio come più o meno lo standard, poi se faccio un qualcosa di specifico o se altri processi hanno qualcosa di diverso, ve lo faccio, ve lo ve lo esplicito direttamente.
+- 02:05:13 Relatore 9Allora come come diceva Annalisa, adesso io sto simulando come se fossi davanti al terminale della guvc l 231 OK, quindi come vedete appena io ho fatto l'accesso automaticamente il sistema mi ha indirizzato direttamente sulla pagina perché sto simulando il fatto che il Workcenter è legato a un suo cioè o meglio il terminale è legato a un solo, a un solo work center e quindi io vedo.
+- 02:05:39 Relatore 9Vedo solo questo. OK. Poi logicamente ci possono essere anche terminali tipo terminali fuori linea che potranno essere legati a tutti i work center, oppure solo un gruppo di work center. Il sistema permette di fare qualunque tipo di configurazione.
+- 02:05:54 Relatore 12OK.
+- 02:05:56 Relatore 9Allora qua come vedete io ho tutti gli ordini che sono attualmente presenti sul sistema.
+- 02:06:02 Relatore 9Qua viene indicato la quantità per ogni per ogni ordine, il numero dell'ordine, il materiale che sta andando a produrre in questo caso mi sembrano tutti uguali, stesso materiale e la descrizione del materiale. OK come vedete io qua ho alcuni pulsanti e in particolare ho il gruppo OK nel gruppo qua come vedete in questo momento non ho nessuno. Questa è la dropdown che vi facevo.
+- 02:06:27 Relatore 9Dicevo prima, dove l'operatore può tranquillamente?
+- 02:06:29 Relatore 9Scansionare il tuo badge.
+- 02:06:31 Relatore 9Ad oggi quello che vedete sono direttamente i nomi, perché per siamo in un ambiente di quality, quindi non abbiamo non sono stati mappati in Active directory i badge direttamente, però nel momento in cui voi nel momento in cui saremo in produzione verranno mappati gli utenti come identificatore del badge e quindi nel momento in cui loro scansionano qua, il sistema automaticamente selezionerà il loro utente in automatico, quindi o in automatico scansiona e viene aggiunto.
+- 02:07:00 Relatore 9Ok, quindi loro dovranno solo beggiarsi, fondamentalmente come se se facessero il labeggiata a inizio turno.02:07:07Okay.
+- 02:07:11 Relatore 9Ipotizziamo 111 situazione standard, quindi nel casting non è proprio così. Però negli altri, negli altri, negli altri processi quello che succederà è che io sono davanti alla linea e quindi ho la necessità di fare una chiamata materiale, la prima chiamata materiale, perché io da un certo punto di vista sul inizio linea.
+- 02:07:35 Relatore 9Non ho non ho ancora materiale.
+- 02:07:36 Relatore 9E quindi io posso cliccare.
+- 02:07:38 Relatore 9Aspetta, in questo caso non ho, non ho.
+- 02:07:40 Relatore 1Scusate il tastino, le anime le chiamiamo anche noi.
+- 02:07:44 Relatore 9Ah, nel casting. È vero, è vero, scusate, chiamate le anime. Quindi fondamentalmente ipotizziamo che io sto scartando questo, questa ordine.
+- 02:07:56 Relatore 9Ah OK, in questo caso manca la configurazione delle anime.
+- 02:08:01 Relatore 9Fatemi fatemi usare un'altro work center perché questo qua non è stato configurato.02:08:07Lato.
+- 02:08:12 Relatore 12Accendi, non accendi proprio tu.
+- 02:08:13 Relatore 8Pa.
+- 02:08:15 Relatore 9Quindi andiamo torniamo al caso. OK, sono qua, devo iniziare un mio ordine, faccio la la stage in coda come vedete io ad oggi adesso non ho selezionato nessun ordine, quindi il sistema mi presenta davanti tutti i materiali che potenzialmente posso andare a chiamare. Se poi seleziono un determinato ordine il sistema mi dice per quell'ordine.
+- 02:08:36 Relatore 9Quanto effettivamente ci aspettiamo di avere per quell'ordine?
+- 02:08:40 Relatore 9Eh, e quanto effettivamente abbiamo?
+- 02:08:41 Relatore 8Proprio scusami Jacopo, Perdonami, adesso andiamo un pochettino con con calma perché bisogna individuare bene gli aspetti, OK?
+- 02:08:47 Relatore 9Ok, OK, OK, OK.
+- 02:08:51 Relatore 9Torniamo indietro. Allora sono arrivato sulla, sulla mia, sulla mia stazione. Devo iniziare a fare una produzione. Vedo che.
+- 02:08:59 Relatore 9Ha inizio linea non ho nessun materiale OKE quindi devo fare la first stage in call OK quindi fare la prima chiamata materiale.
+- 02:09:09 Relatore 9Se io so già qual è il mio ordine che devo produrre, io posso cliccare l'ordine e automaticamente il sistema mi prefiltra l'ordine che voglio che devo, cioè il materiale che devo.
+- 02:09:22 Relatore 9Chiamare se invece.
+- 02:09:23 Relatore 8Anzi, vogliamo, cioè scusami, scusami se non mi avrebbe fatto.
+- 02:09:28 Relatore 8Deve scegliere.
+- 02:09:31 Relatore 9Allora?
+- 02:09:33 Relatore 9Lo allora voi adesso vedete tanti, tanti, tanti ordini perché siamo in un ambiente di dove ce ne abbiamo messi tanti.
+- 02:09:40 Relatore 9Quando ci sarà la produzione mi aspetto che gli ordini saranno molto, molto meno.
+- 02:09:46 Relatore 9Quale ordine startare di preciso?
+- 02:09:50 Relatore 9Non so come come verrà deciso di per sé, però voi sapete qual è il materiale che è stato che è stato deciso di produrre su quella linea, OK?
+
+## Casting, qualità e casi operativi di linea
+
+- 02:10:01 Relatore 8Faccio l'esempio su quella l'isola che hai schiacciato prima c'erano 4 4 ordini, tutti con dello stesso codice e ci e ci può essere una cosa della genere l'unica cosa che si differenzia oggi?
+- 02:10:13 Relatore 8È il numero del batch che qua non vedo.
+- 02:10:18 Relatore 9Allora?
+- 02:10:18 Relatore 8Si stacca l'ordine, stacca anche il numero del o. Il betch viene staccato quando fai la protezione.
+- 02:10:27 Relatore 9Allora no, il l'ordine contiene già il numero del batch. Ve lo faccio vedere. Allora l'ordine contiene già il numero del batch.
+- 02:10:36 Relatore 9Che è questo qua, come vedete è indicato qua sopra, no?
+- 02:10:38 Relatore 9Allora questa è la stessa domanda che mi è.
+- 02:10:43 Relatore 9Stata fatta ieri quello che che che.
+- 02:10:45 Relatore 2Ah, comunque.
+- 02:10:48 Relatore 17Scusate perché non non vedendovi Visa vino non riesco ad associare le voci alle persone.
+- 02:10:54 Relatore 9E allora sì, l'ordine mi arriva già col col col batch.
+- 02:11:00 Relatore 9Arrivandomi già col batch, io posso.
+- 02:11:03 Relatore 9Filtrare per batch però, come come dicevo ieri, il per esempio in questo caso hanno tutti lo stesso batch, ma ripeto, siamo in un ambiente di equality quindi.
+- 02:11:14 Relatore 9Non non non fate caso al fatto che ce ne siano tanti, dovrebbe essercene solo uno, però di per sé quello che il problema che mi è stato giustamente posto ieri è il fatto che io il batch che sto utilizzando per il filtraggio.
+- 02:11:26 Relatore 9È il badge che andrò a produrre, non il batch che mi arriva dalla stazione precedente, OK?
+- 02:11:34 Relatore 9Quindi.
+- 02:11:36 Relatore 9Questo è effettivamente rispetto al vostro, al vostro utilizzo standard? In AX è 1 1 differenza e di nuovo secondo me è una di quelle domande da da porre al business, perché il filtraggio del batch come il filtraggio del prodotto è 1 1? Richiesta che era stata già.
+- 02:11:56 Relatore 9Scusate.
+- 02:11:58 Relatore 8No, no, prego, prego Jacopo.
+- 02:11:59 Relatore 9Ah OK OK. Era una richiesta che era già stata fatta anche per gli ambienti di Ostrava e su Ostrava era stata fatta così, però purtroppo io non so dirvi come verrà. Vi verranno presentati la selezione dell'ordine.
+- 02:12:15 Relatore 9Non so se c'è Andrea lì e lui lo sa, o comunque perché io personalmente non non so. I nostra vado oggi come fanno a selezionare lo quale ordine seleziono, in base a che, quale, quale pro?
+- 02:12:29 Relatore 9Un principio?
+- 02:12:31 Relatore 4Ma credo credo che gli arrivi già una produzione.
+- 02:12:33 Relatore 2La.
+- 02:12:34 Relatore 2E poi saluta Federico.
+- 02:12:37 Relatore 4Prego un criterio in AIC per per decidere quale stampare quante nostra ma non c'ero, quindi non può salire.
+- 02:12:47 Relatore 5La logica.
+- 02:12:47 Relatore 8Mi dice che.
+- 02:12:50 Relatore 8Parto e nel ritorno.
+- 02:12:52 Relatore 12Ti amo.
+- 02:12:54 Relatore 8Lascio aperto perché non lo finisco i dati ho aperto per due pezzi che rimane lì, poi ne inserisco in un'altro ordine per 100 pezzi, così via sia vengono lasciati aperti rilasciami dire.
+- 02:13:07 Relatore 4In teoria dovrebbero essere chiusi.
+- 02:13:10 Relatore 8Bravissimo, mi vien da dire, OK, se tu vieni in una situazione pubblica quindi giornalmente vengono chiusi in base alla valutazione l'operatore vedrà solo.
+- 02:13:19 Relatore 2Il suo nome per.
+- 02:13:19 Relatore 4Gli ultimi?
+- 02:13:20 Relatore 8Introdurre e non si crea il.
+- 02:13:21 Relatore 4Problema in teoria, dovrà.
+- 02:13:23 Relatore 4Staremo a sentirti.
+- 02:13:27 Relatore 8Ma l'operatore della produzione può segnalare da qualche parte i chirurghi sui dati. Ordinato anche un residuo in due effetti.
+- 02:13:38 Relatore 1Mi.
+- 02:13:39 Relatore 3Aspetta.
+- 02:13:43 Relatore 9Rifatemi un attimo la domanda, perché l'ho?
+- 02:13:44 Relatore 9Sentita un po' lontana.
+- 02:13:45 Relatore 13Chiami.
+- 02:13:47 Relatore 8Fino a prima.
+- 02:13:48 Relatore 2Perché?
+- 02:13:49 Relatore 1Un'altra soluzione c'è una fase di setup che.
+- 02:13:54 Relatore 1Che forse io il pane non è considerata.
+- 02:13:57 Relatore 1Al digitale implica comunque sia l'affidamento stampo utile, il codice serie di produzione.
+- 02:14:04 Relatore 1E l'ottimo sempre che viene trascinato solo per una questione di stabilità, poi non so se a terminale questo rimane traccia, cioè rimane traccia dell'ordine che stiamo lavorando.
+- 02:14:19 Relatore 1Non ho capito.
+- 02:14:24 Relatore 9E mi ha rifatto un attimo la la la domanda da più vicino cerco di di rispondervi e magari darvi una mano. Però l'ho sentita AA tratti, scusate.
+- 02:14:31 Relatore 2Apri.
+- 02:14:33 Relatore 1Non so, allora?
+- 02:14:34 Relatore 8Sentiamo qua, ma il microfono lei sentirà?
+- 02:14:38 Relatore 12Allora?
+- 02:14:38 Relatore 8Vicino a me.
+- 02:14:40 Relatore 1Ciao allora tu hai fatto vedere già il la videata la Schermata?
+- 02:14:47 Relatore 1Ti prendete una lavorazione dell'operatore, però prima del prima di questa fase c'è una fase di avviamento viene fatto forse tanto dovrebbe avvenire l'abbinamento stampo ordine.
+- 02:15:02 Relatore 1E codice.
+- 02:15:04 Relatore 1Io presumo, però non sono sicuro, presumo che l'ordine che è in lavorazione soprattutto nel caso, il che è sempre lo stesso per il numero di telefono, mi rimanga visibile alla parte.
+- 02:15:04 Relatore 9Certo.
+- 02:15:11 Relatore 2Lavoro.
+- 02:15:13 Relatore 2Perché?
+- 02:15:18 Relatore 1Oppure l'operatore va a scelta?
+- 02:15:21 Relatore 1Su sull'enne ordini che che rivalgono la garanzia oppure.
+- 02:15:27 Relatore 9Allora?
+- 02:15:29 Relatore 9La la configurazione che che che dicevi giustamente però viene fatta a livello di SAP, nel senso che SAP fa tutte queste impostazioni con il tool con tutte le varie cose e ci manda già queste informazioni.
+- 02:15:44 Relatore 9La pianificazione degli ordini è anch'essa fatta dal pianificatore di SAP, quindi quando l'ordine viene mandato AA MES è una pianificazione che viene generata e organizzata da SAP.
+- 02:15:57 Relatore 9Lato MES, voi vedrete quali sono gli ordini effettivamente.
+- 02:16:02 Relatore 9Attivabili.
+- 02:16:05 Relatore 9Sia qua sulla pagina operatore e di nuovo come diceva, come diceva Annalisa dal dalle varie semaforini che vedete qua sotto, capite quali sono gli ordini che sono già stati startati, per esempio questo quelli che devono ancora essere startati o quelli che sono attualmente attivi?
+- 02:16:27 Relatore 9Avete anche la possibilità di ordinarle sulla base dello Stato e quindi vi verranno messi prima gli ordini attivi e poi gli ordini da startare avete la possibilità di di default la l'organizzazione basata sulla estimete START Time, quindi fondamentalmente sono ordinati per quando sarebbero dovuti partire, quindi.
+- 02:16:48 Relatore 9La logica se se allestimento è start time è corretta dovrebbe dire vado in ordine, OK, quindi fondamentalmente se io qua avessi materiali diversi posso dire OK, oggi devo fare questo è il secondo, faccio questo OK.
+- 02:17:00 Relatore 3Io.
+- 02:17:01 Relatore 1Praticamente lo sei già.
+- 02:17:05 Relatore 9Come come dicevo giustamente la collega c'è la possibilità di filtrare per batch, ma ad oggi il batch che filtra il batch dell'ordine stesso che quindi non è il batch legato al CDI che.
+- 02:17:15 Relatore 9Io ho su, su.
+- 02:17:17 Relatore 9Sulla linea no, quindi io non posso filtrare sulla base del materiale da consumare, ma posso filtrare sulla base del batch che mi aspetto di produrre?
+- 02:17:26 Relatore 9Che quindi quello non so se voi lo sapete già prima di produrre, quindi quello è un secondo me è una delle domande di differenza rispetto AX.
+- 02:17:37 Relatore 9Che si può porre al business e quindi sulla base di quello fare fare 1 1 ragionamento. La cosa che posso dirvi io è che non per il golive ma successivamente è stata richiesta una modifica al fine di mostrare il gli ordini solo rilevanti per quella giornata, nel senso che verrà imposta, verrà data la possibilità ai supervisori di dare.
+- 02:18:03 Relatore 9Una priorità agli ordini?
+- 02:18:04 Relatore 9E quindi dare un valore a ogni.
+- 02:18:07 Relatore 9L'ordine da uno a 100 e sulla base di quello il sistema mostrerà per lo stesso partner number solo quelli che hanno priorità massima OK. In questo modo cosa succederà? Che poi l'operatore vedrà solo gli ordini che sono prioritari, se qualcosa cambia perché magari c'è un ordine più prioritario o cosa, il supervisore cambierà il la la severità dell'ordine, quindi automaticamente per l'operatore cambieranno le operazioni.
+- 02:18:38 Relatore 9Però questo qua è una change che verrà fatta successivamente.
+- 02:18:42 Relatore 9E quindi probabilmente è già stato pensato questo ipotetico problema e quindi c'è già una soluzione in mente, però vi consiglio comunque di di alzare la la domanda verso il business così da tenere traccia anche di questo tipo di Delta rispetto AXOK.
+- 02:19:02 Relatore 2Ecco.
+- 02:19:03 Relatore 8OK.
+- 02:19:04 Relatore 9OK, quindi come vi dicevo, io sono.
+- 02:19:07 Relatore 9Sono davanti al mio, al mio terminale, non ho vedo che non ho nessun CDI sulla mia linea e devo fare la chiamata se non seleziono niente il sistema mi dà, mi dà tutti i materiali che devo andare a chiamare sennò posso selezionare un determinato ordine e quindi il sistema mi dirà Guarda che per questo ordine.
+- 02:19:27 Relatore 8Pensate che hai citato gli altri suoi?
+- 02:19:33 Relatore 9Allora sono qua, seleziono il pulsante di di chiamata materiale stage incall e qua in alto a destra seleziono l'ordine OK qua. Adesso vedete, fatemi fare una cosa qua.
+- 02:19:38 Relatore 12Prima.
+- 02:19:49 Relatore 12Chiamo.
+- 02:19:51 Relatore 9Faccio solo una cosa, scusate, ma perché vedete una cosa sbagliata? Perché?
+- 02:19:57 Relatore 9Errore di configurazione? Fatemi un attimo, così almeno non non vi confondo.
+- 02:20:02 Relatore 8Senza questo momento la configurazione del dell'equivement.
+- 02:20:06 Relatore 12Ok.
+- 02:20:07 Relatore 9Allora quindi ritorniamo alla alla nostra casa. OK, sono qua. Io sono.
+- 02:20:13 Relatore 9All'inizio del mio turno clicco il pulsante e seleziono il mio.
+- 02:20:16 Relatore 9Ordine. Come vi dicevo prima, questa cosa può essere diciamo velocizzata dicendo OK, io so già che voglio andare a produrre quest'ordine. Seleziono il mio ordine, clicco il pulsante di stage incall e automaticamente il sistema mi prefiltra già il mio ordine.
+- 02:20:34 Relatore 9Quello che vedete?
+- 02:20:34 Relatore 8Aspetta un attimo.
+- 02:20:36 Relatore 8Esame giudiziario, quindi o si apre la il telefonino e si seleziona l'ordine, oppure si seleziona l'ordine e si prende il tasto telefono OK.
+- 02:20:47 Relatore 8Principale come un po' di individuare direttamente.
+- 02:20:50 Relatore 8No madre o.
+- 02:20:52 Relatore 9OK, quindi cosa succede, per esempio?
+- 02:20:55 Relatore 2Un secondo perdonami.
+- 02:21:03 Relatore 14Non si apre.
+- 02:21:03 Relatore 6Si apre, non si apre niente la schermata così.
+- 02:21:09 Relatore 8Senti, siamo qui.
+- 02:21:12 Relatore 8Ah, OK, OK.
+- 02:21:15 Relatore 8Siccome mi avete più work center in questo momento selezionate o preferite qua il work center che magari sta utilizzando Jacopo OK o eventualmente lo selezionate e fate sulla destra, avete Save.
+- 02:21:30 Relatore 8Accendo Save, voi state dicendo al sistema, io voglio lavorare su questo.
+- 02:21:36 Relatore 8Worksenter OK.
+- 02:21:37 Relatore 2Ok.
+- 02:21:37 Relatore 8OK.
+- 02:21:38 Relatore 8Siamo chiaro?
+- 02:21:39 Relatore 2Ma bello saldo c'è il box.
+- 02:21:43 Relatore 7Sì, no, va bene, no.
+- 02:21:43 Relatore 8Center che il cappello è il sito.
+- 02:21:48 Relatore 2141 se.
+- 02:21:50 Relatore 2Voi avete il prossimo, quello specifico.
+- 02:21:54 Relatore 2Essere abilitati.
+- 02:22:01 Relatore 8Grazie, scusate piuttosto il quello che sento, il viaggio.
+- 02:22:08 Relatore 2C.
+- 02:22:09 Relatore 8L 141 e a destra.
+- 02:22:11 Relatore 2Sì.
+- 02:22:14 Relatore 2Lei non debba nutrire.
+- 02:22:16 Relatore 8Se ci siete?02:22:18Va.
+- 02:22:19 Relatore 2Bene.
+- 02:22:19 Relatore 8Sape il tasto a destra in modo tale da dire sto selezionando quelle clement quel quel work center diciamo.
+- 02:22:26 Relatore 2Perché è uscito?
+- 02:22:28 Relatore 8Scritto perché magari lo si sente.
+- 02:22:28 Relatore 10Ce l'ho appena ce l'hai già fatto.
+- 02:22:29 Relatore 2Un servizio c'è più la destra.
+- 02:22:31 Relatore 2Pronto.
+- 02:22:32 Relatore 8Dimmi se ci siete tutti, prego.
+- 02:22:35 Relatore 7Azienda, vado a metterci il vestito.
+- 02:22:40 Relatore 8No.
+- 02:22:42 Relatore 2Proprio.
+- 02:22:43 Relatore 2Ciao.
+- 02:22:44 Relatore 2Sì, io sono arrivato a questo, poi vengo a Brescia, mi chiamo e lui aspettavo, sono almeno adesso per aver visto.
+- 02:22:51 Relatore 8L'ordine OK, non.
+- 02:22:52 Relatore 2Lo sapevo di.
+- 02:22:54 Relatore 2Ah, OK, Fammi proviamo, proviamo, ci fai un attimino detta il giornale.
+- 02:22:59 Relatore 3Non.
+- 02:23:00 Relatore 2Ti lascio e quindi?
+- 02:23:01 Relatore 8È chiaro, no l'operatore se associa macchina, altrimenti c'è qualcosa.
+- 02:23:08 Relatore 8Prima pagina iniziale sarà la lista di compleanno. Gli ordini hai selezionato Jacopo scusa il.
+- 02:23:13 Relatore 9Ma per adesso, per adesso niente, dobbiamo ancora fare la stage in call.
+- 02:23:18 Relatore 7Macchine dell'aria OK, tutti selezionati. Lega alla macchina ti prego. Poi ovviamente mi stretto in linea collegato sono mappati, lo facciamo dal PC, dobbiamo scegliere noi la scansione alla collegarci.
+- 02:23:28 Relatore 2Ho fatto un corso.
+- 02:23:34 Relatore 2Per richiamare.
+- 02:23:40 Relatore 7E quelli sono praticamente tutte le.
+- 02:23:41 Relatore 8Chiedete Eh, OK.
+- 02:23:44 Relatore 7Le stazioni dell'area.
+- 02:23:48 Relatore 17Ci siete?
+- 02:23:50 Relatore 8Siete nella selezione delle Kim della Work center OKOK? Vediamo.
+- 02:23:57 Relatore 17Credo che qualcuno.
+- 02:23:58 Relatore 8Quindi avete la lista degli ordini. Perfetto. Ok, grazie.
+- 02:24:01 Relatore 9Credo che che qualcuno abbia abbia cliccato qualcosa perché hanno fatto una chiamata materiale, però ne ne prendo un'altro, giusto per farvi capire come.
+- 02:24:10 Relatore 2Va bene, allora non ve lo faccio alla prova.
+- 02:24:13 Relatore 9Vabbè, nessun problema, nessun problema, OK?
+- 02:24:18 Relatore 9Va, va bene, basta, basta che che non è un problema assolutamente. Era solo per farvi, per farvi capire.
+- 02:24:26 Relatore 9Fondamentalmente, quando voi fate la chiamata, quando voi fate la prima chiamata materiale, come vedete qua, c'è un semaforo di status, okay, questa qua che è stata una chiamata che è stata appena fatta, come vedete mi sta dicendo il sistema che è già stata fatta una chiamata materiale, OK?
+- 02:24:41 Relatore 9E quindi il semafori non è andato, è andato grigio, sennò il semaforo è verde.02:24:48O.
+- 02:24:48 Relatore 17K la logica.
+- 02:24:49 Relatore 9È fondamentalmente quando io sono nella fase iniziale, quindi devo fare la chiamata, Io faccio la call e il semaforo diventa grigio nel momento in cui EWM riceve la chiamata.
+- 02:25:03 Relatore 9Il SEMAFORINO diventerà giallo e quindi mi verrà notificato il fatto che mi stanno per portare il materiale.
+- 02:25:11 Relatore 9E in questo caso poi potrebbero succedere due casi o il semaforo mi torna a essere verde e quindi effettivamente mi è arrivato del materiale sul mio buffer.
+- 02:25:20 Relatore 9Sulla mia Psi oppure il semaforo diventa rosso e quindi c'è stato un problema latte WM.
+- 02:25:27 Relatore 9Come vedete, finché il semaforo è grigio o giallo io non posso fare altre chiamate per questo materiale su questa Psi, OK?
+- 02:25:37 Relatore 9Se invece il semaforo è rosso o verde, il il viene riabilitato, il il il pulsante di chiamata e io posso fare altre chiamate, OK.
+- 02:25:49 Relatore 1Scusa, posso fare un'ipotesi?
+- 02:25:51 Relatore 1Sì che ho fatto la chiamata e il pulsante diventa rosso.
+- 02:25:58 Relatore 1Non lo so, anche il tasto portato il materiale, ma il pulsante rimane rosso.
+- 02:26:02 Relatore 1È bloccante.
+- 02:26:04 Relatore 9Allora no, nel senso che appunto il pulsante rosso significa che WMO ha interrotto il delivery.
+- 02:26:13 Relatore 9O ci sono stati dei problemi di comunicazione e quindi non riesce a portarci il il materiale? Ok quindi il pulsante rosso significa che a voi il materiale non arriverà mai.
+- 02:26:24 Relatore 9Quindi non può succedere che il semaforo è rosso, ma voi avete del materiale in linea, perché se è successo vuol dire che qualcuno ve l'ha portato veramente. Ma è da WM, non lo sa e quindi quello è un problema ed è da notificare un supervisore dicendo guardate che io vedo vedo che in realtà il materiale non mi sta arrivando, però io lo vedo in linea quindi non lo troverò nel buffer quando proverò a consumarlo.
+- 02:26:47 Relatore 9OK.
+- 02:26:48 Relatore 9Se invece il pulsante verde vuol dire che il il il la che il il cassone vi è arrivato una cosa importante come vedete qua vengono indicate due quantità, la quantità effettivamente che ci si aspetta per questo ordine OKE, la quantità attualmente presente nel vostro buffer, come vedete qua mi sta dicendo che io nel mio buffer ho zero pezzi disponibili.
+- 02:27:15 Relatore 9Ma a me ne servono 398.
+- 02:27:18 Relatore 9Tu la cosa?
+- 02:27:19 Relatore 9Importante da sapere è che quando voi fate una chiamata non gli mandate la quantità che voi volete, ma semplicemente gli state dicendo Io ho bisogno di questo materiale in questo buffer aws quindi vi manderà il cassone con quel materiale in quella Psi, quindi potrebbe succedere che invece di mandarvene 398 ve ne manderà 100.
+- 02:27:43 Relatore 9O 10 o 5, voi non potete saperlo a priori perché wm fa dei ragionamenti all'interno del magazzino.
+- 02:27:50 Relatore 9Che, tra virgolette, non riguardano il MES e quindi di per sé.
+- 02:27:55 Relatore 9Lui non non può garantire tutta la quantità necessaria per produrre l'ordine, lui cerca di ottimizzare il magazzino, quindi quello che potrà succedere è che fondamentalmente voi ne la mandate la la chiamata, ve ne mandano 10, voi non potete iniziare la produzione, quindi dovete fargliene un'altra.
+- 02:28:14 Relatore 9Non se diciamo il magazzino è gestito correttamente, non succederanno spesso queste cose qua, però potrebbe succedere banalmente che voi volete fare tutta la produzione, quindi startup, tutti i 100 pezzi.
+- 02:28:25 Relatore 9Ve ne servono 398.
+- 02:28:28 Relatore 9EE da un certo punto di vista ve ne arrivano 100 quindi dovete richiederla, ve ne arriveranno 200, dovete richiederla fino a che non arrivate alla quantità necessaria.
+- 02:28:41 Relatore 9La.
+- 02:28:42 Relatore 1Magazzino può mandarlo senza la chiamata.
+- 02:28:45 Relatore 9Il magazzino può mandarla senza la chiamata? Assolutamente sì, sì, sì, sì.
+- 02:28:51 Relatore 9Può succedere che magari me ne portano, però in generale.
+- 02:28:55 Relatore 9La vedo difficile, nel senso che o gliel'avete detto tra virgolette a voce a qualcheduno portamela e può succedere, si può fare.
+- 02:29:03 Relatore 9Però in generale, a livello di processo sarebbe più corretto farla da terminare la chiamata.
+- 02:29:08 Relatore 9Di per sé non è non è vincolante, nel senso che se voi non fate la chiamata, ma il materiale vi arriva, va bene lo stesso, nessuno vi.
+- 02:29:15 Relatore 9Vi. Vi.
+- 02:29:16 Relatore 9Vi crea problemi, l'importante è che il materiale arrivi in qualche modo OK.
+- 02:29:22 Relatore 15E con che criterio il sistema fa arrivare il materiale quantità di materiale?
+- 02:29:27 Relatore 4È questo qua è.
+- 02:29:28 Relatore 9Un è una è una domanda che dovete fare? WM, perché non lo so?
+- 02:29:32 Relatore 14Tipo.
+- 02:29:32 Relatore 8Ho visto ci saranno le cose, ma leggere.
+- 02:29:34 Relatore 15No, no, chiaro, chiaro però.
+- 02:29:37 Relatore 12Stai.
+- 02:29:39 Relatore 15Schema con una quantità minima ci sia un cassone, l'ultimo il primo cassone che dovrebbe uscire, una quantità, uno può uscire un cassone e poi?
+- 02:29:49 Relatore 4Quindi.
+- 02:29:49 Relatore 15Io praticamente sono da subito fermo, quindi ho due ore di attesa materiale più altre due ore di attesa materiale.
+- 02:29:56 Relatore 15Da noi è così.
+- 02:29:58 Relatore 9Potrebbe, potrebbe succedere.
+- 02:30:00 Relatore 1535 linee.
+- 02:30:04 Relatore 9Diciamo che di per sé non succederà mai che arriva un cassone con un solo pezzo, perché nel WM ci sono delle logiche di repacking che permettono di, tra virgolette, riempire i cassoni in modo che siano almeno i più pieni possibili, OK?
+- 02:30:18 Relatore 8Anche lui succede che ci sono pochissimi pezzi cosiddetti resi finisco oggi.
+- 02:30:27 Relatore 810 anni e poi la formazione, ricorderanno, saranno quelli lì. Insomma, nel momento in cui magari è pronta, si rende conto e chi dice, Fammi subito la chiamata in magazzino, ti prendo già subito l'altro cassone da portarti.
+- 02:30:43 Relatore 15Ok, quindi lascio un passo a parola.
+- 02:30:46 Relatore 8Quindi ci sarà una dai passaparola, però è riflessione.
+- 02:30:49 Relatore 8Intelligenza e capacità del magazzino e legge che sta portando un pezzo e sa che dopo due minuti.
+- 02:30:57 Relatore 8Deve andare a riprenderti.
+- 02:30:59 Relatore 2Cioè che ne fa? Io ormai l'ha chiamato la Giorgia.
+- 02:31:01 Relatore 15Abbiamo una chiamata materiale di due ore di attesa, noi il l'operatore di linea sa che ha al momento chiama materiale materiale a due ore di tempo per arrivare.
+- 02:31:13 Relatore 1Serie di.
+- 02:31:15 Relatore 8Tranquillo quello che provo da quell'ora e mezza, però ripeto quando li porto il taccone che non è pieno da 500 anni?
+- 02:31:20 Relatore 13E ma loro magari cambiano le 12.
+- 02:31:23 Relatore 8Io, cioè nel momento in cui lo porto lo vede se lo segna mi dice l'operatore comunque emargina la infamata, quindi fa di notte di non aver ragione.
+- 02:31:31 Relatore 15Il tempo. Il tempo di attesa maggiore? Noi ce l'abbiamo, no? Dal momento in cui il materiale viene portato. Il materiale a terra o sul carrello se sono sbaglio. Poi c'è anche la posizione a carrello. Vabbè.
+- 02:31:46 Relatore 15Carrello linea ma l'attesa maggiore ce l'abbiamo da momento in cui ho chiamato il materiale, al momento in cui viene carica sul carrello, quindi.
+- 02:31:59 Relatore 15Il labedo.
+- 02:32:00 Relatore 8Noi interagiamo comunque con la punizione.
+- 02:32:04 Relatore 8Aspetti lui?
+- 02:32:08 Relatore 8Chi preleva il materiale perché fosse mai diverso?
+- 02:32:12 Relatore 8C'è chi prendeva il materiale da velo, è la stessa persona che serve poi la linea.
+- 02:32:16 Relatore 15Noi no, poi addirittura un'altro reparto.
+- 02:32:20 Relatore 15Due parti separate addirittura per quello che la vedo molto dura, come.
+- 02:32:26 Relatore 15Come flusso.
+- 02:32:29 Relatore 15Proprio a livello di flusso parlo.
+- 02:32:33 Relatore 1Saluto Pietro, sei tutta la senza chiamate.
+- 02:32:37 Relatore 15Poi ho sempre smentito che parlava di repackaging nel caso di piccole quantità questo carico del magazzino. Quindi io faccio un rating? No, è uno, il magazzino deve fare.
+- 02:32:45 Relatore 6Sì, sì, sì, sì, sì.
+- 02:32:49 Relatore 15Però immagino si debbano crearsi delle figure ad hoc per questa cosa, cosa che ad oggi non esiste.
+- 02:32:54 Relatore 1Già nessuno lo fa.
+- 02:32:57 Relatore 15No, parlo di noi pure.
+- 02:32:58 Relatore 15No, però però cosa che ho fatto, mi ero molto convinta anche lei.
+- 02:33:03 Relatore 8Il reparto Australia lo pone delle persone dedicate, qua è stato attribuito al mare.
+- 02:33:11 Relatore 9Allora diciamo che austrava c'è proprio un'area di repack dedicata, quindi in Italia non essendoci la il posto per farlo so che lo faranno direttamente a magazzino, però purtroppo non saprei dirvi. Lo fai come?
+- 02:33:26 Relatore 9Però vi consiglio anche questo, magari in questo caso potete domandarlo direttamente da WM che sanno hanno già un'idea di come.
+- 02:33:34 Relatore 9Di come verrà verrà gestita?
+- 02:33:36 Relatore 8Della stessa persona che fa questo lavoro che stai facendo vedere adesso?
+- 02:33:42 Relatore 2La chiamata al contrario si può fare.
+- 02:33:47 Relatore 14Quando fai il reso la devi fare.
+- 02:33:50 Relatore 2Allora te lo spiego, Eh?
+- 02:33:50 Relatore 12Okay.
+- 02:33:51 Relatore 13Spero.
+- 02:33:51 Relatore 3Le.
+- 02:33:53 Relatore 8Anime, non ha utilizzato i miei prepara.
+- 02:33:56 Relatore 2È meglio non dire il resto, certo, spero infatti.
+- 02:34:00 Relatore 3Allora?
+- 02:34:02 Relatore 1Ho detto spero.
+- 02:34:02 Relatore 8Schiaccia il bottone è già fatto.
+- 02:34:07 Relatore 2Tu hai fatto.
+- 02:34:07 Relatore 17Allora aspettate, aspettate, aspettate allora.
+- 02:34:07 Relatore 8Le cose giuste ci danno i conti.
+- 02:34:12 Relatore 9Il reso, il reso è è gestito anche questo dal magazzino, quindi voi non dovete mai fare il reso del vuoto a meno che non siete in un ambiente con la GV perché in quel caso logicamente dovete dirgli io non so se li tra qualcuno di voi. C'è chi lavora nel reparto con con AGV però di.
+- 02:34:31 Relatore 9Diversi.
+- 02:34:32 Relatore 8Hotel fortunato, non c'è problema.
+- 02:34:35 Relatore 9OK, allora?
+- 02:34:35 Relatore 4Franci può solo solo la parte di officina vicino.
+- 02:34:39 Relatore 9Sì, sì, vabbè era giusto per per dare un contesto a tutti. Ah, come vedete adesso materiale mi è arrivato.
+- 02:34:45 Relatore 12Perché?
+- 02:34:46 Relatore 17È diventato verde.
+- 02:34:49 Relatore 17OK, fondamentalmente comunque.
+- 02:34:53 Relatore 17Quello che che.
+- 02:34:56 Relatore 9Che vi volevo dire è.
+- 02:34:58 Relatore 17Il.
+- 02:35:01 Relatore 9Chi lavora con la GV logicamente deve fare il reso perché deve dirgli la la Baia. Invece chi non lavora con la GV reso non lo deve fare, ma verrà fatto automaticamente da chi fa il da chi gestisce il magazzino. Perché fondamentalmente il processo che viene usato ad Ostrava e che anche e che è stato deciso di usare anche in Italia è che.
+- 02:35:26 Relatore 9La persona che si occupa del magazzino che deve girare dalle linee riceverà una notifica alla TWM che è stata fatta una produzione quindi sono stati consumati x pezzi, quindi sa che c'era un cassone da 10 pezzi e quel cassone è stato totalmente svuotato e quindi verrà sulla linea vi prenderà via il il cassone.
+- 02:35:50 Relatore 9Da dal fine linea e lo porterà in magazzino e lui farà automaticamente il reso quindi sul MES ad oggi non avete il pulsante di reso ma verrà fatto la TWM quindi?
+- 02:36:02 Relatore 9Dovete cioè ora chi lo fa? Non non so dirvelo io, ma credo che ve lo diranno i colleghi di WM. Però fondamentalmente late da WM verrà fatto una richiesta di reso.
+- 02:36:14 Relatore 9EEEI cassoni vi verrà portato via lato MES non c'è questa questa resa materiale a meno che non siamo in nel contesto AGV.
+- 02:36:27 Relatore 8Ok.
+- 02:36:28 Relatore 6OK.
+- 02:36:29 Relatore 9Quindi fondamentalmente adesso spartiamo scartiamo il nostro, il nostro ordine.
+- 02:36:36 Relatore 2Ok, scusate, sì, troppo veloce, preferisco la premo.
+- 02:36:37 Relatore 11Scusami, un attimo di carta.
+- 02:36:43 Relatore 17Sì, scusate son.
+- 02:36:44 Relatore 9Tanto, troppo veloce. Non ero fatto senza pensare. Ah, bisogna logicamente selezionare l'ordine e cliccare sul pulsante di start. Quando fate lo start, il sistema automaticamente vi indirizza verso questa pagina qua. Okay, questa pagina qua.
+- 02:36:59 Relatore 9Ve la descrivo un pochino allora, fondamentalmente.
+- 02:37:03 Relatore 9Qua viene indicato quali sono i materiali.
+- 02:37:06 Relatore 14Molto diverso, Eh?
+- 02:37:08 Relatore 8La vostra era soddisfatto? Difficoltà di stare.
+- 02:37:13 Relatore 2E basta, come finisce?
+- 02:37:19 Relatore 8Ordine qui, questa, questa.
+- 02:37:22 Relatore 8Il concina serve proprio per entrare nell'ordine.
+- 02:37:26 Relatore 9Però non cliccatelo perché sennò mi stampate altre quantità.
+- 02:37:27 Relatore 8E lo.
+- 02:37:29 Relatore 8Eh lo sta facendo, non sta frase è uguale solo che lui ha fatto lo start dell'ordine. Agendo lo start dell'ordine entriamo in una via più limpida, diciamo, dove possiamo riferire le informazioni. Che cosa avete voi invece?
+- 02:37:31 Relatore 12No.
+- 02:37:42 Relatore 3Ciao.
+- 02:37:47 Relatore 2Ci sono.
+- 02:37:50 Relatore 8Arriviamo.
+- 02:37:51 Relatore 3Ah, OK.
+- 02:37:53 Relatore 78 ore da qua cambia la stazione.
+- 02:37:54 Relatore 2E io c'ho il smartphone Repubblica mi hai chiarito.
+- 02:37:55 Relatore 7Come diceva?
+- 02:37:56 Relatore 7Jacopo.
+- 02:38:00 Relatore 8Ipotesi riusciamo ad arrivare in anticipato?
+- 02:38:05 Relatore 14Come vi ha detto lui è.
+- 02:38:08 Relatore 8Così ho selezionato l'ordine, fate lo start o ignorate nell'ordine, fatelo lo start.
+- 02:38:16 Relatore 8Infatti, lo Start Kia. Poi però Jacopo possiamo.
+- 02:38:17 Relatore 12No, Carmine, va bene.
+- 02:38:20 Relatore 7Fare start no, perciò lo fai.
+- 02:38:21 Relatore 7Tu no, l'ho.
+- 02:38:22 Relatore 17Già fatto, io non non fatelo altro.
+- 02:38:24 Relatore 2Ho fatto fino alle 15 e l'ha già fatta.
+- 02:38:25 Relatore 8Cioè allora Ida?
+- 02:38:26 Relatore 8Fatto, le altre forse.
+- 02:38:28 Relatore 9Sì, vabbè, ma aspettate, aspettate un attimo allora.
+- 02:38:28 Relatore 8Ricordatevi che.
+- 02:38:33 Relatore 9Giusto per farvi capire quello che dicevo prima.
+- 02:38:36 Relatore 9Se adesso provate a fare start su questo ordine, entra in gioco.
+- 02:38:39 Relatore 4Fate la.
+- 02:38:41 Relatore 2Ha chiamato.
+- 02:38:42 Relatore 9Mi sentite?
+- 02:38:44 Relatore 2Se.
+- 02:38:44 Relatore 7Jacopo vai parla.
+- 02:38:46 Relatore 9Voi provate a fare lo START su questo ordine entra di nuovo in gioco la questione che vi dicevo prima del.
+- 02:38:52 Relatore 9La della percentuale di accessibilità no, quindi fondamentalmente io faccio adesso sto provando a startare ulteriori 10 rispetto a quelli che ho già startato oppure diciamo 100 OK, quando faccio start il sistema come vedete mi blocca e mi dice la start Quantity excited. Vabbè sarà in italiano.
+- 02:39:13 Relatore 9Ovviamente va oltre la la la tollerance.
+- 02:39:19 Relatore 9Permessa che in questo caso era 0% e quindi fondamentalmente ne posso startare solo quella nominale. OK logicamente se la fosse stata 10% ma avrebbe detto ne puoi startare uno. Se fosse stata 50% mi mi diceva Ne puoi startare 5 e così via. Quindi fondamentalmente qua verrà sempre indicato la quantità che voi avete la possibilità di startare.
+- 02:39:40 Relatore 9OK. In ulteriore rispetto allo al al nominale, OK.
+- 02:39:46 Relatore 9Quando voi avete startato venite indirizzati su questa pagina qua. Questa pagina qua contiene diverse informazioni, allora sulla testata iniziale voi vedete il materiale che state andando a produrre.
+- 02:39:57 Relatore 9La descrizione del materiale, il batch di quest'ordine.
+- 02:40:01 Relatore 9La il Work center che state utilizzando OK, qua sotto vedete tutti i materiali che sono materiali o da consumare tipo questi, oppure materiali chiamati di tipo reference che sono materiali che sono automaticamente mandati in back flash AEWM quindi su cui voi non avete.
+- 02:40:22 Relatore 9Non avete necessità di di di consumarlo perché sono.
+- 02:40:28 Relatore 9Info, cioè sono materiali che non non hanno 1 1 tracciabilità OK.
+- 02:40:34 Relatore 9Come vedete però io in questo momento vedo anche qua il mio semaforo rosso. Perché? Perché io la chiamata di prima?
+- 02:40:42 Relatore 9È andato in errore, quindi mi è arrivato il materiale, ma in realtà quel materiale che mi era arrivato, come dicevamo prima, mi è arrivato perché qualcuno me l'ha portato, ma in realtà la chiamata che ho fatto io è andato in errore.
+- 02:40:53 Relatore 9Questo significa che di per sé in realtà qua c'è stato un errore, ma il motivo è semplicemente che il fatto che adesso nessuno sta gestendo late WM la la movimentazione del materiale, quindi è corretto che sia in rosso.
+- 02:41:06 Relatore 9Però di per sé questo è un caso in cui voi dovreste dire, guardate che io non ho il materiale in linea e c'ho rosso, oppure guardate che io ho il materiale in linea e c'ho rosso, è successo qualcosa alla TWM?
+- 02:41:18 Relatore 9Quindi voi potete continuare la produzione perché il materiale ce l'avete, se riuscite a consumarlo vuol dire che tutto è andato a buon fine.
+- 02:41:24 Relatore 9Però per buona prassi è dire guardate che io vedo un errore lato EWM, quindi controllate se in magazzino ci sono stati dei problemi. OK comunque anche da questa pagina qua voi avete la possibilità di fare un'ulteriore chiamata materiale quindi semplicemente cliccando sull'iconcina del.
+- 02:41:43 Relatore 9Del della GPU? Beh del del movimentazione materiale, voi potete selezionare il vostro buffer e fare un'ulteriore chiamata.
+- 02:41:53 Relatore 8Davanti, chiaro questa parte avete.
+- 02:41:58 Relatore 8Ok.
+- 02:42:00 Relatore 2Dai.
+- 02:42:02 Relatore 9Come vedete, però, quando io entro non ho la possibilità di fare nessun tipo di dichiarazione. Questo perché? Perché io prima di tutto devo selezionare il Tool.
+- 02:42:11 Relatore 9La mold che mi serve per fare in questo caso siamo in un casting, quindi la mold che mi serve per fare la mia, la mia produzione, quindi.
+- 02:42:22 Relatore 9Voi avrete davanti a voi il seriale della Molden, lo scansionerete automaticamente la validità. Io non ho una mold davanti a me e quindi me lo vado a recuperare dalla dalla mia anagrafica.
+- 02:42:31 Relatore 8Aspetta un attimo, si apro una cosa.
+- 02:42:34 Relatore 1Saranno viene fatto solo nella prima fase di setup.
+- 02:42:36 Relatore 2Beh.
+- 02:42:38 Relatore 1Scuola.
+- 02:42:38 Relatore 17Scusate.
+- 02:42:41 Relatore 8Stanco viene stanca sulla prima fase di setup.
+- 02:42:45 Relatore 14Sì, perché questo fa 28 F.
+- 02:42:47 Relatore 1Lo stampo dovrebbe essere abbinato solo nella prima fase, quella del setup per la produzione, qua non deve essere abbinato.
+- 02:42:55 Relatore 9Eh no qua quando è il momento in cui fai lo start deve essere, deve bisogna validare la molte che si sta usando. Non è una, non è un abbinamento sull'ordine. Infatti come come vedete se io vado sulla pagina dell'ordine.
+- 02:43:10 Relatore 9C'ho una multa associata, aspettate che sto usando un ordine diverso, quindi se io adesso vado.
+- 02:43:16 Relatore 9Sulla pagina dell'ordine.
+- 02:43:19 Relatore 8Scusami un attimo, Jacopo, questa è la.
+- 02:43:21 Relatore 14Parte in cui posso io devo richiamare di nuovo lo stampo che me?
+- 02:43:23 Relatore 14Lo vede su scusami, grazie.
+- 02:43:25 Relatore 9Non no, non è, non è una non non state richiamando lo stampo, altre non state chiamando lo stampo.
+- 02:43:30 Relatore 2Ce l'hai post due?
+- 02:43:32 Relatore 9Aspettate, non state chiamando lo stampo, state semplicemente validando lo stampo che state utilizzando.
+- 02:43:39 Relatore 1Ogni inizio, ogni inizio, quindi c'era ogni inizio turno da validare lo scan.
+- 02:43:44 Relatore 9Ogni inizio, ogni start dell'ordine, bisogna validare lo stampo.
+- 02:43:47 Relatore 14Quindi devo scrivere di nuovo S 28 F quattro?
+- 02:43:51 Relatore 8Preparare penso che voglia di altri rapporti.
+- 02:43:52 Relatore 2Prova per sparare a scrivere.
+- 02:43:54 Relatore 14Cioè ma dipende dalla stessa operazione però cioè devo riportare giù?
+- 02:44:00 Relatore 17Scusate, io vi sento.
+- 02:44:00 Relatore 8Un conto senso sta indicando scusa via cosa sta indicando il tool Definition, il codice S 28 stanno descrivendo sotto codice deve essere riportato all'interno del text tool.
+- 02:44:13 Relatore 9No, allora.
+- 02:44:15 Relatore 9Voi avete.
+- 02:44:17 Relatore 91 1 Tool, una ma.
+- 02:44:20 Relatore 9Che appartiene a questo tipologia di molde, OK.
+- 02:44:26 Relatore 9Voi qua dovete inserire il seriale della molte che state utilizzando perché bisogna tenere traccia di quante battute ha fatto quella. Molte bisogna tenere traccia di quanto è stato utilizzato quella mold e in più dovete validare il fatto che voi state usando una mold corretta. Perché?
+- 02:44:45 Relatore 1Non può cambiare.
+- 02:44:46 Relatore 1Lo stampo?
+- 02:44:49 Relatore 1L'abbinamento ordine di produzione stampo univoco lo può cambiarlo? Quando lo faccio più?
+- 02:44:53 Relatore 9E sono e sono assolutamente d'accordo con te. Ma ti faccio un esempio, tu hai selezionato l'ordine sbagliato che ha un'altra mold, e tu vai a vai a produrre con quello non c'è, per quanto in realtà l'abbinamento è diverso. Questo serve proprio per innanzitutto ridurre la possibilità di errore, nel senso che tu.
+- 02:45:12 Relatore 9In questo modo sei sicuro che stai usando un ordine che è stato abbinato a quella mold e non un'altro ordine che hai abbinato a un'altra mold prima di tutto e secondariamente in questo modo, tu stai tracciando il fatto che quella mold è stata utilizzata per questo ordine? Per questo ordine sono state fatte 200 battute EE la mall in totale ha fatto 2000 battute.
+- 02:45:37 Relatore 9Fra fra tutti gli ordini.
+- 02:45:38 Relatore 9A te serve questo tipo di associazione sia per essere sicuro che stai usando l'ordine corretto, sia per validare il fatto che la Molda è corretta, sia per tenere traccia di cosa sta facendo la molda.
+- 02:45:50 Relatore 14Scusa, non la posso solo collegare quello lì.
+- 02:45:53 Relatore 9Non ho capito.
+- 02:45:54 Relatore 14Non posso solo recarmi e basta senza stare a scrivere la stessa cosa.
+- 02:45:56 Relatore 1Regalato.
+- 02:45:59 Relatore 1E questo qua da vedere.
+- 02:46:00 Relatore 8Secondo, cioè invece, che conferma.
+- 02:46:05 Relatore 9Allora scusate, aspettate allora.
+- 02:46:05 Relatore 8Potrebbero cercarlo, perché?
+- 02:46:10 Relatore 14Va bene per l'operatore Salve.
+- 02:46:12 Relatore 9Ragazzi Aspettate, aspettate, scusate, scusate, quello che vedete qua non è il seriale della vostra mold, questo qua è il tipo della mold.
+- 02:46:12 Relatore 2Non blocco proprio.
+- 02:46:21 Relatore 9OK, il seriale in questo caso è S 28 F 44 21 ST01OK che come vedete qua è diverso.
+- 02:46:32 Relatore 9OK, questo perché? Perché io per la stessa definizione di tool posso avere 1000 seriali perché magari una mold si rompe, quindi devo cambiare seriale. Quindi per un ordine ho usato l's T 0 1, per l'altro ordine devo usare l's T 0 2 che fanno riferimento alla stessa definizione. OK, però sono due seriali diversi.
+- 02:46:53 Relatore 12Ti chiamo.
+- 02:46:55 Relatore 8Di nuovo.
+- 02:46:55 Relatore 9Il seriale è abbinato all'ordine e quindi voi dovete validare questo abbinamento.
+- 02:47:03 Relatore 2Scusa.
+- 02:47:04 Relatore 1Non vedo come posso uno.
+- 02:47:06 Relatore 1Sì, prendine un'altro, visto che la Gold è.
+- 02:47:09 Relatore 8Fissata su.
+- 02:47:10 Relatore 2Cioè su uno.
+- 02:47:11 Relatore 1Su una macchina e non può essere cambiata.
+- 02:47:13 Relatore 9No, non puoi prendere un'altra mold, ma puoi sbagliare a usare l'ordine.
+- 02:47:16 Relatore 1Infatti ma infatti ma quando faccio il Setup faccio questo, controllo questo abbinamento ma poi più nessuno può cambiarlo ecco come fa l'operatore a.
+- 02:47:25 Relatore 1Cambiare lo start.
+- 02:47:26 Relatore 9Non sto cambiando lo stampo, non sto cambiando lo stampo, non sto cambiando nulla.
+- 02:47:30 Relatore 9Io sto solo validando.
+- 02:47:32 Relatore 1Sì, però non posso certificare una cosa che che è abbastanza impossibile da.
+- 02:47:38 Relatore 1E a cosa mi so spiegato?
+- 02:47:44 Relatore 1È considerato però farli fare abbinare da molto l'operatore.
+- 02:47:45 Relatore 9Io ho capito allora?
+- 02:47:47 Relatore 2Ho capito?
+- 02:47:49 Relatore 9Ma non allora ho capito la vostra preoccupazione.
+- 02:47:55 Relatore 9È un'altra domanda che secondo me dovete portare al business perché questo è lo stesso procedimento che fanno ad Ostrava.
+- 02:48:02 Relatore 9E ad Ostia vanno davanti a loro il seriale e loro scansionano il seriale e validano. Non è che cambiano nulla, non fanno un cambiamento di molte, non fanno 1 1 Replacement semplicemente.
+- 02:48:11 Relatore 11Pazienti da.
+- 02:48:12 Relatore 13Scoppiare.
+- 02:48:14 Relatore 8Tu da Jacopo chiederò qui che da inserire.
+- 02:48:17 Relatore 9Non ho capito, scusate.
+- 02:48:20 Relatore 8Se lo se lo sai, chi è che gli dà il seriale all'operatore?
+- 02:48:25 Relatore 9Sulla mold dovrebbe essere lì, attaccata alla Molde, dovrebbe esserci 1 1. Barcode che identifica il seriale.
+- 02:48:33 Relatore 1No, sicuramente no.
+- 02:48:36 Relatore 9E allora non so come rispondere, purtroppo non non non conosco il processo che che fate voi adesso in Italia. Per questo però.
+- 02:48:47 Relatore 8Per rimborsare il mio computer quando si può togliere il campo e ti e ti lascia lì vicino. Interessante.
+- 02:48:55 Relatore 14Sì, ma non vorrei che lui parlava prima che.
+- 02:48:58 Relatore 8No, no, no, no, quello è che lo stampo che ne ha.
+- 02:49:01 Relatore 14Ha un progressivo 0 1.
+- 02:49:10 Relatore 8C'ha una femmina. C'è anche il suo padre che ha chiamato quando sta dicendo, poi stai caricando il tre, il 5, il 7 è quello che tu TI ti Afghanistan. Però esatto, adesso tu lo fai col meccanico.
+- 02:49:19 Relatore 1In due pagine servono oggi.
+- 02:49:25 Relatore 8Secondo me a sto punto.
+- 02:49:28 Relatore 8Tutti quel suo CD ti deve portare quando ti porta le istanze o da da caricare in mano, forse deve andare.
+- 02:49:33 Relatore 7Io lo so.
+- 02:49:34 Relatore 7Che sono praticamente alla fine del mondo.
+- 02:49:36 Relatore 7Allora io non sono così. Domande. Ora rimbalziamo su di te.
+- 02:49:44 Relatore 4Eh sì, è da verificare, però è più più che di sistema, è da verificare con campana e.
+- 02:49:50 Relatore 8Sì, ma.
+- 02:49:52 Relatore 14Non ha senso avere il barcode lì, fai un Flag e confermi quello là che.
+- 02:49:56 Relatore 12No, perché lui mi dice che.
+- 02:49:56 Relatore 4C'è scritto Eh no, che lo puoi mettere?
+
+## Back office e verifiche finali
+
+- 02:50:00 Relatore 8Ci dice che tu stai usando Google due, il tre, il quattro.
+- 02:50:02 Relatore 4Cioè lì c'è l'articolo dello stampo, ma non il seriale dello stampo.
+- 02:50:06 Relatore 8Aspetti un liberatore? Cosa deve fare? Ti sento, ti stanno di ferito.
+- 02:50:11 Relatore 8Poi il meccanico non c'è più chi perché lo stampo sta su 5 giorni quando ricordassero?
+- 02:50:17 Relatore 2E Rossella? E si risolta anche adesso, troppo depresso.
+- 02:50:19 Relatore 1Sì, però, complessi, perché?
+- 02:50:22 Relatore 1Andare a cercare l'ultimo, poi ordinare lo stalker. Poi lo faccio 4 4 impostazioni diverse. Passo due ore.
+- 02:50:32 Relatore 8Fa sapere quell'ordine lì che è aperto per per quelle indicazioni.
+- 02:50:41 Relatore 7E Jacopo mi viene avanti. E poi magari tutte queste domande che sono un.
+- 02:50:46 Relatore 7Po' più anche a.
+- 02:50:47 Relatore 7Livello di processo le le guardiamo insieme al business.
+- 02:50:51 Relatore 7Però Jacopo, se andiamo.
+- 02:50:53 Relatore 7Avanti con il flusso, lo vediamo.
+- 02:50:53 Relatore 9Sì, sì, io.
+- 02:50:56 Relatore 7Praticamente quasi finito, quindi.
+- 02:50:58 Relatore 9OK.
+- 02:50:59 Relatore 12Quindi una volta il medico.
+- 02:51:00 Relatore 7Giro, abbiamo tutto fatto, almeno il posto completo.
+- 02:51:04 Relatore 9Ok, una volta che hanno scansionato il seriale come vedete il sistema mi valida il fatto che sto usando questo seriale? Questo è il tool Definition, questo è il seriale della della molte. Ok, una volta fatto questo io ho.
+- 02:51:19 Relatore 9Davanti a me il il mio materiale, il mio cassone e devo andarlo a consumare di nuovo. Io purtroppo adesso davanti non ho un cassone, quindi lo vado a recuperare virtualmente un.
+- 02:51:32 Relatore 9Un attimo.
+- 02:51:33 Relatore 9Però voi nel vostro caso avete un CDI davanti e quindi?
+- 02:51:38 Relatore 9È molto più più semplice perché scansionate direttamente il cassone allora ne prenderò allora.02:51:45Mi ha detto.
+- 02:51:45 Relatore 1Sta verificando, non ho capito cosa scansioniamo le cassone.
+- 02:51:50 Relatore 8Sì, applauso.
+- 02:51:51 Relatore 9Il il Barcode, il CDI.
+- 02:51:54 Relatore 2Dimmi.
+- 02:51:54 Relatore 1Non ho, non ho, non ho capito nulla.
+- 02:51:58 Relatore 9Però devi.
+- 02:51:58 Relatore 1Sto passando via produzione.
+- 02:52:02 Relatore 8Fare l'anima qualche.
+- 02:52:03 Relatore 9Devi sparare là, nel.
+- 02:52:04 Relatore 1Domanda.
+- 02:52:06 Relatore 8Ok.
+- 02:52:07 Relatore 9Devi sparare questo materiale qua, che è il materiale di consumo che ti serve per produrre la il tuo ragno.
+- 02:52:14 Relatore 8Jacopo, scusami, posso tornare indietro un passo. Perché? Perché i ragazzi non lo sappiano. E lei, i codici gruppi.
+- 02:52:23 Relatore 8Perché ci hanno doppia anima? La chiamata è una.
+- 02:52:28 Relatore 2Certo.
+- 02:52:28 Relatore 13Tutto corretto?
+- 02:52:30 Relatore 9Sì, sì, sì, sì.
+- 02:52:31 Relatore 8Per un operatore avrà diciamo in verde.
+- 02:52:36 Relatore 82 2 codici, ma mi deve chiamare sempre una perché è contenuta insieme l'altro conflitto.
+- 02:52:43 Relatore 8Se me le chiamate la l'animale, l'anima B mi state chiamando come contenitori ed io ho sorriso l'amico però.
+- 02:52:53 Relatore 8Purtroppo il blocco è uno dei due semafori neri non.
+- 02:52:59 Relatore 8Siamo riusciti dalla richiesta.
+- 02:53:04 Relatore 9E allora quindi io adesso vado a scansionare il il mio cassone, OK?
+- 02:53:11 Relatore 9Come vedete, io qua avevo.
+- 02:53:14 Relatore 9Nel mio cassone avevo.
+- 02:53:17 Relatore 9Avevo 70 pezzi, 79 pezzi, adesso ne ho 69 perché fondamentalmente ho.
+- 02:53:25 Relatore 9Allocato.
+- 02:53:27 Relatore 910 pezzi.
+- 02:53:30 Relatore 9A questo, a questo ordine, OK, adesso qua ho.
+- 02:53:36 Relatore 9Diverse scelte, prima fra tutte posso andare a completare e quindi cliccando sul pulsante di complete ho la possibilità di dichiarare dei buoni?
+- 02:53:47 Relatore 9Ho la possibilità anche di dichiarare degli scarti, quindi posso andare a cliccare sul pulsante di scarto e quindi dire.
+- 02:53:57 Relatore 9La motivazione dello scarto OK e la quantità di scarto. Una volta che ho selezionato questi due posso dire che tipo di scarto sto facendo. Se è uno scarto immediato, quindi deve essere buttato via direttamente, oppure se è una quarantena e quindi fondamentalmente deve essere mandato, come vi dicevo prima, nell'area di quarantena per essere rilavorato.
+- 02:54:21 Relatore 9O comunque rielaborare.
+- 02:54:22 Relatore 1Sto già sto dicendo qua però.
+- 02:54:24 Relatore 13Ha già finito?
+- 02:54:26 Relatore 9Non ho capito, scusate.
+- 02:54:27 Relatore 1Cosa producendo o stai parlando delle anime che.
+- 02:54:30 Relatore 2No, no, no.
+- 02:54:31 Relatore 9Sto, sto già producendo, sto solo facendo delle dichiarazioni di produzione.
+- 02:54:35 Relatore 9Ok.
+- 02:54:37 Relatore 9Cioè sto già scusate non so se è successo, sto già facendo.
+- 02:54:45 Relatore 9Aspettate, mi mi è partito un computer. Non so, non capisco cosa sia successo, probabilmente qualcuno sta già facendo. Avete mica cliccato qualcosa? Perché ho paura che sia stato mandato un completamento.
+- 02:54:57 Relatore 2Storia infrastrutturale.
+- 02:54:58 Relatore 3Ti ho detto no.
+- 02:55:00 Relatore 9Vabbè poco male allora va bene, ne ne prendo un'altro, non succede niente.
+- 02:55:06 Relatore 9Però.
+- 02:55:07 Relatore 9Non, non, non.
+- 02:55:08 Relatore 9Non state a toccare ancora niente, perché sennò.
+- 02:55:12 Relatore 9Devo saltare da.
+- 02:55:12 Relatore 9Un ordine all'altro è è un po' un problema.
+- 02:55:16 Relatore 11Ti sei persa. Io prima di tutto hai perso la comunicazione che non potevano toccare a sistema. Forse hai perso. A me però non mi è parso di capire che non potevano giocare nulla.
+- 02:55:25 Relatore 9Allora diciamo, diciamo che stiamo che stiamo facendo facendo le stesse cose sulla stessa, sulla stessa macchina, quindi se, se, se se me lo fate sul mio stesso ordine è come se state producendo il mio.
+- 02:55:37 Relatore 9Bene, però non è un problema, ne ho trovato un'altro, non succede niente, era solo per per piuttosto ditemelo così almeno so come come muovermi perché sennò mi.
+- 02:55:48 Relatore 9Mi mi appaiono degli errori al sistema che non riesco a capire.
+- 02:55:52 Relatore 9Tutto lì è solo quello. Detto questo non è un problema, risolviamo. Così ne prendo un'altro. Mi prendo di nuovo 1 1.
+- 02:56:06 Relatore 9Un tener OK, Ah.
+- 02:56:09 Relatore 9Questo qua non va bene. Ah, perché?02:56:12Va bene, OK?
+- 02:56:15 Relatore 9Detto questo, di nuovo, quindi io ho fatto il il consumo, adesso posso dichiarare sto dichiarando produzione, posso dichiarare dei buoni o degli scrap?
+- 02:56:27 Relatore 9In alternativa, però, prima posso decidere di fare delle dichiarazioni sulle cavità, perché?
+- 02:56:36 Relatore 9Logicamente dal mio ragno mi usciranno delle cavità e io posso già predichiarare il fatto che.
+- 02:56:44 Relatore 9I nelle le varie i vari pezzi del ragno, magari ce n'è uno OAO più di uno che ha delle difettosità questo cosa vuol dire? Che poi quando il mio ragno arriverà nella fase successiva di cutting, questi pezzi saranno automaticamente scrup?
+- 02:56:58 Relatore 9Pati e quindi buttati via da a causa della dichiarazione che ho fatto io precedentemente, perché fondamentalmente quello che succederà è che io avrò davanti il mio ragno, vedo che ci sono il il pezzo almeno.
+- 02:57:13 Relatore 9Io sto parlando di come, di come.
+- 02:57:16 Relatore 9Succede a Ostra, ma poi magari voi la la gestite in maniera diversa però.
+- 02:57:23 Relatore 9A mia memoria, a nostra va quello che fanno e che fondamentalmente hanno davanti il loro, il loro ragno che adesso disegnano in maniera.
+- 02:57:29 Relatore 13Uguale, uguale.
+- 02:57:30 Relatore 8Confermano che è uguale.
+- 02:57:33 Relatore 9Ok, OK, Perfetto. Quindi fondamentalmente avranno il ragno con.
+- 02:57:38 Relatore 9Diverse cavità. Ora adesso ne metto quattro, possono essere 2, 8 quello che volete. Fondamentalmente mi sembra di ricordare che si fa un segno sulla cavità.
+- 02:57:48 Relatore 9Pallata OK.
+- 02:57:49 Relatore 8Non è in confine, c'è la pietra.
+- 02:57:52 Relatore 9Ok quindi fondamentalmente viene fatta per fare queste dichiarazioni, oltre a mettere l'X sulla sulla cavità fallata voi cosa dovete fare? Dovete selezionare la cavità adesso in questo caso nell'esempio che ho preso c'è solo una cavità, però qua potrete vedere tutte le cavità che che hanno la difesosità selezionare il il.
+- 02:58:12 Relatore 9Tipo di difettosi.
+- 02:58:12 Relatore 9Età e specificare la quantità.
+- 02:58:17 Relatore 9E poi generare il.
+- 02:58:21 Relatore 9Il lo scrap della della dell'anima, OK, analogamente a quello che abbiamo fatto prima, però qua, in questo caso vi ricordo che stiamo scrappando il materiale finito, mentre in questo caso invece stiamo scappando il materiale successivo al cutting, quindi l'anima stessa.
+- 02:58:45 Relatore 9Per la complete, invece, quando?
+- 02:58:48 Relatore 9Quando si vado vado a completare io, devo specificargli qual è la quantità?
+- 02:58:53 Relatore 9E posso decidere di stampare o meno l'etichetta in generale di default sempre da stampare EE posso lanciare il comando di completamento OK?
+- 02:59:06 Relatore 9Come vi dicevo prima, qua vedete il pulsante di parshall completion, quindi di completamento parziale, che per per farvelo identificare ha un bello sfondo giallo paglierino, così capite che è totalmente diverso da una completamento totale.
+- 02:59:22 Relatore 9E questa è esattamente quello che che vi spiegavo prima, ossia io posso andare a completare parzialmente un mio cassone dicendo io sto finendo il turno, ne metto 5 pezzi e faccio il completamento parziale stampando l'etichetta o non stampandola a seconda del processo e così poi successivamente il mio collega che sta facendo, che sta arrivando, che inizia il turno, vedrà che ha un cassone parzialmente completato.
+- 02:59:50 Relatore 9E quindi può lui potrà andare sulla sulla pulsante di completamento.
+- 02:59:55 Relatore 9Chiedere al sistema di riutilizzare un cassone che ha davanti il sistema.
+- 02:59:59 Relatore 9Caso in cui ci siano dei cassoni pendenti, automaticamente gli filerà questo questo valore o, alternativamente, potrà scansionare la l'etichetta parziale al scansionamento dell'etichetta parziale. Qua verrà mostrata la quantità effettiva che è contenuta in quel cassone e lui potrà fare la differenza. Quindi se ipotizziamo di avere fatti 5 prima e il cassone da 10 io qua completerò a 5.
+- 03:00:24 Relatore 9Al mio completamento mi uscirà un'etichetta con 10 pezzi con tutte le informazioni che mi servono e quindi quel \*\*\*\*\*\*\* potrà essere portato in.
+- 03:00:30 Relatore 9Magazzino.
+- 03:00:31 Relatore 9Logicamente la dichiarazione parziale non manda le informazioni a SAP che il il cassone è stato completato perché solo le i completamenti totali possono essere rimandati.
+- 03:00:43 Relatore 1L'ha detto?
+- 03:00:45 Relatore 9Scusate.
+- 03:00:47 Relatore 1No, è una cosa.
+- 03:00:50 Relatore 1Il l'etichetta, cioè il CD del parziale, poi va buttato.
+- 03:00:54 Relatore 9Sì, logicamente il CD del parziale e poi va buttato.
+- 03:00:57 Relatore 9Contiene esattamente le stesse informazioni, però logicamente le quantità sono sono sbagliate, OK, quindi in quel caso il CD dovrà essere buttato?
+- 03:01:08 Relatore 9EE però al al al nuovo completamento vi verrà generato un'altro un'altro CD, quindi potete sostituirlo.
+- 03:01:17 Relatore 9Quindi fondamentalmente.
+- 03:01:19 Relatore 9Quello che risulterà è che è stato prodotto nel turno 1 5 pezzi per quel cassone nel turno due sono stati prodotti altri 5. Il totale fa 10. Verrà stampato un'etichetta da 10 con l'informazione del CD con tutte le barcode e tutte le le icone che servono vengono attaccate sul cassone. e a SAP verrà mandato 1 1 messaggio dicendo sono stati prodotti 10 pezzi in questo cassone 123.
+- 03:01:45 Relatore 9Di questo materiale e quindi SAP porterà il cassone alla alla fase successiva.
+- 03:01:52 Relatore 9La fase successiva è quella di cutting e quindi quando quel cassone.
+- 03:01:57 Relatore 9Su cui io avevo dichiarato una difettosità sul sulla sull'anima.
+- 03:02:04 Relatore 17X.
+- 03:02:05 Relatore 9Automaticamente, quando scansionerà il consumo, verrà generato uno scrap automatico di quella partnumber.
+- 03:02:15 Relatore 9E quindi il.
+- 03:02:16 Relatore 9L'operatore non dovrà fare niente. L'unica cosa che dovrà fare all'uscita del cutting quel pezzo lì, metterlo da parte, buttarlo, portarlo diciamo nell'area di di scrap, senza dover fare nessun tipo di dichiarazione perché la dichiarazione è già stata eseguita automaticamente, OK?
+- 03:02:34 Relatore 8Gian Pietro.
+- 03:02:36 Relatore 9Ok.
+- 03:02:38 Relatore 2A fare il cartellino?
+- 03:02:40 Relatore 9Quello che vedrà.
+- 03:02:44 Relatore 1Hai già aspettato?
+- 03:02:45 Relatore 6Mi dica.
+- 03:02:46 Relatore 2No, perché non funziona.
+- 03:02:48 Relatore 9Quello che vedrà fondamentalmente l'operatore del cutting sarà.
+- 03:02:50 Relatore 14Perché la differenza tra parziali?
+- 03:02:54 Relatore 1Che differenza nel nel layout tra il parziale e definitivo?
+- 03:03:01 Relatore 9Nel layout della stampa.
+- 03:03:03 Relatore 1Sì, delle gambe dell'informazione. Cioè si è litigato uno speciale uno.
+- 03:03:05 Relatore 9Allora?03:03:08Sì, sì, sì.
+- 03:03:08 Relatore 9Sì, sì, allora se allora non so se in Italia sarà di nuovo così. Non posso dirvelo io perché non gestisco le stampe.
+- 03:03:16 Relatore 9Nella in Ostrava c'è proprio scritto, un parshal bello grosso in cima.
+- 03:03:23 Relatore 9Se ricordo bene da qualche parte, comunque è identificato il fatto che ci sia che è un sia un parziale.
+- 03:03:31 Relatore 9Quale? in Italia non so come verranno gestite le etichette perché so che ci sono delle dimensioni leggermente diverse, quindi su quello di nuovo secondo me è una domanda che dovete tenere presente o fare al business dicendo Guardate che noi ne abbiamo bisogno perché so che il nostro vanno delle delle etichette che sono leggermente diverse. A livello di layaut quello che fa il MES è semplicemente mandare l'informazione al al sistema di stampa.
+- 03:03:55 Relatore 13Scusa, ogni dichiarazione degli scarti dobbiamo farla mentre scartiamo il pezzo OA fine produzione?
+- 03:04:05 Relatore 13Perché ora la regola dice, scarto un pezzo più chiaro tramite il CD ed isolo.
+- 03:04:12 Relatore 13Il pezzo di scarto?
+- 03:04:15 Relatore 9È di nuovo una domanda di processo su cui io non posso risponderti, ad oggi ti direi.
+- 03:04:21 Relatore 9Che rimane esattamente così. Però di nuovo processo io non posso, non so dirvelo, cioè è meglio che non ve lo dica io, perché magari dico delle cose sbagliate.
+- 03:04:26 Relatore 4Dal punto di vista del sistema, come oggi, mi aspetto che tu possa dichiarare lo scarto mentre stai producendo OA fine produzione.
+- 03:04:37 Relatore 9Assolutamente l'unico limite che ha lo scarto, ma che è lo stesso limite che ha la il completamento, quindi dichiarazione dei buoni, è il fatto che ci deve essere consumato qualcosa.
+- 03:04:47 Relatore 9Cosa? Perché logicamente io non posso mandare a SAP una dichiarazione di un cassone di buoni o di scarti senza avergli detto che ho consumato del materiale per fare quella dichiarazione. Quindi l'unico limite è infatti, come vi ho fatto vedere prima, quando entrano in ordine senza aver scansionato i pulsanti sono disabilitati. Io non posso dichiarare né scarto né buoni fino a che non ho fatto il consumo necessario per poterli dichiarare.
+- 03:05:15 Relatore 9Quindi di nuovo, se io ho come vedete?
+- 03:05:20 Relatore 9Anche in questo caso OK, io ho quattro pezzi startati, però non ho nessuna nessuna quantità.
+- 03:05:22 Relatore 2Proprio il nostro aspetto addosso.
+- 03:05:28 Relatore 2Che si compone.
+- 03:05:28 Relatore 9Scansionata.
+- 03:05:30 Relatore 9Quel l'unica quantità che ho scansionato l'ho scansionata per le i pezzi che ho già completato, se io vado qua nella declaration vedete che io non posso startare quantità maggiori, quindi anche se ci mettessi qua.
+- 03:05:46 Relatore 910 vedete qua mi dice deve essere minore di quella disponibile. Perché? Perché io non ho consumato la quantità corretta per poter fare almeno una dichiarazione. Analogamente se io vado sul completamento io posso dire provo a completarne quattro e il sistema mi mi bloccherà dicendomi Guarda che.
+- 03:06:09 Relatore 9Non non puoi completarle perché non c'è abbastanza quantità consumata.
+- 03:06:13 Relatore 9Non so se mi avete seguito perché sento un po' di di rumore, OK OK OK, perfetto.
+- 03:06:18 Relatore 1Sì.
+- 03:06:22 Relatore 9E niente. Quindi fondamentalmente la la logica è questa.
+- 03:06:29 Relatore 9Non so se.
+- 03:06:29 Relatore 14Prendo la fase successiva, voglio scappare.
+- 03:06:34 Relatore 9È esattamente la stessa cosa. Logicamente a differenza nelle fasi successive non c'è la possibilità di di di fare una dichiarazione di di cavità, quindi logicamente questi due pulsanti sono disabilitati. Io farò sempre dichiarazioni di di materiale finito nel cutting, cosa importante visto che noi stiamo parlando di.
+- 03:06:57 Relatore 91 1 cosa tipo questa dove io ho magari quattro anime di cui.
+- 03:07:02 Relatore 8Perché stiamo andando fuori in radio, se vogliamo poi.
+- 03:07:06 Relatore 9Ok, dico solo, dico solo questo, molto, molto velocemente.
+- 03:07:11 Relatore 13Ah, con lei come Rossi?
+- 03:07:11 Relatore 8Ok.
+- 03:07:12 Relatore 9Cerco di spiegare molto velocemente, logicamente noi non al casting possiamo produrre un'anima di questo tipo, dove un materiale sinistro e il materiale destro OK nel cutting questo si tradurrà in.
+- 03:07:25 Relatore 9Nel momento di scrap avere qua due materiali, uno per il sinistro e uno per il destro, perché logicamente al cutting. Io queste due cose le produco in due, diciamo in due modi diversi, perché una è sinistra e l'altro a destra. Quindi l'unica differenza è che rispetto a al casting qua avrete uno o più materiali a seconda di cosa si va, che tipo di materiale si va a produrre tutto lì però la concetto è lo stesso, seleziono materiale seleziono, il tipo di di failor e la quantità.
+- 03:07:53 Relatore 9Analogamente nella complete avrete in cima la la selezione del materiale e poi la dichiarazione, quindi qua avrete n materiale a seconda del numero di di prodotti che devo devono uscire da quella linea di produttiva.
+- 03:08:09 Relatore 2O.
+- 03:08:09 Relatore 8Ok.
+- 03:08:10 Relatore 17K.
+- 03:08:10 Relatore 1Prossima domanda?
+- 03:08:12 Relatore 17Certo.
+- 03:08:13 Relatore 1Utilissimo se durante la fase di chiamata dei materiali trovo del materiale di scarto tipo un'anima di scarto come era dichiaro.
+- 03:08:13 Relatore 12Ah, ho capito?
+- 03:08:21 Relatore 9Allora in questo caso?
+- 03:08:24 Relatore 9Buona domanda.
+- 03:08:26 Relatore 9Quando si va a fare un consumo?
+- 03:08:30 Relatore 9Automaticamente il sistema ti dice quale container è stato consumato e quale batch. OK, qua c'è un'altro pulsantino che è molto simile a questi dove ti dà la possibilità di scartare del materiale consumato. OK, quindi anche qua voi andrete a selezionare il materiale e potete consumare la quantità.
+- 03:08:48 Relatore 9Scartare la quantità consumata, il layout è sempre lo stesso, l'unica differenza è che in questo caso non avete sulla sinistra il materiale, perché il materiale è il materiale di consumo.
+- 03:08:57 Relatore 9Il BB zero è l'anima.
+- 03:09:00 Relatore 1Va bene, grazie.
+- 03:09:02 Relatore 2Un attimo la domanda da fare.
+- 03:09:03 Relatore 6Prego, prego, prego.
+- 03:09:04 Relatore 8Prego, prego se se Jacopo stai sentendo.
+- 03:09:09 Relatore 10Sistema è in inglese.
+- 03:09:11 Relatore 9No, allora adesso ve lo stiamo. Ve lo stiamo mostrando in inglese per il semplice fatto che non ci sono ancora le traduzioni italiane, perché come abbiamo fatto per ostrava verrà fornita. Ora non so a chi però verrà fornita 1 1, fondamentalmente la lista di tutte le le scritte che vedete.
+- 03:09:32 Relatore 9Che una possibile traduzione in italiano perché almeno quello più o meno lo sappiamo, però logicamente verrà passata a voi perché magari la il nomenclatore che usiamo noi tipo buffer container, parshall complete e cose varie non non rientrano tra virgolette nelle vostre corde e quindi logicamente.
+- 03:09:50 Relatore 9Sta un po' AA chi poi riceverà questa lista andare ad adattare sulla base di di come voi.
+- 03:09:56 Relatore 9Poi parlate del sistema perché poi da un certo punto di vista noi usiamo degli standard che sono appunto container, buffer eccetera eccetera. Però magari il nostro standard non a voi non dice niente OKE, quindi poi logicamente ci sarà questo questo passo di traduzione. Adesso ve lo stiamo facendo vedere in inglese, perché inglese è la lingua di default del sistema.
+- 03:10:17 Relatore 9Però logicamente si può cambiare lingua senza problemi.
+- 03:10:20 Relatore 7Ok, grazie.
+- 03:10:21 Relatore 8Noi che lo vediamo però in italiano volevo dirti che hai fatto caso dove c'è la cornetta?
+- 03:10:27 Relatore 9No, no, sì, sì. Non non guardatelo in italiano, perché in italiano non ci sono ancora le traduzioni fatte. No, no, assolutamente.
+- 03:10:29 Relatore 12Che.
+- 03:10:34 Relatore 8Ci sarà quella lì? Se poi vuoi quella destra del tempo indicare.
+- 03:10:35 Relatore 12No, no, no. Dove dobbiamo prepararti per tornare?03:10:41No, no, no, non.
+- 03:10:41 Relatore 8È ancora dato il.
+- 03:10:45 Relatore 7Bene, chiaramente voi state vedendo un sistema di training, non è il sistema di produzione. Poi il sistema di produzione sarà completo con tutte le produzioni. Capito? Uguale a questo verbale.
+- 03:10:57 Relatore 7Grazie o no?
+- 03:10:58 Relatore 1Come fare dei test adesso?
+- 03:11:00 Relatore 1OK, così fuori da questa informazione.
+- 03:11:00 Relatore 2Tutti.
+- 03:11:05 Relatore 7Poi ha sempre questa è un'altra domanda da fare oggi, ma dovresti avere il U at.
+- 03:11:13 Relatore 7Per fare dei test.
+- 03:11:14 Relatore 7Ma comunque domani c'è un'altra sessione, sempre con voi.
+- 03:11:18 Relatore 7Però e poi in futuro nelle prossime settimane dovrebbe dovrebbe essere stato organizzato dall'elezione di u.at.
+- 03:11:24 Relatore 2Con il giorno, però.
+- 03:11:31 Relatore 7Samantha.
+- 03:11:32 Relatore 70.
+- 03:11:36 Relatore 3Sì, dopo.
+- 03:11:38 Relatore 2Ciao un attimo Eh, ingaggiano.
+- 03:11:39 Relatore 13Ok, a domani, grazie.
+- 03:11:41 Relatore 13Però voglio arrivare la bisogna, Ciao, Ciao Ciao.
+- 03:11:46 Relatore 1Per fare i giorni non si vedevano.
+- 03:11:47 Relatore 13Prima di un.
+- 03:11:48 Relatore 13Po' più di te valutavo gli esami.
+- 03:11:51 Relatore 2Sì, sì, faglielo trovare.
+- 03:11:56 Relatore 7Sì, no, scusa, io a te sono dei test.](https://engit-my.sharepoint.com/personal/paolo_comparoni_eng_it/Documents/File%20trascritti/Recording%20B-SPARK%20Key%20User%20Training%20Line%20Operator%20Mapello%20\(M1\)-20260225_075641UTC-Meeting%20Recording.mp3)
