@@ -1,18 +1,22 @@
-# Collegamenti OPCENTER MES
+---
+title: "Collegamenti Opcenter MES per training line operator"
+source_file: "SourcesMd/TrainingBrembo/20_MES Line Operator/2026-04-23 Materiale per Training Line Operator/Collegamenti OPCENTER MES (DOCX).md"
+project: "Brembo B-Spark"
+scope: "Operational_Training_Material"
+plants: [CURNO, MAPELLO]
+---
+
+# Collegamenti Opcenter MES per training line operator
 
 > Documento sorgente: `E:\BremboDocs\TrainingBrembo\20_MES Line Operator\2026-04-23 Materiale per Training Line Operator\Collegamenti OPCENTER MES.docx`  
 > Tipo: Word (.docx)
 
-Collegamenti per Training MES
+## Accessi Curno
 
-CURNO
+- DS Basic: <https://it-qlt.mes.brembo.com/sit-ui/Curno/DSBasic.Siemens_OPC_EXDSBasic/#/screen/home.homeCard>
+- Brembo Repetitive: <https://it-qlt.mes.brembo.com/sit-ui/Curno/DSBasic.BremboRepetitive_Curno/>
 
-DS BASIC: <https://it-qlt.mes.brembo.com/sit-ui/Curno/DSBasic.Siemens_OPC_EXDSBasic/#/screen/home.homeCard>
+## Accessi Mapello
 
-BREMBO REPETITIVE: <https://it-qlt.mes.brembo.com/sit-ui/Curno/DSBasic.BremboRepetitive_Curno/>
-
-MAPELLO
-
-DS BASIC: <https://it-qlt.mes.brembo.com/sit-ui/Mapello/DSBasic.Siemens_OPC_EXDSBasic/#/screen/home.homeCard>
-
-BREMBO REPETITIVE: <https://it-qlt.mes.brembo.com/sit-ui/Mapello/DSBasic.BremboRepetitive_Mapello/>
+- DS Basic: <https://it-qlt.mes.brembo.com/sit-ui/Mapello/DSBasic.Siemens_OPC_EXDSBasic/#/screen/home.homeCard>
+- Brembo Repetitive: <https://it-qlt.mes.brembo.com/sit-ui/Mapello/DSBasic.BremboRepetitive_Mapello/>

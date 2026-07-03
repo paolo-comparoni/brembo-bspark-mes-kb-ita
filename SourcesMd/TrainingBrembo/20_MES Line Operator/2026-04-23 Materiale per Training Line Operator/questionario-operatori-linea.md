@@ -1,9 +1,17 @@
-# questionario-operatori-linea
+---
+title: "Questionario operatori di linea"
+source_file: "SourcesMd/TrainingBrembo/20_MES Line Operator/2026-04-23 Materiale per Training Line Operator/questionario-operatori-linea.md"
+project: "Brembo B-Spark"
+scope: "Operational_Training_Material"
+plants: [SHARED]
+---
+
+# Questionario operatori di linea
 
 > Documento sorgente: `E:\BremboDocs\TrainingBrembo\20_MES Line Operator\2026-04-23 Materiale per Training Line Operator\questionario-operatori-linea.docx`  
 > Tipo: Word (.docx)
 
-**QUESTIONARIO OPERATORI DI LINEA**
+## Domande di verifica
 
 1.  **Perché è obbligatorio che l’operatore si registri nel “Team” (Gruppo di Lavoro) di una postazione prima di operare?**
 

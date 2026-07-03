@@ -1,4 +1,12 @@
-# Training-Operatori-Linea-Curno
+---
+title: "Training Operatori di Linea Curno"
+source_file: "SourcesMd/TrainingBrembo/20_MES Line Operator/2026-04-23 Materiale per Training Line Operator/Training-Operatori-Linea-Curno.md"
+project: "Brembo B-Spark"
+scope: "Operational_Training_Material"
+plants: [CURNO]
+---
+
+# Training Operatori di Linea Curno
 
 > Documento sorgente: `E:\BremboDocs\TrainingBrembo\20_MES Line Operator\2026-04-23 Materiale per Training Line Operator\Training-Operatori-Linea-Curno.pptx`  
 > Tipo: PowerPoint (.pptx) · Slide: 46
