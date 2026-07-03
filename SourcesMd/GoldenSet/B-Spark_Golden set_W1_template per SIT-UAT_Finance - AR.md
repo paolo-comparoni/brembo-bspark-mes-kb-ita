@@ -1,0 +1,106 @@
+# B-Spark_Golden set_W1_template per SIT-UAT — Foglio: Finance - AR
+
+> Documento sorgente: `E:\BremboDocs\GoldenSet\B-Spark_Golden set_W1_template per SIT-UAT.xlsx`  
+> Tipo: Excel (.xlsx) · Foglio: **Finance - AR** · Righe dati: 100 · Colonne: 6
+
+| ID Cliente | Cliente | Material | Description |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 100771 | JAGUAR LAND ROVER LIMITED | 20E68458-P |  | sold to ok | ship to missing |
+| 100771 | JAGUAR LAND ROVER LIMITED | 20E68457-P |  |  |  |
+| 20505 | ASTON | 22E60322 | 22E60322 - PINZA EP 11 DX | sold to ok | ship to ok |
+| 20505 | ASTON | 22E60321 | 22E60321 - PINZA EP 11 SX |  |  |
+| 20505 | ASTON | 20F12023 | 20F12023 - PINZA SX M6.30/34/38 BLACK |  |  |
+| 20505 | ASTON | 20F12024 | 20F12024 - PINZA DX M6.30/34/38 BLACK |  |  |
+| 20291 | ASTON | XC3EQB3 | XC3EQB3 - PINZA M6.32/34/36 DX | sold to missing | ship to ok |
+| 20291 | ASTON | XC3EQB2 | XC3EQB2 - PINZA M6.32/34/36 SX |  |  |
+| 20291 | ASTON | XC3ERB2 | XC3ERB2 - PINZA M4.34/36 SX |  |  |
+| 20291 | ASTON | XC3ERB3 | XC3ERB3 - PINZA M4.34/36 DX |  |  |
+| 20330 | JLR GB | XC2CT26 | XC2CT26 - PINZA M4.48 DX NAO | sold to missing | ship to missing |
+| 20330 | JLR GB | 47F01211 | 47F01211 - PASTIGLIA ECE |  |  |
+| 20330 | JLR GB | 317197 | 317197 - CAMPANA DISCO |  |  |
+| 20330 | JLR GB | 22E25023 | 22E25023 - PINZA EP19 SX |  |  |
+| 20330 | JLR GB | 22E25024 | 22E25024 - PINZA EP19 DX |  |  |
+| 100775 | JLR | 150T02911 | 150T02911 - RICAMBIO DISCO CCB | sold to ok | ship to missing |
+| 100775 | JLR | 120F30123 | 120F30123 - RICAMBIO PINZA SENZA PASTIGLIE SX |  |  |
+| 100775 | JLR | 120F30124 | 120F30124 - RICAMBIO PINZA SENZA PASTIGLIE DX |  |  |
+| 100775 | JLR | 120C63415 | 120C63415 - RICAMBIO MOLLA E PERNI |  |  |
+| 100661 | Nissan | 49T34410 | 49T34410 - DISCO_410X223X38_NISSAN_GTR _ANT_AL_IGC | sold to ok | ship to ok |
+| 100661 | Nissan | 49T34210 | 49T34210 - DISCO_390X263X32_NISSAN_GTR_POST_AC_IGC |  |  |
+| 100661 | Nissan | 20B29343 | 20B29343 - PINZA M6.30/34/36 SX |  |  |
+| 100661 | Nissan | 20B29344 | 20B29344 - PINZA M6.30/34/36 DX |  |  |
+| 21735 | Nissan  ES | 10783695 | 107836951 - RICAMBIO PASTIGLIA | sold to ok | ship to ok |
+| 21735 | Nissan  ES | XT01790 | XT01790 - KIT PASTIGLIE + DISCHI |  |  |
+| 21735 | Nissan  ES | 20A21605 | 20A21605 - PINZA SENZA PASTIGLIE SX |  |  |
+| 21735 | Nissan  ES | 20A21706 | 20A21706 - PINZA SENZA PASTIGLIE DX |  |  |
+| 100525 | Toyota | 20C21796 | 20C21796 - KIT PINZE ANTERIORI | sold to ok | ship to ok |
+| 100525 | Toyota | 20C21897 | 20C21897 - KIT PINZE POSTERIORI |  |  |
+| 100525 | Toyota | 50T04010 | 50T04010 - DISC 420x40 LH |  |  |
+| 100525 | Toyota | 50T04111 | 50T04111 - DISC 398x32 RH |  |  |
+| 100525 | Toyota | XC1GL66 | XC1GL66 - PINZA ECS 1.44 DX |  |  |
+| 100525 | Toyota | XC1GL65 | XC1GL65 - PINZA ECS 1.44 SX |  |  |
+| 100037 | B.MEXICO usd | 47E09913 | 47E09913 - PASTIGLIA | sold to missing | ship to missing |
+| 100037 | B.MEXICO usd | 20F04602 | 20F04602 - CORPO PINZA GREZZO DX |  |  |
+| 100037 | B.MEXICO usd | 47C35650 | 47C35650-1 - PASTIGLIA BRM 0004 |  |  |
+| 100037 | B.MEXICO usd | 47D50111 | 47D50111 - PASTIGLIA |  |  |
+| 100037 | B.MEXICO usd | 47C35626 | 47C35626-1 - PASTIGLIA BRM 0004 |  |  |
+| 100037 | B.MEXICO usd | 40B81307 | 40B81307 - MOTO-RIDUTTORE |  |  |
+| 100246 | Ferrari | 7598241 | 07598241 - GANASCIA |  |  |
+| 100246 | Ferrari | 349T25910 | 349T25910 - RICAMBIO 360x233x32 POST. FERRARI F142M | sold to missing | ship to ok |
+| 100246 | Ferrari | 149T35210 | 149T35210 - RICAMBIO DISCO RODATO |  |  |
+| 100246 | Ferrari | 107970615 | 107970615 - RICAMBIO PASTIGLIE E PERNERIA - FERRARI - |  |  |
+| 100246 | Ferrari | 349T28510 | 349T28510 - DISCO RICAMBIO DA 398X223X38 FERRARI F152VS ANT. |  |  |
+| 100246 | Ferrari | XC2DSE5 | XC2DSE5 - MODULO MAQ.F173M |  |  |
+| 100247 | Ferrari | 20C83729 | 20C83729 - PINZA MT4.34/38 SX GIALLO 1 PN |  |  |
+| 100362 | Lamborghini | 20F07534 | 20F07534 - PINZA MT10.24/26 DX | sold to ok | ship to ok |
+| 100362 | Lamborghini | 20F07533 | 20F07533 - PINZA MT10.24/26 SX |  |  |
+| 100362 | Lamborghini | 20F07527 | 20F07527 - PINZA MT10.24/26 SX |  |  |
+| 100362 | Lamborghini | 20F07528 | 20F07528 - PINZA MT10.24/26 DX |  |  |
+| 23825 | FCA International | 147778300 | 147778300 - RICAMBIO PASTIGLIE | sold to ok | ship to ok |
+| 23825 | FCA International | 147859044 | 147859044 - RICAMBIO PASTIGLIE - CHRYSLER - |  |  |
+| 25969 | Iveco defense | XC46974 | XC46974 - PINZA P4x65 DX | sold to ok | ship to ok |
+| 25969 | Iveco defense | XC46973 | XC46973 - PINZA P4x65 SX |  |  |
+| 25969 | Iveco defense | XC46936 | XC46936 - PINZA P4x65 DX |  |  |
+| 25969 | Iveco defense | XC46915 | XC46915 - PINZA P4x65 SX |  |  |
+| 100477 | Maserati | 107920963 | 107920963 - RICAMBIO PASTIGLIE | sold to ok | ship to ok |
+| 100477 | Maserati | XA9AY12 | XA9AY12 - PORTAMOZZO COMPLETO SX |  |  |
+| 100477 | Maserati | 140B81311 | 140B81311 - KIT RICAMBIO MOTORIDUTTORE |  |  |
+| 100477 | Maserati | 28A52767 | 28A52767 - PORTAMOZZO COMPLETO SX |  |  |
+| 100477 | Maserati | 247C35632 | 247C35632 - KIT RICAMBIO PASTIGLIA (x asse) |  |  |
+| 20588 | ECOGREEN | P00190000 | P00190000 - SFRIDO ALLUMINIO | sold to ok | ship to missing |
+| 20247 | GM | 107C50412 | 107C50412 - RICAMBIO PASTIGLIE - GENERAL MOTORS - | sold to ok | ship to ok |
+| 20247 | GM | 20A09005 | 20A09005 - PINZA SENZA PASTIGLIE SX |  |  |
+| 20247 | GM | 349T45610 | 349T45610 - RICAMBIO DISC ANT |  |  |
+| 20247 | GM | 349T23310 | 349T23310 - DISCO RICAMBIO CORVETTE J57 ANT. DA 394X219X36 |  |  |
+| 20247 | GM | 20A39406 | 20A39406 - PINZA SENZA PASTIGLIE DX |  |  |
+| 20247 | GM | 20866001 | 20866001 - PINZA P4.28/32 SX |  |  |
+| 27377 | ZF CHASSIS | 50T02910 | 50T02910 - DCC 440x232x40 SX | sold to ok | ship to ok |
+| 27377 | ZF CHASSIS | 20E56172 | 20E56172 - PINZA P8.36/30/30/38 DX - CCB GIALLO 1MBR |  |  |
+| 27377 | ZF CHASSIS | 20E56162 | 20E56162 - PINZA P8.36/30/30/38 DX - CAST IRON BLU 5PAL |  |  |
+| 27377 | ZF CHASSIS | 20E68451 | 20E68451 - PINZA P4.30/34 SX CCB |  |  |
+| 27377 | ZF CHASSIS | 20E68452 | 20E68452 - PINZA P4.30/34 DX CCB |  |  |
+| 27377 | ZF CHASSIS | 20E56164 | 20E56164 - PINZA P8.36/30/30/38 DX - CAST IRON RAME 1MBS |  |  |
+| 100561 | BMW | 20D77460-R | 20D77460-R - PINZA MN 30/34/36 SX | sold to ok | ship to ok |
+| 100561 | BMW | 20D77459-R | 20D77459-R - PINZA MN 30/34/36 SX |  |  |
+| 100561 | BMW | 20D77454-R | 20D77454-R - PINZA M6.30/34/36 |  |  |
+| 100561 | BMW | 20D77453-R | 20D77453-R - PINZA M6.30/34/36 |  |  |
+| 26682 | Porsche | 20D04367 | 20D04367 - PINZA MT6.36 SX | sold to ok | ship to ok |
+| 26682 | Porsche | 20D04368 | 20D04368 - PINZA MT6.36 DX |  |  |
+| 26682 | Porsche | 20D04287 | 20D04287 - PINZA MTL4.32 SX |  |  |
+| 26682 | Porsche | 20D04288 | 20D04288 - PINZA MTL4.32 DX |  |  |
+| 26557 | Mercedes | 20D03231 | 20D03231 - PINZA M6.32/34/38 SX | sold to missing | ship to ok |
+| 26557 | Mercedes | 20D03232 | 20D03232 - PINZA M6.32/34/38 DX |  |  |
+| 26557 | Mercedes | 20D03228 | 20D03228 - PINZA M6.32/34/38 DX |  |  |
+| 26557 | Mercedes | 20D03227 | 20D03227 - PINZA M6.32/34/38 SX |  |  |
+| 100904 | Volks Slovacchia | 20E54828 | 20E54828 - PINZA MT6.36 DX | sold to ok | ship to ok |
+| 100904 | Volks Slovacchia | 20E54827 | 20E54827 - PINZA MT6.36 SX |  |  |
+| 100904 | Volks Slovacchia | 20C91646 | 20C91646 - PINZA MTL4.32 DX |  |  |
+| 100904 | Volks Slovacchia | 20C91645 | 20C91645 - PINZA MTL4.32 SX |  |  |
+|  | codici SP | SPQ0000001 | costi qualità |  |  |
+|  | codici SP | SPR7000001 | R&D |  |  |
+|  | codici SP | SPR4000001 | ROY TECH |  |  |
+|  | codici SP | SPR6000001 | OTHER REVENUES |  |  |
+|  | codici SP | SPA0000001 | Attrezzature da rivendere |  |  |
+| Clienti per codici SP |  |  |  |  |  |
+| 21555 | BMW* |  |  |  |  |
+| 27832 | Barilla* BRT |  |  |  |  |
+| 100017 | BNA* BRT |  |  |  |  |
