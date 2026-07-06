@@ -1,513 +1,68 @@
-# OpcenterEXDS_InstallationGuide
+---
+title: "OpcenterEXDS_InstallationGuide"
+source_file: "SourcesMd/01 Opcenter 2507 Manuals/OpcenterEXDS_InstallationGuide.md"
+project: "Brembo B-Spark - Standard Platform Documentation"
+platform: "Siemens Opcenter Execution Discrete 2507"
+scope: "Core_Standard_Manual"
+plants: [SHARED]
+---
 
-> Documento sorgente: `E:\BremboDocs\01 Opcenter 2507 Manuals\OpcenterEXDS_InstallationGuide.pdf`  
-> Tipo: PDF · Pagine: 281
+# Opcenter Execution Discrete 2507 - Installation and Configuration Manual
 
+> Documento sorgente: `E:\BremboDocs\01 Opcenter 2507 Manuals\OpcenterEXDS_InstallationGuide.pdf`
+> Tipo: PDF - Pagine originali: 281
 
-## Pagina 1
+## Publication Information
 
-Opcenter Execution Discrete 2507
+- **Product**: Opcenter Execution Discrete
+- **Version**: 2507
+- **Document**: Installation and Configuration Manual
+- **Publication date**: 08/2025
+- **Revision**: PL20250519659659531
+- **Copyright**: © Siemens AG 2025
+- **Publisher**: Siemens AG, Digital Industries, Postfach 48 48, 90026 NÜRNBERG, GERMANY
+- **Technical note**: Technical data subject to change
 
-Installation and Configuration Manual
+## Guidelines
 
-08/2025
-PL20250519659659531
+This manual contains notes of varying importance that should be read with care:
 
+- **Important**: Highlights key information on handling the product, the product itself, or a particular part of the documentation.
+- **Note**: Provides supplementary information regarding handling the product, the product itself, or a specific part of the documentation.
 
-## Pagina 2
+### Trademarks
 
-Guidelines
-This manual contains notes of varying importance that should be read with care; i.e.:
-Important:
-Highlights key information on handling the product, the product itself or to a particular part of the documentation.
-Note: Provides supplementary information regarding handling the product, the product itself or a specific part of
-the documentation.
-Trademarks
-All names identified by ® are registered trademarks of Siemens AG.
-The remaining trademarks in this publication may be trademarks whose use by third parties for their own purposes
-could violate the rights of the owner.
-Disclaimer of Liability
-We have reviewed the contents of this publication to ensure consistency with the hardware and software
-described. Since variance cannot be precluded entirely, we cannot guarantee full consistency. However, the
-information in this publication is reviewed regularly and any necessary corrections are included in subsequent
-editions.
-Cybersecurity Information
-Siemens provides products and solutions with industrial cybersecurity functions that support the secure operation
-of plants, systems, machines and networks.
-In order to protect plants, systems, machines and networks against cyber threats, it is necessary to implement and continuously maintain - a holistic, state-of-the-art industrial cybersecurity concept. Siemens products and
-solutions constitute one element of such a concept.
-Customers are responsible for preventing unauthorized access to their plants, systems, machines and networks.
-Such systems, machines and components should only be connected to an enterprise network or the internet if and
-to the extent such a connection is necessary and only when appropriate security measures (e.g. firewalls and/or
-network segmentation) are in place.
-For additional information on industrial cybersecurity measures that may be implemented, please visit
-https://www.siemens.com/cybersecurity-industry.
+All names identified by ® are registered trademarks of Siemens AG. The remaining trademarks in this publication may be trademarks whose use by third parties for their own purposes could violate the rights of the owner.
 
-Siemens products and solutions undergo continuous development to make them more secure. Siemens strongly
-recommends that product updates are applied as soon as they are available and that the latest product versions
-are used. Use of product versions that are no longer supported, and failure to apply the latest updates may increase
-customer’s exposure to cyber threats.
+### Disclaimer
 
-To stay informed about product updates, subscribe to the Siemens Industrial Cybersecurity RSS feed under
-https://www.siemens.com/cert.
+We have reviewed the contents of this publication to ensure consistency with the hardware and software described. Since variance cannot be precluded entirely, we cannot guarantee full consistency. However, the information in this publication is reviewed regularly and any necessary corrections are included in subsequent editions.
 
-Siemens AG
+### Cybersecurity
 
-PL20250519659659531
+Siemens provides products and solutions with industrial cybersecurity functions that support the secure operation of plants, systems, machines and networks. In order to protect plants, systems, machines and networks against cyber threats, it is necessary to implement and continuously maintain a holistic, state-of-the-art industrial cybersecurity concept. Siemens products and solutions constitute one element of such a concept. Customers are responsible for preventing unauthorized access to their plants, systems, machines and networks. Such systems, machines and components should only be connected to an enterprise network or the internet if and to the extent such a connection is necessary and only when appropriate security measures (for example, firewalls and/or network segmentation) are in place. For additional information on industrial cybersecurity measures that may be implemented, please visit https://www.siemens.com/cybersecurity-industry.
 
-Copyright © Siemens AG 2025
+Siemens products and solutions undergo continuous development to make them more secure. Siemens strongly recommends that product updates are applied as soon as they are available and that the latest product versions are used. Use of product versions that are no longer supported, and failure to apply the latest updates may increase the customer's exposure to cyber threats. To stay informed about product updates, subscribe to the Siemens Industrial Cybersecurity RSS feed at https://www.siemens.com/cert.
 
-Digital Industries
+## Document Metadata
 
-20250801_112616
+| Field | Value |
+| --- | --- |
+| ID | OpcenterEXDS_InstallationGuide |
+| Title | Installation and Configuration Manual |
+| Product Title | Opcenter Execution Discrete |
+| Version Title | 2507 |
+| Product Version | OpcenterEXDS_2507 |
+| Category | Installation, Configuration, Support |
+| Summary | Provides detailed information on how to install and configure Opcenter Execution Discrete. |
+| Audience | System Integrator, Support Engineer, Project Engineer, Commissioning Engineer |
+| Revision | PL20250519659659531 |
+| State | Published |
+| Author | Siemens AG |
+| Language | en-US |
 
-Technical data subject to change
+## Before You Start
 
-Postfach 48 48
-90026 NÜRNBERG
-GERMANY
-
-
-## Pagina 3
-
-Table of Contents
-1
-
-Before You Start ..................................................................................................8
-
-2
-
-Supported Scenarios and Prerequisites ............................................................9
-
-3
-
-Installing Opcenter Execution Discrete............................................................12
-
-4
-
-How to Install Opcenter Execution Discrete in Silent Mode ...........................13
-
-5
-
-How to Configure Opcenter Execution Discrete..............................................15
-
-5.1
-
-Enabling Opcenter Execution Discrete Error Tracing........................................................... 15
-
-5.2
-
-Performing Post-Setup Configuration .................................................................................. 16
-
-5.3
-
-Defining Users and User Groups............................................................................................ 18
-
-5.3.1
-
-Importing Windows Active Directory Users in UMC............................................................................................ 18
-
-5.3.2
-
-Creating Users ...................................................................................................................................................... 19
-
-5.3.3
-
-Creating User Groups........................................................................................................................................... 19
-
-5.3.4
-
-Associating Users to Groups ................................................................................................................................ 20
-
-5.3.5
-
-Associating Roles to Users and Groups............................................................................................................... 20
-
-5.3.6
-
-Granting Low Code UI Application Rights to Roles ............................................................................................ 20
-
-5.3.6.1 Selecting the Equipment ..................................................................................................................................... 21
-5.3.7
-
-Generating and Validating Security Certificates ................................................................................................ 21
-
-5.3.8
-
-Importing Windows Active Directory Groups in UMC......................................................................................... 24
-
-5.4
-
-Integrating Opcenter Execution Foundation Apps in the Opcenter Execution Discrete
-Solution .................................................................................................................................. 25
-
-5.5
-
-Importing Signal Rules........................................................................................................... 27
-
-5.6
-
-Using Opcenter Execution Discrete in Multilanguage.......................................................... 28
-
-5.7
-
-How to Configure Runtime Screens ...................................................................................... 28
-
-5.8
-
-Configuring Cleaning Rules ................................................................................................... 35
-
-5.9
-
-Deploying the Opcenter Execution Discrete Solution.......................................................... 38
-
-5.10
-
-Deploying Low Code UI Apps................................................................................................. 39
-
-5.11
-
-Indexing the System Databases ............................................................................................ 44
-
-5.12
-
-Configuring the Documentation Center ............................................................................... 53
-
-5.13
-
-Configuring the Production Resolution Common Component ........................................... 54
-
-5.14
-
-How to Configure the PLMX-Viewer ...................................................................................... 54
-
-5.14.1 Configuring the PLMX-Viewer in a Stand-alone Scenario .................................................................................. 54
-5.14.2 Configuring the PLMX-Viewer in a Distributed Scenario .................................................................................... 56
-
-6
-
-Integration with Other Systems .......................................................................59
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-iii
-
-
-## Pagina 4
-
-6.1
-
-How to Integrate Opcenter Execution Discrete with Opcenter APS.................................... 59
-
-6.1.1
-
-Installing the Opcenter APS Configuration Package.......................................................................................... 60
-
-6.1.2
-
-Enabling Integration with Opcenter APS in the Opcenter Execution Discrete Environment........................... 60
-
-6.1.3
-
-Enabling Integration with Opcenter Execution Discrete in the Opcenter APS Environment........................... 61
-
-6.1.3.1 Using Alerts Window ............................................................................................................................................ 61
-
-6.2
-
-How to Integrate Opcenter Execution Discrete with Teamcenter Manufacturing ............. 63
-
-6.3
-
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM ................... 64
-
-6.3.1
-
-Importing the Integration Scenario Configuration ............................................................................................ 66
-
-6.3.2
-
-How to Finalize the Imported Configuration ...................................................................................................... 66
-
-6.3.2.1 Configuring the MOM Connection ....................................................................................................................... 67
-6.3.2.2 Configuring the File Adapters.............................................................................................................................. 68
-6.3.3
-
-How to Exchange Messages with the Shop Floor ............................................................................................... 69
-
-6.3.3.1 Work Order Operation Start ................................................................................................................................ 70
-6.3.3.2 Work Order Operation Completion ..................................................................................................................... 72
-6.3.3.3 Work Order Note Creation ................................................................................................................................... 74
-6.3.3.4 Quality Non-Conformance Creation on Work Order Operations....................................................................... 76
-6.3.3.5 Quality Non-Conformance Creation on Material Tracking Units....................................................................... 78
-6.3.3.6 Quality Non-Conformance Creation on Machines.............................................................................................. 80
-6.3.3.7 Quality Non-Conformance Sentencing............................................................................................................... 82
-6.3.3.8 Material Consumption ......................................................................................................................................... 83
-6.3.3.9 Tool Usage............................................................................................................................................................ 86
-6.3.3.10 Data Collection..................................................................................................................................................... 88
-6.3.3.11 Quality Inspection Data Acquisition.................................................................................................................... 90
-6.3.3.12 Input Message related to Kanban Call ................................................................................................................ 92
-6.3.3.13 How to Configure Direct Dispatch for Messages Exchanged with the Shop Floor............................................ 94
-6.3.4
-
-How to Automatically Import and Delete Data .................................................................................................. 95
-
-6.3.4.1 XML File for Materials ........................................................................................................................................... 97
-6.3.4.2 XML File for Functional Codes ........................................................................................................................... 101
-6.3.4.3 XML File for Suppliers......................................................................................................................................... 104
-6.3.4.4 XML File for Features Feature Values and Options ........................................................................................... 106
-6.3.4.5 XML File for Bills of Features.............................................................................................................................. 110
-6.3.4.6 XML File for Bills of Materials ............................................................................................................................. 114
-6.3.4.7 XML File for ERP Orders...................................................................................................................................... 118
-6.3.4.8 XML File for Master Plans ................................................................................................................................... 122
-6.3.4.9 XML File for Inspection Master Plans................................................................................................................. 137
-6.3.4.10 XML File for Work Orders.................................................................................................................................... 142
-
-iv
-
-Opcenter Execution Discrete2507 - Installation and Configuration Manual
-
-
-## Pagina 5
-
-6.3.4.11 XML File for Full Work Orders............................................................................................................................. 146
-6.3.4.12 JSON File for Full Work Orders .......................................................................................................................... 162
-6.3.5
-
-Verifying the Use Case Configuration................................................................................................................ 184
-
-6.3.6
-
-How to Send Output Messages to Opcenter CN MOM...................................................................................... 185
-
-6.3.6.1 Configuring the Message Types for Output Messages...................................................................................... 185
-6.3.6.2 Configuring the Channel for Output Messages................................................................................................. 186
-6.3.6.3 Configuring the File Adapter for Output Messages .......................................................................................... 186
-6.3.6.4 Configuring the Client Gateway for Output Messages ..................................................................................... 188
-
-6.4
-
-How to Integrate with Teamcenter Share .......................................................................... 189
-
-6.5
-
-How to Integrate Opcenter Execution Discrete with Additive Manufacturing Network... 189
-
-6.5.1
-
-Enabling Integration with Opcenter EX DS in the AM Network Environment ................................................. 189
-
-6.6
-
-How to Integrate Opcenter Execution Discrete with the Shop Floor ................................ 190
-
-6.6.1
-
-Configuring and Activating Automation Gateway Channels ........................................................................... 191
-
-6.7
-
-How to integrate Opcenter Execution Discrete with Teamcenter Easy Plan.................... 194
-
-6.8
-
-How to Integrate Opcenter Execution Discrete with Opcenter Intraplant Logistics
-(Opcenter IPL) ...................................................................................................................... 194
-
-6.8.1
-
-Importing the IPL Integration Scenario Configuration .................................................................................... 195
-
-6.8.2
-
-Finalizing the Project Configuration ................................................................................................................. 196
-
-6.8.3
-
-Configuring IIS to Route Calls from Opcenter IPL to DIS.................................................................................. 197
-
-6.8.4
-
-Configuring IIS on the Reverse Proxy Machine ................................................................................................. 198
-
-6.8.5
-
-Configuring Output Messages to Reach DIS ..................................................................................................... 199
-
-7
-
-Migrating from Previous Product Versions ....................................................201
-
-8
-
-Uninstalling Opcenter Execution Discrete.....................................................202
-
-9
-
-Troubleshooting..............................................................................................203
-
-9.1
-
-Troubleshooting - Configuration Issues ............................................................................. 203
-
-9.2
-
-Troubleshooting - Operator Landing page searching issues............................................. 203
-
-9.3
-
-Troubleshooting - Manual Solution Configuration ............................................................ 203
-
-9.3.1
-
-Creating the Opcenter Execution Discrete Manufacturing Solution ............................................................... 203
-
-9.3.2
-
-How to Configure the Opcenter Execution Discrete Solution Manually ......................................................... 204
-
-9.3.2.1 Configuring User Roles ...................................................................................................................................... 204
-9.3.2.2 Configuring Mashups ......................................................................................................................................... 205
-9.3.2.3 Creating Worker Roles ....................................................................................................................................... 205
-9.3.2.4 Associating Roles with Function Rights ............................................................................................................ 206
-9.3.2.5 Configuring Event Subscriptions....................................................................................................................... 207
-9.3.2.6 Verifying Event Subscriptions in Integration scenarios ................................................................................... 208
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-v
-
-
-## Pagina 6
-
-9.3.2.7 Configuring Pre-Checks and Post Actions ........................................................................................................ 211
-9.3.2.8 Importing the UI Application ............................................................................................................................. 212
-
-9.4
-
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM........... 212
-
-9.4.1
-
-Creating the MOM Connection .......................................................................................................................... 213
-
-9.4.2
-
-Importing the Workflow..................................................................................................................................... 214
-
-9.4.3
-
-Messages From the Shop Floor ......................................................................................................................... 214
-
-9.4.3.1 How to Automatically Start Work Order Operations........................................................................................ 215
-9.4.3.2 How to Automatically Use Tools ....................................................................................................................... 217
-9.4.3.3 How to Automatically Consume Materials ....................................................................................................... 220
-9.4.3.4 How to Automatically Collect Data ................................................................................................................... 223
-9.4.3.5 How to Automatically Create Work Order Notes.............................................................................................. 225
-9.4.3.6 How to Automatically Complete Work Order Operations................................................................................ 228
-9.4.3.7 How to Automatically Acquire Quality Inspection Data................................................................................... 231
-9.4.3.8 How to Automatically Create Non-Conformances of type Quality on Work Order Operations ..................... 234
-9.4.3.9 How to Automatically Create Non-Conformances of type Quality on Machines............................................ 237
-9.4.3.10 How to Automatically Create Non-Conformances of type Quality on Material Tracking Units ..................... 239
-9.4.3.11 How to Automatically Sentence Non-Conformances of Type Quality ............................................................ 242
-9.4.3.12 How to Automatically Receive Input Messages ................................................................................................ 245
-9.4.4
-
-Messages for Data Import .................................................................................................................................. 247
-
-9.4.4.1 Importing the Message Map .............................................................................................................................. 247
-9.4.4.2 How to Configure the Message Types ............................................................................................................... 248
-9.4.4.3 Configuring the Message Channel For XML Files .............................................................................................. 267
-9.4.4.4 Configuring the Message Channel for JSON files ............................................................................................. 270
-9.4.5
-
-How to Define the File Adapter.......................................................................................................................... 271
-
-9.4.6
-
-How to Tune Opcenter CN MOM Parameters to Improve Performances ........................................................ 276
-
-9.5
-
-Troubleshooting - Manual Configuration for Integration with Opcenter IPL ................... 277
-
-9.5.1
-
-Creating a DIS Project Manually ........................................................................................................................ 277
-
-9.5.2
-
-Creating All DIS Connectors Required for Integration with Opcenter IPL....................................................... 278
-
-9.5.2.1 Procedure ........................................................................................................................................................... 278
-
-vi
-
-Opcenter Execution Discrete2507 - Installation and Configuration Manual
-
-
-## Pagina 7
-
-ID
-
-OpcenterEXDS_InstallationGuide
-
-Title
-
-Installation and Configuration Manual
-
-Product Title
-
-Opcenter Execution Discrete
-
-Version Title
-
-2507
-
-Product Version
-
-OpcenterEXDS_2507
-
-Category
-
-Installation, Configuration, Support
-
-Summary
-
-Provides detailed information on how to install and configure
-Opcenter Execution Discrete.
-
-Audience
-
-System Integrator, Support Engineer, Project Engineer,
-Commissioning Engineer.
-
-Revision
-
-PL20250519659659531
-
-State
-
-Published
-
-Author
-
-Siemens AG
-
-Language
-
-en-US
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-7
-
-
-## Pagina 8
-
-Before You Start
-
-1 Before You Start
 Before you start setting up the scenario, you must:
 • verify that all software and hardware prerequisites are satisfied.
 • retrieve a valid license for both Opcenter Execution Foundation and Opcenter Execution Discrete and install the
@@ -538,16 +93,8 @@ minutes; the current license expiration date is shown both in ETW, in verbose mo
 details at system start-up.
 • a warning pop-up in any connected UI.
 
-8
+## Supported Scenarios and Prerequisites
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 9
-
-Supported Scenarios and Prerequisites
-
-2 Supported Scenarios and Prerequisites
 Opcenter Execution Discrete requires Opcenter EX FN with all related Apps as a prerequisite and supports all
 Opcenter EX FN scenarios and prerequisites, that are:
 • stand-alone (All-In-One) scenario
@@ -584,15 +131,6 @@ The following complex scenarios are described below:
 
 Example of Load Balancing Scenario
 The first image shows how a Load Balancing scenario may be built up.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-9
-
-
-## Pagina 10
-
-Supported Scenarios and Prerequisites
 
 To implement this type of scenario, the following hardware requirements are recommended:
 Server Type
@@ -634,15 +172,6 @@ size
 Example of High Availability Scenario
 The second image is an example of how you can implement a High Availability scenario.
 
-10
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 11
-
-Supported Scenarios and Prerequisites
-
 In this case, the following hardware requirements are recommended:
 Server Type
 
@@ -680,16 +209,8 @@ Servers
 Dependent from the data
 size
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
+## Installing Opcenter Execution Discrete
 
-11
-
-
-## Pagina 12
-
-Installing Opcenter Execution Discrete
-
-3 Installing Opcenter Execution Discrete
 Independently from the Scenario you have implemented, Opcenter EX DS must be installed on the Engineering
 Host. In Distributed Scenarios, the installation must be performed on all Engineering Hosts.
 The installation can also be run in Silent Mode. For more information, see How to Install Opcenter
@@ -707,16 +228,8 @@ Procedure
 6. (Only for Hybrid scenarios) Install Opcenter Execution Process. For details, see Installing Opcenter Execution
 Process in the Opcenter Execution Process Installation and Configuration Manual.
 
-12
+## How to Install Opcenter Execution Discrete in Silent Mode
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 13
-
-How to Install Opcenter Execution Discrete in Silent Mode
-
-4 How to Install Opcenter Execution Discrete in Silent Mode
 You can install Opcenter Execution Discrete in Silent Mode (that is, without human interaction) simply by executing
 a script. The system will install all available setup components.
 This procedure is valid only in case of fresh installation.
@@ -762,15 +275,6 @@ $ProcessPath
 The entire path to the Start.exe file. It is set to the ISO image root
 folder by default.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-13
-
-
-## Pagina 14
-
-How to Install Opcenter Execution Discrete in Silent Mode
-
 Parameter
 
 Value
@@ -808,17 +312,8 @@ directory %SITUnifiedSystemRoot%.
 • For details on the script, open the PowerShell command shell, type get-help .\OpcenterEX-SetupLauncher.ps1 -Full and click enter. Relevant information are returned, such as parameter and log file
 information.
 
-14
+## How to Configure Opcenter Execution Discrete
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 15
-
-How to Configure Opcenter Execution Discrete
-Enabling Opcenter Execution Discrete Error Tracing
-
-5 How to Configure Opcenter Execution Discrete
 The configuration procedure of Opcenter Execution Discrete is summarized in the following workflow.
 
 Workflow
@@ -837,7 +332,8 @@ Workflow
 13. (Optional) Configure the Production Resolution Common Component.
 14. (Optional) Configure the PLMX-Viewer.
 
-5.1 Enabling Opcenter Execution Discrete Error Tracing
+### Enabling Opcenter Execution Discrete Error Tracing
+
 This procedure allows you to enable error tracing on the machines where Opcenter Execution Discrete is installed.
 
 Enabling Error Tracing on the Engineering Host
@@ -862,17 +358,8 @@ Engineering Host into the folder you have just created.
 6. Launch the .bat file contained in the folder you have just created.
 7. Restart the services stopped in step 1.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
+### Performing Post-Setup Configuration
 
-15
-
-
-## Pagina 16
-
-How to Configure Opcenter Execution Discrete
-Performing Post-Setup Configuration
-
-5.2 Performing Post-Setup Configuration
 After installing the product, you need to launch the Opcenter Execution Discrete configuration tool, which
 creates the Opcenter Execution Discrete manufacturing solution of interest and performs many configurations
 automatically.
@@ -916,16 +403,6 @@ Siemens.Opcenter.Foundation.SolutionConfigurator.exe to create the U4DM, DS or O
 Starting from version 2407, the %SITUnifiedVAppsRoot%\UADM folder contains the xml files that
 adopt the new .NET technological stack.
 
-16
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 17
-
-How to Configure Opcenter Execution Discrete
-Performing Post-Setup Configuration
-
 The xml files that adopt the previous .NET Framework Worker Role are still available in
 the %SITUnifiedVAppsRoot%\UADM\NetFramework folder.
 If you want to configure the solution using the previous .NET Framework Worker Role instead of the
@@ -961,21 +438,12 @@ still available in the product. To properly use these screens instead of the new
 • PluginMgt
 2. Enable the deprecated pre-checks and post-actions within the AppU4DM App.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-17
-
-
-## Pagina 18
-
-How to Configure Opcenter Execution Discrete
-Defining Users and User Groups
-
 3. Add the deprecated modules to the solution.
 For detailed information on deprecated items, see the Deprecated Functionalities and Artifacts chapter in
 the Opcenter Execution Discrete Release Notes.
 
-5.3 Defining Users and User Groups
+### Defining Users and User Groups
+
 When installing and configuring the application, you must define Users and User Groups to be used to access
 applications (such as Opcenter Execution Foundation Solution Studio), operating via User Management
 Component (UMC) Web User Interface. For this purpose, you must access the User Management Component (UMC)
@@ -1001,7 +469,8 @@ Workflow
 Alternatively, you can directly import Windows Active Directory Groups in UMC. In this case, the Users are already
 associated to Groups and they must not be created or imported.
 
-5.3.1 Importing Windows Active Directory Users in UMC
+#### Importing Windows Active Directory Users in UMC
+
 This operation can be time-consuming and may return zero results if Active Directory administration limits
 are exceeded. We strongly suggest that you perform restricted searches.
 To import Active Directory users in UMC via the UMC Web User Interface:
@@ -1013,16 +482,6 @@ To import Active Directory users in UMC via the UMC Web User Interface:
 contain at least three characters.
 5. Select the user you want to import and click Add.
 6. Click Import to import the selected Windows user into the UMC database.
-
-18
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 19
-
-How to Configure Opcenter Execution Discrete
-Defining Users and User Groups
 
 Additional Details
 • Windows groups associated to the imported users are not imported into the UMC database.
@@ -1056,7 +515,8 @@ command;
 • -x switch: the command is executed by the user given as input parameter;
 • -w switch: the user to be imported is a Windows user.
 
-5.3.2 Creating Users
+#### Creating Users
+
 Operating from the UMC Web User Interface:
 1. Open a supported browser.
 2. Depending on your configuration, enter the address http://<ProductionMachineName>/UMC or https://
@@ -1064,32 +524,25 @@ Operating from the UMC Web User Interface:
 3. Open the  Users page and click Add User.
 4. Insert the required user information and click Update.
 
-5.3.3 Creating User Groups
+#### Creating User Groups
+
 After importing Windows users in UMC or after creating new users, you must create user groups.
 
 Procedure
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-19
-
-
-## Pagina 20
-
-How to Configure Opcenter Execution Discrete
-Defining Users and User Groups
-
 1. Operating from the UMC Web User Interface, open the  Groups page and click Add Group.
 2. Insert the required user group information and click Update.
 
-5.3.4 Associating Users to Groups
+#### Associating Users to Groups
+
 After creating user groups, you must associate the users to the groups.
 
 Procedure
 1. Open the  Groups page and select a group. Then click Details.
 2. In the Members tab, insert the name of the user to be associated to the selected group and click Save.
 
-5.3.5 Associating Roles to Users and Groups
+#### Associating Roles to Users and Groups
+
 1. In the Solution Studio Home page, click
 Account > Roles section of the sidebar.
 2. In the Roles page, select the role of interest.
@@ -1101,7 +554,8 @@ component importing a .csv file, to be associated with the selected role.
 Users. It is also possible to assign roles to more users or groups simultaneously.
 It is mandatory to assign the AccessControlViewer system role to all users.
 
-5.3.6 Granting Low Code UI Application Rights to Roles
+#### Granting Low Code UI Application Rights to Roles
+
 When Low Code UI Apps are involved, if you have been assigned with a particular Role native in Opcenter Execution
 Discrete, you must possess specific rights to be able to perform certain actions that are fundamental to using the
 product. The rights that you must possess depend on the Low Code UI App involved:
@@ -1134,16 +588,6 @@ Terminal.
 Opcenter Execution Discrete Product Engineer
 
 User rights, in order to see the engineering UI screens.
-
-20
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 21
-
-How to Configure Opcenter Execution Discrete
-Defining Users and User Groups
 
 Low Code UI App
 
@@ -1185,7 +629,8 @@ to remove the association, select one or more Low Code UI App User Roles and cli
 
 .
 
-5.3.6.1 Selecting the Equipment
+##### Selecting the Equipment
+
 As a SuperUser, you can select the Equipment for a particular client.
 
 Procedure
@@ -1195,7 +640,8 @@ Procedure
 
 .
 
-5.3.7 Generating and Validating Security Certificates
+#### Generating and Validating Security Certificates
+
 To enable interaction with Teamcenter Manufacturing and/or Opcenter APS, you need an X.509 standard security
 certificate. A certificate represents a specific module and it can be associated with one or more authorization roles
 in order to grant a subset of user rights required by that module. In this manner, a certified module can
@@ -1206,16 +652,6 @@ Prerequisites
 If the certificate is generated using PowerShell, the Microsoft tool New-SelfSignedCertificate must be installed on
 the Web Client machine. This tool is available as part of the Windows Software Development Kit (SDK), which you
 can download from the Microsoft website (https://www.microsoft.com/en-us/download/details.aspx?id=8279).
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-21
-
-
-## Pagina 22
-
-How to Configure Opcenter Execution Discrete
-Defining Users and User Groups
 
 For information on New-SelfSignedCertificate, see the related documentation (https://docs.microsoft.com/en-us/
 powershell/module/pkiclient/new-selfsignedcertificate?view=win10-ps).
@@ -1252,16 +688,6 @@ PowerShell example (integration with Opcenter APS)
 $cert = New-SelfSignedCertificate -DnsName "CN=PreactorIntegration,
 T=SimaticIT UA Foundation" -CertStoreLocation "cert:\LocalMachine\My"
 -KeyExportPolicy Exportable -KeySpec Signature
-
-22
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 23
-
-How to Configure Opcenter Execution Discrete
-Defining Users and User Groups
 
 PowerShell example (integration with Teamcenter Manufacturing)
 $cert = New-SelfSignedCertificate -DnsName "CN=T4CLMIntegration,T=SimaticIT
@@ -1301,16 +727,6 @@ integration with Teamcenter Manufacturing and APS for integration with Opcenter 
 1. On the Production Machines, start a Windows command prompt as a user with the required role.
 2. Browse to the %situnifiedsystemroot%bin folder.
 3. Execute the Importcert.exe program passing the required parameters as shown in the following examples:
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-23
-
-
-## Pagina 24
-
-How to Configure Opcenter Execution Discrete
-Defining Users and User Groups
 
 importcert.exe /thumbprint:526256e0ede349bb2817800c3c8834f6aeaa954a /roles:MPP /
 forcerestart
@@ -1355,7 +771,8 @@ Flag that identifies whether the roles are to be applied to all the
 defined plants or not. If set, the list of plants previously specified is
 not taken into account. This is applicable only in case of Multiplant.
 
-5.3.8 Importing Windows Active Directory Groups in UMC
+#### Importing Windows Active Directory Groups in UMC
+
 Importing user groups and their associated users from Windows via the UMC Web User Interface can take a
 considerable amount of time and may return zero results if administration limits are exceeded. We
 strongly suggest that you perform restricted searches.
@@ -1367,16 +784,6 @@ To import Active Directory groups in UMC via the UMC Web User Interface:
 4. In the Import Domain Groups dialog box, insert the search criteria and click Search.
 5. Select the user group you want to import and click Add.
 
-24
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 25
-
-How to Configure Opcenter Execution Discrete
-Integrating Opcenter Execution Foundation Apps in the Opcenter Execution Discrete Solution
-
 6. Click Import to import the selected Windows group and its associated users into the UMC database.
 Additional Details
 • Only direct members are imported into UMC.
@@ -1385,8 +792,8 @@ Additional Details
 added/deleted to/from the group. As a consequence, users imported via Windows group cannot be
 deleted.
 
-5.4 Integrating Opcenter Execution Foundation Apps in the Opcenter
-Execution Discrete Solution
+### Integrating Opcenter Execution Foundation Apps in the Opcenter Execution Discrete Solution
+
 In order to work properly, some functionalities provided by Opcenter EX DS require that you integrate dedicated
 Opcenter Execution Foundation Apps into your Opcenter Execution Discrete Solution. These Apps concern:
 • label printing
@@ -1415,16 +822,6 @@ Procedure
 1. In the Solution Studio home page, click App Management on the sidebar.
 2. In the Available tab, select the App to be installed according to your needs and click Install. This App will be
 listed in the Installed tab.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-25
-
-
-## Pagina 26
-
-How to Configure Opcenter Execution Discrete
-Integrating Opcenter Execution Foundation Apps in the Opcenter Execution Discrete Solution
 
 Integrate Opcenter
 EX FN App...
@@ -1497,14 +894,6 @@ ReleaseWorkOrder
 InheritSegregationTagsFromWorkOrderOnReleaseWor
 kOrder
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 27
-
-How to Configure Opcenter Execution Discrete
-Importing Signal Rules
-
 Command
 
 Post-Action
@@ -1547,7 +936,8 @@ Event: OnReleaseWorkOrder EventHandler: InheritSegregationTagsFromWOOnReleaseWor
 Build to build the packages.
 Deploy to deploy your Solution.
 
-5.5 Importing Signal Rules
+### Importing Signal Rules
+
 If you want to have the system automatically react and send notifications in specific situations (via the Signals
 App), you also need to import the pre-configured Signal Rules provided by Opcenter EX DS as described below.
 
@@ -1567,16 +957,6 @@ Operation involving that Tool is started.
 • StartingUsingScrewingToolSignalRule, to start using Screwing Tools, when a Work Order Operation of
 type Screwing involving that Tool is ready to be executed. It activates when the communication between
 the system and the Automation Gateway is successful.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-27
-
-
-## Pagina 28
-
-How to Configure Opcenter Execution Discrete
-Using Opcenter Execution Discrete in Multilanguage
 
 • UseScrewingToolSignalRule, to record values received from the Screwing Tool, when a Work Order
 Operation of type Screwing involving that Tool is started, thus providing History records and operation
@@ -1600,7 +980,8 @@ Deploy.
 Once the Signal Rule is deployed, SignalRulesEngineer and SignalRulesViewer roles are displayed in the
 Roles tab in the side bar.
 
-5.6 Using Opcenter Execution Discrete in Multilanguage
+### Using Opcenter Execution Discrete in Multilanguage
+
 Opcenter Execution Discrete User Interface is displayed by default only in English, but you can:
 • download and use localized packages from the Download > Additional Downloads area of the Support Center.
 • create localization packages for any additional language.
@@ -1608,7 +989,8 @@ Opcenter EX DS relies on Opcenter Execution Foundation for multilanguage functio
 How to Use Opcenter Execution Foundation in Multilanguage of the Opcenter Execution Foundation Development and
 Configuration Guide for further info.
 
-5.7 How to Configure Runtime Screens
+### How to Configure Runtime Screens
+
 The default layout of runtime screens, such as the Operator Landing (legacy) and the High Automation Landing
 pages (legacy), can be changed in order to better suit runtime needs.
 For example, you can decide to filter out runtime tasks according to their statuses, or you can decide to display the
@@ -1625,16 +1007,6 @@ You can decide to change the default behavior of the High Automation Landing pag
 the visibility of the components or changing also their size and position.
 For Low Code UI Apps, you can decide to customize the display of screens such as the As Built or Genealogy, as well
 as the Operator Terminal's content.
-
-28
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 29
-
-How to Configure Opcenter Execution Discrete
-How to Configure Runtime Screens
 
 Available Operations
 • Enabling the Display of Runtime Tasks according to Task Statuses
@@ -1686,16 +1058,6 @@ be considered.
 Available Tasks
 are: UADMMaterialConsumptionTask, UADMToolUsageTask, UADMWorkInstructionTask, UADMQualityInsp
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-29
-
-
-## Pagina 30
-
-How to Configure Opcenter Execution Discrete
-How to Configure Runtime Screens
-
 ectionTask, UADMPrintJobFilesTask, UADMPartProgramTask.
 In the example below, the Contextual Command Bar will not be displayed for all tasks.
 {
@@ -1743,16 +1105,6 @@ required business logic is also available and linked to the button while configu
 {
 "type": "Command",
 "name": "Start",
-
-30
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 31
-
-How to Configure Opcenter Execution Discrete
-How to Configure Runtime Screens
 
 "unauthorizedBehavior": "hide",
 "label": "sit.u4dm.start",
@@ -1807,16 +1159,6 @@ for the new module and click Save.
 code of the component.
 7. Change the value of result in order to point to the newly created UI Module. For example:
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-31
-
-
-## Pagina 32
-
-How to Configure Opcenter Execution Discrete
-How to Configure Runtime Screens
-
 function(input) {
 var result = [];
 var evtObj = input[0];
@@ -1866,16 +1208,6 @@ Landing Page
 Setting the Percentage of the Width Occupied by the Document Preview in the
 High Automation Landing Page
 1. In the Opcenter Execution Foundation Solution Studio environment, select User Interface > Mashups.
-
-32
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 33
-
-How to Configure Opcenter Execution Discrete
-How to Configure Runtime Screens
 
 2. Open the highAutomationOpLanding > operatorDetailsTask UI Module.
 3. Select the TaskContainer UI Component and click configuration.
@@ -1930,16 +1262,6 @@ to False, and the As Built page is displayed within the Operator Terminal workin
 5. For the As Built page, select the AsBuilt_OpenInNewTab constant under
 OpcenterEXDS_RPT_OperatorLanding Module and change its value to True if you want to display the As Built
 page in a new tab in the browser for operations of TransferBatch or FlexibleBatch Work Order types. By
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-33
-
-
-## Pagina 34
-
-How to Configure Opcenter Execution Discrete
-How to Configure Runtime Screens
 
 default, the constant is set to False, and the As Built page is displayed within the Operator Terminal working
 area.
@@ -1996,16 +1318,6 @@ Step List will show only operations of the Serialized, FlexibleSerialized, or Fu
 In any case, you can change the display mode also at runtime by using the standard expand/collapse toggle
 mechanism.
 
-34
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 35
-
-How to Configure Opcenter Execution Discrete
-Configuring Cleaning Rules
-
 5. Select the ShowFullScreenContentByDefault constant under OpcenterEXDS_RPT_OperatorLanding Module
 and change its value to True if you want to display only the center part, while the Operation /Step List and the
 Document Viewer are collapsed. By default (False), the Operator Terminal shown the Operation /Step List, the
@@ -2049,22 +1361,13 @@ the 3D viewer.
 7. Click Save.
 8. Build and deploy your solution.
 
-5.8 Configuring Cleaning Rules
+### Configuring Cleaning Rules
+
 To maintain the stability of the system's level of performance over time and limit storage usage to a minimum, it is
 recommended that only data required for production be maintained in the on-line Opcenter Execution Discrete
 database, whereas any "consumable data" should be wiped from it.
 The Data Cleaning functionality provided by Opcenter Execution Foundation uses appropriately-configured
 Cleaning Rules to eliminate all entities no longer required for production from the on-line database.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-35
-
-
-## Pagina 36
-
-How to Configure Opcenter Execution Discrete
-Configuring Cleaning Rules
 
 In particular, data regarding certain runtime entities should be cleaned from the on-line Opcenter Execution
 Discrete DB, as soon as those entities are no longer needed according to project requirements. In detail, this is
@@ -2127,14 +1430,6 @@ OP_Result
 • Result
 • ResultHistory
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 37
-
-How to Configure Opcenter Execution Discrete
-Configuring Cleaning Rules
-
 Functional Block
 OP_Runtime
 
@@ -2190,16 +1485,6 @@ n
 • WOOpDependencyNavigationMTUAssociation
 • WorkOrderStep
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-37
-
-
-## Pagina 38
-
-How to Configure Opcenter Execution Discrete
-Deploying the Opcenter Execution Discrete Solution
-
 Functional Block
 
 Entities
@@ -2237,7 +1522,8 @@ data retention on the on-line DB required by the customer processes.
 The other settings of the Maintenance Configuration (such as archiving frequency or cleaning frequency)
 must be configured according to customer requirements.
 
-5.9 Deploying the Opcenter Execution Discrete Solution
+### Deploying the Opcenter Execution Discrete Solution
+
 To build a deployment package and deploy it on the host:
 1. From Windows Apps, in the Opcenter Execution Foundation category, click the Solution Studio link.
 2. In the web page, log in to the Opcenter EX FN Solution Studio in either of the following ways:
@@ -2258,16 +1544,6 @@ Deploy to deploy the current Solution
 Update Database, to update the database.
 8. If you have an Oracle database, log into its management console with a user with administrative rights and
 execute the script U4DM_MS_Post_Equipment_MigrationOracle.sql found in the %ProgramData%
-
-38
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 39
-
-How to Configure Opcenter Execution Discrete
-Deploying Low Code UI Apps
 
 \Siemens\SimaticIT\Unified\Deploy\Migration\MasterData\Oracle\Post folder.
 This script must not be executed when updating from a previous version.
@@ -2290,7 +1566,8 @@ performance by minifying the resources of the deployed solution.
 For more information, see section How to Configure Solution Studio Settings in the Opcenter Execution Foundation
 Development and Configuration Guide.
 
-5.10 Deploying Low Code UI Apps
+### Deploying Low Code UI Apps
+
 Solution Studio includes an environment that allows you to configure Low Code UI Applications powered by
 Mendix, based on a Deployment Package (.mda), to fulfill specific manufacturing needs.
 Keep in mind that all prerequisites listed in page Prerequisites for Opcenter Execution Foundation Host of the
@@ -2303,16 +1580,6 @@ Apps, which must necessarily be installed. The sole exceptions are the Opcenter 
 System Administrator apps.
 In addition, all of the engineering Low Code UI Apps use the references of Opcenter Execution Foundation and
 Opcenter Execution Discrete Apps.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-39
-
-
-## Pagina 40
-
-How to Configure Opcenter Execution Discrete
-Deploying Low Code UI Apps
 
 Low Code UI App
 
@@ -2400,16 +1667,6 @@ Runtime
 • OnePieceFlow
 • U4DM
 
-40
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 41
-
-How to Configure Opcenter Execution Discrete
-Deploying Low Code UI Apps
-
 Low Code UI App
 
 Reading Model App
@@ -2494,16 +1751,6 @@ the Low Code UI App.
 
 Procedure
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-41
-
-
-## Pagina 42
-
-How to Configure Opcenter Execution Discrete
-Deploying Low Code UI Apps
-
 1. In Solution Studio, in the Low Code UI Applications page, add the Low Code UI App of interest. For more
 details, see chapter Configuring Low Code UI Applications powered by Mendix of the Opcenter Execution
 Foundation Development and Configuration Guide.
@@ -2557,14 +1804,6 @@ after this table.
 RMI_.
 • Opcenter_EXDS_OTReadingModel.sql:
 creates external views with prefix RM_.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 43
-
-How to Configure Opcenter Execution Discrete
-Deploying Low Code UI Apps
 
 Low Code UI App
 
@@ -2629,16 +1868,6 @@ re-apply the changes you made at a later time. If you prefer not to re-create th
 not to run this script and manually upgrade the views with the additional fields provided in the new
 version.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-43
-
-
-## Pagina 44
-
-How to Configure Opcenter Execution Discrete
-Indexing the System Databases
-
 For a complete list of the modifications made to the external RM_ views, see section Updates for
 Reading Model Views for the Low Code UI Appof interest in theOpcenter EX DS Low Code UI
 Personalization Guide.
@@ -2655,7 +1884,8 @@ Teamcenter) At the end of the deploy process, perform a log-out. You can then ac
 through the required URL, following the procedures explained in page Accessing the UI Application/Low Code UI
 Application of the Opcenter Execution Foundation Development and Configuration Guide.
 
-5.11 Indexing the System Databases
+### Indexing the System Databases
+
 After deploying the Opcenter Execution Discrete solution, it is strongly recommended that you perform the indexing
 of its databases. Two different sets of scripts must be executed, depending on the database type (SQL Server or
 Oracle).
@@ -2684,16 +1914,6 @@ WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF,
 DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON,
 FILLFACTOR = 80) ON [PRIMARY]
 GO
-
-44
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 45
-
-How to Configure Opcenter Execution Discrete
-Indexing the System Databases
 
 CREATE NONCLUSTERED INDEX [IDX_WorkProcess_Siemen_1784161351_IsDel_Discr_Status_Id]
 ON [dbo].[WorkProcess_Siemen_1784161351]
@@ -2746,16 +1966,6 @@ WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF,
 DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON,
 FILLFACTOR = 80) ON [PRIMARY]
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-45
-
-
-## Pagina 46
-
-How to Configure Opcenter Execution Discrete
-Indexing the System Databases
-
 GO
 CREATE NONCLUSTERED INDEX IDX_ToBeProducedMaterial_29183906_IsDel_Discr_WoosId
 ON [dbo].[ToBeProducedMaterial_29183906]
@@ -2806,16 +2016,6 @@ IDX_ActualProducedMate_2051014940_IsDel_Discr_WosId_CQty_DmMtuId ON [dbo].
 [WorkOrderStep_Id] ASC,
 [CompletedQuantity] DESC
 
-46
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 47
-
-How to Configure Opcenter Execution Discrete
-Indexing the System Databases
-
 )
 INCLUDE ([DM_MaterialTrackingUnit_Id])
 WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF,
@@ -2862,16 +2062,6 @@ CREATE NONCLUSTERED INDEX IDX_ToBeUsedMachine_Sie_107405297_IsDelMachine ON [dbo
 [IsDeleted],
 [Machine]
 )
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-47
-
-
-## Pagina 48
-
-How to Configure Opcenter Execution Discrete
-Indexing the System Databases
 
 WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF,
 DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON,
@@ -2923,16 +2113,6 @@ CREATE NONCLUSTERED INDEX [IDX_ToBeUsedMachine_IsDelDiscrMachine_IdWooId] ON [db
 [Machine]
 )
 
-48
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 49
-
-How to Configure Opcenter Execution Discrete
-Indexing the System Databases
-
 INCLUDE ([Id],[WorkOrderOperation_Id])
 WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF,
 DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON,
@@ -2981,16 +2161,6 @@ CREATE NONCLUSTERED INDEX [IDX_P2OpLink_IsDelDiscr_IdChildOpId] ON [dbo].
 )
 INCLUDE ([Id],[ChildOperation_Id])
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-49
-
-
-## Pagina 50
-
-How to Configure Opcenter Execution Discrete
-Indexing the System Databases
-
 WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF,
 DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON,
 FILLFACTOR = 80) ON [PRIMARY]
@@ -3036,16 +2206,6 @@ CREATE INDEX "__SCHEMA__"."IDX_WorkOrderOperation_1431095118_Id_IsDel_Discr" ON
 )
 PARALLEL __NUMBER_OF_CPUs__ NOLOGGING PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE
 STATISTICS TABLESPACE "__TABLE_SPACE__";
-
-50
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 51
-
-How to Configure Opcenter Execution Discrete
-Indexing the System Databases
 
 CREATE INDEX "__SCHEMA__"."IDX_WorkOrderOperation_1431095118_IsDel_Discr_Stat_WoId_N
 Id" ON "__SCHEMA__"."WorkOrderOperation_1431095118"
@@ -3098,16 +2258,6 @@ ON "__SCHEMA__"."ToBeProducedMaterial_29183906"
 (
 "IsDeleted" ASC,
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-51
-
-
-## Pagina 52
-
-How to Configure Opcenter Execution Discrete
-Indexing the System Databases
-
 "Discriminator" ASC,
 "WorkOrderOperation_Id" ASC,
 "Quantity" DESC,
@@ -3156,16 +2306,6 @@ CREATE INDEX "__SCHEMA__"."IDX_ToBeUsedMachine_Sie_107405297_IsDelMachine" ON
 PARALLEL __NUMBER_OF_CPUs__ NOLOGGING PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE
 STATISTICS TABLESPACE "__TABLE_SPACE__";
 
-52
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 53
-
-How to Configure Opcenter Execution Discrete
-Configuring the Documentation Center
-
 CREATE INDEX "__SCHEMA__"."IDX_ToBeProducedMaterial_29183906_IsDel_WosId_Id_Qty_WooId
 _DmMtuId"
 ON "__SCHEMA__"."ToBeProducedMaterial_29183906"
@@ -3180,7 +2320,8 @@ ON "__SCHEMA__"."ToBeProducedMaterial_29183906"
 PARALLEL __NUMBER_OF_CPUs__ NOLOGGING PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE
 STATISTICS TABLESPACE "__TABLE_SPACE__";
 
-5.12 Configuring the Documentation Center
+### Configuring the Documentation Center
+
 When installing and configuring Opcenter EX DS, you can configure the Documentation Center to access user
 documentation from a web-based application. The Documentation Center must be populated by loading
 documentation packages.
@@ -3210,17 +2351,8 @@ that only those addressed to a specific user type remain therein).
 For more information, see section Configuring the Documentation Center of the Opcenter Execution Foundation
 Installation Guide.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
+### Configuring the Production Resolution Common Component
 
-53
-
-
-## Pagina 54
-
-How to Configure Opcenter Execution Discrete
-Configuring the Production Resolution Common Component
-
-5.13 Configuring the Production Resolution Common Component
 The Production Resolution Common Component is able to solve complex data structures and filter data by a set of
 customized rules. It allows you to use the Qualification Criteria functionality to its full advantage, so that it is
 possible to apply certain rules during the Work Order creation and use only the necessary operations.
@@ -3239,7 +2371,8 @@ Procedure
 3. Right click Advanced Settings and set the .NET CLR Version parameter to No Managed Code.
 4. Click OK.
 
-5.14 How to Configure the PLMX-Viewer
+### How to Configure the PLMX-Viewer
+
 The PLMX-Viewer is a component that is used when there is integration with Teamcenter Manufacturing: its purpose
 is to create a tridimensional (3D) rendering from a plmx file that can be subsequently displayed. In Opcenter
 Execution Discrete, when a plmx file is attached as a Document to a business entity (for example, to a Work Order
@@ -3253,7 +2386,8 @@ Available Procedures
 • Configuring the PLMX-Viewer in a Stand-alone Scenario
 • Configuring the PLMX-Viewer in a Distributed Scenario
 
-5.14.1 Configuring the PLMX-Viewer in a Stand-alone Scenario
+#### Configuring the PLMX-Viewer in a Stand-alone Scenario
+
 In a Stand-alone scenario, you will need to configure the PLMX-Viewer on the Opcenter Execution Foundation host.
 
 Prerequisite
@@ -3261,16 +2395,6 @@ It is necessary that you possess a valid PLMVisWeb license.
 
 Procedure
 1. Import the PLMVisWeb license to your Opcenter License Server.
-
-54
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 55
-
-How to Configure Opcenter Execution Discrete
-How to Configure the PLMX-Viewer
 
 2. On the runtime host where you will install the PLMX-Viewer, create the following system environment variable:
 PLMVISWEB_LICENSE_SERVER = 28000@machinename
@@ -3374,16 +2498,6 @@ Service cache folder.
 
 1000 MB
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-55
-
-
-## Pagina 56
-
-How to Configure Opcenter Execution Discrete
-How to Configure the PLMX-Viewer
-
 Position
 
 Parameter Name
@@ -3411,7 +2525,8 @@ HTTPS Certificates
 If you have configured Opcenter EX FN in HTTPS, it is necessary that you install the Certificate
 under Trusted Roots of the Opcenter EX FN Host. This is required when the Certificate is self-signed.
 
-5.14.2 Configuring the PLMX-Viewer in a Distributed Scenario
+#### Configuring the PLMX-Viewer in a Distributed Scenario
+
 For Distributed scenarios in which there coexist multiple hosts, you will need to configure the PLMX-Viewer on only
 one Opcenter EX FN host.
 In addition, you must configure the load balancer (for example, ARR) so that the PLMX calls can be routed to the
@@ -3438,16 +2553,6 @@ Batch file Register_Plmx_And_License_Service.bat allows you to pass input parame
 parameters are not passed, default values will be assigned.
 Instead of passing the parameters to the batch file, you can also make a copy of batch file
 Register_Plmx_And_License_Service.bat and modify the default values: in this case, your batch file
-
-56
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 57
-
-How to Configure Opcenter Execution Discrete
-How to Configure the PLMX-Viewer
 
 is customized for your scenario.
 In order to modify a parameter, you must specify all those preceding the parameter you want to
@@ -3558,16 +2663,6 @@ If you have configured Opcenter EX FN in HTTPS and the PLMX-Viewer has been conf
 is necessary that you install the Certificate for Host1 under Trusted Roots of all the Opcenter EX FN
 Hosts, including Host1. This is required when the Certificate is self-signed.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-57
-
-
-## Pagina 58
-
-How to Configure Opcenter Execution Discrete
-How to Configure the PLMX-Viewer
-
 7. Configure the load balancer to route PLMX calls to the Opcenter EX FN host on which the PLMX-Viewer has been
 configured. See the example below for insight in merit.
 
@@ -3585,17 +2680,8 @@ Node1 machine.
 Type.
 3. Enter ^plmx(.*) in Pattern.
 
-58
+## Integration with Other Systems
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 59
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter APS
-
-6 Integration with Other Systems
 Opcenter Execution Discrete offers the following possibilities of integration with other systems, which can be used
 either separately or in combination with one another:
 • Integration with Siemens Opcenter APS
@@ -3607,7 +2693,8 @@ either separately or in combination with one another:
 • Integration with Teamcenter Easy Plan
 • Integration with Opcenter Intraplant Logistics (Opcenter IPL)
 
-6.1 How to Integrate Opcenter Execution Discrete with Opcenter APS
+### How to Integrate Opcenter Execution Discrete with Opcenter APS
+
 Integration with Opcenter APS, the Siemens solution for Advanced Planning and Scheduling, allows you to close the
 gap between planning/scheduling and execution.
 Thanks to the exchange of information between Opcenter Execution Discrete and Opcenter APS regarding orders,
@@ -3639,16 +2726,6 @@ Workflow
 Integrating Opcenter EX DS with Opcenter APS involves performing the following steps:
 1. Install the Opcenter APS configuration package.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-59
-
-
-## Pagina 60
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter APS
-
 2. Generate and validate a security certificate for the APS role.
 3. Enable integration with Opcenter APS in the Opcenter Execution Discrete environment.
 4. Enable integration with Opcenter Execution Discrete in the Opcenter APS environment.
@@ -3656,7 +2733,8 @@ In case of Multiplant scenario, perform above mentioned Workflow steps for each 
 information on Multiplant, see the Multiplant Management chapter in Opcenter Execution
 Foundation Installation Guide.
 
-6.1.1 Installing the Opcenter APS Configuration Package
+#### Installing the Opcenter APS Configuration Package
+
 To install the Opcenter APS configuration package, you must perform the following procedure. For more
 information, refer to Opcenter APS documentation.
 
@@ -3682,8 +2760,8 @@ In case of Multiplant scenario, configuration package needs to be created for ea
 Therefore, perform above mentioned Procedure for each plant. For more information on Multiplant, see
 the Multiplant Management chapter in Opcenter Execution Foundation Installation Guide.
 
-6.1.2 Enabling Integration with Opcenter APS in the Opcenter Execution
-Discrete Environment
+#### Enabling Integration with Opcenter APS in the Opcenter Execution Discrete Environment
+
 1. Access Opcenter EX DS web user interface. Refer to Opcenter Execution Discrete User Manual for details.
 2. Click
 System Configuration > Configuration Keys in the sidebar.
@@ -3693,24 +2771,14 @@ System Configuration > Configuration Keys in the sidebar.
 the maximum allowed delta between the estimated start time and the actual start time (and the estimated end
 time and the actual end time) of a Work Order Operation. If this percentage is exceeded, this value is considered
 
-60
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 61
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter APS
-
 significant and Opcenter APS will receive a dedicated alert in merit. You can take this into account for your
 calculations, if desired.
 6. Click Save.
 Additional configuration keys are provided in the same page to further customize the behavior in an
 integrated scenario.
 
-6.1.3 Enabling Integration with Opcenter Execution Discrete in the
-Opcenter APS Environment
+#### Enabling Integration with Opcenter Execution Discrete in the Opcenter APS Environment
+
 To enable integration with Opcenter Execution Discrete in the Opcenter APS environment:
 1. On the Opcenter APS machine, browse to the path mentioned at step 4 of the Opcenter APS Configuration
 Package installation procedure and double-click the Opcenter EX DS Integration.prcdf file.
@@ -3750,23 +2818,14 @@ Certificate
 
 The name of the security certificate you have generated and validated.
 
-6.1.3.1 Using Alerts Window
+##### Using Alerts Window
+
 The Alert functionality is based on the polling performed by Opcenter APS on the Opcenter EX DS APSAlert entity
 that collects information on the following deviations of runtime activities from planned activities:
 • DeviationActualResource; when a Work Order Operation or Execution Group Phase is started on a different
 machine.
 • DeviationActualStartTime, when a Work Order Operation or Execution Group Phase starts either earlier or
 later than scheduled.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-61
-
-
-## Pagina 62
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter APS
 
 • DeviationActualEndTime, when a Work Order Operation or Execution Group Phase ends either earlier or later
 than scheduled.
@@ -3786,20 +2845,10 @@ Procedure
 4. The system refreshes the data in the Alerts Window automatically at configurable time intervals (previously set,
 when you have enabled the Alerts Window). If you want to refresh data manually, select the Alerts Window and
 
-62
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 63
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Teamcenter Manufacturing
-
 click View menu > Refresh Alerts.
 
-6.2 How to Integrate Opcenter Execution Discrete with Teamcenter
-Manufacturing
+### How to Integrate Opcenter Execution Discrete with Teamcenter Manufacturing
+
 Opcenter Execution Discrete can be integrated with Teamcenter Manufacturing (TCM), the Siemens solution for
 defining, structuring and planning your production processes, via Opcenter Connect Teamcenter.
 This foresees setting up the Siemens product-to-production platform among Opcenter Execution Discrete,
@@ -3824,18 +2873,8 @@ provided in the Opcenter Connect Teamcenter Installation Guide.
 3. Set CLM Integration configuration keys as described in section CLM Integration Configuration Settings of the
 Opcenter Execution Discrete User Manual.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
+### How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
-63
-
-
-## Pagina 64
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
-6.3 How to Integrate Opcenter Execution Discrete with Opcenter
-Connect MOM
 Opcenter Execution Discrete releases an integration scenario configuration that after being imported into Opcenter
 Connect MOM enables the integration between the two products.
 After importing the released integration scenario configuration, you will be able to:
@@ -3876,16 +2915,6 @@ systems communicate. More specifically, the released scenario focuses on the Fil
 trigger a business logic provided by Opcenter Execution Discrete. Nothing prevents you from using other Adapters
 as foreseen by Opcenter CN MOM.
 Follow these configuration steps to import the configuration:
-
-64
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 65
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 1. Import the Integration Scenario configuration.
 2. Finalize the Imported Configuration.
@@ -3947,16 +2976,6 @@ default plant.
 If you want to use the Direct Dispatch functionality, only one plant can be
 addressed as the MOM Connection is overwritten in the Message Type itself.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-65
-
-
-## Pagina 66
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Use Case
 
 Inbou
@@ -3984,7 +3003,8 @@ UADM_Plant MOM Connection that has the address with the plant in it, for example
 the plant, since it is the workflow that retrieves the Plant from the message and addresses the correct plant in
 the command call. In this case, the address could be: http://myEXDSServer/sit-svc.
 
-6.3.1 Importing the Integration Scenario Configuration
+#### Importing the Integration Scenario Configuration
+
 Opcenter Execution Discrete set includes preconfigured integration scenarios to be imported into Opcenter
 Connect MOM to enable the integration between the two products.
 
@@ -3998,7 +3018,8 @@ Procedure
 5. Click the Import Data button.
 6. Close the Import Data dialog box.
 
-6.3.2 How to Finalize the Imported Configuration
+#### How to Finalize the Imported Configuration
+
 After importing the integration scenario configuration, it is necessary to set some parameters specific for each
 project.
 In particular, you must set parameters related to:
@@ -4014,16 +3035,6 @@ operations on your machine:
 • For Input Messages, create the following folders:
 • C:\OpcenterEXDSInputMessage\inbound
 
-66
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 67
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 • C:\OpcenterEXDSInputMessage\outbound
 • For Import Data Flows, create the following folders:
 • C:\OpcenterEXDSImport\inbound
@@ -4035,7 +3046,8 @@ Available Operations
 • Configuring the MOM Connection
 • Configuring the File Adapters.
 
-6.3.2.1 Configuring the MOM Connection
+##### Configuring the MOM Connection
+
 The MOM Connection properly establishes the communication between Opcenter EX DS and the Opcenter Connect
 MOM Web Application.
 
@@ -4066,7 +3078,6 @@ Name
 Type the name of an Opcenter EX DS user associated to the ShopFloorDevice user role.
 
 Passwor
-d
 
 Type the password associated to the Opcenter EX DS user.
 
@@ -4086,17 +3097,8 @@ plant, along with its dedicated MOM Connection for each respective plant.
 In the plant-specific MOM Connections, the address should include the plant information, for example:
 http://myexdsserver/sit-svc/Plant1.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
+##### Configuring the File Adapters
 
-67
-
-
-## Pagina 68
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
-6.3.2.2 Configuring the File Adapters
 The File Adapters contain predefined settings for folders for inbound and outbound messages and must be
 configured to enable automatic data exchange.
 Depending on the functionality you intend to use, the related File Adapter must be configured accordingly:
@@ -4164,16 +3166,6 @@ Configuring the File Adapter for automatic Data Import (JSON File)
 1. In the Opcenter Connect MOM Web Application, click the Adapter Configuration tile.
 2. Click the File tab.
 
-68
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 69
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 3. Select the opcenterexdsimportfileadapterJson File Adapter.
 4. Select File Adapter Configuration and click
 5. Set the following parameters:
@@ -4233,7 +3225,8 @@ MOM Connections, the address should include the plant information, for example: 
 myexdsserver/sit-svc/Plant1.
 • The File Adapter for each plant should have dedicated inbound and outbound folders.
 
-6.3.3 How to Exchange Messages with the Shop Floor
+#### How to Exchange Messages with the Shop Floor
+
 Thanks to the Opcenter Connect MOM integration scenario configuration included in the Opcenter Execution
 Discrete setup, messages can be exchanged between the MES layer and the Shop Floor to automate certain
 activities. In detail:
@@ -4241,16 +3234,6 @@ activities. In detail:
 Production Type.
 • Work Order notes can be added automatically from Machines or Workcenters to all Work Order Operations
 making up the Work Order that is currently being executed.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-69
-
-
-## Pagina 70
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 • Machines or Workcenters can automatically create and resolve Quality Non-Conformances on Work Order
 Operations, Material Tracking Units and Machines.
@@ -4266,7 +3249,8 @@ also possible to configure them to use the Direct Dispatch functionality, in ord
 from the Adapter to Opcenter Execution Discrete. For details, see: How to Configure Direct Dispatch for
 Messages Exchanged with the Shop Floor.
 
-6.3.3.1 Work Order Operation Start
+##### Work Order Operation Start
+
 This use case allows you to trigger the automatic start of Work Order Operations by Machines or Workcenters.
 The start will be successfully executed if no other Work Order Operations (of the same type) are queued on the
 same Machine.
@@ -4291,16 +3275,6 @@ Export File
 </WOO_START>
 
 Here is the XSD that describes and validates the Automatic Work Order Operation Start XML message:
-
-70
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 71
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 XSD
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="
@@ -4350,25 +3324,14 @@ ory
 The Actual Start Time of the Work Order Operation.
 
 Optiona
-l
 
 The timestamp must respect the UTC format: for example, yyyy-MMddThh:mm:ssZ.
 <CATEGORY>
 
 The Category of the Work Order Operation that is started.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
 Mandat
 ory
-
-71
-
-
-## Pagina 72
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Tag
 
@@ -4398,7 +3361,8 @@ type Dynamic, if the Work Order is not yet frozen, the Automatic Start
 automatically updates the Batch quantity according to the quantity you set in the
 XML file, if different from the Planned Target Quantity.
 
-6.3.3.2 Work Order Operation Completion
+##### Work Order Operation Completion
+
 The use case allows you to trigger the automatic completion of Work Order Operations by Machines or Workcenters.
 The completion of the Work Order Operation will be traced as performed by "" (blank space indicating "no user").
 The Work Order Operation NId must not be explicitly specified because it is retrieved on the basis of the Work Order
@@ -4421,16 +3385,6 @@ Export File
 </WOO_COMPLETE>
 
 Here is the XSD that describes and validates the Automatic Complete XML message:
-
-72
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 73
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 XSD
 <?xml version="1.0" encoding="UTF-8"?>
@@ -4464,16 +3418,6 @@ onal" />
 The <WOO_COMPLETE> tag specifies that the scope of the document is to define an Automatic
 Complete message.
 The attributes of an Automatic Complete are specified by the following tags:
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-73
-
-
-## Pagina 74
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Tag
 
@@ -4536,21 +3480,12 @@ result (outcome) of the Batch or SerialNumber that is
 completed with the current action. Custom results are
 acceptable.
 
-6.3.3.3 Work Order Note Creation
+##### Work Order Note Creation
+
 The use case allows you to trigger the automatic creation of a Work Order note by Machines or Workcenters on all
 the Work Order Operations making up the Work Order that is currently being executed: this can be done at runtime.
 The creation of the Work Order note will be traced as performed by "" (blank space indicating "no user").
 The use case is driven by a message exchange between Opcenter CN MOM and Opcenter EX DS.
-
-74
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 75
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 The exchanged message is an XML file.
 Once you have imported the integration scenario configuration and properly configured the MOM Connection, you
@@ -4598,16 +3533,6 @@ Work Order Note Creation.
 
 Mandatory
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-75
-
-
-## Pagina 76
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Tag
 
 Description
@@ -4638,7 +3563,8 @@ created.
 
 Mandatory
 
-6.3.3.4 Quality Non-Conformance Creation on Work Order Operations
+##### Quality Non-Conformance Creation on Work Order Operations
+
 The use case allows you to trigger the automatic creation of a Non-Conformance of type Quality on Work Order
 Operations by Machines or Workcenters.
 The creation of the Non-Conformance will be traced as performed by "" (blank space indicating "no user").
@@ -4664,16 +3590,6 @@ Export File
 <SEVERITY>High</SEVERITY>
 <NOTE>Notes</NOTE>
 </OPEN_NC_ON_WOO>
-
-76
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 77
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Here is the XSD that describes and validates an Automatic creation of Non-Conformance on Work Order
 Operation:
@@ -4741,16 +3657,6 @@ The Severity of the Non-Conformance.
 
 Optional
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-77
-
-
-## Pagina 78
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Tag
 
 Description
@@ -4764,7 +3670,8 @@ Notes associated to the Non-Conformance.
 
 Optional
 
-6.3.3.5 Quality Non-Conformance Creation on Material Tracking Units
+##### Quality Non-Conformance Creation on Material Tracking Units
+
 The use case allows you to trigger the automatic creation of a Quality Non-Conformance on Material Tracking Units
 by Machines or Workcenters.
 The creation of the Non-Conformance will be traced as performed by "" (blank space indicating "no user").
@@ -4796,16 +3703,6 @@ Export File
 
 Here is the XSD that describes and validates the Automatic Creation of Non-Conformance on Material Tracking
 Units XML message:
-
-78
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 79
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 XSD
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="
@@ -4865,17 +3762,7 @@ The timestamp must respect the UTC format: for example, yyyyMM-ddThh:mm:ssZ.
 The Operation/Step Category of the Work Order Operation to
 which the Non-Conformance is optionally associated.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
 Optional
-
-79
-
-
-## Pagina 80
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Tag
 
@@ -4910,7 +3797,8 @@ Notes associated to the Non-Conformance.
 
 Optional
 
-6.3.3.6 Quality Non-Conformance Creation on Machines
+##### Quality Non-Conformance Creation on Machines
+
 The use case allows you to trigger the automatic creation of a Non-Conformance of type Quality on Machines by
 Machines or Workcenters.
 The creation of the Non-Conformance will be traced as performed by "" (blank space indicating "no user").
@@ -4935,16 +3823,6 @@ Export File
 <SEVERITY>High</SEVERITY>
 <NOTE>Notes</NOTE>
 </OPEN_NC_ON_EQUIPMENT>
-
-80
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 81
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Here is the XSD that describes and validates the Automatic Creation of Non-Conformance on Machine XML
 message:
@@ -5008,17 +3886,8 @@ Notes associated to the Non-Conformance.
 
 Optional
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
+##### Quality Non-Conformance Sentencing
 
-81
-
-
-## Pagina 82
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
-6.3.3.7 Quality Non-Conformance Sentencing
 The use case allows you to trigger the automatic sentencing of a Quality Non-Conformance by Machines or
 Workcenters.
 Automatic sentencing can be performed on both total and partial quantities: however, just as for manual
@@ -5059,16 +3928,6 @@ http://www.w3.org/2001/XMLSchema">
 />
 <xs:element type="xs:int" name="QTY" maxOccurs="1" minOccurs="0"/>
 <xs:element name="PRODUCT" maxOccurs="unbounded" minOccurs="0">
-
-82
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 83
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <xs:complexType>
 <xs:simpleContent>
@@ -5137,20 +3996,11 @@ Automatic Sentencing takes place.
 
 Optional
 
-6.3.3.8 Material Consumption
+##### Material Consumption
+
 The use case allows you to trigger the automatic consumption of Materials by Machines or Workcenters for Work
 Order Operations and for Work Order Steps.
 As the consumption of Materials will be done by Machines automatically, no user entries are traced.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-83
-
-
-## Pagina 84
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 The Work Order Operation NId must not be explicitly specified because it is retrieved on the basis of the Work Order
 Operation type and the involved machine.
@@ -5195,16 +4045,6 @@ http://www.w3.org/2001/XMLSchema">
 <xs:element type="xs:string" name="EQUIPMENT_NAME" maxOccurs="1" minOccurs="1
 "/>
 <xs:element type="xs:string" name="CATEGORY" maxOccurs="1" minOccurs="1"/>
-
-84
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 85
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <xs:element type="xs:dateTime" name="TIMESTAMP" maxOccurs="1" minOccurs="0"/>
 <xs:element name="PRODUCT" maxOccurs="unbounded" minOccurs="1" >
@@ -5263,7 +4103,6 @@ ory
 Defines the time when the automatic consumption of the Material began.
 
 Optiona
-l
 
 The timestamp must respect the UTC format, for example: yyyy-MMddThh:mm:ssZ.
 <PRODUCT>
@@ -5277,16 +4116,6 @@ ory
 
 ID: this attribute defines BatchId or SerialNumberCode of the Material Tracking
 Unit on which the Automatic Material Consumption takes place.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-85
-
-
-## Pagina 86
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Tag
 
@@ -5312,7 +4141,8 @@ assembled/consumed.
 current action.
 • LOGICALPOS: Logical Position of the Material to be assembled/consumed.
 
-6.3.3.9 Tool Usage
+##### Tool Usage
+
 The use case allows you to trigger the automatic usage of Tools by Machines or Workcenters.
 The usage of Tools will be traced as performed by "" (blank space indicating "no user").
 The Work Order Operation NId must not be explicitly specified because it is retrieved on the basis of the Work Order
@@ -5335,16 +4165,6 @@ Export File
 </USE_TOOL>
 
 Here is the XSD that describes and validates the Automatic Tool Usage XML message:
-
-86
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 87
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 XSD
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="
@@ -5406,16 +4226,6 @@ completed.
 Mandat
 ory
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-87
-
-
-## Pagina 88
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Tag
 
 Description
@@ -5428,7 +4238,6 @@ nce
 Defines the Actual End Time of the Work Order Operation.
 
 Optiona
-l
 
 The timestamp must respect the UTC format, for example: yyyy-MMddThh:mm:ssZ.
 <PRODUCT>
@@ -5454,7 +4263,8 @@ ory
 • TIMESTOBEUSED: Number of times a Tool can be used.
 • USAGEDURATION: duration for which a Tool can be used.
 
-6.3.3.10 Data Collection
+##### Data Collection
+
 The use case allows you to trigger the automatic collection of data by Machines or Workcenters.
 The Work Order Operation NId must not be explicitly specified because it is retrieved on the basis of the Work Order
 Operation type and the involved machine.
@@ -5476,16 +4286,6 @@ Export File
 </DCD_ACQUIRE>
 
 Here is the XSD that describes and validates the Automatic Collect Data XML message:
-
-88
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 89
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 XSD
 xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
@@ -5546,16 +4346,6 @@ triggered the Automatic Collect Data.
 Mandat
 ory
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-89
-
-
-## Pagina 90
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Tag
 
 Description
@@ -5586,7 +4376,8 @@ ory
 used to perform the binding with the Data Collection field.
 • VALUE: value of the parameter that will be automatically collected.
 
-6.3.3.11 Quality Inspection Data Acquisition
+##### Quality Inspection Data Acquisition
+
 The use case allows you to trigger the automatic collection of quality inspection data by Machines or Workcenters.
 The Work Order Operation NId must not be explicitly specified because it is retrieved on the basis of the Work Order
 Operation type and the involved machine.
@@ -5608,16 +4399,6 @@ Export File
 <PRODUCT ID="SN_01" QTY="1"/>
 <PRODUCT ID="SN_02" QTY="2"/>
 <PARAMETER NAME="VarChar_01" VALUE="44"/>
-
-90
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 91
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <PARAMETER NAME="VarAttributive" VALUE="false" FAILURE= "Scratch"/>
 </QI_ACQUIRE>
@@ -5675,16 +4456,6 @@ Data Acquire.
 Mandat
 ory
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-91
-
-
-## Pagina 92
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Tag
 
 Description
@@ -5707,7 +4478,6 @@ Quality Inspection Data Acquire takes place. The related Material Tracking Units
 are described by the following attribute:
 
 Optiona
-l
 
 ID: this attribute defines BatchId or SerialNumberCode of the Material Tracking
 Unit on which the Automatic Quality Inspection Data Acquire takes place.
@@ -5726,7 +4496,8 @@ ory
 • VALUE: value of the parameter that will be automatically collected.
 • FAILURE: identifier of the Failure.
 
-6.3.3.12 Input Message related to Kanban Call
+##### Input Message related to Kanban Call
+
 The use case allows you to trigger messages from the warehouse to receive notifications on the status of a given
 Kanban call.
 The use case is driven by a message exchange between Opcenter CN MOM and Opcenter EX DS.
@@ -5744,16 +4515,6 @@ Export File
 TRANSMISSION_TIMESTAMP="5/3/2020 1:25:43 PM +00:00" />
 <MESSAGE_SENDER SENDER_ID="WHS_01" />
 </HEADER>
-
-92
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 93
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <KANBAN_CALL KANBANID="8da05c09-a558-44db-bae9-b7f9c6ea5333" PRIORITY="2"
 DELIVERED_QTY="22" DELIVERED_UOM="U" DELIVERY_POINT="LSP7" STATUS="Delivered"/>
@@ -5806,16 +4567,6 @@ equired" />
 The <MESSAGE> tag specifies that the scope of the message is to define an Input Message.
 The attributes of an Input Message are specified by the following tags:
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-93
-
-
-## Pagina 94
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Tag
 
 Description
@@ -5862,8 +4613,8 @@ will be delivered.
 • STATUS, the status of the Kanban Call (InProgress, Shipped,
 Delivered or Cancelled).
 
-6.3.3.13 How to Configure Direct Dispatch for Messages Exchanged with the
-Shop Floor
+##### How to Configure Direct Dispatch for Messages Exchanged with the Shop Floor
+
 Up to Opcenter Connect MOM 2304, the Direct Dispatch was implemented by changing the inbound Message Type
 and using EX FN as Direct Dispatch Type. This procedure is now deprecated. Here below the set of objects that must
 be created or changed in order to achieve the same result by adopting the Web API Client Adapter.
@@ -5880,16 +4631,6 @@ is, the Web API Client Adapter) is configured in the Message Type.
 For more information on how to configure the aforementioned objects, please refer to chapter Use Case Configuration for EX FN in the Opcenter Connect MOM User Guide.
 The Message flow that employs the Web API Client Adapter will be from the originally-used adapter (the out-of-thebox File Adapter) to the Web API Client adapter, which invokes Opcenter Execution Foundation and sends the
 
-94
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 95
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 response back to the original adapter. Here is an example of the message flow considering the File Adapter as
 provided out-of-the-box.
 
@@ -5897,7 +4638,8 @@ Given that the Opcenter Execution Foundation URL is stored in the Web API Client
 API Client Adapter to be used is already specified in the Message Type, it is not possible to address more
 than one plant at the same time.
 
-6.3.4 How to Automatically Import and Delete Data
+#### How to Automatically Import and Delete Data
+
 Instead of creating items one by one from Opcenter Execution Discrete UI Application, you can choose to
 automatically import data from external systems. This operation is driven by the exchange of properly formatted
 XML files or JSON files between Opcenter Connect MOM and Opcenter Execution Discrete.
@@ -5947,16 +4689,6 @@ Bills of Features
 • OnePieceFlow
 
 ImportPRC
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-95
-
-
-## Pagina 96
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Import Data Flow
 
@@ -6035,16 +4767,6 @@ data).
 of the Opcenter Connect MOM machine. They are used by Opcenter Connect MOM to verify if the XML file
 contains logical errors (e.g. missing values for mandatory attributes) and to split its content into two XML files,
 
-96
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 97
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 one containing the correct nodes that can be successfully imported, and one containing the wrong nodes that
 must be logged. If you want to use a custom data flow, create in the same folder the EntityName.xslt file.
 In the folder %SITUnifiedSystemRoot%VApps\UADM\MIOIntegration\Xslt, also the
@@ -6052,7 +4774,8 @@ MapFullWorkOrder.xslt file is available. It is used by Opcenter Connect MOM to p
 4. Copy the XML file in the proper folder set while defining the File Adapter.
 5. Verify that the configuration works properly.
 
-6.3.4.1 XML File for Materials
+##### XML File for Materials
+
 It is possible to automatically align the Materials contained in the Opcenter Execution Discrete database with those
 available in the External System. This operation can be performed through an XML file created according to the
 structure below.
@@ -6089,16 +4812,6 @@ plant. If the plant represents a Hierarchy (for example, PLT01.ENTERPRISE), then
 (PLT01) is taken as the plant to be used. Instead, if the Plant is used simply as a piece of Equipment (and not in a
 Multiplant scenario), the Message Type configuration must be modified by clicking the Message Types tab,
 selecting Message Attributes and removing the plantid attribute.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-97
-
-
-## Pagina 98
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 • All Materials to be imported into Opcenter Execution Discrete must be listed within the <Define> tag with the
 following attributes:
@@ -6148,16 +4861,6 @@ mode="error" />
 <xsl:copy-of select="ImportDataFlow/@*[string(.)]" />
 <Define>
 <xsl:for-each select="ImportDataFlow/Define">
-
-98
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 99
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <xsl:apply-templates select="Material[(@NId) and @NId!='' and
 (@Name) and @Name!='' and (((@MaterialGroup) and @MaterialGroup!='') or
@@ -6213,16 +4916,6 @@ mode="import" />
 <Material>
 <xsl:copy-of select="@*[string(.)]" />
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-99
-
-
-## Pagina 100
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <Error Id="12220">
 <Parameters>
 <Par key="Entity" value="Material"></Par>
@@ -6277,16 +4970,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 </xsl:template>
 <xsl:template match="ImportDataFlow/Define/Material" mode="import">
 
-100
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 101
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <xsl:copy-of select="." />
 </xsl:template>
 <!-- Remove -->
@@ -6308,7 +4991,8 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 </xsl:template>
 </xsl:stylesheet>
 
-6.3.4.2 XML File for Functional Codes
+##### XML File for Functional Codes
+
 It is possible to automatically align the Functional Codes contained in the Opcenter Execution Discrete database
 with those available in the External System. This operation can be performed through an XML file created according
 to the structure below.
@@ -6336,16 +5020,6 @@ Multiplant scenario), the Message Type configuration must be modified by clickin
 selecting Message Attributes and removing the plantid attribute.
 • All Functional Codes to be imported into Opcenter Execution Discretemust be listed within the <Define> tag
 with the following attributes:
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-101
-
-
-## Pagina 102
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 • NId
 • Name
@@ -6398,16 +5072,6 @@ not(@Name) or @Name='']"/>
 </ImportDataFlow>
 </Message>
 
-102
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 103
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 </CamstarCompoundMessage>
 </xsl:template>
 <xsl:template match="ImportDataFlow/Define/FunctionalCode">
@@ -6457,17 +5121,8 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 </xsl:template>
 </xsl:stylesheet>
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
+##### XML File for Suppliers
 
-103
-
-
-## Pagina 104
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
-6.3.4.3 XML File for Suppliers
 It is possible to automatically align the Suppliers contained in the Opcenter Execution Discrete database with those
 available in the External System. This operation can be performed through an XML file created according to the
 structure below.
@@ -6514,16 +5169,6 @@ The default content of the .xslt file is the following, but you can customize it
 <xsl:output method="xml" omit-xml-declaration="no" indent="yes" />
 <xsl:template match="/">
 <CamstarCompoundMessage>
-
-104
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 105
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <Message type="LogNotValidData">
 <ImportDataFlow>
@@ -6579,16 +5224,6 @@ and @Name!='']"/>
 <Parameters>
 <Par key="Entity" value="Supplier"></Par>
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-105
-
-
-## Pagina 106
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <Par key="Property" value="Name"></Par>
 </Parameters>
 </Error>
@@ -6617,7 +5252,8 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 </xsl:template>
 </xsl:stylesheet>
 
-6.3.4.4 XML File for Features Feature Values and Options
+##### XML File for Features Feature Values and Options
+
 It is possible to automatically align the Features, Feature Values and Options contained in the Opcenter Execution
 Discrete database with those available in the External System. This operation can be performed through an XML file
 created according to the structure below.
@@ -6637,16 +5273,6 @@ XS"/>
 lse">
 <FeatureValue NId="F020_001" Name="SHORT CR" Description="Short Body
 Closed Roof"/>
-
-106
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 107
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <FeatureValue NId="F020_002" Name="LONG CR" Description="Long Body Closed
 Roof"/>
@@ -6697,16 +5323,6 @@ The default content of the .xslt file is the following, but you can customize it
 <Define>
 <xsl:for-each select="ImportDataFlow/Define">
 <xsl:apply-templates select="Feature[not(@NId) or @NId='' or
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-107
-
-
-## Pagina 108
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 not(@Name) or @Name='' or
 (@IsOption='True' and
@@ -6762,16 +5378,6 @@ and count(FeatureValue[(@Name)]) = 0 and count(FeatureValue[@Name !=
 <xsl:when test="not(@NId) or @NId=''">
 <Feature>
 
-108
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 109
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <xsl:copy-of select="@*[string(.)]" />
 <Error Id="12210">
 <Parameters>
@@ -6826,16 +5432,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 <xsl:template match="ImportDataFlow/Remove/Feature">
 <xsl:if test="not(@NId) or @NId=''">
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-109
-
-
-## Pagina 110
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <Feature>
 <xsl:copy-of select="@*[string(.)]" />
 <Error Id="12210">
@@ -6852,7 +5448,8 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 </xsl:template>
 </xsl:stylesheet>
 
-6.3.4.5 XML File for Bills of Features
+##### XML File for Bills of Features
+
 It is possible to automatically align the Bills of Features contained in the Opcenter Execution Discrete database with
 those available in the External System. This operation can be performed through an XML file created according to
 the structure below.
@@ -6882,16 +5479,6 @@ FP_FAMILY="GXRY21LCRWML24DS18KBSC-4C92" >
 </LOF>
 </Define>
 </ImportDataFlow>
-
-110
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 111
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 • The <ImportDataFlow> tag specifies that the scope of the document is to define an Import message using the
 LOF (Bills of Features) data flow provided by the system, relative to a specific plant (PLT01) among those that
@@ -6943,16 +5530,6 @@ The default content of the .xslt file is the following, but you can customize it
 <!-- <xsl:call-template name="RemoveTemplateError" /> -->
 <xsl:apply-templates select="LOF[not(@FP_FAMILY) or
 @FP_FAMILY='']" />
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-111
-
-
-## Pagina 112
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 </xsl:for-each>
 </Remove>
@@ -7012,16 +5589,6 @@ count(Feature[@ValueNId = '']) = 0 and
 <xsl:copy-of select="@*[string(.)]" />
 <Error Id="12210">
 
-112
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 113
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <Parameters>
 <Par key="Entity" value="Feature Title" />
 <Par key="Property" value="Feature NId" />
@@ -7076,16 +5643,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 </xsl:for-each>
 </xsl:if>
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-113
-
-
-## Pagina 114
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 </xsl:template>
 <xsl:template match="ImportDataFlow/Define/LOF" mode="import">
 <xsl:copy-of select="." />
@@ -7111,7 +5668,8 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 </xsl:template>
 </xsl:stylesheet>
 
-6.3.4.6 XML File for Bills of Materials
+##### XML File for Bills of Materials
+
 It is possible to automatically align the Bills of Materials contained in the Opcenter Execution Discrete database
 with those available in the External System. This operation can be performed through an XML file created according
 to the structure below.
@@ -7135,16 +5693,6 @@ XML Structure
 <Material NId="ME-04241402500" Quantity="1" UoMNId="Unit"/>
 <Material NId="ME-30309955370" Quantity="1" UoMNId="Unit"/>
 <Material NId="ME-36309955370" Quantity="1" UoMNId="Unit"/>
-
-114
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 115
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 </BOM>
 </Define>
@@ -7193,16 +5741,6 @@ count(Material[not(@UoMNId)]) > 0 or count(Material[@UoMNId= '']) > 0]"
 mode="error" />
 </xsl:for-each>
 </Define>
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-115
-
-
-## Pagina 116
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <Remove>
 <xsl:for-each select="ImportDataFlow/Remove">
@@ -7258,16 +5796,6 @@ count(Material[not(@UoMNId)]) = 0 and count(Material[@UoMNId= '']) = 0]" mode="i
 <Par key="Property" value="Material.NId" />
 </Parameters>
 
-116
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 117
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 </Error>
 </BOM>
 </xsl:if>
@@ -7322,16 +5850,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 <xsl:when test="not(@FP_FAMILY) or @FP_FAMILY=''">
 <BOM>
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-117
-
-
-## Pagina 118
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <xsl:copy-of select="@*[string(.)]" />
 <Error Id="12210">
 <Parameters>
@@ -7348,7 +5866,8 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 </xsl:template>
 </xsl:stylesheet>
 
-6.3.4.7 XML File for ERP Orders
+##### XML File for ERP Orders
+
 It is possible to automatically align the ERP Orders contained in the Opcenter Execution Discrete database with
 those available in the External System. This operation can be performed through an XML file created according to
 the structure below.
@@ -7375,16 +5894,6 @@ UoMNId="u"/>
 • The <ImportDataFlow> tag specifies that the scope of the document is to define an Import message using the
 ERPLIST (ERP Order List) data flow provided by the system, relative to a specific plant (PLT01) among those
 that have been configured and a Final Product Type (VHL).
-
-118
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 119
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 • In a Multiplant scenario, the Plant attribute is mandatory since it is used to route the message to the proper
 plant. If the plant represents a Hierarchy (for example, PLT01.ENTERPRISE), then only the first part of the string
@@ -7436,16 +5945,6 @@ The default content of the .xslt file is the following, but you can customize it
 (@MasterPlanNId)) ]"/>
 </xsl:for-each>
 </Define>
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-119
-
-
-## Pagina 120
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <Remove>
 <xsl:for-each select="ImportDataFlow/Remove">
@@ -7501,16 +6000,6 @@ and @FinalMaterial!='')) and ((@CustomerTypeNId) and @CustomerTypeNId!='') and
 <xsl:when test="((not(@FP_FAMILY) or @FP_FAMILY='') and (not(@FinalMaterial) or
 @FinalMaterial=''))">
 
-120
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 121
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <ERPOrder>
 <xsl:copy-of select="@*[string(.)]" />
 <Error Id="12210">
@@ -7565,16 +6054,6 @@ not((@BaselineUId) and (@MasterPlanNId))">
 <xsl:template match="ImportDataFlow/Remove/ERPOrder">
 <xsl:if test="not(@NId) or @NId=''">
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-121
-
-
-## Pagina 122
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <ERPOrder>
 <xsl:copy-of select="@*[string(.)]" />
 <Error Id="12210">
@@ -7591,7 +6070,8 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 </xsl:template>
 </xsl:stylesheet>
 
-6.3.4.8 XML File for Master Plans
+##### XML File for Master Plans
+
 It is possible to automatically align the Master Plans contained in the Opcenter Execution Discrete database with
 those available in the External System. This operation can be performed through an XML file created according to
 the structure below.
@@ -7620,16 +6100,6 @@ Category="Traceability">
 <WORKPLACES>
 <WORKPLACE NId="PL01.AR30.LN01.SG20.WP02R"/>
 </WORKPLACES>
-
-122
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 123
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <TRC_SPECS>
 <MAT_LIST>
@@ -7685,16 +6155,6 @@ CABLE" Category="Traceability">
 <TRC_SPECS>
 <FUNCCODE_LIST>
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-123
-
-
-## Pagina 124
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <FUNCCODE NId="FC07" Quantity="1" UoMNId="u"/>
 </FUNCCODE_LIST>
 </TRC_SPECS>
@@ -7748,16 +6208,6 @@ Category="Traceability">
 </FUNCCODE_LIST>
 </TRC_SPECS>
 </PROCESS_OP>
-
-124
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 125
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <PROCESS_OP NId="TRC_FC17" Name="TRACE STEERING WHEEL" Description="TRACE
 STEERING WHEEL" Category="Traceability">
@@ -7813,16 +6263,6 @@ CABLE" Category="Traceability">
 <PROCESS_OP NId="MPB_TR-003" Name="FRONT CABLES HOOKED" Description="FRONT
 CABLES HOOKED" Category="MandatoryPositiveConfirmation">
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-125
-
-
-## Pagina 126
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <WORKPLACES>
 <WORKPLACE NId="PL01.AR30.LN01.SG10.WP04R"/>
 <WORKPLACE NId="PL01.AR30.LN01.SG30.WP02L"/>
@@ -7876,16 +6316,6 @@ STEERING WHEEL" Category="Traceability">
 <WORKPLACES>
 <WORKPLACE NId="PL01.AR30.LN01.SG30.WP02R"/>
 </WORKPLACES>
-
-126
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 127
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <TRC_SPECS>
 <FUNCCODE_LIST>
@@ -7941,16 +6371,6 @@ CABLES HOOKED" Category="MandatoryPositiveConfirmation">
 </WORKPLACES>
 </PROCESS_OP>
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-127
-
-
-## Pagina 128
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <PROCESS_OP NId="MPB_TR-004" Name="REAR CABLES HOOKED" Description="REAR
 CABLES HOOKED" Category="MandatoryPositiveConfirmation">
 <WORKPLACES>
@@ -8004,16 +6424,6 @@ those that have been configured.
 plant. If the plant represents a Hierarchy (for example, PLT01.ENTERPRISE), then only the first part of the string
 (PLT01) is taken as the plant to be used. Instead, if the Plant is used simply as a piece of Equipment (and not in a
 
-128
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 129
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Multiplant scenario), the Message Type configuration must be modified by clicking the Message Types tab,
 selecting Message Attributes and removing the plantid attribute.
 • All Master Plans to be imported into Opcenter Execution Discrete must be listed within the <Define> tag with
@@ -8061,16 +6471,6 @@ count(PROCESS[PROCESS_OP[GDC_SPECS[GDC_DEFINITION[@NId = '']]]]) > 0 or
 count(PROCESS[PROCESS_OP[SCREWING_TOOL_DEFINITIONS[SCREWING_TOOL_DEFINITION[not(@NId)
 ]]]]) > 0 or
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-129
-
-
-## Pagina 130
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 count(PROCESS[PROCESS_OP[SCREWING_TOOL_DEFINITIONS[SCREWING_TOOL_DEFINITION[@NId =
 '']]]]) > 0 or
 count(PROCESS[PROCESS_OP[SCREWING_TOOL_DEFINITIONS[SCREWING_TOOL_DEFINITION[not(@Bolt
@@ -8109,16 +6509,6 @@ mode="error" />
 <xsl:apply-templates select="MASTER_PLAN[not(@NId) or @NId=''] " />
 </xsl:for-each>
 </Remove>
-
-130
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 131
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 </ImportDataFlow>
 </Message>
@@ -8159,16 +6549,6 @@ count(PROCESS[PROCESS_OP[SCREWING_TOOL_DEFINITIONS[SCREWING_TOOL_DEFINITION[not(
 orque)]]]]) = 0 and
 count(PROCESS[PROCESS_OP[SCREWING_TOOL_DEFINITIONS[SCREWING_TOOL_DEFINITION[@MinTorqu
 e = '']]]]) = 0 and
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-131
-
-
-## Pagina 132
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 count(PROCESS[PROCESS_OP[SCREWING_TOOL_DEFINITIONS[SCREWING_TOOL_DEFINITION[not(@MaxT
 orque)]]]]) = 0 and
@@ -8217,16 +6597,6 @@ mode="import" />
 <Error Id="12210">
 <Parameters>
 <Par key="Entity" value="PROCESS" />
-
-132
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 133
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <Par key="Property" value="PROCESS.NId" />
 </Parameters>
@@ -8282,16 +6652,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 </Parameters>
 </Error>
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-133
-
-
-## Pagina 134
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 </GDC_DEFINITION>
 </xsl:if>
 <xsl:if test="@NId and @NId!=''">
@@ -8345,16 +6705,6 @@ NITION.MinTorque" />
 </Parameters>
 </Error>
 </SCREWING_TOOL_DEFINITION>
-
-134
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 135
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 </xsl:when>
 <xsl:when test="not(@MaxTorque) or @MaxTorque=''">
@@ -8410,16 +6760,6 @@ NITION.MaxAngle" />
 <xsl:copy-of select="@*[string(.)]" />
 <xsl:for-each select="./OPEN_PROTOCOL_TOOL_DEFINITION">
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-135
-
-
-## Pagina 136
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <xsl:choose>
 <xsl:when test="not(@NId) or @NId=''">
 <OPEN_PROTOCOL_TOOL_DEFINITION>
@@ -8474,16 +6814,6 @@ _DEFINITION.Pset" />
 <!-- Remove -->
 <xsl:template match="ImportDataFlow/Remove/MASTER_PLAN">
 
-136
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 137
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <xsl:choose>
 <xsl:when test="not(@NId) or @NId=''">
 <MASTER_PLAN>
@@ -8503,7 +6833,8 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 </xsl:template>
 </xsl:stylesheet>
 
-6.3.4.9 XML File for Inspection Master Plans
+##### XML File for Inspection Master Plans
+
 It is possible to automatically align the Inspection Master Plans contained in the Opcenter Execution
 Discrete database with those available in the External System. This operation can be performed through an XML file
 created according to the structure below.
@@ -8533,16 +6864,6 @@ Description="Attributive Characteristic" Revision="A" UId="ATT_CHAR1" Name="ATT_
 </MFG_EQUIPMENT_LIST>
 </INS_DEF>
 </INS_OP>
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-137
-
-
-## Pagina 138
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <INS_OP NId="InsOp2" Name="Ins Op" Revision="A" Seq="32">
 <INS_DEF NId="InsDefn2" Name="TimeBasedFrequency Ins Defn" Revision="
@@ -8597,16 +6918,6 @@ Description="Attributive Characteristic" Revision="A" UId="ATT_CHAR21" Name="ATT
 <MFG_EQUIPMENT NId="Unit2"/>
 <MFG_EQUIPMENT NId="WC2"/>
 </MFG_EQUIPMENT_LIST>
-
-138
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 139
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 </INS_DEF>
 </INS_OP>
@@ -8672,16 +6983,6 @@ Revision
 Revision of the Inspection Master Plan.
 
 Mandatory
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-139
-
-
-## Pagina 140
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Attributes
 
@@ -8790,16 +7091,6 @@ Optional
 
 <REF_MATERIALS> Reference Materials
 
-140
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 141
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Attributes
 
 Description
@@ -8905,16 +7196,6 @@ they cannot be linked to Inspection Definitions.
 Similarly, Image Documents must pre-exist in the system, otherwise they cannot be linked to Quality
 Characteristics.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-141
-
-
-## Pagina 142
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 XSLT Transformation
 The Opcenter Connect MOM workflow uses the IMP.xslt file located at C:\Program
 Files\Siemens\SimaticIT\Unified\VApps\UADM\MIOIntegration\Xslt to verify if the XML file described above
@@ -8922,7 +7203,8 @@ contains logical errors (e.g. missing values for mandatory attributes) and to sp
 containing the correct nodes that can be successfully imported, and one containing the wrong nodes that must be
 logged.
 
-6.3.4.10 XML File for Work Orders
+##### XML File for Work Orders
+
 It is possible to automatically align the Work Orders contained in the Opcenter Execution Discrete database with
 those available in the External System. This operation can be performed through an XML file created according to
 the structure below.
@@ -8958,16 +7240,6 @@ WorkOrder>
 <WorkOrder UseMasterPlan="false" NId="Assembly_w10" ProductionType="FullSerialize
 d" Quantity="5" Product="Machined_Block" Status="ReadyForScheduling" ErpOrder=""
 Priority="" BillOfFeature="" BillOfMaterial="" BillFeatureRevision=""
-
-142
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 143
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 BillOfMaterialVersion="" DueDate="" EstimatedStartTime="2022-05-05T06:53:55Z"
 EstimatedEndTime="2022-05-05T06:53:55Z"></WorkOrder>
@@ -9022,16 +7294,6 @@ NId
 Natural Identifier of the Work Order.
 
 Mandatory
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-143
-
-
-## Pagina 144
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Attributes
 
@@ -9101,16 +7363,6 @@ Optional
 
 The unique identifier of the Material Batch that the
 Work Order is expected to produce.
-
-144
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 145
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Attributes
 
@@ -9197,16 +7449,6 @@ tag, specifying the related Identifiers (NId attribute).
 • If the Plant contains only one piece of information (for example, PLANT01), then this piece of information is
 used both as Plant Id in case of a Multiplant scenario, and as Plant field of the Work Order.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-145
-
-
-## Pagina 146
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 • If the Plant contains two pieces of information (for example, PLANT01.ENTERPRISE1), then the first part
 (PLANT01) is used as Plant Id in case of a Multiplant scenario, while the second part (ENTERPRISE1) is used as
 the Plant field of the Work Order.
@@ -9221,7 +7463,8 @@ contains logical errors (e.g. missing values for mandatory attributes) and to sp
 containing the correct nodes that can be successfully imported, and one containing the wrong nodes that must be
 logged.
 
-6.3.4.11 XML File for Full Work Orders
+##### XML File for Full Work Orders
+
 It is possible to automatically align the Work Orders contained in the Opcenter Execution Discrete database with
 those available in the External System. This operation can be performed through an XML file created according to
 the structure below.
@@ -9255,16 +7498,6 @@ EstimatedEndTime="2023-09-27T14:25:45.000Z">
 <InterlockingCheck NId="AllStepsCompleted" Inbound="true"/>
 </InterlockingChecks>
 <Users>
-
-146
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 147
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <User NId="Administrator"/>
 <User NId="Operator1"/>
@@ -9320,16 +7553,6 @@ Revision="A"/>
 </Skills>
 <Documents>
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-147
-
-
-## Pagina 148
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <Document NId="AssembleInstructionsManual" Revision="A"/>
 </Documents>
 <HumanResources>
@@ -9383,16 +7606,6 @@ Revision="A"/>
 ar" AssociationType="SerialNumber"/>
 <StepWorkInstruction DefinitionNId="AssembleWheel"
 AssociationType="Operation"/>
-
-148
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 149
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 <StepWorkInstruction DefinitionNId="DifferentialRotat
 ionValues" AssociationType="SerialNumberOnDemand" Revision="A"/>
@@ -9448,16 +7661,6 @@ EstimatedEndTime="2023-09-27T14:25:45.000Z"/>
 <StepDependency From="UC_WorkOrderStep_1" To="UC_WorkOrderSte
 p_2"/>
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-149
-
-
-## Pagina 150
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 <StepDependency From="UC_WorkOrderStep_2" To="UC_WorkOrderSte
 p_3"/>
 </StepDependencies>
@@ -9512,16 +7715,6 @@ The XML file is used also to resolve the Master Plan. For what concerns specific
 Tools), those present in the XML file are created in the Work Order, without considering those contained in the
 Master Plan. The specifications that are not present in the XML file are retrieved from the Master Plan. For
 
-150
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 151
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 example, if the XML file contains Operation1 with Material3, and the Master Plan contains Operation1 with
 Material1 and Tool1, then the Work Order is created with Operation1, Material3 and Tool1.
 • If AsPlannedNId is valorized, the Work Order is created with the Operations and Steps specified in the As
@@ -9553,16 +7746,6 @@ NId
 Natural Identifier of the Work Order.
 
 Mandatory
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-151
-
-
-## Pagina 152
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Attributes
 
@@ -9627,16 +7810,6 @@ Natural identifier of the As Planned BOP to which
 you want to associate the Work Order.
 
 Optional
-
-152
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 153
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Attributes
 
@@ -9727,16 +7900,6 @@ UTC format: for example, yyyy-MM-ddThh:mm:ssZ.
 
 Optional
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-153
-
-
-## Pagina 154
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Attributes
 
 Description
@@ -9814,16 +7977,6 @@ PartialCompleted
 Optional
 
 Work Order Operation
-
-154
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 155
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Attributes
 
@@ -9905,16 +8058,6 @@ Optional
 
 Optional
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-155
-
-
-## Pagina 156
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Attributes
 
 Occurrence
@@ -9988,16 +8131,6 @@ Mandatory
 
 Machine
 
-156
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 157
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 At least one between NId and EquipmentType must be present.
 Attributes
 
@@ -10070,16 +8203,6 @@ Optional
 
 Tool
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-157
-
-
-## Pagina 158
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Attributes
 
 Occurrence
@@ -10151,16 +8274,6 @@ Mandatory
 Revision
 
 Optional
-
-158
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 159
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Human Resource
 Attributes
@@ -10237,16 +8350,6 @@ Optional
 
 Optional
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-159
-
-
-## Pagina 160
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Attributes
 
 Occurence
@@ -10318,16 +8421,6 @@ SpecificationType
 
 Mandatory
 
-160
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 161
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Attributes
 
 Occurrence
@@ -10397,16 +8490,6 @@ Optional
 
 Step Skill
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-161
-
-
-## Pagina 162
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Attributes
 
 Occurrence
@@ -10452,7 +8535,8 @@ contains logical errors (e.g. missing values for mandatory attributes) and to sp
 containing the correct nodes that can be successfully imported, and one containing the wrong nodes that must be
 logged.
 
-6.3.4.12 JSON File for Full Work Orders
+##### JSON File for Full Work Orders
+
 It is possible to automatically align the Work Orders contained in the Opcenter Execution Discretedatabase with
 those available in the External System. This operation can be performed through a JSON file created according to
 the structure below.
@@ -10465,16 +8549,6 @@ Here is an example of a JSON message that can be used to import the structure of
 {
 "MessageType": "FullWorkOrderJson",
 "FlowName": "FullWorkOrder",
-
-162
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 163
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 "Plant": "DefaultPlant.Plant",
 "Define": {
@@ -10530,16 +8604,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 "NId": "AllStepsCompleted",
 "Inbound": "true"
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-163
-
-
-## Pagina 164
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 }
 ],
 "Users": [
@@ -10593,16 +8657,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 "UId": "Pivot",
 "Revision": "A",
 "OccurrenceId": "",
-
-164
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 165
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 "Sequence": "",
 "LogicalPosition": "",
@@ -10658,16 +8712,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 "TimesToBeUsed": "2",
 "DefinitionNId": "Wrench"
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-165
-
-
-## Pagina 166
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 }
 ],
 "WorkInstructions": [
@@ -10721,16 +8765,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 },
 {
 "CertificationNId": "DE_Tapping",
-
-166
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 167
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 "RequiredNumber": "2"
 }
@@ -10786,16 +8820,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 "Revision": "A",
 "OccurrenceId": "",
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-167
-
-
-## Pagina 168
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 "Sequence": "",
 "LogicalPosition": "",
 "GroupId": "",
@@ -10849,16 +8873,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 "Revision": "A",
 "OccurrenceId": "",
 "Sequence": "",
-
-168
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 169
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 "LogicalPosition": "",
 "GroupId": "",
@@ -10914,16 +8928,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 }
 ],
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-169
-
-
-## Pagina 170
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 "StepDocuments": [ {
 "NId": "AssembleInstructionsManual",
 "Revision": "A"
@@ -10977,16 +8981,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 "RequiredCertificateNId": "",
 "RequiredInspectionRole": "",
 "ToBeCollectedDocument": "false",
-
-170
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 171
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 "ElectronicSignaturePause": "false",
 "ElectronicSignatureStart": "false",
@@ -11042,16 +9036,6 @@ How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 "ProductionType": "Serialized",
 "Quantity": "1",
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-171
-
-
-## Pagina 172
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 "BatchId": "",
 "Product": "LandingGear777",
 "Status": "New",
@@ -11104,16 +9088,6 @@ contained in the Master Plan. The specifications that are not present in the JSO
 Master Plan. For example, if the JSON file contains Operation1 with Material3, and the Master Plan contains
 Operation1 with Material1 and Tool1, then the Work Order is created with Operation1, Material3 and Tool1.
 
-172
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 173
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 • If AsPlannedNId is valorized, the Work Order is created with the Operations and Steps specified in the As
 Planned BOP. For what concerns specifications (for example Materials, Tools), those present in the JSON file are
 created in the Work Order, without considering those contained in the As Planned BOP. The specifications that
@@ -11143,16 +9117,6 @@ NId
 Natural Identifier of the Work Order.
 
 Mandatory
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-173
-
-
-## Pagina 174
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Field
 
@@ -11226,16 +9190,6 @@ Name
 Name of the Work Order.
 
 Mandatory
-
-174
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 175
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Field
 
@@ -11321,16 +9275,6 @@ UTC format: for example, yyyy-MM-ddThh:mm:ssZ.
 
 Optional
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-175
-
-
-## Pagina 176
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Field
 
 Description
@@ -11407,16 +9351,6 @@ Occurrence
 NId
 
 Mandatory
-
-176
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 177
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Attributes
 
@@ -11498,16 +9432,6 @@ Optional
 
 Optional
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-177
-
-
-## Pagina 178
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Attributes
 
 Occurrence
@@ -11577,16 +9501,6 @@ Mandatory
 
 Machine
 At least one between NId and EquipmentType must be present.
-
-178
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 179
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Attributes
 
@@ -11666,16 +9580,6 @@ DefinitionNId
 
 Mandatory
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-179
-
-
-## Pagina 180
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Attributes
 
 Occurrence
@@ -11745,16 +9649,6 @@ Revision
 Optional
 
 Human Resource
-
-180
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 181
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Attributes
 
@@ -11834,16 +9728,6 @@ Optional
 
 Optional
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-181
-
-
-## Pagina 182
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Attributes
 
 Occurence
@@ -11914,16 +9798,6 @@ Mandatory
 Name
 
 Optional
-
-182
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 183
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Attributes
 
@@ -11997,16 +9871,6 @@ NId
 
 Mandatory
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-183
-
-
-## Pagina 184
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 Attributes
 
 Occurrence
@@ -12055,7 +9919,8 @@ above contains logical errors (e.g. missing values for mandatory attributes) and
 files, one containing the correct nodes that can be successfully imported, and one containing the wrong nodes that
 must be logged.
 
-6.3.5 Verifying the Use Case Configuration
+#### Verifying the Use Case Configuration
+
 After creating an XML file following the example provided for the use case of interest, you can verify if it will work
 properly by following the steps below.
 
@@ -12066,16 +9931,6 @@ automatically processed and removed from the folder.
 3. In Opcenter EX DS, verify if the use case has been satisfied, for example, in case of Automatic Start of Work Order
 Operation, check that the Work Order Operation start has been traced in the As-Built page.
 
-184
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 185
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
 You can monitor the message exchange as follows:
 • for what Opcenter CN MOM concerns,
 • through the History page: a diagnostic page you can access from Opcenter Connect MOM Web
@@ -12084,7 +9939,8 @@ or by adapter).
 • using the Microsoft Windows Event Viewer (Applications and Services Logs > MIO).
 • for Opcenter EX DS, using the standard ETW viewer.
 
-6.3.6 How to Send Output Messages to Opcenter CN MOM
+#### How to Send Output Messages to Opcenter CN MOM
+
 Through a dedicated workflow, it is possible to configure the integration with Opcenter Connect MOM for Output
 Messages.
 The related XSD files can be found in the following folder:
@@ -12111,7 +9967,8 @@ Workflow
 4. Configure the Client Gateway.
 5. Reset IIS and restart the Opcenter Connect MOM Channel Adapter Host Service to activate the configuration.
 
-6.3.6.1 Configuring the Message Types for Output Messages
+##### Configuring the Message Types for Output Messages
+
 The first step is to create one or more Message Types specific to Output Messages. The Message Type must match
 the field Broker Message Type configured during the creation of the Output Message Destination in Opcenter
 Execution Discrete.
@@ -12119,16 +9976,6 @@ Execution Discrete.
 Procedure
 1. Log in to the Opcenter Connect MOM Web Application.
 2. In the General Configuration tile, click the Message Types tab.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-185
-
-
-## Pagina 186
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 3. Click the Add Object
 Object:
@@ -12160,7 +10007,8 @@ Broker Dispatch
 
 .
 
-6.3.6.2 Configuring the Channel for Output Messages
+##### Configuring the Channel for Output Messages
+
 After creating the Message Type, create a Message Channel and configure it to manage the Message Type.
 
 Procedure
@@ -12197,21 +10045,12 @@ specific to Output Messages.
 
 in the Valid Message Types section, to add the valid Message Types
 
-6.3.6.3 Configuring the File Adapter for Output Messages
+##### Configuring the File Adapter for Output Messages
+
 After defining the Message Channel, it is necessary to create one or more File Adapters specific to Output Messages.
 The File Adapter must match the field Broker Adapter Name, which you have configured during the creation of the
 Message Destination. The Adapter must be assigned to the Message Channel created before and to a proper MOM
 Connection, which is one of those created for all the inbound use cases.
-
-186
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 187
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
 
 Procedure
 1. Log in to the Opcenter Connect MOM Web Application.
@@ -12289,17 +10128,8 @@ The name of the MOM Connection configured before.
 
 .
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
+##### Configuring the Client Gateway for Output Messages
 
-187
-
-
-## Pagina 188
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Connect MOM
-
-6.3.6.4 Configuring the Client Gateway for Output Messages
 The Client Gateway configuration enables you to simplify outbound communications between Opcenter EX DS and
 the Opcenter Connect MOM Web Application and must be assigned to a valid MOM Connection. The Client Gateway
 has been previously installed on each Opcenter Execution Foundation host.
@@ -12366,17 +10196,8 @@ configured and communicates with the Opcenter Connect MOM server (System Diagnos
 Health). In this page, the list of all Opcenter CN MOM components is shown, including the Client Gateway.
 If correctly configured, the Client Gateway State is Active.
 
-188
+### How to Integrate with Teamcenter Share
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 189
-
-Integration with Other Systems
-How to Integrate with Teamcenter Share
-
-6.4 How to Integrate with Teamcenter Share
 The integration with Teamcenter Share allows you to share documents (for example, documents attached to NonConformances) to other users connected to the same Teamcenter Share environment.
 For more information, see section Teamcenter Share of the Opcenter Execution Discrete Product Overview.
 
@@ -12386,8 +10207,8 @@ Teamcenter Share Integration Support of the Opcenter Execution Foundation Instal
 2. Set the Enable Teamcenter Share Integration configuration key, as explained in section Integration
 Configuration Settings of the Opcenter Execution Discrete User Manual.
 
-6.5 How to Integrate Opcenter Execution Discrete with Additive
-Manufacturing Network
+### How to Integrate Opcenter Execution Discrete with Additive Manufacturing Network
+
 Opcenter Execution Discrete can be integrated with Additive Manufacturing Network, the Siemens cloud-based
 solution designed to optimize execution activities in a capillary manner, from sale orders to delivery, in Additive
 Manufacturing contexts.
@@ -12414,20 +10235,10 @@ Integrating Opcenter EX DS with Additive Manufacturing Network involves performi
 2. Set AMN Integration configuration keys as described in page AMN Integration Configuration Settings of the
 Opcenter Execution Discrete User Manual.
 
-6.5.1 Enabling Integration with Opcenter EX DS in the AM Network
-Environment
+#### Enabling Integration with Opcenter EX DS in the AM Network Environment
+
 To enable integration with Opcenter Execution Discrete in the Additive Manufacturing Network environment, you
 must generate the Client ID and Client Secret to be copied into Opcenter EX DS dedicated configuration keys.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-189
-
-
-## Pagina 190
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with the Shop Floor
 
 Keep in mind that, if the generated credentials are not saved, new credentials must be generated.
 
@@ -12458,8 +10269,8 @@ From the drop-down menu, select the name of your organization
 5. In Opcenter EX DS, copy the generated credentials in the Client ID and Client Secret fields of the AMN
 Integration Configuration Keys.
 
-6.6 How to Integrate Opcenter Execution Discrete with the Shop
-Floor
+### How to Integrate Opcenter Execution Discrete with the Shop Floor
+
 Opcenter Execution Discrete can integrate with the Shop Floor leveraging on a standardized way to manage OPC UA
 tags via Automation Gateway. This standardized way relies on pre-defined handshake protocols and so-called
 contracts.
@@ -12480,16 +10291,6 @@ To use these contracts, some configurations must be applied to your system, as i
 Target User
 Integration configuration is reserved for System Integrators and Product Engineers. At runtime the integration is
 triggered by Machines.
-
-190
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 191
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with the Shop Floor
 
 Prerequisites
 • Opcenter Execution Discrete is installed and configured correctly.
@@ -12512,7 +10313,8 @@ application by:
 • associate these Equipment Configurations to Work Order Operations.
 For more information, refer to the Opcenter Execution Discrete User Manual.
 
-6.6.1 Configuring and Activating Automation Gateway Channels
+#### Configuring and Activating Automation Gateway Channels
+
 Automation Channels, through which Automation Node Instances connect to the field, must be configured and
 approved before you create the Automation Node Type and Automation Node Instance.
 For more information on Configuring and Activating Automation Gateway Channels, see the Configuring Automation
@@ -12530,16 +10332,6 @@ Automation Node Type for that specific use case.
 Creating the Automation Node Instances
 Create the Automation Node Instances from each Automation Node Type according to the project Shop Floor
 environment.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-191
-
-
-## Pagina 192
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with the Shop Floor
 
 As of version 2207, the PLC-to-MES handshakes leverage the new direct read from PLC functionality. This
 allows a better data consistency handling, and low acquisition cycles for most of the involved automation
@@ -12588,16 +10380,6 @@ rule for that specific use case.
 4. Click Approve. Consistency checks are automatically performed on signal rule before its status is changed to
 Approved.
 5. Click Deploy icon. The signal rule will now be flagged as deployed, and its runtime status will be Running.
-
-192
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 193
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with the Shop Floor
 
 The signal rule is the entry point for the handshake handling on Opcenter Execution Discrete, see How to
 Create a Custom Contract for Shop Floor Integration chapter in Opcenter Execution Discrete Extensibility
@@ -12654,20 +10436,10 @@ Signal rule will periodically execute a backend command which checks, for each c
 instance, if the related heartbeat tag has been correctly reset in the period, if not, then it will raise
 OPCDisconnected event to notify that the channel related to automation node instance is disconnected.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-193
-
-
-## Pagina 194
-
-Integration with Other Systems
-How to integrate Opcenter Execution Discrete with Teamcenter Easy Plan
-
 Event OPCDisconnected is available for custom implementation, if needed.
 
-6.7 How to integrate Opcenter Execution Discrete with Teamcenter
-Easy Plan
+### How to integrate Opcenter Execution Discrete with Teamcenter Easy Plan
+
 Opcenter Execution Discrete includes the Opcenter Execution Discrete Manufacturing Planner Preview Low Code UI
 App dedicated to manufacturing planner users working in Teamcenter Easy Plan.
 Once configured and deployed, this app provides a preview of how Teamcenter Easy Plan manufacturing data (in
@@ -12705,23 +10477,13 @@ in Opcenter command.
 
 > View
 
-6.8 How to Integrate Opcenter Execution Discrete with Opcenter
-Intraplant Logistics (Opcenter IPL)
+### How to Integrate Opcenter Execution Discrete with Opcenter Intraplant Logistics (Opcenter IPL)
+
 Opcenter Execution Discrete comes provided with a dedicated dxp file for integration between Opcenter EX DS and
 Opcenter IPL that, once imported into Data Integration System (DIS) and after being appropriately configured,
 enables integration between the two products.
 After importing the released integration scenario configuration and its appropriate configuration, you will be able
 to:
-
-194
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 195
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Intraplant Logistics (Opcenter IPL)
 
 • Allow Opcenter Intraplant Logistics to request the default or most recently updated Equipment Hierarchy so
 that both systems are aligned in terms of plant structure.
@@ -12755,7 +10517,8 @@ To import and configure the scenario:
 5. (Only for High Availability scenario) Configure IIS on the Reverse Proxy machine.
 6. Configure Output Messages to reach DIS.
 
-6.8.1 Importing the IPL Integration Scenario Configuration
+#### Importing the IPL Integration Scenario Configuration
+
 Operating in DIS Management Console, you can import a DIS Project that consists of all the connectors that are
 needed in the integration with Opcenter Intraplant Logistics.
 This configuration is conceived for a scenario in which there is no other DIS Project existing in the system.
@@ -12765,16 +10528,6 @@ For information about importing a DIS Project from DXP file, creating a DIS Data
 Master Key, see the DIS Data Integration System User Manual.
 To import the preconfigured Scenario:
 1. In DIS Management Console, select Import from DXP File functionality.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-195
-
-
-## Pagina 196
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Intraplant Logistics (Opcenter IPL)
 
 2. Browse as Project export file EXDS_IPLIntegration_V2401.0001.dxp found under %SITUnifiedVAppsRoot%
 \UADM\DIS\IPL.
@@ -12788,7 +10541,8 @@ export your DIS Project.
 7. Save the DIS Project again.
 8. Operating in Windows Services, restart service Opcenter Execution Foundation Aux Svc Core.
 
-6.8.2 Finalizing the Project Configuration
+#### Finalizing the Project Configuration
+
 Once the DIS Project has been imported, you must finalize the Project configuration.
 High Availability Scenario
 • In the following procedure and wherever High Availability is mentioned in relation to IPL, it must be
@@ -12820,16 +10574,6 @@ If necessary, modify these values accordingly.
 If necessary, modify these values accordingly.
 5. Under node HTTP Client Connectors, double-click connector HTTPIPLResourcesHierarchy.
 
-196
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 197
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Intraplant Logistics (Opcenter IPL)
-
 6. In the Configuration tab, inside area HTTP Configuration, modify attribute URL so that protocol (http/
 https), hostname and plant (Multiplant concept) point to Opcenter Execution Discrete.
 In a High Availability scenario, hostname must be set to localhost.
@@ -12856,7 +10600,8 @@ URL among your trusted sites.
 Next Step
 You must proceed to Configuring IIS to Route Calls from Opcenter IPL to DIS.
 
-6.8.3 Configuring IIS to Route Calls from Opcenter IPL to DIS
+#### Configuring IIS to Route Calls from Opcenter IPL to DIS
+
 Internet Information Service (IIS) must be configured appropriately so that calls from Opcenter Intraplant Logistics
 can be routed to Data Integration System. It must be possible for Opcenter IPL to address the
 WSIPLResourcesHierarchy connector specifically.
@@ -12871,16 +10616,6 @@ Foundation Host machines.
 1. In Internet Information Services (IIS) Manager, go to Default Web Site.
 2. In area IIS, search for URL Rewrite and then select Add Rule(s)...: this opens a dedicated form.
 3. Do as follows:
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-197
-
-
-## Pagina 198
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Intraplant Logistics (Opcenter IPL)
 
 For...
 
@@ -12917,7 +10652,8 @@ Set this flag.
 6. Select the Rule you have just created: in area Inbound Rules, using the Move Up button, move the selected Rule
 to the beginning of the Rule set.
 
-6.8.4 Configuring IIS on the Reverse Proxy Machine
+#### Configuring IIS on the Reverse Proxy Machine
+
 In a High Availability scenario, the Reverse Proxy machine functions as a router, directing the IPL calls to the
 DISWEBSERVICE Web Farm in which there is an active node and the others are in stand-by.
 High Availability and Resources Hierarchy Use Case
@@ -12935,16 +10671,6 @@ Procedure
 Services).
 2. Select the machine name and double-click the URL Rewrite module.
 3. In the Actions pane, click on Add Rule(s) and select Blank rule.
-
-198
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 199
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Intraplant Logistics (Opcenter IPL)
 
 4. In the Edit Inbound Rule pane, enter the following settings:
 Parameter
@@ -12998,7 +10724,8 @@ Yes
 7. Select the Rule you have just created: in area Inbound Rules, using the Move Up button, move the selected Rule
 to the beginning of the Rule set.
 
-6.8.5 Configuring Output Messages to Reach DIS
+#### Configuring Output Messages to Reach DIS
+
 As integration with Opcenter IPL concerns the satisfaction of Kanban calls by Opcenter IPL, the Output Message
 functionality must be configured appropriately so that the Kanban calls can reach Data Integration System and
 subsequently forwarded to Opcenter IPL. To this end, you must create:
@@ -13009,16 +10736,6 @@ Destination.
 Procedure
 1. Operating in Opcenter Execution Discrete, create an Output Message Destination, setting its attributes as
 follows:
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-199
-
-
-## Pagina 200
-
-Integration with Other Systems
-How to Integrate Opcenter Execution Discrete with Opcenter Intraplant Logistics (Opcenter IPL)
 
 For attribute...
 
@@ -13047,34 +10764,16 @@ Result
 You have completed the steps for integrating Opcenter Execution Discrete with Opcenter Intraplant Logistics
 (Opcenter IPL).
 
-200
+## Migrating from Previous Product Versions
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 201
-
-Migrating from Previous Product Versions
-How to Integrate Opcenter Execution Discrete with Opcenter Intraplant Logistics (Opcenter IPL)
-
-7 Migrating from Previous Product Versions
 It is possible to perform migration from all product versions starting from Opcenter Execution Discrete 3.3. The
 workflows available for migrating Opcenter Execution Discrete from these versions of Opcenter EX DS are illustrated
 in the Opcenter EX DS Migration Guide.
 If you are using Low Code UI Applications in your system, see also section How to Migrate your Customized
 Low Code UI App of the Opcenter EX DS Low Code UI Personalization Guide.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
+## Uninstalling Opcenter Execution Discrete
 
-201
-
-
-## Pagina 202
-
-Uninstalling Opcenter Execution Discrete
-How to Integrate Opcenter Execution Discrete with Opcenter Intraplant Logistics (Opcenter IPL)
-
-8 Uninstalling Opcenter Execution Discrete
 This procedure does not uninstall Opcenter Execution Foundation. If you need to perform a complete
 uninstallation, see the Opcenter Execution Foundation Installation Guide.
 
@@ -13085,24 +10784,16 @@ environment, select Opcenter Execution Foundation and run the wizard.
 Execution Discrete check box and clear the Opcenter Execution Foundation check box, if selected.
 3. Complete the wizard.
 
-202
+## Troubleshooting
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 203
-
-Troubleshooting
-Troubleshooting - Configuration Issues
-
-9 Troubleshooting
 • Configuration Issues
 • Operator Landing Page Searching Issues (legacy)
 • Manual Solution Configuration
 • Manual Configuration for Integration with Opcenter CN MOM
 • Manual Configuration for Integration with Opcenter IPL
 
-9.1 Troubleshooting - Configuration Issues
+### Troubleshooting - Configuration Issues
+
 For any issues that might arise during the automatic configuration performed by the Opcenter EX DS Post-setup
 configuration tool, follow these steps:
 1. From Windows Apps > Opcenter Execution Foundation > Solution Studio environment, verify that
@@ -13111,7 +10802,8 @@ the Opcenter EX DS manufacturing solution has been created in the home page.
 3. Launch the Post-Setup Configuration tool again to attempt to create and configure the solution automatically.
 4. If problems persist, create and configure the solution manually.
 
-9.2 Troubleshooting - Operator Landing page searching issues
+### Troubleshooting - Operator Landing page searching issues
+
 For any issues that might arise during the automatic configuration performed by the Opcenter EX DS Post-setup
 configuration tool, follow these steps:
 1. From Windows Apps > Opcenter Execution Foundation > Solution Studio environment, verify that
@@ -13120,7 +10812,8 @@ the Opcenter EX DS manufacturing solution has been created in the home page.
 3. Launch the Post-Setup Configuration tool again to attempt to create and configure the solution automatically.
 4. If problems persist, create and configure the solution manually.
 
-9.3 Troubleshooting - Manual Solution Configuration
+### Troubleshooting - Manual Solution Configuration
+
 The configuring of the application is usually performed automatically launching the Opcenter Execution Discrete
 configuration tool, which creates the manufacturing solution of interest and performs many configurations
 automatically.
@@ -13128,7 +10821,8 @@ Alternatively, you can choose to manually perform the following operations:
 1. Create the Solution.
 2. Configure the Solution.
 
-9.3.1 Creating the Opcenter Execution Discrete Manufacturing Solution
+#### Creating the Opcenter Execution Discrete Manufacturing Solution
+
 The first step for configuring Opcenter Execution Discrete requires that you create a dedicated solution.
 
 Procedure
@@ -13139,22 +10833,12 @@ Procedure
 5. Insert the name and the description of the Solution.
 6. Click Create. The new solution is displayed in the  Solution Administration page.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-203
-
-
-## Pagina 204
-
-Troubleshooting
-Troubleshooting - Manual Solution Configuration
-
 7. Click the
 icon on in the left-hand menu. The home page is displayed, showing the link to the created
 Opcenter Execution Discrete Solution in the Quick Links area.
 
-9.3.2 How to Configure the Opcenter Execution Discrete Solution
-Manually
+#### How to Configure the Opcenter Execution Discrete Solution Manually
+
 After creating the Opcenter Execution Discrete manufacturing solution, some configurations must be executed
 manually before deploying the solution and being able to access the web application.
 
@@ -13180,7 +10864,8 @@ subscriptions.
 10. Import the UI Application.
 11. Configure the Databases and deploy the Solution.
 
-9.3.2.1 Configuring User Roles
+##### Configuring User Roles
+
 While manually configuring the Opcenter Execution Discrete manufacturing solution, you must create the user
 roles. User roles (also called user rights) represent groupings of permissions to be assigned to user groups in order
 to set constraints on the runtime operations they are allowed to perform within the manufacturing solution.
@@ -13197,16 +10882,6 @@ The roles to be added can be manually retrieved from the following files:
 • -rn : Role Name
 • -d : Role Description
 
-204
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 205
-
-Troubleshooting
-Troubleshooting - Manual Solution Configuration
-
 Creating the User Roles
 1. In the Solution Studio Home page, click
 
@@ -13217,7 +10892,8 @@ Add New role.
 3. In the Add Role page, insert the name and description of the role and click Save.
 4. Repeat steps 2-3 for each role retrieved in the previous paragraph.
 
-9.3.2.2 Configuring Mashups
+##### Configuring Mashups
+
 After creating the UI application, you must import the JSON files that describe the configuration of Mashups.
 
 Procedure
@@ -13245,7 +10921,8 @@ for the DSsolution.
 • DSAdvanced.highAutomationOpLanding.json file in the %SITUnifiedSystemRoot%VApps\UADM
 folder, for the OnePieceFlowsolution.
 
-9.3.2.3 Creating Worker Roles
+##### Creating Worker Roles
+
 Worker roles are entities that will be in charge of receiving event subscriptions and on which you want to distribute
 the business logic that makes up the project. The association between subscriptions and worker roles is not unique:
 different worker roles can receive the same event and execute the same logic.
@@ -13258,16 +10935,6 @@ Configuration Guide.
 
 Retrieving the list of Worker Roles
 The Worker Roles to be added can be manually retrieved from the following files:
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-205
-
-
-## Pagina 206
-
-Troubleshooting
-Troubleshooting - Manual Solution Configuration
 
 • %SITUnifiedSystemRoot%Vapps\UADM\UADM_CommandList.xml, for the U4DM solution.
 • %SITUnifiedSystemRoot%Vapps\EXAM\AM_CommandList.xml, for the DS4AM solution.
@@ -13294,7 +10961,8 @@ Create New Worker Role.
 4. In the Create New Worker Role panel, insert the Worker Role parameters and click Save.
 5. Repeat steps 1-4 for each App and each Worker Role retrieved in the previous paragraph.
 
-9.3.2.4 Associating Roles with Function Rights
+##### Associating Roles with Function Rights
+
 After creating a user role, you must associate the role with the function rights of interest. In particular, you can:
 • Associate the role with operation types:
 • By invoking any runtime command.
@@ -13328,16 +10996,6 @@ PLM
 Commands required for the integration with PLM
 systems in order to import master data like Bills of
 Processes and related entities.
-
-206
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 207
-
-Troubleshooting
-Troubleshooting - Manual Solution Configuration
 
 Command type
 
@@ -13387,7 +11045,8 @@ Events, Signals, UI Screens or Reading Functions).
 6. Click Assign.
 7. Repeat steps 4-6 for each function right to be associated.
 
-9.3.2.5 Configuring Event Subscriptions
+##### Configuring Event Subscriptions
+
 After associating roles with function rights, you must associate each event to be monitored with one or more event
 handlers. This operation allows the system to execute a specific logic when the event is raised.
 Any existing event subscriptions can be removed if you want to inhibit certain types of runtime behavior.
@@ -13396,16 +11055,6 @@ Retrieving the lists of Event Subscriptions
 The event subscriptions to be added can be manually retrieved from the following files:
 • %SITUnifiedSystemRoot%Vapps\UADM\UADM_CommandList.xml, for the U4DM solution.
 • %SITUnifiedSystemRoot%Vapps\EXAM\AM_CommandList.xml, for the DS4AM solution.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-207
-
-
-## Pagina 208
-
-Troubleshooting
-Troubleshooting - Manual Solution Configuration
 
 • %SITUnifiedSystemRoot%Vapps\UADM\DSBasic_CommandList.xml, for the DS solution.
 • %SITUnifiedSystemRoot%Vapps\UADM\DSAdvanced_CommandList.xml, for the OnePieceFlowsolution.
@@ -13451,23 +11100,14 @@ handlers that you want to remove and click
 displayed.
 3. Click OK: the selected event handlers are removed.
 
-9.3.2.6 Verifying Event Subscriptions in Integration scenarios
+##### Verifying Event Subscriptions in Integration scenarios
+
 In case of integration with Teamcenter Manufacturing, it is possible to configure the system to trigger some
 activities automatically. More specifically, this can be obtained by configuring Event Subscriptions, which makes
 the system execute a specific logic when the event is raised.
 The following use cases are foreseen:
 • automatic merge and release of Work Orders in Opcenter Execution Discrete
 • automatic creation of Issue Reports.
-
-208
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 209
-
-Troubleshooting
-Troubleshooting - Manual Solution Configuration
 
 • automatic creation of Event Notifications.
 In the first use case, you may create the Work Order Header within Opcenter EX DS and request Teamcenter
@@ -13521,16 +11161,6 @@ dlerShell for the TC/OpcenterEXDS scenario
 
 5. Assign the UADM Worker Role runtime Data Worker Role to each Event Subscription.
 6. Click Save.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-209
-
-
-## Pagina 210
-
-Troubleshooting
-Troubleshooting - Manual Solution Configuration
 
 Configuring Event Subscriptions to automatically create Issue Reports
 1. In the App Management page, click the AppU4DM App tile and click
@@ -13595,17 +11225,8 @@ OnCompleteWorkOrderEventHandlerShell
 5. Assign the UADM Worker Role runtime Data Worker Role to each Event Subscription.
 6. Click Save.
 
-210
+##### Configuring Pre-Checks and Post Actions
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 211
-
-Troubleshooting
-Troubleshooting - Manual Solution Configuration
-
-9.3.2.7 Configuring Pre-Checks and Post Actions
 After creating the UI application, you must configure the Pre-Checks and the Post Actions associated to its
 commands. Specifically, this means:
 • enabling or disabling Pre-Checks;
@@ -13653,16 +11274,6 @@ associated Pre-Checks and/or Post Actions and click on its arrow to expand the l
 4. Click Configure.
 5. In the Pre and Post Execution Configuration panel, select the Pre-Checks tab.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-211
-
-
-## Pagina 212
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 6. For each Pre-Check (identified according to the Name parameter of the previously retrieved Pre-Checks list),
 enable or disable it according to the Enabled parameter of said list.
 7. If necessary, re-order the list dragging and dropping each row in the correct position according to the
@@ -13673,7 +11284,8 @@ Post Actions list) dragging and dropping each row in the correct position accord
 10. Click Save.
 11. Repeat the steps from 3 to 10 for each command in the previously retrieved lists.
 
-9.3.2.8 Importing the UI Application
+##### Importing the UI Application
+
 After creating the UI application, you must import the JSON file that describes the configuration of the UI
 Application.
 
@@ -13693,8 +11305,8 @@ the UI Application included in the DSsolution.
 import the UI Application included in the OnePieceFlow solution.
 5. Click Save.
 
-9.4 Troubleshooting - Manual Configuration for Integration with
-Opcenter CN MOM
+### Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
+
 Opcenter Execution Discrete releases an integration scenario configuration that after being imported into Opcenter
 Connect MOM enables the integration between the two products.
 This troubleshooting section provides information on how to manually recreate the imported configurations in
@@ -13711,23 +11323,14 @@ Workflow
 • Import the Message Map.
 • Configure the Message Type of interest.
 
-212
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 213
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 • Configure the Channel.
 5. Define the File Adapter.
 6. Reset IIS and restart the Opcenter Connect MOM Channel Adapter Host Service, to activate the Use Case
 configuration.
 7. (Optional) In case of problems, tune Opcenter Connect MOM Parameters to improve performances.
 
-9.4.1 Creating the MOM Connection
+#### Creating the MOM Connection
+
 A properly-configured MOM Connection is essential to establishing communication between Opcenter EX DS and
 the Opcenter Connect MOM Web Application: this communication is based on the exchange of messages.
 For the Shop Floor and Input messages, the Multiplant can be addressed with dedicated Adapters for each plant
@@ -13781,16 +11384,6 @@ Authentication Address
 Type the URL of the UMC authentication server: for example, http://
 myUADMserver/sit-auth/OAuth/Token.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-213
-
-
-## Pagina 214
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Property
 
 Value
@@ -13801,7 +11394,8 @@ Type scope=global.
 
 5. Click Add Object.
 
-9.4.2 Importing the Workflow
+#### Importing the Workflow
+
 You may have already imported these Workflows in your system during previous configurations. In this
 case, you can skip this step.
 • The sit_ua_rest_call Workflow is specific to Shop Floor operations.
@@ -13824,7 +11418,8 @@ MOM machine) and click Open:
 
 .
 
-9.4.3 Messages From the Shop Floor
+#### Messages From the Shop Floor
+
 After importing the Workflow, you must configure the use case of interest to exchange messages with the Shop
 Floor:
 
@@ -13842,17 +11437,8 @@ Available Operations
 • Quality Non-Conformance Sentencing
 • Input Message Receiving from the Warehouse.
 
-214
+##### How to Automatically Start Work Order Operations
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 215
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
-9.4.3.1 How to Automatically Start Work Order Operations
 This page describes the configurations that are necessary to exchange messages between the MES layer and the
 Shop Floor, in order to trigger the automatic start of Work Order Operations by Machines or Workcenters, in case of
 integration between Opcenter Execution Discrete and Opcenter Connect MOM.
@@ -13915,17 +11501,7 @@ Workflow
 
 sit_ua_rest_call
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
 .
-
-215
-
-
-## Pagina 216
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 5. Select Message Attributes and click
 
@@ -13997,16 +11573,6 @@ fifowithpredecessors
 
 Configuring the UADMAutomaticShopFloorChannel Message Channel
 
-216
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 217
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 The Message Channel is common to all use cases. You may have already configured it. In this case, you
 need to perform only steps 3 and 4 of the procedure below.
 1. In the Opcenter Connect MOM > Opcenter Connect MOM Configuration page, select the Message
@@ -14070,7 +11636,8 @@ nodename
 
 7. Click Add Item.
 
-9.4.3.2 How to Automatically Use Tools
+##### How to Automatically Use Tools
+
 This page describes the configurations that are necessary to exchange messages between the MES layer and the
 Shop Floor, in order to trigger the automatic usage of Tools by Machines or Workcenters, in case of integration
 between Opcenter Execution Discrete and Opcenter Connect MOM.
@@ -14084,16 +11651,6 @@ Workflow
 
 Importing the USE_TOOL Message Map
 1. Open the Opcenter Connect MOM Map Designer application.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-217
-
-
-## Pagina 218
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 2. In the Opcenter CN MOM Server Settings tab, configure the credentials to connect to the application server. A
 user with Administrative rights must be entered.
@@ -14160,14 +11717,6 @@ Parameters
 UADMAutomaticUseToolList
 • Do Not Promote: false
 • Include In Event: false
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 219
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Message Attributes
 
@@ -14239,16 +11788,6 @@ Name
 
 UADMAutomaticShopFloorChannel
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-219
-
-
-## Pagina 220
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Parameter
 
 Value
@@ -14302,7 +11841,8 @@ nodename
 
 7. Click Add Item.
 
-9.4.3.3 How to Automatically Consume Materials
+##### How to Automatically Consume Materials
+
 This page describes the configurations that are necessary to exchange messages between the MES layer and the
 Shop Floor, in order to trigger the automatic consumption of Materials by Machines or Workcenters, in case of
 integration between Opcenter Execution Discrete and Opcenter Connect MOM.
@@ -14323,16 +11863,6 @@ user with Administrative rights must be entered.
 5. Locate the %SITUnifiedSystemRoot%VApps\UADM\MIOIntegration\Mapping\Consume_MI.miom file and
 click Open.
 6. Click Save Map.
-
-220
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 221
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Configuring the Message Type for the Automatic Material Consumption call
 1. In the Opcenter Connect MOM > Opcenter Connect MOM Configuration page, select the Message Types tab.
@@ -14410,16 +11940,6 @@ UADMAutomaticConsumeMaterialTrackingUnit
 6. Click Save
 
 .
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-221
-
-
-## Pagina 222
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Configuring the Message Type for the Automatic Material Consumption response
 1. Working in the Message Types tab, click the Add Object
@@ -14500,17 +12020,7 @@ click
 6. In Message Type Functions area, in Other Functions section, click
 which is used to extract the Message Type from the XML file root node:
 
-222
-
 and insert the following function,
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 223
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 NAME
 
@@ -14526,7 +12036,8 @@ nodename
 
 7. Click Add Item.
 
-9.4.3.4 How to Automatically Collect Data
+##### How to Automatically Collect Data
+
 This page describes the configurations that are necessary to exchange messages between the MES layer and the
 Shop Floor, in order to trigger the automatic collection of data by Machines or Workcenters, in case of integration
 between Opcenter Execution Discrete and Opcenter Connect MOM.
@@ -14573,17 +12084,7 @@ fifowithpredecessors
 3. Select the DCD_ACQUIRE Message Type created in the previous step and click
 4. Select Additional Configuration and configure the following parameters:
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
 .
-
-223
-
-
-## Pagina 224
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Parameter
 
@@ -14660,17 +12161,7 @@ fifowithpredecessors
 
 2. Select the DCD_ACQUIREresponse Message Type created in the previous step and click
 
-224
-
 .
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 225
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 3. Select Additional Configuration and set the Outbound On Create parameter to Selected.
 4. Leave the other attributes as default (recommended) and click Save
@@ -14743,7 +12234,8 @@ nodename
 
 7. Click Add Item.
 
-9.4.3.5 How to Automatically Create Work Order Notes
+##### How to Automatically Create Work Order Notes
+
 This page describes the configurations required to exchange messages between the MES layer and the Shop Floor,
 in order to trigger the automatic creation of Work Order Notes by Machines or Workcenters on all the Work Order
 Operations that belong to the Work Order currently being executed, in case of integration between Opcenter
@@ -14752,16 +12244,6 @@ Execution Discrete and Opcenter Connect MOM.
 Workflow
 1. Import the WO_NOTE Message Map.
 2. Configure the Message Types for:
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-225
-
-
-## Pagina 226
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 • the Automatic Work Order Note Creation call
 • the Automatic Work Order Note Creation response
@@ -14834,14 +12316,6 @@ UADMAutomaticCreateSnagAndNote
 • Do Not Promote: false
 • Include In Event: false
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 227
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Message Attribute
 
 Parameters
@@ -14913,16 +12387,6 @@ Name
 
 UADMAutomaticShopFloorChannel
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-227
-
-
-## Pagina 228
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Parameter
 
 Value
@@ -14976,7 +12440,8 @@ nodename
 
 7. Click Add Item.
 
-9.4.3.6 How to Automatically Complete Work Order Operations
+##### How to Automatically Complete Work Order Operations
+
 This page describes the configurations that are necessary to exchange messages between the MES layer and the
 Shop Floor, in order to trigger the automatic completion of Work Order Operations by Machines or Workcenters, in
 case of integration between Opcenter Execution Discrete and Opcenter Connect MOM.
@@ -14997,16 +12462,6 @@ user with Administrative rights must be entered.
 5. Locate the %SITUnifiedSystemRoot%VApps\UADM\MIOIntegration\Mapping\WOO_COMPLETE.miom file
 and click Open.
 6. Click Save Map.
-
-228
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 229
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Configuring the Message Type for the Automatic Work Order Operation Complete
 call
@@ -15074,16 +12529,6 @@ UADMAutomaticComplete
 • Function Args: POST
 • Do Not Promote: false
 • Include In Event: false
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-229
-
-
-## Pagina 230
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Message Attribute
 
@@ -15160,14 +12605,6 @@ Is Active
 
 Selected
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 231
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Parameter
 
 Value
@@ -15211,7 +12648,8 @@ nodename
 
 7. Click Add Item.
 
-9.4.3.7 How to Automatically Acquire Quality Inspection Data
+##### How to Automatically Acquire Quality Inspection Data
+
 This page describes the configurations that are necessary to exchange messages between the MES layer and the
 Shop Floor, in order to trigger the automatic acquisition of quality inspection data by Machines or Workcenters, in
 case of integration between Opcenter Execution Discrete and Opcenter Connect MOM.
@@ -15239,16 +12677,6 @@ Acquisition call
 2. Click the Add Object
 
 icon to create a new Message Type with the following properties:
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-231
-
-
-## Pagina 232
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Parameter
 
@@ -15323,16 +12751,6 @@ UADMAutomaticAcquireQualityInspectionData
 
 Configuring the Message Type for the Automatic Quality Inspection Data
 Acquisition response
-
-232
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 233
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 1. Working in the Message Types tab, click the Add Object
 following properties:
@@ -15412,17 +12830,7 @@ click
 6. In Message Type Functions area, in Other Functions section, click
 which is used to extract the Message Type from the XML file root node:
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
 and insert the following function,
-
-233
-
-
-## Pagina 234
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 NAME
 
@@ -15438,8 +12846,8 @@ nodename
 
 7. Click Add Item.
 
-9.4.3.8 How to Automatically Create Non-Conformances of type Quality on
-Work Order Operations
+##### How to Automatically Create Non-Conformances of type Quality on Work Order Operations
+
 This page describes the configurations that are necessary to exchange messages between the MES layer and the
 Shop Floor, in order to trigger the automatic creation of a Non-Conformance of type Quality on Work Order
 Operations by Machines or Workcenters, in case of integration between Opcenter Execution Discrete and Opcenter
@@ -15488,17 +12896,7 @@ fifowithpredecessors
 
 3. Select the OPEN_NC_ON_WOO Message Type created in the previous step and click
 
-234
-
 .
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 235
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 4. Select Additional Configuration and configure the following parameters:
 Parameter
@@ -15568,16 +12966,6 @@ Value
 Name
 
 OPEN_NC_ON_WOOresponse
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-235
-
-
-## Pagina 236
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Parameter
 
@@ -15664,18 +13052,8 @@ nodename
 
 7. Click Add Item.
 
-236
+##### How to Automatically Create Non-Conformances of type Quality on Machines
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 237
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
-9.4.3.9 How to Automatically Create Non-Conformances of type Quality on
-Machines
 This page describes the configurations that are necessary to exchange messages between the MES layer and the
 Shop Floor, in order to trigger the automatic creation of a Non-Conformance of type Quality on Machines by
 Machines or Workcenters, in case of integration between Opcenter Execution Discrete and Opcenter Connect MOM.
@@ -15733,19 +13111,7 @@ OPEN_NC_ON_EQUIPMENT
 
 Message Map Revision
 
-3
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
 .
-
-237
-
-
-## Pagina 238
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Parameter
 
@@ -15818,17 +13184,7 @@ fifowithpredecessors
 2. Select the OPEN_NC_ON_EQUIPMENTresponse Message Type created in the previous step and click
 3. Select Additional Configuration and set the Outbound On Create parameter to Selected.
 
-238
-
 .
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 239
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 4. Leave the other attributes as default (recommended) and click Save
 
@@ -15895,8 +13251,8 @@ nodename
 
 7. Click Add Item.
 
-9.4.3.10 How to Automatically Create Non-Conformances of type Quality on
-Material Tracking Units
+##### How to Automatically Create Non-Conformances of type Quality on Material Tracking Units
+
 This page describes the configurations that are necessary to exchange messages between the MES layer and the
 Shop Floor, in order to trigger the automatic creation of a Non-Conformance of type Quality on Material Tracking
 Units by Machines or Workcenters, in case of integration between Opcenter Execution Discrete and Opcenter
@@ -15904,16 +13260,6 @@ Connect MOM.
 
 Workflow
 1. Import the OPEN_NC_ON_PRODUCT Message Map.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-239
-
-
-## Pagina 240
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 2. Configure the Message Type for:
 • the Automatic creation of Non-Conformances on Material Tracking Unit call
@@ -15975,19 +13321,9 @@ sit_ua_rest_call
 
 5. Select Message Attributes and click
 
-240
-
 .
 
 to add the following Items:
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 241
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Message Attribute
 
@@ -16060,16 +13396,6 @@ need to perform only steps 3 and 4 of the procedure below.
 1. In the Opcenter Connect MOM > Opcenter Connect MOM Configuration page, select the Message
 Channels tab.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-241
-
-
-## Pagina 242
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 2. Click the Add Object
 
 icon to create a new Message Channel with the following properties:
@@ -16126,7 +13452,8 @@ nodename
 
 7. Click Add Item.
 
-9.4.3.11 How to Automatically Sentence Non-Conformances of Type Quality
+##### How to Automatically Sentence Non-Conformances of Type Quality
+
 This page describes the configurations that are necessary to exchange messages between the MES layer and the
 Shop Floor, in order to trigger the automatic sentencing of a Quality Non-Conformance by Machines or
 Workcenters, in case of integration between Opcenter Execution Discrete and Opcenter Connect MOM.
@@ -16144,16 +13471,6 @@ Importing the SENTENCE_NC Message Map
 user with Administrative rights must be entered.
 3. Click Save Settings.
 4. Click Import Map.
-
-242
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 243
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 5. Locate the %SITUnifiedSystemRoot%VApps\UADM\MIOIntegration\Mapping\SENTENCE_NC.miom file and
 click Open.
@@ -16224,16 +13541,6 @@ UADMAutomaticSentenceNonConformance
 • Function Args: POST
 • Do Not Promote: false
 • Include In Event: false
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-243
-
-
-## Pagina 244
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Message Attribute
 
@@ -16309,14 +13616,6 @@ Is Active
 
 Selected
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 245
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Parameter
 
 Value
@@ -16360,7 +13659,8 @@ nodename
 
 7. Click Add Item.
 
-9.4.3.12 How to Automatically Receive Input Messages
+##### How to Automatically Receive Input Messages
+
 This page describes the configurations that are necessary to receive Input Messages from the Warehouse,
 containing information on the state of Kanban calls made for the replenishment of Materials, in case of integration
 between Opcenter Execution Discrete and Opcenter Connect MOM.
@@ -16397,16 +13697,6 @@ fifowithpredecessors
 3. Select the Input Message Message Type and click
 .
 4. Select Additional Configuration and set the Workflow parameter to opcenterexds_input.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-245
-
-
-## Pagina 246
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 5. Select Message Attributes and click
 
@@ -16512,16 +13802,6 @@ Selected
 
 3. Select the Message Channel you have created.
 
-246
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 247
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 4. Select Valid Message Types and click
 data you want to import and remove:
 
@@ -16570,7 +13850,8 @@ nodename
 
 /*
 
-9.4.4 Messages for Data Import
+#### Messages for Data Import
+
 After importing the Workflow, you must perform a series of steps to be able to automatically import and delete
 data.
 
@@ -16580,7 +13861,8 @@ Workflow
 3. Configure the Message Channel for XML files.
 4. Configure the Message Channel for JSON files.
 
-9.4.4.1 Importing the Message Map
+##### Importing the Message Map
+
 One of the steps required to configure Opcenter Connect MOM to perform an automatic import of data is to import
 the RemoveMessageHeader.miom Message Map file into the Opcenter Connect MOM Map Designer application.
 
@@ -16595,17 +13877,8 @@ in %SITUnifiedSystemRoot%VApps\UADM\MIOIntegration\Mapping on the Opcenter Execu
 Discrete machine) and click Open.
 6. Click Save Map.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
+##### How to Configure the Message Types
 
-247
-
-
-## Pagina 248
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
-9.4.4.2 How to Configure the Message Types
 After importing the Workflow and the Message Map, you must create the Message Types for the call of the data you
 want to import and delete, and for the related response.
 
@@ -16663,17 +13936,7 @@ opcenterexds_import
 
 5. Select Message Attributes and click
 
-248
-
 , to add the following Items:
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 249
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Name
 
@@ -16686,7 +13949,6 @@ Do Not Promote
 Include In Event
 
 importcomman
-d
 
 equals
 
@@ -16782,16 +14044,6 @@ response.
 
 Configuring the Message Type for the Automatic Call
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-249
-
-
-## Pagina 250
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 1. In the Opcenter Connect MOM General Configuration page, click the Message Types tab.
 2. Click the Add Object
 
@@ -16839,7 +14091,6 @@ Do Not Promote
 Include In Event
 
 importcomman
-d
 
 equals
 
@@ -16905,16 +14156,6 @@ false
 .
 
 Configuring the Message Type for the Automatic Response
-
-250
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 251
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 1. Working in the Message Types tab, click the Add Object
 following properties:
@@ -16992,7 +14233,6 @@ Do Not Promote
 Include In Event
 
 importcomman
-d
 
 equals
 
@@ -17004,16 +14244,6 @@ stFromXML
 false
 
 false
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-251
-
-
-## Pagina 252
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Name
 
@@ -17110,17 +14340,7 @@ Configuring the Message Type for the Automatic Call
 1. In the Opcenter Connect MOM General Configuration page, click the Message Types tab.
 2. Click the Add Object
 
-252
-
 icon, to create a new Message Type with the following properties:
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 253
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Parameter
 
@@ -17164,7 +14384,6 @@ Do Not Promote
 Include In Event
 
 importcomman
-d
 
 equals
 
@@ -17234,16 +14453,6 @@ Configuring the Message Type for the Automatic Response
 following properties:
 
 icon, to create a new Message Type with the
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-253
-
-
-## Pagina 254
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Parameter
 
@@ -17318,7 +14527,6 @@ Do Not Promote
 Include In Event
 
 importcomman
-d
 
 equals
 
@@ -17342,14 +14550,6 @@ LogWorkFlowFromXML
 false
 
 false
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 255
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Name
 
@@ -17448,16 +14648,6 @@ Description
 
 Bill Of Feature Message Type
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-255
-
-
-## Pagina 256
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Parameter
 
 Value
@@ -17492,7 +14682,6 @@ Do Not Promote
 Include In Event
 
 importcomman
-d
 
 equals
 
@@ -17573,14 +14762,6 @@ Name
 
 Bofresponse
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 257
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Parameter
 
 Value
@@ -17648,7 +14829,6 @@ Do Not Promote
 Include In Event
 
 importcomman
-d
 
 equals
 
@@ -17672,16 +14852,6 @@ LogWorkFlowFromXML
 false
 
 false
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-257
-
-
-## Pagina 258
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Name
 
@@ -17782,14 +14952,6 @@ Description
 
 Bill Of Process Message Type
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 259
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Parameter
 
 Value
@@ -17824,7 +14986,6 @@ Do Not Promote
 Include In Event
 
 importcomman
-d
 
 equals
 
@@ -17901,16 +15062,6 @@ Value
 Name
 
 Bopresponse
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-259
-
-
-## Pagina 260
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Parameter
 
@@ -18006,14 +15157,6 @@ false
 
 false
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 261
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Name
 
 Function
@@ -18108,16 +15251,6 @@ Name
 
 InspectionMasterPlan
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-261
-
-
-## Pagina 262
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Parameter
 
 Value
@@ -18156,7 +15289,6 @@ Do Not Promote
 Include In Event
 
 importcomman
-d
 
 equals
 
@@ -18232,19 +15364,9 @@ fifowithpredecessors
 
 2. Select the IMPresponse Message Type and click
 
-262
-
 icon, to create a new Message Type with the
 
 .
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 263
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 3. Select Additional Configuration and set the Outbound On Create parameter to Selected.
 4. Leave the other attributes as default (recommended) and click Save
@@ -18303,7 +15425,6 @@ Do Not Promote
 Include In Event
 
 importcomman
-d
 
 equals
 
@@ -18311,7 +15432,6 @@ equals
 ImportDataFlow/odata/
 ImportFullWorkOrder_Impo
 rtFullWorkOrderListFromXM
-L
 
 false
 
@@ -18328,16 +15448,6 @@ LogWorkFlowFromXML
 false
 
 false
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-263
-
-
-## Pagina 264
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Name
 
@@ -18434,14 +15544,6 @@ Value
 Name
 
 FullWorkOrderJson
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 265
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Parameter
 
@@ -18561,16 +15663,6 @@ false
 
 .
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-265
-
-
-## Pagina 266
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Configuring the Message Type for the Automatic Response
 1. Working in the Message Types tab, click the Add Object
 following properties:
@@ -18650,7 +15742,6 @@ Do Not Promote
 Include In Event
 
 importcomman
-d
 
 equals
 
@@ -18661,14 +15752,6 @@ ImportEntityNameFromXML
 false
 
 false
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 267
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Name
 
@@ -18751,7 +15834,8 @@ fifowithpredecessors
 
 .
 
-9.4.4.3 Configuring the Message Channel For XML Files
+##### Configuring the Message Channel For XML Files
+
 After defining the Message Types for message calls and responses, it is necessary to create a Message Channel.
 The Message Channel for import and deletion is common to all import configurations. You may have
 already configured it. In this case, you can skip this configuration step.
@@ -18769,16 +15853,6 @@ Value
 Name
 
 OpcenterEXDSImportChannel
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-267
-
-
-## Pagina 268
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Parameter
 
@@ -18864,14 +15938,6 @@ Full Work Order
 
 • FullWorkOrder
 • FullWorkOrderresponse
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 269
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 5. Select Message Type Functions, click
 
@@ -18994,16 +16060,6 @@ ifequal
 
 xp:://@FlowName;LOF
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-269
-
-
-## Pagina 270
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Name
 
 Function Type
@@ -19067,7 +16123,8 @@ the custom import data flow.
 • Modify the Arguments of the last function in the pipeline (by default FeatureExtract) replacing
 Unknown with the name of the new Extract function you have just configured.
 
-9.4.4.4 Configuring the Message Channel for JSON files
+##### Configuring the Message Channel for JSON files
+
 After defining the Message Types for message calls and responses, it is necessary to create a Message Channel.
 The Message Channel for import and deletion is common to all import configurations. You may have
 already configured it. In this case, you can skip this configuration step.
@@ -19092,14 +16149,6 @@ Description
 
 For example: Message Channel for importing data to Opcenter
 Execution Discrete
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 271
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Parameter
 
@@ -19151,7 +16200,8 @@ ifequal
 
 js::MessageType
 
-9.4.5 How to Define the File Adapter
+#### How to Define the File Adapter
+
 Depending on the functionality you intend to use, the related File Adapter must be defined accordingly:
 • Define the file adapter for Shop Floor Operations
 • Define the file adapter for data import (XML files)
@@ -19170,16 +16220,6 @@ Defining the File Adapter for Shop Floor Operations
 1. Log in to the Opcenter Connect MOM Web Application.
 2. Click the Opcenter Connect MOM Adapter Configuration tile.
 3. In the Opcenter Connect MOM Adapter Configuration page, click the File tab.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-271
-
-
-## Pagina 272
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 4. Click the Add Object
 
@@ -19207,8 +16247,6 @@ Message Channel
 UADMAutomaticShopFloorChannel
 
 Content Format
-
-Xml
 
 Inbound Name Format
 
@@ -19262,16 +16300,6 @@ Defining the File Adapter for Data Import (XML Files)
 1. Log in to the Opcenter Connect MOM Web Application.
 2. In the Opcenter Connect MOM Adapter Configuration page, click the File tab.
 
-272
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 273
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 3. Click the Add Object
 
 icon, to create a new File Adapter with the following properties:
@@ -19299,8 +16327,6 @@ Message Channel
 OpcenterEXDSImportChannel
 
 Content Format
-
-xml
 
 Inbound Name Format
 
@@ -19350,16 +16376,6 @@ The name of the MOM Connection configured before.
 7. Click Save
 
 .
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-273
-
-
-## Pagina 274
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
 
 Defining the File Adapter for Data Import (JSON files)
 1. Log in to the Opcenter Connect MOM Web Application.
@@ -19432,16 +16448,6 @@ False
 
 6. Select Additional Configuration and configure the following parameter:
 
-274
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 275
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Parameter
 
 Value
@@ -19484,8 +16490,6 @@ The name of the channel created before.
 
 Content Format
 
-xml
-
 Inbound Name Format
 
 {messagename}
@@ -19518,16 +16522,6 @@ Outbound URI
 The path to the folder where the output XML file will be placed, for
 example: C:\OpcenterEXDSInputMessage\outbound
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-275
-
-
-## Pagina 276
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter CN MOM
-
 Parameter
 
 Value
@@ -19549,8 +16543,8 @@ The name of the MOM Connection configured before.
 
 .
 
-9.4.6 How to Tune Opcenter CN MOM Parameters to Improve
-Performances
+#### How to Tune Opcenter CN MOM Parameters to Improve Performances
+
 During the automatic import of data, you may need to import a file containing large amounts of data or process
 many files at the same time. In order to reduce the risk of having time-out errors or skipping some files, it is possible
 to edit the default value of certain parameters related to Opcenter Connect MOM configuration.
@@ -19584,16 +16578,6 @@ Editing the Workflow Configuration Settings
 In the Workflow, assign in the rest call activities a timeout greater than the maximum execution time of the
 command (for example, 1 minute could not be enough and it could be better to increase it up to 5 minutes).
 
-276
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 277
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter IPL
-
 Editing the CIO Site Configuration Settings in IIS
 1. In the Internet Information Services (IIS) Manager, click the Sites folder and then click the CIO Site, where
 you can find the tool Configuration Editor.
@@ -19602,8 +16586,8 @@ below, according to your needs:
 • maxRequestLength, to import large size files,
 • shutdownTimeout, to avoid time-out errors during the import of large amounts of data in one file.
 
-9.5 Troubleshooting - Manual Configuration for Integration with
-Opcenter IPL
+### Troubleshooting - Manual Configuration for Integration with Opcenter IPL
+
 Opcenter Execution Discrete comes provided with a dedicated dxp file for integration between Opcenter EX DS and
 Opcenter IPL that, once imported into Data Integration System and after being appropriately configured, enables
 integration between the two products.
@@ -19622,7 +16606,8 @@ Execution Foundation Aux Svc Core.
 Otherwise, if you are working on a pre-existing DIS Project, operating in DIS Management Console, synchronize
 your DIS Project.
 
-9.5.1 Creating a DIS Project Manually
+#### Creating a DIS Project Manually
+
 Procedure
 For information about creating a DIS Database and generating a Master Key, see the Data Integration
 System User Manual.
@@ -19636,18 +16621,8 @@ example, EXDS_IPL_Integration).
 6. Save the DIS Project again.
 7. Operating in Windows Services, restart service Opcenter Execution Foundation Aux Svc Core.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
+#### Creating All DIS Connectors Required for Integration with Opcenter IPL
 
-277
-
-
-## Pagina 278
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter IPL
-
-9.5.2 Creating All DIS Connectors Required for Integration with Opcenter
-IPL
 Here is the list of all the DIS connectors that must be created so that all use cases are covered:
 • A WebService Connector for receiving calls from Opcenter IPL
 • An SDK Connector for the Resources Hierarchy use case
@@ -19665,7 +16640,8 @@ Prerequisites
 • Siemens.OpcenterEX.DIS.IPLSDKResourcesHierarchy.dll
 • Siemens.OpcenterEX.DIS.IPLSDKMaterialRequest.dll.
 
-9.5.2.1 Procedure
+##### Procedure
+
 1. In DIS Management Console, operating on the Tree Structure, expand the node representing your DIS Project.
 2. On node connectors, perform a right-click, select Add Connector and then select WebService.
 3. In field Connector Name, enter a name (for example, WSIPLResourcesHierarchy) to be assigned to the
@@ -19696,16 +16672,6 @@ After adding a new row:
 7. On node connectors, perform a right-click, select Add Connector and then select SDK.
 8. In field Connector Name, enter a name (for example, SDKIPLMaterialRequest) to be assigned to the SDK
 connector (for the Material Request use cases) you are creating.
-
-278
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 279
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter IPL
 
 9. Perform the settings as specified in the table below:
 In tab....
@@ -19765,16 +16731,6 @@ and Password for authentication to Opcenter Execution Discrete.
 
 4. On node connectors, perform a right-click, select Add Connector and then select HTTP Client.
 
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-279
-
-
-## Pagina 280
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter IPL
-
 5. In field Connector Name, enter a name (for example, HTTPIPLMaterialRequestCreation) to be assigned to the
 HTTP Client connector (for invoking the API provided by Opcenter IPL for the Kanban-call creation use case) you
 are creating.
@@ -19826,16 +16782,6 @@ respectively:
 json;charset=UTF-8
 - Name set to Accept and Value set to application/json.
 
-280
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-
-## Pagina 281
-
-Troubleshooting
-Troubleshooting - Manual Configuration for Integration with Opcenter IPL
-
 In tab....
 
 Do this...
@@ -19881,7 +16827,3 @@ MaterialRequestCancellation.
 14. Go to Control Panel > Internet Options > Security tab >Trusted Sites > Sites button and add both URLs to
 Opcenter Execution Discrete you set for connector HTTPIPLResourcesHierarchy and the one for connector
 HTTPIPLMaterialRequestCreation among your trusted sites.
-
-Opcenter Execution Discrete 2507 - Installation and Configuration Manual
-
-281

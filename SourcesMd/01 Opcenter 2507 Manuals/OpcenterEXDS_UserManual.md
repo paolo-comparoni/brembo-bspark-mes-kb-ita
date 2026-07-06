@@ -1,1832 +1,71 @@
-# OpcenterEXDS_UserManual
+---
+title: "OpcenterEXDS_UserManual"
+source_file: "SourcesMd/01 Opcenter 2507 Manuals/OpcenterEXDS_UserManual.md"
+project: "Brembo B-Spark - Standard Platform Documentation"
+platform: "Siemens Opcenter Execution Discrete 2507"
+scope: "Core_Standard_Manual"
+plants: [SHARED]
+---
 
-> Documento sorgente: `E:\BremboDocs\01 Opcenter 2507 Manuals\OpcenterEXDS_UserManual.pdf`  
-> Tipo: PDF · Pagine: 657
+# Opcenter Execution Discrete 2507 - User Manual
 
+> Documento sorgente: `E:\BremboDocs\01 Opcenter 2507 Manuals\OpcenterEXDS_UserManual.pdf`
+> Tipo: PDF - Pagine originali: 657
 
-## Pagina 1
+## Publication Information
 
-Opcenter Execution Discrete 2507.0001
+- **Product**: Opcenter Execution Discrete
+- **Version**: 2507
+- **Document**: User Manual
+- **Publication date**: 10/2025
+- **Revision**: PL20250808636629882
+- **Author**: Siemens AG
+- **Copyright**: © Siemens AG 2025
+- **Division**: Digital Industries
+- **Document stamp**: 20251024_141528
+- **Notice**: Technical data subject to change
+- **Address**: Postfach 48 48, 90026 NÜRNBERG, GERMANY
 
-User Manual
+## Guidelines
 
-10/2025
-PL20250808636629882
+This manual contains notes of varying importance that should be read with care:
 
+- **Important**: Highlights key information on handling the product, the product itself, or a particular part of the documentation.
+- **Note**: Provides supplementary information regarding handling the product, the product itself, or a specific part of the documentation.
 
-## Pagina 2
+### Trademarks
 
-Guidelines
-This manual contains notes of varying importance that should be read with care; i.e.:
-Important:
-Highlights key information on handling the product, the product itself or to a particular part of the documentation.
-Note: Provides supplementary information regarding handling the product, the product itself or a specific part of
-the documentation.
-Trademarks
-All names identified by ® are registered trademarks of Siemens AG.
-The remaining trademarks in this publication may be trademarks whose use by third parties for their own purposes
-could violate the rights of the owner.
-Disclaimer of Liability
-We have reviewed the contents of this publication to ensure consistency with the hardware and software
-described. Since variance cannot be precluded entirely, we cannot guarantee full consistency. However, the
-information in this publication is reviewed regularly and any necessary corrections are included in subsequent
-editions.
-Cybersecurity Information
-Siemens provides products and solutions with industrial cybersecurity functions that support the secure operation
-of plants, systems, machines and networks.
-In order to protect plants, systems, machines and networks against cyber threats, it is necessary to implement and continuously maintain - a holistic, state-of-the-art industrial cybersecurity concept. Siemens products and
-solutions constitute one element of such a concept.
-Customers are responsible for preventing unauthorized access to their plants, systems, machines and networks.
-Such systems, machines and components should only be connected to an enterprise network or the internet if and
-to the extent such a connection is necessary and only when appropriate security measures (e.g. firewalls and/or
-network segmentation) are in place.
-For additional information on industrial cybersecurity measures that may be implemented, please visit
-https://www.siemens.com/cybersecurity-industry.
+All names identified by ® are registered trademarks of Siemens AG. The remaining trademarks in this publication may be trademarks whose use by third parties for their own purposes could violate the rights of the owner.
 
-Siemens products and solutions undergo continuous development to make them more secure. Siemens strongly
-recommends that product updates are applied as soon as they are available and that the latest product versions
-are used. Use of product versions that are no longer supported, and failure to apply the latest updates may increase
-customer’s exposure to cyber threats.
+### Disclaimer of Liability
 
-To stay informed about product updates, subscribe to the Siemens Industrial Cybersecurity RSS feed under
-https://www.siemens.com/cert.
+We have reviewed the contents of this publication to ensure consistency with the hardware and software described. Since variance cannot be precluded entirely, we cannot guarantee full consistency. However, the information in this publication is reviewed regularly and any necessary corrections are included in subsequent editions.
 
-Siemens AG
+### Cybersecurity Information
 
-PL20250808636629882
+Siemens provides products and solutions with industrial cybersecurity functions that support the secure operation of plants, systems, machines and networks. In order to protect plants, systems, machines and networks against cyber threats, it is necessary to implement and continuously maintain a holistic, state-of-the-art industrial cybersecurity concept. Siemens products and solutions constitute one element of such a concept. Customers are responsible for preventing unauthorized access to their plants, systems, machines and networks. Such systems, machines and components should only be connected to an enterprise network or the internet if and to the extent such a connection is necessary and only when appropriate security measures (for example, firewalls and/or network segmentation) are in place. For additional information on industrial cybersecurity measures that may be implemented, please visit https://www.siemens.com/cybersecurity-industry.
 
-Copyright © Siemens AG 2025
+Siemens products and solutions undergo continuous development to make them more secure. Siemens strongly recommends that product updates are applied as soon as they are available and that the latest product versions are used. Use of product versions that are no longer supported, and failure to apply the latest updates may increase the customer's exposure to cyber threats. To stay informed about product updates, subscribe to the Siemens Industrial Cybersecurity RSS feed at https://www.siemens.com/cert.
 
-Digital Industries
+## Document Metadata
 
-20251024_141528
+| Field | Value |
+| --- | --- |
+| ID | OpcenterEXDS_UserManual |
+| Title | User Manual |
+| Product Title | Opcenter Execution Discrete |
+| Version Title | 2507.0001 |
+| Product Version | OpcenterEXDS_2507.0001 |
+| Category | Runtime |
+| Summary | Provides detailed information on how to use the Opcenter Execution Discrete web user interface. |
+| Audience | Operator, Supervisor, Support Engineer |
+| Revision | PL20250808636629882 |
+| State | Published |
+| Author | Siemens AG |
+| Language | en-US |
 
-Technical data subject to change
+## 1 Basic Know-How Before Getting Started
 
-Postfach 48 48
-90026 NÜRNBERG
-GERMANY
-
-
-## Pagina 3
-
-Table of Contents
-1
-
-Basic Know-How Before Getting Started........................................................17
-
-1.1
-
-Apps and Extension Apps included in the Available Discrete Solutions ............................21
-
-1.1.1
-
-Opcenter Execution Discrete Apps ....................................................................................................................24
-
-1.1.2
-
-Opcenter Execution Discrete Consolidated Extended Model Apps .................................................................29
-
-1.1.3
-
-Opcenter Execution Discrete Extension Apps ...................................................................................................30
-
-1.1.4
-
-Opcenter Execution Foundation Apps...............................................................................................................43
-
-1.1.5
-
-Opcenter Execution Foundation Extension Apps .............................................................................................45
-
-1.2
-
-Speeding Up Operator Landing Page Loading through Task Customization....................46
-
-2
-
-Quick Start to Using Opcenter Execution Discrete.........................................47
-
-3
-
-How to Configure the Production Environment.............................................48
-
-3.1
-
-Applying General Configuration Settings ............................................................................49
-
-3.1.1
-
-Engineering Configuration Settings ..................................................................................................................49
-
-3.1.2
-
-Runtime Configuration Settings ........................................................................................................................52
-
-3.1.3
-
-Result Configuration Settings ............................................................................................................................58
-
-3.1.4
-
-Additive Manufacturing Configuration Settings ...............................................................................................61
-
-3.1.5
-
-Integration Configuration Settings....................................................................................................................62
-
-3.1.6
-
-E-mail Configuration Settings............................................................................................................................64
-
-3.1.7
-
-CLM Integration Configuration Settings............................................................................................................66
-
-3.1.8
-
-AMN Integration Configuration Settings ...........................................................................................................68
-
-3.1.9
-
-Certification Configuration Settings..................................................................................................................69
-
-3.1.10
-
-OPC IN Integration Configuration Settings .......................................................................................................69
-
-3.2
-
-How to Define the Plant Structure .......................................................................................71
-
-3.2.1
-
-Creating Equipment Configurations..................................................................................................................71
-
-3.2.2
-
-How to Design the Equipment Hierarchy ..........................................................................................................73
-
-3.3
-
-How to Configure Numbering Patterns ...............................................................................74
-
-3.4
-
-How to Configure Line Sequences .......................................................................................79
-
-3.5
-
-How to Configure Barcode Rules .........................................................................................80
-
-3.5.1
-
-Creating Barcode Rules ......................................................................................................................................81
-
-3.5.2
-
-Creating Rule Parts .............................................................................................................................................82
-
-3.5.3
-
-Associating a Barcode Rule to a Material ..........................................................................................................83
-
-3.5.4
-
-Associating a Barcode Rule to a Functional Code.............................................................................................84
-
-3.5.5
-
-Associating Barcode Rules to Final Product Types...........................................................................................84
-
-3.5.6
-
-Viewing Barcode History ....................................................................................................................................84
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-iii
-
-
-## Pagina 4
-
-3.6
-
-How to Configure Final Product Types ................................................................................85
-
-3.6.1
-
-Creating Final Product Types.............................................................................................................................85
-
-3.6.2
-
-Configuring the Is Structure Blocker Behavior..................................................................................................86
-
-3.6.3
-
-Assigning Production Lines to a Final Product Type ........................................................................................87
-
-3.6.4
-
-Setting Validity Checks on Structures ...............................................................................................................87
-
-3.6.5
-
-Editing the Execution Type assigned to a Final Product Type .........................................................................88
-
-3.7
-
-Configuring Reasons .............................................................................................................88
-
-3.8
-
-How to Configure Documents ..............................................................................................89
-
-3.9
-
-How to Configure Failures ....................................................................................................91
-
-3.10
-
-How to Configure Tool Definitions.......................................................................................93
-
-3.11
-
-How to Configure Screwing Tool Definitions.......................................................................97
-
-3.12
-
-How to Configure Open Protocol Tool Definitions..............................................................98
-
-3.13
-
-How to Configure Materials ..................................................................................................99
-
-3.13.1
-
-How to Configure Material Classes, Suppliers and Functional Codes ...........................................................100
-
-3.13.2
-
-Creating a Material from Scratch .....................................................................................................................102
-
-3.13.3
-
-Copying a Material ............................................................................................................................................104
-
-3.13.4
-
-Creating a Revision of a Material .....................................................................................................................104
-
-3.13.5
-
-Associating Documents to a Material ..............................................................................................................105
-
-3.13.6
-
-Associating a Numbering Pattern to a Material ..............................................................................................105
-
-3.13.7
-
-Associating Suppliers to a Material..................................................................................................................106
-
-3.13.8
-
-How to Configure Bill of Materials ...................................................................................................................106
-
-3.14
-
-Configuring Powder Materials............................................................................................109
-
-3.15
-
-How to Configure Bills of Materials for Product Configurations.......................................110
-
-3.16
-
-How to Configure Bills of Features.....................................................................................111
-
-3.16.1
-
-Configuring Features ........................................................................................................................................113
-
-3.16.2
-
-Configuring Feature Values ..............................................................................................................................114
-
-3.16.3
-
-Configuring Options .........................................................................................................................................114
-
-3.17
-
-How to Configure Product Configurations ........................................................................115
-
-3.17.1
-
-How to Check Product Manufacture Feasibility..............................................................................................117
-
-3.18
-
-Configuring Substrates .......................................................................................................119
-
-3.19
-
-Configuring Custom Logistic Classes .................................................................................121
-
-3.20
-
-Configuring Buffer Definitions............................................................................................121
-
-3.21
-
-How to Configure Container Types ....................................................................................123
-
-3.22
-
-How to Configure Operation/Step Categories...................................................................125
-
-iv
-
-Opcenter Execution Discrete2507.0001 - User Manual
-
-
-## Pagina 5
-
-3.23
-
-How to Manage Catalogs ....................................................................................................129
-
-3.23.1
-
-How to Manage the Process Catalog ...............................................................................................................129
-
-3.23.2
-
-How to Manage the Operation Catalog ...........................................................................................................130
-
-3.23.3
-
-How to Manage the Step Catalog ....................................................................................................................134
-
-3.24
-
-How to Configure Plugins ...................................................................................................137
-
-3.25
-
-How To Configure 3D Printers ............................................................................................138
-
-3.26
-
-How to Configure Print Job Files........................................................................................140
-
-3.26.1
-
-Importing Print Job Files..................................................................................................................................141
-
-3.26.2
-
-Creating Print Job Files Manually ....................................................................................................................141
-
-3.26.3
-
-Finalizing the Print Job File Configuration......................................................................................................143
-
-3.27
-
-Configuring Rework Codes .................................................................................................144
-
-3.28
-
-Configuring Non-Productive Activities ..............................................................................145
-
-3.29
-
-Importing and Mapping CNC Packages .............................................................................145
-
-3.30
-
-Configuring Work Operations.............................................................................................147
-
-3.31
-
-How to Configure Custom Non-Conformance Lifecycles .................................................150
-
-3.31.1
-
-Creating a Non-Conformance Lifecycle...........................................................................................................150
-
-3.31.2
-
-Creating a Non-Conformance Status...............................................................................................................151
-
-3.31.3
-
-Configuring a Transition...................................................................................................................................152
-
-3.31.4
-
-Associating States to Behaviors.......................................................................................................................153
-
-3.31.5
-
-Associating Transitions to User Roles and E-mail Addresses.........................................................................153
-
-3.32
-
-Configuring Custom Interlocking Checks ..........................................................................154
-
-3.33
-
-Configuring Custom Result Types ......................................................................................156
-
-3.34
-
-Linking Items to Buffer Definitions ....................................................................................157
-
-3.35
-
-How to Configure Setpoints ...............................................................................................158
-
-3.36
-
-How to Configure Line Side Positions................................................................................160
-
-3.37
-
-How to Configure Qualification Criteria.............................................................................163
-
-3.38
-
-How to Configure and Manage Output Messages .............................................................167
-
-3.38.1
-
-Creating Output Message Destinations ...........................................................................................................167
-
-3.38.2
-
-Creating Output Message Definitions..............................................................................................................169
-
-3.38.3
-
-How to Configure Output Message Sections...................................................................................................170
-
-3.39
-
-How to Configure Production Flow Control Diagrams......................................................173
-
-3.39.1
-
-Configuring Milestone Catalogs.......................................................................................................................174
-
-3.39.2
-
-How to Create a Production Flow Control Diagram .......................................................................................175
-
-3.39.3
-
-How to Configure Milestones ...........................................................................................................................176
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-v
-
-
-## Pagina 6
-
-3.39.4
-
-How to Configure Milestones Behavior ...........................................................................................................177
-
-3.40
-
-How to Configure Quality Gates .........................................................................................180
-
-4
-
-How to Create and Prepare Human Resources and Their Capabilities.......182
-
-4.1
-
-Configuring Skills ................................................................................................................182
-
-4.2
-
-Configuring Certifications...................................................................................................183
-
-4.3
-
-How to Create and Prepare Teams ....................................................................................184
-
-5
-
-How to Configure the Production Processes................................................187
-
-5.1
-
-How to Manage As Planned BOPs and Processes .............................................................187
-
-5.1.1
-
-Creating As Planned BOPs and Processes.......................................................................................................189
-
-5.1.2
-
-Linking Processes to As Planned BOPs............................................................................................................190
-
-5.1.3
-
-Linking Documents to As Planned BOPs .........................................................................................................191
-
-5.1.4
-
-Linking Document Items to As Planned BOPs.................................................................................................192
-
-5.1.5
-
-Cloning an As Planned BOP..............................................................................................................................193
-
-5.1.6
-
-Evolving an As Planned BOP ............................................................................................................................193
-
-5.1.7
-
-Creating a Revision of a Process ......................................................................................................................193
-
-5.1.8
-
-Completing an As Planned BOP .......................................................................................................................194
-
-5.2
-
-How to Manage Master Plans and Processes.....................................................................194
-
-5.2.1
-
-Creating Master Plans and Processes..............................................................................................................195
-
-5.2.2
-
-Linking Processes to Master Plans...................................................................................................................196
-
-5.2.3
-
-Linking Documents to Master Plans ................................................................................................................197
-
-5.2.4
-
-Setting Qualification Criteria for Operation Folders.......................................................................................198
-
-5.2.5
-
-Setting Qualification Criteria for Process Operations and Specifications.....................................................199
-
-5.2.6
-
-Setting Qualification Criteria for Setpoint Variables ......................................................................................199
-
-5.2.7
-
-Completing Master Plans .................................................................................................................................200
-
-5.3
-
-Creating a Sub-Process.......................................................................................................200
-
-5.4
-
-Creating a Process Operation.............................................................................................203
-
-5.5
-
-Creating an Operation Folder.............................................................................................206
-
-5.6
-
-Defining Dependencies between Process Operations ......................................................207
-
-5.7
-
-Defining Dependencies between Operation Folders ........................................................208
-
-5.8
-
-Defining Groups of Alternative Process Operations..........................................................209
-
-5.9
-
-Associating Items to Process Operations ..........................................................................210
-
-5.9.1
-
-Associating Machines to Process Operations..................................................................................................211
-
-5.9.2
-
-Associating Materials to Process Operations ..................................................................................................214
-
-5.9.3
-
-Associating Functional Codes to Process Operations ....................................................................................216
-
-vi
-
-Opcenter Execution Discrete2507.0001 - User Manual
-
-
-## Pagina 7
-
-5.9.4
-
-Associating Tools to Process Operations ........................................................................................................219
-
-5.9.5
-
-Associating Screwing Tools to Process Operations ........................................................................................220
-
-5.9.6
-
-Associating Open Protocol Tools to Process Operations ...............................................................................221
-
-5.9.7
-
-Linking Documents to Process Operations .....................................................................................................222
-
-5.9.8
-
-Associating Work Instructions to Process Operations....................................................................................223
-
-5.9.9
-
-Associating Skills to Process Operations.........................................................................................................224
-
-5.9.10
-
-Linking Interlocking Checks to Process Operations .......................................................................................225
-
-5.9.10.1 Role of Work Order Production Type for the DocumentsUploaded Interlocking Check ..............................226
-5.9.11
-
-Linking Inspection Definitions to Process Operations....................................................................................227
-
-5.9.12
-
-Associating Powders to Process Operations...................................................................................................229
-
-5.9.13
-
-Linking Human Resources to Process Operations..........................................................................................229
-
-5.9.14
-
-Linking Material Parameters to Automation Node Instance Parameters......................................................230
-
-5.9.15
-
-Linking Data Collection Parameters to Automation Node Instance Parameters..........................................231
-
-5.9.16
-
-Linking Tool Definition Parameters to Automation Node Instance Parameters ..........................................231
-
-5.9.17
-
-Linking Setpoint Variables to Automation Node Parameters ........................................................................232
-
-5.10
-
-Creating a Process Step ......................................................................................................233
-
-5.11
-
-Defining Dependencies between Process Steps ...............................................................235
-
-5.12
-
-Associating Items to Process Steps....................................................................................235
-
-5.12.1
-
-Associating Materials to Process Steps ...........................................................................................................236
-
-5.12.2
-
-Associating Tools to Process Steps..................................................................................................................238
-
-5.12.3
-
-Linking Documents to Process Steps ..............................................................................................................239
-
-5.12.4
-
-Associating Work Instructions to Process Steps .............................................................................................239
-
-5.12.5
-
-Associating Skills to Process Steps..................................................................................................................240
-
-5.12.6
-
-Linking Interlocking Checks to Process Steps.................................................................................................240
-
-5.12.7
-
-Linking Inspection Definitions to Process Steps.............................................................................................242
-
-5.12.8
-
-Linking Human Resources to Process Steps ...................................................................................................243
-
-6
-
-How to Prepare Production Execution .........................................................244
-
-6.1
-
-How to Create and Prepare Material Tracking Units.........................................................244
-
-6.1.1
-
-Splitting Material Tracking Units .....................................................................................................................247
-
-6.1.2
-
-Changing Material Tracking Unit Codes ..........................................................................................................249
-
-6.2
-
-Creating Powder Material Batches.....................................................................................249
-
-6.3
-
-Creating Tools .....................................................................................................................251
-
-6.4
-
-How to Create Screwing Tools ...........................................................................................253
-
-6.5
-
-How to Configure Open Protocol Tools .............................................................................254
-
-6.6
-
-Creating Substrates ............................................................................................................256
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-vii
-
-
-## Pagina 8
-
-6.7
-
-How to Create and Prepare Buffers ...................................................................................257
-
-6.8
-
-How to Create and Prepare Containers .............................................................................259
-
-6.9
-
-Creating ERP Orders............................................................................................................263
-
-6.9.1
-
-How to Manage ERP Orders States ..................................................................................................................266
-
-6.10
-
-How to Create and Prepare Work Orders for Production Execution ................................268
-
-6.10.1
-
-Creating a Work Order ......................................................................................................................................268
-
-6.10.1.1 Creating a Work Order from a Process ............................................................................................................270
-6.10.1.2 Creating a Work Order Manually......................................................................................................................272
-6.10.1.3 Creating Work Orders from an As Planned BOP..............................................................................................275
-6.10.1.4 Creating a Work Order from a Work Order Header .........................................................................................277
-6.10.1.5 Creating a Work Order from a Master Plan......................................................................................................280
-6.10.1.6 Creating a Work Order from a Master Plan with Qualification Criteria ..........................................................283
-6.10.1.7 Creating a Work Order from a Master Plan with Effectivity ............................................................................286
-6.10.2
-
-Completing Work Order Configuration ...........................................................................................................289
-
-6.10.2.1 How to Create Work Order Operations............................................................................................................290
-6.10.2.2 Creating Work Order Operation Folders..........................................................................................................296
-6.10.2.3 Defining Dependencies between Work Order Operations .............................................................................297
-6.10.2.4 Defining Dependencies between Work Order Operation Folders ..................................................................300
-6.10.2.5 Defining Groups of Alternative Work Order Operations .................................................................................302
-6.10.2.6 Creating Work Order Steps manually ..............................................................................................................303
-6.10.2.7 Defining Dependencies between Work Order Steps.......................................................................................304
-6.10.2.8 Associating Items to Work Order Operations..................................................................................................305
-6.10.2.9 Associating Items to Work Order Steps ...........................................................................................................318
-6.10.2.10 Associating Users to Work Order Operations ..................................................................................................327
-6.10.3
-
-Updating Work Orders Created from an Out-of-Date As Planned BOP..........................................................328
-
-6.10.4
-
-Scheduling a Work Order .................................................................................................................................330
-
-6.10.5
-
-Releasing a Work Order ....................................................................................................................................332
-
-6.10.6
-
-Pre-Transferring Print Job Files to 3D Printers ...............................................................................................333
-
-6.10.7
-
-Editing Released Work Orders Before Execution ............................................................................................333
-
-6.10.8
-
-Splitting a Work Order ......................................................................................................................................334
-
-6.10.9
-
-Performing Pre-Kitting for Work Orders ..........................................................................................................335
-
-6.11
-
-How to Create and Prepare Execution Groups for Production Execution .......................338
-
-6.11.1
-
-Creating an Execution Group ...........................................................................................................................339
-
-6.11.2
-
-Linking Work Order Operations to an Execution Group .................................................................................339
-
-6.11.3
-
-Updating Execution Group Phases ..................................................................................................................341
-
-6.11.4
-
-Linking Print Job Files to Execution Group Phases ........................................................................................343
-
-viii
-
-Opcenter Execution Discrete2507.0001 - User Manual
-
-
-## Pagina 9
-
-6.11.5
-
-Linking Work Instructions to Execution Group Phases...................................................................................343
-
-6.11.6
-
-Associating Powders to Execution Group Phases...........................................................................................344
-
-6.11.7
-
-Scheduling an Execution Group.......................................................................................................................345
-
-6.11.8
-
-Releasing an Execution Group .........................................................................................................................346
-
-6.11.9
-
-Editing Scheduled or Released Execution Groups..........................................................................................346
-
-7
-
-How to Manage Production Execution .........................................................348
-
-8
-
-How to Execute Work Orders in the Operator Landing Page (legacy).........349
-
-8.1
-
-Navigation of the Operator Landing Page .........................................................................350
-
-8.1.1
-
-Runtime Behavior in case of Dependencies between different Work Orders ...............................................354
-
-8.2
-
-Joining and Leaving Teams at Runtime.............................................................................355
-
-8.3
-
-Managing Automatically Executed Work Order Operations .............................................356
-
-8.4
-
-Previewing Work Order Operations, Work Order Steps and Execution Groups...............358
-
-8.5
-
-Previewing Document Files ................................................................................................359
-
-8.6
-
-Previewing Work Instructions ............................................................................................360
-
-8.7
-
-Loading Containers.............................................................................................................360
-
-8.8
-
-Starting Work Order Operations ........................................................................................362
-
-8.8.1
-
-Special Cases and Constraints When Starting a Work Order Operation or Work Order Step.......................365
-
-8.9
-
-Managing Work Order Operations......................................................................................367
-
-8.9.1
-
-Managing Tasks for Work Order Operation or Step Progression ...................................................................370
-
-8.9.1.1
-
-How to Manage Work Instructions...................................................................................................................372
-
-8.9.1.2
-
-Using Tools........................................................................................................................................................374
-
-8.9.1.3
-
-Using Screwing Tools .......................................................................................................................................375
-
-8.9.1.4
-
-Using Substrates...............................................................................................................................................376
-
-8.9.1.5
-
-Consuming or Assembling Material Tracking Units ........................................................................................377
-
-8.9.1.6
-
-How to Disassemble Material Tracking Units..................................................................................................385
-
-8.9.1.7
-
-How to Manage Quality Inspections ................................................................................................................388
-
-8.9.1.8
-
-Transferring Print Job Files to 3D Printers ......................................................................................................393
-
-8.9.1.9
-
-Transferring CNC Programs to Machines ........................................................................................................395
-
-8.9.1.10 Producing Material Tracking Units at Runtime ...............................................................................................396
-8.9.1.11 How to Manage Powder Material Batches.......................................................................................................398
-8.9.2
-
-Changing Serial Numbers during Production .................................................................................................402
-
-8.9.3
-
-Skipping Work Order Operations.....................................................................................................................403
-
-8.9.4
-
-Adding Documents to Work Order Operations at Runtime ............................................................................403
-
-8.9.5
-
-Adding Notes to Work Order Operations at Runtime .....................................................................................404
-
-8.9.6
-
-Aborting Work Orders.......................................................................................................................................405
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-ix
-
-
-## Pagina 10
-
-8.9.7
-
-Placing Work Orders on Hold ...........................................................................................................................406
-
-8.9.8
-
-Placing Work Order Operations on Future Hold .............................................................................................406
-
-8.9.9
-
-Placing Workcenters and Machines on Hold...................................................................................................407
-
-8.9.10
-
-Managing Work Order Updates........................................................................................................................407
-
-8.9.11
-
-Pausing and Resuming Work Order Operations .............................................................................................408
-
-8.9.11.1 Reopening Work Order Operations .................................................................................................................409
-8.9.11.2 Special Case: Performing an Administrative Pause ........................................................................................410
-8.9.12
-
-Closing Flexible Work Orders ...........................................................................................................................411
-
-8.9.13
-
-How to Manage Non-Productive Activities......................................................................................................411
-
-8.9.13.1 Managing Non-Productive Activities from the Users page.............................................................................412
-8.9.13.2 Managing Non-Productive Activities from the Operator Landing Page ........................................................413
-8.9.13.3 Managing Non-Productive Activities from the Notification Bar.....................................................................414
-
-8.10
-
-Completing Work Order Operations ..................................................................................414
-
-8.11
-
-Unloading Containers .........................................................................................................417
-
-8.12
-
-How to Execute Production on Execution Groups ............................................................418
-
-8.12.1
-
-Navigation of the Execution Group Working Environment at Runtime .........................................................419
-
-8.12.2
-
-How to Prepare Execution Groups during Production Execution..................................................................420
-
-8.12.2.1 Creating an Execution Group On The Fly.........................................................................................................420
-8.12.2.2 Linking Work Order Operations to an Existing Execution Group ...................................................................421
-8.12.3
-
-Starting Execution Groups ...............................................................................................................................422
-
-8.12.4
-
-Consuming Materials of type Additive from an Execution Group ..................................................................423
-
-8.12.5
-
-Tracking Powder Material Batches for Execution Groups ..............................................................................424
-
-8.12.6
-
-How to Manage Work Instructions for Execution Group Phases....................................................................426
-
-8.12.7
-
-Pausing and Resuming Execution Groups.......................................................................................................427
-
-8.12.8
-
-Completing Execution Groups .........................................................................................................................428
-
-8.12.9
-
-Aborting Execution Groups ..............................................................................................................................428
-
-8.13
-
-How to Manage Offline Sessions ........................................................................................429
-
-8.14
-
-How to Manage Additive Manufacturing-related Activities ..............................................430
-
-8.14.1
-
-Performing Substrate Treatment ....................................................................................................................431
-
-8.14.2
-
-Reducing Substrate Thickness.........................................................................................................................431
-
-8.14.3
-
-Maintaining Substrates ....................................................................................................................................432
-
-8.14.4
-
-Loading Powder Material Batches into 3D Printers ........................................................................................433
-
-8.14.5
-
-Recycling Powder Material Batches ................................................................................................................434
-
-8.14.6
-
-Mixing Powder Material Batches......................................................................................................................435
-
-8.15
-
-How to Manage Buffer Replenishment and Transport Operations ..................................439
-
-8.15.1
-
-How to Configure Handling Units ....................................................................................................................439
-
-x
-
-Opcenter Execution Discrete2507.0001 - User Manual
-
-
-## Pagina 11
-
-8.15.2
-
-Declaring Logistic Requests .............................................................................................................................440
-
-8.15.3
-
-Accepting Logistic Requests ............................................................................................................................442
-
-8.15.4
-
-Executing Transport Operations......................................................................................................................443
-
-8.15.5
-
-How to Unload Handling Units ........................................................................................................................443
-
-9
-
-How to Execute Work Orders in the Operator Terminal for Complex
-Manufacturing................................................................................................445
-
-9.1
-
-Navigation of the Operator Terminal for Complex Manufacturing ..................................445
-
-9.2
-
-Starting Work Order Operations ........................................................................................448
-
-9.3
-
-Managing Work Order Operations......................................................................................450
-
-9.3.1
-
-Displaying Document Files...............................................................................................................................453
-
-9.3.2
-
-Managing Activities for Work Order Operation Step Progression ..................................................................454
-
-9.3.2.1
-
-How to Manage Work Instructions...................................................................................................................455
-
-9.3.2.2
-
-Using Tools........................................................................................................................................................456
-
-9.3.2.3
-
-Consuming Material Tracking Units ................................................................................................................457
-
-9.3.2.4
-
-How to Manage Quality Inspections ................................................................................................................462
-
-9.3.2.5
-
-Disassembling Material Tracking Units ...........................................................................................................466
-
-9.3.2.6
-
-Scrapping Consumed Material Tracking Units and Material Tracking Units to be Consumed.....................467
-
-9.3.2.7
-
-Transferring Part Program ...............................................................................................................................468
-
-9.3.3
-
-Adding Notes to Work Order Operations.........................................................................................................468
-
-9.3.4
-
-Placing Work Orders on Hold ...........................................................................................................................469
-
-9.3.5
-
-Pausing and Resuming Work Order Operations .............................................................................................470
-
-9.3.6
-
-Adding Documents at Runtime........................................................................................................................470
-
-9.3.7
-
-How to Manage Non-Productive Activities......................................................................................................471
-
-9.3.8
-
-Closing Flexible Work Orders ...........................................................................................................................472
-
-9.3.9
-
-Scrapping Serial Numbers from Work Order Operations and Work Order Steps..........................................473
-
-9.4
-
-Completing Work Order Operations ..................................................................................473
-
-9.5
-
-Declaring Quality Non-Conformances during Production................................................474
-
-9.6
-
-Requesting Change Packages on a Work Order Operation or Work Order Step..............475
-
-10
-
-How to Execute Work Orders in the Operator Terminal for Repetitive
-Manufacturing................................................................................................477
-
-10.1
-
-Navigation of the Operator Terminal for Repetitive Manufacturing ................................477
-
-10.2
-
-Starting Work Order Operations ........................................................................................481
-
-10.3
-
-Managing Work Order Operations......................................................................................481
-
-10.3.1
-
-Displaying Document Files...............................................................................................................................484
-
-10.3.2
-
-Managing Activities for Work Order Operation Step Progression ..................................................................485
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-xi
-
-
-## Pagina 12
-
-10.3.2.1 How to Manage Work Instructions...................................................................................................................486
-10.3.2.2 Using Tools........................................................................................................................................................488
-10.3.2.3 Consuming Material Tracking Units ................................................................................................................489
-10.3.2.4 How to Manage Quality Inspections ................................................................................................................493
-10.3.2.5 Disassembling Material Tracking Units ...........................................................................................................497
-10.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking Units to be Consumed.....................498
-10.3.2.7 Transferring Part Program ...............................................................................................................................499
-10.3.3
-
-Adding Notes to Work Order Operations.........................................................................................................499
-
-10.3.4
-
-Placing Work Orders on Hold ...........................................................................................................................500
-
-10.3.5
-
-Pausing and Resuming Work Order Operations .............................................................................................501
-
-10.3.6
-
-Adding Documents at Runtime........................................................................................................................501
-
-10.3.7
-
-How to Manage Non-Productive Activities......................................................................................................502
-
-10.3.8
-
-Closing Flexible Work Orders ...........................................................................................................................503
-
-10.3.9
-
-Scrapping Quantities from Work Order Operations and Work Order Steps ..................................................504
-
-10.4
-
-Completing Work Order Operations ..................................................................................504
-
-10.5
-
-Declaring Non-Conformances of Type Quality during Production ..................................505
-
-10.6
-
-Requesting Change Packages on a Work Order Operation or Work Order Step..............506
-
-11
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-........................................................................................................................508
-
-11.1
-
-Navigation of the Operator Terminal for Manufacturing ..................................................508
-
-11.2
-
-Starting Work Order Operations ........................................................................................511
-
-11.3
-
-Managing Work Order Operations......................................................................................512
-
-11.3.1
-
-Displaying Document Files...............................................................................................................................515
-
-11.3.2
-
-Managing Activities for Work Order Operation Step Progression ..................................................................517
-
-11.3.2.1 How to Manage Work Instructions...................................................................................................................517
-11.3.2.2 Using Tools........................................................................................................................................................519
-11.3.2.3 Consuming Material Tracking Units ................................................................................................................520
-11.3.2.4 How to Manage Quality Inspections ................................................................................................................524
-11.3.2.5 Disassembling Material Tracking Units ...........................................................................................................528
-11.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking Units to be Consumed.....................529
-11.3.3
-
-Adding Notes to Work Order Operations.........................................................................................................530
-
-11.3.4
-
-Placing Work Orders on Hold ...........................................................................................................................531
-
-11.3.5
-
-Pausing and Resuming Work Order Operations .............................................................................................531
-
-11.3.6
-
-Adding Documents at Runtime........................................................................................................................532
-
-11.3.7
-
-How to Manage Non-Productive Activities......................................................................................................533
-
-11.3.8
-
-Closing Flexible Work Orders ...........................................................................................................................533
-
-xii
-
-Opcenter Execution Discrete2507.0001 - User Manual
-
-
-## Pagina 13
-
-11.3.9
-
-Scrapping Serial Numbers or Quantities from Work Order Operations and Work Order Steps ...................534
-
-11.4
-
-Completing Work Order Operations ..................................................................................535
-
-11.5
-
-Declaring Quality Non-Conformances during Production................................................536
-
-11.6
-
-Requesting Change Packages on Work Order Operations................................................537
-
-12
-
-How to Execute Inspection Orders in the Operator Terminal for Quality
-Execution........................................................................................................539
-
-12.1
-
-Navigation of the Operator Terminal for Quality Execution.............................................539
-
-12.2
-
-Displaying Document Files .................................................................................................540
-
-12.3
-
-Managing Inspection Order Operations.............................................................................541
-
-12.3.1
-
-How to Manage Quality Inspections ................................................................................................................542
-
-12.3.1.1 Special Cases regarding Quality Inspections ..................................................................................................544
-
-13
-
-How to Execute Production in the Operator Terminal for One Piece Flow
-........................................................................................................................547
-
-13.1
-
-Navigation of the Operator Terminal for One Piece Flow.................................................547
-
-13.2
-
-Previewing Document Files ................................................................................................551
-
-13.3
-
-Declaring Milestones...........................................................................................................552
-
-13.4
-
-Managing Traceability Operations.....................................................................................553
-
-13.5
-
-Managing Defects................................................................................................................555
-
-13.6
-
-Managing Generic Data Collection Operations .................................................................556
-
-13.7
-
-Managing Screwing Operations .........................................................................................557
-
-13.8
-
-Managing Open Protocol Operations ................................................................................558
-
-13.9
-
-Managing Mandatory Positive Confirmation.....................................................................560
-
-13.10
-
-How to Manage Quality Gates ............................................................................................560
-
-13.11
-
-Managing Line Side Positions.............................................................................................562
-
-14
-
-How to Manage Inspection Orders................................................................565
-
-15
-
-How to Manage Non-Conformances.............................................................567
-
-15.1
-
-Declaring Quality Non-Conformances during Production................................................568
-
-15.2
-
-Declaring Quality Non-Conformances on Work Order Operations ..................................570
-
-15.3
-
-Declaring Non-Conformances of type Quality on Production Entities ............................572
-
-15.4
-
-Declaring Change Non-Conformances...............................................................................575
-
-15.4.1
-
-Example of a Repeat Operation Change Non-Conformance..........................................................................577
-
-16
-
-How to Manage Change Packages ................................................................580
-
-16.1
-
-Viewing the Details of a Change Package ..........................................................................581
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-xiii
-
-
-## Pagina 14
-
-16.2
-
-Modifying a Work Order Operation or Work Order Step against a Change Package
-Request................................................................................................................................581
-
-17
-
-How to Handle Notifications .........................................................................586
-
-17.1
-
-Handling Note Notifications...............................................................................................588
-
-17.2
-
-Handling Work Order Notifications....................................................................................589
-
-17.3
-
-Handling Process Notifications ..........................................................................................589
-
-17.4
-
-Handling Change Non-Conformances ...............................................................................590
-
-17.5
-
-Handling Buy-Off Notifications ..........................................................................................595
-
-17.6
-
-Handling Quality Non-Conformances................................................................................596
-
-17.7
-
-Handling Integration Event Failure Notifications..............................................................600
-
-18
-
-How to Monitor and Tweak Production Execution ......................................602
-
-18.1
-
-Viewing Work Order Progress.............................................................................................603
-
-18.2
-
-Viewing Work Order Progress from the Work Order Network Page .................................604
-
-18.3
-
-Viewing Work Order Genealogy..........................................................................................605
-
-18.4
-
-Displaying Historical Data ..................................................................................................608
-
-18.5
-
-Tracking Additional Actions ...............................................................................................613
-
-18.6
-
-How to Monitor and Manage Output Messages at Runtime .............................................614
-
-18.7
-
-Monitoring Work Order Operations in Execution on a Workcenter or Machine...............617
-
-18.8
-
-Associating Additional Users to Work Order Operations ..................................................618
-
-18.9
-
-Updating the Labor Time....................................................................................................618
-
-18.10
-
-Displaying Information on Work Order Operations ..........................................................619
-
-18.11
-
-How to view Material Tracking Unit Structures.................................................................620
-
-18.12
-
-Viewing and Amending the Results of a Material Tracking Unit .......................................622
-
-18.13
-
-Monitoring Production Items .............................................................................................624
-
-18.14
-
-Declaring Milestones at Runtime .......................................................................................626
-
-18.15
-
-Displaying the Outcome of Milestone Declarations ..........................................................628
-
-18.16
-
-Displaying Powder Genealogy............................................................................................629
-
-18.17
-
-Tracking Non-Conformance Histories ...............................................................................630
-
-18.18
-
-Monitoring and Managing Kanban Calls ............................................................................631
-
-18.19
-
-Displaying Integration Events ............................................................................................632
-
-18.20
-
-Monitoring Imported Data Flows .......................................................................................633
-
-18.21
-
-Viewing the ERP Orders associated with a Product Configuration ..................................635
-
-xiv
-
-Opcenter Execution Discrete2507.0001 - User Manual
-
-
-## Pagina 15
-
-18.22
-
-How to View ERP Order Structures ....................................................................................636
-
-18.23
-
-Monitoring ERP Order Status..............................................................................................637
-
-19
-
-How to Integrate Opcenter Execution Discrete with Other Systems ..........639
-
-19.1
-
-How to Benefit from Integration with Siemens Opcenter APS .........................................639
-
-19.1.1
-
-Scheduling Work Orders/Work Order Operations from Opcenter APS..........................................................640
-
-19.1.2
-
-Verifying the Download of Scheduled Work Orders/Work Order Operations to Opcenter Execution Discrete
-...........................................................................................................................................................................640
-
-19.2
-
-How to Benefit from Integration with DNC Systems.........................................................641
-
-19.3
-
-How to Benefit from Integration with Siemens AM Network............................................641
-
-19.3.1
-
-Importing 3D Printers into Opcenter Execution Discrete ...............................................................................642
-
-19.3.2
-
-How to Import Ready Print Jobs to Opcenter Execution Discrete .................................................................643
-
-19.4
-
-How to Benefit from Integration with Opcenter Intraplant Logistics ..............................644
-
-19.4.1
-
-Prerequisites .....................................................................................................................................................644
-
-19.5
-
-How to Benefit from Integration with Siemens OPC IN Traceability Application............645
-
-19.5.1
-
-Prerequisites to import Containment Releases ..............................................................................................646
-
-19.5.2
-
-Workflow ...........................................................................................................................................................646
-
-20
-
-Deprecated Functionalities ...........................................................................647
-
-20.1
-
-Configuring Defects (Deprecated)......................................................................................647
-
-20.2
-
-Configuring 3D Printers (Deprecated)................................................................................649
-
-20.3
-
-Configuring Powder Materials (Deprecated) .....................................................................649
-
-20.4
-
-Creating Powder Material Batches (Deprecated) ..............................................................650
-
-20.5
-
-Recycling Powder Material Batches (Deprecated) ............................................................652
-
-20.6
-
-Mixing Powder Material Batches (Deprecated) .................................................................652
-
-20.7
-
-Displaying Powder Genealogy (Deprecated).....................................................................656
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-xv
-
-
-## Pagina 16
-
-ID
-
-OpcenterEXDS_UserManual
-
-Title
-
-User Manual
-
-Product Title
-
-Opcenter Execution Discrete
-
-Version Title
-
-2507.0001
-
-Product Version
-
-OpcenterEXDS_2507.0001
-
-Category
-
-Runtime
-
-Summary
-
-Provides detailed information on how to use the Opcenter Execution Discrete web user
-interface.
-
-Audience
-
-Operator, Supervisor, Support Engineer
-
-Revision
-
-PL20250808636629882
-
-State
-
-Published
-
-Author
-
-Siemens AG
-
-Language
-
-en-US
-
-16
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 17
-
-Basic Know-How Before Getting Started
-
-1 Basic Know-How Before Getting Started
 Before you start using the Solutions released by Opcenter Execution Discrete, here are the essentials to familiarizing
 with the application, performing basic operations and taking advantage of certain Apps.
 For details regarding the prerequisites and the Workflow to follow, see Quick Start to Using Opcenter Execution
@@ -1852,8 +91,6 @@ Additive Manufacturing and High Variance activities.
 
 Siemens_SIT_UADM,
 which contains:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
 
 a set of Engineering
 screens
@@ -1883,13 +120,6 @@ Terminal for
 Quality
 Execution.
 
-17
-
-
-## Pagina 18
-
-Basic Know-How Before Getting Started
-
 Solution
 
 Description
@@ -1905,9 +135,6 @@ functionalities related to High Variance production
 environments.
 
 Siemens_OPC_EXDSBas
-ic
-
-18
 
 , which contains:
 a set of Engineering
@@ -1931,13 +158,6 @@ Operator
 Terminal for
 Quality
 Execution.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 19
-
-Basic Know-How Before Getting Started
 
 Solution
 
@@ -1997,15 +217,6 @@ Insert the credentials of a valid user and click Sign In.
 Click Use your current Windows session to Log In to access the application with the current user
 credentials.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-19
-
-
-## Pagina 20
-
-Basic Know-How Before Getting Started
-
 The Home Page
 The Home page represents your starting point for familiarizing with the product. It contains all available tiles for
 accessing the numerous pages containing the available functionalities. To facilitate navigation within the Home
@@ -2059,21 +270,11 @@ If the system is properly configured, in several screens you can click
 Export to download selected entities and
 instances from the database. The data can be subsequently modified and eventually imported on the same or
 
-20
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 21
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
-
 another production machine. For details, refer to the How To Export and Import Data section in the Opcenter
 Execution Foundation User Manual.
 
-1.1 Apps and Extension Apps included in the Available Discrete
-Solutions
+### 1.1 Apps and Extension Apps included in the Available Discrete Solutions
+
 The Opcenter Execution Discrete Solutions include the installation of a set of Apps and Extension Apps either
 specific to Discrete manufacturing or provided by the underlying platform. The following pages list them providing
 an overview of the related functionalities:
@@ -2129,16 +330,6 @@ Production Coordinator
 Opcenter EX DS System Administrator
 
 System Administrator
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-21
-
-
-## Pagina 22
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Low Code UI App
 
@@ -2202,16 +393,6 @@ Manufacturing Data Cleaning History
 Manufacturing Data Archiving History
 System and Temporary Data Cleaning History
 
-22
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 23
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
-
 Category
 
 Available Tiles
@@ -2262,17 +443,8 @@ section Deploying Low Code UI Apps.
 you have properly configured the Maintenance Archiving rules. as explained in section How to Configure
 Archiving of the Opcenter Execution Foundation Development and Configuration Guide.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+#### 1.1.1 Opcenter Execution Discrete Apps
 
-23
-
-
-## Pagina 24
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
-
-1.1.1 Opcenter Execution Discrete Apps
 Name
 
 Provided
@@ -2341,8 +513,6 @@ model for the Opcenter
 EX DS One Piece Flow
 App.
 
-24
-
 U4DM
 Solution
 
@@ -2353,14 +523,6 @@ DS Solution
 
 OnePieceFlow
 Solution
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 25
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -2439,8 +601,6 @@ management.
 U4DM
 Solution
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 DS4AM
 Solution
 
@@ -2448,14 +608,6 @@ DS Solution
 
 OnePieceFlow
 Solution
-
-25
-
-
-## Pagina 26
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -2531,8 +683,6 @@ between Powders and
 Containers in Additive
 Manufacturing context.
 
-26
-
 U4DM
 Solution
 
@@ -2543,14 +693,6 @@ DS Solution
 
 OnePieceFlow
 Solution
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 27
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -2628,8 +770,6 @@ Network.
 U4DM
 Solution
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 DS4AM
 Solution
 
@@ -2637,14 +777,6 @@ DS Solution
 
 OnePieceFlow
 Solution
-
-27
-
-
-## Pagina 28
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -2714,8 +846,6 @@ Management of
 Plugins handling
 requests.
 
-28
-
 U4DM
 Solution
 
@@ -2726,14 +856,6 @@ DS Solution
 
 OnePieceFlow
 Solution
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 29
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -2803,25 +925,15 @@ DS Solution
 OnePieceFlow
 Solution
 
-1.1.2 Opcenter Execution Discrete Consolidated Extended Model Apps
+#### 1.1.2 Opcenter Execution Discrete Consolidated Extended Model Apps
+
 In order to browse and query Facets, in addition to the default Reading Model, the Opcenter Execution Discrete
 Solutions include the installation of the following Consolidated Extended Model Apps, more suitable for
 extensibility in Low Code UI Applications.
 For further information, see Extending Entities with custom Properties of the Opcenter Execution Foundation
 Extensibility Guide.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-29
-
-
-## Pagina 30
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
-
 Na
-m
 e
 
 U4DM
@@ -2850,7 +962,8 @@ Ma
 ter
 ial
 
-1.1.3 Opcenter Execution Discrete Extension Apps
+#### 1.1.3 Opcenter Execution Discrete Extension Apps
+
 Name
 
 Provided Functionalities
@@ -2860,8 +973,6 @@ BOPPJF
 Management of Print Job Files linked to
 Bill of Process Operations. It extends
 the BoP App.
-
-30
 
 U4DM
 Solution
@@ -2873,7 +984,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -2883,29 +993,17 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
 n
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 31
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -2930,7 +1028,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -2940,17 +1037,13 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
@@ -2984,16 +1077,6 @@ of associating Screwdrivers to the
 Process Operation). It extends the BoP
 App.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-31
-
-
-## Pagina 32
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
-
 Name
 
 Provided Functionalities
@@ -3024,7 +1107,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3034,17 +1116,13 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
@@ -3072,16 +1150,6 @@ Result management on Material
 Tracking Units and Work Order
 Operations. It extends the Opcenter EX
 FN Material App.
-
-32
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 33
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -3120,7 +1188,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3130,17 +1197,13 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
@@ -3158,16 +1221,6 @@ Adds the possibility to set Pset and
 ReworkPset parameters in imported
 Master Plans, using Tool Definitions
 with logistic class OpenProtocol.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-33
-
-
-## Pagina 34
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -3206,8 +1259,6 @@ Material Tracking Units management in
 relation to Output Messages. It extends
 the Opcenter EX FN Material App.
 
-34
-
 U4DM
 Solution
 
@@ -3218,7 +1269,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3228,29 +1278,17 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
 n
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 35
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -3268,7 +1306,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3278,17 +1315,13 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
@@ -3326,16 +1359,6 @@ OutputMsgStd
 
 Standard Messages Management. It
 extends the OutputMessage App.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-35
-
-
-## Pagina 36
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -3378,7 +1401,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3388,17 +1410,13 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
@@ -3414,16 +1432,6 @@ Product Configuration and Execution
 Type management in relation to Final
 Product Types. It extends the
 Automotive App.
-
-36
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 37
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -3469,8 +1477,6 @@ ImportWO
 Import functionalities for Work Orders.
 It extends the ImportDataFlow App.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 U4DM
 Solution
 
@@ -3481,7 +1487,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3491,29 +1496,17 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
 n
-
-37
-
-
-## Pagina 38
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -3556,8 +1549,6 @@ management in relation to ERP Orders.
 It extends the ProductionFlowCtrl
 App.
 
-38
-
 U4DM
 Solution
 
@@ -3568,7 +1559,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3578,29 +1568,17 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
 n
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 39
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -3647,8 +1625,6 @@ Qualification Criteria management in
 relation to Materials. It extends the
 QualifCriteria App.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 U4DM
 Solution
 
@@ -3659,7 +1635,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3669,29 +1644,17 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
 n
-
-39
-
-
-## Pagina 40
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -3737,8 +1700,6 @@ runtime for Bill of Processes in Additive
 Manufacturing context. It extends
 the BoP App.
 
-40
-
 U4DM
 Solution
 
@@ -3749,7 +1710,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3759,29 +1719,17 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
 n
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 41
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -3805,7 +1753,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3815,17 +1762,13 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
@@ -3863,16 +1806,6 @@ Powders in Additive Manufacturing
 contexts. Extends
 the PrintJobFile App.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-41
-
-
-## Pagina 42
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
-
 Name
 
 Provided Functionalities
@@ -3895,8 +1828,6 @@ necessary to perform specific checks on
 Discrete production entities. It extends
 the PowderMgt App.
 
-42
-
 U4DM
 Solution
 
@@ -3907,7 +1838,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3917,31 +1847,20 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
 n
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+#### 1.1.4 Opcenter Execution Foundation Apps
 
-
-## Pagina 43
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
-
-1.1.4 Opcenter Execution Foundation Apps
 Name
 
 Provided Functionalities
@@ -3976,7 +1895,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -3986,17 +1904,13 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
@@ -4021,16 +1935,6 @@ details.
 Material
 
 Material management.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-43
-
-
-## Pagina 44
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Name
 
@@ -4085,7 +1989,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -4095,17 +1998,13 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
@@ -4116,16 +2015,6 @@ but after installing and configuring it, in the Operator Landing page, as well a
 contexts, it is possible to click the
 icon to manually trigger the printout of specific labels (containing
 barcodes, text or images) for particular entities.
-
-44
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 45
-
-Basic Know-How Before Getting Started
-Apps and Extension Apps included in the Available Discrete Solutions
 
 Also, the Opcenter Execution Foundation DataSegregation App is not included by default in the Opcenter
 EX DS Solutions. To take advantage of its functionalities, it must be explicitly installed and configured. It is
@@ -4141,7 +2030,8 @@ button to propagate segregation tags to specific entities.
 For more information, see Integrating Opcenter Execution Foundation Apps in the Opcenter EX DS Solution in
 the Opcenter EX DS Installation and Configuration Manual.
 
-1.1.5 Opcenter Execution Foundation Extension Apps
+#### 1.1.5 Opcenter Execution Foundation Extension Apps
+
 Name
 
 Provided Functionalities
@@ -4170,8 +2060,6 @@ nt
 Associates a piece of Equipment to the
 Failure. It extends the Defect App.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 U4DM
 Solution
 
@@ -4182,7 +2070,6 @@ D
 S
 S
 o
-l
 u
 ti
 o
@@ -4192,32 +2079,20 @@ O
 n
 e
 P
-i
 e
-c
 e
 F
-l
 o
 w
 S
 o
-l
 u
 ti
 o
 n
 
-45
+### 1.2 Speeding Up Operator Landing Page Loading through Task Customization
 
-
-## Pagina 46
-
-Basic Know-How Before Getting Started
-Speeding Up Operator Landing Page Loading through Task Customization
-
-1.2 Speeding Up Operator Landing Page Loading through Task
-Customization
 Opcenter Execution Discrete comes provided with a pre-defined set of Tasks related to material consumption, Print
 Job File management, quality inspection, etc.. This pre-defined set of Tasks forms a Process Definition which is
 released by default by Opcenter Execution Foundation and is known as UADMProcessDefinition. When operating
@@ -4268,17 +2143,10 @@ Set Current in the sidebar on the right and then click Yes.
 
 Set Executable in the sidebar on the right and then click Yes.
 
-46
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 47
-
-Quick Start to Using Opcenter Execution Discrete
 Speeding Up Operator Landing Page Loading through Task Customization
 
-2 Quick Start to Using Opcenter Execution Discrete
+## 2 Quick Start to Using Opcenter Execution Discrete
+
 Here is a general outline of the main macro-steps that must be executed in order to use Opcenter Execution
 Discrete properly and to full advantage.
 Keep in mind that:
@@ -4321,17 +2189,11 @@ Manage Additive Manufacturing-related Activities.
 Manage Buffer replenishment and transport operations.
 Handle Notifications.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-47
-
-
-## Pagina 48
-
 How to Configure the Production Environment
 Speeding Up Operator Landing Page Loading through Task Customization
 
-3 How to Configure the Production Environment
+## 3 How to Configure the Production Environment
+
 Before configuring the production processes you want to manage, you must properly configure the system, defining
 the structure of the plant in which the production processes will take place, and then configuring a set of basic
 entities that will be used to model the production activities.
@@ -4381,17 +2243,11 @@ Main Workflow
 39. (for One Piece Flow production) Configure Production Flow Control Diagrams.
 40. (for One Piece Flow production) Configure Quality Gates.
 
-48
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 49
-
 How to Configure the Production Environment
 Applying General Configuration Settings
 
-3.1 Applying General Configuration Settings
+### 3.1 Applying General Configuration Settings
+
 The system provides a dedicated page for accessing the general parameters that you must set to pre-configure the
 system before starting to work with it.
 The parameters are grouped by logical functionality.
@@ -4415,20 +2271,14 @@ Certifications
 OPC IN Integration
 3. Click Save.
 
-3.1.1 Engineering Configuration Settings
+#### 3.1.1 Engineering Configuration Settings
+
 The following General Configuration Settings are related to Engineering functionalities.
 Configuration Keys in Complex and Repetitive Manufacturing Contexts
 In this release, only the following Engineering configuration keys affect Complex and Repetitive
 Manufacturing contexts:
 Save Quick Search
 Non-Conformance Lifecycle for Work Order.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-49
-
-
-## Pagina 50
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -4491,13 +2341,6 @@ Recommended value: QUALITY ITEM WORKFLOW, that is associated to Machines, Tools 
 Material Tracking Units/Containers.
 If you configured a custom Non-Conformance Lifecycle, you can insert its identifier here.
 
-50
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 51
-
 How to Configure the Production Environment
 Applying General Configuration Settings
 
@@ -4556,13 +2399,6 @@ Search
 If the checkbox is selected, the system saves the last search criteria used and proposes it to
 the user when a new search is performed. This is applicable only for Operator Landing pages.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-51
-
-
-## Pagina 52
-
 How to Configure the Production Environment
 Applying General Configuration Settings
 
@@ -4607,7 +2443,8 @@ Identifier of the Lifecycle used to manage Containment Requests.
 Default value: ContainmentRequestLifecycle.
 If you configured a custom Lifecycle, you can insert its identifier here.
 
-3.1.2 Runtime Configuration Settings
+#### 3.1.2 Runtime Configuration Settings
+
 The following General Configuration Settings are related to Runtime functionalities.
 Configuration Keys in Complex and Repetitive Manufacturing Contexts
 In this release, only the following Runtime configuration keys affect Complex and Repetitive
@@ -4618,13 +2455,6 @@ Allow Opening a Non-Conformance on Parent Failure
 Auto-Consume Batch Materials
 Pause/Complete Work Order Operation by Different User
 Check Material Consumption.
-
-52
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 53
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -4685,13 +2515,6 @@ Default Barcode
 Rule
 
 The default Barcode rule to be used to validate the Material if there are no rules set.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-53
-
-
-## Pagina 54
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -4760,13 +2583,6 @@ details
 
 If the checkbox is selected, the system automatically displays the Work Order Operation
 details, after it has been started.
-
-54
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 55
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -4838,13 +2654,6 @@ If this checkbox is selected, the Operator Landing page applies a filter on the 
 Operations according to the preferred machine set on Work Order Operations or Execution
 Groups.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-55
-
-
-## Pagina 56
-
 How to Configure the Production Environment
 Applying General Configuration Settings
 
@@ -4910,13 +2719,6 @@ For performance reasons, if both the Filter by Users assigned to Work Order
 Operations and Filter WOOps by logged User and show free WOOps
 configuration keys are selected, the behavior of the first configuration key always
 prevails.
-
-56
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 57
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -4985,13 +2787,6 @@ Possible values:
 Material Tracking Unit
 Work Order Operation
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-57
-
-
-## Pagina 58
-
 How to Configure the Production Environment
 Applying General Configuration Settings
 
@@ -5034,18 +2829,12 @@ Here it is possible to provide a specific Name to identify the current System in
 management of the Containment Requests, which can, possibly, be imported from an
 External System.
 
-3.1.3 Result Configuration Settings
+#### 3.1.3 Result Configuration Settings
+
 The following General Configuration Settings are related to Result functionalities.
 In order to use Results properly, it is mandatory that you have configured at least two Result Types: that is,
 one must be dedicated to NOK and set to True, whereas the other must be OK set to False. Both must
 have the IsDefault flag enabled.
-
-58
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 59
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -5096,13 +2885,6 @@ column displayed in the Complete Work Order Operation panel.
 Once Result management has been enabled, if the Result Types provided by default
 in Opcenter Execution Discrete do not satisfy your needs, you can configure custom
 Result Types.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-59
-
-
-## Pagina 60
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -5163,13 +2945,6 @@ NOK.
 Default value: N/A. In this case, no automatic strategy will be adopted and the operator must
 manually repeat the activity.
 
-60
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 61
-
 How to Configure the Production Environment
 Applying General Configuration Settings
 
@@ -5218,7 +2993,8 @@ result is NOK.
 Default value: N/A. In this case, no automatic strategy will be adopted and the operator must
 manually repeat the activity.
 
-3.1.4 Additive Manufacturing Configuration Settings
+#### 3.1.4 Additive Manufacturing Configuration Settings
+
 The following General Configuration Settings are related to Additive Manufacturing functionalities.
 Configuratio
 n Key
@@ -5244,13 +3020,6 @@ File
 Used for managing and editing values of a specific Print Job File.
 Select the checkbox to enable the editing of the Print Job File details inherited from the CAM
 system.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-61
-
-
-## Pagina 62
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -5303,7 +3072,8 @@ and it has been deprecated in the Siemens_SIT_UADM UI Application.
 The identifier of the plugin used to transfer Print Job Files, followed by the physical path of the
 plugin file (Plugin Path text field).
 
-3.1.5 Integration Configuration Settings
+#### 3.1.5 Integration Configuration Settings
+
 The following General Configuration Settings are related to Integration functionalities.
 Configuration
 Key
@@ -5315,13 +3085,6 @@ Description
 This configuration key is not available in the Siemens_OPC_EXDS_AM UI
 Application.
 Select the checkbox to enable integration with Opcenter APS.
-
-62
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 63
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -5379,13 +3142,6 @@ configured in order support the integration with Teamcenter Share. More
 information can be found in section Teamcenter Share Integration Support of
 the Opcenter Execution Foundation Installation Guide.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-63
-
-
-## Pagina 64
-
 How to Configure the Production Environment
 Applying General Configuration Settings
 
@@ -5433,17 +3189,11 @@ Application.
 Enter the full URL path where the PLMX Viewer Service is located to permit 3D display of PLMX
 files.
 
-3.1.6 E-mail Configuration Settings
+#### 3.1.6 E-mail Configuration Settings
+
 The E-Mail tab is not available in the Siemens_OPC_EXDS_AM UI Application.
 The following General Configuration Settings are related to the configuration of the server that must be used to
 send e-mail notifications whenever a Transition of Quality Non-Conformances occurs. E-mails will be sent to any email address that has been properly configured within the corresponding Transition.
-
-64
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 65
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -5512,13 +3262,6 @@ Material Tracking Units
 Equipment
 Tools.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-65
-
-
-## Pagina 66
-
 How to Configure the Production Environment
 Applying General Configuration Settings
 
@@ -5542,7 +3285,8 @@ home.Siemens_SimaticIT_U4DM_AppU4DM_NonConformanceSupervisor_NonConformance
 Supervisor
 MACHINENAME and UIAPPLICATIONNAME must be replaced with respective values.
 
-3.1.7 CLM Integration Configuration Settings
+#### 3.1.7 CLM Integration Configuration Settings
+
 The CLM Integration tab is not available in the Siemens_OPC_EXDS_AM UI Application.
 The following General Configuration Settings are related to the integration of Opcenter Execution Discrete
 with Teamcenter Manufacturing within the context of Closed-Loop Manufacturing (CLM).
@@ -5578,13 +3322,6 @@ completion of Work Order Operations to external systems like
 Teamcenter Manufacturing and SAP, provided that the Work Order
 Operation has flag Fast Operation Confirmation set to True in its related
 Work Operation.
-
-66
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 67
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -5650,17 +3387,11 @@ successive acknowledgement in order to proceed with his/her tasks.
 Unselect this checkbox if you want it to be mandatory for the user to
 provide the Acknowledge in order to continue.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-67
-
-
-## Pagina 68
-
 How to Configure the Production Environment
 Applying General Configuration Settings
 
-3.1.8 AMN Integration Configuration Settings
+#### 3.1.8 AMN Integration Configuration Settings
+
 The following General Configuration Settings are related to the integration with Additive Manufacturing Network.
 Configuration Key
 
@@ -5732,17 +3463,11 @@ API
 Opcenter EX DS uses this URL to invoke the API exposed by AM Network for updating
 the Production Work Order status and failed quantity.
 
-68
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 69
-
 How to Configure the Production Environment
 Applying General Configuration Settings
 
-3.1.9 Certification Configuration Settings
+#### 3.1.9 Certification Configuration Settings
+
 The Certification tab is not available in the Siemens_OPC_EXDS_AM UI Application.
 The following General Configuration Settings are related to Certifications.
 Configur
@@ -5800,15 +3525,9 @@ required by a Work Order Operation.
 EQUAL OR GREATER THAN: The Certification is valid when it includes a Skill with level greater
 than or equal to the Skill level required by a Work Order Operation.
 
-3.1.10 OPC IN Integration Configuration Settings
+#### 3.1.10 OPC IN Integration Configuration Settings
+
 The following General Configuration Settings are related to the integration with OPC IN Traceability Application.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-69
-
-
-## Pagina 70
 
 How to Configure the Production Environment
 Applying General Configuration Settings
@@ -5889,17 +3608,11 @@ Opcenter EX DS uses this URL to invoke the API exposed by Opcenter Intelligence
 Traceability Application to send a confirmation that the Containment Release has
 been received.
 
-70
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 71
-
 How to Configure the Production Environment
 How to Define the Plant Structure
 
-3.2 How to Define the Plant Structure
+### 3.2 How to Define the Plant Structure
+
 The first step in the configuration of the production environment is the definition of the plant structure, in which
 you create a virtual representation of the plant by creating a set of Equipment and organizing them within a
 hierarchical structure.
@@ -5924,7 +3637,8 @@ Workflow
 1. Create Equipment Configurations.
 2. (Optional) Configure the Equipment Hierarchy.
 
-3.2.1 Creating Equipment Configurations
+#### 3.2.1 Creating Equipment Configurations
+
 While defining the Plant structure, the first step is to create the entities that hierarchically represent the pieces of
 physical Equipment. Each piece of Equipment is an Equipment Configuration. All Equipment Configurations may be
 then organized in an Equipment Hierarchy to represent your plant.
@@ -5942,13 +3656,6 @@ The procedure below provides step-by-step instructions on how to create all Equi
 plant, including 3D Printers that, in addition, can also be created from the 3D Printers page.
 In case of integration with the Shopfloor, you can see list of all Material Tracking Units that passed through
 the Equipment on MTU Location History tab.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-71
-
-
-## Pagina 72
 
 How to Configure the Production Environment
 How to Define the Plant Structure
@@ -6014,13 +3721,6 @@ WorkCell
 StorageUnit
 ProductionUnit.
 
-72
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 73
-
 How to Configure the Production Environment
 How to Define the Plant Structure
 
@@ -6078,19 +3778,13 @@ IsActive
 
 If the value is set to True, the Equipment is active.
 
-3.2.2 How to Design the Equipment Hierarchy
+#### 3.2.2 How to Design the Equipment Hierarchy
+
 Once created, the Equipment Configurations may be arranged in a Hierarchy in order to be used in production.
 
 Workflow
 1. Create the Equipment Hierarchy.
 2. Configure the Equipment Hierarchy.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-73
-
-
-## Pagina 74
 
 How to Configure the Production Environment
 How to Configure Numbering Patterns
@@ -6139,7 +3833,8 @@ other Equipment.
 node had been selected): organize the Equipment hierarchically dragging and dropping them to the proper
 position. When you move a node, also the underlying nodes are automatically moved.
 
-3.3 How to Configure Numbering Patterns
+### 3.3 How to Configure Numbering Patterns
+
 Opcenter Execution Foundation provides the possibility to configure Numbering Patterns, and Opcenter
 Execution Discrete extends this functionality, allowing you to define them for specific types of entities. As
 some of the provided options are not relevant or applicable in the Discrete context, the current
@@ -6153,13 +3848,6 @@ To define unique Numbering Patterns, it is necessary to create a Counter, which 
 Numbering Pattern. It allows you to generate an increasing sequence of positive integers that can be incremented
 or reset according to predefined configuration values. The same Counter can be used in more than one Numbering
 Pattern.
-
-74
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 75
 
 How to Configure the Production Environment
 How to Configure Numbering Patterns
@@ -6210,13 +3898,6 @@ Counters home tile.
 2. Click
 Add Counter.
 3. Set the following attributes:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-75
-
-
-## Pagina 76
 
 How to Configure the Production Environment
 How to Configure Numbering Patterns
@@ -6291,14 +3972,7 @@ The default value is an empty string.
 Creating the Numbering Pattern
 1. Click the
 
-76
-
 Numbering Patterns home tile.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 77
 
 How to Configure the Production Environment
 How to Configure Numbering Patterns
@@ -6377,13 +4051,6 @@ App Name: OutputMessage
 Entity Type: JIT-JISMessage
 Destination Property: MsgId
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-77
-
-
-## Pagina 78
-
 How to Configure the Production Environment
 How to Configure Numbering Patterns
 
@@ -6456,17 +4123,11 @@ Execution Foundation documentation.
 5. Click Save.
 6. Repeat steps 3 to 5 to add all the required Numbering Pattern Parts to your Numbering Pattern.
 
-78
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 79
-
 How to Configure the Production Environment
 How to Configure Line Sequences
 
-3.4 How to Configure Line Sequences
+### 3.4 How to Configure Line Sequences
+
 Line Sequences are specific types of Numbering Patterns, used to identify a Material Tracking Unit in the production
 line, since it could be associated with different ERP Orders at the same time. For this purpose, once defined, Line
 Sequences are used by the Milestone Attribute CALCULATE_LS of the Production Flow Control Diagram, to
@@ -6522,13 +4183,6 @@ Adding Line Sequence Parts
 button and set one of the allowed Parts (the other three will be automatically disabled as they
 must be configured one at a time):
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-79
-
-
-## Pagina 80
-
 How to Configure the Production Environment
 How to Configure Barcode Rules
 
@@ -6566,7 +4220,8 @@ number).
 
 3. Click Save.
 
-3.5 How to Configure Barcode Rules
+### 3.5 How to Configure Barcode Rules
+
 Barcode Rules make it possible to validate a Barcode string against a specific, configurable rule.
 Barcode Rules can be configured using Rule Parts in the SerialNumber/BatchId and Material combination, and a
 regular expression which is used to validate the Barcode string.
@@ -6579,13 +4234,6 @@ setting a dedicated configuration key
 At runtime, according to the specific Solution that has been configured, the Barcode validation behaves differently.
 If no rules are associated to the Material or Functional Code, the default Barcode Rule is retrieved through two
 mutually exclusive post-actions (that is, they must be alternatively enabled):
-
-80
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 81
 
 How to Configure the Production Environment
 How to Configure Barcode Rules
@@ -6650,7 +4298,8 @@ Workflow
 5. (Optional) Associate a Barcode Rule to a Final Product Type.
 6. View Barcode History.
 
-3.5.1 Creating Barcode Rules
+#### 3.5.1 Creating Barcode Rules
+
 Barcode Rules are empty containers to which one or more Rule Parts can be added according to your needs.
 
 Procedure
@@ -6662,13 +4311,6 @@ Barcode Rules tile.
 3. Set the required attributes:
 
 .
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-81
-
-
-## Pagina 82
 
 How to Configure the Production Environment
 How to Configure Barcode Rules
@@ -6693,7 +4335,8 @@ n
 
 4. Click Save.
 
-3.5.2 Creating Rule Parts
+#### 3.5.2 Creating Rule Parts
+
 After creating a Barcode Rule, you must define it by adding one or more Rule Parts. Each Rule Part is defined by a
 regular expression that will be used to validate the received Barcode string at runtime.
 
@@ -6735,13 +4378,6 @@ Rule.
 It is not possible to set twice the same Item Type in the same Barcode rule.
 If you do not select the item type, the Rule Part will contribute in validating
 the rule but its content will not be returned in the generated string.
-
-82
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 83
 
 How to Configure the Production Environment
 How to Configure Barcode Rules
@@ -6799,7 +4435,8 @@ Result
 In the Overview tab of the Barcode Rules page, if you add more than one Rule Parts to your Barcode Rule, it is
 possible to view the sum of all the regular expressions in the Expression field.
 
-3.5.3 Associating a Barcode Rule to a Material
+#### 3.5.3 Associating a Barcode Rule to a Material
+
 Once Barcode Rules are created, they can be associated to Materials and automatically retrieved at runtime, when a
 string is received from a Barcode reader.
 If a Rule has not been set for the Material, then it is automatically retrieved from either the Functional Code or the
@@ -6809,13 +4446,6 @@ successfully validated.
 
 Procedure
 1. In the Materials page, to associate the Barcode Rule to the Material, do either of the following:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-83
-
-
-## Pagina 84
 
 How to Configure the Production Environment
 How to Configure Barcode Rules
@@ -6837,7 +4467,8 @@ and then click the
 
 Unlink Barcode Rule button.
 
-3.5.4 Associating a Barcode Rule to a Functional Code
+#### 3.5.4 Associating a Barcode Rule to a Functional Code
+
 Barcode Rules can also be associated to Functional Codes. In this manner, whenever a Barcode string is received at
 runtime, if a Barcode Rule has not been set for the Material, the system retrieves the rule to validate the Barcode
 from the corresponding Functional Code.
@@ -6854,7 +4485,8 @@ and then select the Barcode Rule to be linked to the Functional Code.
 
 button.
 
-3.5.5 Associating Barcode Rules to Final Product Types
+#### 3.5.5 Associating Barcode Rules to Final Product Types
+
 When a Barcode string is received at runtime, the system automatically retrieves the Rule to validate it from the
 Material, or alternatively from the Functional Code (if a Rule has not been set for the Material). If neither of them are
 found, the Rule is retrieved from the rule associated to the Final Product Type.
@@ -6872,14 +4504,13 @@ To remove existing associations, select the Final Product Type of interest and c
 
 button.
 
-3.5.6 Viewing Barcode History
+#### 3.5.6 Viewing Barcode History
+
 The Barcode History page tracks the outcome of each Barcode reading executed at runtime, indicating also if the
 Barcode string is valid and matches the Rule.
 
 Procedure
 1. Open the Barcode History page. The system displays the following details:
-
-84
 
 Attribute
 
@@ -6888,11 +4519,6 @@ Description
 Barcode
 
 The identifier of the Barcode.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 85
 
 How to Configure the Production Environment
 How to Configure Final Product Types
@@ -6929,7 +4555,8 @@ Last Updated On
 
 Timestamp of the History log last update.
 
-3.6 How to Configure Final Product Types
+### 3.6 How to Configure Final Product Types
+
 During the configuration of the production environment it is necessary to define the required Final Product Types,
 that will be associated with the ERP Orders to categorize the outputs of the different production lines.
 For example, it can be useful to define as Final Product Type not only a Vehicle, which is the final target of the
@@ -6951,16 +4578,10 @@ Workflow
 4. (optional) Set Validity Checks on Structures.
 5. (optional) Edit the Execution Type assigned to a Final Product Type.
 
-3.6.1 Creating Final Product Types
+#### 3.6.1 Creating Final Product Types
+
 The product does not provide you with a predefined list of Final Product Types, since they may vary from one plant
 to another, but it releases the Final Product Types page from which you can:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-85
-
-
-## Pagina 86
 
 How to Configure the Production Environment
 How to Configure Final Product Types
@@ -7004,7 +4625,8 @@ n
 
 3. Click Save.
 
-3.6.2 Configuring the Is Structure Blocker Behavior
+#### 3.6.2 Configuring the Is Structure Blocker Behavior
+
 Once created, each Final Product Type is automatically associated with an ERP Order State Machine, whose SCH
 status is associated by default with the Is Structure Blocker behavior. In tile mode, this association is displayed by
 the
@@ -7027,14 +4649,7 @@ Procedure
 2. Perform the following operations to change the configuration of the Is Structure Blocker behavior:
 select the SCH status and click the
 
-86
-
 button to remove the association.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 87
 
 How to Configure the Production Environment
 How to Configure Final Product Types
@@ -7047,7 +4662,8 @@ button.
 The drop-down menu displays additional behaviors which must not be selected since they are not
 applicable in this production context.
 
-3.6.3 Assigning Production Lines to a Final Product Type
+#### 3.6.3 Assigning Production Lines to a Final Product Type
+
 A Final Product Type can be associated with one or more Production Lines according to the needs of the production
 process.
 
@@ -7061,7 +4677,8 @@ previously defined as Production Lines (ProductionLine type).
 
 button to delete the Production Line.
 
-3.6.4 Setting Validity Checks on Structures
+#### 3.6.4 Setting Validity Checks on Structures
+
 Bill of Features and Bill of Materials are the structures to be validated in order for the Final Product Type to be
 produced, and for the associated ERP Orders to be considered valid and thus scheduled.
 For this purpose, it is possible to set validity checks for the Bill of Features and the Bill of Materials making up the
@@ -7086,17 +4703,11 @@ If the final product is a Vehicle, both Bill of Features and Bill of Materials m
 Bumper, you will need only the Bill of Materials while the Bill of Features is not necessary and therefore must not be
 checked.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-87
-
-
-## Pagina 88
-
 How to Configure the Production Environment
 Configuring Reasons
 
-3.6.5 Editing the Execution Type assigned to a Final Product Type
+#### 3.6.5 Editing the Execution Type assigned to a Final Product Type
+
 Defining an Execution Type for a Final Product Type means choosing which business logic must be used to create
 the Work Order at runtime.
 Each Final Product Type is automatically created with the following default properties:
@@ -7158,18 +4769,12 @@ equal to 1 and the Unit of Measure must be of type u.
 
 2. Click Save.
 
-3.7 Configuring Reasons
+### 3.7 Configuring Reasons
+
 Before starting the production execution, you must configure a set of Reasons, which will be used at runtime by the
 operator, in case the execution of a Work Order Operation is stopped and the action must be justified.
 
 Target User
-
-88
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 89
 
 How to Configure the Production Environment
 How to Configure Documents
@@ -7210,7 +4815,8 @@ Workcenter.
 
 4. Click Create.
 
-3.8 How to Configure Documents
+### 3.8 How to Configure Documents
+
 Documents to be attached to the available entities (as for example Tool Definitions and Material Tracking Units)
 must be properly loaded into the UI Application and then, according to the user needs, they can be logically
 grouped into Categories.
@@ -7234,13 +4840,6 @@ Product and Production Configuration > Document Categories in the sidebar.
 2. Click
 
 Add Document Category.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-89
-
-
-## Pagina 90
 
 How to Configure the Production Environment
 How to Configure Documents
@@ -7310,21 +4909,15 @@ Categories
 5. To associate the Document to more Categories, click the related
 tab, click
 
-90
-
 Open button and then in the Categories
 
 Link Categories.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 91
-
 How to Configure the Production Environment
 How to Configure Failures
 
-3.9 How to Configure Failures
+### 3.9 How to Configure Failures
+
 Opcenter Execution Foundation provides the possibility to configure Failures, and Opcenter Execution
 Discrete extends this functionality, allowing you to associate Failures to specific parts of the configured
 production plant. As some of the configurations required by Opcenter Execution Foundation (for example,
@@ -7379,13 +4972,6 @@ Name
 Description
 
 (Optional) Additional useful information on the Failure.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-91
-
-
-## Pagina 92
 
 How to Configure the Production Environment
 How to Configure Failures
@@ -7463,13 +5049,6 @@ The icon that will be assigned to the attachment.
 
 Associating Equipment to Failures
 
-92
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 93
-
 How to Configure the Production Environment
 How to Configure Tool Definitions
 
@@ -7504,7 +5083,8 @@ Disassociate Material.
 In the Operator Terminal for One Piece Flow, the association between Materials and Failures is not
 considered.
 
-3.10 How to Configure Tool Definitions
+### 3.10 How to Configure Tool Definitions
+
 A Tool Definition represents the type of Tool involved in production. While configuring the production environment,
 you can create Tool Definitions, on the basis of which Tools will be created at runtime.
 Depending on your needs, through appropriate configuration, you can create the following types of Tool
@@ -7525,13 +5105,6 @@ update a Tool Definition to modify details, such as its name and description.
 delete a Tool Definition, provided that it is not associated to a Work Order Operation or a Step.
 You can associate one or more Documents to the Tool Definition, in order to provide the operator with more
 information on how to manage the Tool.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-93
-
-
-## Pagina 94
 
 How to Configure the Production Environment
 How to Configure Tool Definitions
@@ -7563,8 +5136,6 @@ Creating a Tool Definition from Scratch
 1. In the Tool Definitions page, click
 Create.
 2. Set the following general parameters according to your needs:
-
-94
 
 Parameter
 
@@ -7600,11 +5171,6 @@ Substrate
 Selecting this check box indicates that the Tool Definition being configured will generate a
 Substrate when it is instantiated. Substrates are specialized tools that are used for 3D
 printing.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 95
 
 How to Configure the Production Environment
 How to Configure Tool Definitions
@@ -7685,13 +5251,6 @@ elsewhere.
 the previous step) Set the parameters specific to Substrates.
 4. Click Save.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-95
-
-
-## Pagina 96
-
 How to Configure the Production Environment
 How to Configure Tool Definitions
 
@@ -7763,13 +5322,6 @@ Categories
 3. Click Link.
 4. To access a preview of the Document contents, click the Document Viewer tab.
 
-96
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 97
-
 How to Configure the Production Environment
 How to Configure Screwing Tool Definitions
 
@@ -7794,7 +5346,8 @@ Tool Definitions page, select the Tool Definition of interest and click
 
 Open.
 
-3.11 How to Configure Screwing Tool Definitions
+### 3.11 How to Configure Screwing Tool Definitions
+
 A Screwing Tool Definition represents the type of Screwdriver involved in production during screwing operations.
 While configuring the production environment, you can create Screwdriver Definitions, on the basis of which
 Screwing Tools (Screwdrivers) will be created at runtime.
@@ -7823,13 +5376,6 @@ Type SCREWDRIVER.
 which it refers, as described in page Setting Automation Parameter Attributes for OPC UA Automation Node
 Instances of the Opcenter Execution Foundation User Manual.
 4. Import the Signal Rules related to Screwing Tools, according to your needs.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-97
-
-
-## Pagina 98
 
 How to Configure the Production Environment
 How to Configure Open Protocol Tool Definitions
@@ -7887,7 +5433,8 @@ OnHold, and it is no longer available for production.
 
 3. Click Save.
 
-3.12 How to Configure Open Protocol Tool Definitions
+### 3.12 How to Configure Open Protocol Tool Definitions
+
 The Logistic Class OpenProtocol is available solely if you have installed both the BoPOPRT and the
 OpenProtocolDS Extension Apps. In addition, to take advantage of the Open Protocol Tool functionality,
 the Open Protocol Service asset must have been properly configured.
@@ -7897,13 +5444,6 @@ on the basis of which Open Protocol Tools will be created at runtime.
 Open Protocol Tool Definitions are created from the Tool Definitions page. To properly create Open Protocol Tool
 Definitions, the Logistic Class OpenProtocol must be selected at the moment of their creation, so that it is possible
 to automatically acquire data of the Open Protocol Tools at runtime.
-
-98
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 99
 
 How to Configure the Production Environment
 How to Configure Materials
@@ -7948,7 +5488,8 @@ must be selected.
 
 3. Click Save.
 
-3.13 How to Configure Materials
+### 3.13 How to Configure Materials
+
 Prior to starting production execution, you must configure which types of materials will be involved in the
 production processes.
 Depending on your needs, through appropriate configuration, you can create two types of Materials:
@@ -7967,13 +5508,6 @@ You can choose from among three ways to begin configuring a Material:
 Creating a Material from scratch.
 Copying an existing Material.
 Creating a Revision of an existing Material.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-99
-
-
-## Pagina 100
 
 How to Configure the Production Environment
 How to Configure Materials
@@ -8019,16 +5553,9 @@ Create a Revision of an existing Material.
 4. (optional) Associate Suppliers with the Material.
 5. (optional) Create a Bill of Materials (BoM) to provide the list of raw Materials for it.
 
-3.13.1 How to Configure Material Classes, Suppliers and Functional
-Codes
+#### 3.13.1 How to Configure Material Classes, Suppliers and Functional Codes
+
 Before creating Materials, you need to configure a series of items to be associated to them. These items are:
-
-100
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 101
 
 How to Configure the Production Environment
 How to Configure Materials
@@ -8110,13 +5637,6 @@ Product and Production Configuration > Functional Codes in the sidebar.
 
 .
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-101
-
-
-## Pagina 102
-
 How to Configure the Production Environment
 How to Configure Materials
 
@@ -8138,7 +5658,8 @@ Description
 
 4. Click Save.
 
-3.13.2 Creating a Material from Scratch
+#### 3.13.2 Creating a Material from Scratch
+
 By adopting this method to configure a Material, you can set its basic parameters: any associations (a set of
 Documents and/or a Template associated to the Material being configured) can be made either immediately or at a
 later date.
@@ -8146,8 +5667,6 @@ later date.
 Procedure
 1. In the Materials page, click
 2. Set the following parameters:
-
-102
 
 Add > New Material.
 
@@ -8194,11 +5713,6 @@ set to AMPowder)
 
 If the check box is selected, the material is managed through a Serial Number and
 not through a Batch.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 103
 
 How to Configure the Production Environment
 How to Configure Materials
@@ -8271,13 +5785,6 @@ UoM= unit , the weight is related to a single unit; if UoM = m , the Weight is r
 one m.
 Note This value cannot be changed, if the Material is linked to a Buffer Definition.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-103
-
-
-## Pagina 104
-
 How to Configure the Production Environment
 How to Configure Materials
 
@@ -8309,7 +5816,8 @@ given quantity is reached.
 with AMPowder selected as Material Class in the previous step) Set the parameters specific to Powder Materials.
 4. Click Save.
 
-3.13.3 Copying a Material
+#### 3.13.3 Copying a Material
+
 By adopting this method to configure a Material, the new Material will inherit any existing associations with a set of
 Documents and/or with a Template, if present. However, you can remove such associations and add new ones,
 according to your needs.
@@ -8325,7 +5833,8 @@ Copy Material Revision.
 box) and then modify the other parameters as you like (see Creating a Material from Scratch).
 4. Click Save.
 
-3.13.4 Creating a Revision of a Material
+#### 3.13.4 Creating a Revision of a Material
+
 When configuring a Material, if you intend to make considerable changes (such as adding and/or removing
 associated Documents or changing its associated Template), this method is to be preferred over modifying an
 existing Material.
@@ -8340,17 +5849,11 @@ button to modify the
 Material parameters.
 5. If necessary, modify any associations with Documents and/or with a Numbering Pattern.
 
-104
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 105
-
 How to Configure the Production Environment
 How to Configure Materials
 
-3.13.5 Associating Documents to a Material
+#### 3.13.5 Associating Documents to a Material
+
 Prerequisites
 At least one Document has been configured in the system.
 
@@ -8404,7 +5907,8 @@ Categories
 3. Click Link.
 4. To access a preview of the Document contents, click the Document Viewer tab.
 
-3.13.6 Associating a Numbering Pattern to a Material
+#### 3.13.6 Associating a Numbering Pattern to a Material
+
 Prerequisites
 You have created and configured an Numbering Pattern.
 
@@ -8412,14 +5916,7 @@ Procedure
 1. Select a Material in the Materials page and click
 2. Click the Numbering Pattern tab.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 Open Material.
-
-105
-
-
-## Pagina 106
 
 How to Configure the Production Environment
 How to Configure Materials
@@ -8434,7 +5931,8 @@ Pattern tab, selecting the Numbering Pattern and then clicking
 
 .
 
-3.13.7 Associating Suppliers to a Material
+#### 3.13.7 Associating Suppliers to a Material
+
 Prerequisites
 You have created and configured Suppliers to be associated to the Material.
 
@@ -8451,7 +5949,8 @@ To unlink previously-associated Suppliers, select the Supplier and click
 
 Unlink.
 
-3.13.8 How to Configure Bill of Materials
+#### 3.13.8 How to Configure Bill of Materials
+
 A Bill of Materials (BoM) is a list of raw materials and related quantities required to manufacture a final product. As
 such, a BoM can be associated to a Material that identifies a Final Product.
 BoMs must be populated with BoM Items, which form the list of Materials to be consumed. These Materials can be
@@ -8472,13 +5971,6 @@ Also, the status of a BoM can be changed to Obsolete only if its associated Work
 following states:
 New
 Queue
-
-106
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 107
 
 How to Configure the Production Environment
 How to Configure Materials
@@ -8547,13 +6039,6 @@ Date and time from when the BoM is valid.
 Valid to
 
 Date and time until when the BoM is valid. After this date, the BoM is no longer available.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-107
-
-
-## Pagina 108
 
 How to Configure the Production Environment
 How to Configure Materials
@@ -8625,19 +6110,13 @@ Releasing BoMs
 1. In the BoM tab, select the BoM to be released.
 2. Click
 
-108
-
 Release.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 109
 
 How to Configure the Production Environment
 Configuring Powder Materials
 
-3.14 Configuring Powder Materials
+### 3.14 Configuring Powder Materials
+
 Powder Materials represent a type of Material peculiar to Additive Manufacturing and from which Powder Batches
 are instantiated at runtime.
 Powder Materials are configured through a dedicated page that, while displayed in Table mode, shows for all
@@ -8707,19 +6186,13 @@ Count
 number of times the Powder Material Batch has been recycled exceeds this value, the status of
 the Powder Material Batch is set to Spent, thus making it no longer available for production.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-109
-
-
-## Pagina 110
-
 How to Configure the Production Environment
 How to Configure Bills of Materials for Product Configurations
 
 3. Click Add.
 
-3.15 How to Configure Bills of Materials for Product Configurations
+### 3.15 How to Configure Bills of Materials for Product Configurations
+
 In addition to the possibility of configuring BoM items, the product offers the possibility to configure Bills of
 Materials that, once created as empty containers, must be associated with the Materials that will be used to
 produce the Final Product Type.
@@ -8751,8 +6224,6 @@ Creating Bills of Materials
 the sidebar.
 2. Click the
 
-110
-
 Product and Production Configuration > Bills of Materials in
 
 button and then set the following parameters:
@@ -8779,11 +6250,6 @@ Default Revision, this field will be disabled.
 Name
 
 The name to be assigned to the Bill of Materials.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 111
 
 How to Configure the Production Environment
 How to Configure Bills of Features
@@ -8814,7 +6280,8 @@ You can remove existing associations by selecting a Material and clicking the
 
 button.
 
-3.16 How to Configure Bills of Features
+### 3.16 How to Configure Bills of Features
+
 On their own, Bills of Features are empty containers that, once created, must be associated to the Features, Feature
 Values and Options that will be used for generating Work Orders of different production types, as well as for
 creating Work Orders from a Master Plan associated to Qualification Criteria.
@@ -8847,13 +6314,6 @@ Bills of Features tile in the home page.
 
 Target User
 Users with one of the following roles can perform this procedure:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-111
-
-
-## Pagina 112
 
 How to Configure the Production Environment
 How to Configure Bills of Features
@@ -8927,13 +6387,6 @@ Feature Value
 The unique identifier of the Feature Value to be associated to the Bill of Features.
 Only Feature Values associated with the selected Feature are displayed.
 
-112
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 113
-
 How to Configure the Production Environment
 How to Configure Bills of Features
 
@@ -8961,7 +6414,8 @@ clicking the
 
 button.
 
-3.16.1 Configuring Features
+#### 3.16.1 Configuring Features
+
 During the configuration of the production environment, it is necessary to define the required Features,
 which specify a set of mandatory characteristics of the product (for example, its roof or its doors), and for which you
 have to select a value.
@@ -9003,20 +6457,14 @@ Description
 
 (Optional) Useful additional information on the Feature.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-113
-
-
-## Pagina 114
-
 How to Configure the Production Environment
 How to Configure Bills of Features
 
 3. Click Save. The Feature is created: now it must necessarily be associated to a Feature Value in order to be used
 in the Bill of Features at runtime.
 
-3.16.2 Configuring Feature Values
+#### 3.16.2 Configuring Feature Values
+
 While defining Features, it is necessary that you also define Feature Values, to better customize the product
 according to your needs. You can associate each Feature with a specific Value; for example:
 Feature Color can have the following values: Red or White.
@@ -9063,7 +6511,8 @@ click the
 
 button to delete the Feature Value.
 
-3.16.3 Configuring Options
+#### 3.16.3 Configuring Options
+
 In addition to configuring Features and Feature Values, you can also configure a set of Options, which can be
 selected or not, depending on your needs. This may prove to be useful when you want to define a set of optional
 characteristics of the product being produced (for example, tinted windows or heated seats in the case of an
@@ -9073,16 +6522,9 @@ create new Options.
 modify Options that have been previously created (
 delete Options that are no longer necessary (
 
-114
-
 button), except for their Id,
 
 button).
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 115
 
 How to Configure the Production Environment
 How to Configure Product Configurations
@@ -9118,7 +6560,8 @@ Description
 
 3. Click Save.
 
-3.17 How to Configure Product Configurations
+### 3.17 How to Configure Product Configurations
+
 Product Configurations can be associated with Final Product Types to better categorize the outputs of a given
 production line.
 In the Product Configurations page, you can:
@@ -9146,14 +6589,7 @@ Accessing the Working Environment
 To access the Product Configurations page, click
 Configurations in the sidebar.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 Product and Production Configuration > Product
-
-115
-
-
-## Pagina 116
 
 How to Configure the Production Environment
 How to Configure Product Configurations
@@ -9224,13 +6660,6 @@ Unset Bill of Features button.
 
 Associating the Bill of Materials
 
-116
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 117
-
 How to Configure the Production Environment
 How to Configure Product Configurations
 
@@ -9260,7 +6689,8 @@ Unset Bill of Materials button.
 
 >
 
-3.17.1 How to Check Product Manufacture Feasibility
+#### 3.17.1 How to Check Product Manufacture Feasibility
+
 Structures created by the user or imported into Opcenter Execution Discrete are automatically checked by the
 system in order to verify if the final product can be produced on the basis of the related configurations. In detail,
 each product is associated with a Final Product Type associated in turn with specific Bills of Features and Bills of
@@ -9290,14 +6720,7 @@ Checking the Bill of Features Validity
 2. Click the Features tab, to view the content of the Bill of Features associated with the Product Configuration,
 whose status is by default To be analyzed. Click the
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 button.
-
-117
-
-
-## Pagina 118
 
 How to Configure the Production Environment
 How to Configure Product Configurations
@@ -9367,13 +6790,6 @@ and delete Features and Materials on-the-fly.
 
 Example
 
-118
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 119
-
 How to Configure the Production Environment
 Configuring Substrates
 
@@ -9389,7 +6805,8 @@ In the Product Configurations page, open a Product Configuration and click the O
 Associated Structures, it is possible to view the Bill of Materials and Bill of Features associated with the Product
 Configuration and if they can be produced or not.
 
-3.18 Configuring Substrates
+### 3.18 Configuring Substrates
+
 Substrates are considered as a special type of Tool peculiar to Additive Manufacturing and instantiated at runtime
 from a Tool Definition that requires specific configuration.
 Your starting point remains the procedure for configuring a Tool Definition from scratch, but you must set
@@ -9422,13 +6839,6 @@ Warning
 The minimum thickness that a Substrate must have. If the current thickness of a Substrate
 falls below this value, the status of the Substrate is set to Warning Available. The Substrate is
 still available for production, but with a warning.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-119
-
-
-## Pagina 120
 
 How to Configure the Production Environment
 Configuring Substrates
@@ -9512,13 +6922,6 @@ to OnHold, and it is no longer available for production.
 
 Adding Compatible Machines
 
-120
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 121
-
 How to Configure the Production Environment
 Configuring Custom Logistic Classes
 
@@ -9535,7 +6938,8 @@ Machine, if the Substrate must be associated to a specific Machine.
 4. In the Add Compatible Machine dialog, select the compatible machines (3D printers) that you want to add, and
 click Save.
 
-3.19 Configuring Custom Logistic Classes
+### 3.19 Configuring Custom Logistic Classes
+
 A Logistic Class groups together similar Materials or Tool Definitions for transportation. For example, Logistic Class
 "Burner Pipes" groups together all burner pipes that are produced in the same Plant and need to be transported.
 Opcenter EX DS comes with a predefined default Logistic Class, but it is possible to create custom Logistic Classes
@@ -9557,7 +6961,8 @@ Create button.
 3. Enter the NId and the Name for the Logistic Class to be created.
 4. Click Save.
 
-3.20 Configuring Buffer Definitions
+### 3.20 Configuring Buffer Definitions
+
 If your manufacturing model uses Intra-Plant Logistics (IPL), prior to starting production execution, you must
 configure the Buffer Definitions (that is, the abstract representations of areas or accessories dedicated to item
 storage).
@@ -9573,14 +6978,7 @@ Accessing the Working Environment
 To access the Buffer Definitions page, click
 the sidebar.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 Product and Production Configuration > Buffer Definitions in
-
-121
-
-
-## Pagina 122
 
 How to Configure the Production Environment
 Configuring Buffer Definitions
@@ -9648,13 +7046,6 @@ current Revision can no longer be used and a new one needs to be created).
 Creating a Revision of a Buffer Definition
 1. In the Buffer Definitions page, select the Buffer Definition for which you want to create a new Revision.
 
-122
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 123
-
 How to Configure the Production Environment
 How to Configure Container Types
 
@@ -9662,7 +7053,8 @@ How to Configure Container Types
 
 Revision.
 
-3.21 How to Configure Container Types
+### 3.21 How to Configure Container Types
+
 Container Types are templates that can be associated to a Material Tracking Unit Aggregate that you want to use as
 Containers.
 Container Types are objects that are used as templates and are associated to one or more Materials. Container
@@ -9714,13 +7106,6 @@ Descriptio
 n
 
 Useful additional information about the Container Type.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-123
-
-
-## Pagina 124
 
 How to Configure the Production Environment
 How to Configure Container Types
@@ -9790,8 +7175,6 @@ The unique identifier of the Document. Once saved, the value cannot be modified.
 It cannot contain the following special characters: & (ampersand), ' (quote), #
 (hashtag).
 
-124
-
 Revision
 
 The revision of the Document. Once saved, the value cannot be modified.
@@ -9799,11 +7182,6 @@ The revision of the Document. Once saved, the value cannot be modified.
 Name
 
 (Optional) The name of the Document.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 125
 
 How to Configure the Production Environment
 How to Configure Operation/Step Categories
@@ -9834,7 +7212,8 @@ To unlink an associated Document, select the Document and click
 
 Unlink.
 
-3.22 How to Configure Operation/Step Categories
+### 3.22 How to Configure Operation/Step Categories
+
 Operation/Step Categories can be used to classify Process Operations, Work Order Operations, Process Steps and
 Work Order Steps according to their purpose or execution context (for example: Manual Assembly, Automatic
 Assembly, Additive Manufacturing, Traceability, Screwing Operation).
@@ -9862,13 +7241,6 @@ For more information on these runtime tasks, see Managing Tasks for Work Order O
 It is possible to customize the default UADMProcessDefinition by eliminating those runtime Tasks that
 you do not require: the end result is a more streamlined loading of the Operator Landing Page. For more
 information, see Speeding Up Operator Landing Page Loading through Task Customization.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-125
-
-
-## Pagina 126
 
 How to Configure the Production Environment
 How to Configure Operation/Step Categories
@@ -9918,13 +7290,6 @@ Workflow
 3. (Optional) Set the association to Serialized behavior (a Work Process will be associated to each Serial Number
 produced by the Work Order).
 4. (Optional). Link Interlocking Checks to the Operation/Step Category.
-
-126
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 127
 
 How to Configure the Production Environment
 How to Configure Operation/Step Categories
@@ -9992,13 +7357,6 @@ Interlocking Checks and click
 
 Open: the Operation/Step Category Details page is displayed.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-127
-
-
-## Pagina 128
-
 How to Configure the Production Environment
 How to Configure Operation/Step Categories
 
@@ -10017,7 +7375,6 @@ If this check box is selected, the custom Interlocking Check will trigger the st
 Work Order Operation, once all conditions required by the check are satisfied.
 
 Outboun
-d
 
 If this check box is selected, the custom Interlocking Check will trigger the completion of the
 related Work Order Operation, once all conditions required by the check are satisfied.
@@ -10054,17 +7411,11 @@ Activate on the right side bar.
 If you want to deactivate an active association, select the association to be deactivated and then click the
 Deactivate icon on the right side bar.
 
-128
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 129
-
 How to Configure the Production Environment
 How to Manage Catalogs
 
-3.23 How to Manage Catalogs
+### 3.23 How to Manage Catalogs
+
 Opcenter Execution Discrete includes Catalogs, that is, repositories of abstract production entities that can be
 instanced and combined together to create actual Work Orders.
 When an entity is created "on the fly" (for example, a Process Operation created during the creation of a Process) it
@@ -10081,7 +7432,8 @@ How to Manage the Process Catalog
 How to Manage the Operation Catalog
 How to Manage the Step Catalog.
 
-3.23.1 How to Manage the Process Catalog
+#### 3.23.1 How to Manage the Process Catalog
+
 A Process Catalog is a repository of Processes.
 When a Process is created from the Catalog, it is "unlinked", that is, not yet used in an actual production process. It
 is also not linked to neither an As Planned BOP nor a Master Plan.
@@ -10116,13 +7468,6 @@ modified.
 Name
 
 Name of the Process.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-129
-
-
-## Pagina 130
 
 How to Configure the Production Environment
 How to Manage Catalogs
@@ -10182,7 +7527,8 @@ Product and Production Configuration > Process Catalog in the sidebar.
 
 Create > Revision.
 
-3.23.2 How to Manage the Operation Catalog
+#### 3.23.2 How to Manage the Operation Catalog
+
 An Operation Catalog is a repository of Process Operations.
 When a Process Operation is created from the Catalog, differently from when it is created inside a Process, it is
 "unlinked", that is, not yet used in an actual production process and not belonging to a Process included in an As
@@ -10193,13 +7539,6 @@ Create a Revision of a Process Operation
 Associate Documents to a Process Operation, provided that the Document has been previously configured
 Associate Work Instructions to a Process Operation
 Associate Skills to a Process Operation
-
-130
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 131
 
 How to Configure the Production Environment
 How to Manage Catalogs
@@ -10269,13 +7608,6 @@ Operation
 
 To define how the Operation must behave at runtime, select one of the configured Work
 Operations.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-131
-
-
-## Pagina 132
 
 How to Configure the Production Environment
 How to Manage Catalogs
@@ -10357,14 +7689,7 @@ It cannot contain the following special characters: & (ampersand), ' (quote), #
 
 Revision
 
-132
-
 The revision of the Document. Once saved, the value cannot be modified.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 133
 
 How to Configure the Production Environment
 How to Manage Catalogs
@@ -10440,13 +7765,6 @@ Open.
 
 Link.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-133
-
-
-## Pagina 134
-
 How to Configure the Production Environment
 How to Manage Catalogs
 
@@ -10455,7 +7773,8 @@ According to the Enable Certification Skill Level Filter configuration key, the 
 exact or the minimum value required to authorize the Process Operation execution.
 6. Select one or more Skills from the list and click Link.
 
-3.23.3 How to Manage the Step Catalog
+#### 3.23.3 How to Manage the Step Catalog
+
 A Step Catalog is a repository of Process Steps.
 When a Process Step is created from the Catalog, differently from when it is created inside a Process Operation, it is
 "unlinked", that is, not yet used in an actual production process and not belonging to a Process Operation included
@@ -10485,8 +7804,6 @@ Product and Production Configuration > Step Catalog in the sidebar.
 Create > Manually: the Create Step panel is opened.
 3. Set the following parameters:
 
-134
-
 Parameter
 
 Description
@@ -10503,11 +7820,6 @@ The name of the Process Step.
 Description
 
 Useful information about the Process Step.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 135
 
 How to Configure the Production Environment
 How to Manage Catalogs
@@ -10582,13 +7894,6 @@ button, select the document of interest, click Select, and then either select th
 check box or select an option from the Revision drop down list box
 Link New Document, to add a new document to the system and link it to the current Step. Then set the
 following parameters:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-135
-
-
-## Pagina 136
 
 How to Configure the Production Environment
 How to Manage Catalogs
@@ -10667,13 +7972,6 @@ Open.
 Link.
 5. In the Level edit box, type the required level of the Skill to be associated to the Process Step.
 
-136
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 137
-
 How to Configure the Production Environment
 How to Configure Plugins
 
@@ -10681,7 +7979,8 @@ According to the Enable Certification Skill Level Filter configuration key, the 
 exact or the minimum value required to authorize the Process Step execution.
 6. Select one or more Skills from the list and click Link.
 
-3.24 How to Configure Plugins
+### 3.24 How to Configure Plugins
+
 To successfully complete Additive Manufacturing operations, you need to define the required Plugins. The system
 provides by default the following Plugin Types to be used to configure the Plugins you need:
 Import, dedicated to import metadata related to Print Job Files from the external CAM system that generated
@@ -10737,13 +8036,6 @@ Creating a Plugin
 
 Product and Production Configuration > Plugins in the sidebar.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-137
-
-
-## Pagina 138
-
 How to Configure the Production Environment
 How To Configure 3D Printers
 
@@ -10779,7 +8071,8 @@ Note Once the Plugin is created, this parameter cannot be modified.
 
 4. Click Add.
 
-3.25 How To Configure 3D Printers
+### 3.25 How To Configure 3D Printers
+
 3D Printers represent the Equipment dedicated to printing Work Order Operations: consequently, they are essential
 in an Additive Manufacturing scenario.
 Optionally they can be based on templates, called 3D Printer Types.
@@ -10807,14 +8100,7 @@ Workflow
 Creating 3D Printer Types
 1. Select
 
-138
-
 Product and Production Configuration > 3D Printer Types in the sidebar.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 139
 
 How to Configure the Production Environment
 How To Configure 3D Printers
@@ -10899,13 +8185,6 @@ Enabled
 Select the check box if the 3D Printer requires files to be transferred in advance in order to
 be properly processed.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-139
-
-
-## Pagina 140
-
 How to Configure the Production Environment
 How to Configure Print Job Files
 
@@ -10942,7 +8221,8 @@ Support Material
 
 4. Click Create.
 
-3.26 How to Configure Print Job Files
+### 3.26 How to Configure Print Job Files
+
 In Additive Manufacturing (3D Printing) production, Print Job Files provide detailed instructions on how the
 products to be manufactured must be 3D-printed.
 Print Job Files are usually generated in a dedicated external CAM system and are specific to printer brands, models
@@ -10967,14 +8247,7 @@ Create Print Job Files Manually
 2. Finalize the configuration of the imported Print Job Files.
 You can select any Print Job File listed in the Print Job Files page, click
 
-140
-
 Open and then click:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 141
 
 How to Configure the Production Environment
 How to Configure Print Job Files
@@ -10982,7 +8255,8 @@ How to Configure Print Job Files
 the History tab, to view a chronological list of operations performed on the Print Job File.
 the Serial Numbers tab, to view the list of Serial Numbers currently associated to the Print Job File.
 
-3.26.1 Importing Print Job Files
+#### 3.26.1 Importing Print Job Files
+
 Print Job Files can be imported in the system in two ways:
 Full Import: the system requests information about all Print Job Files available in the external system. Existing
 Print Job Files are deleted and eventually overwritten, except those with the Runtime Only attribute.
@@ -11011,7 +8285,8 @@ The Print Job Files present in the selected CAM systems are analyzed and then re
 system, in accordance with the type of Import that has been selected. Existing Print Job Files with the Runtime
 Only attribute are not deleted or overwritten.
 
-3.26.2 Creating Print Job Files Manually
+#### 3.26.2 Creating Print Job Files Manually
+
 Print Job Files are usually generated in an external CAM system and then they are imported into Opcenter Execution
 Discrete, but, if necessary, it is also possible to create them manually within the system.
 
@@ -11038,17 +8313,8 @@ File Name
 
 Name of the Print Job File (including extension).
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-141
-
-
-## Pagina 142
-
 How to Configure the Production Environment
 How to Configure Print Job Files
-
-142
 
 Parameter
 
@@ -11128,11 +8394,6 @@ Production Printer
 
 The external 3D Printer.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 143
-
 How to Configure the Production Environment
 How to Configure Print Job Files
 
@@ -11170,7 +8431,8 @@ Assigned: Serial Numbers have been assigned.
 
 4. Click Add.
 
-3.26.3 Finalizing the Print Job File Configuration
+#### 3.26.3 Finalizing the Print Job File Configuration
+
 Once a Print Job File has been either imported or created manually, it may be necessary that you tweak the file in
 question in order to satisfy your needs.
 It is also possible to:
@@ -11202,14 +8464,7 @@ Click
 Link, make your selection and then click Save. Click
 the association.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 Unlink to remove
-
-143
-
-
-## Pagina 144
 
 How to Configure the Production Environment
 Configuring Rework Codes
@@ -11243,7 +8498,8 @@ associated to the Print Job File is of type Serialized or FullySerialized, the S
 appears on the Print Job File Details page after the Work Order is started. This tab displays Work
 Order details such as Serial Number, Material, Machine.
 
-3.27 Configuring Rework Codes
+### 3.27 Configuring Rework Codes
+
 A Rework Code represents an association between a Process, which has been defined to rework an item, a Defect
 (or a group of Defects) previously defined, one or more Failures (and Sub-Failures) and a Final Material.
 During production, whenever the Operator opens a Non-Conformance on an item, the system takes into account
@@ -11265,17 +8521,11 @@ Create > Defect Group/Failures to define a Rework Code for a set of Defect Group
 Only Processes included in an As Planned BOP can be associated to a Rework Code.
 8. Click Create.
 
-144
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 145
-
 How to Configure the Production Environment
 Configuring Non-Productive Activities
 
-3.28 Configuring Non-Productive Activities
+### 3.28 Configuring Non-Productive Activities
+
 Before starting the production execution, you can define a set of Non-Productive Activities. Users will then be able
 to declare the start of one or more of them and the system will track the activities and the time spent on them.
 
@@ -11306,7 +8556,8 @@ Description
 
 4. Click Create.
 
-3.29 Importing and Mapping CNC Packages
+### 3.29 Importing and Mapping CNC Packages
+
 When using DNC Integration, the following operations must be performed:
 Import a set of CNC Packages, which include CNC Artifacts (either documents or CNC Programs).
 Link the DNC Machines to the Opcenter EX DS Machines.
@@ -11329,13 +8580,6 @@ Importing CNC Packages
 1. Click
 Product and Production Configuration > DNC in the sidebar.
 2. In the DNC page, click either of the following:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-145
-
-
-## Pagina 146
 
 How to Configure the Production Environment
 Importing and Mapping CNC Packages
@@ -11397,13 +8641,6 @@ Clear the check box to associate the Product only to the Program.
 7. In the Material field, select a Product to be associated to the CNC Program.
 8. Click Save.
 
-146
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 147
-
 How to Configure the Production Environment
 Configuring Work Operations
 
@@ -11435,7 +8672,8 @@ Add Products.
 7. In the Add Products page, select a Product to be associated to the CNC Artifact
 and click Save.
 
-3.30 Configuring Work Operations
+### 3.30 Configuring Work Operations
+
 Before configuring your production processes, you can define a set of items known as Work Operations, which are
 to be associated to Work Order Operations in order to define their behavior at runtime (for example, the possibility
 of automatic start and completion of a Work Order).
@@ -11464,13 +8702,6 @@ Creating a Work Operation from Scratch
 2. Set the following parameters:
 
 Create > Manually.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-147
-
-
-## Pagina 148
 
 How to Configure the Production Environment
 Configuring Work Operations
@@ -11513,8 +8744,6 @@ Machine.
 It is possible to set both Auto-Start and Auto-Complete at the same time,
 as they are not mutually exclusive.
 
-148
-
 CNC
 
 The Work Order Operation will be executed on a numerical control machine and it will require a
@@ -11537,11 +8766,6 @@ AutoPause
 
 For future use - The Work Order Operation can only be automatically paused by a machine, and
 not manually by an Operator.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 149
 
 How to Configure the Production Environment
 Configuring Work Operations
@@ -11611,17 +8835,11 @@ Create > Copy.
 Creating a Work Operation from Scratch).
 4. Click Create.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-149
-
-
-## Pagina 150
-
 How to Configure the Production Environment
 How to Configure Custom Non-Conformance Lifecycles
 
-3.31 How to Configure Custom Non-Conformance Lifecycles
+### 3.31 How to Configure Custom Non-Conformance Lifecycles
+
 A Non-Conformance Lifecycle represents the states that a Non-Conformance assumes in relation to the activities or
 tasks it may undergo: creation, modification, completion, in addition to other possibilities.
 Opcenter EX DS supports two default Non-Conformance Lifecycles which are applicable to Quality NonConformances, respectively associated to Work Order Operations and Machines/Tools/Material Tracking Units.
@@ -11650,7 +8868,8 @@ Workflow
 6. Select the newly-created Non-Conformance Lifecycle from the Engineering Configuration Keys page. Once
 selected, this Non-Conformance Lifecycle, or its associated states and transitions cannot be edited.
 
-3.31.1 Creating a Non-Conformance Lifecycle
+#### 3.31.1 Creating a Non-Conformance Lifecycle
+
 This procedure describes how to create and configure a custom Non-Conformance Lifecycle. At the time of creating
 a Non-Conformance Lifecycle, you must select an initial status from a set of existing system-defined and customdefined Non-Conformance Lifecycle States. You can also modify an existing Non-Conformance Lifecycle.
 Name, description and initial status of the default Non-Conformance Lifecycle of type Change cannot
@@ -11663,14 +8882,7 @@ Procedure
 1. In the Non-Conformance Lifecycles page, click
 2. Set the following parameters:
 
-150
-
 Create.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 151
 
 How to Configure the Production Environment
 How to Configure Custom Non-Conformance Lifecycles
@@ -11713,7 +8925,8 @@ Transitions to User Roles.
 After selecting this Non-Conformance Lifecycle for your Opcenter Execution Discrete setup from the
 Engineering Configuration Keys page, you cannot add or update associated Transitions.
 
-3.31.2 Creating a Non-Conformance Status
+#### 3.31.2 Creating a Non-Conformance Status
+
 At the time of configuring a Quality Non-Conformance Lifecycle, you can either select the Initial Status value from
 a list of available states, or choose to create a new one. However, Opcenter Execution Discrete also supports a
 stand-alone method for creating states. This means that you can choose to create states separately, before or after
@@ -11740,13 +8953,6 @@ ID
 Unique identifier to be assigned to the Non-Conformance Lifecycle Status to be created. Once
 set, this field cannot be changed.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-151
-
-
-## Pagina 152
-
 How to Configure the Production Environment
 How to Configure Custom Non-Conformance Lifecycles
 
@@ -11766,7 +8972,8 @@ Useful information about the Non-Conformance Lifecycle Status to be created.
 
 4. Click Save.
 
-3.31.3 Configuring a Transition
+#### 3.31.3 Configuring a Transition
+
 This procedure describes how to create a Transition for a custom Non-Conformance Lifecycle. A transition starts
 when a condition (for example, Status is Open) is identified, and undergoes completion when the status changes
 due to actions or activities performed (for example, upon discarding a Non-Conformance, the Status changes to
@@ -11810,13 +9017,6 @@ REJECTED
 REWORK
 SET WKC HOLD.
 
-152
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 153
-
 How to Configure the Production Environment
 How to Configure Custom Non-Conformance Lifecycles
 
@@ -11831,7 +9031,8 @@ completed. This represents the completion of the transition.
 
 6. Click Save.
 
-3.31.4 Associating States to Behaviors
+#### 3.31.4 Associating States to Behaviors
+
 You can associate Non-Conformance States, both system defined and custom, to specific behaviors according to
 your needs. In detail, you can choose to which of the States making up the custom Non-Conformance Lifecycle you
 want to associate the following behaviors:
@@ -11855,7 +9056,8 @@ Open.
 Edit.
 4. In the Edit Status panel, flag one or more of the available behaviors according to your needs and click Save.
 
-3.31.5 Associating Transitions to User Roles and E-mail Addresses
+#### 3.31.5 Associating Transitions to User Roles and E-mail Addresses
+
 User Roles are assigned for performing tasks or activities pertaining to the Transition, and acknowledging the
 occurrence of a Transition. After you associate User Roles to acknowledge the completion of a Transition, the
 relevant users receive system-generated notification e-mails containing details about the Transition. Assigning a
@@ -11876,13 +9078,6 @@ button.
 5. On the Configure Action panel, click those User Roles that you want to assign from the Unassigned Role(s) list.
 The User Roles you select appear under the Assigned Role(s) list.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-153
-
-
-## Pagina 154
-
 How to Configure the Production Environment
 Configuring Custom Interlocking Checks
 
@@ -11900,7 +9095,8 @@ To remove a previously-assigned e-mail address, click the assigned e-mail addres
 
 10. Click Save.
 
-3.32 Configuring Custom Interlocking Checks
+### 3.32 Configuring Custom Interlocking Checks
+
 In addition to the standard Inbound and Outbound Interlocking Checks, Opcenter EX DS allows you to configure
 custom Inbound and Outbound Interlocking Checks, according to your needs.
 Additional custom business logic is necessary to use these checks at runtime. Each custom Interlocking
@@ -11930,13 +9126,6 @@ Procedure
 Create.
 2. Set the following parameters according to your needs:
 
-154
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 155
-
 How to Configure the Production Environment
 Configuring Custom Interlocking Checks
 
@@ -11965,7 +9154,6 @@ If this check box is selected, the custom Interlocking Check will trigger the st
 Work Order Operation, once all conditions required by the check are satisfied.
 
 Outboun
-d
 
 If this check box is selected, the custom Interlocking Check will trigger the completion of the
 related Work Order Operation, once all conditions required by the check are satisfied.
@@ -12002,13 +9190,6 @@ Name
 
 Name of the custom Interlocking Check parameter.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-155
-
-
-## Pagina 156
-
 How to Configure the Production Environment
 Configuring Custom Result Types
 
@@ -12044,7 +9225,8 @@ bool
 
 7. Click Create.
 
-3.33 Configuring Custom Result Types
+### 3.33 Configuring Custom Result Types
+
 Custom Result Types come in handy when you want to make a clear distinction between what is to be considered a
 positive or negative Result in a given context compared to others: for example, if you want to declare a negative
 Result for an MTU for what concerns consumption, and the standards for the same MTU are more stringent for what
@@ -12074,19 +9256,13 @@ The settings of both standard and custom Result Types can be updated by clicking
 Is NOk checkbox can be changed only if the selected Result Type has not already been associated to a
 Result.
 
-156
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 157
-
 How to Configure the Production Environment
 Linking Items to Buffer Definitions
 
 Only custom Result Types can be deleted, provided that they have not already been linked to a Result.
 
-3.34 Linking Items to Buffer Definitions
+### 3.34 Linking Items to Buffer Definitions
+
 You can link a Buffer Definition previously created to specific Engineering entities. In this manner, you can establish
 logistic constraints on Buffer Definitions and, by extension, on the Buffers that will be instantiated from them. For
 example, you can declare that a specific Buffer Definition is able to transport or store only a maximum quantity of a
@@ -12141,13 +9317,6 @@ Unit of Measure to be adopted.
 
 6. Select one or more entities to be linked to the Buffer Definition and click Add.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-157
-
-
-## Pagina 158
-
 How to Configure the Production Environment
 How to Configure Setpoints
 
@@ -12156,7 +9325,8 @@ from the list and clicking
 
 .
 
-3.35 How to Configure Setpoints
+### 3.35 How to Configure Setpoints
+
 Setpoints are used to drive the behavior of a specific Machine or Tool at runtime, thereby eliminating the need for
 the Shop Floor Operator to perform manual adjustments.
 Once created, Setpoints are merely empty containers and in order to function, they must be filled with one or more
@@ -12195,14 +9365,7 @@ Creating Setpoints
 1. In the Setpoints page, click
 2. Set the following parameters:
 
-158
-
 Create.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 159
 
 How to Configure the Production Environment
 How to Configure Setpoints
@@ -12281,13 +9444,6 @@ Machine Definition, to link the Setpoint to all Machines that have been or will 
 specific Equipment Type (of Unit Level).
 Tools, to link the Setpoint to a specific Tool.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-159
-
-
-## Pagina 160
-
 How to Configure the Production Environment
 How to Configure Line Side Positions
 
@@ -12306,7 +9462,8 @@ Result
 The items that have been set as compatible with a Setpoint are listed in the related tab of the Setpoints page, and
 in case of Tool Definitions and Tools, within the Setpoints tab of the Tool Definitions page and Tools page.
 
-3.36 How to Configure Line Side Positions
+### 3.36 How to Configure Line Side Positions
+
 Line Side Positions are abstract representations of specific areas or accessories allocated to store Materials. Line
 Side Positions contain sub-locations called Bins, that represent a logical unit of measure indicating how the
 Material is stored. Bins are used to replenish Line Side Positions.
@@ -12339,13 +9496,6 @@ Execution Discrete Product Overview.
 
 Target User
 Users with the Product Engineer role can perform this action.
-
-160
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 161
 
 How to Configure the Production Environment
 How to Configure Line Side Positions
@@ -12425,13 +9575,6 @@ Qty (Value)
 (Only for automatically managed Line Side Positions) Value representing the capacity of
 a single Bin, therefore how many pieces the Bin must contain.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-161
-
-
-## Pagina 162
-
 How to Configure the Production Environment
 How to Configure Line Side Positions
 
@@ -12504,17 +9647,11 @@ there could exist another Threshold with a lower value, having therefore a highe
 
 4. Click Save.
 
-162
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 163
-
 How to Configure the Production Environment
 How to Configure Qualification Criteria
 
-3.37 How to Configure Qualification Criteria
+### 3.37 How to Configure Qualification Criteria
+
 Qualification Criteria represent a set of rules that, once configured, can be set for:
 Process Operations
 Material Specifications
@@ -12566,13 +9703,6 @@ Product and Production Configuration > Qualification
 Workflow
 1. Create the Qualification Criteria.
 2. Configure the Filter Clauses.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-163
-
-
-## Pagina 164
 
 How to Configure the Production Environment
 How to Configure Qualification Criteria
@@ -12632,13 +9762,6 @@ Bill of Features (Production Item)
 Qualification Criteria are going to fail since, for these two entities, rules are evaluated
 only in regard to frozen structures.
 
-164
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 165
-
 How to Configure the Production Environment
 How to Configure Qualification Criteria
 
@@ -12681,13 +9804,6 @@ Bill of Materials: Material
 Bill of Features (Work Order)/Bill of Features (Production Item): in this case, the system
 prompts you to select through the entity picker those Features and Options available in the
 system.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-165
-
-
-## Pagina 166
 
 How to Configure the Production Environment
 How to Configure Qualification Criteria
@@ -12745,16 +9861,9 @@ procedures described in steps 2-5), flag them to create a group of clauses and c
 the grouped clauses are included in brackets.
 Filter Clauses previously created can be removed by clicking the
 
-166
-
 . In the Rule Preview,
 
 button.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 167
 
 How to Configure the Production Environment
 How to Configure and Manage Output Messages
@@ -12765,7 +9874,8 @@ extended form of the rule previously created and saved. If you have created only
 Rule display the same expression.
 If several Qualification Criteria are combined, it is possible to view their details in the Extended Rule.
 
-3.38 How to Configure and Manage Output Messages
+### 3.38 How to Configure and Manage Output Messages
+
 Output Messages are used to export data, in JSON or XML format, that can then be consumed by third-party
 systems.
 For each Output Message, the following items must be configured:
@@ -12786,7 +9896,8 @@ Workflow
 2. Create Output Message Definitions.
 3. Configure Output Message Sections.
 
-3.38.1 Creating Output Message Destinations
+#### 3.38.1 Creating Output Message Destinations
+
 While configuring Output Message Destinations, you can choose if the Message must be generated in JSON or XML
 format and if it must be retrieved using a dedicated internal event, or sent through either Data Integration System
 (DIS) orOpcenter Connect MOM.
@@ -12800,13 +9911,6 @@ From the Output Message Destinations page, you can:
 create new Output Message Destinations.
 modify Output Message Destinations that have been previously created, except for their Id.
 delete Output Message Destinations that are no longer required.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-167
-
-
-## Pagina 168
 
 How to Configure the Production Environment
 How to Configure and Manage Output Messages
@@ -12859,8 +9963,6 @@ Foundation and a dedicated event is launched to permit customizations.
 Message Broker: Using Opcenter Connect MOM, the Output Message will be sent to
 an external destination.
 
-168
-
 Broker
 Message
 Type
@@ -12886,11 +9988,6 @@ specified, otherwise the Message will not be recognized. The value of DIS Messag
 match a Message Type that has been configured for a DIS Connector in the Notification tab, in
 case of external destinations.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 169
-
 How to Configure the Production Environment
 How to Configure and Manage Output Messages
 
@@ -12910,7 +10007,8 @@ tab, in case of external destinations.
 
 3. Click Save.
 
-3.38.2 Creating Output Message Definitions
+#### 3.38.2 Creating Output Message Definitions
+
 Output Message Definitions enable you to configure the following parameters for each Output Message:
 Message Type, to define the type of Message to be generated.
 Message Destination, to properly route the Message.
@@ -12943,14 +10041,7 @@ Procedure
 1. In the Output Message Definitions page, click the
 2. Set the following parameters:
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 button.
-
-169
-
-
-## Pagina 170
 
 How to Configure the Production Environment
 How to Configure and Manage Output Messages
@@ -13014,20 +10105,14 @@ StandardOutputMessage for Standard Output Message Message Type
 WorkOrderOutputMessage for Work Order Output Message Message Type
 3. Click Save.
 
-3.38.3 How to Configure Output Message Sections
+#### 3.38.3 How to Configure Output Message Sections
+
 According to the Message Type chosen while creating the Message Definition, different Output Message Sections
 can be included in the Output Message to be generated. Each Section contains information on the production entity
 to which it refers.
 The product releases a set of predefined Sections listed below. For additional information on Output Message
 Sections and what they contain, refer to the Output Message Sections page in the Opcenter Execution
 Discrete Product Overview. In detail, the Sections for each Message Type are:
-
-170
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 171
 
 How to Configure the Production Environment
 How to Configure and Manage Output Messages
@@ -13099,13 +10184,6 @@ In addition to the predefined Output Message Sections, custom Sections can be co
 information, refer to the How to Implement Custom Output Message Sections page in the Opcenter Execution
 Discrete Extensibility Guide.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-171
-
-
-## Pagina 172
-
 How to Configure the Production Environment
 How to Configure and Manage Output Messages
 
@@ -13176,13 +10254,6 @@ Default Type is Percentage.
 5. (Optional) If necessary, select the filter you have created and perform one of the following operations according
 to your needs:
 
-172
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 173
-
 How to Configure the Production Environment
 How to Configure Production Flow Control Diagrams
 
@@ -13218,7 +10289,8 @@ The identifier of the Delivery Point Section previously enabled.
 
 4. Click Save.
 
-3.39 How to Configure Production Flow Control Diagrams
+### 3.39 How to Configure Production Flow Control Diagrams
+
 The Production Flow Control Diagram makes it possible to logically connect all the relevant business Milestones
 associated with a specific Material Tracking Unit that has to be produced. For example, a Milestone could be the
 Vehicle assembly or its body painting.
@@ -13252,13 +10324,6 @@ the Milestone Transitions have been successfully completed.
 At runtime, Milestones can be viewed and declared both from the Production Flow Control Diagram Runtime
 page and the Operator Terminal for One Piece Flow Manufacturing.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-173
-
-
-## Pagina 174
-
 How to Configure the Production Environment
 How to Configure Production Flow Control Diagrams
 
@@ -13284,7 +10349,8 @@ Workflow
 2. Configure Milestones.
 3. Configure Milestones Behavior.
 
-3.39.1 Configuring Milestone Catalogs
+#### 3.39.1 Configuring Milestone Catalogs
+
 A Milestone Catalog is a list of relevant business Milestones which can be associated with a Material Tracking Unit
 that must be produced. Once created, Milestones can be associated with a Production Flow Control Diagram and
 logically connected through Transitions.
@@ -13308,8 +10374,6 @@ Procedure
 1. In the Milestone Catalog page, click the
 2. Set the following parameters:
 
-174
-
 button.
 
 Parameter
@@ -13320,11 +10384,6 @@ Identifier
 
 The unique identifier of the Milestone. It consists of three alphanumeric digits and special
 characters are not allowed.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 175
 
 How to Configure the Production Environment
 How to Configure Production Flow Control Diagrams
@@ -13344,7 +10403,8 @@ n
 
 3. Click Save.
 
-3.39.2 How to Create a Production Flow Control Diagram
+#### 3.39.2 How to Create a Production Flow Control Diagram
+
 You can choose to create a Production Flow Control Diagram in either of the following ways:
 create a Production Flow Control Diagram from scratch,
 create a Revision of an existing Production Flow Control Diagram. If you intend to make considerable changes,
@@ -13377,14 +10437,7 @@ Creating a Production Flow Control Diagram
 1. In the Production Flow Control Diagrams page, click the
 2. Set the following parameters:
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 Add > New Diagram button.
-
-175
-
-
-## Pagina 176
 
 How to Configure the Production Environment
 How to Configure Production Flow Control Diagrams
@@ -13430,7 +10483,8 @@ Creating a Revision of a Production Flow Control Diagram
 
 Add > New Diagram Revision button.
 
-3.39.3 How to Configure Milestones
+#### 3.39.3 How to Configure Milestones
+
 The Production Flow Control Diagram allows you to logically link Milestones and schedule their execution
 according to your needs. For this purpose, you can:
 configure the Sequence in which the Milestones associated with the Diagram must be executed during the
@@ -13449,14 +10503,7 @@ Associating Milestones
 1. In the Production Flow Control Diagrams page, click the Milestones tab.
 2. Click the
 
-176
-
 button and then set the following parameters:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 177
 
 How to Configure the Production Environment
 How to Configure Production Flow Control Diagrams
@@ -13496,7 +10543,8 @@ Locked status.
 
 button, only if the Diagram is not in Active or
 
-3.39.4 How to Configure Milestones Behavior
+#### 3.39.4 How to Configure Milestones Behavior
+
 After its configuration is completed, you can associate the Milestone with a series of:
 Checks, specifying preliminary conditions that must be satisfied in order to allow the MTU to enter a Milestone.
 For example, checking that there are no defects blocking the production.
@@ -13513,13 +10561,6 @@ Name
 HAS_OPEN_ISSUES
 HAS_NO_OPEN_ISSUES
 EVALUATE_QC
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-177
-
-
-## Pagina 178
 
 How to Configure the Production Environment
 How to Configure Production Flow Control Diagrams
@@ -13579,14 +10620,7 @@ Milestone and click
 to access the Qualification Criteria Configuration page. Click the
 select the Qualification Criteria to be associated with the Milestone. Click Save.
 
-178
-
 button and
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 179
 
 How to Configure the Production Environment
 How to Configure Production Flow Control Diagrams
@@ -13647,19 +10681,13 @@ One of the Workplaces associated with the Production Line you have previously se
 You can remove existing associations by clicking the
 Locked status.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 button, only if the Diagram is not in Active or
-
-179
-
-
-## Pagina 180
 
 How to Configure the Production Environment
 How to Configure Quality Gates
 
-3.40 How to Configure Quality Gates
+### 3.40 How to Configure Quality Gates
+
 During the production process, it is important to monitor the quality of the products being produced by the
 manufacturing processes. For this purpose, you can define a catalog of Quality Gates which, once created, are
 empty containers to be associated with one or more Work Centers and Units which, as a consequence, are declared
@@ -13720,13 +10748,6 @@ completed with negative results.
 
 2. Click Save.
 
-180
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 181
-
 How to Configure the Production Environment
 How to Configure Quality Gates
 
@@ -13756,18 +10777,8 @@ If a Work Center or Unit has been defined as Quality Gate, then only Work Center
 as monitored Equipment.
 4. (Optional) Repeat steps 2-3 for each piece of Equipment you want to link.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+## 4 How to Create and Prepare Human Resources and Their Capabilities
 
-181
-
-
-## Pagina 182
-
-How to Create and Prepare Human Resources and Their Capabilities
-Configuring Skills
-
-4 How to Create and Prepare Human Resources and Their
-Capabilities
 For reasons of security, as well as to allocate the best possible workforce for achieving successful production
 targets, it must be established who can perform certain actions within a production plant and what specific
 certified knowledge or know-how (known as Skills) these individuals must possess in order to carry out their
@@ -13789,7 +10800,8 @@ Workflow
 2. Configure Certifications.
 3. (optional) Create and prepare Teams.
 
-4.1 Configuring Skills
+### 4.1 Configuring Skills
+
 Before starting the production execution, you can optionally configure a set of Skills. A Skill represents a specific
 requirement which subsequently can either be directly associated to Process Operations and/or Work Order
 Operations or assigned to specific Users through Certifications.
@@ -13806,8 +10818,6 @@ Product and Production Configuration > Skills in the sidebar.
 Create.
 3. Set the following parameters:
 
-182
-
 Parameter
 
 Description
@@ -13819,14 +10829,6 @@ Unique Identifier for the Skill.
 Name
 
 Name of the Skill.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 183
-
-How to Create and Prepare Human Resources and Their Capabilities
-Configuring Certifications
 
 Parameter
 
@@ -13843,7 +10845,8 @@ Coordinator Dashboard.
 
 4. Click Save.
 
-4.2 Configuring Certifications
+### 4.2 Configuring Certifications
+
 To properly configure the production environment, you must set restrictions on the access of specific users to
 certain functionalities, so that only solely qualified Users are allowed to perform certain actions, according to their
 Roles and their knowledge.
@@ -13889,16 +10892,6 @@ Name to be assigned to the Certification.
 Description
 
 Useful information about the Certification to be created.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-183
-
-
-## Pagina 184
-
-How to Create and Prepare Human Resources and Their Capabilities
-How to Create and Prepare Teams
 
 3. Click Create.
 
@@ -13957,22 +10950,13 @@ and then click
 Link: this opens a dedicated panel.
 5. Select the item(s) to be linked to the Certification and then click the Link button.
 
-4.3 How to Create and Prepare Teams
+### 4.3 How to Create and Prepare Teams
+
 Teams are groups of Users that can be created to perform production operations together: a single Team member
 can start/pause/complete Work Order Operations on behalf of the entire Team.
 
 Target User
 Users with the Product Engineer or the Production Coordinator roles can perform this operation.
-
-184
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 185
-
-How to Create and Prepare Human Resources and Their Capabilities
-How to Create and Prepare Teams
 
 Accessing the Working Environment
 To access the Teams page, click
@@ -14036,16 +11020,6 @@ Unlink.
 
 Adding Users to Teams
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-185
-
-
-## Pagina 186
-
-How to Create and Prepare Human Resources and Their Capabilities
-How to Create and Prepare Teams
-
 1. In the Teams page, select a Team and click
 Open.
 2. Click the Users tab: any Users currently belonging to the selected Team will be displayed.
@@ -14067,17 +11041,8 @@ If the team only contains one member, and it is removed, the quantities already 
 Work Order Operation are paused. Another user must manage the quantities. This user must not be
 necessarily part of the team.
 
-186
+## 5 How to Configure the Production Processes
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 187
-
-How to Configure the Production Processes
-How to Manage As Planned BOPs and Processes
-
-5 How to Configure the Production Processes
 To use Opcenter Execution Discrete to manage your production, you can define one or more As Planned BOPs (Bills
 of Processes) or Master Plans mapping all activities that must be performed to start and complete the production
 execution within the plant.
@@ -14114,7 +11079,8 @@ Workflow specific to One Piece Flow Manufacturing
 2. Create the Operations.
 3. Associate Items to Operations.
 
-5.1 How to Manage As Planned BOPs and Processes
+### 5.1 How to Manage As Planned BOPs and Processes
+
 As Planned BOPs are structures containing one or more Processes hierarchically grouped together to define the
 execution of a specific manufacturing activity. An As Planned BOP contains one Process, called Root Process. The
 Root Process can contain other Processes, called Sub-Processes, or Process Operations.
@@ -14122,16 +11088,6 @@ For more information on the hierarchical structure of an As Planned BOP, see sec
 Plans, Processes, Operations and Steps of the Opcenter Execution Discrete Product Overview.
 To create an As Planned BOP, you must contextually specify its Root Process, which can be created manually "on
 the fly" or chosen from the Process Catalog.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-187
-
-
-## Pagina 188
-
-How to Configure the Production Processes
-How to Manage As Planned BOPs and Processes
 
 To edit an existing As Planned BOP, you can add a Process inside its structure. Again, the Process can be created
 manually or chosen from the Catalog.
@@ -14178,17 +11134,8 @@ Evolving an existing As Planned BOP
 Creating a new Revision of a Process
 Completing an As Planned BOP
 
-188
+#### 5.1.1 Creating As Planned BOPs and Processes
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 189
-
-How to Configure the Production Processes
-How to Manage As Planned BOPs and Processes
-
-5.1.1 Creating As Planned BOPs and Processes
 This procedure allows you to create a new Process and link it to:
 a new As Planned BOP: the newly created Process becomes the Root Process of the As Planned BOP.
 an existing As Planned BOP: the newly created Process becomes a Sub-Process of an existing Process without
@@ -14264,16 +11211,6 @@ new Material. The Final Material field can be left blank: if a Final Material is
 time, it will be required when creating a Work Order from this Process. This allows you to create a
 generic Process which can be used to produce different Materials.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-189
-
-
-## Pagina 190
-
-How to Configure the Production Processes
-How to Manage As Planned BOPs and Processes
-
 Param
 eter
 
@@ -14306,7 +11243,8 @@ be produced by the Process.
 
 3. Click Create to confirm the operation.
 
-5.1.2 Linking Processes to As Planned BOPs
+#### 5.1.2 Linking Processes to As Planned BOPs
+
 This procedure allows you to link an existing Process previously added to the Process Catalog to:
 a new As Planned BOP: the Process becomes the Root Process of the As Planned BOP
 an existing As Planned BOP: the Process becomes a Sub-Process of an existing Process without Operations,
@@ -14338,20 +11276,10 @@ Bop or click
 Parent
 Process
 
-190
-
 and select the As Planned BOP from the list.
 
 Identifier of the parent Process. This field appears and can be populated only if, in the Baseline
 field, you choose an existing BOP and this BOP already contains Processes.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 191
-
-How to Configure the Production Processes
-How to Manage As Planned BOPs and Processes
 
 Paramete
 r
@@ -14365,7 +11293,8 @@ Identifier of the Process to link to the As Planned BOP.
 
 3. Click Link.
 
-5.1.3 Linking Documents to As Planned BOPs
+#### 5.1.3 Linking Documents to As Planned BOPs
+
 This procedure allows you to establish a link between an As Planned BOP and a set of Documents that can be useful
 to the Operator who will manage the corresponding Work Order Operation at runtime. For example, it could be
 useful to provide the user with an image of the involved items in order to easily identify them before executing the
@@ -14416,16 +11345,6 @@ Local File
 
 The file that contains the Document.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-191
-
-
-## Pagina 192
-
-How to Configure the Production Processes
-How to Manage As Planned BOPs and Processes
-
 Parameter
 
 Description
@@ -14448,7 +11367,8 @@ While creating Work Orders, in case the same document is linked both to an Opera
 to the Operation instance in the As Planned BOP, it will be linked just once to the new Work Order
 Operation.
 
-5.1.4 Linking Document Items to As Planned BOPs
+#### 5.1.4 Linking Document Items to As Planned BOPs
+
 Working with Document Items is possible solely if you have installed the Product Engineer App: for more
 information, see What is Opcenter Execution Discrete? of the Opcenter Execution Discrete Product Overview.
 This procedure allows you to establish a link between an As Planned BOP and one or more previously-configured
@@ -14476,16 +11396,6 @@ Link button: in the Link Document Item dialog box that is
 displayed, click on the arrow to open the Document Item drop-down list box and select the Document Item that
 you want to link.
 
-192
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 193
-
-How to Configure the Production Processes
-How to Manage As Planned BOPs and Processes
-
 4. In the Revision Option area, depending on your needs, either select the Use Current Version checkbox or, from
 the Revision drop-down list box, select a specific Revision of the Document Item you want to link.
 5. Click Save.
@@ -14494,7 +11404,8 @@ operation does not delete the Document Item or the Documents it contains.
 
 Unlink: this
 
-5.1.5 Cloning an As Planned BOP
+#### 5.1.5 Cloning an As Planned BOP
+
 This procedure allows you to create a clone of an existing As Planned BOP. Contrary to the evolving operation, the
 cloning operation creates a copy of the As Planned BOP with a completely new baseline identifier.
 
@@ -14507,7 +11418,8 @@ the Plant BOP Identifier field
 4. Insert the new Baseline Identifier in the Baseline ID field.
 5. Click Save.
 
-5.1.6 Evolving an As Planned BOP
+#### 5.1.6 Evolving an As Planned BOP
+
 This procedure allows you to create an evolution of an existing As Planned BOP. Contrary to the cloning operation,
 the evolution increments automatically the Baseline Identifier of the As Planned BOP, maintaining a link with the
 original structure (the Plant BOP Identifier parameter).
@@ -14520,7 +11432,8 @@ Procedure
 
 Evolve As Planned BOP.
 
-5.1.7 Creating a Revision of a Process
+#### 5.1.7 Creating a Revision of a Process
+
 This procedure allows you to create a new Revision of a Process. You can revise only Processes containing Process
 Operations, not Processes containing Sub-Processes.
 A Process can also be revised from the Process Catalog page.
@@ -14531,17 +11444,8 @@ Procedure
 Create > Revision: the new Process is displayed in the Processes page and a notification is sent to
 the subscribed users, if any.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+#### 5.1.8 Completing an As Planned BOP
 
-193
-
-
-## Pagina 194
-
-How to Configure the Production Processes
-How to Manage Master Plans and Processes
-
-5.1.8 Completing an As Planned BOP
 When an As Planned BOP is created, either creating a Root Process manually or adding it from the Process Catalog,
 its Completed status is initially set to false and therefore the As Planned BOP is not yet available for the creation of
 Work Orders (either from a Process or from an As Planned BOP).
@@ -14563,7 +11467,8 @@ button, available in both the main page of the As Planned BOPs and Processes pag
 for a selected As Planned BOP. By doing so, the As Planned BOP in question returns unavailable for
 creating Work Orders.
 
-5.2 How to Manage Master Plans and Processes
+### 5.2 How to Manage Master Plans and Processes
+
 Master Plans are structures containing one root Process and one or more Process Operations to define the
 execution of a specific manufacturing activity.
 For more information on the hierarchical structure of a Master Plan, see section As Planned BOPs, Master Plans,
@@ -14592,23 +11497,14 @@ You can perform the following operations:
 Creating Master Plans and Processes
 Linking Processes to Master Plans
 
-194
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 195
-
-How to Configure the Production Processes
-How to Manage Master Plans and Processes
-
 Linking Documents to Master Plans
 Setting Qualification Criteria for Operation Folders
 Setting Qualification Criteria for Process Operations and Specifications
 Setting Qualification Criteria for Setpoint Variables
 Completing Master Plans
 
-5.2.1 Creating Master Plans and Processes
+#### 5.2.1 Creating Master Plans and Processes
+
 This procedure allows you to create a new Process and link it to:
 a new Master Plan: the newly created Process becomes the Root Process of the Master Plan.
 an existing Master Plan: the newly created Process becomes a Sub-Process of an existing Process without
@@ -14666,16 +11562,6 @@ Plant
 Either the Enterprise or Site where the Process execution will take place, to be selected among
 those created from the Equipment Configurations page.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-195
-
-
-## Pagina 196
-
-How to Configure the Production Processes
-How to Manage Master Plans and Processes
-
 Param
 eter
 
@@ -14719,7 +11605,8 @@ be produced by the Process.
 
 3. Click Create to confirm the operation.
 
-5.2.2 Linking Processes to Master Plans
+#### 5.2.2 Linking Processes to Master Plans
+
 This procedure allows you to link an existing Process to:
 a new Master Plan: the Process becomes the Root Process of the Master Plan.
 an existing Master Plan: the Process becomes a Sub-Process of an existing Process without Operations, inside
@@ -14732,17 +11619,7 @@ Procedure
 1. In the Processes and Master Plans page, click
 2. Set the following parameters:
 
-196
-
 Link Process to Master Plan.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 197
-
-How to Configure the Production Processes
-How to Manage Master Plans and Processes
 
 Parameter
 
@@ -14767,7 +11644,8 @@ Name of the Process to be linked to the Master Plan.
 
 3. Click Link.
 
-5.2.3 Linking Documents to Master Plans
+#### 5.2.3 Linking Documents to Master Plans
+
 This procedure allows you to establish a link between a Master Plan and a set of Documents that can be useful to
 the Operator who will manage the corresponding Work Order Operation at runtime. For example, it could be useful
 to provide the user with an image of the involved items in order to easily identify them before executing the Work
@@ -14806,16 +11684,6 @@ Revision
 
 The revision of the Document. Once saved, the value cannot be modified.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-197
-
-
-## Pagina 198
-
-How to Configure the Production Processes
-How to Manage Master Plans and Processes
-
 Parameter
 
 Description
@@ -14850,7 +11718,8 @@ While creating Work Orders, in case the same document is linked both to an Opera
 to the Operation instance in the Master Plan, it will be linked just once to the new Work Order
 Operation.
 
-5.2.4 Setting Qualification Criteria for Operation Folders
+#### 5.2.4 Setting Qualification Criteria for Operation Folders
+
 Qualification Criteria can be set for Operation Folders, so that specific rules can be applied during the creation of
 the Work Order in Master Plan contexts, to include and perform at runtime only those Operations deemed
 necessary, while the Operations belonging to an Operation Folder which Qualification Criteria do not match with
@@ -14871,20 +11740,10 @@ Set Qualification Criteria button visible in the right sidebar.
 want to set and click Save.
 You can remove existing associations by clicking the
 
-198
-
 Unset Qualification Criteria button.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+#### 5.2.5 Setting Qualification Criteria for Process Operations and Specifications
 
-
-## Pagina 199
-
-How to Configure the Production Processes
-How to Manage Master Plans and Processes
-
-5.2.5 Setting Qualification Criteria for Process Operations and
-Specifications
 Qualification Criteria can be set for Process Operations, so that specific rules can be applied during the creation of
 the Work Order in Master Plan contexts, to include and perform at runtime only those operations deemed
 necessary.
@@ -14912,7 +11771,8 @@ You can remove existing associations by clicking the
 
 Unset Qualification Criteria button.
 
-5.2.6 Setting Qualification Criteria for Setpoint Variables
+#### 5.2.6 Setting Qualification Criteria for Setpoint Variables
+
 The variables of Setpoints that have been previously declared compatible with Machines or Tools can be set with
 Qualification Criteria so that those that best satisfy your needs can be filtered out and added to the Work Order you
 want to create from your Master Plan.
@@ -14930,16 +11790,6 @@ Qualification Criteria.
 4. Click the
 Associate Automation Node Instance Parameters button visible in the right sidebar: this opens
 the Automation Node Instance Parameters page, listing the available parameters.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-199
-
-
-## Pagina 200
-
-How to Configure the Production Processes
-Creating a Sub-Process
 
 5. Select the Automation Node Instance Parameter of interest and then click the Setpoint Variables tab.
 6. Select the Setpoint Variable for which you would like to set a Qualification Criteria.
@@ -14974,7 +11824,8 @@ You can remove existing associations by clicking the
 
 Unset Qualification Criteria button.
 
-5.2.7 Completing Master Plans
+#### 5.2.7 Completing Master Plans
+
 When a Master Plan is created, its Completed status is initially set to false and therefore the Master Plan is not yet
 available for the creation of Work Orders.
 Before using the Master Plan for production, it is necessary to complete it.
@@ -14985,18 +11836,9 @@ Procedure
 
 and confirm the operation.
 
-5.3 Creating a Sub-Process
+### 5.3 Creating a Sub-Process
+
 Each Process can be divided into Sub-Processes.
-
-200
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 201
-
-How to Configure the Production Processes
-Creating a Sub-Process
 
 Once created the Sub-Process is identified by a minimal set of parameters and you must properly configure it,
 before using it in your production processes. The configuration process, which can also be performed at a later
@@ -15051,16 +11893,6 @@ be modified.
 Name
 
 Name of the Sub-Process.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-201
-
-
-## Pagina 202
-
-How to Configure the Production Processes
-Creating a Sub-Process
 
 Paramete
 r
@@ -15128,22 +11960,13 @@ Link Process.
 3. Select the Process or Sub-Process in which you want to use the selected Sub-Process.
 4. Click Save.
 
-202
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 203
-
-How to Configure the Production Processes
-Creating a Process Operation
-
 You can unlink a Sub-Process from a Process or another Sub-Process, by selecting the Sub-Process and by
 clicking
 
 Unlink. After this unlinking, the system changes the Sub-Process to a Process.
 
-5.4 Creating a Process Operation
+### 5.4 Creating a Process Operation
+
 Processes, as well as Sub-Processes (in those cases where present), can act as containers for Process Operations,
 which will be instantiated as Work Order Operations at runtime to concur to the production of a specific Product.
 You can create a new Process Operation from scratch setting a minimal set of parameters: before using it in your
@@ -15190,19 +12013,7 @@ Creating a Process Operation from Scratch
 
 Create > Manually.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-203
-
-
-## Pagina 204
-
-How to Configure the Production Processes
-Creating a Process Operation
-
 2. Set the following parameters:
-
-204
 
 Paramet
 er
@@ -15240,14 +12051,12 @@ Estimated duration of the execution of the Work Order Operation generated from t
 Operation. This value is expressed in hours, minutes, seconds.
 
 Require
-d
 Inspecti
 on Role
 
 Deprecated.
 
 Require
-d
 Certifica
 tion
 
@@ -15275,21 +12084,12 @@ generated from the Process Operation you are creating.
 If no value is selected for this parameter, the default Operation/Step Category provided
 in Opcenter EX DS will be assigned.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 205
-
-How to Configure the Production Processes
-Creating a Process Operation
-
 Paramet
 er
 
 Description
 
 Electron
-ic
 Signatur
 e Start
 
@@ -15298,7 +12098,6 @@ Order Operation. The validation ensures that only authorized operators start Wor
 Operations.
 
 Electron
-ic
 Signatur
 e Pause
 
@@ -15307,7 +12106,6 @@ Order Operation. The validation ensures that only authorized operators pause Wor
 Operations.
 
 Electron
-ic
 Signatur
 e
 Complet
@@ -15355,17 +12153,8 @@ Create > Link.
 3. In the Operation box, select a Process Operation that you want to link to the Process or Sub-Process.
 4. Click Save.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+### 5.5 Creating an Operation Folder
 
-205
-
-
-## Pagina 206
-
-How to Configure the Production Processes
-Creating an Operation Folder
-
-5.5 Creating an Operation Folder
 Operation Folders are logical containers for Process Operations, which will be instantiated as Work Order
 Operations at runtime to concur to the production of a specific Product.
 Operation Folders can directly contain Process Operations or also other Operation Folders as Sub-Folders which
@@ -15402,8 +12191,6 @@ Creating an Operation Folder from Scratch
 1. In the Operation Folders tab, click
 2. Set the following parameters:
 
-206
-
 Create Operation Folder.
 
 Paramet
@@ -15419,14 +12206,6 @@ no longer be modified.
 Name
 
 The name of the Operation Folder.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 207
-
-How to Configure the Production Processes
-Defining Dependencies between Process Operations
 
 Paramet
 er
@@ -15464,7 +12243,8 @@ Link Operation Folder.
 Process.
 4. Click Link.
 
-5.6 Defining Dependencies between Process Operations
+### 5.6 Defining Dependencies between Process Operations
+
 You can define if the system must execute the Operations you have created within a Process (or a Sub-Process) in a
 specific order, setting dependencies among them.
 After opening the desired Operation (
@@ -15485,16 +12265,6 @@ Operation.
 2. Click
 Add Dependency.
 3. Set the following parameters:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-207
-
-
-## Pagina 208
-
-How to Configure the Production Processes
-Defining Dependencies between Operation Folders
 
 Parameter
 
@@ -15535,7 +12305,8 @@ To display a window containing a preview of the entire graph, click Pan and Zoom
 Move the display box to pan the graph.
 Click the lower right corner of the display box to resize the graph.
 
-5.7 Defining Dependencies between Operation Folders
+### 5.7 Defining Dependencies between Operation Folders
+
 You can define if the system must execute the Operations you have created within a Process in a specific order,
 setting dependencies among them and or Operation Folders.
 Then, while configuring an Operation Folder (in Operation Folders tab) you can click the Folder Dependencies tab
@@ -15548,16 +12319,6 @@ Users with the Product Engineer role can perform this operation.
 Procedure
 1. In Operation Folders tab, select the Operation Folder you want to create a dependency from or to, in order to
 then apply a routing to its contained Process Operations.
-
-208
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 209
-
-How to Configure the Production Processes
-Defining Groups of Alternative Process Operations
 
 2. Click
 Add Dependency.
@@ -15600,7 +12361,8 @@ can start only after the first Operation has started.
 4. Click Save.
 You can also create dependencies during the creation of an Operation Folder from scratch.
 
-5.8 Defining Groups of Alternative Process Operations
+### 5.8 Defining Groups of Alternative Process Operations
+
 Alternative Process Operations can be adopted in place of the Process Operations that have already been defined
 as part of your main execution flow for a specific Process.
 A Process Operation cannot belong to different groups of Alternative Process Operations.
@@ -15615,16 +12377,6 @@ At least three Process Operations have been defined.
 The Process Operations are in sequence and one is configured as predecessor of all the others.
 
 Procedure
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-209
-
-
-## Pagina 210
-
-How to Configure the Production Processes
-Associating Items to Process Operations
 
 1. Operating in the Processes page, select the Process for which you want to create a group of Alternative Process
 Operations and click
@@ -15670,7 +12422,8 @@ that you want to set as your preference by clicking on the star icon
 
 next to it and then click Save.
 
-5.9 Associating Items to Process Operations
+### 5.9 Associating Items to Process Operations
+
 You can create an association between the Process Operations your production process consists of and specific
 resources. In this manner, you can establish the various specifications regarding which machinery, know-how and
 materials are necessary to producing a specific Product, as well as providing Operators with additional instructions
@@ -15681,16 +12434,6 @@ Target User
 Users with the Product Engineer role can perform this action.
 
 Accessing the Working Environment
-
-210
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 211
-
-How to Configure the Production Processes
-Associating Items to Process Operations
 
 1. Click
 
@@ -15726,7 +12469,8 @@ link Tool Definition Parameters to Automation Node Instance Parameters
 link Setpoint Variables to Automation Node Parameters
 create Process Steps.
 
-5.9.1 Associating Machines to Process Operations
+#### 5.9.1 Associating Machines to Process Operations
+
 This procedure allows you to specify where the Process Operation can be executed and which Machines can be
 used to execute the Process Operation.
 
@@ -15738,18 +12482,6 @@ Procedure
 2. Click
 
 Create and then proceed as follows:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-211
-
-
-## Pagina 212
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
-212
 
 If the Work Operation
 associated to
@@ -15797,14 +12529,6 @@ print items
 tridimensionally.
 (Optional, see
 note below)
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 213
-
-How to Configure the Production Processes
-Associating Items to Process Operations
 
 If the Work Operation
 associated to
@@ -15879,22 +12603,13 @@ File;
 if the Print Job File is a template (that is, the Print Job File must have Product to Be
 Serialized set to True and Product Serial Number Management set to Pending) and the Work
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-213
-
-
-## Pagina 214
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
 Order is either of the Serialized or Full Serialized type, you can associate it to Serial Numbers
 to create one or more Runtime Print Job Files.
 at runtime, before transferring the Print Job File to the 3D Printer.
 3. Click Add.
 
-5.9.2 Associating Materials to Process Operations
+#### 5.9.2 Associating Materials to Process Operations
+
 This procedure allows you to define an association between a Process Operation and the Materials that it will
 consume or assemble.
 
@@ -15906,8 +12621,6 @@ Procedure
 2. Click
 .
 3. Set the following parameters:
-
-214
 
 Param
 eter
@@ -15930,20 +12643,11 @@ Any kind of identifier for the Material Specification used in Teamcenter Manufac
 to uniquely represent the Material's occurrence.
 
 Logica
-l
 Positi
 on
 
 Any kind of reference about where the component must be placed or assembled in the final
 product.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 215
-
-How to Configure the Production Processes
-Associating Items to Process Operations
 
 Param
 eter
@@ -16002,16 +12706,6 @@ CoProduct: To be selected when you intentionally want more than one distinct pro
 to be produced from the same Material during the execution of the same Operation.
 The quantity to be produced can range from zero to the total quantity of each Material.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-215
-
-
-## Pagina 216
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
 Param
 eter
 
@@ -16051,7 +12745,8 @@ Material must be displayed by default to the Operator among those contained in t
 
 4. Click Add.
 
-5.9.3 Associating Functional Codes to Process Operations
+#### 5.9.3 Associating Functional Codes to Process Operations
+
 In addition to Materials, you can associate Process Operations also to Functional Codes.
 
 Target User
@@ -16062,16 +12757,6 @@ Procedure
 2. Click
 Create > Add Functional Code.
 3. Set the following parameters:
-
-216
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 217
-
-How to Configure the Production Processes
-Associating Items to Process Operations
 
 Parame
 ter
@@ -16099,23 +12784,12 @@ n
 Any kind of reference about where the component must be placed or assembled in the final
 product.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-217
-
-
-## Pagina 218
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
 Parame
 ter
 
 Description
 
 Materia
-l
 Specific
 ation
 Type
@@ -16168,16 +12842,6 @@ product to be produced from the same Material during the execution of the same
 Operation. The quantity to be produced can range from zero to the total quantity of
 each Material.
 
-218
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 219
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
 Parame
 ter
 
@@ -16211,14 +12875,14 @@ be equal to 1.
 Alterna
 tive
 Selecte
-d
 
 If the Material Specification Type is set to Alternative, select this check box to define which
 Material must be displayed by default to the Operator among those contained in the same Group.
 
 4. Click Save.
 
-5.9.4 Associating Tools to Process Operations
+#### 5.9.4 Associating Tools to Process Operations
+
 This procedure allows you to define an association between a Process Operation and the Tools that will be used to
 execute it.
 For information on setting parameters to define an association between a Process Operation and a Tool to be used
@@ -16232,16 +12896,6 @@ Procedure
 2. Click
 Create.
 3. Set the following parameters:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-219
-
-
-## Pagina 220
-
-How to Configure the Production Processes
-Associating Items to Process Operations
 
 Para
 mete
@@ -16268,7 +12922,8 @@ The number of times the Tool is used to perform the current Process Operation.
 
 4. Click Create.
 
-5.9.5 Associating Screwing Tools to Process Operations
+#### 5.9.5 Associating Screwing Tools to Process Operations
+
 Screwing Tools (for example, Screwdrivers) are considered as a special type of Tool peculiar to Screwing
 Operations.
 Your starting point remains the procedure for associating a Tool to a Process Operation from scratch, but you must
@@ -16286,8 +12941,6 @@ Procedure
 Create.
 3. Set the following parameters:
 
-220
-
 Parameter
 
 Description
@@ -16301,14 +12954,6 @@ Usage Number
 (Bolts Quantity)
 
 The number of bolts to be screwed during the Process Operation of type screwing.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 221
-
-How to Configure the Production Processes
-Associating Items to Process Operations
 
 Parameter
 
@@ -16340,7 +12985,8 @@ Maximum value of the screwing torque.
 
 4. Click Create.
 
-5.9.6 Associating Open Protocol Tools to Process Operations
+#### 5.9.6 Associating Open Protocol Tools to Process Operations
+
 The parameters specific to Open Protocol Tools are visible solely if you have installed the BoPOPRT
 extension app and, in general, Open Protocol Tools can be used solely if you have configured the Open
 Protocol Service asset.
@@ -16366,16 +13012,6 @@ Tool Definition
 The type of Open Protocol Tool to be used to perform the Process Operation of type
 Open Protocol. Select one among those you have created.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-221
-
-
-## Pagina 222
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
 Parameter
 
 Description
@@ -16397,7 +13033,8 @@ Operation must be repaired at the Quality Gate.
 
 4. Click Create.
 
-5.9.7 Linking Documents to Process Operations
+#### 5.9.7 Linking Documents to Process Operations
+
 This procedure allows you to establish a link between a Process Operation and a set of Documents that can be
 useful to the Operator who will manage the corresponding Work Order Operation at runtime. For example, it could
 be useful to provide the user with an image of the involved items in order to allow him to easily identify them before
@@ -16434,16 +13071,6 @@ The unique identifier of the Document. Once saved, the value cannot be modified.
 It cannot contain the following special characters: & (ampersand), ' (quote), #
 (hashtag).
 
-222
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 223
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
 Parameter
 
 Description
@@ -16476,7 +13103,8 @@ Categories
 To preview the linked or associated documents, go to Document Viewer tab and you can see the linked or
 associated documents.
 
-5.9.8 Associating Work Instructions to Process Operations
+#### 5.9.8 Associating Work Instructions to Process Operations
+
 This procedure allows you to define an association between a Process Operation and Work Instructions that are
 used by Operators at runtime to get detailed instructions about how to perform specific tasks on the product.
 Operators can also use Work Instructions to collect runtime data during production execution. To discriminate if a
@@ -16505,16 +13133,6 @@ Click
 
 Link Work Instruction.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-223
-
-
-## Pagina 224
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
 If you link a Work Instruction to a Process Operation working from the Operation
 Catalog page, the Work Instruction will be inherited by all new Process Operations
 picked from that Operation in the Catalog and by the existing Operation provided that
@@ -16540,7 +13158,8 @@ Type).
 You can preview the Work Instruction Definition created for Master Plan Operations, Work Order
 Operations, As Planned Bill of Process Operations and Operator Landing page Operations.
 
-5.9.9 Associating Skills to Process Operations
+#### 5.9.9 Associating Skills to Process Operations
+
 Skills are specific requirements that can be associated to Process Operations, Work Order Operations, Process
 Steps and/or Work Order Steps, and offer a more granular manner to control their execution.
 
@@ -16562,20 +13181,11 @@ Note According to the Enable Certification Skill Level Filter configuration key,
 exact or the minimum value required to authorize the Process Operation execution.
 6. Select one or more Skills from the list and click Add.
 
-224
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 225
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
 If multiple Skills are selected at the same time, they are all associated to the same Level. If you need to
 associate Skills to different Levels, you need to associate them individually.
 
-5.9.10 Linking Interlocking Checks to Process Operations
+#### 5.9.10 Linking Interlocking Checks to Process Operations
+
 Interlocking Checks (both of Standard and Custom type) can be linked to Process Operations to verify whether one
 or more conditions have been satisfied at runtime prior to starting or completing the instantiated Work Order
 Operation.
@@ -16589,7 +13199,6 @@ Description
 
 AllPartsA
 ssemble
-d
 
 Verifies that all components have been assembled on the Work Order Operation (as well as on its
 Work Order Steps, where present), according to the Material Specifications or BoMs.
@@ -16628,16 +13237,6 @@ Procedure
 
 Link.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-225
-
-
-## Pagina 226
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
 3. In the Link Interlocking Check pane, select the Interlocking Check to be linked: if you have selected a standard
 Interlocking Check, go to step 5.
 4. (only for custom Interlocking Checks) In the Define Interlocking Check Type area, select at least one of the
@@ -16666,7 +13265,8 @@ values (that is, Is List is selected), it will be possible to define more than o
 Once linked, Interlocking Checks cannot be deleted. To delete Interlocking Checks, they must be first
 unlinked.
 
-5.9.10.1 Role of Work Order Production Type for the DocumentsUploaded
+##### 5.9.10.1 Role of Work Order Production Type for the DocumentsUploaded
+
 Interlocking Check
 The Production Type of the Work Order to which the current Work Order Operation belongs plays an important role
 in how the DocumentsUploaded Interlocking Check is executed and how its outcome is to be considered. In all
@@ -16695,16 +13295,6 @@ The Min. doc # parameter is checked on the specified list of the Material Tracki
 (Serial Numbers) that is being completed: it is sufficient that the minimum number of
 Documents not be uploaded for one of the Serial Numbers for the outcome of the check to
 be considered unsuccessful as a whole.
-
-226
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 227
-
-How to Configure the Production Processes
-Associating Items to Process Operations
 
 If the Work Order
 belongs to
@@ -16740,7 +13330,8 @@ Third partial consumption of batch = 4 with 3 Documents uploaded
 Total Documents uploaded = 5 + 2 + 3 = 10 Documents uploaded for the batch as a whole.
 The outcome of the Interlocking Check is successful.
 
-5.9.11 Linking Inspection Definitions to Process Operations
+#### 5.9.11 Linking Inspection Definitions to Process Operations
+
 Inspection Definitions are used to configure Quality Inspections to be carried out at runtime.
 They represent how a certain measurement (that is, a Quality Characteristic) has to be collected at runtime in terms
 of frequency and sample size.
@@ -16752,16 +13343,6 @@ rejections of individual produced Material Tracking Units).
 Quality Inspection execution can be configured according to your specific needs. Quality Inspections can be set to
 be performed:
 on each piece produced (100 Percent),
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-227
-
-
-## Pagina 228
-
-How to Configure the Production Processes
-Associating Items to Process Operations
 
 automatically according to a specific interval of produced items (Part Based),
 automatically according to a specific interval of time (Time Based),
@@ -16809,16 +13390,6 @@ Part Based and Unit Based Inspections that have a frequency expressed as a perce
 produced by the Production Order can be linked to a Process Operation only if the WO-specific checkbox
 at step 5 above has been selected.
 
-228
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 229
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
 If you want to unlink the linked Inspection Definition revision, click
 Unlink.
 You can link multiple Inspection Definitions to a Process Operation, but only one revision of the
@@ -16827,7 +13398,8 @@ You can modify the Reference Operation, selecting it and then clicking
 
 Edit.
 
-5.9.12 Associating Powders to Process Operations
+#### 5.9.12 Associating Powders to Process Operations
+
 This procedure allows you to specify which Powder must be loaded into the 3D Printers associated to the Process
 Operation.
 
@@ -16868,25 +13440,16 @@ identifier.
 
 4. Click Set.
 
-5.9.13 Linking Human Resources to Process Operations
+#### 5.9.13 Linking Human Resources to Process Operations
+
 Linking Human Resources to Process Operations allows you to specify how many users with specific Certifications
 are required to start the execution of a specific Work Order Operation.
 Once the Human Resource is linked to the Process Operation, it is possible to remove the link (
 modify the number of users that are required to possess each Certification (
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 button) or
 
 button).
-
-229
-
-
-## Pagina 230
-
-How to Configure the Production Processes
-Associating Items to Process Operations
 
 Target User
 Users with the Product Engineer role can perform this action.
@@ -16902,8 +13465,8 @@ Link.
 4. In the Number of Users area, for each Certification, specify the number of required users.
 5. Click Link.
 
-5.9.14 Linking Material Parameters to Automation Node Instance
-Parameters
+#### 5.9.14 Linking Material Parameters to Automation Node Instance Parameters
+
 Once created and associated to the Process Operation/Step, Material Parameters can be linked to Automation
 Node Instance Parameters.
 At runtime, the Operator will be able to decide whether to automatically retrieve the values coming from the field or
@@ -16932,18 +13495,8 @@ select the Material from the upper pane.
 select the parameter to be linked to the selected Material from the lower pane.
 7. Click Link.
 
-230
+#### 5.9.15 Linking Data Collection Parameters to Automation Node Instance Parameters
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 231
-
-How to Configure the Production Processes
-Associating Items to Process Operations
-
-5.9.15 Linking Data Collection Parameters to Automation Node Instance
-Parameters
 You can create and associate Data Collection Parameters to the Process Operation/Step. You can then link these
 Data Collection Parameters to the Automation Node Instance Parameters. At runtime, the Operator can decide
 whether to automatically retrieve the values coming from the field or enter them manually.
@@ -16973,8 +13526,8 @@ click
 
 Unlink.
 
-5.9.16 Linking Tool Definition Parameters to Automation Node Instance
-Parameters
+#### 5.9.16 Linking Tool Definition Parameters to Automation Node Instance Parameters
+
 Once created and associated with the Process Operation or Step, Tool Definition Parameters can be linked to the
 Automation Node Instance Parameters.
 At runtime, the Operator can decide whether to automatically retrieve the values coming from the field or enter
@@ -16987,16 +13540,6 @@ usage count.
 Prerequisites
 The target machine for the Process Operation is linked to an Automation Node Instance.
 Tool Definitions have been associated to the involved Process Operation/Step.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-231
-
-
-## Pagina 232
-
-How to Configure the Production Processes
-Associating Items to Process Operations
 
 Target User
 Users with the Product Engineer role can perform this action.
@@ -17019,7 +13562,8 @@ and then click
 
 Unlink.
 
-5.9.17 Linking Setpoint Variables to Automation Node Parameters
+#### 5.9.17 Linking Setpoint Variables to Automation Node Parameters
+
 To be properly used at runtime to transmit data to the field, the variables of Setpoints that have been previously
 declared compatible with Machines or Tools must be linked to Automation Node Parameters.
 
@@ -17047,17 +13591,7 @@ Linking Setpoint Variables involving Tools
 upper table.
 4. In the Setpoint Variables tab, click
 
-232
-
 .
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 233
-
-How to Configure the Production Processes
-Creating a Process Step
 
 5. Select the Setpoint of interest and then the Variable to be linked to the Automation Node Type Parameter.
 6. Click Link.
@@ -17087,7 +13621,8 @@ creating a Master Plan, you can take advantage of the possibility of using Quali
 elements that will subsequently make up the Work Order that is generated from it. For more information
 on how to associate Qualification Criteria to Setpoint Variables, see the dedicated page.
 
-5.10 Creating a Process Step
+### 5.10 Creating a Process Step
+
 If necessary, each Process Operation can be split into a set of Process Steps.
 You can create a new Process Step from scratch setting its parameters one by one: in alternative, you can select an
 existing Step from the Step Catalog and link it to the current Process Operation.
@@ -17109,16 +13644,6 @@ Available Operations
 1. Create a Process Step in one of the following ways:
 From scratch
 Linking an existing Step from the Step Catalog.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-233
-
-
-## Pagina 234
-
-How to Configure the Production Processes
-Creating a Process Step
 
 Creating a Process Step from Scratch
 1. In the Steps tab, click
@@ -17193,14 +13718,6 @@ unique estimated duration displayed in the following formats: d.hh:mm:ss or hh:m
 
 Linking an existing Step from the Step Catalog
 
-234
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 235
-
-How to Configure the Production Processes
 Defining Dependencies between Process Steps
 
 1. In the Steps tab, click
@@ -17209,7 +13726,8 @@ Link Step To Operation.
 3. Insert the required Sequence number.
 4. Click Save.
 
-5.11 Defining Dependencies between Process Steps
+### 5.11 Defining Dependencies between Process Steps
+
 After defining some Process Steps, you can set the dependencies among them.
 Unlike those between Process Operations, dependencies between Process Steps can only belong to
 the After End type.
@@ -17224,7 +13742,8 @@ Procedure
 4. In the From and To fields, set the Steps linked by the Dependency.
 5. Click Save.
 
-5.12 Associating Items to Process Steps
+### 5.12 Associating Items to Process Steps
+
 You can create an association between the Process Steps involved in your production process, and specific
 resources. In this manner, you can establish the various specifications regarding which machinery, know-how, and
 materials are necessary to produce a specific Product, as well as providing Operators with additional instructions to
@@ -17257,23 +13776,14 @@ Materials
 Tools
 Documents
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-235
-
-
-## Pagina 236
-
-How to Configure the Production Processes
-Associating Items to Process Steps
-
 Work Instructions
 Skills
 Interlocking Checks
 Quality Inspections
 Human Resources.
 
-5.12.1 Associating Materials to Process Steps
+#### 5.12.1 Associating Materials to Process Steps
+
 This procedure allows you to define an association between a Process Step and the Materials that it will consume or
 assemble.
 
@@ -17285,8 +13795,6 @@ Procedure
 2. Click
 .
 3. Set the following parameters:
-
-236
 
 Param
 eter
@@ -17309,20 +13817,11 @@ Any kind of identifier for the Material Specification used in Teamcenter Manufac
 to uniquely represent the Material's occurrence.
 
 Logica
-l
 Positio
 n
 
 Any kind of reference about where the component must be placed or assembled in the final
 product.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 237
-
-How to Configure the Production Processes
-Associating Items to Process Steps
 
 Param
 eter
@@ -17382,16 +13881,6 @@ product to be produced from the same Material during the execution of the same
 Step. The quantity to be produced can range from zero to the total quantity of each
 Material.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-237
-
-
-## Pagina 238
-
-How to Configure the Production Processes
-Associating Items to Process Steps
-
 Param
 eter
 
@@ -17427,7 +13916,8 @@ The unit of measure of the Material being linked to the Process Step.
 
 4. Click Add.
 
-5.12.2 Associating Tools to Process Steps
+#### 5.12.2 Associating Tools to Process Steps
+
 This procedure allows you to define an association between a Process Step and the Tools that will be used to
 execute it.
 
@@ -17440,8 +13930,6 @@ Procedure
 Create.
 3. Set the following parameters:
 
-238
-
 Parameter
 
 Description
@@ -17450,14 +13938,6 @@ Tool Definition
 
 The type of Tool to be used to perform the Process Step. Select one among those you
 have created.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 239
-
-How to Configure the Production Processes
-Associating Items to Process Steps
 
 Parameter
 
@@ -17469,7 +13949,8 @@ How many times the Tool must be used to perform the current Process Step.
 
 4. Click Create.
 
-5.12.3 Linking Documents to Process Steps
+#### 5.12.3 Linking Documents to Process Steps
+
 This procedure allows you to establish a link between a Process Step and a set of previously configured Documents
 that can be useful to the Operator who will manage the instantiated Work Operation Step at runtime.
 For example, it could be useful to provide the user with an image of the items involved in order to allow him or her
@@ -17495,7 +13976,8 @@ button, select the document of interest and then click Select.
 To preview the linked or associated documents, go to Document Viewer tab and you can see the linked or
 associated documents.
 
-5.12.4 Associating Work Instructions to Process Steps
+#### 5.12.4 Associating Work Instructions to Process Steps
+
 This procedure allows you to define an association between a Process Step and Work Instructions that are used by
 Operators at runtime to get detailed instructions about how to perform specific tasks on the product. Operators can
 also use Work Instructions to collect runtime data during production execution. To discriminate if a Work
@@ -17509,16 +13991,6 @@ Users with the Product Engineer role can perform this action.
 
 Prerequisite
 A Work Instruction to be associated to the Process Steps is available.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-239
-
-
-## Pagina 240
-
-How to Configure the Production Processes
-Associating Items to Process Steps
 
 Procedure
 1. Open the desired Process Step and then click the Documents tab.
@@ -17539,7 +14011,8 @@ to be associated.
 Type).
 7. Select the form of interest from the list and click Link.
 
-5.12.5 Associating Skills to Process Steps
+#### 5.12.5 Associating Skills to Process Steps
+
 Skills are specific requirements that can be associated to Process Operations, Work Order Operations, Process
 Steps and/or Work Order Steps, and offer a more granular manner to control their execution.
 
@@ -17563,19 +14036,10 @@ exact or the minimum value required to authorize the Process Step execution.
 If multiple Skills are selected at the same time, they are all associated to the same Level. If you need to
 associate Skills to different Levels, you need to associate them individually.
 
-5.12.6 Linking Interlocking Checks to Process Steps
+#### 5.12.6 Linking Interlocking Checks to Process Steps
+
 Interlocking Checks (both of Standard and Custom type) can be linked to Process Steps to verify whether one or
 more conditions have been satisfied at runtime prior to starting or completing the instantiated Work Order Step.
-
-240
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 241
-
-How to Configure the Production Processes
-Associating Items to Process Steps
 
 If the outcome of all these checks is successful, the execution of the Work Order Step will either be started
 (Inbound Interlocking Checks satisfied) or completed (Outbound Interlocking Checks satisfied).
@@ -17636,16 +14100,6 @@ OUTBOUND
 If this check box is selected, the custom Interlocking Check will trigger the completion of
 the related Work Order Operation, once all conditions required by the check are satisfied.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-241
-
-
-## Pagina 242
-
-How to Configure the Production Processes
-Associating Items to Process Steps
-
 5. In the Associated Interlocking Check Parameters pane, select a parameter and then click Set Parameter
 Values.
 6. In the Set Parameter Values pane, insert or update values for the parameters. If the parameter foresees more
@@ -17655,7 +14109,8 @@ values (that is, Is List is selected), it will be possible to define more than o
 Once linked, Interlocking Checks cannot be deleted. To delete Interlocking Checks, they must be first
 unlinked.
 
-5.12.7 Linking Inspection Definitions to Process Steps
+#### 5.12.7 Linking Inspection Definitions to Process Steps
+
 Inspection Definitions are used to configure Quality Inspections to be carried out at runtime.
 They represent how a certain measurement (that is, a Quality Characteristic) has to be collected at runtime in terms
 of frequency and sample size.
@@ -17687,17 +14142,8 @@ Unlink.
 You can link multiple Inspection Definitions to a Process Step, but only one revision of the
 selected Inspection Definition can be linked.
 
-242
+#### 5.12.8 Linking Human Resources to Process Steps
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 243
-
-How to Configure the Production Processes
-Associating Items to Process Steps
-
-5.12.8 Linking Human Resources to Process Steps
 Linking Human Resources to Process Steps allows you to specify how many users with specific Certifications are
 required to start the execution of a specific Work Order Step.
 Once the Human Resource is linked to the Process Step, it is possible to remove the link (
@@ -17721,17 +14167,8 @@ Link.
 4. In the Number of Users area, for each Certification, specify the number of required users.
 5. Click Link.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+## 6 How to Prepare Production Execution
 
-243
-
-
-## Pagina 244
-
-How to Prepare Production Execution
-How to Create and Prepare Material Tracking Units
-
-6 How to Prepare Production Execution
 Production execution requires that some groundwork be done: you will need to create and prepare certain runtime
 entities (some of which differ if, for example, Additive Manufacturing or One Piece Flow Manufacturing is involved)
 and your Work Orders first.
@@ -17750,7 +14187,8 @@ Substrates (specific to Additive Manufacturing)
 3. Create and prepare Work Orders.
 4. (Optional) Create and prepare Execution Groups.
 
-6.1 How to Create and Prepare Material Tracking Units
+### 6.1 How to Create and Prepare Material Tracking Units
+
 To properly start production execution, you must instantiate the Material Tracking Units (MTUs) consumed or
 produced during the Work Order's execution. MTUs are created from their abstract representations (Materials)
 defined while configuring the production environment.
@@ -17773,16 +14211,6 @@ Users with either the Production Coordinator or Product Engineer role can perfor
 Workflow
 1. Create a Material Tracking Unit.
 2. (Optional) Link one or more Documents to the MTU.
-
-244
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 245
-
-How to Prepare Production Execution
-How to Create and Prepare Material Tracking Units
 
 Creating a Material Tracking Unit
 1. Click the
@@ -17857,16 +14285,6 @@ Measure
 
 (Optional) The Unit of Measure you want to associate with the Material Tracking Unit.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-245
-
-
-## Pagina 246
-
-How to Prepare Production Execution
-How to Create and Prepare Material Tracking Units
-
 Parameter
 
 Description
@@ -17937,17 +14355,7 @@ It cannot contain the following special characters: & (ampersand), ' (quote), #
 
 Revision
 
-246
-
 The revision of the Document. Once saved, the value cannot be modified.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 247
-
-How to Prepare Production Execution
-How to Create and Prepare Material Tracking Units
 
 Parameter
 
@@ -18000,19 +14408,10 @@ Is Partial column shows a partial Result, related to Activities, that needs to b
 of the Operation.
 For more information, see Viewing and Amending the Results of a Material Tracking Unit.
 
-6.1.1 Splitting Material Tracking Units
+#### 6.1.1 Splitting Material Tracking Units
+
 Batch-type Material Tracking Units can be split into smaller quantities before being consumed during production
 execution. These smaller quantities can then be used by different Work Orders.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-247
-
-
-## Pagina 248
-
-How to Prepare Production Execution
-How to Create and Prepare Material Tracking Units
 
 The split can be performed by indicating a specific target quantity to be applied to a single new Material Tracking
 Unit.
@@ -18074,23 +14473,14 @@ Destination batch code of Material Tracking Unit to be split.
 
 Result
 
-248
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 249
-
-How to Prepare Production Execution
-Creating Powder Material Batches
-
 The resulting Material Tracking Unit is displayed in the Material Tracking Units page and can be:
 consumed
 assembled
 recycled, in case of Powder Material Batches.
 These actions are no longer possible for the parent Material Tracking Unit.
 
-6.1.2 Changing Material Tracking Unit Codes
+#### 6.1.2 Changing Material Tracking Unit Codes
+
 You can automatically regenerate the Batch ID or Serial Number assigned to a Material Tracking Unit, starting from
 the Numbering Pattern associated to the related Material.
 
@@ -18103,7 +14493,8 @@ Procedure
 Generate and Associate button: the system automatically sets the Code field to the newly
 generated value.
 
-6.2 Creating Powder Material Batches
+### 6.2 Creating Powder Material Batches
+
 Powder Material Batches are a special type of Material Tracking Units specific to Additive Manufacturing. They
 represent the raw material to be used for a 3D printing operation and are instantiated from a special type of
 Material known as Powder Material.
@@ -18126,16 +14517,6 @@ Material batch to transition to any state, even if contrary to what is standard 
 lifecycle.
 
 Target User
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-249
-
-
-## Pagina 250
-
-How to Prepare Production Execution
-Creating Powder Material Batches
 
 Users with either the Production Coordinator or Product Engineer role can perform this operation.
 
@@ -18212,23 +14593,14 @@ parameter is inherited from its corresponding Powder, but can be overridden, if 
 
 Result
 
-250
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 251
-
-How to Prepare Production Execution
-Creating Tools
-
 The Powder Batch is created. Activities that are performed on Powder Batches (for example, their creation or a
 change of status) can be traced by opening a Powder Batch of your interest and clicking the History tab.
 The details include: the user who performed the action, the date and time when the action was performed,
 information on the mixed quantity, the quantity lost during mixing, the recycle count, the quantity tracked after the
 Powder Batch has been split.
 
-6.3 Creating Tools
+### 6.3 Creating Tools
+
 Tools are equipment used to transform raw material into final items during the execution of a Work Order
 Operation.
 Depending on your needs, thanks to appropriate configuration of their respective Tool Definitions, you can create
@@ -18279,17 +14651,7 @@ The Tool Definition to be instantiated to configure the Tool. Either select an o
 list or create a new Tool Definition, by clicking
 for the Tool Definition that you want to create.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 and inserting the required parameters
-
-251
-
-
-## Pagina 252
-
-How to Prepare Production Execution
-Creating Tools
 
 Parameter
 
@@ -18359,16 +14721,6 @@ Order Step.
 
 Associating Automation Node Instances to Tools
 
-252
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 253
-
-How to Prepare Production Execution
-How to Create Screwing Tools
-
 1. In the
 
 Tools page, select the Tool to be associated to one or more Automation Node Instances and click
@@ -18391,7 +14743,8 @@ Tools page, select the Tool of interest and click
 
 Open.
 
-6.4 How to Create Screwing Tools
+### 6.4 How to Create Screwing Tools
+
 Screwing Tools (for example, Screwdrivers) are specific types of Tool used in Work Order Operations of type
 Screwing (for example, those operations required for installing wheels on the vehicle). They can be created from the
 Tools page, thanks to appropriate configuration of their respective Tools Definitions, which require a specific
@@ -18427,16 +14780,6 @@ r
 
 Unique identifier to be assigned to the Screwing Tool. Once saved, this parameter can no longer
 be modified.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-253
-
-
-## Pagina 254
-
-How to Prepare Production Execution
-How to Configure Open Protocol Tools
 
 Paramet
 er
@@ -18503,21 +14846,12 @@ To unlink the Equipment from the Screwing Tool, select the association and then 
 
 .
 
-6.5 How to Configure Open Protocol Tools
+### 6.5 How to Configure Open Protocol Tools
+
 To use the Open Protocol Tool functionality, you must have properly configured the Open Protocol Service
 asset and installed the following Extension Apps:
 OpenProtocolDS
 BoPOPRT
-
-254
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 255
-
-How to Prepare Production Execution
-How to Configure Open Protocol Tools
 
 Open Protocol Tools are specific types of Tool used in Work Order Operations of type OpenProtocol. They can be
 created from the Tools page, after having appropriately configured their respective Open Protocol Tool Definitions,
@@ -18580,17 +14914,7 @@ Linking Equipment and Tool to the Open Protocol Node
 with the OpenProtocolDS extension app installed), create a new Open Protocol Node by clicking
 2. Set the following parameters (visible solely if the OpenProtocolDS extension app is installed):
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 .
-
-255
-
-
-## Pagina 256
-
-How to Prepare Production Execution
-Creating Substrates
 
 Parameter
 
@@ -18611,7 +14935,8 @@ the
 
 button.
 
-6.6 Creating Substrates
+### 6.6 Creating Substrates
+
 In addition to generic Tools, Opcenter Execution Discrete supports a special type of Tool specific to Additive
 Manufacturing known as a Substrate. Substrates are build plates that are used in conjunction with 3D printers to
 build tri-dimensional final items.
@@ -18638,8 +14963,6 @@ Create.
 the Substrate type.
 4. Set the following additional parameters specific to Substrates:
 
-256
-
 Parameter
 
 Description
@@ -18656,14 +14979,6 @@ Warning
 The minimum thickness that a Substrate must have. If the current thickness of a Substrate
 falls below this value, the status of the Substrate is set to Warning Available. The Substrate
 is still available for production, but with a warning.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 257
-
-How to Prepare Production Execution
-How to Create and Prepare Buffers
 
 Parameter
 
@@ -18729,18 +15044,9 @@ Open.
 Add.
 5. From the list of 3D printers, select the 3D printers that you want to associate to this Substrate, and click Add.
 
-6.7 How to Create and Prepare Buffers
+### 6.7 How to Create and Prepare Buffers
+
 A Buffer is an actual area or accessory allocated to store Material Tracking Units either for storage and/or transport.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-257
-
-
-## Pagina 258
-
-How to Prepare Production Execution
-How to Create and Prepare Buffers
 
 Target User
 Users with the Production Coordinator role can perform this operation.
@@ -18808,16 +15114,6 @@ available.
 
 3. Click Create.
 
-258
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 259
-
-How to Prepare Production Execution
-How to Create and Prepare Containers
-
 Changing the Buffer Status
 1. In the Buffers page, select the Buffer for which you want to change the status, and click Change Buffer
 Status
@@ -18845,7 +15141,8 @@ the
 Shopfloor Execution > Material Tracking Units page, you can display the Buffer to which a
 Material Tracking Unit belongs.
 
-6.8 How to Create and Prepare Containers
+### 6.8 How to Create and Prepare Containers
+
 In Opcenter Execution Discrete, Material Tracking Unit Aggregates (also referred to as MTU Aggregates) can be
 configured as Containers: these Containers can store Material Tracking Units (both MTUs to be consumed and MTUs
 to be produced) in the same manner as MTU Aggregates do.
@@ -18863,16 +15160,6 @@ specific Material Tracking Units during the configuration phase.
 When pre-loading the Materials:
 If compatible Materials have been defined, you can select MTUs only from those Materials.
 If compatible Materials have not been defined, you can select any MTU.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-259
-
-
-## Pagina 260
-
-How to Prepare Production Execution
-How to Create and Prepare Containers
 
 In both cases, after loading the first MTU, it will be possible to load only other MTUs that belongs to the same
 Material, until the Container is fully unloaded.
@@ -18916,8 +15203,6 @@ Creating a Container
 1. In the MTU Aggregates or Containers page, click
 2. Set the required attributes:
 
-260
-
 Add Material Tracking Unit Aggregate.
 
 Attri
@@ -18931,14 +15216,6 @@ The unique identifier that will be assigned to the Container. Once the Container
 value cannot be modified. Either type the value manually or select the Autogenerate Id check box
 and then select from the Id Patterns drop down the previously configured Numbering Pattern you
 want to use to generate the Id automatically
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 261
-
-How to Prepare Production Execution
-How to Create and Prepare Containers
 
 Attri
 bute
@@ -19010,16 +15287,6 @@ Open.
 Link Material icon.
 3. Set the following parameters on the Link Material panel.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-261
-
-
-## Pagina 262
-
-How to Prepare Production Execution
-How to Create and Prepare Containers
-
 Parameter
 
 Name
@@ -19082,17 +15349,7 @@ Set Powder Container (the Is Container flag must be enabled while creating
 the Container, otherwise an error is raised).
 2. Click
 
-262
-
 Open.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 263
-
-How to Prepare Production Execution
-Creating ERP Orders
 
 3. Select the Material Tracking Units tab and click
 Load Powder Batch in Container (visible only if the
@@ -19136,7 +15393,8 @@ Unload Container.
 2. Select the Equipment where you want to unload the Material Tracking Units.
 3. Click Unload.
 
-6.9 Creating ERP Orders
+### 6.9 Creating ERP Orders
+
 An ERP Order represents a customer order for the production of a specific product and it is associated with the Final
 Product Type that must be produced. Each ERP Order contains information necessary to schedule its production
 because the production starts only when the ERP Order is received.
@@ -19149,16 +15407,6 @@ button), only if they are in RCV status.
 modify ERP Orders that have been previously created (
 button), except for their Id and with the following
 constraints: when the ERP Order reaches the status associated with the Is Structure Blocker behavior (by
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-263
-
-
-## Pagina 264
-
-How to Prepare Production Execution
-Creating ERP Orders
 
 default the SCH status), you can modify only its Name, Description and Serial Number. When the ERP Order
 reaches the PRD status, you can modify only its Name and Description.
@@ -19217,16 +15465,6 @@ directly enabled.
 The Final Material that is automatically created by the system each time a Final Product
 Type is created (both have the the same properties), and which will be used as Final
 Material of the ERP Order.
-
-264
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 265
-
-How to Prepare Production Execution
-Creating ERP Orders
 
 Parameter
 
@@ -19297,16 +15535,6 @@ Revision
 Last producible Revision (version) of the Product Configuration (Final Product Type and
 Final Product Family) to be associated with the ERP Order.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-265
-
-
-## Pagina 266
-
-How to Prepare Production Execution
-Creating ERP Orders
-
 Parameter
 
 Description
@@ -19341,7 +15569,8 @@ Final Material Id
 Final Material Revision
 Final Material Unique Identifier
 
-6.9.1 How to Manage ERP Orders States
+#### 6.9.1 How to Manage ERP Orders States
+
 You can schedule the production and manage the states of the valid ERP Orders associated with their
 corresponding Final Product Types, according to the needs of your production line. An ERP Order is valid if both Bill
 of Features and Bill of Materials (the structures making up the Product Configuration) associated with it are valid
@@ -19354,16 +15583,6 @@ Likewise, you can decide to remove from schedule previously planned orders which
 selected by mistake, so that they can return to the RCV status.
 If Work Orders are created directly from ERP Orders and not through the Production Flow Control, it is also possible
 to:
-
-266
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 267
-
-How to Prepare Production Execution
-Creating ERP Orders
 
 select ERP Orders in SCH status and make them transition to the PRD status, so that they can be released for
 production and the Work Order is automatically created with its Work Order Operations. When Work Order
@@ -19413,18 +15632,8 @@ button.
 2. A confirmation message appears, click Yes. The status of the ERP Orders changes automatically from CMP to
 DLV.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+### 6.10 How to Create and Prepare Work Orders for Production Execution
 
-267
-
-
-## Pagina 268
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
-6.10 How to Create and Prepare Work Orders for Production
-Execution
 The starting point in the execution of the production process is the creation and configuration of the Work Orders
 including the Operations to be performed to produce the final product. After a Work Order is configured or updated,
 it must be released for production in order to become effective. If necessary, released Work Orders can then be split
@@ -19449,7 +15658,8 @@ Update Work Orders Created from an Out of Date As Planned BOP
 Split a Work Order.
 Perform pre-kitting for Work Orders.
 
-6.10.1 Creating a Work Order
+#### 6.10.1 Creating a Work Order
+
 You can create a Work Order:
 from a Process: typically done for standard manufacturing operations;
 manually: especially useful in the case of one-shot productions or exceptions;
@@ -19469,17 +15679,7 @@ tags have been associated to the user creating the Work Orders, the generated Wo
 solely those tags that he has selected (among those tags that are associated to him) via the Associated
 Tags pop-up provided via the
 
-268
-
 Segregation Tags button on the header bar.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 269
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 In runtime, on the basis of the Data Segregation tags selected in the Associated Tags pop-up by the user,
 the content displayed in the Work Orders page, as well as in the Operator Landing Page, will vary. In
@@ -19526,17 +15726,8 @@ Delete. A Work Order cannot be deleted if it
 contains Work Order Operations with dependencies towards Work Order Operations either in state Open
 or Future Hold belonging to another Work Order.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+##### 6.10.1.1 Creating a Work Order from a Process
 
-269
-
-
-## Pagina 270
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
-6.10.1.1 Creating a Work Order from a Process
 This procedure allows you to create a Work Order from a Process previously created.
 When you use a Process to create the Work Order, the Material is inherited by the Work Order: the system does not
 allow you to create a new Material at this time.
@@ -19557,8 +15748,6 @@ Create > From Process.
 You can either type it directly or click
 3. Set the following parameters:
 
-270
-
 and select the As Planned BOP from the list.
 
 Parame
@@ -19577,14 +15766,6 @@ er
 
 Unique identifier of the Work Order. Either type it manually or click the Generate button to
 automatically create it according to a predefined Numbering Pattern.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 271
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Parame
 ter
@@ -19652,16 +15833,6 @@ The user can modify the quantity to be produced based on the plant conditions
 
 In the case of FlexibleSerialized, the Planned Target Quantity is optional.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-271
-
-
-## Pagina 272
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Parame
 ter
 
@@ -19714,7 +15885,8 @@ You can select only one Bill of Materials and associate it to this Work Order.
 
 4. Click Create.
 
-6.10.1.2 Creating a Work Order Manually
+##### 6.10.1.2 Creating a Work Order Manually
+
 This procedure allows you to create a Work Order manually.
 When you create a Work Order manually, you need not associate it to a Process, thereby requiring a manual
 association with a Material. You can use an existing Material or create a new Material for the Work Order.
@@ -19724,16 +15896,6 @@ Target User
 Users with the Production Coordinator role can perform this operation.
 
 Prerequisite
-
-272
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 273
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 You must have created at least a Material.
 
@@ -19796,18 +15958,6 @@ The Bill of Materials that will contain the Materials that the user wants to be 
 Order being created.
 You can select only one Bill of Materials and associate it to this Work Order.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-273
-
-
-## Pagina 274
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
-274
-
 Parame
 ter
 
@@ -19820,7 +15970,6 @@ Type
 (Appears only after selecting a Product)
 
 Planne
-d
 Target
 Quantit
 y
@@ -19878,14 +16027,6 @@ FlexibleSerialized - Indicates that the Work Order produces serialized items. Af
 Work Order creation, the user can modify the quantity of the Work Order to be
 produced based on the requirement.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 275
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Parame
 ter
 
@@ -19908,7 +16049,8 @@ Additional useful information relative to the Work Order.
 
 3. Click Create.
 
-6.10.1.3 Creating Work Orders from an As Planned BOP
+##### 6.10.1.3 Creating Work Orders from an As Planned BOP
+
 This procedure allows you to create Work Orders from an As Planned BOP (Bill of Process) previously created. The
 procedure creates one Work Order per Sub-Process belonging to the As Planned BOP.
 Creating Work Orders from an As Planned BOP requires a detailed description of operations required to assemble or
@@ -19937,16 +16079,6 @@ Users with the Production Coordinator role can perform this operation.
 Prerequisites
 You must have created at least one As Planned BOP.
 The As Planned BOP must be completed.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-275
-
-
-## Pagina 276
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Procedure
 1. In the Work Orders page, click
@@ -20012,16 +16144,6 @@ more information, see How to Configure Bills of Features.
 Setting this parameter subsequently makes it possible to view the aforementioned Features in the
 Work Order's Features tab.
 
-276
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 277
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Param
 eter
 
@@ -20037,7 +16159,8 @@ You can select only one Bill of Materials and associate it to this Work Order.
 
 3. Click Create.
 
-6.10.1.4 Creating a Work Order from a Work Order Header
+##### 6.10.1.4 Creating a Work Order from a Work Order Header
+
 This procedure allows you to:
 Creating a Work Order from a Work Order Header, without creating Work Order Operations. This is useful, for
 example, to immediately track production requests from ERP but being able to complete the details at a later
@@ -20083,16 +16206,6 @@ Product
 
 The material that the Work Order is expected to produce.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-277
-
-
-## Pagina 278
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Parameter
 
 Description
@@ -20113,8 +16226,6 @@ Materials
 The Bill of Materials that will contain the Materials that the user wants to be present in the
 Work Order being created.
 You can select only one Bill of Materials and associate it to this Work Order.
-
-278
 
 Production
 Type
@@ -20162,14 +16273,6 @@ FlexibleSerialized - Indicates that the Work Order being created will produce
 serialized items. After the Work Order creation, the user can modify the quantity of
 the Work Order to be produced based on the requirement. Available only if the
 property Serial Number Profile of the selected Product is true.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 279
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Parameter
 
@@ -20241,16 +16344,6 @@ Date
 
 The date by which the Work Order must be completed.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-279
-
-
-## Pagina 280
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Paramet
 er
 
@@ -20279,7 +16372,8 @@ A number identifying the order of execution of the Work Orders.
 
 4. Click Merge. The Work Order is set in Edit status.
 
-6.10.1.5 Creating a Work Order from a Master Plan
+##### 6.10.1.5 Creating a Work Order from a Master Plan
+
 This procedure allows you to create a Work Order from a Master Plan.
 When you use a Master Plan to create a Work Order, the Material to be consumed is inherited from the selected
 Master Plan. The Work Order is created in status Released.
@@ -20303,16 +16397,6 @@ Create > From Master Plan.
 click
 and select the Master Plan from the list.
 3. Set the following parameters:
-
-280
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 281
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Paramet
 er
@@ -20386,16 +16470,6 @@ The user can modify the quantity to be produced based on the plant conditions
 
 In the case of FlexibleSerialized, the Planned Target Quantity is optional.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-281
-
-
-## Pagina 282
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Paramet
 er
 
@@ -20459,17 +16533,8 @@ The date and time when the Work Order execution is expected to end.
 5. (Skip this step if you have selected a Bill of Materials in Step 3) In the Materials step of the wizard, select the
 Materials to be consumed and click the Create button.
 
-282
+##### 6.10.1.6 Creating a Work Order from a Master Plan with Qualification Criteria
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 283
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
-6.10.1.6 Creating a Work Order from a Master Plan with Qualification Criteria
 This procedure allows you to create a Work Order from a Master Plan applying Qualification Criteria rules, so that
 operations with valid Qualification Criteria are added to the Work Order at the moment of its creation, to perform
 only those operations which are deemed necessary to the correct execution of the Work Order.
@@ -20516,18 +16581,6 @@ Create > From Master Plan with QC.
 click
 and select the Master Plan from the list.
 3. Set the following parameters:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-283
-
-
-## Pagina 284
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
-284
 
 Paramet
 er
@@ -20594,14 +16647,6 @@ The user can modify the quantity to be produced based on the plant conditions
 (status of the equipment, end of shifts, and so on).
 
 In the case of FlexibleSerialized, the Planned Target Quantity is optional.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 285
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Paramet
 er
@@ -20671,17 +16716,8 @@ The date and time when the Work Order execution is expected to end.
 
 4. Click Create.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+##### 6.10.1.7 Creating a Work Order from a Master Plan with Effectivity
 
-285
-
-
-## Pagina 286
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
-6.10.1.7 Creating a Work Order from a Master Plan with Effectivity
 Creating a Work Order from a Master Plan with Effectivity is possible solely if you have installed the
 Opcenter EX DS Production Coordinator App.
 This procedure allows you to create a Work Order from a Master Plan based on Unit Occurrence Effectivity, so
@@ -20704,8 +16740,6 @@ click
 and select the Master Plan from the list.
 3. Set the following parameters:
 
-286
-
 Parame
 ter
 
@@ -20721,14 +16755,6 @@ r
 
 Identifier of the Work Order. Either type it manually or click the Generate button to
 automatically create it according to a predefined Numbering Pattern.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 287
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Parame
 ter
@@ -20797,16 +16823,6 @@ The user can modify the quantity to be produced based on the plant conditions
 
 In the case of FlexibleSerialized, the Planned Target Quantity is optional.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-287
-
-
-## Pagina 288
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Parame
 ter
 
@@ -20874,17 +16890,8 @@ The date and time when the Work Order execution is expected to end.
 
 4. Click Create.
 
-288
+#### 6.10.2 Completing Work Order Configuration
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 289
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
-6.10.2 Completing Work Order Configuration
 After creating a Work Order or a Work Order Header, you can complete and/or edit its configuration.
 Once the Work Order has been configured, it will then be necessary to release it to permit its use at runtime.
 If a BoM is configured to be used, the following restrictions apply:
@@ -20933,21 +16940,12 @@ button to change its status to ReadyForScheduling, if you want to notify that th
 Order configuration can no longer be changed (provided the Work Order does not belong to the
 FlexibleBatch or FlexibleSerialized production type), and that the Work Order can be scheduled.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-289
-
-
-## Pagina 290
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 In the case of FlexibleBatch and FlexibleSerialized Work Orders, it is always possible to make
 changes to their configuration (for example, their Due Date), even while production is in
 progress.
 
-6.10.2.1 How to Create Work Order Operations
+##### 6.10.2.1 How to Create Work Order Operations
+
 You can modify a Work Order in Edit status, not only changing its parameters, but if necessary also removing
 Operations (
 
@@ -20976,7 +16974,8 @@ Creating Work Order Operations Manually
 Creating Work Order Operations from Process Operations
 Creating Work Order Operations from Master Plan Operations.
 
-6.10.2.1.1 Creating Work Order Operations Manually
+###### 6.10.2.1.1 Creating Work Order Operations Manually
+
 In a typical manufacturing cycle, Work Order Operations are automatically created from their corresponding
 Process Operations when a Work Order is instantiated from its Process. It is also possible to create them manually
 (for example, when the Work Order to which they belong has also been created manually).
@@ -20984,8 +16983,6 @@ Process Operations when a Work Order is instantiated from its Process. It is als
 Procedure
 1. In the Operations tab of the Work Orders page, click
 2. Set the following parameters:
-
-290
 
 Create > Manually.
 
@@ -21003,14 +17000,6 @@ can no longer be modified.
 Name
 
 The name of the Work Order Operation.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 291
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Paramet
 er
@@ -21048,7 +17037,6 @@ Priority
 A number identifying the order of execution of the Work Order Operation.
 
 Electroni
-c
 Signatur
 e Start
 
@@ -21056,7 +17044,6 @@ If the check box is selected, the operator credentials are validated at the time
 Order. The validation ensures that only authorized operators start Work Orders.
 
 Electroni
-c
 Signatur
 e Pause
 
@@ -21064,7 +17051,6 @@ If the check box is selected, the operator credentials are validated at the time
 Order. The validation ensures that only authorized operators pause Work Orders.
 
 Electroni
-c
 Signatur
 e
 Complet
@@ -21082,16 +17068,6 @@ Order Operation.
 If integration with Teamcenter Share is enabled, the collected documents can also be
 uploaded from the As Built Order page to the Teamcenter Share collaborative
 environment.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-291
-
-
-## Pagina 292
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Paramet
 er
@@ -21127,7 +17103,6 @@ Category
 Operation/Step Category to be assigned to the Work Order Operation you are creating.
 
 Estimate
-d
 Duration
 
 The estimated duration of the Work Order Operation's execution. It is expressed in hours,
@@ -21150,7 +17125,8 @@ provided in Opcenter EX DS will be assigned.
 
 3. Click Create.
 
-6.10.2.1.2 Creating Work Order Operations from Process Operations
+###### 6.10.2.1.2 Creating Work Order Operations from Process Operations
+
 When you create Work Order Operations from Process Operations, you inherit the configuration of the Process
 Operation.
 If you are creating a Work Order Operation from a Process Operation, and Interlocking Checks have been
@@ -21158,16 +17134,6 @@ associated to the Process Operation, these Interlocking Checks will not be inher
 Work Order Operation.
 If you intend to use them, you must associate these Interlocking Checks to the Work Order Operation
 manually.
-
-292
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 293
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Prerequisite
 A Process including one or more Operations is available in the system.
@@ -21235,23 +17201,12 @@ Time
 
 The date and time when the Work Order Operation's execution is expected to end.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-293
-
-
-## Pagina 294
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Paramet
 er
 
 Description
 
 Electron
-ic
 Signatu
 re Start
 
@@ -21259,7 +17214,6 @@ If the check box is selected, the operator credentials are validated at the time
 Order. The validation ensures that only authorized operators start Work Orders.
 
 Electron
-ic
 Signatu
 re Pause
 
@@ -21267,7 +17221,6 @@ If the check box is selected, the operator credentials are validated at the time
 Order. The validation ensures that only authorized operators pause Work Orders.
 
 Electron
-ic
 Signatu
 re
 Complet
@@ -21305,7 +17258,8 @@ source Work Order Operation has been started.
 
 3. Click Create.
 
-6.10.2.1.3 Creating Work Order Operations from Master Plan Operations
+###### 6.10.2.1.3 Creating Work Order Operations from Master Plan Operations
+
 When you create Work Order Operations from Master Plan Operations, you inherit the configuration of the Master
 Plan Operation. This is valid also in those cases in which you are creating Work Order Operations from a Master Plan
 Operation in which Qualification Criteria have been set.
@@ -21314,16 +17268,6 @@ associated to Functional Codes, the Materials linked to the Functional Codes whi
 chosen are automatically added to the Work Order Operation.
 
 Prerequisites
-
-294
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 295
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 You have integrated Opcenter Execution Discrete with Teamcenter Manufacturing.
 A Master Plan, including Operations, has been downloaded to Opcenter Execution Discrete and listed in the
@@ -21391,16 +17335,6 @@ Time
 
 The date and time when the Work Order Operation's execution is expected to end.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-295
-
-
-## Pagina 296
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Parame
 ter
 
@@ -21462,26 +17396,17 @@ source Work Order Operation has been started.
 
 3. Click Create.
 
-6.10.2.2 Creating Work Order Operation Folders
+##### 6.10.2.2 Creating Work Order Operation Folders
+
 In a typical manufacturing cycle, Work Order Operation Folders are automatically created from their corresponding
 Process Operation Folders when a Work Order is instantiated from its Process. It is also possible to create them
 manually (for example, when the Work Order to which they belong has also been created manually).
 You can modify a Work Order in Edit status, not only changing its parameters, but if necessary also removing Work
 Order Operation Folders (
 
-296
-
 ), adding new ones or modifying the existing (
 
 ).
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 297
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Prerequisite
 The Work Order is in status Edit.
@@ -21526,7 +17451,8 @@ Useful information about the Work Order Operation Folder.
 
 3. Click Create.
 
-6.10.2.3 Defining Dependencies between Work Order Operations
+##### 6.10.2.3 Defining Dependencies between Work Order Operations
+
 Dependencies between Work Order Operations can be inherited from the corresponding dependencies between
 Process Operations if the Work Order to which they belong is created from a Process. In this case, it is possible to
 edit existing Dependencies and/or add new ones.
@@ -21539,16 +17465,6 @@ Dependencies can be displayed in a graph which can be customized as required.
 Constraints
 Do not use Optional Work Order Operation at the end of the routing, as they will be skipped by the system.
 For any other constraint related to the management of Work Order Operations inside a routing, see below.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-297
-
-
-## Pagina 298
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Target User
 Users with the Product Engineer role can perform this action.
@@ -21576,8 +17492,6 @@ Add Dependency.
 You can also create dependencies between Work Order Operations belonging to the same Work Order
 during the creation of an Operation, selecting the Create Dependency check box.
 6. Set the following parameters:
-
-298
 
 Paramet
 er
@@ -21614,14 +17528,6 @@ The Work Order containing the Work Order Operation to (in) which the Dependency 
 Note When a different Work Order is selected in this field, the currently-selected Work Order is
 set in the Source Work Order field: the Dependency that is being defined must involve the
 currently-selected Work Order either as the source, the destination, or both.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 299
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Paramet
 er
@@ -21683,16 +17589,6 @@ The dependencies are represented as arrows and their type is indicated near the 
 After Start
 After End
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-299
-
-
-## Pagina 300
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Partial After End: for After End dependencies from/to a different Work Order created with the Wait for
 full completion parameter set to false.
 Select a Work Order Operation Folder to display the dependencies between Work Order Operations and Work Order
@@ -21722,7 +17618,8 @@ New Work Order Operations can be added to an existing routing even if the Work O
 provided that all the previous constraints are satisfied and you have implemented custom additional code in
 order to call the proper command.
 
-6.10.2.4 Defining Dependencies between Work Order Operation Folders
+##### 6.10.2.4 Defining Dependencies between Work Order Operation Folders
+
 Dependencies between Work Order Operation Folders can be inherited from the corresponding dependencies
 between Process Operations if the Work Order to which they belong is created from a Process. In this case, it is
 possible to edit existing Dependencies and/or add new ones.
@@ -21739,16 +17636,6 @@ Target User
 Users with the Product Engineer role can perform this action.
 
 Procedure
-
-300
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 301
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 1. In the home page, click Work Orders
 .
@@ -21816,16 +17703,6 @@ Constraints for Adding or Deleting Work Order Operations in a Routing
 Work Order Operations in a routing can only be deleted if all the related dependencies are removed and the
 Work Order Operation is isolated (that is, OutOfRoute).
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-301
-
-
-## Pagina 302
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Work Order Operations can be removed from a routing only if the related predecessor and successor Work Order
 Operations are in Open or Future Hold status. This is valid also for Optional Work Order Operations (i.e. having
 Optional Work Operation type).
@@ -21839,7 +17716,8 @@ New Work Order Operations can be added to an existing routing even if the Work O
 provided that all the previous constraints are satisfied and you have implemented custom additional code in
 order to call the proper command.
 
-6.10.2.5 Defining Groups of Alternative Work Order Operations
+##### 6.10.2.5 Defining Groups of Alternative Work Order Operations
+
 Alternative Work Order Operations can be executed in place of the main execution flow configured for a specific
 Work Order by setting dependencies between the Work Order Operations.
 Groups of Alternative Work Order Operations can be defined only for Work Orders that belong to either
@@ -21880,16 +17758,6 @@ next to your choice.
 
 This preference setting can be changed according to your needs. See the section below for details.
 
-302
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 303
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 6. Select all the Work Order Operations to be added to the group and click Add.
 
 Changing the preference setting on Alternative Work Order Operations
@@ -21908,7 +17776,8 @@ that you want to set as your new preference by clicking on the star icon
 
 next to it and then click Save.
 
-6.10.2.6 Creating Work Order Steps manually
+##### 6.10.2.6 Creating Work Order Steps manually
+
 In a typical manufacturing cycle, Work Order Steps are automatically created from their corresponding Process
 Steps when a Work Order is instantiated from its Process. It is also possible to create them manually (for example,
 when the Work Order to which they belong has also been created manually).
@@ -21950,16 +17819,6 @@ Sequence
 
 A number determining the order in which the Work Order Steps included in the same Work
 Order Operation will be executed.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-303
-
-
-## Pagina 304
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Parameter
 
@@ -22012,7 +17871,8 @@ unique estimated duration displayed in the following formats: d.hh:mm:ss or hh:m
 
 6. Click Create.
 
-6.10.2.7 Defining Dependencies between Work Order Steps
+##### 6.10.2.7 Defining Dependencies between Work Order Steps
+
 After defining some Work Order Steps, you can set the dependencies among them.
 Unlike those between Work Order Operations, dependencies between Work Order Steps can only belong
 to the After End type.
@@ -22025,20 +17885,11 @@ Procedure
 2. Select the tab Dependencies.
 3. Click Add Dependency.
 
-304
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 305
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 4. In the From and To fields, set the Steps linked by the Dependency.
 5. Click Save.
 
-6.10.2.8 Associating Items to Work Order Operations
+##### 6.10.2.8 Associating Items to Work Order Operations
+
 In a typical manufacturing cycle, resources like Machines, Materials and Tools are associated to Process Operations,
 then automatically copied to the corresponding Work Order Operations when they are instantiated. It is also
 possible to perform this procedure directly on Work Order Operations (for example, to edit existing associations or
@@ -22074,7 +17925,8 @@ Quality Inspections
 Human Resources
 Powders.
 
-6.10.2.8.1 Associating Machines to Work Order Operations
+###### 6.10.2.8.1 Associating Machines to Work Order Operations
+
 This procedure allows you to specify where the Work Order Operation can be executed and the Machines which can
 be used to execute the Work Order Operation.
 If more than one Machine is associated to a Work Order Operation in status New, Partial or Open, you can specify a
@@ -22090,16 +17942,6 @@ Procedure
 2. Click
 
 Create and then proceed as follows:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-305
-
-
-## Pagina 306
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 If the Work Operation
 associated with
@@ -22171,18 +18013,8 @@ er set)
 had not the AM parameter
 selected
 
-306
-
 Set the following
 parameters
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 307
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 If the Work Operation
 associated with
@@ -22228,7 +18060,8 @@ Serial Numbers of interest among those associated to the Work Order, and then cl
 This operation can also be performed from the Operator Landing Page.
 4. Click Add.
 
-6.10.2.8.2 Associating Materials to Work Order Operations
+###### 6.10.2.8.2 Associating Materials to Work Order Operations
+
 This procedure allows you to define an association between a Work Order Operation and the Material that it will
 consume/assemble or produce.
 
@@ -22240,18 +18073,6 @@ Procedure
 2. Click
 .
 3. Set the following parameters:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-307
-
-
-## Pagina 308
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
-308
 
 Param
 eter
@@ -22278,14 +18099,6 @@ n
 
 Any kind of reference about where the component must be placed or assembled in the final
 product.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 309
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Param
 eter
@@ -22343,16 +18156,6 @@ after the operation has been completed, rescaling the quantity of the Powder Bat
 tracked.
 Possible values for Output Material Specification Types
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-309
-
-
-## Pagina 310
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Param
 eter
 
@@ -22384,14 +18187,14 @@ are available in the drop-down list.
 Alterna
 tive
 Selecte
-d
 
 If the Material Specification Type is set to Alternative, select the check box to define which
 Material must be displayed by default to the Operator among those contained in the same Group.
 
 4. Click Add.
 
-6.10.2.8.3 Associating Tools to Work Order Operations
+###### 6.10.2.8.3 Associating Tools to Work Order Operations
+
 This procedure allows you to define an association between a Work Order Operation and the Tools that will be used
 to execute it.
 
@@ -22403,16 +18206,6 @@ Procedure
 2. Click
 .
 3. Set the following parameters:
-
-310
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 311
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Param
 eter
@@ -22438,7 +18231,8 @@ The number of times the Tool is used to perform the current Work Order Operation
 
 4. Click Create.
 
-6.10.2.8.4 Associating Documents to Work Order Operations
+###### 6.10.2.8.4 Associating Documents to Work Order Operations
+
 This procedure allows you to define an association between a Work Order Operation and a set of previously
 configured Documents which can be useful to the Operator that will execute the Work Order Operation. For
 example, it could be useful to provide the user with an image of the involved items in order to allow him or her to
@@ -22476,16 +18270,6 @@ Revision
 
 The revision of the Document. Once saved, the value cannot be modified.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-311
-
-
-## Pagina 312
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Parameter
 
 Description
@@ -22513,7 +18297,8 @@ Categories
 3. Click Link.
 4. To access a preview of the Document contents, click the Document Viewer tab.
 
-6.10.2.8.5 Associating Document Items to Work Order Operations
+###### 6.10.2.8.5 Associating Document Items to Work Order Operations
+
 Working with Document Items is possible solely if you have installed the Production Coordinator App: for
 more information, see What is Opcenter Execution Discrete? of the Opcenter Execution Discrete Product
 Overview.
@@ -22541,16 +18326,6 @@ you want to link.
 3. In the Revision Option area, depending on your needs, either select the Use Current Version checkbox or, from
 the Revision drop-down list box, select a specific Revision of the Document Item you want to link.
 
-312
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 313
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 If a Document Item is linked to either a Work Order Operation or a Work Order Step with Use Current
 Revision set, if a Start is performed afterwards, the Revision of the linked Document Item will remain
 the current version that was set prior to the Start.
@@ -22564,7 +18339,8 @@ operation does not delete the Document Item or the Documents it contains.
 
 Unlink: this
 
-6.10.2.8.6 Associating Work Instructions to Work Order Operations
+###### 6.10.2.8.6 Associating Work Instructions to Work Order Operations
+
 Work Instructions are used by Operators at runtime to get detailed instructions about carrying specific tasks on the
 product. Work Instructions are also used to collect data during production execution. To discriminate if a Work
 Instruction is to be used for data collection or for providing instructions, the Work Instruction Steps must be
@@ -22598,16 +18374,6 @@ Numbers to be associated (only for Serialized, FullSerialized and FlexibleSerial
 4. Select Hidden for Execution Groups, if you want the Work Instruction to be displayed at runtime only if the
 Work Order Operation is managed independently and not in an Execution Group.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-313
-
-
-## Pagina 314
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 5. Select Shared, if you want to share the Work Instructions runtime values with other Work Order Operations
 (belonging to the same Work Order) that will use the same Work Instruction (having also the same Association
 Type).
@@ -22616,7 +18382,8 @@ If the Work Instruction is linked to an Automation Node Instance, you can link t
 The Automation Node Variable tab fetches the values of these parameters and displays them in a tree
 view.
 
-6.10.2.8.7 Associating Skills to Work Order Operations
+###### 6.10.2.8.7 Associating Skills to Work Order Operations
+
 Skills are specific requirements that can be associated to Process Operations, Work Order Operations, Process
 Steps and/or Work Order Steps, and offer a more granular manner to control their execution.
 
@@ -22637,7 +18404,8 @@ exact or the minimum value required to authorize the Work Order Operation execut
 If multiple Skills are selected at the same time, they are all associated to the same Level. If you need to
 associate Skills to different Levels, you need to associate them individually.
 
-6.10.2.8.8 Linking Interlocking Checks to Work Order Operations
+###### 6.10.2.8.8 Linking Interlocking Checks to Work Order Operations
+
 Both Standard and Custom Interlocking Checks can be linked to Work Order Operations to verify whether one or
 more conditions have been satisfied at runtime prior to starting or completing them.
 If the outcome of all these checks is successful, the execution of the Work Order Operation will either be started
@@ -22646,22 +18414,11 @@ Interlocking Checks linked to Work Order Operations configured with Auto-Start a
 behavior will not be executed.
 The following table lists the Interlocking Checks provided by default by Opcenter EX DS.
 
-314
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 315
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Name
 
 Description
 
 AllPartsAssemble
-d
 
 Verifies whether all parts have been assembled as expected according to the Material
 Specifications or BoMs.
@@ -22717,20 +18474,11 @@ unlinked.
 Keep in mind that you cannot unlink Interlocking Checks from Work Order Operations if:
 The Work Order Operation is in Aborted, Complete or Not Executed status.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-315
-
-
-## Pagina 316
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 The Work Order to which the Work Order Operation belongs is in Aborted, Complete, Scrap, Split
 or Verified status.
 
-6.10.2.8.9 Linking Inspection Definitions to Work Order Operations
+###### 6.10.2.8.9 Linking Inspection Definitions to Work Order Operations
+
 Likewise to Process Operations, you can associate Inspection Definitions to Work Order Operations.
 Inspection Definitions are used to configure Quality Inspections to be carried out at runtime.
 They represent how a certain measurement (that is, a Quality Characteristic) has to be collected at runtime in terms
@@ -22770,16 +18518,6 @@ point to the Buy-Off Quality Characteristic
 have an Electronic Signature scenario configured with the users or user roles entitled to approve or
 reject the produced MTUs.
 
-316
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 317
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 If the Work Order Operation also contains Steps, it is recommended that you link the
 AllStepsCompleted Interlocking Check to avoid that the Work Order Steps are set to NotExecuted once
 a Buy-Off request is accepted for the Work Order Operation.
@@ -22800,7 +18538,8 @@ the selected Inspection Definition can be linked.
 If you link Part Based or Unit Based Inspections, bear in mind that they are always WO-specific
 (that is, the inspection counter is not shared among other Work Orders).
 
-6.10.2.8.10 Linking Human Resources to Work Order Operations
+###### 6.10.2.8.10 Linking Human Resources to Work Order Operations
+
 Likewise to Process Operations, you can associate Human Resources to Work Order Operations.
 Human Resources are used to specify how many users with specific Certifications are required to start the execution
 of a specific Work Order Operation.
@@ -22823,21 +18562,12 @@ Link.
 4. In the Number of Users area, for each Certification, specify the number of required users.
 5. Click Link.
 
-6.10.2.8.11 Associating Powders to Work Order Operations
+###### 6.10.2.8.11 Associating Powders to Work Order Operations
+
 This procedure allows you to specify which Powder must be loaded into the 3D Printers associated to the Work
 Order Operation.
 
 Target User
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-317
-
-
-## Pagina 318
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Users with the Product Engineer Role can perform this action.
 
@@ -22876,7 +18606,8 @@ identifier.
 
 4. Click Set.
 
-6.10.2.9 Associating Items to Work Order Steps
+##### 6.10.2.9 Associating Items to Work Order Steps
+
 In a typical manufacturing cycle, resources like Machines, Materials and Tools are associated to Process Steps, then
 automatically copied to the corresponding Work Order Steps when they are instantiated. It is also possible to
 perform this procedure directly on Work Order Steps (for example, to edit existing associations or because the Work
@@ -22905,16 +18636,6 @@ Open.
 
 Available Actions
 
-318
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 319
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 You can provide Work Order Steps with:
 Materials
 Tools
@@ -22926,7 +18647,8 @@ Interlocking Checks
 Quality Inspections
 Human Resources.
 
-6.10.2.9.1 Associating Materials to Work Order Steps
+###### 6.10.2.9.1 Associating Materials to Work Order Steps
+
 This procedure allows you to define an association between a Work Order Step and the Materials that it will
 consume or assemble.
 
@@ -22964,16 +18686,6 @@ n
 
 Any kind of reference about where the component must be placed or assembled in the final
 product.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-319
-
-
-## Pagina 320
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Param
 eter
@@ -23033,16 +18745,6 @@ product to be produced from the same Material during the execution of the same
 Step. The quantity to be produced can range from zero to the total quantity of each
 Material.
 
-320
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 321
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Param
 eter
 
@@ -23074,7 +18776,8 @@ the drop-down list.
 
 4. Click Add.
 
-6.10.2.9.2 Associating Tools to Work Order Steps
+###### 6.10.2.9.2 Associating Tools to Work Order Steps
+
 This procedure allows you to define an association between a Work Order Step and the Tools that will be used to
 execute it.
 
@@ -23101,17 +18804,8 @@ How many times the Tool must be used to perform the current Work Order Step.
 
 4. Click Create.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+###### 6.10.2.9.3 Associating Documents to Work Order Steps
 
-321
-
-
-## Pagina 322
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
-6.10.2.9.3 Associating Documents to Work Order Steps
 This procedure allows you to define an association between a Work Order Step and a set of previously configured
 Documents which can be useful to the Operator who will execute the Work Operation Step.
 For example, it could be useful to provide the user with an image of the items involved in order to allow him or her
@@ -23170,17 +18864,8 @@ Categories
 3. Click Link.
 4. To access a preview of the Document contents, click the Document Viewer tab.
 
-322
+###### 6.10.2.9.4 Associating Document Items to Work Order Steps
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 323
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
-6.10.2.9.4 Associating Document Items to Work Order Steps
 Working with Document Items is possible solely if you have installed the Production Coordinator App: for
 more information, see What is Opcenter Execution Discrete? of the Opcenter Execution Discrete Product
 Overview.
@@ -23221,19 +18906,10 @@ operation does not delete the Document Item or the Documents it contains.
 
 Unlink: this
 
-6.10.2.9.5 Associating Work Instructions to Work Order Steps
+###### 6.10.2.9.5 Associating Work Instructions to Work Order Steps
+
 Work Instructions are used by Operators at runtime to get detailed instructions about carrying specific tasks on the
 product. Work Instructions are also used to collect data during production execution. To discriminate if a Work
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-323
-
-
-## Pagina 324
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Instruction is to be used for data collection or for providing instructions, the Work Instruction Steps must be
 configured as Acknowledge or DataCollection type.
@@ -23264,7 +18940,8 @@ Numbers to be associated (only for Serialized, FullSerialized and FlexibleSerial
 Type).
 5. Click Link.
 
-6.10.2.9.6 Associating Skills to Work Order Steps
+###### 6.10.2.9.6 Associating Skills to Work Order Steps
+
 Skills are specific requirements that can be associated to Process Operations, Work Order Operations, Process
 Steps and/or Work Order Steps, and offer a more granular manner to control their execution.
 
@@ -23283,21 +18960,12 @@ Note According to the Enable Certification Skill Level Filter configuration key,
 exact or the minimum value required to authorize the Work Order Step execution.
 4. Select one or more Skills from the list.
 
-324
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 325
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 If multiple Skills are selected at the same time, they are all associated to the same Level. If you need to
 associate Skills to different Levels, you need to associate them individually.
 5. Click Create.
 
-6.10.2.9.7 Linking Interlocking Checks to Work Order Steps
+###### 6.10.2.9.7 Linking Interlocking Checks to Work Order Steps
+
 Interlocking Checks (both of Standard and Custom type) can be linked to Work Order Steps to verify whether one or
 more conditions have been satisfied at runtime prior to starting or completing them.
 If the outcome of all these checks is successful, the execution of the Work Order Step will either be started
@@ -23345,16 +19013,6 @@ Link.
 Interlocking Check, go to step 5.
 4. (only for custom Interlocking Checks) Define at least one of the following Interlocking Types:
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-325
-
-
-## Pagina 326
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Interlocking
 Type
 
@@ -23383,7 +19041,8 @@ The Work Order Operation containing the Step is in Aborted, Complete or Not Exec
 The Work Order to which the Work Order Operation containing the Step belongs is in Aborted,
 Complete, Scrap, Split or Verified status.
 
-6.10.2.9.8 Linking Inspection Definitions to Work Order Steps
+###### 6.10.2.9.8 Linking Inspection Definitions to Work Order Steps
+
 Likewise to Process Steps, you can associate Inspection Definitions to Work Order Steps.
 Inspection Definitions are used to configure Quality Inspections to be carried out at runtime. They represent how a
 certain measurement (that is, a Quality Characteristic) has to be collected at runtime in terms of frequency and
@@ -23406,16 +19065,6 @@ point to the Buy-Off Quality Characteristic
 have an Electronic Signature scenario configured with the users or user roles entitled to approve or
 reject the produced MTUs.
 
-326
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 327
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Procedure
 1. Open the desired Work Order Step and then click the Quality Inspections tab.
 2. Click
@@ -23426,7 +19075,8 @@ Unlink.
 You can link multiple Inspection Definitions to a Work Order Step, but only one revision of the
 selected Inspection Definition can be linked.
 
-6.10.2.9.9 Linking Human Resources to Work Order Steps
+###### 6.10.2.9.9 Linking Human Resources to Work Order Steps
+
 Likewise to Process Operations, you can associate Human Resources to Work Order Steps.
 Human Resources are used to specify how many users with specific Certifications are required to start the execution
 of a specific Work Order Step.
@@ -23451,7 +19101,8 @@ Link.
 4. In the Number of Users area, for each Certification, specify the number of required users.
 5. Click Link.
 
-6.10.2.10 Associating Users to Work Order Operations
+##### 6.10.2.10 Associating Users to Work Order Operations
+
 Once created, Work Order Operations are automatically associated to the same items to which the source
 Operations are associated. In addition to changing these associations according to your needs, you can also
 associate Users to Work Order Operations in order to define who is allowed to manage them at runtime.
@@ -23463,16 +19114,6 @@ Prerequisite
 The status of the Work Order Operation is one of the following: Open, Partial, Active or Future Hold.
 
 Procedure
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-327
-
-
-## Pagina 328
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 1. Click
 
@@ -23495,8 +19136,8 @@ Operation.
 
 Unlink User from Work Order
 
-6.10.3 Updating Work Orders Created from an Out-of-Date As Planned
-BOP
+#### 6.10.3 Updating Work Orders Created from an Out-of-Date As Planned BOP
+
 This functionality is provided solely in relation to Work Orders that have been generated from an As
 Planned BOP.
 It is currently available only for the Opcenter EX DSProduction Coordinator App, which must be explicitly
@@ -23529,16 +19170,6 @@ Check page, listing all those Work Orders, in a status other than Completed or A
 system, regardless of whether they have been created using an As Planned BOP or otherwise.
 2. Depending on your needs, first determine which Work Orders you want to update: on the basis of the indicator
 displayed at the beginning of each row, you can see whether the Work Order has the most recent As Planned
-
-328
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 329
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 BOP available in your system or not. Consult the table below to interpret the various indicators in relation to the
 Work Order "out-of-date" status:
@@ -23581,19 +19212,9 @@ Click the
 Update button.
 The indicator displayed next to the Work Orders will change from
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 to
 
 .
-
-329
-
-
-## Pagina 330
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 If you want to ...
 
@@ -23627,7 +19248,8 @@ to
 
 .
 
-6.10.4 Scheduling a Work Order
+#### 6.10.4 Scheduling a Work Order
+
 The information below is valid for both the Legacy UI and the Opcenter Execution Discrete Production
 Coordinator Low Code UI App even if there are some minor differences in the layout.
 When the Work Order configuration is completed but the Work Order cannot be released yet, it is set in
@@ -23650,16 +19272,6 @@ the Work Order based on an estimated target quantity.
 
 (Only for Low Code UI App) Data displayed in the Production Coordinator Dashboard is related to the
 default or last updated Equipment Hierarchy and takes into account also the last filtering preferences set.
-
-330
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 331
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Prerequisite
 The Work Order is not in a final status (for example Complete or Scrap).
@@ -23719,16 +19331,6 @@ Set the Machine as the preferred Machine for the Work Order Operation.
 This option is available only if you have selected a Machine (and not a Workcenter) and
 when the Work Order Operation is in the New, Partial or Open status.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-331
-
-
-## Pagina 332
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
-
 Click
 ...
 
@@ -23745,7 +19347,8 @@ Set in ReadyForScheduling status the Work Order to which the Work Order Operatio
 button is displayed only if the Work Order is in Edit status.
 Insert a note relative to the Work Order Operation to be acknowledged before its execution.
 
-6.10.5 Releasing a Work Order
+#### 6.10.5 Releasing a Work Order
+
 When the Work Order configuration is completed, you can release it for production. You can also release multiple
 Work Orders simultaneously.
 
@@ -23767,16 +19370,6 @@ In alternative, you can release Work Orders also from the Production Coordinator
 Result
 The Work Order is released. If the Work Order you released has associated Work Order Operations of type Additive
 Manufacturing, then the following scenarios are applicable:
-
-332
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 333
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Work Order Type
 
@@ -23811,7 +19404,8 @@ Less than Work Order Quantity
 The system displays an error, and the Work
 Order is not released
 
-6.10.6 Pre-Transferring Print Job Files to 3D Printers
+#### 6.10.6 Pre-Transferring Print Job Files to 3D Printers
+
 Specific 3D Printers associated to Work Order Operation of type Additive may need to receive the Print Job Files in
 advance, in order to properly process them and to generate the final Print Job Files to be used for the printing.
 Given that processing the Print Job File is usually very time-consuming, the transfer should be performed as soon as
@@ -23837,22 +19431,13 @@ Pre-Transfer button.
 4. Select the Print Job Files to be pre-transferred.
 5. Click Transfer.
 
-6.10.7 Editing Released Work Orders Before Execution
+#### 6.10.7 Editing Released Work Orders Before Execution
+
 Generally speaking, during normal manufacturing workflows, once a Work Order has been released, it is usually not
 necessary to edit it prior to its execution. However, in exceptional cases, the Production Coordinator and/or the
 Product Engineer might want to edit the main Work Order parameters (for example, the quantity of Final Material or
 the list of Serial Numbers to be produced). Before performing this operation, it is necessary to reset the Work Order
 status to Edit and then, after making the changes, the Work Order must be released again. Instead, at any time, it is
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-333
-
-
-## Pagina 334
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 possible to modify the items making up the Work Order (for example, its Work Order Operations and any related
 dependencies) without changing the status of the released Work Order.
@@ -23874,7 +19459,8 @@ Edit to edit it.
 
 Edited Work Orders must be released again before their execution.
 
-6.10.8 Splitting a Work Order
+#### 6.10.8 Splitting a Work Order
+
 You might encounter a scenario where a Work Order might need to be repeated, or altered. Sometimes, engineering
 issues might be discovered in the process for which production will require subsequent rearrangement. A Work
 Order might be too large, and you may need to break it down into numerous Work Orders while retaining the
@@ -23894,17 +19480,7 @@ Procedure
 1. In the Work Orders page, select a Work Order and then click
 2. Set the following parameters:
 
-334
-
 Split.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 335
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Para
 met
@@ -23917,7 +19493,9 @@ Type
 The criteria to be used to split the Work Order. Select one of the following options:
 Size, the original Work Order is split into new Work Orders of the size value specified in
 Split Quantity. For example, if you set Split Quantity to 4, an original Work Order of size
-10 will be split into three Work Orders, two of size 4, and one of size 2 respectively.
+
+## 10 will be split into three Work Orders, two of size 4, and one of size 2 respectively.
+
 Number, the Work Order will be split into as many Work Orders of equal size as possible
 as represented by the value of Split Quantity. The remainder size value, if any, will
 represent another Work Order. For example, if you set Split Quantity to 3, an original Work
@@ -23949,7 +19527,8 @@ generate them according to their predefined Numbering Pattern (if any) clicking 
 When Work Orders are split by type Copy, any existing Non-Conformances are automatically inherited
 after the Split has been performed.
 
-6.10.9 Performing Pre-Kitting for Work Orders
+#### 6.10.9 Performing Pre-Kitting for Work Orders
+
 Work Order pre-kitting permits reserving the Serial Numbers or Batches and their respective quantities that are
 required for an assembly order. You can operate from the Work Order Pre-Kitting page to set the MTUs (with their
 respective quantities) that will be automatically presented to the operator in assembly operations.
@@ -23960,16 +19539,6 @@ more than one Batch (for Materials that are Batches).
 The
 icon indicates that pre-kitting (either in full or in part) has already been performed on the Material
 Tracking Unit to which it refers.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-335
-
-
-## Pagina 336
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Partial Pre-Kitting
 Should you want to pre-kit a quantity of a Material Tracking Unit that exceeds the quantity that is currently
@@ -24126,16 +19695,6 @@ Applicable
 
 Work Order
 Status
-
-336
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 337
-
-How to Prepare Production Execution
-How to Create and Prepare Work Orders for Production Execution
 
 Production
 Type /
@@ -24295,16 +19854,6 @@ Work Order Step) to produce the Final Material and click
 Pre-Kit: the Pre-Kit Serial Numbers/
 Batches panel is displayed, which presents all the Materials that must be produced by the selected Work Order.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-337
-
-
-## Pagina 338
-
-How to Prepare Production Execution
-How to Create and Prepare Execution Groups for Production Execution
-
 If desired, if you click on the History tab that is displayed, it is possible to view the history of all prekitting performed on the various MTUs to be produced related to the selected Work Order.
 4. For each Material to be produced, reserve a Serial Number or one or more Batches doing either of the following
 in the Serial Number / Batch Id edit box:
@@ -24328,8 +19877,8 @@ Operating from the Work Order Pre-kitting Details screen, it is possible to view
 select the History tab. If no pre-kitting operations have been performed, the tab in question will display no
 data.
 
-6.11 How to Create and Prepare Execution Groups for Production
-Execution
+### 6.11 How to Create and Prepare Execution Groups for Production Execution
+
 Execution Groups are sets of previously created Work Order Operations (belonging to either the same Work Order or
 to different Work Orders) that are grouped to be executed together at runtime on the same Equipment.
 The purpose of Execution Groups is to both maximize productivity and minimize Equipment downtime, thereby
@@ -24349,16 +19898,6 @@ Workflow
 1. Create an Execution Group.
 2. Link Work Order Operations to an Execution Group.
 
-338
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 339
-
-How to Prepare Production Execution
-How to Create and Prepare Execution Groups for Production Execution
-
 3. (Optional) Update Execution Group Phases: this includes scheduling Execution Group Phases manually.
 4. (Feasible only in Additive Manufacturing - Optional) Link Print Job Files to Execution Group Phases.
 5. (Optional) Link Work Instructions to Execution Group Phases.
@@ -24368,7 +19907,8 @@ How to Create and Prepare Execution Groups for Production Execution
 9. (Optional) Edit a scheduled or released Execution Group.
 10. (Optional) Display the details of the actions performed on the Execution Group (History tab).
 
-6.11.1 Creating an Execution Group
+#### 6.11.1 Creating an Execution Group
+
 This procedure allows you to create an Execution Group, to which you can later link Work Order Operations
 grouped together to be executed on the same Equipment.
 
@@ -24415,19 +19955,10 @@ Result
 The new Execution Group is displayed in the page, and you can complete its configuration by linking Work Order
 Operations to it.
 
-6.11.2 Linking Work Order Operations to an Execution Group
+#### 6.11.2 Linking Work Order Operations to an Execution Group
+
 This procedure allows you to link Work Order Operations to an Execution Group previously created. Once grouped
 together, the Work Order Operations can be later executed together on the same Equipment.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-339
-
-
-## Pagina 340
-
-How to Prepare Production Execution
-How to Create and Prepare Execution Groups for Production Execution
 
 Work Order Operations (and the Work Orders to which they belong) cannot be deleted if they are linked to
 an Execution Group.
@@ -24481,17 +20012,7 @@ Procedure
 1. In the Execution Groups page, select the Execution Group to which you want to link Work Order Operations and
 click
 
-340
-
 Open.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 341
-
-How to Prepare Production Execution
-How to Create and Prepare Execution Groups for Production Execution
 
 2. Click the Operations tab. The upper panel displays the Work Order Operations currently linked to the selected
 Execution Group. Select a Work Order Operation to display in the lower panel the Material Tracking Units
@@ -24521,7 +20042,8 @@ click
 
 Open.
 
-6.11.3 Updating Execution Group Phases
+#### 6.11.3 Updating Execution Group Phases
+
 When Work Order Operations are linked to an Execution Group, Execution Group Phases are automatically created.
 After their creation, it is possible to update (edit) Execution Group Phases manually. In this case, you can:
 schedule the Execution Group Phase's execution.
@@ -24539,16 +20061,6 @@ Operations must also be a part of the same Execution Group Phase.
 
 Prerequisite
 The Execution Group to which the Execution Group Phase to edit belongs is in Edit or ReadyForScheduling status.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-341
-
-
-## Pagina 342
-
-How to Prepare Production Execution
-How to Create and Prepare Execution Groups for Production Execution
 
 Target User
 Users with the Product Engineer or the Production Coordinator roles can perform this action.
@@ -24605,24 +20117,14 @@ The date and time when the Execution Group is expected to end.
 Note Not enabled if there is integration with Opcenter APS.
 
 Preferre
-d
 Machine
 
 The preferred Machine on which the Execution Group Phase is expected to be executed.
 
 6. Click Save.
 
-342
+#### 6.11.4 Linking Print Job Files to Execution Group Phases
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 343
-
-How to Prepare Production Execution
-How to Create and Prepare Execution Groups for Production Execution
-
-6.11.4 Linking Print Job Files to Execution Group Phases
 When Work Order Operations are linked to an Execution Group, Execution Group Phases are automatically created
 if required. In case of Additive Manufacturing, you can choose to associate a Print Job File to any Execution Group
 Phase and in case of template Print Job Files, to generate the runtime Print Job Files.
@@ -24663,21 +20165,12 @@ Result
 The Print Job File is displayed in the Linked PJF column and it can be unlinked selecting the phase and clicking
 Unlink PJF.
 
-6.11.5 Linking Work Instructions to Execution Group Phases
+#### 6.11.5 Linking Work Instructions to Execution Group Phases
+
 Work Instructions can be linked to Execution Group Phases to be used by Operators at runtime to get detailed
 instructions about how to perform specific tasks on the product.
 To discriminate if a Work Instruction is to be used for providing instructions or for data collection, the Work
 Instruction Steps must be configured as Acknowledge or DataCollection type, respectively. The same Work
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-343
-
-
-## Pagina 344
-
-How to Prepare Production Execution
-How to Create and Prepare Execution Groups for Production Execution
 
 Instruction can be linked to more than one Execution Group Phase and to associate Work Instructions to dependent
 Execution Group Phases, you need to associate them individually.
@@ -24735,19 +20228,10 @@ which the Work Instructions need to be unlinked.
 
 Unlink Work Instruction.
 
-6.11.6 Associating Powders to Execution Group Phases
+#### 6.11.6 Associating Powders to Execution Group Phases
+
 When Work Order Operations are linked to an Execution Group, Execution Group Phases are automatically created
 if required. In Additive Manufacturing context, you can choose to associate a Powder to any Execution Group Phase.
-
-344
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 345
-
-How to Prepare Production Execution
-How to Create and Prepare Execution Groups for Production Execution
 
 Prerequisites
 The Execution Group to which the Execution Group Phase belongs is in Edit or ReadyForScheduling status.
@@ -24791,7 +20275,8 @@ identifier.
 
 7. Click Set.
 
-6.11.7 Scheduling an Execution Group
+#### 6.11.7 Scheduling an Execution Group
+
 After its creation, an Execution Group can be scheduled to be executed at a later time. This procedure sets the
 Execution Group in ReadyForScheduling status.
 When the Execution Group is scheduled, if a due date has been defined at Work Order level, the due date of the
@@ -24803,16 +20288,6 @@ In the case of integration with Opcenter APS, the Execution Group can be schedul
 the Sequencer, in the same manner as described for Work Order Operations. This is also true for Execution Groups
 created on-the-fly during runtime.
 Only released Execution Groups can be scheduled using the Sequencer.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-345
-
-
-## Pagina 346
-
-How to Prepare Production Execution
-How to Create and Prepare Execution Groups for Production Execution
 
 Prerequisite
 The Execution Group is in Edit status.
@@ -24829,7 +20304,8 @@ to schedule the Execution Group.
 Result
 The system changes the Execution Group status to ReadyForScheduling.
 
-6.11.8 Releasing an Execution Group
+#### 6.11.8 Releasing an Execution Group
+
 When an Execution Group has been created and some Work Order Operations have been linked to it, it is possible to
 release it for production.
 Work Order Operations cannot be linked to a released Execution Group. However, it is possible to unlink them.
@@ -24850,22 +20326,13 @@ Result
 The system changes the Execution Group status to New. The Execution Group can be started by an Operator in the
 Operator Landing page.
 
-6.11.9 Editing Scheduled or Released Execution Groups
+#### 6.11.9 Editing Scheduled or Released Execution Groups
+
 Generally speaking, during normal manufacturing workflows, once an Execution Group has been scheduled or
 released, it is usually not necessary to edit it prior to its execution. However, in exceptional cases, the Production
 Coordinator and/or the Product Engineer might want to edit some Execution Group parameters. Before performing
 this operation, it is necessary to reset the Execution Group state to Edit and then, after making the changes, the
 Execution Group must be released again.
-
-346
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 347
-
-How to Prepare Production Execution
-How to Create and Prepare Execution Groups for Production Execution
 
 Prerequisite
 The Execution Group is in New or ReadyForScheduling state.
@@ -24884,17 +20351,10 @@ Edit to edit it.
 
 Edited Execution Groups must be released again before their execution.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-347
-
-
-## Pagina 348
-
-How to Manage Production Execution
 How to Create and Prepare Execution Groups for Production Execution
 
-7 How to Manage Production Execution
+## 7 How to Manage Production Execution
+
 There are different Runtime working environments available for production execution, depending on the solution
 that you choose, the items to be manufactured or the actions to be performed.
 Work Order Execution in the Operator Landing Page (legacy)
@@ -24917,18 +20377,10 @@ redirect the user from the Operator Landing page to the Operator Terminal after 
 Operations only in the case of TransferBatch and Serialized production types (for the latter, only if the
 quantity is equal to one).
 
-348
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 349
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
 How to Create and Prepare Execution Groups for Production Execution
 
-8 How to Execute Work Orders in the Operator Landing Page
-(legacy)
+## 8 How to Execute Work Orders in the Operator Landing Page (legacy)
+
 Provided that you have completed the preparation necessary for production execution, you can proceed to execute
 your Work Order.
 Executing a Work Order "full circle" means starting and completing its Work Order Operations. Depending on the
@@ -24968,16 +20420,6 @@ Manufacturing-related Activities.
 In Preparation to Executing the Main Workflow
 Prior to executing the Main Workflow, it is strongly suggested that you:
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-349
-
-
-## Pagina 350
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Navigation of the Operator Landing Page
-
 Preview the content of Work Order Operations, Work Order Steps and Execution Groups.
 Preview any Document files in attachment.
 
@@ -25006,7 +20448,8 @@ From Opcenter EX DS you can display the Work Order Operations belonging to a spe
 also manage any upload and check-in of production execution data. For more information, see How to Execute
 Production In Offline Mode.
 
-8.1 Navigation of the Operator Landing Page
+### 8.1 Navigation of the Operator Landing Page
+
 The Operator Landing Page is the main environment in which you will move to carry out production execution. It is
 from here that you will be able to start your Work Order Operations, as well as perform other activities.
 The Operator Landing Page provided with the Siemens_OPC_EXDS_AM UI Application contains only
@@ -25017,16 +20460,6 @@ Operating on Work Order Operations or Work Order Steps that have already been st
 accessing another screen: see Managing Work Order Operations.
 Here is what you need to know to navigate this environment and interpret what is displayed on screen, as well as
 adapt its contents according to your needs.
-
-350
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 351
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Navigation of the Operator Landing Page
 
 High Automation Operator Landing Page
 It is also possible to follow what is happening on screen on the basis of the Machine that has been selected
@@ -25050,16 +20483,6 @@ Open
 Ready
 Active
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-351
-
-
-## Pagina 352
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Navigation of the Operator Landing Page
-
 Indicator
 
 Meaning
@@ -25079,16 +20502,6 @@ Operation will show (between square brackets and with the symbols below) how man
 have OK Results, NOK Results and no Results declared.
 Here is an example: for Quantity, of the 10 MTUs that have been completed, 4 have Result OK, 2 have Result NOK
 and 4 have no Result declared.
-
-352
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 353
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Navigation of the Operator Landing Page
 
 Material Tracking Unit (or Serial Number) Tiles
 Indic
@@ -25136,16 +20549,6 @@ runtime execution. Completed Work Order Operations are displayed in green.
 For more information on how to manage runtime execution, see Runtime behavior in case of dependencies
 between different Work Orders.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-353
-
-
-## Pagina 354
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Navigation of the Operator Landing Page
-
 Layout and Content Troubleshooting
 If you find that the layout and/or content of the Operator Landing Page are not as expected (or do not satisfy your
 specific needs) as an Operator, then the Product Engineer must intervene to set the appropriate Runtime
@@ -25188,8 +20591,8 @@ both the Filter by Users assigned to Work Order Operations
 and Filter WOOps by logged User and show free
 WOOps configuration keys.
 
-8.1.1 Runtime Behavior in case of Dependencies between different Work
-Orders
+#### 8.1.1 Runtime Behavior in case of Dependencies between different Work Orders
+
 When defining dependencies between Work Order Operations of different Work Orders, bear in mind that Runtime
 execution behavior can vary according to the combination of:
 dependency type: After Start, After End and Partial After End (for After End dependencies from/to a different
@@ -25201,16 +20604,6 @@ The Operation Dependency graph (displayed in the Operator Landing page) is desig
 runtime execution.
 Work Order Operations belonging to other Work Orders are shown bearing the name of the Work Order to which
 they pertain.
-
-354
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 355
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Joining and Leaving Teams at Runtime
 
 In the image above, Work Order Operation OP03_CC02 has an After Start dependency with 30-OP03_CC. This
 means that if Operation 30-OP03_CC is not started, OP03_CC02 cannot be started as well.
@@ -25229,7 +20622,8 @@ End and Wait for full completion is not set.
 Source Work Order Operation did not produce any Final Material, Dependency Type is After End and Wait for
 full completion is not set.
 
-8.2 Joining and Leaving Teams at Runtime
+### 8.2 Joining and Leaving Teams at Runtime
+
 Teams are groups of Users that can be created to perform production operations together.
 This procedure allows an Operator to join and/or leave a Team at runtime from the Operator Landing page.
 Additionally, the Product Engineer or the Production Coordinator can directly assign Users to Teams.
@@ -25241,16 +20635,6 @@ The message Confirm to show active Work Order Operations is displayed. Click OK 
 active Work Order Operations.
 If possible, click Punch Out and confirm the operation to pause all the Work Order Operations at once.
 3. In the Teams page, select the Team to join and click Join.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-355
-
-
-## Pagina 356
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Automatically Executed Work Order Operations
 
 For active Work Order Operations, when the last Team member exits the Team, the status of all the
 active Work Order Operations changes to Pause. Additional constraints apply, as explained in
@@ -25270,7 +20654,8 @@ Leave Team button is disabled and the
 
 Join
 
-8.3 Managing Automatically Executed Work Order Operations
+### 8.3 Managing Automatically Executed Work Order Operations
+
 The Opcenter Execution Discrete UI Application includes a page to be used to monitor Work Order Operations that
 are automatically executed on a specific machine, and to contribute to their completion providing the required
 data. In addition, if necessary, the user can intervene in the automatic execution of the Work Order Operation
@@ -25292,16 +20677,6 @@ Change Machine button, otherwise the focus of the
 page will be maintained on the previously selected machine also after closing and reopening the page.
 
 Working Environment
-
-356
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 357
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Automatically Executed Work Order Operations
 
 Header Bar - Displays the main details of the Work Order Operation. To display additional information on the
 Work Order Operation parameters, click the related labels. The
@@ -25336,16 +20711,6 @@ Procedure
 consumed in order to execute the current Work Order Operation. When a new item is displayed, insert the
 related Serial Number either manually or through a scanner.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-357
-
-
-## Pagina 358
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Previewing Work Order Operations, Work Order Steps and Execution Groups
-
 Inserted Barcodes must be verified and validated by the system before being accepted. If the Barcode
 verification succeeds, the Material Tracking Unit is consumed and error messages are displayed if they
 fail verification.
@@ -25370,8 +20735,8 @@ Leave Team to leave a Team.
 Change Machine to change the focus from the currently-selected Machine to another and subsequently
 view its data.
 
-8.4 Previewing Work Order Operations, Work Order Steps and
-Execution Groups
+### 8.4 Previewing Work Order Operations, Work Order Steps and Execution Groups
+
 Before starting production execution, you may need to preview the content of Work Order Operations, Work Order
 Steps and Execution Groups, to understand the activities that must be carried out during execution.
 Work Order Operation details contain information on the Operations to be executed. They may include one or more
@@ -25389,16 +20754,6 @@ Users with the Operator role can perform this action.
 Prerequisites
 The status of the Work Order Operation or Work Order Step to be previewed is Open.
 
-358
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 359
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Previewing Document Files
-
 The status of the Execution Group to be previewed is New.
 
 Procedure
@@ -25411,7 +20766,8 @@ If you are previewing the content of an Execution Group, all tasks, being they r
 Operation or a Work Order Step, will be displayed in a flat list. Refer to the second header bar to have
 more details about the selected item.
 
-8.5 Previewing Document Files
+### 8.5 Previewing Document Files
+
 The Document Viewer available in the Operator Landing Page makes it possible for users to preview any Documents
 that have been attached to a Work Order Operation or to a related entity.
 Document visualization depends on its file format: see Supported File Formats.
@@ -25444,14 +20800,6 @@ to maximize the details
 Supported File Formats
 The following file formats for Documents are supported by the Document Viewer in Opcenter Execution Discrete:
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-359
-
-
-## Pagina 360
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
 Previewing Work Instructions
 
 File Types
@@ -25479,7 +20827,8 @@ Other file formats, such as:
 .zip
 are not displayed by the Document Viewer, but can be downloaded.
 
-8.6 Previewing Work Instructions
+### 8.6 Previewing Work Instructions
+
 The Work Instruction Viewer is available in the Operator Landing Page, which makes it possible for users to preview
 any Work Instructions that have been attached to a Work Order Operation when the Operation is in Open state.
 
@@ -25501,19 +20850,10 @@ If you are previewing the content of an Execution Group, all tasks, being they r
 Order Operation or a Work Order Step, will be displayed in a flat list. Refer to the second header
 bar to have more details about the selected item.
 
-8.7 Loading Containers
+### 8.7 Loading Containers
+
 To properly manage the execution of a Work Order Operation, it may be useful to associate it to one or more
 Containers where consumed or produced Material Tracking Units will be loaded.
-
-360
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 361
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Loading Containers
 
 It is possible to load multiple Material Tracking Units within the same Container provided that the maximum
 quantity of the Container is not exceeded and that all loaded MTUs belong to the same Material: as soon as the first
@@ -25567,16 +20907,6 @@ Materials that have not been started, but after selecting the first one, only ot
 belonging to the same Material can be loaded.
 Materials can also be loaded based on the quantity, without selecting or specifying the Serial Numbers.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-361
-
-
-## Pagina 362
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Starting Work Order Operations
-
 In the Serial Number step of the wizard, insert the desired number in the Number of Serial Numbers to
 load field. The Max Quantity field displays the maximum Serial Numbers that can be loaded into the
 Container. The quantity displayed could either be the maximum capacity of the Container or the
@@ -25599,7 +20929,8 @@ For Work Order Operations, where the available quantity of Material Tracking Uni
 operation is already loaded into the Container; the Containers can be loaded with zero quantity to
 continue the operation. In such cases, the Load button is enabled.
 
-8.8 Starting Work Order Operations
+### 8.8 Starting Work Order Operations
+
 Executing a Work Order entails starting at least one Work Order Operation.
 When starting a Work Order Operation, the main discriminant to keep in mind is the Production Type of the Work
 Order to which it belongs. The Production Type determines the procedure to follow to start the Work Order
@@ -25622,16 +20953,6 @@ are queued on the same Machine.
 Preliminary Configurations
 A different start behavior is possible, according to the configurations defined during the engineering phase. In
 particular:
-
-362
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 363
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Starting Work Order Operations
 
 Through the joint adoption of Work Operations and appropriate Work Order Operation configuration, upon
 starting a Work Order Operation, it is possible to:
@@ -25688,16 +21009,6 @@ in their tile and cannot be selected.
 2. (if Setpoints have been configured for the selected Workcenter/
 Machine and their editing is permitted) If necessary, edit the Setpoint(s)
 according to your needs.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-363
-
-
-## Pagina 364
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Starting Work Order Operations
 
 Action
 
@@ -25778,16 +21089,6 @@ Repeat
 indicates the strategy adopted (that is, the Serial Number's reexecution).
 4. Click Start.
 
-364
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 365
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Starting Work Order Operations
-
 If more than one Machine is associated to the Work Order Operation, you can distribute the workload as
 preferred, starting execution on different Machines at different times. This is permitted for Work Order
 Operations belonging to Work Orders of the Serialized, FlexibleSerialized, TransferBatch
@@ -25799,8 +21100,8 @@ execution.
 If the Automatic Redirect to details configuration key has been set, the Details page is automatically
 displayed.
 
-8.8.1 Special Cases and Constraints When Starting a Work Order
-Operation or Work Order Step
+#### 8.8.1 Special Cases and Constraints When Starting a Work Order Operation or Work Order Step
+
 The following sections provide dedicated information for special cases and constraints that you may encounter
 when attempting to start a Work Order Operation, in addition to the standard actions to be performed on the basis
 of the Production Type of the Work Order Operation.
@@ -25836,16 +21137,6 @@ You can start the optional Work Order Operation with partial quantity.
 Serialized
 
 You can start the optional Work Order Operation with partial Serial Number.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-365
-
-
-## Pagina 366
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Starting Work Order Operations
 
 Setpoints
 If Setpoints have been defined for Machines and the Setpoint Variables are linked to Automation Node
@@ -25895,16 +21186,6 @@ CheckMachineNonConformanceOnStartWOStepTransferBatch
 CheckMachineLockedOnStartWOStepTransferBatch
 CheckEquipmentHoldOnStartWOStepTransferBatch
 
-366
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 367
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 CheckMachineNonConformanceOnCompleteWOStepFullQty
 CheckEquipmentHoldOnCompleteWOStepFullQty
 CheckMachineNonConformanceOnCompleteWOStepSerialized
@@ -25922,7 +21203,8 @@ For example, if the Document Item was linked with Use Current Revision set and t
 time the Work Order Operation/Step is started, then Revision A of the Document Item will be displayed to the
 Operator, even if other Revisions of the same Document Item have been generated in the interim.
 
-8.9 Managing Work Order Operations
+### 8.9 Managing Work Order Operations
+
 When executing Work Orders, you can perform various activities on a Work Order Operation previously started.
 Runtime management of Work Order Operations is a complex procedure that depends on the various parameters
 set during their creation. There is no set workflow that must be followed: it may consist of several independent
@@ -25935,16 +21217,6 @@ If the Automatic Redirect to details configuration key has been set, the page is
 after starting a Work Order Operation.
 
 Environment Description
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-367
-
-
-## Pagina 368
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Header Bar - Displays the details of the current Work Order Operation
 Step List - If the current Work Order Operation is divided in several Steps, the Step List displays them vertically.
@@ -25973,16 +21245,6 @@ Complete a Work Order Operation.
 Start and Pause can also be performed on Work Order Steps, even if in this case some parameters cannot be set
 since they are inherited from the related Work Order Operation.
 Steps can only be completed according to the configured AfterEnd sequence.
-
-368
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 369
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Operations Available in the Center Zone
 The content of the center zone depends on the task to be performed on the current Work Order Operation/Step.
@@ -26030,20 +21292,11 @@ If you manage teams from the Operator Landing page, for example you leave a team
 behaves differently depending on whether you were already active on a Work Order Operation or Work
 Order Step. For more information, see How to Create and Prepare Teams.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-369
-
-
-## Pagina 370
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 What to do next
 After managing a Work Order Operation, you can complete it.
 
-8.9.1 Managing Tasks for Work Order Operation or Step Progression
+#### 8.9.1 Managing Tasks for Work Order Operation or Step Progression
+
 In Opcenter Execution Discrete, dedicated Tasks make it possible for users to manage the principal elements
 involved in Work Order Operation/Step progression with ease.
 The available Tasks concern:
@@ -26075,8 +21328,6 @@ content of the details area will vary.
 If only one task is available, you do not need to perform any selection, as the system automatically
 displays the Details area.
 
-370
-
 If you want to manage...
 
 Then
@@ -26101,14 +21352,6 @@ The Work Instructions related to the
 execution of the Work Order
 Operations, Work Order Steps or
 Execution Group Phases.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 371
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 If you want to manage...
 
@@ -26216,25 +21459,16 @@ Work Order Operations or Execution
 Group Phases specific to Additive
 Manufacturing.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 Substrate
 Usage
-
-371
-
-
-## Pagina 372
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 3. Specify (or execute) the actions to be performed to complete the selected Task in relation to the runtime
 behavior you want to be adopted during the execution of Work Order Operations, Work Order Step or Execution
 Group Phases.
 4. Click the appropriate button to confirm.
 
-8.9.1.1 How to Manage Work Instructions
+##### 8.9.1.1 How to Manage Work Instructions
+
 Work Instructions are specific instructions for the Operator that may require an acknowledgement or the insertion
 of values.
 Depending on the content of the Work Instruction (Acknowledge and/or DataCollection steps), the system
@@ -26271,16 +21505,6 @@ For more information, see CLM Integration Configuration Settings.
 
 Prerequisite
 Work Instructions are linked to Work Order Operations or Work Order Steps.
-
-372
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 373
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Available Operations
 Acknowledging Work Instructions
@@ -26326,16 +21550,6 @@ Collections associated to the Work Order Operation/Step. Before being confirmed,
 even if they have been acquired from the field.
 5. Click Confirm to save the value.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-373
-
-
-## Pagina 374
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 If the Work Order Operation has been programmatically started by the
 StartWOOperationSerializedLiteSingleWO command, after confirmation of the values, it is possible to
 re-edit them and confirm the new values.
@@ -26356,7 +21570,8 @@ Collections associated to the Work Order Operation/Step. Before being confirmed,
 even if they have been acquired from the field.
 7. Click Confirm to save the value.
 
-8.9.1.2 Using Tools
+##### 8.9.1.2 Using Tools
+
 This procedure allows you to use Tools during the execution of the Work Order Operation or Step.
 The displayed content may vary according to the production type or the involvement of containers. For Work
 Orders of type Serialized or Full Serialized, the Tools are grouped by each produced Serial Number. If you have
@@ -26376,16 +21591,6 @@ Procedure
 1. In the Operator Task List or Operator Details Step page, select the Tool Usage task.
 If only one task is available, you do not need to perform any selection, as the system automatically
 displays the Details area.
-
-374
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 375
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 2. (Optional) Click Setpoints to see the variables automatically transmitted to the available Tools.
 3. (Optional) Do either of the following:
@@ -26424,7 +21629,8 @@ If the values have been entered automatically (Tool usage was triggered by a Mac
 the case of integration with Opcenter CN MOM), the usage will be traced as performed by "" (blank
 space indicating "no user") for the involved Equipment also.
 
-8.9.1.3 Using Screwing Tools
+##### 8.9.1.3 Using Screwing Tools
+
 This procedure allows you to use Screwing Tools during the execution of the Work Order Operation of type
 Screwing.
 The displayed content may vary according to the production type. For Work Orders of type Serialized or Full
@@ -26437,16 +21643,6 @@ Each task displays the indication of the values acquired from the field. This in
 time the Automation Layer communicates with the system, updating the operation result as well. If the operation is
 repeated, new values are acquired from the field, changing the operation result. In case of values out of the range of
 expected values, the operation result is NOK.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-375
-
-
-## Pagina 376
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 The data received can be monitored also from the Automation Node Viewer page, selecting the Automation Node
 Instance of interest.
@@ -26476,7 +21672,8 @@ clicking
 
 As Built Order and then clicking the Tools tab.
 
-8.9.1.4 Using Substrates
+##### 8.9.1.4 Using Substrates
+
 This procedure allows you to insert the details of the Substrates used by the Work Order Operation/Step. For Work
 Orders of type Serialized or Full Serialized, the Substrates are grouped by each produced Serial Number.
 
@@ -26495,16 +21692,6 @@ Tracking Substrate Usage
 History icon.
 2. In the List of used Tools panel, select the Tool for which you want to see data related to its usage.
 
-376
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 377
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 3. Expand the node related to the selected Tool in the bottom area, to see more details about the usage, in terms
 of Substrate ID, Usage Counter and Usage Duration,
 For each of these parameters, the following information is provided:
@@ -26514,7 +21701,8 @@ the quality of the acquired value
 the time-stamp of the acquisition
 the date for the acquisition.
 
-8.9.1.5 Consuming or Assembling Material Tracking Units
+##### 8.9.1.5 Consuming or Assembling Material Tracking Units
+
 This procedure allows you to consume Material Tracking Units during the execution of a Work Order Operation or
 Work Order Step (for example, for assembly or Additive Manufacturing production). For Serialized, Full Serialized
 or FlexibleSerialized Work Orders, the MTUs to be consumed are grouped by each Serial Number to be produced.
@@ -26547,32 +21735,12 @@ The Auto-Consume Batch Materials configuration key is disabled.
 Procedure
 1. In the Operator Task List or Operator Details Step page, select the Material Consumption task of interest.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-377
-
-
-## Pagina 378
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 If only one task is available, you do not need to perform any selection, as the system automatically
 displays the Details area.
 2. (Optional) For each MTU produced, if desired, set the Auto-Consume Batch Materials toggle to On if you want
 to enable automatic consumption of Batches.
 3. For each MTU to be consumed, specify the values for Serial Number / Batch Id and Quantity, consulting the
 table below before proceeding:
-
-378
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 379
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Parameter
 
@@ -26626,16 +21794,6 @@ print the selected items. If the same Powder Batch has
 been used to print more items, only one record is
 displayed showing the total quantity.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-379
-
-
-## Pagina 380
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 Parameter
 
 Description
@@ -26677,16 +21835,6 @@ Identifier MaterialA_A is set as the Material To Be
 Consumed, a Material Tracking Unit created from
 MaterialA with Revision B and/or Unique Identifier
 MaterialA_B can still be consumed.
-
-380
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 381
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Parameter
 
@@ -26745,16 +21893,6 @@ This color combination is also adopted in all cases involving
 Materials set with an inbound Custom Material Specification Type:
 in this case, it is irrelevant whether there has been consumption
 (either in part or in full) or not.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-381
-
-
-## Pagina 382
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Overall
 Backgrou
@@ -26821,21 +21959,12 @@ the quality of the acquired value
 the time-stamp of the acquisition
 the date for the acquisition.
 
-382
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 383
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 If the values have been entered automatically (that is, if Material consumption was triggered by a Machine
 or Workcenter in the case of integration with Opcenter Connect MOM), the User is identified with an empty
 space and a value is provided also for the involved Equipment.
 
-8.9.1.5.1 Consuming or Assembling Pre-Kitted Material Tracking Units
+###### 8.9.1.5.1 Consuming or Assembling Pre-Kitted Material Tracking Units
+
 When you consume or assemble pre-kitted Material Tracking Units, the system indicates what exactly is to be
 consumed for a specific Work Order in terms of reserved Serial Number codes or Batch Ids.
 If the pre-kitted Material Tracking Units to be consumed are Batches, the quantities will be displayed as they have
@@ -26883,16 +22012,6 @@ was not successful and that it is necessary to specify another Serial Number /Ba
 
 Assemble.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-383
-
-
-## Pagina 384
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 Validating and Assembling Large Numbers of Pre-kitted MTUs
 1. If the Material Tracking Unit to be assembled is configured to be validated, click
 Validate and Assemble
@@ -26914,7 +22033,8 @@ Edit next to the Pre-kitted MTU you want to change.
 
 Save.
 
-8.9.1.5.2 Special Cases regarding Consumption and Assembly
+###### 8.9.1.5.2 Special Cases regarding Consumption and Assembly
+
 In certain situations, consumption and assembly take place with a specific behavior that differs somewhat from
 what is described in Consuming or Assembling Material Tracking Units.
 Here is a summary of such special cases.
@@ -26939,16 +22059,6 @@ consumed on the last Serial Number to be produced by the Work Order.
 
 Assembly involving Material Tracking Units to be produced that have been loaded
 into Containers
-
-384
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 385
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Material Tracking Units can also be assembled on final products loaded into Containers. Likewise, MTUs to be
 consumed that have been loaded into Containers can be used for assembly.
@@ -26984,7 +22094,8 @@ Consumption involving Materials with AutoConsume Material Specification Type
 To automatically consume Materials from a Line Side Position it is necessary that the Line Side Position is
 associated with both the Material to be consumed and the workcenter or unit on which the Work Order is executed.
 
-8.9.1.6 How to Disassemble Material Tracking Units
+##### 8.9.1.6 How to Disassemble Material Tracking Units
+
 Material Tracking Units can be disassembled in full, as well as in part (in this case, provided that certain conditions
 exist).
 Conditions for Partial Disassembly
@@ -26992,16 +22103,6 @@ Partial disassembly is permitted only if the Material from which the Material Tr
 created must have Serial Number Profile set to False.
 Disassembly of a consumed Material Tracking Unit can be performed from various pages: see Options for
 Performing Disassembly below for the various procedures available.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-385
-
-
-## Pagina 386
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Possible Scenarios for MTU Disassembly
 It could be necessary to disassemble a fully-assembled Material Tracking Unit in the following cases:
@@ -27031,7 +22132,8 @@ Disassembly from the As Built page
 Disassembly via the Material Consumption task
 Disassembly from the Genealogy page
 
-8.9.1.6.1 Disassembing MTUs from the As Built page
+###### 8.9.1.6.1 Disassembing MTUs from the As Built page
+
 It is possible to disassembly Material Tracking Units operating from the As Built page.
 
 Prerequisite
@@ -27051,16 +22153,6 @@ Disassemble: this opens the Disassemble Material Tracking
 Units pane.
 6. In field Quantity, enter the value for the quantity to be disassembled.
 
-386
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 387
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 Partial disassembly is permitted only if the Material from which the Material Tracking Unit concerned
 was created must have Serial Number Profile set to False.
 7. (Optional) Enter a Note.
@@ -27068,7 +22160,8 @@ was created must have Serial Number Profile set to False.
 automatically updated.
 The Work Order's status does not change.
 
-8.9.1.6.2 Disassembling MTUs via the Material Consumption task
+###### 8.9.1.6.2 Disassembling MTUs via the Material Consumption task
+
 It is possible to disassemble Material Tracking Units operating via the Material Consumption task found in the
 Operator Task List (or Operator Details Step) page.
 
@@ -27106,23 +22199,14 @@ the Work Order's genealogy.
 Disassemble: this opens the Disassemble Material Tracking Units pane.
 7. In Quantity, enter the value for the quantity to be disassembled.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-387
-
-
-## Pagina 388
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 Partial disassembly is permitted only if the Material from which the Material Tracking Unit concerned
 was created must have Serial Number Profile set to False.
 8. (Optional) Enter a Note.
 9. Click Disassemble: the previously-consumed MTU is disassembled as specified and the entire page will be
 refreshed, reflecting the updated situation.
 
-8.9.1.6.3 Disassembling MTUs from the Genealogy page
+###### 8.9.1.6.3 Disassembling MTUs from the Genealogy page
+
 It is possible to disassemble Material Tracking Units operating from the Genealogy page.
 
 Prerequisite
@@ -27147,7 +22231,8 @@ was created must have Serial Number Profile set to False.
 subtracted from the quantity initially displayed and the entire page will be refreshed, reflecting the updated
 situation.
 
-8.9.1.7 How to Manage Quality Inspections
+##### 8.9.1.7 How to Manage Quality Inspections
+
 Quality Inspections are related to measurements to be collected at runtime in terms of frequency and sample size.
 Measurements can be related to Attributive, Variable or Visual Quality Characteristics.
 Depending on how you have configured the Quality Inspection, the form to be filled at runtime may be related to
@@ -27160,16 +22245,6 @@ During runtime, if a Quality Inspection of any type conducted on a Material Trac
 user has declared a Non-Conformance on it browsing a Failure), this will trigger the automatic creation of a
 corresponding Quality Non-Conformance in Open status, so that it can be corrected.
 Quality Inspections can come about in two ways in relation to Material Tracking Units:
-
-388
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 389
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Manually: there is the direct input by the Operator during any type of Quality Inspection.
 Automatically: in this case, the data regarding whether the MTU has passed or failed inspection is automatically
@@ -27217,16 +22292,6 @@ production
 1. While managing the current Work Order Operation, select the Serial Number to be inspected.
 2. Click the Quality Inspection task.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-389
-
-
-## Pagina 390
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 If only one task is available, you do not need to perform any selection, as the system automatically
 displays the Details area.
 3. Follow the instruction provided in the form in the center zone.
@@ -27263,7 +22328,8 @@ FullQuantity.
 If you want to disable automatic completion, you can remove the subscription of the
 OnSentenceBuyOffCompleteOperationForStep handler to the OnSentenceBuyOff event from Solution Studio.
 
-8.9.1.7.1 Special Cases regarding Quality Inspections
+###### 8.9.1.7.1 Special Cases regarding Quality Inspections
+
 Quality Inspections of type Part Based, Time Based or Unit Based follow specific rules and behave differently.
 
 Part Based Quality Inspections
@@ -27272,17 +22338,7 @@ produced items (Part Based), the scenario may vary, depending on various factors
 Those Serial Numbers for which it is mandatory to perform the Quality Inspection display the
 their corresponding tile.
 
-390
-
 indicator inside
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 391
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 If desired, you can perform the Quality Inspection also on other pieces.
 An
@@ -27371,16 +22427,6 @@ performed.
 
 Note This is the default behavior.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-391
-
-
-## Pagina 392
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 Pre-check
 CheckTimeBasedCounter
 IsElapsedOnCompleteWO
@@ -27446,16 +22492,6 @@ Work Orders modified after their generation from a Bill of Process
 (For Part Based and Unit Based only) If several Work Orders are created from the same Bill of Process, they will
 inherit the Part Based or Unit Based Quality Inspection configuration.
 
-392
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 393
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 However, should the Referenced Operation be changed for one of the Quality Inspections pertaining to the "sibling"
 Work Orders after being generated, the counter is no longer shared for that particular Quality Inspection and it is
 triggered separately for each of the modified Work Order Operations.
@@ -27466,7 +22502,8 @@ If a Part Based or Unit Based Inspection Definition is linked to an Operation an
 the Referenced Operation, then the counter will count the pieces to be inspected as soon as they are started on the
 corresponding Work Order Operation and no Material Tracking Unit is skipped.
 
-8.9.1.8 Transferring Print Job Files to 3D Printers
+##### 8.9.1.8 Transferring Print Job Files to 3D Printers
+
 Transferring a Print Job File to a 3D Printer means uploading to the Machine the instructions required to physically
 perform the print operation.
 There exist different types of Print Job Files:
@@ -27498,16 +22535,6 @@ Procedure
 1. While managing the current Work Order Operation, select the Print Job File Transfer task.
 If only one task is available, you do not need to perform any selection, as the system automatically
 displays the Details area.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-393
-
-
-## Pagina 394
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 2. To add a Print Job File to the list of files available for a Machine: click
 Add, in the Link Print Job Files to
@@ -27546,7 +22573,8 @@ Use.
 
 History (available only after at least one Transfer has
 
-8.9.1.8.1 Generating Runtime Print Job Files
+###### 8.9.1.8.1 Generating Runtime Print Job Files
+
 If necessary, in runtime Additive Manufacturing contexts, Operators can generate a Runtime Print Job File from a
 Template Print Job File with one or more active Serial Numbers from the Operator Landing Page: it will then be
 possible to print the final product including its Serial Number produced by Serialized or FullSerialized Work
@@ -27565,17 +22593,7 @@ If only one task is available, you do not need to perform any selection, as the 
 displays the Details area.
 3. Select the Template Print Job File you require and then click
 
-394
-
 Generate runtime Print Job File.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 395
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 4. (Not available for Execution Groups since all Serial Numbers are automatically selected) In the Generate
 Runtime Print Job Files panel, select at least one active Serial Number to be used to generate the Runtime
@@ -27587,7 +22605,8 @@ Work Order) or to all related active Serial Numbers (in case of Execution Group)
 displayed below the template from which it has been generated and it is now possible to transfer its contents to
 permit the correct printing of the information necessary for the final products.
 
-8.9.1.9 Transferring CNC Programs to Machines
+##### 8.9.1.9 Transferring CNC Programs to Machines
+
 Transferring a CNC Program means uploading to a Machine the instructions required to physically perform the Work
 Order Operation currently active.
 
@@ -27626,16 +22645,6 @@ It is possible to preview only documents up to 10 MB in size.
 
 Transferring from a FullQuantity or TransferBatch Work Order
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-395
-
-
-## Pagina 396
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 1. While managing the current Work Order Operation, select the Part Program Transfer task. The center zone of
 the page displays the Machines to which the CNC Program can be transferred.
 If only one task is available, you do not need to perform any selection, as the system automatically
@@ -27654,7 +22663,8 @@ associated to the element.
 It is possible to preview only documents up to 10 MB in size.
 Click History to display the history of past transfers.
 
-8.9.1.10 Producing Material Tracking Units at Runtime
+##### 8.9.1.10 Producing Material Tracking Units at Runtime
+
 This procedure allows you to produce Material Tracking Units during the execution of a Work Order Operation or
 Work Order Step.
 In order for MTU production to be feasible, both the Serial Numbers (and/or Batch IDs) of the MTUs to be produced
@@ -27668,16 +22678,6 @@ If only one task is available, you do not need to perform any selection, as the 
 displays the Details area.
 2. For each MTU to be produced, specify the values for Serial Number / Batch Id and Quantity, consulting the
 table below before proceeding:
-
-396
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 397
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Paramet
 er
@@ -27740,16 +22740,6 @@ No production (be it partial or total) has ever taken place (that
 is, Produced Quantity is equal to 0): the respective total quantities
 produced for each of the contained elements (Total) are intact.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-397
-
-
-## Pagina 398
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 Overall
 Backgroun
 d Color
@@ -27804,7 +22794,8 @@ History button.
 You can also view data related to the WOO-Step from which the MTU is disassembled. Events such as the linking
 or unlinking of Documents are also tracked.
 
-8.9.1.11 How to Manage Powder Material Batches
+##### 8.9.1.11 How to Manage Powder Material Batches
+
 This procedure allows you to load a Powder Batch into a 3D Printer during the execution of a Work Order Operation
 or Execution Group Phases specific to Additive Manufacturing production.
 When the Work Order Operation belongs to a Serialized Work Order, and if the mandatory check on the Powder
@@ -27815,16 +22806,6 @@ For all the other Work Order types or if the mandatory check has not been enable
 operator to track further actions performed after the first Batch has been loaded.
 The quantity of the Powder Batch can also be replenished, if necessary. The added quantity is added to the already
 loaded quantity.
-
-398
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 399
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Powder Batch previously loaded can be unloaded, by clicking the
 button. This operation is to be
@@ -27860,16 +22841,6 @@ Container ID
 
 (Visible if a Powder Container has been set) Select the Container in
 which the Batch is loaded.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-399
-
-
-## Pagina 400
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Parameter
 
@@ -27922,16 +22893,6 @@ Quantity
 Enter the Powder Batch quantity.
 
 3. Click:
-
-400
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 401
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Connect: (visible only if the Container identifier has been selected in step 2) to connect the
 Container with the loaded Batch to the 3D Printer, provided that it is not already connected to a different
@@ -27986,17 +22947,8 @@ opening a Work Order of interest, clicking
 
 As Built Order and then clicking the Activity History tab.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+#### 8.9.2 Changing Serial Numbers during Production
 
-401
-
-
-## Pagina 402
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
-8.9.2 Changing Serial Numbers during Production
 During the execution of Serialized, FullSerialized and FlexibleSerialized Work Orders, you can choose to change the
 Serial Numbers automatically generated on the basis of the template associated with the Material Tracking Unit
 being produced, in favor of new Serial Numbers, according to your needs.
@@ -28044,16 +22996,6 @@ keyboard to save.
 2. Repeat the previous step for all other Material Tracking Units for which you
 want to change the Serial Number.
 
-402
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 403
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 If you want to change ...
 
 Then....
@@ -28085,7 +23027,8 @@ values generated by the template(s) associated to the specific Material from
 which the Material Tracking Units are instantiated, and then save the entered
 values.
 
-8.9.3 Skipping Work Order Operations
+#### 8.9.3 Skipping Work Order Operations
+
 During the execution of a Work Order, this procedure allows you to skip the execution of a Work Order Operation
 and to provide a reason for the skip.
 
@@ -28102,7 +23045,8 @@ Skip.
 4. (only for Transfer Batch Work Orders) Select a quantity.
 5. Click OK.
 
-8.9.4 Adding Documents to Work Order Operations at Runtime
+#### 8.9.4 Adding Documents to Work Order Operations at Runtime
+
 In addition to those added during the creation of a Work Order, Documents can be added to Work Order Operations
 at runtime:
 by users with the Operator role, during the execution of a Work Order;
@@ -28111,16 +23055,6 @@ When Documents are added on Containers, they are automatically propagated to all
 in the Containers.
 
 Prerequisite
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-403
-
-
-## Pagina 404
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 The Collect Document parameter has been set while creating the Work Order Operation.
 The status of the Work Order Operations is Active.
@@ -28157,7 +23091,8 @@ To unlink previously added Documents, select each Document and click
 
 Unlink.
 
-8.9.5 Adding Notes to Work Order Operations at Runtime
+#### 8.9.5 Adding Notes to Work Order Operations at Runtime
+
 At runtime, the Operator has the possibility to write notes relative to the execution of a Work Order Operation which
 could be useful to other Operators. Also, Production Coordinators can add notes as extra information about a Work
 Order Operation.
@@ -28173,16 +23108,6 @@ Users with the Operator as well as the Production Coordinator role can perform t
 
 Prerequisite
 The Work Order is released.
-
-404
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 405
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Procedure
 1. Do one of the following according to your role:
@@ -28208,7 +23133,8 @@ Operations making up the selected Work Order).
 Any notes that have been added will remain visible inside the Notes tab of the As Built page
 corresponding to the selected Work Order.
 
-8.9.6 Aborting Work Orders
+#### 8.9.6 Aborting Work Orders
+
 You can choose to abort a Work Order that has not yet been executed or that has been paused at runtime by the
 Operator.
 
@@ -28232,16 +23158,6 @@ Procedure
 
 Result
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-405
-
-
-## Pagina 406
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 If a lock was set on the Equipment during Work Order Operation execution, the lock is released automatically
 before aborting the Work Order Operation.
 After aborting Work Orders in the Active state, the state of the Active Work Order Operations and Work Order Steps
@@ -28250,7 +23166,8 @@ those in the Open or Partial state, change to the Not Executed state.
 For Work Orders in the remaining states, (Edit, New, Queue, Pause and Pending) the status of Work Order
 Operation and Work Order Steps changes to Not Executed.
 
-8.9.7 Placing Work Orders on Hold
+#### 8.9.7 Placing Work Orders on Hold
+
 The status of the last Work Order Operation is automatically set to Future Hold if an Operator declares a NonConformance on that Work Order. In addition, a Production Coordinator can also place Work Orders on hold. For
 example, Production Coordinators can place a Work Order requiring changes to its Work Order Operations on Hold.
 Also, Production Coordinators can plan the schedule of material batches produced by Work Orders by placing the
@@ -28274,7 +23191,8 @@ Create > Create Hold Work Order and select the Work Order to be placed in Hold s
 4. (optional) In the Notes field, type some notes (for example, the details of the Hold operation).
 5. Click Create.
 
-8.9.8 Placing Work Order Operations on Future Hold
+#### 8.9.8 Placing Work Order Operations on Future Hold
+
 During production, you can plan the automatic halt of a Work Order execution when a specific Work Order
 Operation is completed. For example, you may need to perform this operation if you want to stop the execution of
 the Work Order before reaching a Work Order Operation requiring a Tool or a Machine that is not currently
@@ -28290,19 +23208,9 @@ Procedure
 1. In the home page, click the
 2. Click
 
-406
-
 Future Hold tile.
 
 Create and select the Work Order Operation to be placed in Future Hold status.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 407
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 3. Select a Future Hold Reason.
 4. Click Create.
@@ -28315,7 +23223,8 @@ before the hold (either Open or Partial) clicking
 
 Start.
 
-8.9.9 Placing Workcenters and Machines on Hold
+#### 8.9.9 Placing Workcenters and Machines on Hold
+
 The following procedure describes how to exclude a Workcenter or a Machine from production, for example
 because it is out of order or it must undergo a maintenance process. It is also possible to place a Workcenter or
 Machine on Hold when managing a Non-Conformance.
@@ -28334,7 +23243,8 @@ Hold tile in the home page.
 4. Select a Hold Reason.
 5. Click Create.
 
-8.9.10 Managing Work Order Updates
+#### 8.9.10 Managing Work Order Updates
+
 The Product Engineer may need to create a new revision of a Process, not only to produce something different, but
 also to improve the previously-planned production workflow. If, in the meantime, a set of Work Orders has been
 created from the original Process, these Work Orders may need to be updated. If properly configured, users in
@@ -28348,16 +23258,6 @@ dependencies will be managed (if they are not placed in between of already execu
 dependencies related to the new Work Order Operation Folders are automatically resolved by the system, so that
 after the update the Work Order is ready to proceed in its execution with the correct incoming Work Order
 Operation, also when it was inside a chain of Work Order Operation Folders.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-407
-
-
-## Pagina 408
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Prerequisite
 The Work Order is in status Active, Pause, New, or Queue.
@@ -28376,7 +23276,8 @@ the updated revision of the Process from which the Work Order was created.
 
 Update, to align your Work Order to the new Process revision.
 
-8.9.11 Pausing and Resuming Work Order Operations
+#### 8.9.11 Pausing and Resuming Work Order Operations
+
 If you are an Operator and issues in production arise, or changes need to be made to operations, you can pause a
 Work Order that is currently in execution.
 After fixing or clarifying the identified issue, you can then decide to resume it: otherwise, the Production
@@ -28407,16 +23308,6 @@ Procedure
 Pause.
 3. Select a Reason for pausing the Work Order.
 
-408
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 409
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 4. Click OK: if Electronic Signature is not enabled, this is sufficient to pause the Work Order. Otherwise, proceed to
 the next step.
 5. (only if Electronic Signature has been enabled) In the prompt that appears on screen, type your password,
@@ -28439,7 +23330,8 @@ this counter under the Pause Duration [d.hh:mm:ss] column. When you resume the W
 Operation, the counter is not reset and it will continue counting in an incremental way, when the Work
 Order Operation is paused again.
 
-8.9.11.1 Reopening Work Order Operations
+##### 8.9.11.1 Reopening Work Order Operations
+
 In situations in which the user discovers that one of the Serial Numbers (or a portion of the batch) produced by a
 Work Order Operation was not produced properly, there now exists the possibility of re-opening that same Work
 Order Operation, whereby the production of the faulty element is re-executed to rectify any problems that have
@@ -28468,16 +23360,6 @@ Reopen button: select the Serial Number (or batch quantity) of interest and then
 
 Results
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-409
-
-
-## Pagina 410
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
 For FullQuantity and FullSerialized production: in both cases, the system removes the Work Order Operation's
 dependencies and extracts it from the routing.
 For Serialized and TransferBatch production: in both cases, when the Work Order Operation is reopened, it is
@@ -28489,7 +23371,8 @@ Start in the Operator Landing page.
 
 The Reopening history is visible in the Activity History tab.
 
-8.9.11.2 Special Case: Performing an Administrative Pause
+##### 8.9.11.2 Special Case: Performing an Administrative Pause
+
 In emergency situations (for example, when the assigned user is unavailable), the Production Coordinator
 can override the pause applied on the Work Order Operation and pause the Work Order at the administrative level.
 Once an Administrative Pause has been performed by a Production Coordinator on a Work Order, it can be
@@ -28526,17 +23409,8 @@ Start
 
 The Administrative Pause history is also visible in the Activity History tab.
 
-410
+#### 8.9.12 Closing Flexible Work Orders
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 411
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
-
-8.9.12 Closing Flexible Work Orders
 During production execution, it may be necessary to close a Flexible Work Order before its full completion. This may
 happen, for example if the Work Order had been created for a given work shift and consequently it is necessary to
 close it until the end of that shift, even if some Work Order Operations have not yet been completed.
@@ -28581,19 +23455,10 @@ Genealogy page.
 All in progress and not started items are logged for the closed Work Order both in the As Built Report and in the
 Genealogy page.
 
-8.9.13 How to Manage Non-Productive Activities
+#### 8.9.13 How to Manage Non-Productive Activities
+
 Non-Productive Activities (for example, workspace cleaning, tool maintenance, training) can be managed in
 different ways:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-411
-
-
-## Pagina 412
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Production Coordinators and Product Engineers can manage Non-Productive Activities of all Users from the
 Users page.
@@ -28615,7 +23480,8 @@ Managing Non-Productive Activities from the Users page
 Managing Non-Productive Activities from the Operator Landing Page
 Managing Non-Productive Activities from the Notification Bar
 
-8.9.13.1 Managing Non-Productive Activities from the Users page
+##### 8.9.13.1 Managing Non-Productive Activities from the Users page
+
 This procedure allows you to manage Non-Productive Activities belonging to all Users.
 Specifically, it is possible to create and complete Activities, to display and edit their details and to delete them from
 the log, provided that you own the required role.
@@ -28635,8 +23501,6 @@ Open.
 3. In the Non-Productive Activities tab, click
 4. Set the following parameters:
 
-412
-
 Add.
 
 Parameter
@@ -28650,14 +23514,6 @@ Identifier of the Non-Productive Activity previously created.
 Start Date
 
 (Mandatory) Start date and time of the Non-Productive Activity.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 413
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Managing Work Order Operations
 
 Parameter
 
@@ -28709,7 +23565,8 @@ Open.
 
 Delete.
 
-8.9.13.2 Managing Non-Productive Activities from the Operator Landing Page
+##### 8.9.13.2 Managing Non-Productive Activities from the Operator Landing Page
+
 This procedure allows a User to start and/or complete his or her own Non-Productive Activities.
 Conversely, the Production Coordinator and the Product Engineer can manage Activities belonging to all Users.
 
@@ -28721,16 +23578,6 @@ Activities page displays the Activities started by the current User .
 3. In the Create Non-Productive Activity On The Fly page, select one or more Activities from the list previously
 created.
 4. (Optional) In the Context drop down list, select the context of the Activity.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-413
-
-
-## Pagina 414
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Completing Work Order Operations
 
 5. (If you have selected a context) Insert the context items according to the Context parameter set in the previous
 step.
@@ -28745,7 +23592,8 @@ date and time.
 
 . The selected Activities are logged as completed with the current
 
-8.9.13.3 Managing Non-Productive Activities from the Notification Bar
+##### 8.9.13.3 Managing Non-Productive Activities from the Notification Bar
+
 This procedure allows a User to start and/or complete his or her own Non-Productive Activities.
 Conversely, the Production Coordinator and the Product Engineer can manage Activities belonging to all Users.
 
@@ -28770,7 +23618,8 @@ Non-Productive Activity icon in the Notification Bar.
 3. Select one or more Activities and click Complete. The selected Activities are logged as completed with the
 current date and time.
 
-8.10 Completing Work Order Operations
+### 8.10 Completing Work Order Operations
+
 When executing Work Orders, you can complete Work Order Operations which have been previously started and
 managed.
 A Work Order is to be considered as completed when all its Work Order Operations are in a final status (either
@@ -28780,16 +23629,6 @@ define a set of Outbound Interlocking Checks to verify various conditions (for e
 Materials, the completion of the related Steps). If at least one active Outbound Interlocking Check fails, the Work
 Order Operation/Step will not be completed: an error message for each of the failed Outbound Interlocking Checks
 is displayed to the Operator and this information is logged into the system in the Interlocking Check History page.
-
-414
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 415
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Completing Work Order Operations
 
 To see the details about the Interlocking Check outcome, click the
 Landing page or from the Details page.
@@ -28841,16 +23680,6 @@ Procedure
 2. (only for Work Order Operations started on multiple Machines) Select the Machines where the Work Order
 Operation is to be completed.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-415
-
-
-## Pagina 416
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Completing Work Order Operations
-
 If the Work Order Type is Serialized or FlexibleSerialized, the same User can complete different Serial
 Numbers on the same Work Order Operation selecting different Workcenters/Machines.
 If the Work Order Type is TransferBatch, the same User can complete different quantities on the same
@@ -28864,12 +23693,14 @@ Step to be performed
 
 Serialized
 
-1 Select the Serial Numbers and/or Containers to be completed. To include all
+## 1 Select the Serial Numbers and/or Containers to be completed. To include all
+
 displayed Serial Numbers and Containers, select
 
 Select All.
 
-2 For each of the selected Serial Numbers, if desired and provided that the Result
+## 2 For each of the selected Serial Numbers, if desired and provided that the Result
+
 Management configuration key has been set, click the appropriate button (
 OK,
 NOK or
@@ -28884,7 +23715,9 @@ custom positive and negative Result values that may have been configured.
 See Managing Work Order Operations for information on how the Results
 declared for the various MTUs completed are displayed in the Work Order
 Operation tiles in the Operator Landing Page.
-3 Click Complete.
+
+## 3 Click Complete.
+
 FlexibleSerialized
 
 See the steps to be performed for Serialized Work Orders above.
@@ -28902,16 +23735,6 @@ automatically executed, regardless of whether they are managed independently or
 loaded into Containers.
 If you intend to declare a Result on FullSerialized MTUs, keep in mind that it
 will be applied to all Serial Numbers.
-
-416
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 417
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-Unloading Containers
 
 Work Order Type
 
@@ -28942,7 +23765,8 @@ If password validation fails, you cannot proceed with completing the Work Order,
 continue handling Work Orders or Work Order Operations that do not have dependencies on this Work
 Order.
 
-8.11 Unloading Containers
+### 8.11 Unloading Containers
+
 Once Work Order Operations in the Open or Partial status are associated to Containers and loaded with Material
 Tracking Units, you can unload the MTUs present inside the Container before starting the Work Order Operation.
 Depending on the requirement, Containers can be fully or partially unloaded, and as configured, fully unloaded
@@ -28964,16 +23788,6 @@ Unload Container button.
 Note If more than one Container is selected to be unloaded, the only unloading option available is Fully
 Unload.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-417
-
-
-## Pagina 418
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Execute Production on Execution Groups
-
 5. Depending on the Production Type, if the Work Order Operation belongs to
 Serialized or FlexibleSerialized production type, select the Serial Numbers to be unloaded in the Serial
 Number step of the wizard.
@@ -28992,7 +23806,8 @@ more than one Container.
 Unload and Finish, to unload the selected Serial Numbers or specified quantity from the Container and
 end the unloading operation.
 
-8.12 How to Execute Production on Execution Groups
+### 8.12 How to Execute Production on Execution Groups
+
 If your system contemplates using also Execution Groups to speed up production execution, you can choose to
 execute these Execution Groups either alone or together with single Work Order Operations.
 
@@ -29023,21 +23838,11 @@ In case of Additive Manufacturing, consume the Materials or track the Powder Mat
 Manage the Work Instructions associated to Execution Group Phases.
 3. (optional) Pause and resume the Execution Group.
 
-418
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 419
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Execute Production on Execution Groups
-
 4. Complete an Execution Group.
 5. (optional) Abort an Execution Group.
 
-8.12.1 Navigation of the Execution Group Working Environment at
-Runtime
+#### 8.12.1 Navigation of the Execution Group Working Environment at Runtime
+
 When executing Work Orders, you can perform various activities on an Execution Group previously started.
 Runtime managing of Execution Groups is a complex procedure that depends from the various parameters set
 during their creation. There is no unique workflow and it may consist of several independent steps without a fixed
@@ -29060,16 +23865,6 @@ Group Phase.
 
 Information Available in the Header Bar
 The top Header Bar displays the details of the current Execution Group.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-419
-
-
-## Pagina 420
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Execute Production on Execution Groups
 
 The Header Bar displays all the Users active on the Execution Group Phase and their individual association with
 Machines and Serial Numbers or Batches.
@@ -29094,13 +23889,15 @@ Complete to complete the current Execution Group Phase.
 Document Preview to view the Documents attached to the selected Execution Group Phase. Refer to
 the Previewing Document Files section for details.
 
-8.12.2 How to Prepare Execution Groups during Production Execution
+#### 8.12.2 How to Prepare Execution Groups during Production Execution
+
 Before executing Work Order Operations, to permit their simultaneous execution (even if they belong to different
 Work Orders), you can choose to:
 create a new Execution Group on the fly.
 link one or more Work Order Operations to an existing Execution Group.
 
-8.12.2.1 Creating an Execution Group On The Fly
+##### 8.12.2.1 Creating an Execution Group On The Fly
+
 Once you have created an Execution Group at runtime, it is automatically released.
 
 Target User
@@ -29115,16 +23912,6 @@ produced by the Execution Group you are creating in the Quantity cell. The remai
 by Work Order Operations not belonging to the Execution Group
 3. Click Create.
 4. In the Create Execution Group panel, set the following parameters:
-
-420
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 421
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Execute Production on Execution Groups
 
 Parameter
 
@@ -29165,7 +23952,8 @@ Note Not enabled if there is integration with Opcenter APS.
 Execution Groups created on the fly can be scheduled via the APS Sequencer in the same manner as
 Execution Groups created during engineering: for more information, see Scheduling an Execution Group.
 
-8.12.2.2 Linking Work Order Operations to an Existing Execution Group
+##### 8.12.2.2 Linking Work Order Operations to an Existing Execution Group
+
 Once you link a Work Order Operation to an existing Execution Group, you cannot unlink it: only a
 Production Coordinator can perform an Unlink, operating from a dedicated page.
 Keep in mind that unlinking a Work Order Operation from an Execution Group automatically unlinks also
@@ -29174,8 +23962,6 @@ all the other Work Order Operations belonging to the same Work Order.
 Prerequisites
 All the Work Order Operations that are to be
 linked to an Execution Group must.....
-
-Opcenter Execution Discrete 2507.0001 - User Manual
 
 have at least one common Machine on which they can be
 executed within the same Execution Group Phase.
@@ -29186,14 +23972,6 @@ require the same Skill and Skill Levels, if any.
 have a dependency on the next Work Order Operation.
 belong to a Work Order with Production Type that differs
 from FlexibleSerialized and FlexibleBatch.
-
-421
-
-
-## Pagina 422
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Execute Production on Execution Groups
 
 The Work Operations associated to the Work
 Order Operations must...
@@ -29234,7 +24012,8 @@ click
 
 Open.
 
-8.12.3 Starting Execution Groups
+#### 8.12.3 Starting Execution Groups
+
 To execute several Work Orders simultaneously, you must start an Execution Group.
 Starting an Execution Group involves starting all the Work Order Operations linked to it or, if Execution Group
 Phases are present, all the Work Order Operations belonging to the current phase.
@@ -29244,16 +24023,6 @@ executed, only the Work Order Operations will be involved, and not their associa
 must be executed individually in the standard mode for each single Work Order.
 
 Procedure
-
-422
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 423
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Execute Production on Execution Groups
 
 1. In the Operator Landing page, select the Execution Group to start and then click
 Start.
@@ -29289,7 +24058,8 @@ After starting an Execution Group, you can display the details of the Work Order
 them. Later, you can complete the Execution Group.
 Active Execution Groups can be paused if needed.
 
-8.12.4 Consuming Materials of type Additive from an Execution Group
+#### 8.12.4 Consuming Materials of type Additive from an Execution Group
+
 You can consume Materials of type Additive Manufacturing all having the same characteristics (Type and Quantity)
 in all the Work Order Operations making up an Execution Group at the same time. The Procedure below shares
 much of what is illustrated for assembling Material Tracking Units.
@@ -29306,21 +24076,12 @@ on the accordion indicates that the material is consumed by an Execution Group P
 3. Select the Material to be consumed and click the Expand button. Enter the Serial Number/ Batch Id for the
 selected Additive Material.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-423
-
-
-## Pagina 424
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Execute Production on Execution Groups
-
 4. Click the Assemble
 
 button.
 
-8.12.5 Tracking Powder Material Batches for Execution Groups
+#### 8.12.5 Tracking Powder Material Batches for Execution Groups
+
 This procedure allows you to track the Powder Material Batch, loaded into a 3D Printer, which has been used during
 the execution of a printing operation specific to Additive Manufacturing, both for single Work Orders and for Work
 Orders inside Execution Groups. If the Batch is loaded in a Container connected to a 3D Printer, the information on
@@ -29352,16 +24113,6 @@ If only one task is available, you do not need to perform any selection, as the 
 displays the Details area.
 2. For the Powder Batch to be tracked, you must insert the values for both Batch ID and Quantity, consulting the
 table below before proceeding:
-
-424
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 425
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Execute Production on Execution Groups
 
 Parameter
 
@@ -29423,17 +24174,8 @@ As Built Order and then clicking the Activity History tab.
 For Powder Batches loaded inside Containers, both histories display as an additional information the identifier of
 the tracked Container.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+#### 8.12.6 How to Manage Work Instructions for Execution Group Phases
 
-425
-
-
-## Pagina 426
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Execute Production on Execution Groups
-
-8.12.6 How to Manage Work Instructions for Execution Group Phases
 Work Instructions associated to Execution Group Phases provide Operators with detailed steps or instructions on
 how to carry out tasks during production and/or indications as to what runtime data must be inserted.
 In the case of Work Instructions containing Acknowledge steps, the instructions are associated to the entire
@@ -29473,16 +24215,6 @@ more MTUs, you must re-acknowledge it in order for the execution to be repeated.
 Providing Values for Data Collections associated to an Execution Group Phase
 1. While managing the current Execution Group Phase, select the Work Instruction task.
 
-426
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 427
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Execute Production on Execution Groups
-
 If only one task is available, you do not need to perform any selection, as the system automatically
 displays the Details area.
 2. Select the Work Instructions For EG Phase tab.
@@ -29519,23 +24251,14 @@ Collections associated to the Execution Group Phase. Before being confirmed, the
 they have been acquired from the field.
 7. Click Confirm to save the value.
 
-8.12.7 Pausing and Resuming Execution Groups
+#### 8.12.7 Pausing and Resuming Execution Groups
+
 An Execution Group that is currently in execution can be paused. This action pauses all the Work Order Operations
 making up the Execution Group at once so to permit the correction or verification of the issue that warranted the
 pause. After the issue has been corrected or clarified, the Execution Group can be resumed.
 
 Prerequisite
 At least one Pause Reason has been configured.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-427
-
-
-## Pagina 428
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Execute Production on Execution Groups
 
 Procedure
 1. In the Operator Landing page, select an Execution Group in Active status.
@@ -29549,7 +24272,8 @@ the Execution Group: if you want to resume the Execution Group, click
 
 Start.
 
-8.12.8 Completing Execution Groups
+#### 8.12.8 Completing Execution Groups
+
 When executing Work Orders, you can complete Execution Groups that have been previously started and managed.
 If Execution Group Phases are present, the Complete action completes all the Work Order Operations belonging to
 the current phase. A subsequent Start action on the same Execution Group will start the next phase. The
@@ -29569,7 +24293,8 @@ Procedure
 
 Complete: the completion of the entire Execution Group will be triggered.
 
-8.12.9 Aborting Execution Groups
+#### 8.12.9 Aborting Execution Groups
+
 You can choose to abort an Execution Group (or a list of Execution Groups), that has, for example, not yet been
 executed or that has been paused at runtime by the Operator.
 
@@ -29585,16 +24310,6 @@ Queue
 Pause
 No Work Order Operations are linked to the selected Execution Group.
 
-428
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 429
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Offline Sessions
-
 Procedure
 1. In the Execution Groups page, select the Execution Group that you want to abort.
 2. Click
@@ -29605,7 +24320,8 @@ Result
 The Execution Group is aborted. Actions such as linking Work Order Operations to the Execution Group, or starting/
 pausing/completing the Execution Group can no longer be performed.
 
-8.13 How to Manage Offline Sessions
+### 8.13 How to Manage Offline Sessions
+
 Offline sessions are production execution sessions performed without connectivity to the Opcenter EX DS server.
 Once an Offline Session is created on the mobile device, you can see its details in terms of its Work Order
 Operations.
@@ -29647,16 +24363,6 @@ Checking In Offline Sessions
 to perform a check-in of the Offline Sessions.
 3. If the check-in process fails, amend the Action and repeat the check-in of the Offline Session.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-429
-
-
-## Pagina 430
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Additive Manufacturing-related Activities
-
 Checking In Offline Actions
 1. In the Offline Sessions page, navigate to the Offline Actions tab and select the uploaded or failed Offline
 Actions.
@@ -29686,7 +24392,8 @@ Discarding Offline Sessions
 In those cases in which a check-in is in progress, those check-in operations that have been completed
 successfully up to this moment will not be undone (reverted).
 
-8.14 How to Manage Additive Manufacturing-related Activities
+### 8.14 How to Manage Additive Manufacturing-related Activities
+
 For production in Additive Manufacturing contexts, additional runtime activities are foreseen, once 3D printing has
 been completed.
 These activities involve Substrates and Powder Material Batches.
@@ -29707,16 +24414,6 @@ cycle, once 3D printing has been completed.
 
 Target User
 
-430
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 431
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Additive Manufacturing-related Activities
-
 Users with the Product Engineer role can perform these operations.
 
 Available Operations
@@ -29727,7 +24424,8 @@ Loading Powder Material Batches into 3D Printers
 Recycling Powder Material Batches
 Mixing Powder Material Batches
 
-8.14.1 Performing Substrate Treatment
+#### 8.14.1 Performing Substrate Treatment
+
 Between 3D printing jobs, Substrates must be regularly treated. Substrate treatment enhances Substrate traits such
 as surface bonding property and surface wetting capability. Substrates can also be treated to ensure that the
 surface layer of the Substrate adheres securely to the underlying layers. Opcenter Execution Discrete supports the
@@ -29755,7 +24453,8 @@ the status of the Substrate is set to Warning Available, and it is still availab
 number of treatments exceeds the value specified by Max. Treatment Count Hold, the status of the Substrate is set
 to OnHold, and it is not available for further treatment, or for production.
 
-8.14.2 Reducing Substrate Thickness
+#### 8.14.2 Reducing Substrate Thickness
+
 Opcenter Execution Discrete supports the capability of reducing the thickness of a Substrate without having to
 open it in edit mode. You can previously enter the thickness reduction value through the automatic thickness
 decrease option, and later, simply click a dedicated button to reduce Substrate thickness. However, if you did not
@@ -29764,16 +24463,6 @@ reduced thickness value.
 
 Prerequisite
 The status of the Substrate is Available or Warning Available. For more information, see States and Lifecycles.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-431
-
-
-## Pagina 432
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Additive Manufacturing-related Activities
 
 When configuring the Substrate, the following parameters have been set: Automatic Thickness Decrease
 and Amount Set for Automatic Thickness Decrease.
@@ -29794,7 +24483,8 @@ to Warning Available, and it is still available for production. However, if the 
 thickness allowed (Min. Thickness Warning Hold value), the status of the Substrate is set to OnHold, and it is not
 available for production.
 
-8.14.3 Maintaining Substrates
+#### 8.14.3 Maintaining Substrates
+
 Substrates may undergo regular treatment procedures such as heating or peeling, to make them more suitable for
 production. However, repeatedly treating Substrates might result in deterioration of their quality. For this reason,
 maintenance activities are performed on Substrates to improve Substrate quality and ensure that it can be reused.
@@ -29808,8 +24498,6 @@ Procedure
 3. Click
 Execute Maintenance.
 4. On the Substrate Maintenance page, set the following parameters:
-
-432
 
 Parameter
 
@@ -29825,14 +24513,6 @@ Current
 Thickness
 
 The current thickness value of the Substrate in millimeters.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 433
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Additive Manufacturing-related Activities
 
 Parameter
 
@@ -29852,7 +24532,8 @@ OnHold, indicates that the Substrate is not available for production.
 
 5. Click Update.
 
-8.14.4 Loading Powder Material Batches into 3D Printers
+#### 8.14.4 Loading Powder Material Batches into 3D Printers
+
 Powder Material Batches can be loaded generically into 3D Printers or specifically within a given Bay , specifying the
 related quantity. If a Powder Container has been set, it is possible to select a Container already loaded with a
 Powder Batch.
@@ -29893,16 +24574,6 @@ Product and Production Configuration > 3D Printers in the sidebar.
 .
 
 button and then set the following parameters:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-433
-
-
-## Pagina 434
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Additive Manufacturing-related Activities
 
 Paramete
 r
@@ -29951,7 +24622,8 @@ Load: to load the Powder Batch directly into the 3D Printer if a Container has n
 Powder Batch is inside a Container which has been connected to a 3D Printer, it will be loaded into the
 3D Printer from the Container (which, as a result of this action, will be emptied).
 
-8.14.5 Recycling Powder Material Batches
+#### 8.14.5 Recycling Powder Material Batches
+
 While printing 3D items, a Powder Material batch might not be completely consumed, leaving behind some Powder
 Material. Opcenter Execution Discrete supports the capability of collecting and reusing leftover Powder Material
 from one or more Powder Material batches. The dedicated process for reusing Powder Material is called recycling.
@@ -29964,16 +24636,6 @@ The Powder Material batch you want to recycle must be in one of the following st
 The status of a Powder Material Batch can be changed by selecting it in the Powder Recycle page, clicking
 Amend and then editing the Status field. Threshold checks regarding the congruity of the status
 transition you want to apply will be performed in this particular context.
-
-434
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 435
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Additive Manufacturing-related Activities
 
 In addition, by clicking the same button, you can edit the Quantity and the Recycle Count fields
 according to your needs, as well as select the Estimated Quantity checkbox to indicate that the quantity
@@ -30026,7 +24688,8 @@ this context as well.
 In addition, the location of the Powder Batch (for example the 3D Printer) can be traced by using the Location
 parameter.
 
-8.14.6 Mixing Powder Material Batches
+#### 8.14.6 Mixing Powder Material Batches
+
 One or more Powder Material batches of the same Material can be mixed to form a new Powder Material batch. This
 new batch can be used for 3D printing. You can mix leftover Powder Material from multiple batches, as well as
 unused Powder Material batches, to create new Powder Material batches. The newly-created batch can then be
@@ -30035,16 +24698,6 @@ It is then possible to display the genealogy of Powder Material Batches to verif
 
 Supported Scenarios
 Opcenter Execution Discrete supports the following two use cases for creating new Powder Material batches:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-435
-
-
-## Pagina 436
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Additive Manufacturing-related Activities
 
 Two Powder Material batches with the same Material and UOM are selected. Possible cases are:
 the system creates a new Batch with the same Material and UOM of the source batches, provided that
@@ -30099,16 +24752,6 @@ create a new batch on-the-fly typing a new Identifier.
 If the Id of the Second Source Batch is not specified, the system creates a new target
 batch on-the-fly whose quantity equals the sum of the two batches.
 Once saved, this parameter can no longer be modified.
-
-436
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 437
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Additive Manufacturing-related Activities
 
 Param
 eter
@@ -30184,16 +24827,6 @@ if the is Target checkbox has been flagged for one of the source batches, this f
 displays the Id of the source batch which has been selected as target.
 Once saved, this parameter can no longer be modified.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-437
-
-
-## Pagina 438
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Additive Manufacturing-related Activities
-
 Para
 meter
 
@@ -30264,22 +24897,12 @@ data of the Powder associated with the first source batch, but both fields can b
 
 Result
 
-438
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 439
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Buffer Replenishment and Transport Operations
-
 Actions performed on the Powder Batch (for example, changes in status, mixing or recycling) are traced in the
 History tab. The details include: the user who performed the action, the date and time when the action was
 performed, and so forth.
 
-8.15 How to Manage Buffer Replenishment and Transport
-Operations
+### 8.15 How to Manage Buffer Replenishment and Transport Operations
+
 Whenever the required Material Tracking Units (MTUs) involved in the production process are insufficient (and
 therefore, must be replenished) or not in condition (and thus must be replaced) to permit the continuation of
 manufacturing activities, users can manage their transportation within in the Plant by declaring a specific Logistic
@@ -30298,7 +24921,8 @@ Note This step can also be performed on-the-fly while executing the Transport Op
 4. Execute the Transport Operation.
 5. Unload the Handling Unit.
 
-8.15.1 How to Configure Handling Units
+#### 8.15.1 How to Configure Handling Units
+
 Handling Units are created to facilitate the movement of Material Tracking Units (MTU) from a source Workcenter to
 a destination.
 Tracking the actual movement of the MTUs is performed directly on the Handling Units, thereby facilitating logistic
@@ -30319,16 +24943,6 @@ Workflow
 1. Create a Handling Unit.
 2. Add Material Tracking Units to the Handling Unit.
 3. Change the status of the Handling Unit.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-439
-
-
-## Pagina 440
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Buffer Replenishment and Transport Operations
 
 Creating Handling Units
 1. In the Handling Units page, click
@@ -30371,7 +24985,8 @@ to open the details.
 3. Select Dispatchable from the list.
 4. Click Change Status.
 
-8.15.2 Declaring Logistic Requests
+#### 8.15.2 Declaring Logistic Requests
+
 You can declare a Logistic Request in two ways:
 Manually, which is the most common method adopted.
 Automatically:
@@ -30384,16 +24999,6 @@ To enable automatic Logistic Request generation, you must import the appropriate
 with Opcenter Execution Discrete.
 In this case, a Logistic Request will be automatically declared by the system whenever the Buffer level falls
 below a defined threshold for MTUs.
-
-440
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 441
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Buffer Replenishment and Transport Operations
 
 For more information, see Integrating Opcenter Execution Foundation Apps in the Opcenter Execution
 Discrete Solution in the Opcenter Execution Discrete Installation and Configuration Manual.
@@ -30462,17 +25067,8 @@ as the value selected for parameter Source.
 Result
 The Logistic Request is been created in status Open.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+#### 8.15.3 Accepting Logistic Requests
 
-441
-
-
-## Pagina 442
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Buffer Replenishment and Transport Operations
-
-8.15.3 Accepting Logistic Requests
 In order to set in motion the actual transport of the Material Tracking Unit(s) required, after a Logistic Request has
 been declared, you must accept the Logistic Request. This in turn generates a new Transport Operation.
 If properly configured, dedicated notifications inform users of new Logistic Request declarations. You can choose to
@@ -30531,22 +25127,13 @@ Buffer to which the Material is to be transported.
 
 4. Click Save. A Transport Operation is created in status Accept.
 
-442
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 443
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Buffer Replenishment and Transport Operations
-
 To reject Logistic Requests, select the Logistic Request you want to reject, and click
 Note You can only reject Logistic Requests that are in status Open.
 
 Reject.
 
-8.15.4 Executing Transport Operations
+#### 8.15.4 Executing Transport Operations
+
 Transport Operations facilitate shipping Material Tracking Units from one location to another. When the execution
 of the Transport Operation is completed, the Material Tracking Units can be unloaded from the Handling Unit and
 consumed.
@@ -30590,21 +25177,12 @@ added, you cannot change the Source or Handling Unit.
 
 5. Click Complete when the Handling Unit reaches the destination. The Handling Units is ready to be unloaded.
 
-8.15.5 How to Unload Handling Units
+#### 8.15.5 How to Unload Handling Units
+
 Handling Units can be directly unloaded once the Transport Operation has been executed or you can decide to
 unload them at a later time.
 
 Prerequisite
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-443
-
-
-## Pagina 444
-
-How to Execute Work Orders in the Operator Landing Page (legacy)
-How to Manage Buffer Replenishment and Transport Operations
 
 A Transport Operation has been executed.
 The status of the Handling Unit to be unloaded is Transported.
@@ -30631,18 +25209,8 @@ Unload Handling Unit.
 4. In the Unload Handling Unit panel, select the Material Tracking Units to be unloaded.
 5. Click Save.
 
-444
+## 9 How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 445
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Navigation of the Operator Terminal for Complex Manufacturing
-
-9 How to Execute Work Orders in the Operator Terminal for
-Complex Manufacturing
 The Operator Terminal for Complex Manufacturing is recommended for Serialized, FlexibleSerialized or
 FullQuantity production.
 
@@ -30667,21 +25235,12 @@ In addition to the operations listed above, while executing a Work Order Operati
 declare a Quality Non-Conformance during production
 request a Change Package on the Work Order Operation or Work Order Step
 
-9.1 Navigation of the Operator Terminal for Complex Manufacturing
+### 9.1 Navigation of the Operator Terminal for Complex Manufacturing
+
 The Operator Terminal is the main environment in which you will move to carry out production execution. It is from
 here that you will be able to start your Work Order Operations, as well as perform other activities.
 Here is what you need to know to navigate this environment and interpret what is displayed on screen, as well as
 adapt its contents according to your needs.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-445
-
-
-## Pagina 446
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Navigation of the Operator Terminal for Complex Manufacturing
 
 Indicators Visible on Tiles
 The tiles presented in the Operator Terminal may contain dedicated indicators related to various aspects of
@@ -30702,16 +25261,6 @@ Partial
 Hold
 Future Hold
 Complete
-
-446
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 447
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Navigation of the Operator Terminal for Complex Manufacturing
 
 Indicator
 
@@ -30747,17 +25296,7 @@ You can also click
 
 , to view the Dependency Graph in fullscreen mode and click
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 , to exit.
-
-447
-
-
-## Pagina 448
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Starting Work Order Operations
 
 Operations Available in the Search Bar
 In the Operator Terminal page, do one of the following:
@@ -30797,20 +25336,11 @@ As Built to display Historical Data.
 N-P Activities to manage non-productive activities.
 External Integration, to open an external system web UI with the Work Order Operation parameters.
 
-9.2 Starting Work Order Operations
+### 9.2 Starting Work Order Operations
+
 Executing a Work Order entails starting at least one Work Order Operation.
 When starting a Work Order Operation, the main discriminant to keep in mind is the Production Type of the Work
 Order to which it belongs. The Production Type determines the execution flow of the Work Order Operation.
-
-448
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 449
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Starting Work Order Operations
 
 Keep in mind that the Production Type of the Work Order, as well as other configurations, will affect what is
 displayed on screen and the procedure that you must follow to start your Work Order Operation.
@@ -30869,21 +25399,12 @@ panel select the Workcenter/Machine to be used to execute the Work Order Operati
 Validate User.
 5. Click Start.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-449
-
-
-## Pagina 450
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
 What to do next
 After starting a Work Order Operation, you can display its details and manage them. Later, you can complete its
 execution.
 
-9.3 Managing Work Order Operations
+### 9.3 Managing Work Order Operations
+
 When executing Work Orders, you can perform various activities on the Work Order Operation.
 Runtime management of Work Order Operations is a complex procedure that depends on the various parameters
 set during their creation. There is no set workflow that must be followed: it may consist of several independent
@@ -30909,16 +25430,6 @@ elements needed to perform the current activity.
 Document Viewer - In the center of the screen, immediately after the nested-card zone. Upon clicking the
 Documents button on the vertical command bar, the Document Viewer displays the Documents associated to
 different entities involved in the current Work Order Operation or Step.
-
-450
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 451
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
 
 Vertical Command Bar - On the far right of the screen. Displays a set of buttons to perform various activities on
 the current Work Order Operation or Step.
@@ -30975,16 +25486,6 @@ Green (both background and border): Activity completed.
 
 Tool Usage
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-451
-
-
-## Pagina 452
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
 Indicato
 r
 
@@ -31031,22 +25532,13 @@ Add Documents to associate documents, either new or already available in the sys
 Operation or Work Order Step.
 Scrap to scrap Serial Numbers from Work Order Operations or Work Order Steps.
 
-452
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 453
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
 External Integration, to open an external system web UI with the Work Order Operation parameters.
 
 What to do next
 After managing a Work Order Operation, you can complete it.
 
-9.3.1 Displaying Document Files
+#### 9.3.1 Displaying Document Files
+
 The Document Viewer makes it possible for users to view any Documents that have been attached to a Work Order
 Operation/Step (including those Documents that belong to a Document Item, with the exception of the Repetitive
 context) or to a related entity.
@@ -31093,16 +25585,6 @@ Items of its appurtenance. This chip is not available for the Repetitive context
 Supported File Formats
 The Document Viewer supports the following file formats:
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-453
-
-
-## Pagina 454
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
 File Types
 
 Supported File Formats
@@ -31129,7 +25611,8 @@ Other file formats, such as:
 .zip
 are not displayed by the Document Viewer, but can be downloaded.
 
-9.3.2 Managing Activities for Work Order Operation Step Progression
+#### 9.3.2 Managing Activities for Work Order Operation Step Progression
+
 In Opcenter Execution Discrete, dedicated activities make it possible for users to manage the principal elements
 involved in Work Order Operation/Step progression with ease.
 The available activities concern:
@@ -31156,17 +25639,8 @@ Disassemble Material Tracking Units.
 Scrapping Consumed Material Tracking Units and Material Tracking Units to be Consumed.
 Transferring Part Program.
 
-454
+##### 9.3.2.1 How to Manage Work Instructions
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 455
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
-9.3.2.1 How to Manage Work Instructions
 Work Instructions are specific instructions for the Operator that may require an acknowledgement or the insertion
 of values.
 Depending on the content of the Work Instruction (Acknowledge and/or DataCollection steps), the system
@@ -31208,16 +25682,6 @@ Acknowledging Work Instructions
 Work Instruction Acknowledgement in CLM Integration
 By default, Work Instructions without Data Collections that will be imported from Teamcenter
 Manufacturing can be viewed by the user without the need to provide successive acknowledgement in
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-455
-
-
-## Pagina 456
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
 
 order to proceed with his/her tasks.
 It is possible to render acknowledgement mandatory by unsetting the Work Instruction without
@@ -31269,20 +25733,11 @@ Add Work Instruction.
 3. Select the Work Instruction to be added.
 4. Click Save.
 
-9.3.2.2 Using Tools
+##### 9.3.2.2 Using Tools
+
 This procedure allows you to use Tools during the execution of the Work Order Operation or Step.
 In case of integration with the Automation Layer, you will be able to acquire values related to the Tool ID, the usage
 time and the usage duration. You can then decide whether to save these values or edit them manually.
-
-456
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 457
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
 
 In case of integration with Opcenter Connect MOM, it is possible to automatically acquire values related to
 the Tool ID, the usage time and the usage duration.
@@ -31311,7 +25766,8 @@ the following information is displayed:
 the number of times the Tool has been used for each transaction
 the usage duration.
 
-9.3.2.3 Consuming Material Tracking Units
+##### 9.3.2.3 Consuming Material Tracking Units
+
 This procedure allows you to consume Material Tracking Units during the execution of a Work Order Operation or
 Work Order Step (for example, for assembly).
 Assembly is feasible solely if the values of both the Serial Numbers (and/or Batch IDs) of the MTUs to be consumed
@@ -31323,16 +25779,6 @@ automatically acquire values related to the Serial Number/Batch Id and Quantity.
 
 Prerequisites
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-457
-
-
-## Pagina 458
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
 For semi-automatic acquisition of Material parameters, Serial Number/Batch Id and Quantity are mapped to
 Automation Node Instance parameters.
 For validation of scanned Serial Number Codes/Batch Ids against Barcode Rules, Barcode Rules have been
@@ -31343,16 +25789,6 @@ Procedure
 1. In the Operator Terminal, select the Work Order Operation or Work Order Step of interest.
 2. For each MTU to be consumed, specify the values for Serial Number/Batch Id and Quantity, consulting the
 table below before proceeding:
-
-458
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 459
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
 
 Parameter
 
@@ -31398,16 +25834,6 @@ During Material Consumption, to verify the correctness of
 the Material to which the Material Tracking Unit with
 matching prompted Code belongs, only the Natural
 Identifier is considered.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-459
-
-
-## Pagina 460
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
 
 Parameter
 
@@ -31462,16 +25888,6 @@ Materials set with an inbound Custom Material Specification Type:
 in this case, it is irrelevant whether there has been consumption
 (either in part or in full) or not.
 
-460
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 461
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
 Overall
 Backgrou
 nd Color
@@ -31523,7 +25939,8 @@ been consumed.
 Once completely assembled, the Material Tracking Unit remains visible in the Material Tracking Units
 page with Quantity equal to zero.
 
-9.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+###### 9.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+
 When you consume or assemble pre-kitted Material Tracking Units, the system indicates what exactly is to be
 consumed for a specific Work Order in terms of reserved Serial Number codes or Batch Ids.
 If the pre-kitted Material Tracking Units to be consumed are Batches, the quantities will be displayed as they have
@@ -31537,16 +25954,6 @@ different quantity, provided that the new value is less than the original one.
 If the quantity of the pre-kitted MTU is less than the quantity of the Material to be consumed (for the
 specified target MTU), once the pre-kitted MTU has been consumed, you can then continue consumption
 as usual until the total quantity of the Material to be consumed has been depleted.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-461
-
-
-## Pagina 462
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
 
 Prerequisites
 Material Tracking Units have been reserved (pre-kitted) for the Work Order in execution.
@@ -31603,7 +26010,8 @@ was not successful and that it is necessary to specify another Serial Number/Bat
 
 Assemble.
 
-9.3.2.4 How to Manage Quality Inspections
+##### 9.3.2.4 How to Manage Quality Inspections
+
 Quality Inspections are related to measurements to be collected at runtime in terms of frequency and sample size.
 Measurements can be related to Attributive, Variable or Visual Quality Characteristics.
 Depending on how you have configured the Quality Inspection, the form to be filled at runtime may be related to
@@ -31611,16 +26019,6 @@ the indication of:
 the Values for Variable Characteristics.
 Ok/Not Ok for Attributive Characteristics.
 the number and the position of detected Defects in case of Visual Characteristics.
-
-462
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 463
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
 
 Accept or Reject for Buy-Off. If a Quality Inspection of type Buy-Off has been created, a Buy-Off notification can
 be sent after the Work Order Operation has been started by clicking the
@@ -31678,16 +26076,6 @@ button. The inserted values
 for each sample will be visible in the Value text box, and the Timestamp text box will contain the
 indication of when the value has been confirmed.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-463
-
-
-## Pagina 464
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
 If the value lies outside the range, a red bar is displayed inside the text box. To associate a Failure, follow
 the procedure below.
 If you need to edit some values, click on the
@@ -31743,7 +26131,8 @@ toggle button on (
 (Only for Attributive and Variable) If you want to remove the association with the Failure, click the
 x button contained inside the Failure chip.
 
-9.3.2.4.1 Special Cases regarding Quality Inspections
+###### 9.3.2.4.1 Special Cases regarding Quality Inspections
+
 Quality Inspections of type Part Based, Time Based or Unit Based follow specific rules and behave differently.
 
 Part Based Quality Inspections
@@ -31756,16 +26145,6 @@ Inspection has been successfully completed.
 A value indicating the number of inspections to be executed is displayed as well.
 
 Time Based Quality Inspections
-
-464
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 465
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
 
 If the system is configured to automatically trigger a Quality Inspection according to a specific interval of time
 (Time Based), the first time you inspect a piece, a timer starts and the
@@ -31857,16 +26236,6 @@ performed.
 
 Note This is the default behavior.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-465
-
-
-## Pagina 466
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
 Pre-check
 CheckTimeBasedCounter
 IsElapsedOnCompleteWO
@@ -31926,18 +26295,9 @@ If a Part Based or Unit Based Inspection Definition is linked to an Operation an
 Referenced Operation, then the counter will count the pieces to be inspected as soon as they are started on the
 corresponding Work Order Operation and no Material Tracking Unit is skipped.
 
-9.3.2.5 Disassembling Material Tracking Units
+##### 9.3.2.5 Disassembling Material Tracking Units
+
 It could be necessary to disassemble a fully-assembled Material Tracking Unit in the following cases:
-
-466
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 467
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
 
 A defective piece has been found on the fully-assembled MTU and the Production Coordinator decides to
 disassemble (remove) this defective piece from the produced MTU.
@@ -31967,8 +26327,8 @@ Disassemble. The quantity of the
 The overall background color of the selected MTU, as well as the background color of its contained
 elements, will change: for details, see page Consuming or Assembling Material Tracking Units.
 
-9.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking
-Units to be Consumed
+##### 9.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking Units to be Consumed
+
 During production, if a defective piece is detected on a previously assembled Material Tracking Unit or on Material
 Tracking Unit that has not been assembled yet and the Operator decides to remove this defective piece from the
 produced MTU, it is necessary to scrap the Material Tracking Unit.
@@ -31986,16 +26346,6 @@ Operation or Step is displayed.
 Scrap.
 4. (Optional) Select one or more Failures to be associated to the Material Tracking Unit to be scrapped.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-467
-
-
-## Pagina 468
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
 5. (Only for To Be Consumed Material Tracking Units) Browse for the Material Tracking Unit or insert the Material
 Tracking Unit code.
 6. (Only for Batches) Enter the quantity to be scrapped.
@@ -32003,7 +26353,8 @@ Tracking Unit code.
 8. (Optional) Add a Comment.
 9. Click Save.
 
-9.3.2.7 Transferring Part Program
+##### 9.3.2.7 Transferring Part Program
+
 This procedure allows you to perform the transfer of a Part Program to a CNC machine during the execution of the
 Work Order Operation.
 
@@ -32028,7 +26379,8 @@ Selecting multiple items enables the Download and Manual Transfer button. It wil
 multiple items locally and then transfer them manually.
 This activity is tracked in the history.
 
-9.3.3 Adding Notes to Work Order Operations
+#### 9.3.3 Adding Notes to Work Order Operations
+
 Operators can write notes regarding the execution of a Work Order Operation: this could be useful to other
 Operators. Also, Production Coordinators can add notes to provide extra information about a Work Order
 Operation.
@@ -32040,16 +26392,6 @@ increment of the value displayed in the badge associated with the Notes. At this
 note in question: for example, the person who receives the notification can then acknowledge the note.
 
 Target User
-
-468
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 469
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
 
 Users with the Operator, as well as the Production Coordinator role, can perform this operation.
 
@@ -32083,7 +26425,8 @@ Acknowledge button. At this point, an
 indicator will be displayed
 inside the tile corresponding to the selected note and the badge value associated with the Notes will decrease by 1.
 
-9.3.4 Placing Work Orders on Hold
+#### 9.3.4 Placing Work Orders on Hold
+
 The status of the Work Order will be on hold. You need to close the Hold Reason in order to start or resume the Work
 Order Operation.
 
@@ -32100,17 +26443,8 @@ Hold.
 3. Select a Hold Reason for the Work Order.
 4. Click OK.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+#### 9.3.5 Pausing and Resuming Work Order Operations
 
-469
-
-
-## Pagina 470
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
-9.3.5 Pausing and Resuming Work Order Operations
 If you are an Operator and issues in production arise, or changes need to be made to operations, you can pause a
 Work Order that is currently in execution.
 Pause By Different User
@@ -32147,7 +26481,8 @@ Start.
 Any Equipment initially locked by the Work Order Operation will be released after the Operation has been
 paused.
 
-9.3.6 Adding Documents at Runtime
+#### 9.3.6 Adding Documents at Runtime
+
 In addition to those added during the creation of a Work Order, Documents can be added to Work Order Operations
 at runtime:
 by users with the Operator role, during the execution of a Work Order.
@@ -32156,16 +26491,6 @@ by users with the Production Coordinator role, for present or past Work Orders.
 Prerequisite
 The Collect Document parameter has been set while creating the Work Order Operation.
 The status of the Work Order Operations is Active.
-
-470
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 471
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
 
 Procedure for users with Operator role
 1. In the Operator Terminal, select a Work Order Operation.
@@ -32204,7 +26529,8 @@ If a document you require is available in the list, select it, and click Add.
 If a document is not available, click Import, and using the file explorer, select the document. On the Add
 Documents page, update the Identifier if required, and click Save.
 
-9.3.7 How to Manage Non-Productive Activities
+#### 9.3.7 How to Manage Non-Productive Activities
+
 Non-Productive Activities include for example workspace cleaning, tool maintenance and training, and can be
 managed directly from the Operator Terminal while managing Work Order Operations. In details:
 Multiple Activities can be started or completed at the same time.
@@ -32221,16 +26547,6 @@ N-P Activities on the vertical command bar. The Assigned NonProductive Activitie
 3. In the Assign Non-Productive Activities panel, select one or more activities among those previously created.
 4. (Optional) In the Context drop down list, select the context of the activity.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-471
-
-
-## Pagina 472
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Managing Work Order Operations
-
 5. If you have selected a context, insert the context items according to option selected in the previous step.
 6. Click Save.
 
@@ -32240,7 +26556,8 @@ N-P Activities on the vertical command bar. The Assigned NonProductive Activitie
 2. Select one or more activities and click Complete. The selected activities are logged as completed with the
 current date and time.
 
-9.3.8 Closing Flexible Work Orders
+#### 9.3.8 Closing Flexible Work Orders
+
 During production execution, it may be necessary to close a Flexible Work Order before its full completion. This may
 happen, for example if the Work Order had been created for a given work shift and consequently it is necessary to
 close it until the end of that shift, even if some Work Order Operations have not yet been completed.
@@ -32280,23 +26597,13 @@ The new Work Order contains a copy of the Work Order Operations contained in the
 correspond to the status of the original Work Order Operations at the moment of the closure.
 The not produced quantity is assigned to the new Work Order.
 
-472
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 473
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Completing Work Order Operations
-
 All completed and scrapped items are logged for the closed Work Order both in the As Built Report and in the
 Genealogy page.
 All in progress and not started items are logged for the closed Work Order both in the As Built Report and in the
 Genealogy page.
 
-9.3.9 Scrapping Serial Numbers from Work Order Operations and Work
-Order Steps
+#### 9.3.9 Scrapping Serial Numbers from Work Order Operations and Work Order Steps
+
 After releasing a Work Order, if an unexpected event occurs, it is possible to scrap one or more Serial Numbers from
 Work Order Operations or Work Order Steps, thereby permitting its completion, even though less quantity is
 produced than expected.
@@ -32313,7 +26620,8 @@ selected).
 4. (Optional) Insert a comment.
 5. Click Save.
 
-9.4 Completing Work Order Operations
+### 9.4 Completing Work Order Operations
+
 When executing Work Orders, you can complete Work Order Operations which have been previously started and
 managed.
 A Work Order is to be considered as completed when all its Work Order Operations are in a final status (either
@@ -32335,16 +26643,6 @@ CheckEquipmentHoldOnStartWOStepFullQty
 CheckMachineNonConformanceOnStartWOStepSerialized
 CheckEquipmentHoldOnStartWOStepSerialized
 CheckMachineNonConformanceOnCompleteWOStepFullQty
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-473
-
-
-## Pagina 474
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Declaring Quality Non-Conformances during Production
 
 CheckEquipmentHoldOnCompleteWOStepFullQty
 CheckMachineNonConformanceOnCompleteWOStepSerialized
@@ -32369,7 +26667,8 @@ Complete.
 4. (Optional) If your Production Coordinator selected Electronic Signature Complete creating the Work Order
 Operation, you are prompted to type your password, some notes and then to click Validate User.
 
-9.5 Declaring Quality Non-Conformances during Production
+### 9.5 Declaring Quality Non-Conformances during Production
+
 If a Failure was detected during production, you must open a Quality Non-Conformance.
 Based on the settings of the Allow Opening a Non-Conformance on Parent Failure Configuration Key,
 Non-Conformances can be created on Failures and their respective Sub-Failures in the hierarchy.
@@ -32395,16 +26694,6 @@ Material Tracking Unit
 Equipment
 Tool
 5. Set the following parameters:
-
-474
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 475
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Requesting Change Packages on a Work Order Operation or Work Order Step
 
 Parameter
 
@@ -32452,8 +26741,8 @@ changes to
 to Hold.
 The nested card's background color used to represent the status of the activity changes to pale red.
 
-9.6 Requesting Change Packages on a Work Order Operation or Work
-Order Step
+### 9.6 Requesting Change Packages on a Work Order Operation or Work Order Step
+
 At runtime, the Operator can notify the Production Coordinator that some changes must be made on-the-fly to the
 Work Order Operation or Step (in particular, to the set of Specifications required to successfully execute that
 specific Work Order Operation or Step). This is known as a Change Package request.
@@ -32462,16 +26751,6 @@ Prerequisites
 Only one Work Order Operation has been selected and it belongs to the TransferBatch production type.
 The involved Work Order Operation or Step is in status Open or Partial.
 No other Change Packages have been requested for the involved Work Order Operation or Step.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-475
-
-
-## Pagina 476
-
-How to Execute Work Orders in the Operator Terminal for Complex Manufacturing
-Requesting Change Packages on a Work Order Operation or Work Order Step
 
 Procedure
 1. In the Operator Terminal, or Operator Terminal details select the Work Order Operation or Step (only if you
@@ -32500,18 +26779,8 @@ On the involved Work Order Operation, no actions are allowed (for example, the a
 or Tools). The same behavior applies also to the related Steps.
 It is not possible to open Non-Conformances of type Change on the involved Work Order Operation.
 
-476
+## 10 How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 477
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Navigation of the Operator Terminal for Repetitive Manufacturing
-
-10 How to Execute Work Orders in the Operator Terminal for
-Repetitive Manufacturing
 The Operator Terminal for Repetitive Manufacturing is recommended for TransferBatch or FlexibleBatch
 production.
 
@@ -32535,22 +26804,12 @@ In addition to the operations listed above, while executing a Work Order Operati
 declare a Quality Non-Conformance during production
 request a Change Package on the Work Order Operation or Work Order Step
 
-10.1 Navigation of the Operator Terminal for Repetitive
-Manufacturing
+### 10.1 Navigation of the Operator Terminal for Repetitive Manufacturing
+
 The Operator Terminal is the main environment in which you will move to carry out production execution. It is from
 here that you will be able to start your Work Order Operations, as well as perform other activities.
 Here is what you need to know to navigate this environment and interpret what is displayed on screen, as well as
 adapt its contents according to your needs.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-477
-
-
-## Pagina 478
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Navigation of the Operator Terminal for Repetitive Manufacturing
 
 Indicators Visible on Tiles
 The tiles presented in the Operator Terminal may contain dedicated indicators related to various aspects of
@@ -32575,16 +26834,6 @@ Partial
 Hold
 
 Future Hold
-
-478
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 479
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Navigation of the Operator Terminal for Repetitive Manufacturing
 
 Indicator
 
@@ -32622,16 +26871,6 @@ To change the size of the graph, click to the left or right of the Zoom slide or
 To display the entire graph on a single page, click Auto Fit.
 To change the position of the graph, select it and drag it.
 If there are Operation Folders in the graph, double-click on them, to see their content.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-479
-
-
-## Pagina 480
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Navigation of the Operator Terminal for Repetitive Manufacturing
 
 To zoom into a node, just click it while holding the control (CTRL) key on the keyboard.
 You can also click
@@ -32677,17 +26916,10 @@ Close Flex WO to close a flexible Work Order.
 N-P Activities to manage non-productive activities.
 External Integration, to open an external system web UI with the Work Order Operation parameters.
 
-480
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 481
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
 Starting Work Order Operations
 
-10.2 Starting Work Order Operations
+### 10.2 Starting Work Order Operations
+
 Executing a Work Order entails starting at least one Work Order Operation.
 When starting a Work Order Operation, the main discriminant to keep in mind is the Production Type of the Work
 Order to which it belongs. The Production Type determines the execution flow of the Work Order Operation.
@@ -32721,7 +26953,8 @@ What to do next
 After starting a Work Order Operation, you can display its details and manage them. Later, you can complete its
 execution.
 
-10.3 Managing Work Order Operations
+### 10.3 Managing Work Order Operations
+
 When executing Work Orders, you can perform various activities on a Work Order Operation previously started.
 Runtime management of Work Order Operations is a complex procedure that depends on the various parameters
 set during their creation. There is no set workflow that must be followed: it may consist of several independent
@@ -32730,16 +26963,6 @@ steps without a fixed order.
 Accessing the Working Environment
 In the Operator Terminal page, select the Work Order Operation that is currently active and then click the
 Open button on the vertical command bar: this opens the Operator Terminal details, from which you can manage
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-481
-
-
-## Pagina 482
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 the selected Work Order Operation. If the Work Order Operation is not active, you will see a grayed-out preview of
 the associated specifications (for example Materials, Tools, Work Instructions).
@@ -32775,16 +26998,6 @@ Show All Operations icon (default) to display all Work Order Operations, regardl
 click the
 Hide Completed Operations icon to display only those Work Order Operations that have not yet
 been completed (that is, their status differs from Completed).
-
-482
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 483
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 click the
 icon to open the Navigator panel. In this panel you can see see the Work Order Operations
@@ -32835,16 +27048,6 @@ Operations Available in the Vertical Command Bar
 According to their prerequisites, some buttons might be disabled.
 Click the following buttons:
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-483
-
-
-## Pagina 484
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
-
 Start to start the current Work Order Operation.
 Pause to pause the current Work Order Operation.
 Hold to hold the Work Order to which the current Work Order Operation belongs.
@@ -32869,7 +27072,8 @@ External Integration, to open an external system web UI with the Work Order Oper
 What to do next
 After managing a Work Order Operation, you can complete it.
 
-10.3.1 Displaying Document Files
+#### 10.3.1 Displaying Document Files
+
 The Document Viewer makes it possible for users to view any Documents that have been attached to a Work Order
 Operation/Step (including those Documents that belong to a Document Item, with the exception of the Repetitive
 context) or to a related entity.
@@ -32890,16 +27094,6 @@ Runtime for the documents associated to the Serial Numbers started by the curren
 Operation.
 Product for:
 the documents associated to the Final Material produced by the current Work Order Operation.
-
-484
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 485
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 the documents associated to the active Material Tracking Units produced by the current Work
 Order Operation.
@@ -32950,23 +27144,14 @@ Other file formats, such as:
 .zip
 are not displayed by the Document Viewer, but can be downloaded.
 
-10.3.2 Managing Activities for Work Order Operation Step Progression
+#### 10.3.2 Managing Activities for Work Order Operation Step Progression
+
 The value of the configuration key Result Management Type must be set to OFF.
 In Opcenter Execution Discrete, dedicated activities make it possible for users to manage the principal elements
 involved in Work Order Operation/Step progression with ease.
 The available activities concern:
 the Work Instructions (including precautions, warnings and special notes) related to the progression of the Work
 Order Operations and Work Order Steps, with the possibility of runtime data collection.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-485
-
-
-## Pagina 486
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 the Tools to be used to execute a specific Serial Number during the progression of the Work Order Operation or
 Work Order Step.
@@ -32989,7 +27174,8 @@ Disassemble Material Tracking Units.
 Scrap consumed Material Tracking Units and Material Tracking Units to be consumed.
 Transferring Part Program.
 
-10.3.2.1 How to Manage Work Instructions
+##### 10.3.2.1 How to Manage Work Instructions
+
 Work Instructions are specific instructions for the Operator that may require an acknowledgement or the insertion
 of values.
 Depending on the content of the Work Instruction (Acknowledge and/or DataCollection steps), the system
@@ -33012,16 +27198,6 @@ Work Instructions can be managed at Work Order Operation or Step level.
 If Electronic Signature is enabled on the Work Instruction then while completing Work Order Operation/
 Step, Work Instructions should be signed with the required user's Electronic Signature, otherwise an error
 message is displayed.
-
-486
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 487
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 This behavior is independent of the Configuration Key - Check Work Instruction Data.
 If Work Instruction data is not required to Complete Work Order Operation/Step, then Electronic Signature
@@ -33071,16 +27247,6 @@ Instruction of interest.
 2. Provide values as follows:
 by typing them manually
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-487
-
-
-## Pagina 488
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
-
 by clicking the Acquire button (if Data Collection parameters are linked to the Automation Node
 Instance parameters) for the Data Collections associated to the Work Order Operation/Step. Before being
 confirmed, the values can be updated even if they have been acquired from the field
@@ -33090,7 +27256,8 @@ Calculate All. These buttons will be only present if Formulas have
 been configured to calculate their values.
 3. Click Confirm to save the value.
 
-10.3.2.2 Using Tools
+##### 10.3.2.2 Using Tools
+
 This procedure allows you to use Tools during the execution of the Work Order Operation or Step.
 In case of integration with the Automation Layer, you will be able to acquire values related to the Tool ID, the usage
 time and the usage duration. You can then decide whether to save these values or edit them manually.
@@ -33121,17 +27288,8 @@ the following information is displayed:
 the number of times the Tool has been used for each transaction
 the usage duration.
 
-488
+##### 10.3.2.3 Consuming Material Tracking Units
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 489
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
-
-10.3.2.3 Consuming Material Tracking Units
 This procedure allows you to consume Material Tracking Units during the execution of a Work Order Operation or
 Work Order Step (for example, for assembly).
 Assembly is feasible solely if the values of both the Serial Numbers (and/or Batch IDs) of the MTUs to be consumed
@@ -33152,16 +27310,6 @@ Procedure
 1. In the Operator Terminal, select the Work Order Operation or Work Order Step of interest.
 2. For each MTU to be consumed, specify the values for Serial Number/Batch Id and Quantity, consulting the
 table below before proceeding:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-489
-
-
-## Pagina 490
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 Parameter
 
@@ -33207,16 +27355,6 @@ During Material Consumption, to verify the correctness of
 the Material to which the Material Tracking Unit with
 matching prompted Code belongs, only the Natural
 Identifier is considered.
-
-490
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 491
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 Parameter
 
@@ -33271,16 +27409,6 @@ Materials set with an inbound Custom Material Specification Type:
 in this case, it is irrelevant whether there has been consumption
 (either in part or in full) or not.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-491
-
-
-## Pagina 492
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
-
 Overall
 Backgrou
 nd Color
@@ -33332,7 +27460,8 @@ been consumed.
 Once completely assembled, the Material Tracking Unit remains visible in the Material Tracking Units
 page with Quantity equal to zero.
 
-10.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+###### 10.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+
 When you consume or assemble pre-kitted Material Tracking Units, the system indicates what exactly is to be
 consumed for a specific Work Order in terms of reserved Serial Number codes or Batch Ids.
 If the pre-kitted Material Tracking Units to be consumed are Batches, the quantities will be displayed as they have
@@ -33346,16 +27475,6 @@ different quantity, provided that the new value is less than the original one.
 If the quantity of the pre-kitted MTU is less than the quantity of the Material to be consumed (for the
 specified target MTU), once the pre-kitted MTU has been consumed, you can then continue consumption
 as usual until the total quantity of the Material to be consumed has been depleted.
-
-492
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 493
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 Prerequisites
 Material Tracking Units have been reserved (pre-kitted) for the Work Order in execution.
@@ -33412,7 +27531,8 @@ was not successful and that it is necessary to specify another Serial Number/Bat
 
 Assemble.
 
-10.3.2.4 How to Manage Quality Inspections
+##### 10.3.2.4 How to Manage Quality Inspections
+
 Quality Inspections are related to measurements to be collected at runtime in terms of frequency and sample size.
 Measurements can be related to Attributive, Variable or Visual Quality Characteristics.
 Depending on how you have configured the Quality Inspection, the form to be filled at runtime may be related to
@@ -33420,16 +27540,6 @@ the indication of:
 the Values for Variable Characteristics.
 Ok/Not Ok for Attributive Characteristics.
 the number and the position of detected Defects in case of Visual Characteristics.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-493
-
-
-## Pagina 494
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 Accept or Reject for Buy-Off. If a Quality Inspection of type Buy-Off has been created, a Buy-Off notification can
 be sent after the Work Order Operation has been started by clicking the
@@ -33487,16 +27597,6 @@ button. The inserted values
 for each sample will be visible in the Value text box, and the Timestamp text box will contain the
 indication of when the value has been confirmed.
 
-494
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 495
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
-
 If the value lies outside the range, a red bar is displayed inside the text box. To associate a Failure, follow
 the procedure below.
 If you need to edit some values, click on the
@@ -33552,7 +27652,8 @@ toggle button on (
 (Only for Attributive and Variable) If you want to remove the association with the Failure, click the
 x button contained inside the Failure chip.
 
-10.3.2.4.1 Special Cases regarding Quality Inspections
+###### 10.3.2.4.1 Special Cases regarding Quality Inspections
+
 Quality Inspections of type Part Based, Time Based or Unit Based follow specific rules and behave differently.
 
 Part Based Quality Inspections
@@ -33565,16 +27666,6 @@ Inspection has been successfully completed.
 A value indicating the number of inspections to be executed is displayed as well.
 
 Time Based Quality Inspections
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-495
-
-
-## Pagina 496
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 If the system is configured to automatically trigger a Quality Inspection according to a specific interval of time
 (Time Based), the first time you inspect a piece, a timer starts and the
@@ -33604,8 +27695,6 @@ A value indicating the number of inspections to be executed is displayed as well
 By default, it is possible to move on in the production execution without performing any Quality Inspections. The
 default behavior is governed by several pre-checks, which you can enable/disable from Solution Studio.
 Pre-check
-
-496
 
 Enabled
 
@@ -33668,14 +27757,6 @@ performed.
 
 Note This is the default behavior.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 497
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
-
 Pre-check
 CheckTimeBasedCounter
 IsElapsedOnCompleteWO
@@ -33735,18 +27816,9 @@ If a Part Based or Unit Based Inspection Definition is linked to an Operation an
 Referenced Operation, then the counter will count the pieces to be inspected as soon as they are started on the
 corresponding Work Order Operation and no Material Tracking Unit is skipped.
 
-10.3.2.5 Disassembling Material Tracking Units
+##### 10.3.2.5 Disassembling Material Tracking Units
+
 It could be necessary to disassemble a fully-assembled Material Tracking Unit in the following cases:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-497
-
-
-## Pagina 498
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 A defective piece has been found on the fully-assembled MTU and the Production Coordinator decides to
 disassemble (remove) this defective piece from the produced MTU.
@@ -33776,7 +27848,8 @@ Disassemble. The quantity of the
 The overall background color of the selected MTU, as well as the background color of its contained
 elements, will change: for details, see page Consuming or Assembling Material Tracking Units.
 
-10.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking
+##### 10.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking
+
 Units to be Consumed
 During production, if a defective piece is detected on a previously assembled Material Tracking Unit or on Material
 Tracking Unit that has not been assembled yet and the Operator decides to remove this defective piece from the
@@ -33795,16 +27868,6 @@ Operation or Step is displayed.
 Scrap.
 4. (Optional) Select one or more Failures to be associated to the Material Tracking Unit to be scrapped.
 
-498
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 499
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
-
 5. (Only for To Be Consumed Material Tracking Units) Browse for the Material Tracking Unit or insert the Material
 Tracking Unit code.
 6. (Only for Batches) Enter the quantity to be scrapped.
@@ -33812,7 +27875,8 @@ Tracking Unit code.
 8. (Optional) Add a Comment.
 9. Click Save.
 
-10.3.2.7 Transferring Part Program
+##### 10.3.2.7 Transferring Part Program
+
 This procedure allows you to perform the transfer of a Part Program to a CNC machine during the execution of the
 Work Order Operation.
 
@@ -33837,7 +27901,8 @@ Selecting multiple items enables the Download and Manual Transfer button. It wil
 multiple items locally and then transfer them manually.
 This activity is tracked in the history.
 
-10.3.3 Adding Notes to Work Order Operations
+#### 10.3.3 Adding Notes to Work Order Operations
+
 Operators can write notes regarding the execution of a Work Order Operation: this could be useful to other
 Operators. Also, Production Coordinators can add notes to provide extra information about a Work Order
 Operation.
@@ -33849,16 +27914,6 @@ increment of the value displayed in the badge associated with the Notes. At this
 note in question: for example, the person who receives the notification can then acknowledge the note.
 
 Target User
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-499
-
-
-## Pagina 500
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 Users with the Operator, as well as the Production Coordinator role, can perform this operation.
 
@@ -33892,7 +27947,8 @@ Acknowledge button. At this point, an
 indicator will be displayed
 inside the tile corresponding to the selected note and the badge value associated with the Notes will decrease by 1.
 
-10.3.4 Placing Work Orders on Hold
+#### 10.3.4 Placing Work Orders on Hold
+
 The status of the Work Order will be on hold. You need to close the Hold Reason in order to start or resume the Work
 Order Operation.
 
@@ -33909,17 +27965,8 @@ Hold.
 3. Select a Hold Reason for the Work Order.
 4. Click OK.
 
-500
+#### 10.3.5 Pausing and Resuming Work Order Operations
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 501
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
-
-10.3.5 Pausing and Resuming Work Order Operations
 If you are an Operator and issues in production arise, or changes need to be made to operations, you can pause a
 Work Order that is currently in execution.
 Pause By Different User
@@ -33956,7 +28003,8 @@ Start.
 Any Equipment initially locked by the Work Order Operation will be released after the Operation has been
 paused.
 
-10.3.6 Adding Documents at Runtime
+#### 10.3.6 Adding Documents at Runtime
+
 In addition to those added during the creation of a Work Order, Documents can be added to Work Order Operations
 at runtime:
 by users with the Operator role, during the execution of a Work Order.
@@ -33965,16 +28013,6 @@ by users with the Production Coordinator role, for present or past Work Orders.
 Prerequisite
 The Collect Document parameter has been set while creating the Work Order Operation.
 The status of the Work Order Operations is Active.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-501
-
-
-## Pagina 502
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
 
 Procedure for users with Operator role
 1. In the Operator Terminal page , select a Work Order Operation.
@@ -34013,7 +28051,8 @@ If a document you require is available in the list, select it, and click Add.
 If a document is not available, click Import, and using the file explorer, select the document. On the Add
 Documents page, update the Identifier if required, and click Save.
 
-10.3.7 How to Manage Non-Productive Activities
+#### 10.3.7 How to Manage Non-Productive Activities
+
 Non-Productive Activities include for example workspace cleaning, tool maintenance and training, and can be
 managed directly from the Operator Terminal while managing Work Order Operations. In details:
 Multiple Activities can be started or completed at the same time.
@@ -34030,16 +28069,6 @@ N-P Activities on the vertical command bar. The Assigned NonProductive Activitie
 3. In the Assign Non-Productive Activities panel, select one or more activities among those previously created.
 4. (Optional) In the Context drop down list, select the context of the activity.
 
-502
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 503
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Managing Work Order Operations
-
 5. If you have selected a context, insert the context items according to option selected in the previous step.
 6. Click Save.
 
@@ -34049,7 +28078,8 @@ N-P Activities on the vertical command bar. The Assigned NonProductive Activitie
 2. Select one or more activities and click Complete. The selected activities are logged as completed with the
 current date and time.
 
-10.3.8 Closing Flexible Work Orders
+#### 10.3.8 Closing Flexible Work Orders
+
 During production execution, it may be necessary to close a Flexible Work Order before its full completion. This may
 happen, for example if the Work Order had been created for a given work shift and consequently it is necessary to
 close it until the end of that shift, even if some Work Order Operations have not yet been completed.
@@ -34089,23 +28119,13 @@ The new Work Order contains a copy of the Work Order Operations contained in the
 correspond to the status of the original Work Order Operations at the moment of the closure.
 The not produced quantity is assigned to the new Work Order.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-503
-
-
-## Pagina 504
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Completing Work Order Operations
-
 All completed and scrapped items are logged for the closed Work Order both in the As Built Report and in the
 Genealogy page.
 All in progress and not started items are logged for the closed Work Order both in the As Built Report and in the
 Genealogy page.
 
-10.3.9 Scrapping Quantities from Work Order Operations and Work
-Order Steps
+#### 10.3.9 Scrapping Quantities from Work Order Operations and Work Order Steps
+
 After releasing a Work Order, if an unexpected event occurs, it is possible to scrap some Quantities from any
 Equipment on which the Work Order Operation or Work Order Steps have been started, thereby permitting its
 completion, even though less quantity is produced than expected.
@@ -34122,7 +28142,8 @@ or Work Order Operation Step have been started.
 4. (Optional) Insert a comment.
 5. Click Save.
 
-10.4 Completing Work Order Operations
+### 10.4 Completing Work Order Operations
+
 When executing Work Orders, you can complete Work Order Operations which have been previously started and
 managed.
 A Work Order is to be considered as completed when all its Work Order Operations are in a final status (either
@@ -34145,16 +28166,6 @@ CheckMachineNonConformanceOnStartWOStepSerialized
 CheckEquipmentHoldOnStartWOStepSerialized
 CheckMachineNonConformanceOnCompleteWOStepFullQty
 
-504
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 505
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Declaring Non-Conformances of Type Quality during Production
-
 CheckEquipmentHoldOnCompleteWOStepFullQty
 CheckMachineNonConformanceOnCompleteWOStepSerialized
 CheckEquipmentHoldOnCompleteWOStepSerialized
@@ -34168,8 +28179,8 @@ Complete.
 3. (Optional) If your Production Coordinator selected Electronic Signature Complete creating the Work Order
 Operation, you are prompted to type your password, some notes and then to click Validate User.
 
-10.5 Declaring Non-Conformances of Type Quality during
-Production
+### 10.5 Declaring Non-Conformances of Type Quality during Production
+
 If a Failure was detected during production, you must open a Quality Non-Conformance.
 Based on the settings of the Allow Opening a Non-Conformance on Parent Failure Configuration Key,
 Non-Conformances can be created on Failures and their respective Sub-Failures in the hierarchy.
@@ -34203,16 +28214,6 @@ Identifier
 
 Unique identifier to be assigned to the Non-Conformance. Once saved, this parameter can no
 longer be modified.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-505
-
-
-## Pagina 506
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Requesting Change Packages on a Work Order Operation or Work Order Step
 
 Parameter
 
@@ -34255,8 +28256,8 @@ changes to
 to Hold.
 The nested card's background color used to represent the status of the activity changes to pale red.
 
-10.6 Requesting Change Packages on a Work Order Operation or
-Work Order Step
+### 10.6 Requesting Change Packages on a Work Order Operation or Work Order Step
+
 At runtime, the Operator can notify the Production Coordinator that some changes must be made on-the-fly to the
 Work Order Operation or Step (in particular, to the set of Specifications required to successfully execute that
 specific Work Order Operation or Step). This is known as a Change Package request.
@@ -34267,16 +28268,6 @@ The involved Work Order Operation or Step is in status Open or Partial.
 No other Change Packages have been requested for the involved Work Order Operation or Step.
 
 Procedure
-
-506
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 507
-
-How to Execute Work Orders in the Operator Terminal for Repetitive Manufacturing
-Requesting Change Packages on a Work Order Operation or Work Order Step
 
 1. In the Operator Terminal, or Operator Terminal details select the Work Order Operation or Step (only if you
 are operating inside the Operator Terminal details) of interest.
@@ -34304,18 +28295,8 @@ On the involved Work Order Operation, no actions are allowed (for example, the a
 or Tools). The same behavior applies also to the related Steps.
 It is not possible to open Non-Conformances of type Change on the involved Work Order Operation.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+## 11 How to Execute Work Orders in the Operator Terminal for Manufacturing
 
-507
-
-
-## Pagina 508
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Navigation of the Operator Terminal for Manufacturing
-
-11 How to Execute Work Orders in the Operator Terminal for
-Manufacturing
 The Operator Terminal for Manufacturing is recommended for Serialized, FlexibleSerialized, FullQuantity,
 TransferBatch and FlexibleBatch production.
 
@@ -34340,21 +28321,12 @@ In addition to the operations listed above, while executing a Work Order Operati
 declare a Quality Non-Conformance during production
 request a Change Package on the Work Order Operation or Work Order Step
 
-11.1 Navigation of the Operator Terminal for Manufacturing
+### 11.1 Navigation of the Operator Terminal for Manufacturing
+
 The Operator Terminal is the main environment in which you will move to carry out production execution. It is from
 here that you will be able to start your Work Order Operations, as well as perform other activities.
 Here is what you need to know to navigate this environment and interpret what is displayed on screen, as well as
 adapt its contents according to your needs.
-
-508
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 509
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Navigation of the Operator Terminal for Manufacturing
 
 Indicators Visible on Tiles
 The tiles presented in the Operator Terminal may contain dedicated indicators related to various aspects of
@@ -34389,16 +28361,6 @@ The Work Order to which the Work Order Operation belongs is on hold.
 
 The Work Order Operation is of type Dynamic (that is, it belongs to a Work Order of FlexibleBatch
 production type).
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-509
-
-
-## Pagina 510
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Navigation of the Operator Terminal for Manufacturing
 
 Indicator
 
@@ -34445,16 +28407,6 @@ To clear the search criteria applied for the filters, click the Clear All button
 
 Operations Available in the Vertical Command Bar
 
-510
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 511
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Starting Work Order Operations
-
 According to their prerequisites, some buttons might be disabled.
 All the procedures listed below (except for the
 Open operation) can be executed both from the
@@ -34481,7 +28433,8 @@ Close Flex WO to close a flexible Work Order.
 N-P Activities to manage non-productive activities.
 External Integration, to open an external system web UI with the Work Order Operation parameters.
 
-11.2 Starting Work Order Operations
+### 11.2 Starting Work Order Operations
+
 Executing a Work Order entails starting at least one Work Order Operation.
 When starting a Work Order Operation, the main discriminant to keep in mind is the Production Type of the Work
 Order to which it belongs. The Production Type determines the execution flow of the Work Order Operation.
@@ -34492,16 +28445,6 @@ may need to perform additional actions and take into account certain constraints
 with success.
 The automatic start will be successfully executed if no other Work Order Operations (of the same category)
 are queued on the same Machine.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-511
-
-
-## Pagina 512
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 If the setting for the configuration key Certification Management is set to AND/OR, then in the Operator
 Terminal, when an Operator selects a Work Order Operation, the system will restrict viewing of details of
@@ -34553,21 +28496,12 @@ What to do next
 After starting a Work Order Operation, you can display its details and manage them. Later, you can complete its
 execution.
 
-11.3 Managing Work Order Operations
+### 11.3 Managing Work Order Operations
+
 When executing Work Orders, you can perform various activities on a Work Order Operation previously started.
 Runtime management of Work Order Operations is a complex procedure that depends on the various parameters
 set during their creation. There is no set workflow that must be followed: it may consist of several independent
 steps without a fixed order.
-
-512
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 513
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 Accessing the Working Environment
 1. In the Operator Terminal page, select one or more Work Order Operations of interest (belonging to the same
@@ -34603,16 +28537,6 @@ Operations Available in the Operation/Step List
 If the selected Work Order Operation contains Steps, then the left zone will display the Work Order Operation as a
 tile, with a stack of its Steps underneath it. By clicking the individual tiles, you can perform the following actions:
 Start a Work Order Operation.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-513
-
-
-## Pagina 514
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 Pause a Work Order Operation.
 Complete a Work Order Operation.
@@ -34667,16 +28591,6 @@ Upon clicking the
 Documents button in the vertical command bar, the Document Viewer zone displays the
 documents associated to the various entities involved in the execution of the current Work Order Operation/Step.
 
-514
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 515
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
-
 Operations Available in the Vertical Command Bar
 According to their prerequisites, some buttons might be disabled.
 Click the following buttons:
@@ -34704,7 +28618,8 @@ External Integration, to open an external system web UI with the Work Order Oper
 What to do next
 After managing a Work Order Operation, you can complete it.
 
-11.3.1 Displaying Document Files
+#### 11.3.1 Displaying Document Files
+
 The Document Viewer makes it possible for users to view any Documents that have been attached to a Work Order
 Operation/Step (including those Documents that belong to a Document Item, with the exception of the Repetitive
 context) or to a related entity.
@@ -34716,17 +28631,7 @@ Document.
 2. Operating on the Vertical Command Bar, click the
 Viewer.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 Documents button to hide or unhide the Document
-
-515
-
-
-## Pagina 516
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 3. The lower area displays the list of available documents (including those that belong to a Document Item),
 grouped by the entities to which they are associated. Only those entity groups that contain documents are
@@ -34786,17 +28691,8 @@ Other file formats, such as:
 .zip
 are not displayed by the Document Viewer, but can be downloaded.
 
-516
+#### 11.3.2 Managing Activities for Work Order Operation Step Progression
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 517
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
-
-11.3.2 Managing Activities for Work Order Operation Step Progression
 The value of the configuration key Result Management Type must be set to OFF.
 In Opcenter Execution Discrete, dedicated activities make it possible for users to manage the principal elements
 involved in Work Order Operation/Step progression with ease.
@@ -34823,7 +28719,8 @@ Manage Quality Inspections.
 Disassemble Material Tracking Units.
 Scrap consumed Material Tracking Units and Material Tracking Units to be consumed.
 
-11.3.2.1 How to Manage Work Instructions
+##### 11.3.2.1 How to Manage Work Instructions
+
 Work Instructions are specific instructions for the Operator that may require an acknowledgement or the insertion
 of values.
 Depending on the content of the Work Instruction (Acknowledge and/or DataCollection steps), the system
@@ -34840,16 +28737,6 @@ In case of integration with the Automation layer, you will be able to automatica
 Collection values. You can then decide whether to save these values or edit them manually.
 In case of integration with Teamcenter, PDF files linked to Work Instructions can only be displayed, if
 they are configured in Teamcenter with the following format: ...<object data=\"data:application/
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-517
-
-
-## Pagina 518
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 pdf;base64..." (for example: "<div><object style=\"width: 98%; height: 60vh;\"
 data=\"data:application/pdf;base64...).
@@ -34894,16 +28781,6 @@ by clicking the Acquire button (if Data Collection parameters are linked to the 
 Instance parameters) for the Data Collections associated to the Work Order Operation/Step. Before being
 confirmed, the values can be updated even if they have been acquired from the field
 
-518
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 519
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
-
 by clicking
 Calculate or
 Calculate All. These buttons will be only present if Formulas have
@@ -34937,7 +28814,8 @@ Add Work Instruction.
 3. Select the Work Instruction to be added.
 4. Click Save.
 
-11.3.2.2 Using Tools
+##### 11.3.2.2 Using Tools
+
 This procedure allows you to use Tools during the execution of the Work Order Operation or Step.
 In case of integration with the Automation Layer, you will be able to acquire values related to the Tool ID, the usage
 time and the usage duration. You can then decide whether to save these values or edit them manually.
@@ -34954,16 +28832,6 @@ has not been previously specified. If a Quantity has been previously specified, 
 4. Click:
 to use only one Tool.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-519
-
-
-## Pagina 520
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
-
 to use multiple Tools at the same time.
 (visible only if Tool Definition parameters are linked to Automation Node Instance parameters) to
 automatically acquire the Tool, Usage, and Duration fields with respective values.
@@ -34979,7 +28847,8 @@ the following information is displayed:
 the number of times the Tool has been used for each transaction
 the usage duration.
 
-11.3.2.3 Consuming Material Tracking Units
+##### 11.3.2.3 Consuming Material Tracking Units
+
 This procedure allows you to consume Material Tracking Units during the execution of a Work Order Operation or
 Work Order Step (for example, for assembly).
 Assembly is feasible solely if the values of both the Serial Numbers (and/or Batch IDs) of the MTUs to be consumed
@@ -35000,16 +28869,6 @@ Procedure
 1. In the Operator Terminal, select the Work Order Operation or Work Order Step of interest.
 2. For each MTU to be consumed, specify the values for Serial Number/Batch Id and Quantity, consulting the
 table below before proceeding:
-
-520
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 521
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 Parameter
 
@@ -35055,16 +28914,6 @@ During Material Consumption, to verify the correctness of
 the Material to which the Material Tracking Unit with
 matching prompted Code belongs, only the Natural
 Identifier is considered.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-521
-
-
-## Pagina 522
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 Parameter
 
@@ -35119,16 +28968,6 @@ Materials set with an inbound Custom Material Specification Type:
 in this case, it is irrelevant whether there has been consumption
 (either in part or in full) or not.
 
-522
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 523
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
-
 Overall
 Backgrou
 nd Color
@@ -35180,7 +29019,8 @@ been consumed.
 Once completely assembled, the Material Tracking Unit remains visible in the Material Tracking Units
 page with Quantity equal to zero.
 
-11.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+###### 11.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+
 When you consume or assemble pre-kitted Material Tracking Units, the system indicates what exactly is to be
 consumed for a specific Work Order in terms of reserved Serial Number codes or Batch Ids.
 If the pre-kitted Material Tracking Units to be consumed are Batches, the quantities will be displayed as they have
@@ -35194,16 +29034,6 @@ different quantity, provided that the new value is less than the original one.
 If the quantity of the pre-kitted MTU is less than the quantity of the Material to be consumed (for the
 specified target MTU), once the pre-kitted MTU has been consumed, you can then continue consumption
 as usual until the total quantity of the Material to be consumed has been depleted.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-523
-
-
-## Pagina 524
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 Prerequisites
 Material Tracking Units have been reserved (pre-kitted) for the Work Order in execution.
@@ -35260,7 +29090,8 @@ was not successful and that it is necessary to specify another Serial Number/Bat
 
 Assemble.
 
-11.3.2.4 How to Manage Quality Inspections
+##### 11.3.2.4 How to Manage Quality Inspections
+
 Quality Inspections are related to measurements to be collected at runtime in terms of frequency and sample size.
 Measurements can be related to Attributive, Variable or Visual Quality Characteristics.
 Depending on how you have configured the Quality Inspection, the form to be filled at runtime may be related to
@@ -35268,16 +29099,6 @@ the indication of:
 the Values for Variable Characteristics.
 Ok/Not Ok for Attributive Characteristics.
 the number and the position of detected Defects in case of Visual Characteristics.
-
-524
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 525
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 Accept or Reject for Buy-Off. If a Quality Inspection of type Buy-Off has been created, a Buy-Off notification can
 be sent after the Work Order Operation has been started by clicking the
@@ -35335,16 +29156,6 @@ button. The inserted values
 for each sample will be visible in the Value text box, and the Timestamp text box will contain the
 indication of when the value has been confirmed.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-525
-
-
-## Pagina 526
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
-
 If the value lies outside the range, a red bar is displayed inside the text box. To associate a Failure, follow
 the procedure below.
 If you need to edit some values, click on the
@@ -35400,7 +29211,8 @@ toggle button on (
 (Only for Attributive and Variable) If you want to remove the association with the Failure, click the
 x button contained inside the Failure chip.
 
-11.3.2.4.1 Special Cases regarding Quality Inspections
+###### 11.3.2.4.1 Special Cases regarding Quality Inspections
+
 Quality Inspections of type Part Based, Time Based or Unit Based follow specific rules and behave differently.
 
 Part Based Quality Inspections
@@ -35413,16 +29225,6 @@ Inspection has been successfully completed.
 A value indicating the number of inspections to be executed is displayed as well.
 
 Time Based Quality Inspections
-
-526
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 527
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 If the system is configured to automatically trigger a Quality Inspection according to a specific interval of time
 (Time Based), the first time you inspect a piece, a timer starts and the
@@ -35513,16 +29315,6 @@ Inspections whatsoever are
 performed.
 
 Note This is the default behavior.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-527
-
-
-## Pagina 528
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 Pre-check
 CheckTimeBasedCounter
@@ -35583,18 +29375,9 @@ If a Part Based or Unit Based Inspection Definition is linked to an Operation an
 Referenced Operation, then the counter will count the pieces to be inspected as soon as they are started on the
 corresponding Work Order Operation and no Material Tracking Unit is skipped.
 
-11.3.2.5 Disassembling Material Tracking Units
+##### 11.3.2.5 Disassembling Material Tracking Units
+
 It could be necessary to disassemble a fully-assembled Material Tracking Unit in the following cases:
-
-528
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 529
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 A defective piece has been found on the fully-assembled MTU and the Production Coordinator decides to
 disassemble (remove) this defective piece from the produced MTU.
@@ -35624,7 +29407,8 @@ Disassemble. The quantity of the
 The overall background color of the selected MTU, as well as the background color of its contained
 elements, will change: for details, see page Consuming or Assembling Material Tracking Units.
 
-11.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking
+##### 11.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking
+
 Units to be Consumed
 During production, if a defective piece is detected on a previously assembled Material Tracking Unit or on Material
 Tracking Unit that has not been assembled yet and the Operator decides to remove this defective piece from the
@@ -35643,16 +29427,6 @@ Operation or Step is displayed.
 Scrap.
 4. (Optional) Select one or more Failures to be associated to the Material Tracking Unit to be scrapped.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-529
-
-
-## Pagina 530
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
-
 5. (Only for To Be Consumed Material Tracking Units) Browse for the Material Tracking Unit or insert the Material
 Tracking Unit code.
 6. (Only for Batches) Enter the quantity to be scrapped.
@@ -35660,7 +29434,8 @@ Tracking Unit code.
 8. (Optional) Add a Comment.
 9. Click Save.
 
-11.3.3 Adding Notes to Work Order Operations
+#### 11.3.3 Adding Notes to Work Order Operations
+
 Operators can write notes regarding the execution of a Work Order Operation: this could be useful to other
 Operators. Also, Production Coordinators can add notes to provide extra information about a Work Order
 Operation.
@@ -35700,22 +29475,13 @@ Added notes are displayed based on Sort By, Created On (latest date), or Status 
 
 Acknowledging Notes
 
-530
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 531
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
-
 To acknowledge a note, click the
 Acknowledge button. At this point, an
 indicator will be displayed
 inside the tile corresponding to the selected note and the badge value associated with the Notes will decrease by 1.
 
-11.3.4 Placing Work Orders on Hold
+#### 11.3.4 Placing Work Orders on Hold
+
 The status of the Work Order will be on hold. You need to close the Hold Reason in order to start or resume the Work
 Order Operation.
 
@@ -35732,7 +29498,8 @@ Hold.
 3. Select a Hold Reason for the Work Order.
 4. Click OK.
 
-11.3.5 Pausing and Resuming Work Order Operations
+#### 11.3.5 Pausing and Resuming Work Order Operations
+
 If you are an Operator and issues in production arise, or changes need to be made to operations, you can pause a
 Work Order that is currently in execution.
 Pause By Different User
@@ -35758,16 +29525,6 @@ notes and then click Validate User. The system checks your credentials against t
 Operators:
 If you pass validation, you are authorized to complete pausing the Work Order.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-531
-
-
-## Pagina 532
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
-
 If you fail validation, you are not authorized to complete pausing the Work Order, but you may continue
 to handle Work Orders or Work Order Operations that do not have dependencies on the Work Order that
 you are not authorized to pause.
@@ -35780,7 +29537,8 @@ Start.
 Any Equipment initially locked by the Work Order Operation will be released after the Operation has been
 paused.
 
-11.3.6 Adding Documents at Runtime
+#### 11.3.6 Adding Documents at Runtime
+
 In addition to those added during the creation of a Work Order, Documents can be added to Work Order Operations
 at runtime:
 by users with the Operator role, during the execution of a Work Order.
@@ -35822,24 +29580,15 @@ the Serial Numbers tab.
 5. Click the Collected Documents tab.
 6. Click
 
-532
-
 Add.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 533
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 7. On the Add Documents page, do either:
 If a document you require is available in the list, select it, and click Add.
 If a document is not available, click Import, and using the file explorer, select the document. On the Add
 Documents page, update the Identifier if required, and click Save.
 
-11.3.7 How to Manage Non-Productive Activities
+#### 11.3.7 How to Manage Non-Productive Activities
+
 Non-Productive Activities include for example workspace cleaning, tool maintenance and training, and can be
 managed directly from the Operator Terminal while managing Work Order Operations. In details:
 Multiple Activities can be started or completed at the same time.
@@ -35864,7 +29613,8 @@ N-P Activities on the vertical command bar. The Assigned NonProductive Activitie
 2. Select one or more activities and click Complete. The selected activities are logged as completed with the
 current date and time.
 
-11.3.8 Closing Flexible Work Orders
+#### 11.3.8 Closing Flexible Work Orders
+
 During production execution, it may be necessary to close a Flexible Work Order before its full completion. This may
 happen, for example if the Work Order had been created for a given work shift and consequently it is necessary to
 close it until the end of that shift, even if some Work Order Operations have not yet been completed.
@@ -35879,16 +29629,6 @@ The Work Order status is either Queue or Pause.
 The Production Type of the Work Order is FlexibleBatch or FlexibleSerialized.
 
 Target User
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-533
-
-
-## Pagina 534
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Managing Work Order Operations
 
 Users with the Production Coordinator role or the Operator role can perform this operation.
 
@@ -35919,8 +29659,8 @@ Genealogy page.
 All in progress and not started items are logged for the closed Work Order both in the As Built Report and in the
 Genealogy page.
 
-11.3.9 Scrapping Serial Numbers or Quantities from Work Order
-Operations and Work Order Steps
+#### 11.3.9 Scrapping Serial Numbers or Quantities from Work Order Operations and Work Order Steps
+
 After releasing a Work Order, if an unexpected event occurs, it is possible to scrap one or more Serial Numbers from
 Work Order Operations or Work Order Steps, thereby permitting its completion, even though less quantity is
 produced than expected.
@@ -35938,17 +29678,8 @@ selected).
 4. (Optional) Insert a comment.
 5. Click Save.
 
-534
+### 11.4 Completing Work Order Operations
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 535
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Completing Work Order Operations
-
-11.4 Completing Work Order Operations
 When executing Work Orders, you can complete Work Order Operations which have been previously started and
 managed.
 A Work Order is to be considered as completed when all its Work Order Operations are in a final status (either
@@ -35997,20 +29728,11 @@ Select / Deselect All check box, to include all the listed Serial Numbers.
 
 Complete.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-535
-
-
-## Pagina 536
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Declaring Quality Non-Conformances during Production
-
 4. (Optional) If your Production Coordinator selected Electronic Signature Complete creating the Work Order
 Operation, you are prompted to type your password, some notes and then to click Validate User.
 
-11.5 Declaring Quality Non-Conformances during Production
+### 11.5 Declaring Quality Non-Conformances during Production
+
 If a Failure was detected during production, you must open a Quality Non-Conformance.
 Based on the settings of the Allow Opening a Non-Conformance on Parent Failure Configuration Key,
 Non-Conformances can be created on Failures and their respective Sub-Failures in the hierarchy.
@@ -36059,16 +29781,6 @@ This filter makes it possible to conduct searches on MTUs by Material Tracking U
 NId: by default, the Show only Material Tracking Units related to the selected Work Order
 Operation toggle is set to true, thus allowing you to make your selections from among solely those
 
-536
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 537
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Requesting Change Packages on Work Order Operations
-
 MTUs related to the selected Work Order Operation. If you want to make a selection from among all
 MTUs (including those not related to the selected Work Order Operation), set this toggle to false so that
 all MTUs are displayed for selection.
@@ -36093,7 +29805,8 @@ changes to
 to Hold.
 The nested card's background color used to represent the status of the activity changes to pale red.
 
-11.6 Requesting Change Packages on Work Order Operations
+### 11.6 Requesting Change Packages on Work Order Operations
+
 At runtime, the Operator can notify the Production Coordinator that some changes must be made on-the-fly to the
 Work Order Operation or Step (in particular, to the set of Specifications required to successfully execute that
 specific Work Order Operation or Step). This is known as a Change Package request.
@@ -36124,38 +29837,18 @@ Order Operation or one of its Steps.
 On the Vertical Command Bar and in the Nested-Card Zone, the
 buttons are disabled.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 Start,
 
 Pause and
 
 Complete
 
-537
-
-
-## Pagina 538
-
-How to Execute Work Orders in the Operator Terminal for Manufacturing
-Requesting Change Packages on Work Order Operations
-
 On the involved Work Order Operation, no actions are allowed (for example, the adding of Materials, Documents
 or Tools). The same behavior applies also to the related Steps.
 It is not possible to open Non-Conformances of type Change on the involved Work Order Operation.
 
-538
+## 12 How to Execute Inspection Orders in the Operator Terminal for Quality Execution
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 539
-
-How to Execute Inspection Orders in the Operator Terminal for Quality Execution
-Navigation of the Operator Terminal for Quality Execution
-
-12 How to Execute Inspection Orders in the Operator Terminal
-for Quality Execution
 The Operator Terminal for Quality Execution is recommended for quality-testing activities.
 
 Main Workflow
@@ -36163,7 +29856,8 @@ Display Document Files
 Manage Inspection Order Operations
 Perform Quality Inspections
 
-12.1 Navigation of the Operator Terminal for Quality Execution
+### 12.1 Navigation of the Operator Terminal for Quality Execution
+
 The Operator Terminal is the main environment in which you will move to carry out quality execution. It is from
 here that you will be able to view and select your Inspection Order Operations.
 Here is what you need to know to navigate this environment and interpret what is displayed on screen, as well as
@@ -36177,16 +29871,6 @@ Indicators Visible on Tiles
 The tiles presented in the Operator Terminal may contain dedicated indicators that allow you to interpret the
 current status of an Inspection Order Operation displayed in tile format.
 Consult the legend below to comprehend their meaning:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-539
-
-
-## Pagina 540
-
-How to Execute Inspection Orders in the Operator Terminal for Quality Execution
-Displaying Document Files
 
 Indicator
 
@@ -36208,7 +29892,8 @@ Open icon: this opens the
 Operator Terminal details page from which you can see the details of the related Runtime Inspection
 Definitions to be executed for the selected Inspection Order Operations.
 
-12.2 Displaying Document Files
+### 12.2 Displaying Document Files
+
 The Document Viewer makes it possible for users to view any Documents that have been attached to an Inspection
 Order Operation.
 Document visualization depends on its file format: see Supported File Formats.
@@ -36231,16 +29916,6 @@ to switch to the list mode
 
 Supported File Formats
 The Document Viewer supports the following file formats:
-
-540
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 541
-
-How to Execute Inspection Orders in the Operator Terminal for Quality Execution
-Managing Inspection Order Operations
 
 File Types
 
@@ -36267,7 +29942,8 @@ Other file formats, such as:
 .zip
 are not displayed by the Document Viewer, but can be downloaded.
 
-12.3 Managing Inspection Order Operations
+### 12.3 Managing Inspection Order Operations
+
 In the Operator Terminal, when executing Inspection Orders, you can perform various activities on an Inspection
 Order Operation.
 
@@ -36275,16 +29951,6 @@ Environment Description
 
 Inspection Operation List - On the left of the screen. Displays the list of the selected Inspection Order
 Operations.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-541
-
-
-## Pagina 542
-
-How to Execute Inspection Orders in the Operator Terminal for Quality Execution
-Managing Inspection Order Operations
 
 Nested-Card Zone - In the center of the screen, immediately after the Inspection Operation List. Displays the
 elements needed to perform the current activity.
@@ -36323,7 +29989,8 @@ What to do next
 After completing the Runtime Inspection Definitions, you can complete the related Inspection Order Operations in
 the Inspection Order page.
 
-12.3.1 How to Manage Quality Inspections
+#### 12.3.1 How to Manage Quality Inspections
+
 Quality Inspections are related to measurements to be collected at runtime in terms of frequency and sample size.
 Measurements can be related to Attributive, Variable or Visual Quality Characteristics.
 Depending on how you have configured the Quality Inspection, the form to be filled at runtime may be related to
@@ -36334,17 +30001,7 @@ the number and the position of detected Defects in case of Visual Characteristic
 Accept or Reject for Buy-Off. If a Quality Inspection of type Buy-Off has been created, a Buy-Off notification can
 be sent after the Work Order Operation has been started by clicking the
 
-542
-
 Send Buy-Off Notification button.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 543
-
-How to Execute Inspection Orders in the Operator Terminal for Quality Execution
-Managing Inspection Order Operations
 
 For Attributive and Variable Characteristics, you can associate only one Failure at a time.
 For Visual Characteristics, you can associate multiple Failures at a time, however, it is not possible to
@@ -36399,16 +30056,6 @@ indication of when the value has been confirmed.
 If the value lies outside the range, a red bar is displayed inside the text box. To associate a Failure, follow
 the procedure below.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-543
-
-
-## Pagina 544
-
-How to Execute Inspection Orders in the Operator Terminal for Quality Execution
-Managing Inspection Order Operations
-
 If you need to edit some values, click on the
 
 button and then click on the
@@ -36462,7 +30109,8 @@ toggle button on (
 (Only for Attributive and Variable) If you want to remove the association with the Failure, click the
 x button contained inside the Failure chip.
 
-12.3.1.1 Special Cases regarding Quality Inspections
+##### 12.3.1.1 Special Cases regarding Quality Inspections
+
 Quality Inspections of type Part Based, Time Based or Unit Based follow specific rules and behave differently.
 
 Part Based Quality Inspections
@@ -36478,17 +30126,7 @@ Time Based Quality Inspections
 If the system is configured to automatically trigger a Quality Inspection according to a specific interval of time
 (Time Based), the first time you inspect a piece, a timer starts and the
 
-544
-
 icon is displayed on the Quality
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 545
-
-How to Execute Inspection Orders in the Operator Terminal for Quality Execution
-Managing Inspection Order Operations
 
 Operation, to indicate that the timer has started and that for the moment no other Inspections are expected by the
 system. However, you can decide to inspect other pieces, if necessary.
@@ -36577,16 +30215,6 @@ performed.
 
 Note This is the default behavior.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-545
-
-
-## Pagina 546
-
-How to Execute Inspection Orders in the Operator Terminal for Quality Execution
-Managing Inspection Order Operations
-
 Pre-check
 CheckTimeBasedCounter
 IsElapsedOnCompleteWO
@@ -36615,17 +30243,11 @@ Note This is the default behavior.
 For more information on how to enable/disable prechecks in Solution Studio, see section Configuring Command
 Settings of the Opcenter Execution Foundation Development and Configuration Guide.
 
-546
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 547
-
 How to Execute Production in the Operator Terminal for One Piece Flow
 Navigation of the Operator Terminal for One Piece Flow
 
-13 How to Execute Production in the Operator Terminal for One
+## 13 How to Execute Production in the Operator Terminal for One
+
 Piece Flow
 The Operator Terminal for One Piece Flow is recommended for high-automated production.
 
@@ -36641,7 +30263,8 @@ Manage Mandatory Positive Confirmation
 Manage Quality Gates
 Manage Line Side Positions
 
-13.1 Navigation of the Operator Terminal for One Piece Flow
+### 13.1 Navigation of the Operator Terminal for One Piece Flow
+
 Here below is what you need to know to navigate the Operator Terminal and interpret what is displayed on screen,
 as well as adapt its contents according to your needs.
 When the Material Tracking Unit enters the Equipment:
@@ -36669,13 +30292,6 @@ decreased, triggering a Kanban call when the threshold reaches or falls below th
 Prerequisite
 A piece of Equipment has been selected and associated to a particular terminal, as explained on page Selecting the
 Equipment of the Opcenter Execution Discrete Installation Guide.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-547
-
-
-## Pagina 548
 
 How to Execute Production in the Operator Terminal for One Piece Flow
 Navigation of the Operator Terminal for One Piece Flow
@@ -36735,13 +30351,6 @@ Kanban Call
 
 Environment Examples
 
-548
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 549
-
 How to Execute Production in the Operator Terminal for One Piece Flow
 Navigation of the Operator Terminal for One Piece Flow
 
@@ -36751,13 +30360,6 @@ Operations
 
 Quality Gate
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-549
-
-
-## Pagina 550
-
 How to Execute Production in the Operator Terminal for One Piece Flow
 Navigation of the Operator Terminal for One Piece Flow
 
@@ -36765,17 +30367,11 @@ Kanban Call
 
 Defects
 
-550
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 551
-
 How to Execute Production in the Operator Terminal for One Piece Flow
 Previewing Document Files
 
-13.2 Previewing Document Files
+### 13.2 Previewing Document Files
+
 The Document Viewer makes it possible for users to preview any Documents that have been attached to a
 Workplace and to the Work Order Operations, and to their related entities.
 For Quality Gates, it is possible to preview the Documents attached to the Operations that must be repaired, and to
@@ -36794,13 +30390,6 @@ Runtime for the documents associated to the Serial Numbers started by the curren
 Operation.
 Product for:
 the documents associated to the Final Material produced by the current Work Order Operation.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-551
-
-
-## Pagina 552
 
 How to Execute Production in the Operator Terminal for One Piece Flow
 Declaring Milestones
@@ -36847,7 +30436,8 @@ Other file formats, such as:
 .zip
 are not displayed by the Document Viewer, but can be downloaded.
 
-13.3 Declaring Milestones
+### 13.3 Declaring Milestones
+
 In the Milestone Declaration page, the Operator can:
 view the list of Milestones for that Equipment, and see those reachable and those not reachable.
 declare a Milestone for the Material Tracking Unit, performing the corresponding Transitions.
@@ -36862,13 +30452,6 @@ Procedure
 to enter the Milestone Declaration page. The system displays which
 Milestones are reachable and which are not reachable (due to certain conditions not being satisfied). The
 following information is displayed within each Milestone tile:
-
-552
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 553
 
 How to Execute Production in the Operator Terminal for One Piece Flow
 Managing Traceability Operations
@@ -36918,7 +30501,8 @@ In the Milestone Activity History section, the system automatically displays:
 the declared Milestones.
 the timestamp of the action.
 
-13.4 Managing Traceability Operations
+### 13.4 Managing Traceability Operations
+
 When the MTU enters the Equipment to which Traceability Operations are linked, if the Operator insert a Barcode,
 the system automatically compares the received Barcode with the configured Barcode Rule and behaves
 accordingly:
@@ -36944,13 +30528,6 @@ executed.
 No Reason is
 associated because no
 Operation is executed.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-553
-
-
-## Pagina 554
 
 How to Execute Production in the Operator Terminal for One Piece Flow
 Managing Traceability Operations
@@ -37033,19 +30610,12 @@ displayed in green (
 3. (Optional) If necessary, click
 red (
 
-554
-
 ) and
 
 OK status). The traced part number is displayed under the Operation.
 to bypass a Traceability Operation which, as a consequence, is displayed in
 
 NOK status).
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 555
 
 How to Execute Production in the Operator Terminal for One Piece Flow
 Managing Defects
@@ -37078,7 +30648,8 @@ Operations Visible On Screen Without Scrolling
 
 2
 
-13.5 Managing Defects
+### 13.5 Managing Defects
+
 At runtime, the Operator can browse the Failures hierarchy properly configured during the engineering phase, to
 create a new Defect.
 Starting from a specific category of root Failures (for example: Door Scratch), it is possible to quickly add a Defect in
@@ -37099,13 +30670,6 @@ An MTU has been created in one of the following ways:
 manually
 through a Milestone associated with the INITIAL Attribute
 as a Serial Number of a Work Order.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-555
-
-
-## Pagina 556
 
 How to Execute Production in the Operator Terminal for One Piece Flow
 Managing Generic Data Collection Operations
@@ -37131,7 +30695,8 @@ Defect appears in the Open Defects accordion highlighted in blue.
 
 . After being created, the
 
-13.6 Managing Generic Data Collection Operations
+### 13.6 Managing Generic Data Collection Operations
+
 When the MTU enters the Equipment to which Generic Data Collection operations are linked, the Operator can
 confirm or enter the required measurements (or values), both for Data Collection sections and steps, and view the
 corresponding results.
@@ -37152,8 +30717,6 @@ You can do this by either flagging the checkbox (Target: true), or by typing the
 save the values, or Re-Edit to modify them.
 4. After you have entered all required values, click Close. According to the values provided, the system
 automatically displays different results:
-
-556
 
 If...
 
@@ -37177,11 +30740,6 @@ accepted values, the Reason displayed is Bad Results.
 ) and displayed in red (
 
 NOK state), with Reason Not
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 557
 
 How to Execute Production in the Operator Terminal for One Piece Flow
 Managing Screwing Operations
@@ -37212,7 +30770,8 @@ NOK state), with Reason Bad
 
 OK state).
 
-13.7 Managing Screwing Operations
+### 13.7 Managing Screwing Operations
+
 When the MTU enters the Equipment to which Screwing operations are linked, the Operator can view the related
 operations along with their result.
 Each Operation displays the amount of completed rundowns, as well as the values acquired from the field. These
@@ -37264,13 +30823,6 @@ Reason: Operation Not executed.
 
 NOK state).
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-557
-
-
-## Pagina 558
-
 How to Execute Production in the Operator Terminal for One Piece Flow
 Managing Open Protocol Operations
 
@@ -37315,7 +30867,8 @@ to access a panel containing further details, such as:
 the number of completed rundowns with related results
 the torque and angle of the Screwing Operation.
 
-13.8 Managing Open Protocol Operations
+### 13.8 Managing Open Protocol Operations
+
 The Open Protocol Operations widget replaces the Screwing Operations widget only if the Open Protocol
 Service asset has been properly configured.
 When the MTU enters the Equipment to which Open Protocol Operations are linked, the Operator can view the
@@ -37332,13 +30885,6 @@ Procedure
 1. In the Operator Terminal, click
 to access the Operations page. In the Open Protocol Operations area,
 the list of Open Protocol Operations is displayed:
-
-558
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 559
 
 How to Execute Production in the Operator Terminal for One Piece Flow
 Managing Open Protocol Operations
@@ -37446,17 +30992,11 @@ to access a panel containing further details, such as:
 the number of completed rundowns with related results
 the values acquired for each rundown (by entering another panel)
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-559
-
-
-## Pagina 560
-
 How to Execute Production in the Operator Terminal for One Piece Flow
 Managing Mandatory Positive Confirmation
 
-13.9 Managing Mandatory Positive Confirmation
+### 13.9 Managing Mandatory Positive Confirmation
+
 In certain cases, before the MTU exits the Equipment, the Operator must perform a manual verification to declare
 the result of those Operations for which a Mandatory Positive Confirmation has been set.
 
@@ -37484,7 +31024,8 @@ action, they are automatically displayed in red and not checked (
 
 NOK status).
 
-13.10 How to Manage Quality Gates
+### 13.10 How to Manage Quality Gates
+
 In the Equipment that has been declared as Quality Gate, the Operator can view unresolved issues and perform
 corrective actions, on the monitored Equipment and its nested child Equipment.
 Issues can be:
@@ -37511,13 +31052,6 @@ The Equipment has been configured as Quality Gate.
 Available Operations
 Manage Active Defects
 Amend negative (NOK) or still to be managed results for:
-
-560
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 561
 
 How to Execute Production in the Operator Terminal for One Piece Flow
 How to Manage Quality Gates
@@ -37568,13 +31102,6 @@ Amending Generic Data Collection Operations
 
 Amending Screwing Operations
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-561
-
-
-## Pagina 562
-
 How to Execute Production in the Operator Terminal for One Piece Flow
 Managing Line Side Positions
 
@@ -37623,7 +31150,8 @@ in the Operation's tile to access a dedicated pane, containing details on the
 Operation, such as values provided for rundown measurements.
 4. (Optional) Repeat steps 2-3 for each Operation that must be amended.
 
-13.11 Managing Line Side Positions
+### 13.11 Managing Line Side Positions
+
 At runtime, the Operator can view and manage Line Side Positions and related Kanban Calls manually, performing
 the following operations:
 open a call. There must be no other active calls for the Line Side Position, and the difference between the actual
@@ -37635,13 +31163,6 @@ increase the priority of an existing call, only if the call is active. Keep in m
 priority.
 To allow you to interpret the Kanban request state at a glance, a dedicated color code has been adopted inside
 each tile representing a Line Side Position. The following color combinations are possible:
-
-562
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 563
 
 How to Execute Production in the Operator Terminal for One Piece Flow
 Managing Line Side Positions
@@ -37728,33 +31249,19 @@ to cancel the call.
 (visible only in case of automatically managed Line Side Positions)
 priority.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 to increase the Kanban call
-
-563
-
-
-## Pagina 564
 
 How to Execute Production in the Operator Terminal for One Piece Flow
 Managing Line Side Positions
 
 (visible only in case of automatically managed Line Side Positions)
 
-564
-
 to update the Material quantity.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 565
-
-How to Manage Inspection Orders
 Managing Line Side Positions
 
-14 How to Manage Inspection Orders
+## 14 How to Manage Inspection Orders
+
 Inspection Orders can be used in production whenever there is the need to decouple quality inspection activities
 from pure manufacturing activities.
 To create Inspection Orders, it is necessary to define at least the following:
@@ -37809,14 +31316,6 @@ Inspection
 
 While you execute Inspection Orders, Non-Conformances can be automatically created if the NonConformance on Defect or Failure configuration key is set to Failure.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-565
-
-
-## Pagina 566
-
-How to Manage Inspection Orders
 Managing Line Side Positions
 
 During the execution of a Quality Inspection, in case a Failure is detected, the Non-Conformance will be
@@ -37836,17 +31335,10 @@ Result
 Once all the activities foreseen by the Inspection Order are completed, you can complete the Inspection Order from
 the Inspection Orders page.
 
-566
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 567
-
-How to Manage Non-Conformances
 Managing Line Side Positions
 
-15 How to Manage Non-Conformances
+## 15 How to Manage Non-Conformances
+
 During the execution of manufacturing activities, shop floor operators might encounter anomalies in Work Order
 Operations or in related entities. In such scenarios, operators can bring these anomalies to the attention of
 Production Coordinators by declaring Non-Conformances. Operators can raise a Non-Conformance if:
@@ -37888,16 +31380,6 @@ Configuration Manual.
 Machines: for example, if a Machine breaks down. It is possible to automatically create Quality NonConformances on Machines. For more information, see How to Automatically Create Non-Conformances of type
 Quality on Machines in Opcenter Execution Discrete Installation and Configuration Manual.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-567
-
-
-## Pagina 568
-
-How to Manage Non-Conformances
-Declaring Quality Non-Conformances during Production
-
 Material Tracking Units: for example, if a component to be assembled is found defective. It is possible to
 automatically create Quality Non-Conformances on Material Tracking Units. For more information, see How to
 Automatically Create Non-Conformances of type Quality on Material Tracking Units in Opcenter Execution
@@ -37923,7 +31405,8 @@ Unit or Tool.
 Quality
 Change
 
-15.1 Declaring Quality Non-Conformances during Production
+### 15.1 Declaring Quality Non-Conformances during Production
+
 If a Defect or Failure was detected during production, you must open a Quality Non-Conformance.
 
 Prerequisite
@@ -37939,16 +31422,6 @@ if you are using Failures, select the required Failure in the Failures area.
 Selected Failures area.
 5. Click Add Defects/Add Failures.
 6. In the Declare Non-Conformance panel, set the following parameters:
-
-568
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 569
-
-How to Manage Non-Conformances
-Declaring Quality Non-Conformances during Production
 
 Parameters
 
@@ -38013,16 +31486,6 @@ be present. Declaring a Non-Conformance on a Container means
 declaring the Non-Conformance on all the contained Material Tracking
 Units.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-569
-
-
-## Pagina 570
-
-How to Manage Non-Conformances
-Declaring Quality Non-Conformances on Work Order Operations
-
 If Context is set to
 
 Do the following
@@ -38056,8 +31519,8 @@ on the
 
 icon, thus prompting the Production Coordinator to manage the Non-Conformance.
 
-15.2 Declaring Quality Non-Conformances on Work Order
-Operations
+### 15.2 Declaring Quality Non-Conformances on Work Order Operations
+
 This procedure allows a Production Coordinator to declare a Quality Non-Conformance on Work Order Operations.
 Contrary to an Operator, a Production Coordinator can declare Non-Conformances even on completed Work Order
 Operations. For example, an anomaly not noticed by an Operator during production can be declared at a later time.
@@ -38072,16 +31535,6 @@ Workflow
 1. Create the Non-Conformance.
 2. Associate Defects or Failures to the Non-Conformance.
 3. (optional) Associate Documents to the Non-Conformance
-
-570
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 571
-
-How to Manage Non-Conformances
-Declaring Quality Non-Conformances on Work Order Operations
 
 4. (optional) If one or more of the associated Documents are PNG or JPG pictures, highlight them.
 
@@ -38154,17 +31607,7 @@ Open.
 3. Add previously-created Defects or Failures to the Non-Conformance by clicking
 Defect Groups/Failures and Defect Types/Sub-Failures of interest.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 Add and then selecting the
-
-571
-
-
-## Pagina 572
-
-How to Manage Non-Conformances
-Declaring Non-Conformances of type Quality on Production Entities
 
 Associating Documents to Non-Conformances
 If there are Segregation tags associated to the Document you want to link to a Non-Conformance, the
@@ -38213,21 +31656,11 @@ on the
 
 icon thus prompting the Production Coordinator to manage the Non-Conformance.
 
-15.3 Declaring Non-Conformances of type Quality on Production
-Entities
+### 15.3 Declaring Non-Conformances of type Quality on Production Entities
+
 This procedure allows a Production Coordinator to declare a Quality Non-Conformance on the following production
 entities:
 Machines
-
-572
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 573
-
-How to Manage Non-Conformances
-Declaring Non-Conformances of type Quality on Production Entities
 
 Material Tracking Units
 Tools
@@ -38276,7 +31709,9 @@ The severity of the Defect. Possible values: LOW, MEDIUM, HIGH.
 
 4. Click
 Link: this opens a dedicated Link Items panel, the content of which depends on the value set at step
-3 for Context.
+
+## 3 for Context.
+
 5. In the Link Items area, select one or more items (either Machines, Material Tracking Units or Tools, according to
 the context) on which the Non-Conformance is to be declared and click Link.
 If Context has been set to Material Tracking Units, the area shows both the individual MTUs and the
@@ -38287,17 +31722,7 @@ Non-Conformance on all the contained Material Tracking Units.
 Associating Defects or Failures to Non-Conformances
 1. In the Non-Conformances page, select the Non-Conformance and click
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 Open.
-
-573
-
-
-## Pagina 574
-
-How to Manage Non-Conformances
-Declaring Non-Conformances of type Quality on Production Entities
 
 2. Click the Defects tab.
 3. Add previously-created Defects or Failures to the Non-Conformance by clicking
@@ -38356,16 +31781,6 @@ Link, select one or more Entities and click Add.
 3. To remove a link between an associated Entity and the Non-Conformance, select the entity and click
 Unlink.
 
-574
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 575
-
-How to Manage Non-Conformances
-Declaring Change Non-Conformances
-
 In the Material Tracking Units tab, it is possible to select both Material Tracking Units and Containers.
 Linking a Container means linking all the contained Material Tracking Units at the same time.
 
@@ -38418,22 +31833,13 @@ on the
 
 icon thus prompting the Production Coordinator to manage the Non-Conformance.
 
-15.4 Declaring Change Non-Conformances
+### 15.4 Declaring Change Non-Conformances
+
 Only applicable to the generic Operator Landing page (legacy).
 Typically, an Operator declares a Change Non-Conformance (also known as a Change Request) if the Process
 Definition related to a Work Order Operation requires a change. For example, if the sequence of tasks in a Work
 Order Operation is not correct, an Operator can open a Change Request to notify Production Coordinators that the
 task sequence needs to be modified.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-575
-
-
-## Pagina 576
-
-How to Manage Non-Conformances
-Declaring Change Non-Conformances
 
 If necessary, Production Coordinators can also declare Change Requests. For example, if a problem is detected on a
 Machine after releasing a Work Order, the Production Coordinator can open a Change Request to ask for a new
@@ -38483,16 +31889,6 @@ Create: the Add Change Non-Conformance page is displayed.
 button: this calls up the
 respective Select Item dialog, in which you must set the parameters according to your needs and then
 click Select:
-
-576
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 577
-
-How to Manage Non-Conformances
-Declaring Change Non-Conformances
 
 Parameter
 
@@ -38545,19 +31941,10 @@ on the
 
 icon, thus prompting the Production Coordinator to manage the Non-Conformance.
 
-15.4.1 Example of a Repeat Operation Change Non-Conformance
+#### 15.4.1 Example of a Repeat Operation Change Non-Conformance
+
 The following example illustrates how declaring a Repeat Operation Change Non-Conformance on a Work Order
 Operation affects your workflow.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-577
-
-
-## Pagina 578
-
-How to Manage Non-Conformances
-Declaring Change Non-Conformances
 
 Let's say your initial Work Order 001-Rebuild contains two Work Order Operations (Rebuild-Op10 and Rebuild-Op20),
 both of which have RepeatNumber set to 0.
@@ -38577,31 +31964,14 @@ After the Change Non-Conformance has been accepted, the system will insert this 
 repeated (that is, Rebuild-Op10 with sequence 15) into the workflow: it will be displayed as Rebuild-Op10 (15)
 between Rebuild-Op10 (10) and Rebuild-Op20 (20).
 
-578
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 579
-
-How to Manage Non-Conformances
-Declaring Change Non-Conformances
-
 Note that the value of RepeatNumber for Rebuild-Op10 (10) is still 0 (= zero), whereas the value of RepeatNumber
 for Rebuild-Op10 (15) will be equal to the value of RepeatNumber for the Work Order Operation to be repeated
 increased by 1 (that is, 0 + 1 = 1).
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-579
-
-
-## Pagina 580
-
-How to Manage Change Packages
 Declaring Change Non-Conformances
 
-16 How to Manage Change Packages
+## 16 How to Manage Change Packages
+
 During the execution of a Work Order Operation or Work Order Step, an Operator may encounter unexpected
 deficiencies or discrepancies regarding the Materials, Tools, Documents, Work Instructions, Machines or Quality
 Inspections that are to be used.
@@ -38646,14 +32016,6 @@ Users with the Production Coordinator or Product Engineer role can perform this 
 Prerequisites
 At least one Change Package request has been opened and is currently active.
 
-580
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 581
-
-How to Manage Change Packages
 Viewing the Details of a Change Package
 
 Accessing the Working Environment
@@ -38670,7 +32032,8 @@ Change Package.
 changes to the Work Order Operation or Step, but then decides against applying them to the Work Order
 Operation or Step) Reject the Change Package.
 
-16.1 Viewing the Details of a Change Package
+### 16.1 Viewing the Details of a Change Package
+
 By viewing the details of a Change Package request, Production Coordinators can knowledgeably evaluate at
 Runtime whether changes should be made to the set of Specifications (currently, those related to Tools, Materials,
 Documents, Machines and Quality Inspections) to be used to execute a specific Work Order Operation. The Notes
@@ -38685,8 +32048,8 @@ the Change Package request of interest.
 Open icon contained in the tile (or row): the Change Package Details screen opens for the
 selected Change Package request.
 
-16.2 Modifying a Work Order Operation or Work Order Step against a
-Change Package Request
+### 16.2 Modifying a Work Order Operation or Work Order Step against a Change Package Request
+
 After viewing the details of a Change Package request that was opened in Runtime by an Operator, the Production
 Coordinator may decide in favor of modifying the Work Order Operation or Work Order Step on-the-fly. This is
 feasible because a Work Order Operation is immediately placed in Hold status as soon as a Change Package is
@@ -38701,16 +32064,6 @@ Work Order Operation or Step, it is sufficient that he/she reject the Change Pac
 Operation from Hold status and its execution is resumed.
 The Work Order Operation or Work Order Step can be changed against a Change Package request from the Change
 Package Details screen.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-581
-
-
-## Pagina 582
-
-How to Manage Change Packages
-Modifying a Work Order Operation or Work Order Step against a Change Package Request
 
 Procedure
 1. After viewing the details of the Change Package of interest, on the basis of the Notes displayed in the Details
@@ -38755,8 +32108,6 @@ or Step.
 2. Select the item to be added and then click
 Save.
 
-582
-
 displayed bearing the
 Added indicator.
 The value Add will be
@@ -38771,14 +32122,6 @@ Added indicator.
 The value Add will be
 shown in the Action
 column.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 583
-
-How to Manage Change Packages
-Modifying a Work Order Operation or Work Order Step against a Change Package Request
 
 If you want to...
 
@@ -38855,8 +32198,6 @@ Add icon: this opens a panel
 where you can set all Step properties.
 2. Click Save.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 The added item is displayed
 bearing the
 
@@ -38865,14 +32206,6 @@ Added indicator.
 The value Add will be
 shown in the Action
 column.
-
-583
-
-
-## Pagina 584
-
-How to Manage Change Packages
-Modifying a Work Order Operation or Work Order Step against a Change Package Request
 
 If you want to...
 
@@ -38965,16 +32298,6 @@ the
 Compare
 button.
 
-584
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 585
-
-How to Manage Change Packages
-Modifying a Work Order Operation or Work Order Step against a Change Package Request
-
 If you want to...
 
 Then...
@@ -39025,17 +32348,10 @@ Reject Change Package button to
 reject the Change Package: no changes will be made and the Work Order Operation is released from Hold status,
 thereby permitting its execution to continue.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-585
-
-
-## Pagina 586
-
-How to Handle Notifications
 Modifying a Work Order Operation or Work Order Step against a Change Package Request
 
-17 How to Handle Notifications
+## 17 How to Handle Notifications
+
 Notifications are available as alerts on the notification bar of the Opcenter Execution Discrete web console when
 specific events occur.
 It is possible to choose which users can see specific sections of the notification bar on top of the pages, by simply
@@ -39072,14 +32388,6 @@ examples and are in no way binding.
 
 Notification Bar Legend
 
-586
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 587
-
-How to Handle Notifications
 Modifying a Work Order Operation or Work Order Step against a Change Package Request
 
 Notification Icon
@@ -39165,16 +32473,6 @@ Notification Bar
 Siemens_OPC_EXDS_AM
 UI Application)
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-587
-
-
-## Pagina 588
-
-How to Handle Notifications
-Handling Note Notifications
-
 Notification Icon
 
 Related entity
@@ -39213,7 +32511,8 @@ UI Application)
 Siemens_OPC_EXDS_AM
 UI Application)
 
-17.1 Handling Note Notifications
+### 17.1 Handling Note Notifications
+
 At runtime, when the Operator or the Production Coordinator write notes relative to the execution of a Work Order
 Operation which could be useful to other Operators, if the system is properly configured, a notification is triggered.
 
@@ -39246,21 +32545,14 @@ Work Order Operations making up the current Work Order.
 Also, any notes that are acknowledged will remain visible inside the Notes tab of the As Built page
 corresponding to the selected Work Order.
 
-588
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 589
-
-How to Handle Notifications
 Handling Work Order Notifications
 
 3. If necessary, click
 
 Add and type a new note in the New Note box: click Save to confirm.
 
-17.2 Handling Work Order Notifications
+### 17.2 Handling Work Order Notifications
+
 Work Order notifications inform users of specific events related to Work Orders. You can choose to subscribe to
 Work Order notifications by subscribing to the appropriate signal from the Roles page of Opcenter Execution
 Foundation Solution Studio. Once subscribed, the Work Order notification icon becomes available on the
@@ -39296,7 +32588,8 @@ status is closed. For example, if a notification was triggered when the status o
 ReadyForScheduling, and the status changes to Active, the corresponding notification is closed.
 Similarly, after you open a notification, the system closes it.
 
-17.3 Handling Process Notifications
+### 17.3 Handling Process Notifications
+
 Process notifications inform users that a new revision of a Process has been created. You can configure the users
 who must receive Process notifications by associating them with the role subscribed to the appropriate signal from
 the Roles page of Opcenter Execution Foundation Solution Studio. After subscribing, the Process notification icon
@@ -39309,16 +32602,6 @@ Prerequisite
 You subscribed to the ProcessNotificationSgn signal.
 The notification bar has been enabled
 A new revision of a Process has been created.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-589
-
-
-## Pagina 590
-
-How to Handle Notifications
-Handling Change Non-Conformances
 
 Procedure
 1. Do either of the following:
@@ -39337,7 +32620,8 @@ to close the
 
 After you open and act upon a notification, the system closes it.
 
-17.4 Handling Change Non-Conformances
+### 17.4 Handling Change Non-Conformances
+
 When the Operator finds that something needs to be changed in the production process and declares a Change
 Non-Conformance (Change Request), the Production Coordinator is prompted to manage it through a notification.
 If you are handling a Change Non-Conformance, and you are going to managing it by adding an Operation,
@@ -39366,8 +32650,6 @@ Accept, to accept the change request.
 Change Type
 Add Tool
 
-590
-
 Parameters
 Tool Definition Name, the name of the Tool to be used to
 perform the Work Order Operation.
@@ -39375,14 +32657,6 @@ Usage Number, how many times the Tool must be used to
 perform the current Work Order Operation.
 Notes, additional notes.
 Ref Number, an identifier to be used to track the change.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 591
-
-How to Handle Notifications
-Handling Change Non-Conformances
 
 Change Type
 
@@ -39397,8 +32671,6 @@ contain Materials to be
 consumed can be added.
 
 Repeat Operation
-
-Opcenter Execution Discrete 2507.0001 - User Manual
 
 Operation Name, the name of the new Work Order Operation.
 Description, a user-friendly description of the new Work Order
@@ -39422,18 +32694,8 @@ Ref Number, an identifier to be used to track the change.
 The Work Order Operation(s) to be re-executed: select them
 from the table listing all completed Work Order Operations.
 
-591
-
-
-## Pagina 592
-
-How to Handle Notifications
-Handling Change Non-Conformances
-
 Change Type
 Add Part
-
-592
 
 Parameters
 Operation, the name and sequence number of the Work Order
@@ -39483,14 +32745,6 @@ Notes, additional notes.
 Ref Number, an identifier to be used to track the change.
 Logical Position, any kind of reference about where the
 component must be placed or assembled in the final product.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 593
-
-How to Handle Notifications
-Handling Change Non-Conformances
 
 Change Type
 
@@ -39543,16 +32797,6 @@ Ref Number, an identifier to be used to track the change.
 Work Instruction SN, the list of Serial Numbers to be associated
 with the Work Instruction.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-593
-
-
-## Pagina 594
-
-How to Handle Notifications
-Handling Change Non-Conformances
-
 Change Type
 
 Parameters
@@ -39584,16 +32828,6 @@ Dependencies is not allowed for Serialized Work
 Orders.
 Notes, additional notes.
 Ref Number, an identifier to be used to track the change.
-
-594
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 595
-
-How to Handle Notifications
-Handling Buy-Off Notifications
 
 Change Type
 
@@ -39643,23 +32877,14 @@ If there are Work Order Operation before and after the one
 that is being removed, a Dependency of type After End is
 automatically inserted between them.
 
-17.5 Handling Buy-Off Notifications
+### 17.5 Handling Buy-Off Notifications
+
 A Buy-Off notification can be sent if a Quality Inspection task, configured specifically to manage Buy-Off approvals,
 is linked to either a Work Order Operation or a Work Order Step.
 Buy-Off notifications are aimed at informing entitled users, such as Production Coordinators, that in order to
 complete a Work Order Operation, an inspection is required on any MTU to be produced by the Work Order. If the
 MTUs are rejected, the Work Order Operation (and Step) cannot be completed. If the MTUs are approved, the Work
 Order Operation (and Step) is automatically completed.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-595
-
-
-## Pagina 596
-
-How to Handle Notifications
-Handling Quality Non-Conformances
 
 If you are an entitled user, and you are not managing the Quality Inspection from the Operator Landing page
 (legacy) or from the Operator Terminal (except the One Piece Flow App) you can handle Buy-Off requests from the
@@ -39697,7 +32922,8 @@ If you want to disable automatic completion, you can remove the subscription of 
 OnSentenceBuyOffCompleteOperationForStep handler to the OnSentenceBuyOff event from Solution Studio.
 If you want to add a customization to the Buy-Off creation, you must use the OnCreateBuyOff event.
 
-17.6 Handling Quality Non-Conformances
+### 17.6 Handling Quality Non-Conformances
+
 Quality Non-Conformances previously declared either by an Operator or a Production Coordinator, must then be
 managed and solved. It is possible to automatically create Non-Conformances on Work Order
 Operations, Machines, and Material Tracking Units.
@@ -39709,16 +32935,6 @@ Orders stemming from a Quality Non-Conformance can be modified according to your
 
 Prerequisites
 You subscribed to the NonConformanceNotificationSgn signal.
-
-596
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 597
-
-How to Handle Notifications
-Handling Quality Non-Conformances
 
 The notification bar has been enabled.
 A Quality Non-Conformance has been declared in one of the following manners:
@@ -39767,16 +32983,6 @@ for Work Order Operations and for the other entity types.
 
 Lifecycle for Non-Conformances associated to Work Order Operations (Quality
 Workflow)
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-597
-
-
-## Pagina 598
-
-How to Handle Notifications
-Handling Quality Non-Conformances
 
 Change Status
 from...
@@ -39848,16 +33054,6 @@ REPAIR to SCRAP
 
 by sentencing that the involved Entity cannot be repaired and must be
 scrapped.
-
-598
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 599
-
-How to Handle Notifications
-Handling Quality Non-Conformances
 
 Change Status from...
 
@@ -39931,16 +33127,6 @@ by fixing the Defect that has been certified.
 
 Results
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-599
-
-
-## Pagina 600
-
-How to Handle Notifications
-Handling Integration Event Failure Notifications
-
 If the Non-Conformance was associated to a Work Order Operation, the last Work Order Operation in the
 Dependency graph (which was automatically placed in Future Hold status when the Non-Conformance was
 declared) re-assumes the status it had before the declaration (either Open or Partial).
@@ -39972,7 +33158,8 @@ the Non-Conformance is opened on the produced item, you can add the REWORK statu
 machine, in order to fully benefit from the system's behavior described in the previous bullet.
 The Non-Conformance counter decreases in the notification bar.
 
-17.7 Handling Integration Event Failure Notifications
+### 17.7 Handling Integration Event Failure Notifications
+
 Integration Event Failure Notifications are used to inform Production Coordinators (or, more generically,
 supervisors) when there is a failure related to how an Integration Event record has been handled by a third-party
 system (Active Integration, also known as AIG). The Integration Event record provides information regarding the
@@ -39989,16 +33176,6 @@ Users with the Production Coordinator role (or those acting as supervisors) can 
 
 Prerequisites
 The notification bar has been enabled.
-
-600
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 601
-
-How to Handle Notifications
-Handling Integration Event Failure Notifications
 
 You subscribed to the ExtEventLogFailureNotificationCreated and
 ExtEventLogFailureNotificationDeleted signals.
@@ -40018,17 +33195,10 @@ corresponding count will decrease by 1.
 Otherwise, should the re-execution fail on AIG or the Production Coordinator only acknowledge having received
 the notification, the count will remain unvaried and the badge will stop blinking.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-601
-
-
-## Pagina 602
-
-How to Monitor and Tweak Production Execution
 Handling Integration Event Failure Notifications
 
-18 How to Monitor and Tweak Production Execution
+## 18 How to Monitor and Tweak Production Execution
+
 You can use Opcenter Execution Discrete to monitor how production is progressing in your production plant: on the
 basis of this information, if necessary, you can also make changes to streamline execution.
 In Opcenter Execution Discrete, monitoring and tweaking operations may be specific to:
@@ -40074,16 +33244,6 @@ Displaying Powder Genealogy
 Available Operations specific to Non-Conformances
 Tracking Non-Conformance Histories
 
-602
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 603
-
-How to Monitor and Tweak Production Execution
-Viewing Work Order Progress
-
 Available Operations specific to Line Side Positions
 Monitoring and Managing Kanban Calls
 
@@ -40100,7 +33260,8 @@ Available Operations specific to ERP Orders
 Viewing ERP Order Structures
 Monitoring ERP Order Status
 
-18.1 Viewing Work Order Progress
+### 18.1 Viewing Work Order Progress
+
 Opcenter Execution Discrete provides you with a page dedicated to monitoring how the execution of the
 current Work Order is progressing.
 The actual execution progress helps schedule future activities.
@@ -40129,24 +33290,14 @@ case of scrapped items.
 execution plant.
 the final material being produced.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-603
-
-
-## Pagina 604
-
-How to Monitor and Tweak Production Execution
-Viewing Work Order Progress from the Work Order Network Page
-
 2. Select the Work Order for which you want to view the progress, the system lists the related Work Order
 Operations displaying the following information:
 status,
 produced quantity,
 scrapped quantity.
 
-18.2 Viewing Work Order Progress from the Work Order Network
-Page
+### 18.2 Viewing Work Order Progress from the Work Order Network Page
+
 You can monitor Work Orders from the Work Order Network page available in the Opcenter Execution Discrete
 Production Coordinator Low Code UI App.
 From this page, you can perform the following additional activities:
@@ -40194,17 +33345,7 @@ ends (terminates).
 6. Click Save.
 7. To display the Work Order routing, select the Work Order of interest and click
 
-604
-
 to navigate to its details.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 605
-
-How to Monitor and Tweak Production Execution
-Viewing Work Order Genealogy
 
 8. In the Work Order Routing page, use the buttons available in the Dependency Graph to customize the
 visualization of the routing according to your needs. For example, you can zoom in or zoom out, adjust the size
@@ -40214,7 +33355,8 @@ Countdown to pause the refresh. To resume it, click Resume Countdown.
 The content of the Work Order Routing is periodically refreshed at a predefined frequency. You can
 change this frequency from the related configuration key.
 
-18.3 Viewing Work Order Genealogy
+### 18.3 Viewing Work Order Genealogy
+
 By viewing the Genealogy of a Work Order, it is possible to see all the changes or activities that have been
 performed on each element making up the product resulting from the Work Order's execution throughout its entire
 manufacturing process.
@@ -40248,16 +33390,6 @@ the new Work Order.
 The two Work Orders are displayed with the same parent node.
 If an action was performed during the execution of a Work Order Operation by a User belonging to a Team,
 details of the Team are also displayed.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-605
-
-
-## Pagina 606
-
-How to Monitor and Tweak Production Execution
-Viewing Work Order Genealogy
 
 If the Work Order Operation being examined belongs to an Execution Group, details of the Execution Group and
 the Execution Group Phase are displayed.
@@ -40304,17 +33436,7 @@ multiple Work Order Operations are selected.
 Procedure
 1. Click
 
-606
-
 Shopfloor Execution > Genealogy in the sidebar.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 607
-
-How to Monitor and Tweak Production Execution
-Viewing Work Order Genealogy
 
 2. Do one of the following:
 Operating on the search bar, enter the Identifier of a Work Order or a Serial Number/Batch ID in the
@@ -40358,16 +33480,6 @@ or unlinked clicking on
 
 NOK Result
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-607
-
-
-## Pagina 608
-
-How to Monitor and Tweak Production Execution
-Displaying Historical Data
-
 Icon
 
 Meaning
@@ -40406,7 +33518,8 @@ Import.
 3. In the Import Genealogy Documents page, select the Genealogy .json files of interest from the displayed list
 and then click Open.
 
-18.4 Displaying Historical Data
+### 18.4 Displaying Historical Data
+
 During production execution, you can retrieve and display historical data automatically traced for Work Orders that
 are already in progress. Various dedicated tabs have been provided to present such data for consultation.
 Historical data can be seen from the Work Orders page, as described below, or from the Operator Landing (legacy)
@@ -40415,16 +33528,6 @@ Apps. In the latter case, the behavior of the system varies depending on how the
 AsBuilt_OpenInNewTab, DefaultUIAppName and ProductionCoordinatorAppName constants are set in
 Opcenter Execution Foundation 2507.0001 Solution Studio. By default, the As Built page is displayed inside the
 Operator Terminal environment, but you can also configure the system in order to open it on a new tab in the
-
-608
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 609
-
-How to Monitor and Tweak Production Execution
-Displaying Historical Data
 
 browser. For more information, see section How to Configure Runtime Screens in the Opcenter Execution Discrete
 Installation Guide.
@@ -40463,16 +33566,6 @@ Dependencies
 
 Dependencies between the Work Order Operations that belong to the selected Work
 Order.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-609
-
-
-## Pagina 610
-
-How to Monitor and Tweak Production Execution
-Displaying Historical Data
 
 Tab
 
@@ -40520,16 +33613,6 @@ provided also for the involved Equipment.
 If the Result Management configuration key has been enabled, the Result Value and
 Is NOk columns will be visible only for End activities.
 
-610
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 611
-
-How to Monitor and Tweak Production Execution
-Displaying Historical Data
-
 Tab
 
 Contents
@@ -40574,16 +33657,6 @@ details regarding the associated Substrates (for example, Name, Status, and
 Tool Definition).
 If a Repair has been performed on the Tool, information regarding Quality Gate, QG
 Equipment and Activity will also be displayed.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-611
-
-
-## Pagina 612
-
-How to Monitor and Tweak Production Execution
-Displaying Historical Data
 
 Tab
 
@@ -40645,16 +33718,6 @@ Send
 to Teamcenter Share. The documents will be uploaded to a project named as the
 related Work Order NId.
 
-612
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 613
-
-How to Monitor and Tweak Production Execution
-Tracking Additional Actions
-
 Tab
 
 Contents
@@ -40709,22 +33772,13 @@ Process Measurement
 Coordinator App) Any Process Measurements collected during the Work Order
 production.
 
-18.5 Tracking Additional Actions
+### 18.5 Tracking Additional Actions
+
 The system automatically tracks the action performed at runtime by Operators for each Work Order. But in some
 cases, if this data is not correctly tracked (for example, due to a network connection problem during production),
 you have the possibility to manually change tracked information or add new actions.
 
 Target User
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-613
-
-
-## Pagina 614
-
-How to Monitor and Tweak Production Execution
-How to Monitor and Manage Output Messages at Runtime
 
 Users with the Production Coordinator role can perform this operation.
 
@@ -40771,7 +33825,8 @@ n
 
 5. Click Create.
 
-18.6 How to Monitor and Manage Output Messages at Runtime
+### 18.6 How to Monitor and Manage Output Messages at Runtime
+
 Released Output Message Definitions associated with Work Order Output Message, WO Operation Output
 Message and As Built Output Message message types, are managed in the Work Orders and As Built pages, where
 the following actions can be performed:
@@ -40791,16 +33846,6 @@ SendAsBuiltMsgOnCompleteWorkOrderOperationSerializedSignalRule
 SendAsBuiltMsgOnCompleteWorkOrderOperationSignalRule
 SendAsBuiltMsgOnCompleteWorkOrderOperationTransferBatchSignalRule
 SendAsBuiltMsgOnCompleteWorkOrderOrderSignalRule
-
-614
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 615
-
-How to Monitor and Tweak Production Execution
-How to Monitor and Manage Output Messages at Runtime
 
 SendAsBuiltMsgOnReleaseWorkOrderOrderSignalRule
 Released Output Message Definitions associated with Standard Output Message and JIT/JIS Message message
@@ -40857,16 +33902,6 @@ Description
 Message Id
 
 The identifier of the Output Message.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-615
-
-
-## Pagina 616
-
-How to Monitor and Tweak Production Execution
-How to Monitor and Manage Output Messages at Runtime
 
 Parameter
 
@@ -40939,22 +33974,12 @@ Message and click
 regenerated (that is, resent) or not, the Plant where it has been generated, and so forth. In this page, it is also
 possible to select a Message and resend it (
 
-616
-
 button) or download its content (
 
 button).
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+### 18.7 Monitoring Work Order Operations in Execution on a Workcenter or Machine
 
-
-## Pagina 617
-
-How to Monitor and Tweak Production Execution
-Monitoring Work Order Operations in Execution on a Workcenter or Machine
-
-18.7 Monitoring Work Order Operations in Execution on a
-Workcenter or Machine
 The information below is valid for both the Legacy UI and the Opcenter Execution Discrete Production
 Coordinator Low Code UI App even if there are some minor differences in the layout.
 The possibility of monitoring how the execution of a certain Work Order Operation is progressing on a specific
@@ -41009,20 +34034,13 @@ time ranges.
 
 button you can set additional filters on specific Work Orders, Materials or date/
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-617
-
-
-## Pagina 618
-
-How to Monitor and Tweak Production Execution
 Associating Additional Users to Work Order Operations
 
 4. If, after viewing how production is progressing, you want to reschedule a certain Work Order Operation, thereby
 streamlining overall execution and bypassing any potential downtime, see Scheduling a Work Order.
 
-18.8 Associating Additional Users to Work Order Operations
+### 18.8 Associating Additional Users to Work Order Operations
+
 In certain cases, during the execution of a Work Order Operation, the assigned User may need to be absent from his
 workstation for a period of time for a variety of reasons (for example, he may be on call elsewhere within in the
 production plant, sudden illness...): this makes it necessary to assign the work in progress to another User so that
@@ -41053,7 +34071,8 @@ User from Work Order Operation.
 
 Unlink
 
-18.9 Updating the Labor Time
+### 18.9 Updating the Labor Time
+
 The system automatically tracks when Work Order Operations are started and completed, and the time taken by
 the Operators to complete Work Orders. But in some cases, if this data is not correctly tracked (for example, due to
 a network connection problem during production), you have the possibility to change it manually.
@@ -41068,17 +34087,7 @@ Production Coordinator Time Update tile.
 
 2. Select a Work Order in the Production Coordinator Time Update page and click
 
-618
-
 Open.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 619
-
-How to Monitor and Tweak Production Execution
-Displaying Information on Work Order Operations
 
 3. In the Operations tab, select a Work Order Operation, and then click
 4. Set the following parameters:
@@ -41104,7 +34113,8 @@ The actual time taken to complete the Work Order Operation.
 
 5. Click Save.
 
-18.10 Displaying Information on Work Order Operations
+### 18.10 Displaying Information on Work Order Operations
+
 If necessary, it is possible to display information on the Work Order Operations making up the Work Order
 associated with a Production Item.
 
@@ -41150,16 +34160,6 @@ The Status of the Work Order Operation.
 Is Ready
 
 Flag indicating if the Work Order Operation is ready to be executed or not.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-619
-
-
-## Pagina 620
-
-How to Monitor and Tweak Production Execution
-How to view Material Tracking Unit Structures
 
 Parameter
 
@@ -41217,7 +34217,8 @@ related Materials to be consumed
 Machines to be used
 Screwing Tools used during screwing operations and related values.
 
-18.11 How to view Material Tracking Unit Structures
+### 18.11 How to view Material Tracking Unit Structures
+
 For each Material Tracking Unit, you can view the details of the associated Bill of Features and Bill of Materials, to
 have an overview of the Features and Materials used to produce the final product. The system displays the following
 items:
@@ -41227,16 +34228,6 @@ for each Bill of Materials: the list of Materials.
 If the MTU is linked to an ERP Order but has not yet reached the Milestone associated with the
 FREEZE_STRUCTURES attribute, the system displays the structures of the Product Configuration
 associated with the ERP Order.
-
-620
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 621
-
-How to Monitor and Tweak Production Execution
-How to view Material Tracking Unit Structures
 
 Target User
 Users with the Production Coordinator role can perform this operation.
@@ -41303,17 +34294,7 @@ Revision
 
 The Revision (version) assigned to the Material.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
 .
-
-621
-
-
-## Pagina 622
-
-How to Monitor and Tweak Production Execution
-Viewing and Amending the Results of a Material Tracking Unit
 
 Parameter
 
@@ -41356,7 +34337,8 @@ Description
 
 Additional information on the Functional Code associated with the Material.
 
-18.12 Viewing and Amending the Results of a Material Tracking Unit
+### 18.12 Viewing and Amending the Results of a Material Tracking Unit
+
 Provided that the Result Management and Result Strategy Management configuration keys have been set, it is
 possible to view the Results declared for a specific Material Tracking Unit being produced at Operation level, as well
 as their history.
@@ -41374,16 +34356,6 @@ Open.
 recent Result (top-down chronology).
 Each row of the grid contains the value declared for each Result, as well as the strategy (corrective action) adopted,
 the Work Order Operation to which the Result refers and the date on which the Result was declared.
-
-622
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 623
-
-How to Monitor and Tweak Production Execution
-Viewing and Amending the Results of a Material Tracking Unit
 
 Those Results with a history (that is, which have undergone changes, either regarding their value or their
 associated corrective action) have a plus sign at the beginning of their corresponding row. To view the
@@ -41442,17 +34414,8 @@ NO: The Amend is applied solely to the selected Serial Number: in this case, if 
 action (strategy) is a Repeat, the Work Order Operation's re-execution will fail because it will not
 have all of its Serial Numbers in input.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+### 18.13 Monitoring Production Items
 
-623
-
-
-## Pagina 624
-
-How to Monitor and Tweak Production Execution
-Monitoring Production Items
-
-18.13 Monitoring Production Items
 During the production process, you can monitor how the items that are being manufactured progress, for what
 concerns the milestones achieved and chronologically.
 For customization and reporting issues related to any Production Item, keep in mind that you must use the
@@ -41503,8 +34466,6 @@ top client or for crash test purposes.
 EXHIBITION, the product could be designed only for
 exhibition purposes.
 
-624
-
 Code
 
 The Batch Id or Serial Number assigned to the Material Tracking Unit.
@@ -41520,14 +34481,6 @@ The unique identifier of the Material Tracking Unit.
 Name (hidden by default)
 
 The name of the Material Tracking Unit.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 625
-
-How to Monitor and Tweak Production Execution
-Monitoring Production Items
 
 Parameter
 
@@ -41604,16 +34557,6 @@ default)
 
 The name of the workplace associated with the milestone.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-625
-
-
-## Pagina 626
-
-How to Monitor and Tweak Production Execution
-Declaring Milestones at Runtime
-
 Parameter
 
 Description
@@ -41646,7 +34589,8 @@ from the database in case of custom cleaning configuration.
 Open: the Material Tracking Units page
 is displayed allowing you to navigate through all existing Material Tracking Units.
 
-18.14 Declaring Milestones at Runtime
+### 18.14 Declaring Milestones at Runtime
+
 For each Material Tracking Unit associated with a specific Production Line, you can check which Milestones of the
 Production Flow Control Diagram are available, in order to declare those you want to execute first and perform the
 transitions between them according to your production needs.
@@ -41671,16 +34615,6 @@ Production Coordination
 
 Prerequisites
 The root level of the Equipment Hierarchy must be Site.
-
-626
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 627
-
-How to Monitor and Tweak Production Execution
-Declaring Milestones at Runtime
 
 A Production Flow Control Diagram has been properly configured.
 
@@ -41749,20 +34683,11 @@ The transition of the MTU from a Milestone to the following one is completed. In
 Tracking Units page, the Production Flow Control section displays information such as: the Production Flow
 Control Diagram associated to the Final Product Type, or the Milestone in which the MTU currently is.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-627
-
-
-## Pagina 628
-
-How to Monitor and Tweak Production Execution
-Displaying the Outcome of Milestone Declarations
-
 In the PFC History tab, you can see the outcome of Checks, Attributes and Actions executed whenever the MTU
 transitions from a Milestone to the other.
 
-18.15 Displaying the Outcome of Milestone Declarations
+### 18.15 Displaying the Outcome of Milestone Declarations
+
 It is possible to display information on the Milestones reached by a Production Item at runtime.
 
 Target User
@@ -41824,21 +34749,12 @@ Date and time in which the history log was updated.
 3. Select a milestone and click
 that have been executed.
 
-628
-
 Open.
 
 Open to access the list of related activities (Checks, Attributes and Actions)
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+### 18.16 Displaying Powder Genealogy
 
-
-## Pagina 629
-
-How to Monitor and Tweak Production Execution
-Displaying Powder Genealogy
-
-18.16 Displaying Powder Genealogy
 The Genealogy of Powder Material Batches is available as a graph which shows the "parents" of a Powder Batch
 and, if present, its "children" (for example, the batches created mixing it with other batches, or splitting it into
 smaller quantities, or consuming it).
@@ -41908,16 +34824,6 @@ Identifier
 
 The identifier of the actual used Container in which the Powder Batch is loaded.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-629
-
-
-## Pagina 630
-
-How to Monitor and Tweak Production Execution
-Tracking Non-Conformance Histories
-
 Parameter
 
 Description
@@ -41968,7 +34874,8 @@ To display a window containing a preview of the entire graph, click Pan and Zoom
 Move the display box to pan the graph.
 Click the lower right corner of the display box to resize the graph.
 
-18.17 Tracking Non-Conformance Histories
+### 18.17 Tracking Non-Conformance Histories
+
 The system automatically tracks the history of all changes that a Non-Conformance undergoes.
 Specifically, the following details are logged:
 Actions related to a Non-Conformance:
@@ -41979,16 +34886,6 @@ change of status
 Defects and Failures added and/or removed from a Non-Conformance
 Attachments
 Severity.
-
-630
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 631
-
-How to Monitor and Tweak Production Execution
-Monitoring and Managing Kanban Calls
 
 Target User
 Users with the Production Coordinator role can perform this operation.
@@ -42002,7 +34899,8 @@ Non-Conformances tile.
 Open.
 3. Click tab History to display the history of the selected Non-Conformance.
 
-18.18 Monitoring and Managing Kanban Calls
+### 18.18 Monitoring and Managing Kanban Calls
+
 The product provides you with the possibility to monitor released Line Side Positions and the status of any related
 Kanban Call (if already sent), including the answers from the Warehouse.
 In addition, it is possible to:
@@ -42049,16 +34947,6 @@ to be requested.
 Actual Quantity
 
 The actual quantity of the Line Side Position.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-631
-
-
-## Pagina 632
-
-How to Monitor and Tweak Production Execution
-Displaying Integration Events
 
 Parameter
 
@@ -42127,19 +35015,10 @@ The status of Kanban Calls associated with a Line Side Position can be traced by
 interest and clicking the Kanban Request History tab. In this tab, it is also possible to select a call and click the
 button to download an XML file containing the content of the Message.
 
-18.19 Displaying Integration Events
+### 18.19 Displaying Integration Events
+
 In contexts in which there is integration with SAP and/or Teamcenter, there may be the need to view all events
 made available to Active Integration Gateway (AIG) for what concerns the completion of Work Orders and Work
-
-632
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 633
-
-How to Monitor and Tweak Production Execution
-Monitoring Imported Data Flows
 
 Order Operations. Such events are presented in the Integration Events page. Each row making up the table that is
 displayed represents a record that is entered into the Integration Event Log.
@@ -42155,7 +35034,8 @@ has been handled by AIG: in this particular case, only those Integration Event r
 be displayed in the Integration Events page. At this point, you can decide how to proceed to handle the Integration
 Event Failure Notification of your choice.
 
-18.20 Monitoring Imported Data Flows
+### 18.20 Monitoring Imported Data Flows
+
 For more information on Import Data Flows, see page Import Data Flows of the Opcenter Execution Discrete
 Product Overview.
 You can use Opcenter Execution Discrete to manage data imported from third-party systems through a predefined
@@ -42206,16 +35086,6 @@ IMP
 Work Orders
 
 WorkOrder
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-633
-
-
-## Pagina 634
-
-How to Monitor and Tweak Production Execution
-Monitoring Imported Data Flows
 
 Master Data
 
@@ -42278,18 +35148,8 @@ to download the file containing the correct nodes.
 select a data flow whose result is Warning or Failed and click on
 download the file containing the wrong nodes.
 
-634
-
 > Download Imported File
 > Download Discarded File to
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 635
-
-How to Monitor and Tweak Production Execution
-Viewing the ERP Orders associated with a Product Configuration
 
 3. (optional) To have an overview of the errors occurred, select an import data flow whose result is Warning or
 Failed, click
@@ -42333,8 +35193,8 @@ Created On
 
 The timestamp of the error log.
 
-18.21 Viewing the ERP Orders associated with a Product
-Configuration
+### 18.21 Viewing the ERP Orders associated with a Product Configuration
+
 The product permits viewing all the ERP Orders in RCV status, having not yet reached the status associated with the
 Is Structure Blocker behavior, linked to a specific Product Configuration, which is associated in turn with the Final
 Product Type and Final Product Family. The following condition must be satisfied: the Validity Check of the
@@ -42350,17 +35210,8 @@ button.
 2. Click the ERP Orders tab. If all the conditions mentioned above are satisfied, the list of ERP Orders will be
 displayed by the system, otherwise the tab will remain empty.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+### 18.22 How to View ERP Order Structures
 
-635
-
-
-## Pagina 636
-
-How to Monitor and Tweak Production Execution
-How to View ERP Order Structures
-
-18.22 How to View ERP Order Structures
 For each valid ERP Order which has reached a state associated with the Is Structure Blocker behavior, it is possible
 to view the details of the associated Bill of Features and Bill of Materials. At this point, these specific versions have
 been validated, therefore they can be used to produce the Final Product Type and cannot be modified anymore.
@@ -42421,17 +35272,7 @@ Viewing the Bill of Materials associated with the ERP Order
 1. Open the ERP Orders page. Select an ERP Order and click
 2. Click the Materials tab to view the Bill of Materials content:
 
-636
-
 .
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 637
-
-How to Monitor and Tweak Production Execution
-Monitoring ERP Order Status
 
 Parameter
 
@@ -42482,7 +35323,8 @@ and click
 
 to open the Material Suppliers page.
 
-18.23 Monitoring ERP Order Status
+### 18.23 Monitoring ERP Order Status
+
 For each Final Product Family, it is possible to monitor the corresponding ERP Orders and check if they can be
 produced or not after the validity check on the structures associated with the Final Product Type has been
 executed.
@@ -42497,16 +35339,6 @@ Procedure
 1. Open the Final Product Types page.
 2. Select the Final Product Type and click the Producibility Check Result tab. The system displays the following
 details:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-637
-
-
-## Pagina 638
-
-How to Monitor and Tweak Production Execution
-Monitoring ERP Order Status
 
 Parameter
 
@@ -42546,18 +35378,8 @@ of Features) associated with the Final Product Type and corresponding ERP Order.
 This information is displayed also in the Producibility Check Result section, available in the Final
 Product Types page by clicking the Overview tab.
 
-638
+## 19 How to Integrate Opcenter Execution Discrete with Other Systems
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 639
-
-How to Integrate Opcenter Execution Discrete with Other Systems
-How to Benefit from Integration with Siemens Opcenter APS
-
-19 How to Integrate Opcenter Execution Discrete with Other
-Systems
 The product offers several possibilities of integration with other systems:
 Integration with Siemens Opcenter APS, for advanced planning and scheduling of manufacturing operations.
 Integration with Teamcenter (both alone and in conjunction with SAP), for Closed-Loop manufacturing.
@@ -42574,7 +35396,8 @@ management.
 To benefit by the aforementioned integration options, certain procedures must be followed: see the dedicated subpages under page "Integration with Other Systems" in the Opcenter Execution Discrete Installation and Configuration
 Manual.
 
-19.1 How to Benefit from Integration with Siemens Opcenter APS
+### 19.1 How to Benefit from Integration with Siemens Opcenter APS
+
 Integration with Opcenter APS allows you to close the gap between planning/scheduling and execution. The
 synergy that you create with Opcenter APS helps you to streamline execution activities in a capillary manner, as
 they are scheduled for each machine within the actual context of what is currently occurring on the shop
@@ -42597,18 +35420,8 @@ Opcenter EX DS.
 scheduled Work Orders, Work Order Operations, Execution Groups or Execution Group Phases from the
 Opcenter APS database into the Opcenter EX DS database.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
+#### 19.1.1 Scheduling Work Orders/Work Order Operations from Opcenter APS
 
-639
-
-
-## Pagina 640
-
-How to Integrate Opcenter Execution Discrete with Other Systems
-How to Benefit from Integration with Siemens Opcenter APS
-
-19.1.1 Scheduling Work Orders/Work Order Operations from Opcenter
-APS
 After the system imports Work Orders, Work Order Operations, Execution Groups or Execution Group Phases from
 the Opcenter Execution Discrete database into the Opcenter APS database, you must download scheduled data
 from the Opcenter APS database to the Opcenter Execution Discrete database.
@@ -42637,8 +35450,8 @@ Opcenter EX DS database and you must go to step 8 to schedule the data updated f
 9. In the Sequencer dialog box, click Yes to confirm the new scheduling: the system downloads the updated data
 to the Opcenter Execution Discrete database.
 
-19.1.2 Verifying the Download of Scheduled Work Orders/Work Order
-Operations to Opcenter Execution Discrete
+#### 19.1.2 Verifying the Download of Scheduled Work Orders/Work Order Operations to Opcenter Execution Discrete
+
 After the system has imported Work Orders/Work Order Operations from Opcenter EX DS database to Opcenter APS
 database and after having scheduled this data from Opcenter APS to Opcenter EX DS, you must verify that the
 system has correctly downloaded the scheduled Work Orders, Work Order Operations, Execution Groups or
@@ -42651,16 +35464,8 @@ Users with the APS role can perform this operation.
 Procedure
 1. In the Opcenter Execution Discrete home page, click the
 
-640
-
 Work Orders tile.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 641
-
-How to Integrate Opcenter Execution Discrete with Other Systems
 How to Benefit from Integration with DNC Systems
 
 2. In the Work Orders page, select a Work Order and click
@@ -42672,7 +35477,8 @@ Open.
 5. Check that Estimated Start Time (estimated date when the Work Order Operation is to be started)
 and Estimated End Time (estimated date when the Work Order Operation is to end) have been updated.
 
-19.2 How to Benefit from Integration with DNC Systems
+### 19.2 How to Benefit from Integration with DNC Systems
+
 Integration with DNC systems allows you to transfer CNC programs to CNC machines during the execution of the
 Work Orders.
 To benefit from DNC integration, it is necessary that a number of macro-steps be performed: what is illustrated
@@ -42693,7 +35499,8 @@ Operation.
 4. A CNC Program reference is associated to said Machine.
 5. At runtime, the Work Order Operation is started and the CNC program is transferred to the Machine.
 
-19.3 How to Benefit from Integration with Siemens AM Network
+### 19.3 How to Benefit from Integration with Siemens AM Network
+
 Integration with Additive Manufacturing Network allows you to streamline execution activities, from sale orders to
 delivery, in the context of Additive Manufacturing production.
 In detail, thanks to this integration, Print Jobs can be imported from Additive Manufacturing Network database. The
@@ -42705,16 +35512,6 @@ Furthermore, Additive Manufacturing Network can be notified as to any change in 
 status: therefore, thanks to this functionality, overall visibility on the production process is provided.
 The table below provides an indication of the items that must be pre-configured in both environments, before
 importing the Print Jobs, so that a proper mapping between the two systems is established.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-641
-
-
-## Pagina 642
-
-How to Integrate Opcenter Execution Discrete with Other Systems
-How to Benefit from Integration with Siemens AM Network
 
 Item Name in Additive
 Manufacturing
@@ -42776,7 +35573,8 @@ Workflow
 4. In the Opcenter Execution Discrete environment, ready Print Jobs are imported from AM Network into Opcenter
 EX DS database.
 
-19.3.1 Importing 3D Printers into Opcenter Execution Discrete
+#### 19.3.1 Importing 3D Printers into Opcenter Execution Discrete
+
 3D Printers and related 3D Printer Types can be imported from Additive Manufacturing Network.
 If Print Jobs are imported, but 3D Printers are not imported, the system will import only those Print Jobs for which
 there is a mapping between the 3D Printers configured in both environments. In detail, the name of the 3D Printer in
@@ -42792,20 +35590,11 @@ button.
 
 Result
 
-642
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 643
-
-How to Integrate Opcenter Execution Discrete with Other Systems
-How to Benefit from Integration with Siemens AM Network
-
 The import operation has started. If 3D Printers and 3D Printer Types are correctly imported, they can be viewed in
 the 3D Printers and 3D Printer Types pages.
 
-19.3.2 How to Import Ready Print Jobs to Opcenter Execution Discrete
+#### 19.3.2 How to Import Ready Print Jobs to Opcenter Execution Discrete
+
 Print Jobs in ready status can be imported from the AM Network environment into Opcenter Execution Discrete
 database, so that the following items are automatically created:
 Work Orders with related Work Order Operations.
@@ -42850,22 +35639,12 @@ Materials: the Final Materials of the imported Work Orders are displayed.
 
 Notification of the Production State to AM Network
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-643
-
-
-## Pagina 644
-
-How to Integrate Opcenter Execution Discrete with Other Systems
-How to Benefit from Integration with Opcenter Intraplant Logistics
-
 A Print Job to be executed is in Planning state. When the required items are configured, the Print Job state changes
 to Ready, and can be imported into Opcenter EX DS. If the import is successful, the Print Job state changes to InProduction. When the Execution Group Phase is started, the Print Job state changes to In-Printing. When the
 Execution Group Phase is completed, the Print Job state changes to Done.
 
-19.4 How to Benefit from Integration with Opcenter Intraplant
-Logistics
+### 19.4 How to Benefit from Integration with Opcenter Intraplant Logistics
+
 Integration between Opcenter Execution Discrete and Opcenter Intraplant Logistics makes it possible to align the
 Equipment Hierarchy and manage Kanban calls, synchronizing them between production in Opcenter EX DS and
 Opcenter IPL.
@@ -42881,7 +35660,8 @@ Send Kanban-call cancellation to Opcenter IPL so that they can be deleted in Opc
 Send Kanban-call delivery information when the Materials reach the production line so that Opcenter IPL learns
 the quantity of Materials that reached the destination.
 
-19.4.1 Prerequisites
+#### 19.4.1 Prerequisites
+
 All the steps described at How to Integrate Opcenter Execution Discrete with Opcenter Intraplant Logistics of the
 Opcenter Execution Discrete Installation Manual have been performed.
 In Opcenter Execution Foundation, the plant structure has been created and the Equipment Hierarchy has been
@@ -42904,16 +35684,6 @@ Destination configured in the previous step has been created.
 Hierarchy and have the following settings:
 flag Only manual Kanban call set to false.
 
-644
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 645
-
-How to Integrate Opcenter Execution Discrete with Other Systems
-How to Benefit from Integration with Siemens OPC IN Traceability Application
-
 Material Source set to the Output Message Definition configured at step 2 .
 Threshold set to a value below which a Kanban Call is automatically generated.
 By means of this configuration, all Line Side Positions trigger messages to DIS and messages are forwarded
@@ -42922,8 +35692,8 @@ Opcenter Intraplant Logistics currently manages Kanban calls with the quantity o
 an integer: therefore, the DIS connector implementing the integration will round up any quantities that are
 not integers to the next-highest integer value.
 
-19.5 How to Benefit from Integration with Siemens OPC IN
-Traceability Application
+### 19.5 How to Benefit from Integration with Siemens OPC IN Traceability Application
+
 Integration with Opcenter Intelligence Traceability Application allows you to streamline quality activities so that it
 is possible to clearly identify the production items, possibly coming from different sources, which have issues and
 isolate them from the production as soon as possible.
@@ -42960,21 +35730,12 @@ history is traced to inform that the Material Tracking Unit has been set as InCo
 4. The Containment Request History is enriched with the information about the newly imported Request and its
 Items.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-645
-
-
-## Pagina 646
-
-How to Integrate Opcenter Execution Discrete with Other Systems
-How to Benefit from Integration with Siemens OPC IN Traceability Application
-
 5. The Material Tracking Units flagged as InContainment are now locked so that they cannot proceed further in the
 production (for example, they cannot be started, completed, consumed, co-produced, assigned to any Work
 Order, traced etc).
 
-19.5.1 Prerequisites to import Containment Releases
+#### 19.5.1 Prerequisites to import Containment Releases
+
 Integration with OPC IN is properly configured, as described in the Opcenter Execution Discrete Installation and
 Configuration Manual.
 Integration with OPC IN Traceability Application has been enabled in Opcenter EX DS through the dedicated
@@ -42984,7 +35745,8 @@ the required time based and filter configuration.
 Data related to Work Orders execution are shown by the OPC IN Traceability Application.
 In the OPC IN Traceability Application a Containment Request Release has been created.
 
-19.5.2 Workflow
+#### 19.5.2 Workflow
+
 1. The Containment Request related to the incoming Containment Release is identified in Opcenter Execution
 Discrete environment with the related Containment Request Items.
 2. The Containment Request is set in status Released if the OOTB lifecycle is configured, otherwise it is set in the
@@ -43000,17 +35762,8 @@ Containment Request and its Containment Request Items.
 5. The Material Tracking Units removed from InContainment (either because the issue has been solved or the
 Containment Request has been cancelled) can now proceed again in the production as usual.
 
-646
+## 20 Deprecated Functionalities
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 647
-
-Deprecated Functionalities
-Configuring Defects (Deprecated)
-
-20 Deprecated Functionalities
 The following functionalities have been deprecated, each page contains the links to the alternative procedures:
 Configuring Defects (Deprecated)
 Configuring 3D Printers (Deprecated)
@@ -43020,7 +35773,8 @@ Recycling Powder Material Batches (Deprecated)
 Mixing Powder Material Batches (Deprecated)
 Displaying Powder Genealogy (Deprecated)
 
-20.1 Configuring Defects (Deprecated)
+### 20.1 Configuring Defects (Deprecated)
+
 Failures must be used instead of Defects that have been deprecated.
 Defects are abstract representations of possible problems or anomalies that can happen during the manufacturing
 processes. Defects can be categorized and divided into groups, which can optionally be associated with specific
@@ -43053,16 +35807,6 @@ Product and Production Configuration > Defect Groups in the
 2. Click
 Create.
 3. Set the following parameters:
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-647
-
-
-## Pagina 648
-
-Deprecated Functionalities
-Configuring Defects (Deprecated)
 
 Parameter
 
@@ -43123,8 +35867,6 @@ Product and Production Configuration > Defect Types in the
 Create.
 3. Set the following parameters:
 
-648
-
 Parameter
 
 Description
@@ -43138,12 +35880,6 @@ Name
 
 Name of the Defect.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 649
-
-Deprecated Functionalities
 Configuring 3D Printers (Deprecated)
 
 Parameter
@@ -43161,7 +35897,8 @@ The Defect Group you want to associate with the Defect.
 
 4. Click Create.
 
-20.2 Configuring 3D Printers (Deprecated)
+### 20.2 Configuring 3D Printers (Deprecated)
+
 Starting from version 4.2, the 3D Printers page has been replaced by a new one provided by the
 PrintJobFile App. The old page, described below and provided by the AppU4DM App, is contained neither
 in the Siemens_SIT_UADM nor in the Siemens_OPC_EXDS_AM UI Application but it has been installed
@@ -43196,21 +35933,12 @@ The name of the Plugin that manages the Print Job File transfer.
 
 4. Click Save.
 
-20.3 Configuring Powder Materials (Deprecated)
+### 20.3 Configuring Powder Materials (Deprecated)
+
 Starting from version 4.2, Powder Materials must be configured from the Powders page. This functionality
 has been maintained in the Materials page, only for compatibility reasons.
 Powder Materials represent a type of Material peculiar to Additive Manufacturing and from which Powder Material
 Batches are instantiated at runtime. This particular type of Material requires specific configuration.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-649
-
-
-## Pagina 650
-
-Deprecated Functionalities
-Creating Powder Material Batches (Deprecated)
 
 Your starting point remains the procedure for configuring a Material from scratch, but you must set additional
 parameters if the Material you are configuring is intended for instantiating a Powder Material Batch.
@@ -43246,7 +35974,8 @@ Material Batch is set to Quarantine, thus making it unavailable for production.
 
 4. Click Save.
 
-20.4 Creating Powder Material Batches (Deprecated)
+### 20.4 Creating Powder Material Batches (Deprecated)
+
 Starting from version 4.2, Powder Material Batches must be configured from the Powder Batches page.
 This functionality has been maintained in the Material Tracking Units page, only for compatibility
 reasons.
@@ -43263,16 +35992,6 @@ mixing during runtime.
 As other batch-type MTUs, existing Powder Material Batches can be split into smaller batches or, conversely, mixed
 to create greater ones.
 It is possible to change the status of a Powder Material batch according to your needs.
-
-650
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 651
-
-Deprecated Functionalities
-Creating Powder Material Batches (Deprecated)
 
 In certain contexts (for example, when mixing Powder Material Batches), you can force a Powder Material
 batch to transition to any state, even if contrary to what is standard behavior regarding its lifecycle:
@@ -43336,17 +36055,10 @@ and click
 .
 3. Edit the Verb field according to your needs and click Save.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-651
-
-
-## Pagina 652
-
-Deprecated Functionalities
 Recycling Powder Material Batches (Deprecated)
 
-20.5 Recycling Powder Material Batches (Deprecated)
+### 20.5 Recycling Powder Material Batches (Deprecated)
+
 Starting from version 4.2, the Powder Recycle page has been replaced with a new one provided by the
 PowderMgt App. The old page, described below and provided by the AppU4DM App, is contained neither
 in the Siemens_SIT_UADM nor in the Siemens_OPC_EXDS_AM UI Application but it has been installed
@@ -43379,7 +36091,8 @@ by using the Current Recycle Count and the Maximum Recycle Count parameters. If 
 Count becomes greater than the Maximum Recycle Count, the status of this Powder Material batch is
 automatically set to Spent, and the Powder Material batch becomes unavailable for production.
 
-20.6 Mixing Powder Material Batches (Deprecated)
+### 20.6 Mixing Powder Material Batches (Deprecated)
+
 Starting from version 4.2, the Powder Batch Mixing page has been replaced with a new one provided by
 the PowderMgt App. The old page, described below and provided by the AppU4DM App, is contained
 neither in the Siemens_SIT_UADM nor in the Siemens_OPC_EXDS_AM UI Application but it has been
@@ -43389,16 +36102,6 @@ new batch can be used for 3D printing. You can mix leftover Powder Material from
 unused Powder Material batches, to create new Powder Material batches. The newly-created batch can then be
 consumed by a Work Order Operation.
 It is then possible to display the genealogy of Powder Material Batches to verify how they have been mixed.
-
-652
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 653
-
-Deprecated Functionalities
-Mixing Powder Material Batches (Deprecated)
 
 Secondary effects of mixing Powder Material Batches
 When a Mix involving a Powder Material Batch to which one or more Documents have been associated
@@ -43453,16 +36156,6 @@ The system sets this field to a value that equals the sum of the quantities of b
 Material batches. You can change this value. The quantity of the Powder Material batch must
 be at least 1; otherwise, you cannot complete the mixing job.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-653
-
-
-## Pagina 654
-
-Deprecated Functionalities
-Mixing Powder Material Batches (Deprecated)
-
 Paramete
 r
 
@@ -43471,7 +36164,6 @@ Description
 Minimum
 Quantity
 Threshol
-d
 
 The minimum value you want to set for the quantity, below which the new Powder Material
 batch will not be considered valid for production. The system automatically populates this field
@@ -43506,8 +36198,6 @@ Shopfloor Execution > Powder Batch Mixing in the sidebar.
 button.
 4. Set the following parameters:
 
-654
-
 Paramet
 er
 
@@ -43535,20 +36225,11 @@ Powder Material batch must be at least 1; otherwise, you cannot complete the mix
 Minimum
 Quantity
 Threshol
-d
 
 The minimum value you want to set for the quantity, below which the new Powder Material
 batch will not be considered valid for production. The system automatically populates this field
 with the value set as the quantity threshold during the configuration of the Material to which
 the selected batch belongs, but you can change it.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 655
-
-Deprecated Functionalities
-Mixing Powder Material Batches (Deprecated)
 
 Paramet
 er
@@ -43556,7 +36237,6 @@ er
 Description
 
 Maximu
-m
 Recycle
 Count
 
@@ -43598,7 +36278,6 @@ Powder Material batch must be at least 1; otherwise, you cannot complete the mix
 New
 Material
 Maximu
-m
 Recycle
 Count
 
@@ -43622,23 +36301,14 @@ be edited according to your needs. In this particular context, threshold checks 
 to the status transitions that you want to apply. Therefore, use caution when performing an Override when
 you are operating in the Powder Material Mixing page.
 
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-655
-
-
-## Pagina 656
-
-Deprecated Functionalities
-Displaying Powder Genealogy (Deprecated)
-
 Changing the status of a Powder Material Batch, as well as other actions (such as linking and unlinking
 Documents) that are performed from the Powder Batch Mixing screen are traced in the History tab. Such
 details include: the user who performed the action, the date and time when the action was performed, the
 action that was performed on the Powder Material Batch (for example, changes in status, linking/unlinking
 of Documents) and so forth.
 
-20.7 Displaying Powder Genealogy (Deprecated)
+### 20.7 Displaying Powder Genealogy (Deprecated)
+
 Starting from version 4.2, the Powder Genealogy page has been replaced with a new one provided by the
 PowderMgt App. The old page, described below and provided by the AppU4DM App, is contained neither
 in the Siemens_SIT_UADM nor in the Siemens_OPC_EXDS_AM UI Application but it has been installed
@@ -43685,16 +36355,6 @@ Perform the following operations to customize the Powder Material Batch Genealog
 To change the size of the graph, click to the left or right of the Zoom slide.
 To display the entire graph on a single page, click Auto Fit.
 
-656
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-
-## Pagina 657
-
-Deprecated Functionalities
-Displaying Powder Genealogy (Deprecated)
-
 To display a window containing a preview of the entire graph, click Pan and Zoom, and then:
 Move the display box to pan the graph.
 Click the lower right corner of the display box to resize the graph.
@@ -43707,7 +36367,3 @@ of the right panel displays their list, that can be sorted clicking on
 .
 
 to download a Document.
-
-Opcenter Execution Discrete 2507.0001 - User Manual
-
-657

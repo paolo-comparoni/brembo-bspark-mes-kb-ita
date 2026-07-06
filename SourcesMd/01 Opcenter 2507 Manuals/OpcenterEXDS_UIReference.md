@@ -1,332 +1,78 @@
-# OpcenterEXDS_UIReference
+---
+title: "OpcenterEXDS_UIReference"
+source_file: "SourcesMd/01 Opcenter 2507 Manuals/OpcenterEXDS_UIReference.md"
+project: "Brembo B-Spark - Standard Platform Documentation"
+platform: "Siemens Opcenter Execution Discrete 2507"
+scope: "Core_Standard_Manual"
+plants: [SHARED]
+---
 
-> Documento sorgente: `E:\BremboDocs\01 Opcenter 2507 Manuals\OpcenterEXDS_UIReference.pdf`  
-> Tipo: PDF · Pagine: 83
+# Opcenter Execution Discrete 2507 - UI Reference and Customization Manual
 
+> Documento sorgente: `E:\BremboDocs\01 Opcenter 2507 Manuals\OpcenterEXDS_UIReference.pdf`
+> Tipo: PDF - Pagine originali: 83
 
-## Pagina 1
+## Publication Information
 
-Opcenter Execution Discrete 2507.0001
+- **Product**: Opcenter Execution Discrete
+- **Version**: 2507.0001
+- **Document**: UI Reference and Customization Manual
+- **Publication date**: 10/2025
+- **Revision**: PL20250808636629882
+- **Publisher**: Siemens AG, Digital Industries
+- **Copyright**: © Siemens AG 2025
+- **Document code**: 20251024_141854
+- **Notice**: Technical data subject to change
+- **Address**: Postfach 48 48, 90026 NÜRNBERG, GERMANY
 
-UI Reference and Customization Manual
+## Guidelines
 
-10/2025
-PL20250808636629882
+This manual contains notes of varying importance that should be read with care:
 
+- **Important**: Highlights key information on handling the product, the product itself, or a particular part of the documentation.
+- **Note**: Provides supplementary information regarding handling the product, the product itself, or a specific part of the documentation.
 
-## Pagina 2
+### Trademarks
 
-Guidelines
-This manual contains notes of varying importance that should be read with care; i.e.:
-Important:
-Highlights key information on handling the product, the product itself or to a particular part of the documentation.
-Note: Provides supplementary information regarding handling the product, the product itself or a specific part of
-the documentation.
-Trademarks
-All names identified by ® are registered trademarks of Siemens AG.
-The remaining trademarks in this publication may be trademarks whose use by third parties for their own purposes
-could violate the rights of the owner.
-Disclaimer of Liability
-We have reviewed the contents of this publication to ensure consistency with the hardware and software
-described. Since variance cannot be precluded entirely, we cannot guarantee full consistency. However, the
-information in this publication is reviewed regularly and any necessary corrections are included in subsequent
-editions.
-Cybersecurity Information
-Siemens provides products and solutions with industrial cybersecurity functions that support the secure operation
-of plants, systems, machines and networks.
-In order to protect plants, systems, machines and networks against cyber threats, it is necessary to implement and continuously maintain - a holistic, state-of-the-art industrial cybersecurity concept. Siemens products and
-solutions constitute one element of such a concept.
-Customers are responsible for preventing unauthorized access to their plants, systems, machines and networks.
-Such systems, machines and components should only be connected to an enterprise network or the internet if and
-to the extent such a connection is necessary and only when appropriate security measures (e.g. firewalls and/or
-network segmentation) are in place.
-For additional information on industrial cybersecurity measures that may be implemented, please visit
-https://www.siemens.com/cybersecurity-industry.
+All names identified by ® are registered trademarks of Siemens AG. The remaining trademarks in this publication may be trademarks whose use by third parties for their own purposes could violate the rights of the owner.
 
-Siemens products and solutions undergo continuous development to make them more secure. Siemens strongly
-recommends that product updates are applied as soon as they are available and that the latest product versions
-are used. Use of product versions that are no longer supported, and failure to apply the latest updates may increase
-customer’s exposure to cyber threats.
+### Disclaimer of Liability
 
-To stay informed about product updates, subscribe to the Siemens Industrial Cybersecurity RSS feed under
-https://www.siemens.com/cert.
+We have reviewed the contents of this publication to ensure consistency with the hardware and software described. Since variance cannot be precluded entirely, we cannot guarantee full consistency. However, the information in this publication is reviewed regularly and any necessary corrections are included in subsequent editions.
 
-Siemens AG
+### Cybersecurity Information
 
-PL20250808636629882
+Siemens provides products and solutions with industrial cybersecurity functions that support the secure operation of plants, systems, machines and networks.
 
-Copyright © Siemens AG 2025
+In order to protect plants, systems, machines and networks against cyber threats, it is necessary to implement and continuously maintain a holistic, state-of-the-art industrial cybersecurity concept. Siemens products and solutions constitute one element of such a concept.
 
-Digital Industries
+Customers are responsible for preventing unauthorized access to their plants, systems, machines and networks. Such systems, machines and components should only be connected to an enterprise network or the internet if and to the extent such a connection is necessary and only when appropriate security measures (for example, firewalls and/or network segmentation) are in place.
 
-20251024_141854
+For additional information on industrial cybersecurity measures that may be implemented, please visit https://www.siemens.com/cybersecurity-industry.
 
-Technical data subject to change
+Siemens products and solutions undergo continuous development to make them more secure. Siemens strongly recommends that product updates are applied as soon as they are available and that the latest product versions are used. Use of product versions that are no longer supported, and failure to apply the latest updates may increase the customer's exposure to cyber threats.
 
-Postfach 48 48
-90026 NÜRNBERG
-GERMANY
+To stay informed about product updates, subscribe to the Siemens Industrial Cybersecurity RSS feed at https://www.siemens.com/cert.
 
+## Document Metadata
 
-## Pagina 3
+| Field | Value |
+| --- | --- |
+| ID | OpcenterEXDS_UIReference |
+| Title | UI Reference and Customization Manual |
+| Product Title | Opcenter Execution Discrete |
+| Version Title | 2507.0001 |
+| Product Version | OpcenterEXDS_2507.0001 |
+| Category | Development, Support |
+| Summary | Provides information on how to customize the UI provided by Opcenter Execution Discrete |
+| Audience | System Integrator, Support Engineer, Project Engineer, Commissioning Engineer, Developer |
+| Revision | PL20250808636629882 |
+| State | Published |
+| Author | Siemens AG |
+| Language | en-US |
 
-Table of Contents
-1
+## 1 Essentials to Approaching UI Customization in Opcenter Execution Discrete
 
-Essentials to Approaching UI Customization in Opcenter Execution Discrete ..7
-
-2
-
-How to Create a Custom Application ...................................................................9
-
-3
-
-How to Customize the User Interface.................................................................11
-
-3.1
-
-Identifying the Customizable Providers...................................................................................11
-
-3.2
-
-Customizing the Item Collection Viewers ................................................................................12
-
-3.2.1 Item Collector Viewer Service .................................................................................................................................13
-
-3.3
-
-Customizing the Property Grids ...............................................................................................13
-
-3.3.1 Property Grid Service ..............................................................................................................................................14
-
-3.4
-
-Customizing the Command Bars..............................................................................................19
-
-3.5
-
-Customizing the Menu Buttons ................................................................................................21
-
-3.6
-
-Customizing the Tab Controls ..................................................................................................21
-
-3.7
-
-Customizing oData Queries and Backend Commands ...........................................................22
-
-3.8
-
-Customizing the Icons...............................................................................................................25
-
-3.9
-
-Customizing the Default UI Configuration...............................................................................26
-
-3.10 Customizing the UI Module Initialization.................................................................................26
-
-4
-
-Opcenter Execution Discrete UI Modules...........................................................28
-
-4.1
-
-CLM Resource Management UI Module ...................................................................................29
-
-4.2
-
-Configuration Keys UI Module ..................................................................................................29
-
-4.3
-
-DCD Engineering UI Module......................................................................................................30
-
-4.4
-
-Defect Type Management UI Module .......................................................................................31
-
-4.5
-
-Document Management UI Module .........................................................................................32
-
-4.6
-
-Genealogy UI Module ................................................................................................................32
-
-4.7
-
-High Automation Mashup UI Module .......................................................................................33
-
-4.7.1 High Automation Details Screen.............................................................................................................................34
-4.7.2 High Automation Operator Landing Screen...........................................................................................................35
-4.7.3 High Automation Operator Task List Screen..........................................................................................................35
-
-4.8
-
-Labor Tracking Management UI Module..................................................................................35
-
-4.9
-
-Non-Conformance Lifecycle UI Module ...................................................................................36
-
-4.10 Non-Conformance Notification Management UI Module .......................................................38
-4.11 Non-Conformance Supervisor Management UI Module .........................................................38
-4.12 Operation/Step Category UI Module........................................................................................40
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-iii
-
-
-## Pagina 4
-
-4.13 Operator Landing Mashup UI Module ......................................................................................41
-4.13.1 Operator Detail Screen............................................................................................................................................42
-4.13.2 Operator Detail Steps Screen..................................................................................................................................42
-4.13.3 Operator Landing Task List Screen.........................................................................................................................43
-4.13.4 Operator Landing Home Screen .............................................................................................................................43
-
-4.14 Order Work In Progress UI Module ...........................................................................................43
-4.15 PowderGenealogy UI Module ...................................................................................................44
-4.16 Process Catalog Management UI Module (Deprecated) .........................................................45
-4.17 Team Management UI Module .................................................................................................45
-4.18 Transport Operation Landing UI Module .................................................................................46
-4.19 Users and Skills UI Module........................................................................................................47
-4.20 Work Order As Built UI Module .................................................................................................48
-4.21 Work Order As Planned BOP UI Module ...................................................................................50
-4.22 Work Order Status UI Module (Deprecated) ............................................................................51
-
-5
-
-Opcenter Execution Discrete UI Components ...................................................53
-
-5.1
-
-Button Bar UI Component ........................................................................................................53
-
-5.2
-
-Bill of Materials UI Component.................................................................................................56
-
-5.3
-
-Customizable Button Bar UI Component ................................................................................58
-
-5.4
-
-High Automation Header Bar UI Component ..........................................................................59
-
-5.5
-
-Declare Defect UI Component ..................................................................................................60
-
-5.6
-
-Document Preview UI Component...........................................................................................61
-
-5.7
-
-Execution Group Details UI Component ..................................................................................63
-
-5.8
-
-Execution Groups Document Preview UI Component ............................................................64
-
-5.9
-
-Execution Groups Header Bar UI Component .........................................................................65
-
-5.10 High Automation Equipment List UI Component....................................................................66
-5.11 Load Powder UI Component ....................................................................................................66
-5.12 Material Production UI Component .........................................................................................67
-5.13 Material Tracking UI Component .............................................................................................68
-5.14 Operation Header Bar UI Component......................................................................................68
-5.15 Operation List UI Component...................................................................................................69
-5.16 Part Program UI Component ....................................................................................................71
-5.17 Print Job File UI Component ....................................................................................................72
-5.18 Quality Inspection UI Component............................................................................................72
-
-iv
-
-Opcenter Execution Discrete2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 5
-
-5.19 Step List UI Component ............................................................................................................73
-5.20 Task Details UI Component (Deprecated) ...............................................................................74
-5.21 Task Container UI Component .................................................................................................77
-5.22 Task Viewer UI Component ......................................................................................................80
-5.23 Tracking AM Powder UI Component ........................................................................................81
-5.24 Work Order Routing UI Component .........................................................................................82
-5.25 Zero Touch Component UI Component...................................................................................82
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-v
-
-
-## Pagina 6
-
-6
-
-ID
-
-OpcenterEXDS_UIReference
-
-Title
-
-UI Reference and Customization Manual
-
-Product Title
-
-Opcenter Execution Discrete
-
-Version Title
-
-2507.0001
-
-Product Version
-
-OpcenterEXDS_2507.0001
-
-Category
-
-Development, Support
-
-Summary
-
-Provides information on how to customize the UI provided by Opcenter Execution Discrete
-
-Audience
-
-System Integrator, Support Engineer, Project Engineer, Commissioning Engineer, Developer
-
-Revision
-
-PL20250808636629882
-
-State
-
-Published
-
-Author
-
-Siemens AG
-
-Language
-
-en-US
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 7
-
-Essentials to Approaching UI Customization in Opcenter Execution Discrete
-
-1 Essentials to Approaching UI Customization in Opcenter
-Execution Discrete
 Customization is necessary whenever what is provided by default in Opcenter Execution Discrete does not
 completely satisfy your project's requirements.
 Depending on your needs, you can choose to:
@@ -384,15 +130,6 @@ Service
 Function or object that is available for an Angular application. A Service can be used across
 different Controllers in a consistent manner.
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-7
-
-
-## Pagina 8
-
-Essentials to Approaching UI Customization in Opcenter Execution Discrete
-
 Term
 
 Definition
@@ -411,16 +148,8 @@ standard icons service: u4dm.services.icons
 custom icons service: u4dm.services.icons_custom
 Checking for custom Angular Providers is performed according to the following workflow:
 
-8
+## 2 How to Create a Custom Application
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 9
-
-How to Create a Custom Application
-
-2 How to Create a Custom Application
 Customizing Opcenter Execution Discrete is required whenever you need to extend the data model and/or the
 related business logic. This may be for example:
 new properties of Opcenter EX DS entities
@@ -442,15 +171,6 @@ are valid for any other App that you want to extend in your solution.
 
 Workflow
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-9
-
-
-## Pagina 10
-
-How to Create a Custom Application
-
 1. In Project Studio:
 Create a Custom Functional Block.
 Create the commands to interact with.
@@ -465,17 +185,8 @@ In the Opcenter EX DS solution, add the Extension App to the AppU4DM App .
 Associate any custom Command to a master or runtime worker.
 Build and deploy the Solution.
 
-10
+## 3 How to Customize the User Interface
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 11
-
-How to Customize the User Interface
-Identifying the Customizable Providers
-
-3 How to Customize the User Interface
 Customizing the User Interface is generally required while creating a Custom Application, in order to implement the
 desired modifications to the graphical layout and/or to the data model.
 If you want to customize a Model-driven UI module in general, refer to How to Extend User Interfaces in an Extension
@@ -514,20 +225,11 @@ Icons
 Default UI configuration
 UI Module Initialization
 
-3.1 Identifying the Customizable Providers
+### 3.1 Identifying the Customizable Providers
+
 While customizing the User Interface, you need to identify which Angular Providers (UI Modules, UI Components or
 Services) are called when the page is displayed, and to do this you can examine the console log available in the
 Developer Tools of the web browser.
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-11
-
-
-## Pagina 12
-
-How to Customize the User Interface
-Customizing the Item Collection Viewers
 
 Procedure
 1. In one of the supported Web Browsers, click F12 to enter Developer Tools mode.
@@ -555,7 +257,8 @@ standard one;
 NOT FOUND: providerName_custom is not present, therefore only the standard
 providerName has been loaded.
 
-3.2 Customizing the Item Collection Viewers
+### 3.2 Customizing the Item Collection Viewers
+
 This example of User Interface customization allows you to add or remove fields from the Item Collection Viewers of
 the application.
 
@@ -572,17 +275,8 @@ selectionChanged, 'workorder-status-list');
 vm.icvConfig = u4dmSvc.customizator.customizeICV(controllerName, options);
 }
 
-12
+#### 3.2.1 Item Collector Viewer Service
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 13
-
-How to Customize the User Interface
-Customizing the Property Grids
-
-3.2.1 Item Collector Viewer Service
 While customizing the Item Collector Viewers, you can use the Item Collector Viewer Service to set a standard ICV
 configuration for each entity.
 
@@ -643,7 +337,8 @@ yList(newfields.status);
 options.removeFieldInTilePropert
 yList(newfields.RecycleCount);
 
-3.3 Customizing the Property Grids
+### 3.3 Customizing the Property Grids
+
 This example of User Interface customization allows you to customize the behavior of Property Grids, which is
 essential for viewing and modifying custom field values.
 
@@ -653,16 +348,6 @@ Procedure
 the Siemens.SimaticIT.U4DM.AppU4DM.services.customServices module.
 3. Create a function called propertyGridConfig inside the service to customize the retrieval function. If you have
 more than one Property Grid on the page, you need to create corresponding functions with different names.
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-13
-
-
-## Pagina 14
-
-How to Customize the User Interface
-Customizing the Property Grids
 
 var mod = angular.module('Siemens.SimaticIT.U4DM.AppU4DM.services.customServices')
 .service('workOrderStatus_workOrderAdd_Ctrl_custom ', ['u4dm.services',
@@ -688,7 +373,8 @@ return propGridMgr;
 }
 }
 
-3.3.1 Property Grid Service
+#### 3.3.1 Property Grid Service
+
 While customizing the Property Grids, you can use the Property Grid Service to provide an interface to configure the
 Property Grid widget. The Property Grid Service acts as a constructor function for the Property Grid.
 
@@ -711,16 +397,6 @@ checkSpecialChars: true,
 onChange: function(oldVal, newVal, form){...},
 customValidation: function(val, model){...}
 });
-
-14
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 15
-
-How to Customize the User Interface
-Customizing the Property Grids
 
 Method
 
@@ -791,16 +467,6 @@ showButtonInViewMode: true //if button has to be displayed in
 view mode
 });
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-15
-
-
-## Pagina 16
-
-How to Customize the User Interface
-Customizing the Property Grids
-
 Method
 
 Example
@@ -859,16 +525,6 @@ searchField: 'Name' //required in case if the
 displayProperty is a custom property
 } // Array or a Promise,
 displayProperty: 'NId',
-
-16
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 17
-
-How to Customize the User Interface
-Customizing the Property Grids
 
 Method
 
@@ -931,16 +587,6 @@ valueProperty: 'Id'
 onChange: onChangeCallback //For selection change
 });
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-17
-
-
-## Pagina 18
-
-How to Customize the User Interface
-Customizing the Property Grids
-
 Method
 
 Example
@@ -984,16 +630,6 @@ moment.duration object or a plain JS object with structure
 {seconds: s, minutes: m, hours: h},
 displayValue: "someText"//To set the value in readOnly mode.
 })
-
-18
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 19
-
-How to Customize the User Interface
-Customizing the Command Bars
 
 Method
 
@@ -1047,21 +683,12 @@ showButtonInViewMode: true //if button has to be displayed in
 view mode
 });
 
-3.4 Customizing the Command Bars
+### 3.4 Customizing the Command Bars
+
 This example of User Interface customization allows you to change the behavior of every Command Bar in the
 application.
 
 Procedure
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-19
-
-
-## Pagina 20
-
-How to Customize the User Interface
-Customizing the Command Bars
 
 1. Create a .js file into a custom folder of your custom App.
 2. Create a service called [controller Name]_custom into
@@ -1114,16 +741,6 @@ button.visibility = false;
 }
 return standardConfig;
 
-20
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 21
-
-How to Customize the User Interface
-Customizing the Menu Buttons
-
 };
 this.commandBarConfig = function (standardConfig) {
 standardConfig.bar.push(button);
@@ -1131,7 +748,8 @@ return standardConfig;
 }
 }
 
-3.5 Customizing the Menu Buttons
+### 3.5 Customizing the Menu Buttons
+
 This example of User Interface customization allows you to modify the behavior of the Menu Buttons of the
 application.
 
@@ -1156,7 +774,8 @@ return standardConfig;
 };
 }
 
-3.6 Customizing the Tab Controls
+### 3.6 Customizing the Tab Controls
+
 This example of User Interface customization allows you to add or remove tabs in the Tab Controls of the
 application.
 Task Details UI Component Customization
@@ -1167,16 +786,6 @@ Procedure
 1. Create a .js file inside a custom folder of your custom App.
 2. Create a service called [Controller Name]_custom inside
 the Siemens.SimaticIT.U4DM.AppU4DM.services.customServices module.
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-21
-
-
-## Pagina 22
-
-How to Customize the User Interface
-Customizing oData Queries and Backend Commands
 
 3. Create a function called tabsConfig inside the service.
 
@@ -1197,7 +806,8 @@ return tabs;
 };
 }
 
-3.7 Customizing oData Queries and Backend Commands
+### 3.7 Customizing oData Queries and Backend Commands
+
 This example of User Interface customization shows how you can override oData queries and Backend Commands
 called by the User Interface through the API services. This allows you to retrieve custom data.
 Every module must have a dedicated service containing the logic of the module, as well as all the calls to the
@@ -1221,16 +831,6 @@ Example for Angular Factory procedure
 //1) Create a javascript file in a custom folder of your custom App
 var mod =
 angular.module('Siemens.SimaticIT.U4DM.AppU4DM.services.customServices');
-
-22
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 23
-
-How to Customize the User Interface
-Customizing oData Queries and Backend Commands
 
 //2) Create a factory called [App Name].[Service Name]_custom in module
 Siemens.SimaticIT.U4DM.AppU4DM.services.customServices.
@@ -1276,16 +876,6 @@ Procedure via Angular Service
 Name].[Service Name]_custom.
 3. Operating inside the service, do either of the following:
 Create a function called getAll to customize the data-retrieval function.
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-23
-
-
-## Pagina 24
-
-How to Customize the User Interface
-Customizing oData Queries and Backend Commands
 
 Create a function called getAll_inject to customize the data-retrieval function using the standard
 function provided by Opcenter EX DS (passed as a parameter).
@@ -1334,16 +924,6 @@ return result;
 return myGetAll;
 };
 
-24
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 25
-
-How to Customize the User Interface
-Customizing the Icons
-
 this.createFromProcess = function (item) {
 var payload = createPayload(item);
 var deferred = $q.defer();
@@ -1370,7 +950,8 @@ return deferred.promise;
 };
 }
 
-3.8 Customizing the Icons
+### 3.8 Customizing the Icons
+
 This example of User Interface customization allows you to change the icon of every page in the whole application.
 
 Procedure
@@ -1389,22 +970,13 @@ function myIconsService(customizator) {
 this.customizeIcons = function (icons) {
 //modify the collection
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-25
-
-
-## Pagina 26
-
-How to Customize the User Interface
-Customizing the Default UI Configuration
-
 return icons;
 }
 }
 })();
 
-3.9 Customizing the Default UI Configuration
+### 3.9 Customizing the Default UI Configuration
+
 This example of User Interface customization allows you to modify the default configuration of the User Interface.
 For example, it allows you to change how the grids are displayed, their pagination options, which filters are active,
 and so on.
@@ -1430,7 +1002,8 @@ return uiConfiguration;
 }
 })();
 
-3.10 Customizing the UI Module Initialization
+### 3.10 Customizing the UI Module Initialization
+
 If your custom Module is using services related to an App or an Ext App, it is necessary to indicate this dependency
 as described below.
 
@@ -1441,31 +1014,12 @@ Procedure
 'use strict';
 angular.module(MyCustomApp', ['DependentModule']);
 
-26
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 27
-
-How to Customize the User Interface
-Customizing the UI Module Initialization
-
 })();
 
 3. Save the module.js file.
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
+## 4 Opcenter Execution Discrete UI Modules
 
-27
-
-
-## Pagina 28
-
-Opcenter Execution Discrete UI Modules
-Customizing the UI Module Initialization
-
-4 Opcenter Execution Discrete UI Modules
 User Interface Modules used by Opcenter Execution Discrete are of three types:
 Standard UI Modules, created with Javascript code;
 Mashup UI Modules, created with Opcenter Execution Foundation Mashup Editor;
@@ -1513,16 +1067,6 @@ To retrieve the list of Model-driven UI Modules:
 1. From Windows Apps, in the Siemens Automation category, click the Opcenter EX FN Solution Studio link.
 2. In the web page, log in to the Opcenter EX FN Solution Studio in either of the following ways:
 
-28
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 29
-
-Opcenter Execution Discrete UI Modules
-CLM Resource Management UI Module
-
 Insert the credentials of the user with administrator rights and click Sign In.
 Click Use your current Windows session to Log In link to access the application with the current user
 credentials.
@@ -1531,7 +1075,8 @@ credentials.
 Open.
 5. The Model-driven UI Modules are those indicated with ModelDriven in the UI Module Type column.
 
-4.1 CLM Resource Management UI Module
+### 4.1 CLM Resource Management UI Module
+
 This UI module manages features related to the CLM Resources.
 
 Name
@@ -1564,7 +1109,8 @@ clmResourceMgt_Svc
 
 clm-resource-mgt-srv.js
 
-4.2 Configuration Keys UI Module
+### 4.2 Configuration Keys UI Module
+
 This UI module manages the Configuration Keys used to customize the application behavior.
 
 Name
@@ -1578,16 +1124,6 @@ Angular State
 Configuration Keys
 
 home.Siemens_SimaticIT_U4DM_AppU4DM_configKeys
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-29
-
-
-## Pagina 30
-
-Opcenter Execution Discrete UI Modules
-DCD Engineering UI Module
 
 Angular Controllers related to the Module
 Name
@@ -1611,7 +1147,8 @@ configKeys_Svc
 
 configKeys-srv.js
 
-4.3 DCD Engineering UI Module
+### 4.3 DCD Engineering UI Module
+
 This UI module manages features related to Data Collections.
 
 Name
@@ -1653,16 +1190,6 @@ workInstruction-list-ctrl.js
 
 Services related to the Module
 
-30
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 31
-
-Opcenter Execution Discrete UI Modules
-Defect Type Management UI Module
-
 Name
 
 File Name
@@ -1671,7 +1198,8 @@ workInstruction_Svc
 
 workInstruction-srv.js
 
-4.4 Defect Type Management UI Module
+### 4.4 Defect Type Management UI Module
+
 This UI module manages features related to the Defect Types.
 
 Name
@@ -1731,16 +1259,6 @@ defectTypeMgt_selectDetails_Ctrl
 
 defectTypeMgt-select-details-ctrl.js
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-31
-
-
-## Pagina 32
-
-Opcenter Execution Discrete UI Modules
-Document Management UI Module
-
 Name
 
 File Name
@@ -1762,7 +1280,8 @@ defectTypeMgt_Svc
 
 defectTypeMgt-srv.js
 
-4.5 Document Management UI Module
+### 4.5 Document Management UI Module
+
 This UI module manages features related to Documents.
 
 Name
@@ -1799,18 +1318,9 @@ documentsvc
 
 document-srv.js
 
-4.6 Genealogy UI Module
+### 4.6 Genealogy UI Module
+
 This UI module manages features related to Item Genealogy.
-
-32
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 33
-
-Opcenter Execution Discrete UI Modules
-High Automation Mashup UI Module
 
 Name
 Siemens.SimaticIT.U4DM.AppU4DM.Genealogy
@@ -1855,7 +1365,8 @@ genealogy_Tree_Svc
 
 genealogy-tree-svc.js
 
-4.7 High Automation Mashup UI Module
+### 4.7 High Automation Mashup UI Module
+
 This UI Module manages the features related to the High Automation Operator Landing Page.
 
 Name
@@ -1873,16 +1384,6 @@ home.UADM_highAutomationOpLanding_operatorLanding
 High Automation Details Screen
 
 home.UADM_highAutomationOpLanding_operatorDetails
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-33
-
-
-## Pagina 34
-
-Opcenter Execution Discrete UI Modules
-High Automation Mashup UI Module
 
 Screen
 
@@ -1918,7 +1419,8 @@ u4dm.services.runtime.utils
 
 uadm-runtime-utils-service.js
 
-4.7.1 High Automation Details Screen
+#### 4.7.1 High Automation Details Screen
+
 This Screen belonging to the High Automation Mashup UI Module allows Operators to monitor production and track
 material consumption.
 
@@ -1940,17 +1442,8 @@ Material Tracking
 Document Preview
 Customizable Button Bar
 
-34
+#### 4.7.2 High Automation Operator Landing Screen
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 35
-
-Opcenter Execution Discrete UI Modules
-Labor Tracking Management UI Module
-
-4.7.2 High Automation Operator Landing Screen
 This Screen belonging to the High Automation Mashup UI Module allows Operator to browse and select a piece of
 Equipment where to monitor production.
 
@@ -1970,7 +1463,8 @@ UI Components related to the Screen
 High Automation Equipment List
 Customizable Button Bar
 
-4.7.3 High Automation Operator Task List Screen
+#### 4.7.3 High Automation Operator Task List Screen
+
 This Screen belonging to the the High Automation Mashup UI Module allows Operators to monitor production and
 perform the activities required by the available runtime tasks.
 
@@ -1991,23 +1485,14 @@ High Automation Header Bar
 Task Container
 Customizable Button Bar
 
-4.8 Labor Tracking Management UI Module
+### 4.8 Labor Tracking Management UI Module
+
 This UI module implements features related to manual management of Labor Tracking.
 
 Name
 Siemens.SimaticIT.U4DM.AppU4DM.laborTrackingMgt
 
 Screens and Angular States
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-35
-
-
-## Pagina 36
-
-Opcenter Execution Discrete UI Modules
-Non-Conformance Lifecycle UI Module
 
 Screen
 
@@ -2079,18 +1564,9 @@ laborTrackingMgt_Svc
 
 labor-tracking-svc.js
 
-4.9 Non-Conformance Lifecycle UI Module
+### 4.9 Non-Conformance Lifecycle UI Module
+
 This UI module manages features related to the lifecycles of Non-Conformances.
-
-36
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 37
-
-Opcenter Execution Discrete UI Modules
-Non-Conformance Lifecycle UI Module
 
 Name
 Siemens.SimaticIT.U4DM.AppU4DM.NCLifecycleMgt
@@ -2163,16 +1639,6 @@ nc-lifecycle-mgt-status.js
 
 Services related to the Module
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-37
-
-
-## Pagina 38
-
-Opcenter Execution Discrete UI Modules
-Non-Conformance Notification Management UI Module
-
 Name
 
 File Name
@@ -2181,7 +1647,8 @@ ncLifecycle_Svc
 
 nc-lifecycle-mgt-srv.js
 
-4.10 Non-Conformance Notification Management UI Module
+### 4.10 Non-Conformance Notification Management UI Module
+
 This UI module manages features related to the notification of the various Non-Conformance messages.
 
 Name
@@ -2226,21 +1693,12 @@ ncNotificationMgt_Svc
 
 nc-notification-mgt-srv.js
 
-4.11 Non-Conformance Supervisor Management UI Module
+### 4.11 Non-Conformance Supervisor Management UI Module
+
 This UI module implements the operations that the Production Coordinator can perform on the various NonConformances.
 
 Name
 Siemens.SimaticIT.U4DM.AppU4DM.NCSupervisor
-
-38
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 39
-
-Opcenter Execution Discrete UI Modules
-Non-Conformance Supervisor Management UI Module
 
 Screens and Angular States
 Screen
@@ -2320,16 +1778,6 @@ ncSupervisor_selectMachines_Ctrl
 
 nc-supervisor-select-machines-ctrl.js
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-39
-
-
-## Pagina 40
-
-Opcenter Execution Discrete UI Modules
-Operation/Step Category UI Module
-
 Name
 
 File Name
@@ -2351,7 +1799,8 @@ ncSupervisor_Svc
 
 nc-supervisor-srv.js
 
-4.12 Operation/Step Category UI Module
+### 4.12 Operation/Step Category UI Module
+
 This UI module implements features related to Operation/Step Category management.
 
 Name
@@ -2393,16 +1842,6 @@ operation-step-category-select-interlocking-ctrl.js
 
 Services related to the Module
 
-40
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 41
-
-Opcenter Execution Discrete UI Modules
-Operator Landing Mashup UI Module
-
 Name
 
 File Name
@@ -2411,7 +1850,8 @@ operationStepCategory_Svc
 
 operation-step-category-srv.js
 
-4.13 Operator Landing Mashup UI Module
+### 4.13 Operator Landing Mashup UI Module
+
 This UI Module manages the features related to the Operator Landing Page.
 
 Name
@@ -2468,16 +1908,6 @@ u4dm.services.runtime.wosteps
 
 uadm-runtime-wo-steps.js
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-41
-
-
-## Pagina 42
-
-Opcenter Execution Discrete UI Modules
-Operator Landing Mashup UI Module
-
 Name
 
 File Name
@@ -2494,7 +1924,8 @@ u4dm.services.runtime.execution-group-details-integration
 
 u4dm-execution-group-details-integration.js
 
-4.13.1 Operator Detail Screen
+#### 4.13.1 Operator Detail Screen
+
 This Screen belonging to the Operator Landing Mashup UI Module manages the features related to the details of the
 Operator.
 
@@ -2516,7 +1947,8 @@ Task Details
 Document Preview
 Button Bar
 
-4.13.2 Operator Detail Steps Screen
+#### 4.13.2 Operator Detail Steps Screen
+
 This Screen belonging to the Operator Landing Mashup UI Module manages the features related to the Work Order
 Operation steps in the Operator Landing Page.
 
@@ -2534,22 +1966,13 @@ mashup-module.js
 
 UI Components related to the Screen
 
-42
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 43
-
-Opcenter Execution Discrete UI Modules
-Order Work In Progress UI Module
-
 Operation Header Bar
 Step List
 Task Container
 Button Bar
 
-4.13.3 Operator Landing Task List Screen
+#### 4.13.3 Operator Landing Task List Screen
+
 This Screen belonging to the the Operator Landing Mashup UI Module manages the features related to the different
 available Task.
 
@@ -2570,7 +1993,8 @@ Operation Header Bar
 Task Container
 Button Bar
 
-4.13.4 Operator Landing Home Screen
+#### 4.13.4 Operator Landing Home Screen
+
 This Screen belonging to the the Operator Landing Mashup UI Module manages the main features of the Operator
 Landing page.
 
@@ -2591,18 +2015,9 @@ Operation List
 Button Bar
 Work Order Routing
 
-4.14 Order Work In Progress UI Module
+### 4.14 Order Work In Progress UI Module
+
 This UI module manages the features needed to monitor the progress of the current Work Order execution.
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-43
-
-
-## Pagina 44
-
-Opcenter Execution Discrete UI Modules
-PowderGenealogy UI Module
 
 Name
 Siemens.SimaticIT.U4DM.AppU4DM.WIP
@@ -2638,7 +2053,8 @@ wip_Svc
 
 Order-wip-srv.js
 
-4.15 PowderGenealogy UI Module
+### 4.15 PowderGenealogy UI Module
+
 This UI module manages features related to Powder Genealogy.
 
 Name
@@ -2662,16 +2078,6 @@ PowderGenealogy_powderGenealogy_Ctrl
 
 powderGenealogy-ctrl.js
 
-44
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 45
-
-Opcenter Execution Discrete UI Modules
-Process Catalog Management UI Module (Deprecated)
-
 Services related to the Module
 Name
 
@@ -2681,7 +2087,8 @@ powder_Svc
 
 powder-srv.js
 
-4.16 Process Catalog Management UI Module (Deprecated)
+### 4.16 Process Catalog Management UI Module (Deprecated)
+
 This UI module manages features related to the Process Catalog.
 This UI module is deprecated. Use Siemens.OpcenterEX.DS.BoP.ProcessCatalog.mdui UI Module
 available in the BoP App instead.
@@ -2724,18 +2131,9 @@ process_catalog_svc
 
 process-catalog-svc.js
 
-4.17 Team Management UI Module
+### 4.17 Team Management UI Module
+
 This UI module implements features related to management of Teams.
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-45
-
-
-## Pagina 46
-
-Opcenter Execution Discrete UI Modules
-Transport Operation Landing UI Module
 
 Name
 Siemens.SimaticIT.U4DM.AppU4DM.teamMgt
@@ -2767,7 +2165,8 @@ teamMgt_Svc
 
 teamMgt-srv.js
 
-4.18 Transport Operation Landing UI Module
+### 4.18 Transport Operation Landing UI Module
+
 This UI module manages the features related to the execution of Transport Operations.
 
 Name
@@ -2794,16 +2193,6 @@ transport-operation-buffer-details-ctrl.js
 transport_order_details_ctrl
 
 transport-operation-details-ctrl.js
-
-46
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 47
-
-Opcenter Execution Discrete UI Modules
-Users and Skills UI Module
 
 Name
 
@@ -2835,7 +2224,8 @@ transport_operation_srv
 
 transport-operation-srv.js
 
-4.19 Users and Skills UI Module
+### 4.19 Users and Skills UI Module
+
 This UI module manages the features related to Users and Skills.
 
 Name
@@ -2870,16 +2260,6 @@ skills-list-ctrl.js
 usersMgt_skillSelect_Ctrl
 
 skills-select-ctrl.js
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-47
-
-
-## Pagina 48
-
-Opcenter Execution Discrete UI Modules
-Work Order As Built UI Module
 
 Name
 
@@ -2918,7 +2298,8 @@ skills_Svc
 
 skills-srv.js
 
-4.20 Work Order As Built UI Module
+### 4.20 Work Order As Built UI Module
+
 This UI module manages the features related to historical data of Work Orders.
 
 Name
@@ -2945,16 +2326,6 @@ asBuilt-activity-history-ctrl.js
 userTeamAssociationHistoryCtrl
 
 asBuilt-activity-history-team-ctrl.js
-
-48
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 49
-
-Opcenter Execution Discrete UI Modules
-Work Order As Built UI Module
 
 Name
 
@@ -3036,16 +2407,6 @@ asBuilt_qualityInspection_Ctrl
 
 asBuilt-qualityinspection-ctrl.js
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-49
-
-
-## Pagina 50
-
-Opcenter Execution Discrete UI Modules
-Work Order As Planned BOP UI Module
-
 Name
 
 File Name
@@ -3099,7 +2460,8 @@ asBuilt_Svc
 
 asBuilt-srv.js
 
-4.21 Work Order As Planned BOP UI Module
+### 4.21 Work Order As Planned BOP UI Module
+
 This UI module manages the features related to historical data of Bills Of Processes.
 
 Name
@@ -3113,16 +2475,6 @@ Angular State
 Work Order As Planned BOP
 
 home.Siemens_SimaticIT_U4DM_AppU4DM_asPlannedBOP_workOrder
-
-50
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 51
-
-Opcenter Execution Discrete UI Modules
-Work Order Status UI Module (Deprecated)
 
 Angular Controllers related to the Module
 Name
@@ -3146,7 +2498,8 @@ asPlannedBOP_Svc
 
 asPlannedBOP-srv.js
 
-4.22 Work Order Status UI Module (Deprecated)
+### 4.22 Work Order Status UI Module (Deprecated)
+
 This UI module manages several features, primarily related to pre-kitting.
 This UI module is deprecated. Use
 Siemens.SimaticIT.U4DM.AppU4DM.WorkOrderPreKitting.mdui MDUI Module available in
@@ -3184,16 +2537,6 @@ workorder-add-ctrl.js
 workOrderStatus_workOrderAddSerialNumber_Ctrl
 
 workorder-select-serialnumber-add-ctrl.js
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-51
-
-
-## Pagina 52
-
-Opcenter Execution Discrete UI Modules
-Work Order Status UI Module (Deprecated)
 
 Name
 
@@ -3252,17 +2595,8 @@ workOrderStatus_Svc
 
 workorder-status-srv.js
 
-52
+## 5 Opcenter Execution Discrete UI Components
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 53
-
-Opcenter Execution Discrete UI Components
-Button Bar UI Component
-
-5 Opcenter Execution Discrete UI Components
 User Interface Components are objects which can be deployed on a page to create a graphical interface for an
 application.
 Opcenter Execution Discrete provides you with a set of UI Components dedicated to the management of its internal
@@ -3295,7 +2629,8 @@ Tracking AM Powder
 Work Order Routing
 Zero Touch Component Manager
 
-5.1 Button Bar UI Component
+### 5.1 Button Bar UI Component
+
 This User Interface component displays the Button Bar User Interface Component.
 
 Name
@@ -3319,16 +2654,6 @@ Min
 1
 
 1
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-53
-
-
-## Pagina 54
-
-Opcenter Execution Discrete UI Components
-Button Bar UI Component
 
 Size
 
@@ -3440,14 +2765,6 @@ User clicked Complete
 
 Parameters
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 55
-
-Opcenter Execution Discrete UI Components
-Button Bar UI Component
-
 Source Event
 
 Description
@@ -3529,16 +2846,6 @@ ExecutionGroupLink
 RequestMaterial
 JoinTeam
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-55
-
-
-## Pagina 56
-
-Opcenter Execution Discrete UI Components
-Bill of Materials UI Component
-
 leaveTeam
 showDocumentPreview
 labelPrinting
@@ -3576,23 +2883,14 @@ on",
 
 5. Click Apply
 
-5.2 Bill of Materials UI Component
+### 5.2 Bill of Materials UI Component
+
 This User Interface component displays the Bill of Materials to provide information for the list of raw Materials.
 
 Name
 siemensSimaticitU4dmAppu4dmBillofmaterials
 
 Layout
-
-56
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 57
-
-Opcenter Execution Discrete UI Components
-Bill of Materials UI Component
 
 Size
 
@@ -3713,16 +3011,6 @@ l
 strin
 g
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-57
-
-
-## Pagina 58
-
-Opcenter Execution Discrete UI Components
-Customizable Button Bar UI Component
-
 Source
 Event
 
@@ -3744,7 +3032,8 @@ Bom
 strin
 g
 
-5.3 Customizable Button Bar UI Component
+### 5.3 Customizable Button Bar UI Component
+
 This User Interface component displays the Customizable Button Bar User Interface Component.
 
 Name
@@ -3818,14 +3107,6 @@ id(string)
 data(Object
 )
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 59
-
-Opcenter Execution Discrete UI Components
-High Automation Header Bar UI Component
-
 Source Event
 
 Description
@@ -3878,22 +3159,13 @@ ChangeMachine.
 For more information, see section Configuring Runtime Screens of the Opcenter Execution Discrete Installation and
 Configuration Manual.
 
-5.4 High Automation Header Bar UI Component
+### 5.4 High Automation Header Bar UI Component
+
 This User Interface component displays a high automation Header Bar with summary information for a Work Order
 Operation.
 
 Name
 siemensSimaticitU4dmAppu4dmHighautomationheaderbar
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-59
-
-
-## Pagina 60
-
-Opcenter Execution Discrete UI Components
-Declare Defect UI Component
 
 Layout
 Size
@@ -3971,7 +3243,8 @@ FinalMaterialDetails
 
 Source Events
 
-5.5 Declare Defect UI Component
+### 5.5 Declare Defect UI Component
+
 This User Interface component allows to declare and update Defects and Non-Conformances.
 
 Name
@@ -3989,16 +3262,6 @@ Default
 6
 
 6
-
-60
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 61
-
-Opcenter Execution Discrete UI Components
-Document Preview UI Component
 
 Size
 
@@ -4042,7 +3305,8 @@ Goes to the parent Detail mashup
 
 Parameters
 
-5.6 Document Preview UI Component
+### 5.6 Document Preview UI Component
+
 This User Interface component displays a list of Documents and allows you to preview them.
 
 Name
@@ -4082,19 +3346,10 @@ initializeDocuments
 
 Initialize the document list.
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
 
 Parameters
 wooId (number)
 wosId (number)
-
-61
-
-
-## Pagina 62
-
-Opcenter Execution Discrete UI Components
-Document Preview UI Component
 
 Source Events
 Source Event
@@ -4207,14 +3462,6 @@ bo
 ole
 an
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 63
-
-Opcenter Execution Discrete UI Components
-Execution Group Details UI Component
-
 Sectio
 n
 
@@ -4287,23 +3534,14 @@ column names are as follows:
 WorkOrderOperation
 Message
 
-5.7 Execution Group Details UI Component
+### 5.7 Execution Group Details UI Component
+
 This User Interface component displays a series of tabs to show the details of Execution Groups.
 
 Name
 siemensSimaticitU4dmAppu4dmExecgroupdetails
 
 Layout
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-63
-
-
-## Pagina 64
-
-Opcenter Execution Discrete UI Components
-Execution Groups Document Preview UI Component
 
 Size
 
@@ -4373,7 +3611,8 @@ Fires when starting operations.
 
 executionGroupPhaseId (string)
 
-5.8 Execution Groups Document Preview UI Component
+### 5.8 Execution Groups Document Preview UI Component
+
 This User Interface component displays a list of Documents to be shown during execution of Execution Groups and
 allows you to preview them.
 
@@ -4381,16 +3620,6 @@ Name
 siemensSimaticitU4dmAppu4dmExecgroupdocumentpreview
 
 Layout
-
-64
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 65
-
-Opcenter Execution Discrete UI Components
-Execution Groups Header Bar UI Component
 
 Size
 
@@ -4431,7 +3660,8 @@ group current phase.
 execGroupId
 (number)
 
-5.9 Execution Groups Header Bar UI Component
+### 5.9 Execution Groups Header Bar UI Component
+
 This User Interface component displays a Header Bar with summary information for an Execution Group.
 
 Name
@@ -4486,16 +3716,6 @@ parent (string)
 
 Source Events
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-65
-
-
-## Pagina 66
-
-Opcenter Execution Discrete UI Components
-High Automation Equipment List UI Component
-
 Source Event
 
 Description
@@ -4506,7 +3726,8 @@ goToParent
 
 Same as clicking the back button.
 
-5.10 High Automation Equipment List UI Component
+### 5.10 High Automation Equipment List UI Component
+
 This User Interface component displays a list of Equipments inside the High Automation Landing Page.
 
 Name
@@ -4571,19 +3792,10 @@ EquipmentNId
 (string)
 StateId (string)
 
-5.11 Load Powder UI Component
+### 5.11 Load Powder UI Component
+
 This User Interface component displays the Task to manage the loading of Powder into the 3D Printer during
 production execution.
-
-66
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 67
-
-Opcenter Execution Discrete UI Components
-Material Production UI Component
 
 Name
 siemensOpcenterexAmRuntimeampowderintSetup3dprintercomponent
@@ -4619,7 +3831,8 @@ None.
 Source Events
 None.
 
-5.12 Material Production UI Component
+### 5.12 Material Production UI Component
+
 This User Interface component keeps track of production of co-products and by-products.
 
 Name
@@ -4656,17 +3869,8 @@ None.
 Source Events
 None.
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
+### 5.13 Material Tracking UI Component
 
-67
-
-
-## Pagina 68
-
-Opcenter Execution Discrete UI Components
-Material Tracking UI Component
-
-5.13 Material Tracking UI Component
 This User Interface component displays the Material Tracking User Interface component.
 
 Name
@@ -4716,7 +3920,8 @@ serialNumberList (Array)
 Source Events
 None.
 
-5.14 Operation Header Bar UI Component
+### 5.14 Operation Header Bar UI Component
+
 This User Interface component displays a Header Bar with summary information for a Work Order Operation.
 
 Name
@@ -4740,16 +3945,6 @@ Min
 1
 
 1
-
-68
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 69
-
-Opcenter Execution Discrete UI Components
-Operation List UI Component
 
 Size
 
@@ -4840,21 +4035,12 @@ Sets the isPoc context property.
 
 isPoc (string)
 
-5.15 Operation List UI Component
+### 5.15 Operation List UI Component
+
 This User Interface component displays the list of Work Order Operations.
 
 Name
 siemensSimaticitU4dmAppu4dmOperationlist
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-69
-
-
-## Pagina 70
-
-Opcenter Execution Discrete UI Components
-Operation List UI Component
 
 Layout
 Size
@@ -4954,14 +4140,6 @@ selections (object)
 firstSelectedWooId
 (string)
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 71
-
-Opcenter Execution Discrete UI Components
-Part Program UI Component
-
 Source Event
 
 Description
@@ -5010,7 +4188,8 @@ goToGenealogyLink
 
 Opens the Genealogy state
 
-5.16 Part Program UI Component
+### 5.16 Part Program UI Component
+
 This User Interface component manages the transfer of Part Programs to DNC Machines.
 
 Name
@@ -5047,17 +4226,8 @@ None.
 Source Events
 None.
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
+### 5.17 Print Job File UI Component
 
-71
-
-
-## Pagina 72
-
-Opcenter Execution Discrete UI Components
-Print Job File UI Component
-
-5.17 Print Job File UI Component
 This User Interface component displays the Print Job File Transfer Component.
 
 Name
@@ -5094,7 +4264,8 @@ None.
 Source Events
 None.
 
-5.18 Quality Inspection UI Component
+### 5.18 Quality Inspection UI Component
+
 This User Interface component manages the interface for Quality Inspections.
 
 Name
@@ -5128,20 +4299,11 @@ Max
 Destination Methods
 None.
 
-72
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 73
-
-Opcenter Execution Discrete UI Components
-Step List UI Component
-
 Source Events
 None.
 
-5.19 Step List UI Component
+### 5.19 Step List UI Component
+
 This User Interface component displays the list of Work Order Operation steps.
 
 Name
@@ -5211,7 +4373,6 @@ anged
 Checks if one or more steps that can be
 completed have changed.
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
 
 Parameters
 selectedSteps (object)
@@ -5222,15 +4383,8 @@ selectedOperations (object)
 allStepsCanBeCompleted
 (boolean)
 
-73
+### 5.20 Task Details UI Component (Deprecated)
 
-
-## Pagina 74
-
-Opcenter Execution Discrete UI Components
-Task Details UI Component (Deprecated)
-
-5.20 Task Details UI Component (Deprecated)
 This User Interface component displays the details of a task in a set of tabs.
 This UI Component is deprecated. Use the Task Container UI Component instead.
 
@@ -5310,16 +4464,6 @@ Work Order Operation has been successfully paused
 
 wooId (number)
 
-74
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 75
-
-Opcenter Execution Discrete UI Components
-Task Details UI Component (Deprecated)
-
 Source Event
 
 Description
@@ -5391,16 +4535,6 @@ testWidGet.html'
 };
 }
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-75
-
-
-## Pagina 76
-
-Opcenter Execution Discrete UI Components
-Task Details UI Component (Deprecated)
-
 toSeeStepOpNidCtrl.$inject = ['u4dm.services.runtime', 'u4dm.services', '$q',
 '$state', '$scope', '$timeout', '$window', 'u4dm.constants'];
 function toSeeStepOpNidCtrl(u4dmRuntimeSvc, u4dmSvc, $q, $state, $scope,
@@ -5449,22 +4583,13 @@ active: true,
 visible: true,
 content: '<sit-test-step sit-work-order-step="vm.workOrderStep" sit-work-orderoperation="vm.workOrderOperation"></sit-test-step>'
 
-76
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 77
-
-Opcenter Execution Discrete UI Components
-Task Container UI Component
-
 });
 return tabs;
 };
 }})();
 
-5.21 Task Container UI Component
+### 5.21 Task Container UI Component
+
 This User Interface component displays the list of available Tasks to be managed during production execution.
 The default Tasks are:
 UADMMaterialConsumptionTask
@@ -5516,7 +4641,6 @@ for the Work Order Steps.
 
 Parameters
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
 
 wooId (String that identifies the Id of
 the Work Order Operation)
@@ -5525,14 +4649,6 @@ the Work Order Step)
 executionGroupId (String that
 identifies the Id of the Execution
 Group).
-
-77
-
-
-## Pagina 78
-
-Opcenter Execution Discrete UI Components
-Task Container UI Component
 
 Destination
 Method
@@ -5633,16 +4749,6 @@ Notifies if the Work Order Operation can
 be paused.
 
 canPause (boolean)
-
-78
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 79
-
-Opcenter Execution Discrete UI Components
-Task Container UI Component
 
 Source Event
 
@@ -5763,16 +4869,6 @@ DocumentPreWidth: The percentage of width, the Document Preview
 will acquire on loading. The default value is 30 and the maximum value
 is 60.
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-79
-
-
-## Pagina 80
-
-Opcenter Execution Discrete UI Components
-Task Viewer UI Component
-
 Secti
 on
 
@@ -5856,22 +4952,13 @@ ectionTask, UADMPrintJobFilesTask, UADMPartProgramTask.
 For more information, see section Configuring Runtime Screens of the Opcenter Execution Discrete Installation and
 Configuration Manual.
 
-5.22 Task Viewer UI Component
+### 5.22 Task Viewer UI Component
+
 This User Interface component displays a single Task to be managed during production execution.
 For more information on how these tasks are used at runtime, see section Managing Tasks for Work Order Operation
 or Step Progression of the Opcenter Execution Discrete User Manual.
 
 Name
-
-80
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 81
-
-Opcenter Execution Discrete UI Components
-Tracking AM Powder UI Component
 
 siemensSimaticitU4dmAppu4dmTaskviewer
 
@@ -5926,7 +5013,8 @@ Fires when the task is selected.
 
 item (string)
 
-5.23 Tracking AM Powder UI Component
+### 5.23 Tracking AM Powder UI Component
+
 This User Interface component displays the Task to manage the tracking of Powder Batches, previously loaded into
 3D Printers, used for printing operations in Additive Manufacturing production.
 
@@ -5960,22 +5048,13 @@ Max
 
 Destination Methods
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-81
-
-
-## Pagina 82
-
-Opcenter Execution Discrete UI Components
-Work Order Routing UI Component
-
 None.
 
 Source Events
 None.
 
-5.24 Work Order Routing UI Component
+### 5.24 Work Order Routing UI Component
+
 This User Interface component displays the Routing of Work Order Operations or Steps.
 
 Name
@@ -6022,7 +5101,8 @@ selections (object)
 Source Events
 None.
 
-5.25 Zero Touch Component UI Component
+### 5.25 Zero Touch Component UI Component
+
 This User Interface component displays the Zero Touch Component User Interface component.
 
 Name
@@ -6040,16 +5120,6 @@ Default
 1
 
 1
-
-82
-
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
-
-
-## Pagina 83
-
-Opcenter Execution Discrete UI Components
-Zero Touch Component UI Component
 
 Size
 
@@ -6152,8 +5222,5 @@ Fired when work-center change is clicked
 
 StateId(string)
 
-Opcenter Execution Discrete 2507.0001 - UI Reference and Customization Manual
 
 Parameters
-
-83
