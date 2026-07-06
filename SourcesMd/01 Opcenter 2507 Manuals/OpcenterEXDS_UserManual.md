@@ -2192,7 +2192,8 @@ Handle Notifications.
 How to Configure the Production Environment
 Speeding Up Operator Landing Page Loading through Task Customization
 
-3 How to Configure the Production Environment
+## 3 How to Configure the Production Environment
+
 Before configuring the production processes you want to manage, you must properly configure the system, defining
 the structure of the plant in which the production processes will take place, and then configuring a set of basic
 entities that will be used to model the production activities.
@@ -13264,7 +13265,8 @@ values (that is, Is List is selected), it will be possible to define more than o
 Once linked, Interlocking Checks cannot be deleted. To delete Interlocking Checks, they must be first
 unlinked.
 
-5.9.10.1 Role of Work Order Production Type for the DocumentsUploaded
+##### 5.9.10.1 Role of Work Order Production Type for the DocumentsUploaded
+
 Interlocking Check
 The Production Type of the Work Order to which the current Work Order Operation belongs plays an important role
 in how the DocumentsUploaded Interlocking Check is executed and how its outcome is to be considered. In all
@@ -15724,7 +15726,8 @@ Delete. A Work Order cannot be deleted if it
 contains Work Order Operations with dependencies towards Work Order Operations either in state Open
 or Future Hold belonging to another Work Order.
 
-6.10.1.1 Creating a Work Order from a Process
+##### 6.10.1.1 Creating a Work Order from a Process
+
 This procedure allows you to create a Work Order from a Process previously created.
 When you use a Process to create the Work Order, the Material is inherited by the Work Order: the system does not
 allow you to create a new Material at this time.
@@ -15882,7 +15885,8 @@ You can select only one Bill of Materials and associate it to this Work Order.
 
 4. Click Create.
 
-6.10.1.2 Creating a Work Order Manually
+##### 6.10.1.2 Creating a Work Order Manually
+
 This procedure allows you to create a Work Order manually.
 When you create a Work Order manually, you need not associate it to a Process, thereby requiring a manual
 association with a Material. You can use an existing Material or create a new Material for the Work Order.
@@ -16045,7 +16049,8 @@ Additional useful information relative to the Work Order.
 
 3. Click Create.
 
-6.10.1.3 Creating Work Orders from an As Planned BOP
+##### 6.10.1.3 Creating Work Orders from an As Planned BOP
+
 This procedure allows you to create Work Orders from an As Planned BOP (Bill of Process) previously created. The
 procedure creates one Work Order per Sub-Process belonging to the As Planned BOP.
 Creating Work Orders from an As Planned BOP requires a detailed description of operations required to assemble or
@@ -16154,7 +16159,8 @@ You can select only one Bill of Materials and associate it to this Work Order.
 
 3. Click Create.
 
-6.10.1.4 Creating a Work Order from a Work Order Header
+##### 6.10.1.4 Creating a Work Order from a Work Order Header
+
 This procedure allows you to:
 Creating a Work Order from a Work Order Header, without creating Work Order Operations. This is useful, for
 example, to immediately track production requests from ERP but being able to complete the details at a later
@@ -16366,7 +16372,8 @@ A number identifying the order of execution of the Work Orders.
 
 4. Click Merge. The Work Order is set in Edit status.
 
-6.10.1.5 Creating a Work Order from a Master Plan
+##### 6.10.1.5 Creating a Work Order from a Master Plan
+
 This procedure allows you to create a Work Order from a Master Plan.
 When you use a Master Plan to create a Work Order, the Material to be consumed is inherited from the selected
 Master Plan. The Work Order is created in status Released.
@@ -16526,7 +16533,8 @@ The date and time when the Work Order execution is expected to end.
 5. (Skip this step if you have selected a Bill of Materials in Step 3) In the Materials step of the wizard, select the
 Materials to be consumed and click the Create button.
 
-6.10.1.6 Creating a Work Order from a Master Plan with Qualification Criteria
+##### 6.10.1.6 Creating a Work Order from a Master Plan with Qualification Criteria
+
 This procedure allows you to create a Work Order from a Master Plan applying Qualification Criteria rules, so that
 operations with valid Qualification Criteria are added to the Work Order at the moment of its creation, to perform
 only those operations which are deemed necessary to the correct execution of the Work Order.
@@ -16708,7 +16716,8 @@ The date and time when the Work Order execution is expected to end.
 
 4. Click Create.
 
-6.10.1.7 Creating a Work Order from a Master Plan with Effectivity
+##### 6.10.1.7 Creating a Work Order from a Master Plan with Effectivity
+
 Creating a Work Order from a Master Plan with Effectivity is possible solely if you have installed the
 Opcenter EX DS Production Coordinator App.
 This procedure allows you to create a Work Order from a Master Plan based on Unit Occurrence Effectivity, so
@@ -16935,7 +16944,8 @@ In the case of FlexibleBatch and FlexibleSerialized Work Orders, it is always po
 changes to their configuration (for example, their Due Date), even while production is in
 progress.
 
-6.10.2.1 How to Create Work Order Operations
+##### 6.10.2.1 How to Create Work Order Operations
+
 You can modify a Work Order in Edit status, not only changing its parameters, but if necessary also removing
 Operations (
 
@@ -16964,7 +16974,8 @@ Creating Work Order Operations Manually
 Creating Work Order Operations from Process Operations
 Creating Work Order Operations from Master Plan Operations.
 
-6.10.2.1.1 Creating Work Order Operations Manually
+###### 6.10.2.1.1 Creating Work Order Operations Manually
+
 In a typical manufacturing cycle, Work Order Operations are automatically created from their corresponding
 Process Operations when a Work Order is instantiated from its Process. It is also possible to create them manually
 (for example, when the Work Order to which they belong has also been created manually).
@@ -17114,7 +17125,8 @@ provided in Opcenter EX DS will be assigned.
 
 3. Click Create.
 
-6.10.2.1.2 Creating Work Order Operations from Process Operations
+###### 6.10.2.1.2 Creating Work Order Operations from Process Operations
+
 When you create Work Order Operations from Process Operations, you inherit the configuration of the Process
 Operation.
 If you are creating a Work Order Operation from a Process Operation, and Interlocking Checks have been
@@ -17246,7 +17258,8 @@ source Work Order Operation has been started.
 
 3. Click Create.
 
-6.10.2.1.3 Creating Work Order Operations from Master Plan Operations
+###### 6.10.2.1.3 Creating Work Order Operations from Master Plan Operations
+
 When you create Work Order Operations from Master Plan Operations, you inherit the configuration of the Master
 Plan Operation. This is valid also in those cases in which you are creating Work Order Operations from a Master Plan
 Operation in which Qualification Criteria have been set.
@@ -17383,7 +17396,8 @@ source Work Order Operation has been started.
 
 3. Click Create.
 
-6.10.2.2 Creating Work Order Operation Folders
+##### 6.10.2.2 Creating Work Order Operation Folders
+
 In a typical manufacturing cycle, Work Order Operation Folders are automatically created from their corresponding
 Process Operation Folders when a Work Order is instantiated from its Process. It is also possible to create them
 manually (for example, when the Work Order to which they belong has also been created manually).
@@ -17437,7 +17451,8 @@ Useful information about the Work Order Operation Folder.
 
 3. Click Create.
 
-6.10.2.3 Defining Dependencies between Work Order Operations
+##### 6.10.2.3 Defining Dependencies between Work Order Operations
+
 Dependencies between Work Order Operations can be inherited from the corresponding dependencies between
 Process Operations if the Work Order to which they belong is created from a Process. In this case, it is possible to
 edit existing Dependencies and/or add new ones.
@@ -17603,7 +17618,8 @@ New Work Order Operations can be added to an existing routing even if the Work O
 provided that all the previous constraints are satisfied and you have implemented custom additional code in
 order to call the proper command.
 
-6.10.2.4 Defining Dependencies between Work Order Operation Folders
+##### 6.10.2.4 Defining Dependencies between Work Order Operation Folders
+
 Dependencies between Work Order Operation Folders can be inherited from the corresponding dependencies
 between Process Operations if the Work Order to which they belong is created from a Process. In this case, it is
 possible to edit existing Dependencies and/or add new ones.
@@ -17700,7 +17716,8 @@ New Work Order Operations can be added to an existing routing even if the Work O
 provided that all the previous constraints are satisfied and you have implemented custom additional code in
 order to call the proper command.
 
-6.10.2.5 Defining Groups of Alternative Work Order Operations
+##### 6.10.2.5 Defining Groups of Alternative Work Order Operations
+
 Alternative Work Order Operations can be executed in place of the main execution flow configured for a specific
 Work Order by setting dependencies between the Work Order Operations.
 Groups of Alternative Work Order Operations can be defined only for Work Orders that belong to either
@@ -17759,7 +17776,8 @@ that you want to set as your new preference by clicking on the star icon
 
 next to it and then click Save.
 
-6.10.2.6 Creating Work Order Steps manually
+##### 6.10.2.6 Creating Work Order Steps manually
+
 In a typical manufacturing cycle, Work Order Steps are automatically created from their corresponding Process
 Steps when a Work Order is instantiated from its Process. It is also possible to create them manually (for example,
 when the Work Order to which they belong has also been created manually).
@@ -17853,7 +17871,8 @@ unique estimated duration displayed in the following formats: d.hh:mm:ss or hh:m
 
 6. Click Create.
 
-6.10.2.7 Defining Dependencies between Work Order Steps
+##### 6.10.2.7 Defining Dependencies between Work Order Steps
+
 After defining some Work Order Steps, you can set the dependencies among them.
 Unlike those between Work Order Operations, dependencies between Work Order Steps can only belong
 to the After End type.
@@ -17869,7 +17888,8 @@ Procedure
 4. In the From and To fields, set the Steps linked by the Dependency.
 5. Click Save.
 
-6.10.2.8 Associating Items to Work Order Operations
+##### 6.10.2.8 Associating Items to Work Order Operations
+
 In a typical manufacturing cycle, resources like Machines, Materials and Tools are associated to Process Operations,
 then automatically copied to the corresponding Work Order Operations when they are instantiated. It is also
 possible to perform this procedure directly on Work Order Operations (for example, to edit existing associations or
@@ -17905,7 +17925,8 @@ Quality Inspections
 Human Resources
 Powders.
 
-6.10.2.8.1 Associating Machines to Work Order Operations
+###### 6.10.2.8.1 Associating Machines to Work Order Operations
+
 This procedure allows you to specify where the Work Order Operation can be executed and the Machines which can
 be used to execute the Work Order Operation.
 If more than one Machine is associated to a Work Order Operation in status New, Partial or Open, you can specify a
@@ -18039,7 +18060,8 @@ Serial Numbers of interest among those associated to the Work Order, and then cl
 This operation can also be performed from the Operator Landing Page.
 4. Click Add.
 
-6.10.2.8.2 Associating Materials to Work Order Operations
+###### 6.10.2.8.2 Associating Materials to Work Order Operations
+
 This procedure allows you to define an association between a Work Order Operation and the Material that it will
 consume/assemble or produce.
 
@@ -18171,7 +18193,8 @@ Material must be displayed by default to the Operator among those contained in t
 
 4. Click Add.
 
-6.10.2.8.3 Associating Tools to Work Order Operations
+###### 6.10.2.8.3 Associating Tools to Work Order Operations
+
 This procedure allows you to define an association between a Work Order Operation and the Tools that will be used
 to execute it.
 
@@ -18208,7 +18231,8 @@ The number of times the Tool is used to perform the current Work Order Operation
 
 4. Click Create.
 
-6.10.2.8.4 Associating Documents to Work Order Operations
+###### 6.10.2.8.4 Associating Documents to Work Order Operations
+
 This procedure allows you to define an association between a Work Order Operation and a set of previously
 configured Documents which can be useful to the Operator that will execute the Work Order Operation. For
 example, it could be useful to provide the user with an image of the involved items in order to allow him or her to
@@ -18273,7 +18297,8 @@ Categories
 3. Click Link.
 4. To access a preview of the Document contents, click the Document Viewer tab.
 
-6.10.2.8.5 Associating Document Items to Work Order Operations
+###### 6.10.2.8.5 Associating Document Items to Work Order Operations
+
 Working with Document Items is possible solely if you have installed the Production Coordinator App: for
 more information, see What is Opcenter Execution Discrete? of the Opcenter Execution Discrete Product
 Overview.
@@ -18314,7 +18339,8 @@ operation does not delete the Document Item or the Documents it contains.
 
 Unlink: this
 
-6.10.2.8.6 Associating Work Instructions to Work Order Operations
+###### 6.10.2.8.6 Associating Work Instructions to Work Order Operations
+
 Work Instructions are used by Operators at runtime to get detailed instructions about carrying specific tasks on the
 product. Work Instructions are also used to collect data during production execution. To discriminate if a Work
 Instruction is to be used for data collection or for providing instructions, the Work Instruction Steps must be
@@ -18356,7 +18382,8 @@ If the Work Instruction is linked to an Automation Node Instance, you can link t
 The Automation Node Variable tab fetches the values of these parameters and displays them in a tree
 view.
 
-6.10.2.8.7 Associating Skills to Work Order Operations
+###### 6.10.2.8.7 Associating Skills to Work Order Operations
+
 Skills are specific requirements that can be associated to Process Operations, Work Order Operations, Process
 Steps and/or Work Order Steps, and offer a more granular manner to control their execution.
 
@@ -18377,7 +18404,8 @@ exact or the minimum value required to authorize the Work Order Operation execut
 If multiple Skills are selected at the same time, they are all associated to the same Level. If you need to
 associate Skills to different Levels, you need to associate them individually.
 
-6.10.2.8.8 Linking Interlocking Checks to Work Order Operations
+###### 6.10.2.8.8 Linking Interlocking Checks to Work Order Operations
+
 Both Standard and Custom Interlocking Checks can be linked to Work Order Operations to verify whether one or
 more conditions have been satisfied at runtime prior to starting or completing them.
 If the outcome of all these checks is successful, the execution of the Work Order Operation will either be started
@@ -18449,7 +18477,8 @@ The Work Order Operation is in Aborted, Complete or Not Executed status.
 The Work Order to which the Work Order Operation belongs is in Aborted, Complete, Scrap, Split
 or Verified status.
 
-6.10.2.8.9 Linking Inspection Definitions to Work Order Operations
+###### 6.10.2.8.9 Linking Inspection Definitions to Work Order Operations
+
 Likewise to Process Operations, you can associate Inspection Definitions to Work Order Operations.
 Inspection Definitions are used to configure Quality Inspections to be carried out at runtime.
 They represent how a certain measurement (that is, a Quality Characteristic) has to be collected at runtime in terms
@@ -18509,7 +18538,8 @@ the selected Inspection Definition can be linked.
 If you link Part Based or Unit Based Inspections, bear in mind that they are always WO-specific
 (that is, the inspection counter is not shared among other Work Orders).
 
-6.10.2.8.10 Linking Human Resources to Work Order Operations
+###### 6.10.2.8.10 Linking Human Resources to Work Order Operations
+
 Likewise to Process Operations, you can associate Human Resources to Work Order Operations.
 Human Resources are used to specify how many users with specific Certifications are required to start the execution
 of a specific Work Order Operation.
@@ -18532,7 +18562,8 @@ Link.
 4. In the Number of Users area, for each Certification, specify the number of required users.
 5. Click Link.
 
-6.10.2.8.11 Associating Powders to Work Order Operations
+###### 6.10.2.8.11 Associating Powders to Work Order Operations
+
 This procedure allows you to specify which Powder must be loaded into the 3D Printers associated to the Work
 Order Operation.
 
@@ -18575,7 +18606,8 @@ identifier.
 
 4. Click Set.
 
-6.10.2.9 Associating Items to Work Order Steps
+##### 6.10.2.9 Associating Items to Work Order Steps
+
 In a typical manufacturing cycle, resources like Machines, Materials and Tools are associated to Process Steps, then
 automatically copied to the corresponding Work Order Steps when they are instantiated. It is also possible to
 perform this procedure directly on Work Order Steps (for example, to edit existing associations or because the Work
@@ -18615,7 +18647,8 @@ Interlocking Checks
 Quality Inspections
 Human Resources.
 
-6.10.2.9.1 Associating Materials to Work Order Steps
+###### 6.10.2.9.1 Associating Materials to Work Order Steps
+
 This procedure allows you to define an association between a Work Order Step and the Materials that it will
 consume or assemble.
 
@@ -18743,7 +18776,8 @@ the drop-down list.
 
 4. Click Add.
 
-6.10.2.9.2 Associating Tools to Work Order Steps
+###### 6.10.2.9.2 Associating Tools to Work Order Steps
+
 This procedure allows you to define an association between a Work Order Step and the Tools that will be used to
 execute it.
 
@@ -18770,7 +18804,8 @@ How many times the Tool must be used to perform the current Work Order Step.
 
 4. Click Create.
 
-6.10.2.9.3 Associating Documents to Work Order Steps
+###### 6.10.2.9.3 Associating Documents to Work Order Steps
+
 This procedure allows you to define an association between a Work Order Step and a set of previously configured
 Documents which can be useful to the Operator who will execute the Work Operation Step.
 For example, it could be useful to provide the user with an image of the items involved in order to allow him or her
@@ -18829,7 +18864,8 @@ Categories
 3. Click Link.
 4. To access a preview of the Document contents, click the Document Viewer tab.
 
-6.10.2.9.4 Associating Document Items to Work Order Steps
+###### 6.10.2.9.4 Associating Document Items to Work Order Steps
+
 Working with Document Items is possible solely if you have installed the Production Coordinator App: for
 more information, see What is Opcenter Execution Discrete? of the Opcenter Execution Discrete Product
 Overview.
@@ -18870,7 +18906,8 @@ operation does not delete the Document Item or the Documents it contains.
 
 Unlink: this
 
-6.10.2.9.5 Associating Work Instructions to Work Order Steps
+###### 6.10.2.9.5 Associating Work Instructions to Work Order Steps
+
 Work Instructions are used by Operators at runtime to get detailed instructions about carrying specific tasks on the
 product. Work Instructions are also used to collect data during production execution. To discriminate if a Work
 
@@ -18903,7 +18940,8 @@ Numbers to be associated (only for Serialized, FullSerialized and FlexibleSerial
 Type).
 5. Click Link.
 
-6.10.2.9.6 Associating Skills to Work Order Steps
+###### 6.10.2.9.6 Associating Skills to Work Order Steps
+
 Skills are specific requirements that can be associated to Process Operations, Work Order Operations, Process
 Steps and/or Work Order Steps, and offer a more granular manner to control their execution.
 
@@ -18926,7 +18964,8 @@ If multiple Skills are selected at the same time, they are all associated to the
 associate Skills to different Levels, you need to associate them individually.
 5. Click Create.
 
-6.10.2.9.7 Linking Interlocking Checks to Work Order Steps
+###### 6.10.2.9.7 Linking Interlocking Checks to Work Order Steps
+
 Interlocking Checks (both of Standard and Custom type) can be linked to Work Order Steps to verify whether one or
 more conditions have been satisfied at runtime prior to starting or completing them.
 If the outcome of all these checks is successful, the execution of the Work Order Step will either be started
@@ -19002,7 +19041,8 @@ The Work Order Operation containing the Step is in Aborted, Complete or Not Exec
 The Work Order to which the Work Order Operation containing the Step belongs is in Aborted,
 Complete, Scrap, Split or Verified status.
 
-6.10.2.9.8 Linking Inspection Definitions to Work Order Steps
+###### 6.10.2.9.8 Linking Inspection Definitions to Work Order Steps
+
 Likewise to Process Steps, you can associate Inspection Definitions to Work Order Steps.
 Inspection Definitions are used to configure Quality Inspections to be carried out at runtime. They represent how a
 certain measurement (that is, a Quality Characteristic) has to be collected at runtime in terms of frequency and
@@ -19035,7 +19075,8 @@ Unlink.
 You can link multiple Inspection Definitions to a Work Order Step, but only one revision of the
 selected Inspection Definition can be linked.
 
-6.10.2.9.9 Linking Human Resources to Work Order Steps
+###### 6.10.2.9.9 Linking Human Resources to Work Order Steps
+
 Likewise to Process Operations, you can associate Human Resources to Work Order Steps.
 Human Resources are used to specify how many users with specific Certifications are required to start the execution
 of a specific Work Order Step.
@@ -19060,7 +19101,8 @@ Link.
 4. In the Number of Users area, for each Certification, specify the number of required users.
 5. Click Link.
 
-6.10.2.10 Associating Users to Work Order Operations
+##### 6.10.2.10 Associating Users to Work Order Operations
+
 Once created, Work Order Operations are automatically associated to the same items to which the source
 Operations are associated. In addition to changing these associations according to your needs, you can also
 associate Users to Work Order Operations in order to define who is allowed to manage them at runtime.
@@ -19451,7 +19493,9 @@ Type
 The criteria to be used to split the Work Order. Select one of the following options:
 Size, the original Work Order is split into new Work Orders of the size value specified in
 Split Quantity. For example, if you set Split Quantity to 4, an original Work Order of size
-10 will be split into three Work Orders, two of size 4, and one of size 2 respectively.
+
+## 10 will be split into three Work Orders, two of size 4, and one of size 2 respectively.
+
 Number, the Work Order will be split into as many Work Orders of equal size as possible
 as represented by the value of Split Quantity. The remainder size value, if any, will
 represent another Work Order. For example, if you set Split Quantity to 3, an original Work
@@ -21919,7 +21963,8 @@ If the values have been entered automatically (that is, if Material consumption 
 or Workcenter in the case of integration with Opcenter Connect MOM), the User is identified with an empty
 space and a value is provided also for the involved Equipment.
 
-8.9.1.5.1 Consuming or Assembling Pre-Kitted Material Tracking Units
+###### 8.9.1.5.1 Consuming or Assembling Pre-Kitted Material Tracking Units
+
 When you consume or assemble pre-kitted Material Tracking Units, the system indicates what exactly is to be
 consumed for a specific Work Order in terms of reserved Serial Number codes or Batch Ids.
 If the pre-kitted Material Tracking Units to be consumed are Batches, the quantities will be displayed as they have
@@ -21988,7 +22033,8 @@ Edit next to the Pre-kitted MTU you want to change.
 
 Save.
 
-8.9.1.5.2 Special Cases regarding Consumption and Assembly
+###### 8.9.1.5.2 Special Cases regarding Consumption and Assembly
+
 In certain situations, consumption and assembly take place with a specific behavior that differs somewhat from
 what is described in Consuming or Assembling Material Tracking Units.
 Here is a summary of such special cases.
@@ -22086,7 +22132,8 @@ Disassembly from the As Built page
 Disassembly via the Material Consumption task
 Disassembly from the Genealogy page
 
-8.9.1.6.1 Disassembing MTUs from the As Built page
+###### 8.9.1.6.1 Disassembing MTUs from the As Built page
+
 It is possible to disassembly Material Tracking Units operating from the As Built page.
 
 Prerequisite
@@ -22113,7 +22160,8 @@ was created must have Serial Number Profile set to False.
 automatically updated.
 The Work Order's status does not change.
 
-8.9.1.6.2 Disassembling MTUs via the Material Consumption task
+###### 8.9.1.6.2 Disassembling MTUs via the Material Consumption task
+
 It is possible to disassemble Material Tracking Units operating via the Material Consumption task found in the
 Operator Task List (or Operator Details Step) page.
 
@@ -22157,7 +22205,8 @@ was created must have Serial Number Profile set to False.
 9. Click Disassemble: the previously-consumed MTU is disassembled as specified and the entire page will be
 refreshed, reflecting the updated situation.
 
-8.9.1.6.3 Disassembling MTUs from the Genealogy page
+###### 8.9.1.6.3 Disassembling MTUs from the Genealogy page
+
 It is possible to disassemble Material Tracking Units operating from the Genealogy page.
 
 Prerequisite
@@ -22279,7 +22328,8 @@ FullQuantity.
 If you want to disable automatic completion, you can remove the subscription of the
 OnSentenceBuyOffCompleteOperationForStep handler to the OnSentenceBuyOff event from Solution Studio.
 
-8.9.1.7.1 Special Cases regarding Quality Inspections
+###### 8.9.1.7.1 Special Cases regarding Quality Inspections
+
 Quality Inspections of type Part Based, Time Based or Unit Based follow specific rules and behave differently.
 
 Part Based Quality Inspections
@@ -22523,7 +22573,8 @@ Use.
 
 History (available only after at least one Transfer has
 
-8.9.1.8.1 Generating Runtime Print Job Files
+###### 8.9.1.8.1 Generating Runtime Print Job Files
+
 If necessary, in runtime Additive Manufacturing contexts, Operators can generate a Runtime Print Job File from a
 Template Print Job File with one or more active Serial Numbers from the Operator Landing Page: it will then be
 possible to print the final product including its Serial Number produced by Serialized or FullSerialized Work
@@ -22612,7 +22663,8 @@ associated to the element.
 It is possible to preview only documents up to 10 MB in size.
 Click History to display the history of past transfers.
 
-8.9.1.10 Producing Material Tracking Units at Runtime
+##### 8.9.1.10 Producing Material Tracking Units at Runtime
+
 This procedure allows you to produce Material Tracking Units during the execution of a Work Order Operation or
 Work Order Step.
 In order for MTU production to be feasible, both the Serial Numbers (and/or Batch IDs) of the MTUs to be produced
@@ -22742,7 +22794,8 @@ History button.
 You can also view data related to the WOO-Step from which the MTU is disassembled. Events such as the linking
 or unlinking of Documents are also tracked.
 
-8.9.1.11 How to Manage Powder Material Batches
+##### 8.9.1.11 How to Manage Powder Material Batches
+
 This procedure allows you to load a Powder Batch into a 3D Printer during the execution of a Work Order Operation
 or Execution Group Phases specific to Additive Manufacturing production.
 When the Work Order Operation belongs to a Serialized Work Order, and if the mandatory check on the Powder
@@ -23277,7 +23330,8 @@ this counter under the Pause Duration [d.hh:mm:ss] column. When you resume the W
 Operation, the counter is not reset and it will continue counting in an incremental way, when the Work
 Order Operation is paused again.
 
-8.9.11.1 Reopening Work Order Operations
+##### 8.9.11.1 Reopening Work Order Operations
+
 In situations in which the user discovers that one of the Serial Numbers (or a portion of the batch) produced by a
 Work Order Operation was not produced properly, there now exists the possibility of re-opening that same Work
 Order Operation, whereby the production of the faulty element is re-executed to rectify any problems that have
@@ -23317,7 +23371,8 @@ Start in the Operator Landing page.
 
 The Reopening history is visible in the Activity History tab.
 
-8.9.11.2 Special Case: Performing an Administrative Pause
+##### 8.9.11.2 Special Case: Performing an Administrative Pause
+
 In emergency situations (for example, when the assigned user is unavailable), the Production Coordinator
 can override the pause applied on the Work Order Operation and pause the Work Order at the administrative level.
 Once an Administrative Pause has been performed by a Production Coordinator on a Work Order, it can be
@@ -23425,7 +23480,8 @@ Managing Non-Productive Activities from the Users page
 Managing Non-Productive Activities from the Operator Landing Page
 Managing Non-Productive Activities from the Notification Bar
 
-8.9.13.1 Managing Non-Productive Activities from the Users page
+##### 8.9.13.1 Managing Non-Productive Activities from the Users page
+
 This procedure allows you to manage Non-Productive Activities belonging to all Users.
 Specifically, it is possible to create and complete Activities, to display and edit their details and to delete them from
 the log, provided that you own the required role.
@@ -23509,7 +23565,8 @@ Open.
 
 Delete.
 
-8.9.13.2 Managing Non-Productive Activities from the Operator Landing Page
+##### 8.9.13.2 Managing Non-Productive Activities from the Operator Landing Page
+
 This procedure allows a User to start and/or complete his or her own Non-Productive Activities.
 Conversely, the Production Coordinator and the Product Engineer can manage Activities belonging to all Users.
 
@@ -23535,7 +23592,8 @@ date and time.
 
 . The selected Activities are logged as completed with the current
 
-8.9.13.3 Managing Non-Productive Activities from the Notification Bar
+##### 8.9.13.3 Managing Non-Productive Activities from the Notification Bar
+
 This procedure allows a User to start and/or complete his or her own Non-Productive Activities.
 Conversely, the Production Coordinator and the Product Engineer can manage Activities belonging to all Users.
 
@@ -23635,12 +23693,14 @@ Step to be performed
 
 Serialized
 
-1 Select the Serial Numbers and/or Containers to be completed. To include all
+## 1 Select the Serial Numbers and/or Containers to be completed. To include all
+
 displayed Serial Numbers and Containers, select
 
 Select All.
 
-2 For each of the selected Serial Numbers, if desired and provided that the Result
+## 2 For each of the selected Serial Numbers, if desired and provided that the Result
+
 Management configuration key has been set, click the appropriate button (
 OK,
 NOK or
@@ -23655,7 +23715,9 @@ custom positive and negative Result values that may have been configured.
 See Managing Work Order Operations for information on how the Results
 declared for the various MTUs completed are displayed in the Work Order
 Operation tiles in the Operator Landing Page.
-3 Click Complete.
+
+## 3 Click Complete.
+
 FlexibleSerialized
 
 See the steps to be performed for Serialized Work Orders above.
@@ -23834,7 +23896,8 @@ Work Orders), you can choose to:
 create a new Execution Group on the fly.
 link one or more Work Order Operations to an existing Execution Group.
 
-8.12.2.1 Creating an Execution Group On The Fly
+##### 8.12.2.1 Creating an Execution Group On The Fly
+
 Once you have created an Execution Group at runtime, it is automatically released.
 
 Target User
@@ -23889,7 +23952,8 @@ Note Not enabled if there is integration with Opcenter APS.
 Execution Groups created on the fly can be scheduled via the APS Sequencer in the same manner as
 Execution Groups created during engineering: for more information, see Scheduling an Execution Group.
 
-8.12.2.2 Linking Work Order Operations to an Existing Execution Group
+##### 8.12.2.2 Linking Work Order Operations to an Existing Execution Group
+
 Once you link a Work Order Operation to an existing Execution Group, you cannot unlink it: only a
 Production Coordinator can perform an Unlink, operating from a dedicated page.
 Keep in mind that unlinking a Work Order Operation from an Execution Group automatically unlinks also
@@ -25875,7 +25939,8 @@ been consumed.
 Once completely assembled, the Material Tracking Unit remains visible in the Material Tracking Units
 page with Quantity equal to zero.
 
-9.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+###### 9.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+
 When you consume or assemble pre-kitted Material Tracking Units, the system indicates what exactly is to be
 consumed for a specific Work Order in terms of reserved Serial Number codes or Batch Ids.
 If the pre-kitted Material Tracking Units to be consumed are Batches, the quantities will be displayed as they have
@@ -26066,7 +26131,8 @@ toggle button on (
 (Only for Attributive and Variable) If you want to remove the association with the Failure, click the
 x button contained inside the Failure chip.
 
-9.3.2.4.1 Special Cases regarding Quality Inspections
+###### 9.3.2.4.1 Special Cases regarding Quality Inspections
+
 Quality Inspections of type Part Based, Time Based or Unit Based follow specific rules and behave differently.
 
 Part Based Quality Inspections
@@ -27108,7 +27174,8 @@ Disassemble Material Tracking Units.
 Scrap consumed Material Tracking Units and Material Tracking Units to be consumed.
 Transferring Part Program.
 
-10.3.2.1 How to Manage Work Instructions
+##### 10.3.2.1 How to Manage Work Instructions
+
 Work Instructions are specific instructions for the Operator that may require an acknowledgement or the insertion
 of values.
 Depending on the content of the Work Instruction (Acknowledge and/or DataCollection steps), the system
@@ -27189,7 +27256,8 @@ Calculate All. These buttons will be only present if Formulas have
 been configured to calculate their values.
 3. Click Confirm to save the value.
 
-10.3.2.2 Using Tools
+##### 10.3.2.2 Using Tools
+
 This procedure allows you to use Tools during the execution of the Work Order Operation or Step.
 In case of integration with the Automation Layer, you will be able to acquire values related to the Tool ID, the usage
 time and the usage duration. You can then decide whether to save these values or edit them manually.
@@ -27220,7 +27288,8 @@ the following information is displayed:
 the number of times the Tool has been used for each transaction
 the usage duration.
 
-10.3.2.3 Consuming Material Tracking Units
+##### 10.3.2.3 Consuming Material Tracking Units
+
 This procedure allows you to consume Material Tracking Units during the execution of a Work Order Operation or
 Work Order Step (for example, for assembly).
 Assembly is feasible solely if the values of both the Serial Numbers (and/or Batch IDs) of the MTUs to be consumed
@@ -27391,7 +27460,8 @@ been consumed.
 Once completely assembled, the Material Tracking Unit remains visible in the Material Tracking Units
 page with Quantity equal to zero.
 
-10.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+###### 10.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+
 When you consume or assemble pre-kitted Material Tracking Units, the system indicates what exactly is to be
 consumed for a specific Work Order in terms of reserved Serial Number codes or Batch Ids.
 If the pre-kitted Material Tracking Units to be consumed are Batches, the quantities will be displayed as they have
@@ -27461,7 +27531,8 @@ was not successful and that it is necessary to specify another Serial Number/Bat
 
 Assemble.
 
-10.3.2.4 How to Manage Quality Inspections
+##### 10.3.2.4 How to Manage Quality Inspections
+
 Quality Inspections are related to measurements to be collected at runtime in terms of frequency and sample size.
 Measurements can be related to Attributive, Variable or Visual Quality Characteristics.
 Depending on how you have configured the Quality Inspection, the form to be filled at runtime may be related to
@@ -27581,7 +27652,8 @@ toggle button on (
 (Only for Attributive and Variable) If you want to remove the association with the Failure, click the
 x button contained inside the Failure chip.
 
-10.3.2.4.1 Special Cases regarding Quality Inspections
+###### 10.3.2.4.1 Special Cases regarding Quality Inspections
+
 Quality Inspections of type Part Based, Time Based or Unit Based follow specific rules and behave differently.
 
 Part Based Quality Inspections
@@ -27744,7 +27816,8 @@ If a Part Based or Unit Based Inspection Definition is linked to an Operation an
 Referenced Operation, then the counter will count the pieces to be inspected as soon as they are started on the
 corresponding Work Order Operation and no Material Tracking Unit is skipped.
 
-10.3.2.5 Disassembling Material Tracking Units
+##### 10.3.2.5 Disassembling Material Tracking Units
+
 It could be necessary to disassemble a fully-assembled Material Tracking Unit in the following cases:
 
 A defective piece has been found on the fully-assembled MTU and the Production Coordinator decides to
@@ -27775,7 +27848,8 @@ Disassemble. The quantity of the
 The overall background color of the selected MTU, as well as the background color of its contained
 elements, will change: for details, see page Consuming or Assembling Material Tracking Units.
 
-10.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking
+##### 10.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking
+
 Units to be Consumed
 During production, if a defective piece is detected on a previously assembled Material Tracking Unit or on Material
 Tracking Unit that has not been assembled yet and the Operator decides to remove this defective piece from the
@@ -27801,7 +27875,8 @@ Tracking Unit code.
 8. (Optional) Add a Comment.
 9. Click Save.
 
-10.3.2.7 Transferring Part Program
+##### 10.3.2.7 Transferring Part Program
+
 This procedure allows you to perform the transfer of a Part Program to a CNC machine during the execution of the
 Work Order Operation.
 
@@ -28644,7 +28719,8 @@ Manage Quality Inspections.
 Disassemble Material Tracking Units.
 Scrap consumed Material Tracking Units and Material Tracking Units to be consumed.
 
-11.3.2.1 How to Manage Work Instructions
+##### 11.3.2.1 How to Manage Work Instructions
+
 Work Instructions are specific instructions for the Operator that may require an acknowledgement or the insertion
 of values.
 Depending on the content of the Work Instruction (Acknowledge and/or DataCollection steps), the system
@@ -28738,7 +28814,8 @@ Add Work Instruction.
 3. Select the Work Instruction to be added.
 4. Click Save.
 
-11.3.2.2 Using Tools
+##### 11.3.2.2 Using Tools
+
 This procedure allows you to use Tools during the execution of the Work Order Operation or Step.
 In case of integration with the Automation Layer, you will be able to acquire values related to the Tool ID, the usage
 time and the usage duration. You can then decide whether to save these values or edit them manually.
@@ -28770,7 +28847,8 @@ the following information is displayed:
 the number of times the Tool has been used for each transaction
 the usage duration.
 
-11.3.2.3 Consuming Material Tracking Units
+##### 11.3.2.3 Consuming Material Tracking Units
+
 This procedure allows you to consume Material Tracking Units during the execution of a Work Order Operation or
 Work Order Step (for example, for assembly).
 Assembly is feasible solely if the values of both the Serial Numbers (and/or Batch IDs) of the MTUs to be consumed
@@ -28941,7 +29019,8 @@ been consumed.
 Once completely assembled, the Material Tracking Unit remains visible in the Material Tracking Units
 page with Quantity equal to zero.
 
-11.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+###### 11.3.2.3.1 Assembling Pre-Kitted Material Tracking Units
+
 When you consume or assemble pre-kitted Material Tracking Units, the system indicates what exactly is to be
 consumed for a specific Work Order in terms of reserved Serial Number codes or Batch Ids.
 If the pre-kitted Material Tracking Units to be consumed are Batches, the quantities will be displayed as they have
@@ -29011,7 +29090,8 @@ was not successful and that it is necessary to specify another Serial Number/Bat
 
 Assemble.
 
-11.3.2.4 How to Manage Quality Inspections
+##### 11.3.2.4 How to Manage Quality Inspections
+
 Quality Inspections are related to measurements to be collected at runtime in terms of frequency and sample size.
 Measurements can be related to Attributive, Variable or Visual Quality Characteristics.
 Depending on how you have configured the Quality Inspection, the form to be filled at runtime may be related to
@@ -29131,7 +29211,8 @@ toggle button on (
 (Only for Attributive and Variable) If you want to remove the association with the Failure, click the
 x button contained inside the Failure chip.
 
-11.3.2.4.1 Special Cases regarding Quality Inspections
+###### 11.3.2.4.1 Special Cases regarding Quality Inspections
+
 Quality Inspections of type Part Based, Time Based or Unit Based follow specific rules and behave differently.
 
 Part Based Quality Inspections
@@ -29294,7 +29375,8 @@ If a Part Based or Unit Based Inspection Definition is linked to an Operation an
 Referenced Operation, then the counter will count the pieces to be inspected as soon as they are started on the
 corresponding Work Order Operation and no Material Tracking Unit is skipped.
 
-11.3.2.5 Disassembling Material Tracking Units
+##### 11.3.2.5 Disassembling Material Tracking Units
+
 It could be necessary to disassemble a fully-assembled Material Tracking Unit in the following cases:
 
 A defective piece has been found on the fully-assembled MTU and the Production Coordinator decides to
@@ -29325,7 +29407,8 @@ Disassemble. The quantity of the
 The overall background color of the selected MTU, as well as the background color of its contained
 elements, will change: for details, see page Consuming or Assembling Material Tracking Units.
 
-11.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking
+##### 11.3.2.6 Scrapping Consumed Material Tracking Units and Material Tracking
+
 Units to be Consumed
 During production, if a defective piece is detected on a previously assembled Material Tracking Unit or on Material
 Tracking Unit that has not been assembled yet and the Operator decides to remove this defective piece from the
@@ -30026,7 +30109,8 @@ toggle button on (
 (Only for Attributive and Variable) If you want to remove the association with the Failure, click the
 x button contained inside the Failure chip.
 
-12.3.1.1 Special Cases regarding Quality Inspections
+##### 12.3.1.1 Special Cases regarding Quality Inspections
+
 Quality Inspections of type Part Based, Time Based or Unit Based follow specific rules and behave differently.
 
 Part Based Quality Inspections
@@ -30162,7 +30246,8 @@ Settings of the Opcenter Execution Foundation Development and Configuration Guid
 How to Execute Production in the Operator Terminal for One Piece Flow
 Navigation of the Operator Terminal for One Piece Flow
 
-13 How to Execute Production in the Operator Terminal for One
+## 13 How to Execute Production in the Operator Terminal for One
+
 Piece Flow
 The Operator Terminal for One Piece Flow is recommended for high-automated production.
 
@@ -31624,7 +31709,9 @@ The severity of the Defect. Possible values: LOW, MEDIUM, HIGH.
 
 4. Click
 Link: this opens a dedicated Link Items panel, the content of which depends on the value set at step
-3 for Context.
+
+## 3 for Context.
+
 5. In the Link Items area, select one or more items (either Machines, Material Tracking Units or Tools, according to
 the context) on which the Non-Conformance is to be declared and click Link.
 If Context has been set to Material Tracking Units, the area shows both the individual MTUs and the
