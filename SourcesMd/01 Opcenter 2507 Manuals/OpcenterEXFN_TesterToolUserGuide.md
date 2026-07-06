@@ -1,254 +1,58 @@
-# OpcenterEXFN_TesterToolUserGuide
+---
+title: "OpcenterEXFN_TesterToolUserGuide"
+source_file: "SourcesMd/01 Opcenter 2507 Manuals/OpcenterEXFN_TesterToolUserGuide.md"
+project: "Brembo B-Spark - Standard Platform Documentation"
+platform: "Siemens Opcenter Execution Foundation 2401"
+scope: "Core_Standard_Manual"
+plants: [SHARED]
+---
 
-> Documento sorgente: `E:\BremboDocs\01 Opcenter 2507 Manuals\OpcenterEXFN_TesterToolUserGuide.pdf`  
-> Tipo: PDF · Pagine: 55
+# Opcenter Execution Foundation 2401 - Tester Tool User Guide
 
+> Documento sorgente: `E:\BremboDocs\01 Opcenter 2507 Manuals\OpcenterEXFN_TesterToolUserGuide.pdf`
+> Tipo: PDF - Pagine originali: 55
 
-## Pagina 1
+## Guidelines
 
-Opcenter Execution Foundation 2401.0001
+This manual contains notes of varying importance that should be read with care:
 
-Tester Tool User Guide
+- **Important**: Highlights key information on handling the product, the product itself, or a particular part of the documentation.
+- **Note**: Provides supplementary information regarding handling the product, the product itself, or a specific part of the documentation.
 
-04/2024
-PL20240221511718776
+### Trademarks
 
+All names identified by ® are registered trademarks of Siemens AG. The remaining trademarks in this publication may be trademarks whose use by third parties for their own purposes could violate the rights of the owner.
 
-## Pagina 2
+### Disclaimer of Liability
 
-Guidelines
-This manual contains notes of varying importance that should be read with care; i.e.:
-Important:
-Highlights key information on handling the product, the product itself or to a particular part of the documentation.
-Note: Provides supplementary information regarding handling the product, the product itself or a specific part of
-the documentation.
-Trademarks
-All names identified by ® are registered trademarks of Siemens AG.
-The remaining trademarks in this publication may be trademarks whose use by third parties for their own purposes
-could violate the rights of the owner.
-Disclaimer of Liability
-We have reviewed the contents of this publication to ensure consistency with the hardware and software
-described. Since variance cannot be precluded entirely, we cannot guarantee full consistency. However, the
-information in this publication is reviewed regularly and any necessary corrections are included in subsequent
-editions.
-Cybersecurity Information
-Siemens provides products and solutions with industrial cybersecurity functions that support the secure operation
-of plants, systems, machines and networks.
-In order to protect plants, systems, machines and networks against cyber threats, it is necessary to implement and continuously maintain - a holistic, state-of-the-art industrial cybersecurity concept. Siemens products and
-solutions constitute one element of such a concept.
-Customers are responsible for preventing unauthorized access to their plants, systems, machines and networks.
-Such systems, machines and components should only be connected to an enterprise network or the internet if and
-to the extent such a connection is necessary and only when appropriate security measures (e.g. firewalls and/or
-network segmentation) are in place.
-For additional information on industrial cybersecurity measures that may be implemented, please visit
-https://www.siemens.com/cybersecurity-industry.
+We have reviewed the contents of this publication to ensure consistency with the hardware and software described. Since variance cannot be precluded entirely, we cannot guarantee full consistency. However, the information in this publication is reviewed regularly and any necessary corrections are included in subsequent editions.
 
-Siemens products and solutions undergo continuous development to make them more secure. Siemens strongly
-recommends that product updates are applied as soon as they are available and that the latest product versions
-are used. Use of product versions that are no longer supported, and failure to apply the latest updates may increase
-customer’s exposure to cyber threats.
+### Cybersecurity Information
 
-To stay informed about product updates, subscribe to the Siemens Industrial Cybersecurity RSS feed under
-https://www.siemens.com/cert.
+Siemens provides products and solutions with industrial cybersecurity functions that support the secure operation of plants, systems, machines and networks. In order to protect plants, systems, machines and networks against cyber threats, it is necessary to implement and continuously maintain a holistic, state-of-the-art industrial cybersecurity concept. Siemens products and solutions constitute one element of such a concept. Customers are responsible for preventing unauthorized access to their plants, systems, machines and networks. Such systems, machines and components should only be connected to an enterprise network or the internet if and to the extent such a connection is necessary and only when appropriate security measures (for example, firewalls and/or network segmentation) are in place. For additional information on industrial cybersecurity measures that may be implemented, please visit https://www.siemens.com/cybersecurity-industry.
 
-Siemens AG
+Siemens products and solutions undergo continuous development to make them more secure. Siemens strongly recommends that product updates are applied as soon as they are available and that the latest product versions are used. Use of product versions that are no longer supported, and failure to apply the latest updates may increase customer’s exposure to cyber threats. To stay informed about product updates, subscribe to the Siemens Industrial Cybersecurity RSS feed under https://www.siemens.com/cert.
 
-PL20240221511718776
+## Publication Information
 
-Copyright © Siemens AG 2024
+- **Product**: Opcenter Execution Foundation
+- **Version**: 2401.0001
+- **Document**: Tester Tool User Guide
+- **Publication date**: 04/2024
+- **Revision**: PL20240221511718776
+- **Category**: Development, Support
+- **Summary**: Provides information on how to create automated tests by means of the Opcenter Execution Foundation Tester Tool.
+- **Audience**: System Integrator, Support Engineer, Project Engineer, Commissioning Engineer, Developer
+- **State**: Published
+- **Author**: Siemens AG
+- **Language**: en-US
+- **Company**: Siemens AG, Digital Industries
+- **Address**: Postfach 48 48, 90026 Nürnberg, Germany
+- **Generated on**: 20240424_173856
+- **Notice**: Technical data subject to change
 
-Digital Industries
+## 1 Introduction to the Opcenter Execution Foundation Tester Tool
 
-20240424_173856
-
-Technical data subject to change
-
-Postfach 48 48
-90026 NÜRNBERG
-GERMANY
-
-
-## Pagina 3
-
-Table of Contents
-1
-
-Introduction to the Opcenter Execution Foundation Tester Tool....................6
-
-2
-
-How to Configure a Test Suite ............................................................................7
-
-2.1
-
-How to Create Test Suites ....................................................................................................... 7
-
-2.2
-
-How to Configure Test Definitions ........................................................................................ 10
-
-2.2.1
-
-Creating Test Definitions from Scratch............................................................................................................... 11
-
-2.2.2
-
-Creating Test Definitions from Metadata............................................................................................................ 13
-
-2.2.3
-
-Creating Test Definitions from a CSV file ............................................................................................................ 13
-
-2.2.4
-
-Creating Test Definitions from an Excel file........................................................................................................ 14
-
-2.2.5
-
-Modifying Test Definitions from CSV file to an Excel file.................................................................................... 16
-
-2.3
-
-How to Configure Test Steps ................................................................................................. 18
-
-2.3.1
-
-Creating Test Steps .............................................................................................................................................. 19
-
-2.3.2
-
-Configuring Test Steps as Command Calls ......................................................................................................... 20
-
-2.3.3
-
-Configuring Test Steps as Entity Queries............................................................................................................ 24
-
-2.3.4
-
-Configuring Test Steps as Custom Actions ......................................................................................................... 26
-
-2.3.4.1 Using ExecuteSQL Action..................................................................................................................................... 27
-2.3.4.2 Using HttpPost Action.......................................................................................................................................... 28
-2.3.4.3 Using StartProcess Action ................................................................................................................................... 30
-2.3.4.4 Using Wait Action ................................................................................................................................................. 31
-2.3.4.5 Using IfThisSkipNext Action ................................................................................................................................ 32
-2.3.4.6 Using CreateTextFile Action ................................................................................................................................ 33
-2.3.4.7 Using CopyFile Action .......................................................................................................................................... 35
-2.3.4.8 Using RunVSTest Action....................................................................................................................................... 35
-2.3.4.9 Using SetVariables Action.................................................................................................................................... 36
-2.3.4.10 Using ExecSubTest Action ................................................................................................................................... 38
-2.3.4.11 Using ForEachExecStep Action............................................................................................................................ 40
-2.3.4.12 Using Transform Action ....................................................................................................................................... 41
-2.3.4.13 Using LoadTextFile Action ................................................................................................................................... 42
-2.3.4.14 Using ListFiles Action ........................................................................................................................................... 43
-2.3.4.15 Using DeleteFile Action........................................................................................................................................ 43
-
-3
-
-How to Execute a Test Suite .............................................................................44
-
-3.1
-
-Running a Single Step ............................................................................................................ 45
-
-3.2
-
-Running a Single Test ............................................................................................................ 45
-
-3.3
-
-Running the Test Suite........................................................................................................... 46
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-iii
-
-
-## Pagina 4
-
-4
-
-How to Perform Execution-Related Operations via Scripts............................50
-
-4.1
-
-Performing Execution-Related Operations via OpcenterEXFNTester.exe .......................... 50
-
-4.2
-
-Performing Execution-Related Operations via OpcenterEXFNTesterAgent.exe ................ 52
-
-5
-
-How to Review the Test Suite Execution .........................................................54
-
-iv
-
-Opcenter Execution Foundation2401.0001 - Tester Tool User Guide
-
-
-## Pagina 5
-
-ID
-
-OpcenterEXFN_TesterToolUserGuide
-
-Title
-
-Tester Tool User Guide
-
-Product Title
-
-Opcenter Execution Foundation
-
-Version Title
-
-2401.0001
-
-Product Version
-
-OpcenterEXFN_2401.0001
-
-Category
-
-Development, Support
-
-Summary
-
-Provides information on how to create automated tests by means of
-the Opcenter Execution Foundation Tester Tool.
-
-Audience
-
-System Integrator, Support Engineer, Project Engineer,
-Commissioning Engineer, Developer
-
-Revision
-
-PL20240221511718776
-
-State
-
-Published
-
-Author
-
-Siemens AG
-
-Language
-
-en-US
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-5
-
-
-## Pagina 6
-
-Introduction to the Opcenter Execution Foundation Tester Tool
-
-1 Introduction to the Opcenter Execution Foundation Tester Tool
 Opcenter Execution Foundation supports you in improving and speeding up test and validation phases for your
 project.
 For this purpose, the product provides a dedicated tool, named Opcenter Execution Foundation Tester, to create
@@ -257,52 +61,45 @@ environment.
 
 Opcenter Execution Foundation Tester Tool Capabilities
 The main capabilities of the Opcenter Execution Foundation Tester tool are:
-• Command execution and data query: the tool is able to call a logic sequence of commands and data query,
+- Command execution and data query: the tool is able to call a logic sequence of commands and data query,
 testing the business logic behind the UI Application.
-• Automated initialization of master data: the master data are automatically initialized, adopting the proper
+- Automated initialization of master data: the master data are automatically initialized, adopting the proper
 commands of the application.
-• Authoring and execution of acceptance tests: each business use case has a dedicated acceptance test, which
+- Authoring and execution of acceptance tests: each business use case has a dedicated acceptance test, which
 can be created and executed in the tool.
-• Execution of non regression tests after the software upgrade: the whole list of acceptance tests can be executed
+- Execution of non regression tests after the software upgrade: the whole list of acceptance tests can be executed
 any time a software upgrade is performed on different scenarios, by setting different input parameters.
-• Simulation of third-party interaction: MES solutions are connected with Shopfloor, ERP systems and many other
+- Simulation of third-party interaction: MES solutions are connected with Shopfloor, ERP systems and many other
 third-party systems. The tool simulates the messages from and to these systems for the completeness of the
 implementation and execution of the acceptance tests.
-• User-friendly and no code tool: testing activities can be performed by Business Industry process experts, not
+- User-friendly and no code tool: testing activities can be performed by Business Industry process experts, not
 skilled on software coding.
 
 Benefits of the Opcenter Execution Foundation Tester Tool
 Many are the benefits in adopting the Opcenter Execution Foundation Tester tool.
-• Improving efficiency in automatic test management
-• Reducing design and implementation errors
-• Optimizing of test authoring time
-• Improving test time-execution
-• Improving software quality.
+- Improving efficiency in automatic test management
+- Reducing design and implementation errors
+- Optimizing of test authoring time
+- Improving test time-execution
+- Improving software quality.
 In addition to them, from the customer perspective the tool also provides the following benefits:
-• Adoption of a template for several plants: a single test template can be designed and then tailored on the
+- Adoption of a template for several plants: a single test template can be designed and then tailored on the
 peculiarities of each plant.
-• Test Definitions for new custom Commands: all Custom implementations and extensions can be tested
+- Test Definitions for new custom Commands: all Custom implementations and extensions can be tested
 improving the standard test.
-• Dedicated Non-Regression Test Suite for each plant: any scenario upgrade can be validated executing nonregression tests.
-• Rapid check on Test Output data.
-• Automatic Initialization of Master Data.
-• Simulation of third-party systems.
+- Dedicated Non-Regression Test Suite for each plant: any scenario upgrade can be validated executing nonregression tests.
+- Rapid check on Test Output data.
+- Automatic Initialization of Master Data.
+- Simulation of third-party systems.
 
-6
+## 2 How to Configure a Test Suite
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
+### 2.1 How to Create Test Suites
 
-
-## Pagina 7
-
-How to Configure a Test Suite
-How to Create Test Suites
-
-2 How to Configure a Test Suite
 In the Opcenter Execution Foundation Tester tool three entities are defined:
-• at the top of the entity hierarchy, a Test Suite that consists of a collection of tests,
-• each test is represented by a Test Definition and it is made up of Test Steps,
-• each Test Steps can be a Command call, an Entity query, a Reading Function call, or a custom action.
+- at the top of the entity hierarchy, a Test Suite that consists of a collection of tests,
+- each test is represented by a Test Definition and it is made up of Test Steps,
+- each Test Steps can be a Command call, an Entity query, a Reading Function call, or a custom action.
 
 Workflow
 1. How to Create Test Suites
@@ -312,7 +109,6 @@ Workflow
 What to do next
 Once Test Suite is configured, it can be executed. See How to Execute a Test Suite.
 
-2.1 How to Create Test Suites
 The first step to create a test with the Opcenter Execution Foundation Tester tool is the Test Suite creation.
 Once created, the Test Suite can later be opened as described in Opening the Test Suite.
 
@@ -331,12 +127,12 @@ Description
 Host
 
 Either of the following:
-• the Opcenter Execution Foundation runtime machine, in
+- the Opcenter Execution Foundation runtime machine, in
 which Opcenter Execution Foundation is configured (domain
 included). You can use localhost if you are configuring the
 Test Suite on the same machine in which the Test will be
 executed.
-• the ip address.
+- the ip address.
 
 Use Https
 
@@ -349,16 +145,6 @@ The local Opcenter Execution Foundation user name to connect to the
 Opcenter Execution Foundation machine. The user must be a test user
 (not a production user) and must have administrative rights in order to
 execute commands and perform queries.
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-7
-
-
-## Pagina 8
-
-How to Configure a Test Suite
-How to Create Test Suites
 
 Parameters
 
@@ -392,14 +178,12 @@ contain fixed values, dynamic values or a combination of both.
 Fixed values can be manually typed. To insert dynamic values, open
 the context menu by right-clicking the Suite Tag field and selecting
 one of the following:
-• Unique Identifiers
-• DateTime Values
-• Random Values
+- Unique Identifiers
+- DateTime Values
+- Random Values
 Example, SuitTag_#GUID#. Here, SuitTag_ is the fixed value and
 #GUID# is the dynamic value retrieved by selecting Unique
 Identifiers > Global Unique ID.
-
-8
 
 Iterations
 
@@ -425,14 +209,6 @@ Save Execution Log
 If set, the log is automatically saved as text file at the end of the
 execution. The text file contains the list of the executed Steps, the
 related result (passed or failed) and the execution time.
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 9
-
-How to Configure a Test Suite
-How to Create Test Suites
 
 Parameters
 
@@ -484,108 +260,39 @@ they can be useful to configure the value data used in the call parameters. If y
 many Test Steps, you can change their value by modifying the single variable. Variables are similar to the Suite
 Tag, but their values are always fixed.
 9. Click Save Suite to save the Test Suite. Otherwise, click Save Suite As and select one of the following formats:
-• .opexts, to save the Test Suite in json format,
-• .opextx to save the Test Suite in compact json format,
-• .opexty to save the Test Suite in a encrypted format. In this case, a password is required to save the Test
+- .opexts, to save the Test Suite in json format,
+- .opextx to save the Test Suite in compact json format,
+- .opexty to save the Test Suite in a encrypted format. In this case, a password is required to save the Test
 Suite.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-9
-
-
-## Pagina 10
-
-How to Configure a Test Suite
-How to Configure Test Definitions
+### Opening the Test Suite
 
 Opening the Test Suite
 To open a previously created Test Suite:
 1. Click the Open Suite button.
 2. Browse one of the following files, depending on how you chose to save the Test Suite.
-• .opexts, if you have saved the Test Suite in json format,
-• .opextx, if you have saved the Test Suite in compact json format,
-• .opexty, if you have saved the Test Suite in a encrypted format. In this case, a password is required to
+- .opexts, if you have saved the Test Suite in json format,
+- .opextx, if you have saved the Test Suite in compact json format,
+- .opexty, if you have saved the Test Suite in a encrypted format. In this case, a password is required to
 open the Test Suite.
 
- If the password is forgotten, it will no longer be possible to recover it and, consequently, to open the
-related Test Suite.
+> Note: If the password is forgotten, it will no longer be possible to recover it and, consequently, to open the related Test Suite.
 
-2.2 How to Configure Test Definitions
+### 2.2 How to Configure Test Definitions
+
 Once the Test Suite is created, you can create the Test Definitions in one of the following ways:
-• from scratch: in this case, the Test Definition must be then populated by creating Test Steps,
-• from metadata: in this case, the Test Definition will be created starting from the required Commands and
+- from scratch: in this case, the Test Definition must be then populated by creating Test Steps,
+- from metadata: in this case, the Test Definition will be created starting from the required Commands and
 Entities, with a Step for each Command/Entity,
-• from a CSV file: in this case, the Test Definition will be created starting from a CSV file, and each Step in the Test
+- from a CSV file: in this case, the Test Definition will be created starting from a CSV file, and each Step in the Test
 Definition will be executed for each row in the CSV data,
-• from Excel file: in this case, the Test Definition will be created starting from an Excel file, and each Step in the
+- from Excel file: in this case, the Test Definition will be created starting from an Excel file, and each Step in the
 Test Definition will be executed for each row of the related spreadsheet of the Excel file
 Once created, you can perform many operations on Tests, for example they can be copied and deleted. See
 Available Operations on Tests Definitions.
 
-10
+### 2.2.1 Creating Test Definitions from Scratch
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 11
-
-How to Configure a Test Suite
-How to Configure Test Definitions
-
-Available Operations on Test Definitions
-Operatio
-n
-
-Description
-
-Add
-
-To add a new Test with a default name.
-
-Merge
-Suite
-
-To insert in the current Suite tests that are available in an external Suite.
-
-Import
-Macro
-
-To create a new Test with steps for all the command calls which are available in the imported
-macro (command calls can be acquired when using the UI).
-
-Copy/
-Paste
-
-Execute Ctrl+C/Ctrl+V in the Test List to Copy/Paste a selected Test (also from/to another App
-instance).
-
-Duplicate
-
-To create a copy of the selected Test with the same properties and Steps.
-
-Delete
-
-To delete the selected Test. Before deleting it, the system asks you a confirmation.
-
-Change
-Test
-Order
-
-To change the order of the Test, drag and drop the Test in the Test List.
-
-Find Step
-by Text
-
-Execute CTRL+F to open the dialog box that allows you to search Steps containing a selected
-text. You can choose the context in which to search for the Steps. You can also select what type of
-data you want to consider.
-
-Move
-
-To move to the next matching step.
-
-2.2.1 Creating Test Definitions from Scratch
 The following procedure describes how to create a Test Definition from scratch. Then, it must be then populated
 with the required Test Steps.
 
@@ -593,16 +300,6 @@ Procedure
 1. In the created Test Suite, select the Test Definitions tab.
 2. Click Add.
 3. Set the following parameters:
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-11
-
-
-## Pagina 12
-
-How to Configure a Test Suite
-How to Configure Test Definitions
 
 Parameter
 
@@ -653,21 +350,12 @@ that must not be executed in the normal Suite Run but contains some
 steps to be executed in some situations or during data initialization.
 Once disabled, tests are displayed in grey.
 
-12
+### 2.2.2 Creating Test Definitions from Metadata
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 13
-
-How to Configure a Test Suite
-How to Configure Test Definitions
-
-2.2.2 Creating Test Definitions from Metadata
 The following procedure describes how to create a Test Definition starting from metadata. In particular, it can be
 created:
-• from Commands
-• from Entities.
+- from Commands
+- from Entities.
 The Test Definition will be automatically populated with a Step for each Command/Entity.
 
 Creating a Test Definition from Commands
@@ -682,19 +370,10 @@ Creating a Test Definition from Entities
 Definitions tab, with Commands having a name containing the entity name (usually CRUD commands) and
 entity read Step. The steps will be sorted so that you can run the tests with a few changes.
 
-2.2.3 Creating Test Definitions from a CSV file
+### 2.2.3 Creating Test Definitions from a CSV file
+
 The following procedure describes how to create a Test Definition from a CSV file. Each steps in the Test Definition
 will be executed for each row in the CSV data.
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-13
-
-
-## Pagina 14
-
-How to Configure a Test Suite
-How to Configure Test Definitions
 
 This approach can be useful to initialize a test scenario.
 
@@ -706,25 +385,14 @@ get CSV field value as data for command calls parameters. In the fields, you can
 3. In the CSV Editor, define the row structure as you need.
 4. Click OK.
 
-2.2.4 Creating Test Definitions from an Excel file
+### 2.2.4 Creating Test Definitions from an Excel file
+
 The following procedure describes how to create a Test Definition from an excel file (xslx). Each step in the Test
 Definition will be executed for each row of the related spreadsheet in the CSV data.
 This approach can be useful to initialize a test scenario.
 
 Procedure
- In order to use the xlsx file as input for a test definition, the structure of the spreadsheet and the
-parameters can be created and modified only from excel.
-Inside the xlsx editor it is only possible to display the data and select the desired spreadsheet.
-
-14
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 15
-
-How to Configure a Test Suite
-How to Configure Test Definitions
+> Note: In order to use the xlsx file as input for a test definition, the structure of the spreadsheet and the parameters can be created and modified only from Excel. Inside the xlsx editor it is only possible to display the data and select the desired spreadsheet.
 
 To create a Test Definition from scratch it is possible to use the CSV/Excel Data Path parameter, as follows:
 1. Browse for the xslx file by clicking the dedicated button next to the field.
@@ -735,27 +403,16 @@ dropdown you can select the desired spreadsheet defined in the excel file.
 
 4. After selecting the spreadsheet, the CSV/Excel Data Pathis updated with the excel file and related spreadsheet.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-15
-
-
-## Pagina 16
-
-How to Configure a Test Suite
-How to Configure Test Definitions
-
 Inside the test step, the parameters of the excel spreadsheet can be retrieved through the Take Test CSV Data
 option:
 
- If you change the content of the Excel file after the test definition has been linked to it, you can:
+> Note: If you change the content of the Excel file after the test definition has been linked to it, you can:
+>
+> 1) Refresh the test definition with the related button next to the field of CSV/Excel Data Path. This option will keep the outcome of all the previous executed test definitions.
+> 2) Click on Reset, open the CSV/Excel editor and click OK to update the Test Definition with the Excel spreadsheet content. This option will also reset the outcome of all the previous executed test definitions.
 
-1) Refresh the test definition with the related button next to the field of CSV/Excel Data Path. This option
-will keep the outcome of all the previous executed test definitions.
-2) click on Reset, open the CSV/Excel editor and click OK to update the Test Definition with the Excel
-spreadsheet content. This option will reset also the outcome of all the previous executed test definitions.
+### 2.2.5 Modifying Test Definitions from CSV file to an Excel file
 
-2.2.5 Modifying Test Definitions from CSV file to an Excel file
 The following procedure describes how to update an existing Test Definition created from a CSV file to a Test
 Definition created from an Excel file (xslx).
 This approach can be useful to store all the data from different csv files to a unique xlsx file.
@@ -765,31 +422,11 @@ Procedure
 2. .From the Data tab click on From Text/CSV button, select the existing csv file from the related directory and
 click Import.
 
-16
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 17
-
-How to Configure a Test Suite
-How to Configure Test Definitions
-
 3. The content of the csv is displayed: select the Do not detect data types and click on Transform Data.
 
 4. Inside the Power Query Editor, select the Use First Row as Headers option.
 
 Inside the Power Query Editor, it is possible to change the type of each column, according to the test steps
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-17
-
-
-## Pagina 18
-
-How to Configure a Test Suite
-How to Configure Test Steps
 
 configuration.
 
@@ -799,7 +436,8 @@ configuration.
 8. Inside the Test Definition, select the related spreadsheet for the input following the procedure of Creating Test
 Definitions from an Excel file.
 
-2.3 How to Configure Test Steps
+### 2.3 How to Configure Test Steps
+
 Each Test Definition can contain many Test Steps, which can be configured as Command calls, Entity queries,
 Reading Function calls or Custom Actions.
 After creating a Test Definition from scratch, you can proceed configuring the required Test Steps.
@@ -809,9 +447,9 @@ See Available Operations on Test Steps.
 Workflow
 1. Create Test Steps.
 2. Configure Test Steps as one of the following:
-• Command Calls
-• Entity Queries
-• Custom Actions.
+- Command Calls
+- Entity Queries
+- Custom Actions.
 
 Available Operations on Steps
 Operatio
@@ -828,47 +466,8 @@ Delete
 
 To delete the selected Step. Before deleting it, the system asks you a confirmation.
 
-18
+### 2.3.1 Creating Test Steps
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 19
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
-Operatio
-n
-
-Description
-
-Edit
-
-To enable the Step editing. In this way, you can change all step properties.
-
-Undo
-Changes
-
-To undo the performed changes.
-
-Change
-Step
-Order
-
-To change the order of the Steps, drag and drop the Step in the Step List.
-
-Move/
-Copy
-Step from
-a Test to
-another
-Test
-
-To move or copy a Step from a Test to another Test, drag and drop the Step from the Step List to
-the Test List.
-
-2.3.1 Creating Test Steps
 After creating a Test Definition from scratch, you can create the required Test Steps.
 
 Procedure
@@ -887,22 +486,13 @@ Step Type
 
 The type of the Step. It cannot be changed after the step creation.
 Possible values are:
-• Execute a Command Call
-• Read data related to an Entity
-• Get data by Reading Functions
-• Execute a Custom Action.
+- Execute a Command Call
+- Read data related to an Entity
+- Get data by Reading Functions
+- Execute a Custom Action.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
+### 2.3.2 Configuring Test Steps as Command Calls
 
-19
-
-
-## Pagina 20
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
-2.3.2 Configuring Test Steps as Command Calls
 Once a Test Step is created, you can configure it as a Command call, by setting the required Command parameters.
 
 Procedure
@@ -929,8 +519,6 @@ CreateMaterial command).
 
 3. Set the execution options:
 
-20
-
 Option
 
 Description
@@ -938,14 +526,6 @@ Description
 Is Enabled
 
 If set, it enables the Step. Disabled Step are displayed in grey.
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 21
-
-How to Configure a Test Suite
-How to Configure Test Steps
 
 Option
 
@@ -964,52 +544,29 @@ Error parameter is set in the Test Suite.
 4. In the Call Parameters grid, the system displays the list of the call parameters, depending on the Application
 and Command previously set. Mandatory fields are shown in bold. The call parameter values are automatically
 set by the tool but you can change them, for example doing one of the following:
-• Retrieve the value from a CSV file, by right-clicking the call parameter value in the grid, selecting Take
+- Retrieve the value from a CSV file, by right-clicking the call parameter value in the grid, selecting Take
 Test CSV Data and then selecting the required field name.
-• Insert a dynamic tag, by right-clicking a call parameter value in the grid and selecting a tag. This tag will
+- Insert a dynamic tag, by right-clicking a call parameter value in the grid and selecting a tag. This tag will
 be replaced during the execution.
-• Retrieve the output value from another Step, by right-clicking the call parameter value in the grid and
+- Retrieve the output value from another Step, by right-clicking the call parameter value in the grid and
 selecting Get Value from Step Result. Then, select the parameter from which to get data.
-• Retrieve the parameter value from another Step, by right-clicking the call parameter value in the grid and
+- Retrieve the parameter value from another Step, by right-clicking the call parameter value in the grid and
 selecting Get Value from Step Parameter. Then, select the parameter from which to get data.
-• Set the Tags manually.
+- Set the Tags manually.
 You can set the value by using variables. For example, if you have defined in the Test Suite a variable with
 Equipment name and Machine1 value, the value to be inserted here is #SUITE_VAR.Equipment#.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-21
-
-
-## Pagina 22
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
- Note on Autonumbering Pattern usage
-When using the Autonumbering Pattern, the system automatically insert the Tag #AUTO_Nid#. Then,
-during the execution, this tag will be replaced with «\u0091Nid». If you want to use a different pattern,
-type the Id instead of NId.
+> Note on Autonumbering Pattern usage: When using the Autonumbering Pattern, the system automatically insert the Tag #AUTO_Nid#. Then, during the execution, this tag will be replaced with «\u0091Nid». If you want to use a different pattern, type the Id instead of NId.
 5. (Optional) In the Additional Arguments grid, specify any additional arguments you want to add to the
 Command payload. The Is Collection check box is used to represent list of values. For more information on
 the Command extensibility pattern, refer to the Opcenter Execution Foundation Extensibility Guide.
 
 6. If you want to set complex parameters, do one of the following:
-• Get the value from another Step with a Tag.
-• Write the value in Json format.
-• Click Edit... and set the parameter values in the Edit Parameter editor. The editor is available for
+- Get the value from another Step with a Tag.
+- Write the value in Json format.
+- Click Edit... and set the parameter values in the Edit Parameter editor. The editor is available for
 complex type, collections and text with unlimited length. You can also open a sub-instance of the editor.
 In case of collection parameters, you can open the Collection Editor and set the parameter values.
-
-22
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 23
-
-How to Configure a Test Suite
-How to Configure Test Steps
 
 6. Save the operation by clicking the apply change icon in the right bar.
 7. In the Payload tab, take a look at the preview of the payload, but bear in mind that it can change during the
@@ -1018,29 +575,18 @@ information, see How to Review the Test Suite Execution.
 
 If you have added additional arguments, the payload is extended with the 'additional' section:
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-23
-
-
-## Pagina 24
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
 The default timeout for the command execution is 0 (that means 30 seconds): it can be changed up to 3600
 seconds
 The command can be executed with a different user form the one set in the connection parameters typing the
 new User and Password
 
-2.3.3 Configuring Test Steps as Entity Queries
+### 2.3.3 Configuring Test Steps as Entity Queries
+
 Once a Test Step is created, you can configure it as an entity query.
 
 Procedure
 1. In the Test Definitions tab, select a Test Step.
 2. In the Properties tab, set the following parameters:
-
-24
 
 Parameters
 
@@ -1055,14 +601,6 @@ Application
 
 The Application related to the selected Step (for example,
 MaterialApp).
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 25
-
-How to Configure a Test Suite
-How to Configure Test Steps
 
 Parameters
 
@@ -1097,8 +635,7 @@ and Entity previously set. Mandatory fields are shown in bold. The filter proper
 the tool but you can change them, as well as you can set values by using variables, as you already known for the
 call parameters in Configuring Test Steps as Command Calls.
 
- The default compare operator is = , but you can also use the following supported operators: < > , <= ,
->= , != , [[ (the last one means “contains”).
+> Note: The default compare operator is =, but you can also use the following supported operators: <, >, <=, >=, !=, [[ (the last one means “contains”).
 
 5. Set the following parameters:
 Option
@@ -1134,16 +671,6 @@ Delay
 
 Delay (seconds) after which the retries will be performed
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-25
-
-
-## Pagina 26
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
 6. Save the operation by clicking the apply change icon in the right bar.
 7. In the Query tab, take a look at the Odata queries that will be executed. For more information, see How to
 Review the Test Suite Execution.
@@ -1151,61 +678,23 @@ Review the Test Suite Execution.
 8. In the Data tab, take a look at the result of the queries in tabular form. For more information, see How to Review
 the Test Suite Execution.
 
-2.3.4 Configuring Test Steps as Custom Actions
+### 2.3.4 Configuring Test Steps as Custom Actions
+
 Once a Test Step is created, you can configure it as a Custom Action.
 Custom Actions are special functions that allow executing activities not provided by Opcenter Execution
 Foundation.
 These actions can be useful to:
-• Initialize the test scenario
-• Reset the database
-• Copy the output files after the test execution
-• Post a command to an http endpoint (for example to Opcenter Connect MOM).
+- Initialize the test scenario
+- Reset the database
+- Copy the output files after the test execution
+- Post a command to an http endpoint (for example to Opcenter Connect MOM).
 
 Procedure
 1. In the Test Definitions tab, select a Test Definition and click the plus icon in the right bar.
 2. In the New Test Step dialog box, set the following parameters:
 
-26
+### 2.3.4.1 Using ExecuteSQL Action
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 27
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
-Parameter
-
-Description
-
-Step ID
-
-The name of the action. It must be unique.
-
-Step Type
-
-The type of the action. It must be set to Execute a Custom Action
-and cannot be changed after the step creation.
-
-3. In the Action field, select one of the available actions to be used:
-• ExecuteSQL
-• HttpPost
-• StartProcess
-• Wait
-• IfThisSkipNext
-• CreateTextFile
-• CopyFile
-• RunVSTest
-• SetVariables
-• ExecSubTest
-• ForEachExecStep
-• Transform
-• LoadTextFile
-• ListFiles
-• DeleteFile
-
-2.3.4.1 Using ExecuteSQL Action
 The ExecuteSQL action allows executing any kind of SQL script. In the example below, a database will be restored
 from a previous backup.
 
@@ -1235,16 +724,6 @@ UserName
 The user name to log in to the database. It is not used if the
 IntegratedSecurity option is enabled.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-27
-
-
-## Pagina 28
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
 Parameter
 
 Description
@@ -1269,23 +748,14 @@ TimeOut
 
 The default value is 30 seconds.
 
-2.3.4.2 Using HttpPost Action
+### 2.3.4.2 Using HttpPost Action
+
 The HttpPost action allows posting any payload to an Http endpoint. In the example below, an Order will be sent to
 an external system.
 
 Procedure
 1. In the Properties tab, in the Action field select HttpPost.
 2. Set the following call parameters:
-
-28
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 29
-
-How to Configure a Test Suite
-How to Configure Test Steps
 
 Parameter
 
@@ -1294,8 +764,8 @@ Description
 Protocol
 
 Connection protocol with the endpoint to reach. Possible values are:
-• http
-• https
+- http
+- https
 
 Host
 
@@ -1333,25 +803,14 @@ The path of an external file containing the Payload to be posted.
 If both Payload and PayloadFile are specified, Payload will be used
 only if the file is not available.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
+### 2.3.4.3 Using StartProcess Action
 
-29
-
-
-## Pagina 30
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
-2.3.4.3 Using StartProcess Action
 The StartProcess action allows executing any Windows process. In the example below, it allows executing a Batch
 file.
 
 Procedure
 1. In the Properties tab, in the Action field select StartProcess.
 2. Set the following call parameters:
-
-30
 
 Parameter
 
@@ -1374,14 +833,6 @@ GetOutput
 
 If set to True, you get the process output as Result.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 31
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
 Parameter
 
 Description
@@ -1392,10 +843,10 @@ The default value is 30 seconds.
 
 3. In the Result tab, take a look at the output of the executed Process.
 
- If in the property FilePath the #SUITE_FOLDER# parameter is used it must be edited manually as
-#SUITE_FOLDER_DS# to take the proper path as input.
+> Note: If in the property FilePath the #SUITE_FOLDER# parameter is used, it must be edited manually as #SUITE_FOLDER_DS# to take the proper path as input.
 
-2.3.4.4 Using Wait Action
+### 2.3.4.4 Using Wait Action
+
 The Wait action allows setting a wait time, using a combination of minutes, seconds and milliseconds.
 
 Procedure
@@ -1409,16 +860,6 @@ Minutes
 
 To set a wait time of one or more minutes.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-31
-
-
-## Pagina 32
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
 Parameter
 
 Description
@@ -1431,15 +872,14 @@ Milliseconds
 
 To set a wait time of one or more milliseconds.
 
-2.3.4.5 Using IfThisSkipNext Action
+### 2.3.4.5 Using IfThisSkipNext Action
+
 The IfThisSkipNext action allows skipping the next Step if a condition is verified. It could be useful during the
 execution of the Initialization Steps, to avoid errors on already existing objects.
 
 Procedure
 1. In the Properties tab, in the Action field select IfThisSkipNext.
 2. Set the following call parameters:
-
-32
 
 Parameter
 
@@ -1468,14 +908,6 @@ NegateCheck
 
 To apply a “NOT” operator on the condition.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 33
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
 Parameter
 
 Description
@@ -1488,7 +920,8 @@ SkipToStep
 
 To skip to a specific Step. To be set to the Step ID.
 
-2.3.4.6 Using CreateTextFile Action
+### 2.3.4.6 Using CreateTextFile Action
+
 The CreateTextFile action allows creating a text file, such as xml, json, csv, containing data retrieved from previous
 Steps.
 
@@ -1508,31 +941,12 @@ FilePath
 
 The file path that will be generated using Tags.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-33
-
-
-## Pagina 34
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
 Here, an example of text with tags:
 
 Here, an example of the created file:
 
-34
+### 2.3.4.7 Using CopyFile Action
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 35
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
-2.3.4.7 Using CopyFile Action
 The CopyFile action allows to copy an existing file inside a folder. The copied file can have the same name or can be
 renamed.
 If a file with the same name and extension already exists, the new file will not be overwritten.
@@ -1557,7 +971,8 @@ DeleteSource
 
 If true the source file in SourceFilePath is deleted
 
-2.3.4.8 Using RunVSTest Action
+### 2.3.4.8 Using RunVSTest Action
+
 The RunVSTest action allows executing tests developed with Visual Studio.
 This action can be useful when you have to execute a very complex test already developed.
 
@@ -1584,16 +999,6 @@ TimeOut
 
 The default value is 30 seconds.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-35
-
-
-## Pagina 36
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
 Parameter
 
 Description
@@ -1605,30 +1010,17 @@ not installed, use the Test.Runner.Console helper, instead of the
 standard Test Execution Command Line Tool.
 To use the helper, set this option to True.
 
- The Test.Runner.Console.exe should be available in a
-
-subfolder, named TestRunner, under the Tester Tool
-Folder. If you want to use another folder, you have to add it
-to the Environment variable Path.
+> Note: The Test.Runner.Console.exe should be available in a subfolder named TestRunner under the Tester Tool folder. If you want to use another folder, you have to add it to the Environment variable Path.
 
 3. In the Result tab, take a look at the result.
 
-2.3.4.9 Using SetVariables Action
+### 2.3.4.9 Using SetVariables Action
+
 The SetVariables action allows:
-• Setting the value of variables defined at Test Suite level or at Test level. Variables at Test Suite level must
+- Setting the value of variables defined at Test Suite level or at Test level. Variables at Test Suite level must
 already exist, while variables at Test level can be added. See Using SetVariables with simple values.
-• Setting the value of variables using several string and mathematical functions. See Using SetVariables using
+- Setting the value of variables using several string and mathematical functions. See Using SetVariables using
 Functions.
-
-36
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 37
-
-How to Configure a Test Suite
-How to Configure Test Steps
 
 Using SetVariables with simple values
 1. In the Properties tab, in the Action field select SetVariables.
@@ -1648,57 +1040,37 @@ Using SetVariables using Functions
 In the Properties tab, in the Action field select SetVariables.
 Here, the string and mathematical functions to be used to set the variable values:
 String Functions:
-• SubString(Value, Start, Len)
-• Replace(Value, SubStr, RepStr)
-• ReplaceSub(Val, Start, Len, Rep)
-• Remove(Value, Start, Len)
-• Trim(Value)
-• ToLower(Value)
+- SubString(Value, Start, Len)
+- Replace(Value, SubStr, RepStr)
+- ReplaceSub(Val, Start, Len, Rep)
+- Remove(Value, Start, Len)
+- Trim(Value)
+- ToLower(Value)
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-37
-
-
-## Pagina 38
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
-• ToUpper(Value)
-• PadLeft(Value, TotalLen, Char)
-• PadRight(Value, TotalLen, Char)
+- ToUpper(Value)
+- PadLeft(Value, TotalLen, Char)
+- PadRight(Value, TotalLen, Char)
 Mathematical Functions:
-• Sum(V1, V2, V3, ...)
-• Subtract(V1, V2)
-• Product(V1, V2, V3, ...)
-• Divide(V1, V2)
-• Mod(V1, V2)
-• Percent(Value, %)
-• Round(Value, Digits)
-• Power(Value, Exp)
-• Quotient(Value)
-• Avg(V1, V2, V3, ...)
-• Min(V1, V2, V3, ...)
-• Max(V1, V2, V3, ...)
+- Sum(V1, V2, V3, ...)
+- Subtract(V1, V2)
+- Product(V1, V2, V3, ...)
+- Divide(V1, V2)
+- Mod(V1, V2)
+- Percent(Value, %)
+- Round(Value, Digits)
+- Power(Value, Exp)
+- Quotient(Value)
+- Avg(V1, V2, V3, ...)
+- Min(V1, V2, V3, ...)
+- Max(V1, V2, V3, ...)
 
-
+> Note:
+> - Functions are case insensitive.
+> - Functions cannot be nested.
 
-• Functions are case insensitive.
-• Functions cannot be nested.
+### 2.3.4.10 Using ExecSubTest Action
 
-2.3.4.10 Using ExecSubTest Action
 The ExecSubTest action allows executing a Sub-Test, such as a subroutine.
-
-38
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 39
-
-How to Configure a Test Suite
-How to Configure Test Steps
 
 Procedure
 1. In the Properties tab, in the Action field select ExecSubTest.
@@ -1741,17 +1113,8 @@ the execution.
 
 3. Since the Sub-Tests must not be enabled, remove the setting in the Is Enabled option.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
+### 2.3.4.11 Using ForEachExecStep Action
 
-39
-
-
-## Pagina 40
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
-2.3.4.11 Using ForEachExecStep Action
 The ForEachExecStep action allows executing a Step for each element in a result array. For example, you can
 update all materials returned by a query.
 
@@ -1766,9 +1129,9 @@ DataSourceStep
 
 When the action is executed, it reads the elements in the Result
 array of DataSourceStep and for each of them:
-• Sets its result with the element
-• Calls the ExecutionStep
-• Waits specified delay
+- Sets its result with the element
+- Calls the ExecutionStep
+- Waits specified delay
 
 ExecutionStep
 
@@ -1782,17 +1145,8 @@ the Test Suite tab will be considered.
 
 3. Since the Execution Step must not be enabled, remove the setting in the Is Enabled option.
 
-40
+### 2.3.4.12 Using Transform Action
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 41
-
-How to Configure a Test Suite
-How to Configure Test Steps
-
-2.3.4.12 Using Transform Action
 The Transform action allows creating an array of “virtual entities” by getting data from elements of an array,
 returned by another Step specified with a dedicated parameter (DataSourceStep).
 It is possible also to insert additional data from other steps, tags and constants.
@@ -1814,21 +1168,11 @@ returned by another Step specified with DataSourceStep.
 EntityProperty
 
 Each property can have the format:
-• Only name of source property
-• [Name]=[DataPath]
-• [Name]=#xxx# tag
-• [Name]=constant
-• [Name]=string with placeholders
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-41
-
-
-## Pagina 42
-
-How to Configure a Test Suite
-How to Configure Test Steps
+- Only name of source property
+- [Name]=[DataPath]
+- [Name]=#xxx# tag
+- [Name]=constant
+- [Name]=string with placeholders
 
 Parameter
 
@@ -1839,7 +1183,8 @@ EntityStructure
 Dynamic data can be inserted using <<DataTokenPath>>
 placeholders.
 
-2.3.4.13 Using LoadTextFile Action
+### 2.3.4.13 Using LoadTextFile Action
+
 The LoadTextFile action allows loading a text file. The content of the file will be available in the Result tab as an
 array of lines (strings) that can be checked with Asserts and used as input data from another Step.
 If the file contains json or xml data, instead of the text lines, it is possible to set the Result with the read Json object
@@ -1851,8 +1196,6 @@ Procedure
 1. In the Properties tab, in the Action field select LoadTextFile.
 2. Set the following call parameters:
 
-42
-
 Parameter
 
 Description
@@ -1860,14 +1203,6 @@ Description
 FilePath
 
 The file path that will be generated using Tags.
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 43
-
-How to Configure a Test Suite
-How to Configure Test Steps
 
 Parameter
 
@@ -1877,7 +1212,8 @@ ParseAsJson
 
 If set to true, set the Result with the read Json object.
 
-2.3.4.14 Using ListFiles Action
+### 2.3.4.14 Using ListFiles Action
+
 The ListFiles action allows to retrieve the list of files inside a folder. The list of the files will be available in
 the Result and Data tab.
 Is possible to search files filtering the extension and to sort them by Name, Size, Date, Extension.
@@ -1905,7 +1241,8 @@ Descending
 
 if true descending sort is applied
 
-2.3.4.15 Using DeleteFile Action
+### 2.3.4.15 Using DeleteFile Action
+
 The DeleteFile action allows to delete a file inside a directory.
 
 Procedure
@@ -1919,28 +1256,18 @@ FilePath
 
 The file to be deleted
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
+## 3 How to Execute a Test Suite
 
-43
-
-
-## Pagina 44
-
-How to Execute a Test Suite
-How to Configure Test Steps
-
-3 How to Execute a Test Suite
 The Opcenter Execution Foundation Tester tool allows performing many types of execution:
-• Runnig a single Step
-• Runnig a single Test
-• Running the entire Test Suite
-• Running the Test Suite using an external Agent.
+- Runnig a single Step
+- Runnig a single Test
+- Running the entire Test Suite
+- Running the Test Suite using an external Agent.
 For other operations available on the execution, see Available Operations on the Execution.
 You can also execute the Test Suite via script, as well as perform other execution-related operations. See How to
 Perform Execution-Related Operations via Scripts.
 
- When executing a Test Suite, local data can be modified. We recommend that you run the tool only in a
-test environment.
+> Note: When executing a Test Suite, local data can be modified. We recommend that you run the tool only in a test environment.
 
 Prerequisites
 You must have write permissions on the local folder in which to execute the Test Suite.
@@ -1985,17 +1312,8 @@ What to do next
 When the execution is completed or, especially, when an error occurs, it is useful to review the execution. See How
 to Review the Test Suite Execution.
 
-44
+### 3.1 Running a Single Step
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 45
-
-How to Execute a Test Suite
-Running a Single Step
-
-3.1 Running a Single Step
 During the Test Suite preparation, it is useful to run a single Step, for example to ensure correctness of parameters.
 When you need to insert a Tag getting data from a Step, if you run that Step in advance, you can view all result
 attributes and select one of them from the related combo box.
@@ -2006,7 +1324,8 @@ Procedure
 3. In the Payload tab, take a look at the Parameters with Resolved Tags. Tags resolved before the execution can
 change to the actual values after the execution. See How to Review the Test Suite Execution.
 
-3.2 Running a Single Test
+### 3.2 Running a Single Test
+
 You can execute a single Test with all related Steps. All Steps will be executed as many times as the number set in
 the Iteration parameter in the Test Suite.
 
@@ -2014,22 +1333,13 @@ Procedure
 1. In the Test Definition tab, select a Step.
 2. Click Do Test. The selected Test will be executed and all Steps will be executed.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-45
-
-
-## Pagina 46
-
-How to Execute a Test Suite
-Running the Test Suite
-
 3. To slow down the execution, in the Test Suite Tab, for each Step set the Step Delay field to a delay in
 milliseconds.
 During the Test execution, Steps change their status, and the progress bar allows evaluating the remaining time to
 the end. If you click Do Test before the end of the Test, the execution will be interrupted.
 
-3.3 Running the Test Suite
+### 3.3 Running the Test Suite
+
 You can run the entire Test Suite with all Tests and Steps. The execution will be repeated as many times as the
 number set in the Iteration parameter in the Test Suite.
 A Test Suite can be also run by running the Test Suite with multi-user execution. This option can be useful for
@@ -2039,8 +1349,6 @@ Running the Test Suite
 1. In the Test Definition tab, click Play. The execution will start. During the execution, Tests and Steps change
 their status, and the progress bar allows evaluating the remaining time to the end. Once the execution is
 finished, the system sets the following parameters:
-
-46
 
 Parameters
 
@@ -2053,14 +1361,6 @@ The number of executions.
 Average
 
 The average execution time in seconds.
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 47
-
-How to Execute a Test Suite
-Running the Test Suite
 
 Parameters
 
@@ -2080,16 +1380,6 @@ Suite checkbox to reset statistics before to save the Suite.
 Running the Test Suite with multi-user execution
 In the Multi Agent tab you can execute a test simulating the multi-user execution.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-47
-
-
-## Pagina 48
-
-How to Execute a Test Suite
-Running the Test Suite
-
 1. When the configuration is saved, click the Start Agent button: the agents will execute all the enabled test
 definitions saved inside the Test Suite.
 
@@ -2107,8 +1397,8 @@ Users
 
 To be used by Agents. Each Agent will use one of the users inserted in dialog box. You
 can include a user in one of the following ways:
-• Manually, inserting user and password (that is encrypted after typing it)
-• from a csv file containing the list of users and passwords (that are
+- Manually, inserting user and password (that is encrypted after typing it)
+- from a csv file containing the list of users and passwords (that are
 encrypted after import)
 If no user is defined, the credentials set in the connection parameters of the Test Suite
 will be used for each agent.
@@ -2134,16 +1424,6 @@ If Save Raw Statistic has been set, after the test execution you can click the O
 generate an Overall folder (inside the Statistics folder) containing the csv files of the Test Steps, Test Definition
 and Test Suite with Minimum, Average and Maximum time retrieved from the execution.
 
-48
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 49
-
-How to Execute a Test Suite
-Running the Test Suite
-
 Best practice before starting the execution of the required agents and users
 1. Set an initial configuration to check that the execution of each agent is the expected one (e.g. N. of Agents = 4,
 Start Delay = 1) and save the Test Suite.
@@ -2157,17 +1437,8 @@ execution.
 During the test execution, if you want to add more agents, click One More and you can stop all Agents, or the
 selected ones, by clicking Stop Agents or Stop Selected, respectively.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
+## 4 How to Perform Execution-Related Operations via Scripts
 
-49
-
-
-## Pagina 50
-
-How to Perform Execution-Related Operations via Scripts
-Performing Execution-Related Operations via OpcenterEXFNTester.exe
-
-4 How to Perform Execution-Related Operations via Scripts
 Opcenter Execution Foundation allows you to execute the Test Suite by running the OpcenterEXFNTester.exe
 utility from command line, as well as perform other execution-related operations.
 The Test Suite can also be executed via OpcenterEXFNTesterAgent.exe utility, as well as other execution-related
@@ -2177,11 +1448,11 @@ Prerequisites
 You must have write permissions on the local folder in which to execute the Test Suite.
 
 Available Operations
-• Perform execution-related operations via OpcenterEXFNTester.exe utility.
-• Perform execution-related operations via OpcenterEXFNTesterAgent.exe utility.
+- Perform execution-related operations via OpcenterEXFNTester.exe utility.
+- Perform execution-related operations via OpcenterEXFNTesterAgent.exe utility.
 
-4.1 Performing Execution-Related Operations via
-OpcenterEXFNTester.exe
+### 4.1 Performing Execution-Related Operations via OpcenterEXFNTester.exe
+
 Opcenter Execution Foundation allows you to execute the Test Suite by running the OpcenterEXFNTester.exe
 utility from command line, as well as perform other execution-related operations.
 
@@ -2191,8 +1462,8 @@ Procedure
 3. Type -File=<LocalPath>\<TestSuiteName>.<TestSuiteFormat> to load the Test Suite. <TestSuiteFormat>
 can be opexts, opextx or opexty, depending on the format you have selected when saving the Test Suite.
 4. Do one or more of the following:
-• overwrite Test Suite settings, previously set when creating the Test Suite
-• execute the Test Suite and/or perform other execution-related operations.
+- overwrite Test Suite settings, previously set when creating the Test Suite
+- execute the Test Suite and/or perform other execution-related operations.
 
 Overwriting Test Suite settings
 Type one or more of the following, according to your needs. For the parameter description, see How to Create Test
@@ -2201,10 +1472,10 @@ Parameters
 
 Description
 
-• -Host
-• -User
-• -Pwd
-• -UseHttps
+- -Host
+- -User
+- -Pwd
+- -UseHttps
 
 To override Test Suite Settings
 
@@ -2216,30 +1487,20 @@ To override the Plant
 
 To override Test Suite Tags
 
-50
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 51
-
-How to Perform Execution-Related Operations via Scripts
-Performing Execution-Related Operations via OpcenterEXFNTester.exe
-
 Parameters
 
 Description
 
-• -BreakOnError
-• -SaveLog
-• -LogVerbose
-• -SaveStat
+- -BreakOnError
+- -SaveLog
+- -LogVerbose
+- -SaveStat
 
 To override the execution options. Possible values to be set:
 true, false.
 
-• -Var:BaseMatNId
-• -Var:BaseId
+- -Var:BaseMatNId
+- -Var:BaseId
 
 To override Suite Variables
 
@@ -2284,22 +1545,12 @@ To force the application to close when the execution fails.
 By executing the following example, Test Suite statistics will be reset. Then, the Test Suite will be run and saved,
 and the application will be closed after the execution, also in case of execution failure.
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-51
-
-
-## Pagina 52
-
-How to Perform Execution-Related Operations via Scripts
-Performing Execution-Related Operations via OpcenterEXFNTesterAgent.exe
-
 Example
 <LocalPath>\OpcenterEXFNTester.exe -File=<LocalPath>\<TestSuiteName>.opexts -Reset
 -Play -AutoClose -ForceClose -Save
 
-4.2 Performing Execution-Related Operations via
-OpcenterEXFNTesterAgent.exe
+### 4.2 Performing Execution-Related Operations via OpcenterEXFNTesterAgent.exe
+
 Opcenter Execution Foundation allows you to execute the Test Suite by running the
 OpcenterEXFNTesterAgent.exe utility from command line, as well as perform other execution-related operations.
 
@@ -2309,8 +1560,8 @@ Procedure
 3. Type -File=<LocalPath>\<TestSuiteName>.<TestSuiteFormat> to load the Test Suite. <TestSuiteFormat>
 can be opexts, opextx or opexty, depending on the format you have selected when saving the Test Suite.
 4. Do one or more of the following:
-• overwrite Test Suite settings, previously set when creating the Test Suite
-• execute the Test Suite and/or perform other execution-related operations.
+- overwrite Test Suite settings, previously set when creating the Test Suite
+- execute the Test Suite and/or perform other execution-related operations.
 
 Overwriting Test Suite settings
 Type one or more of the following, according to your needs. For the parameter description, see How to Create Test
@@ -2319,10 +1570,10 @@ Parameters
 
 Description
 
-• -Host
-• -User
-• -Pwd
-• -UseHttps
+- -Host
+- -User
+- -Pwd
+- -UseHttps
 
 To override Test Suite Settings
 
@@ -2334,30 +1585,20 @@ To override the Plant
 
 To override Test Suite Tags
 
-• -BreakOnError
-• -SaveLog
-• -LogVerbose
-• -SaveStat
+- -BreakOnError
+- -SaveLog
+- -LogVerbose
+- -SaveStat
 
 To override the execution options. Possible values to be set:
 true, false.
 
-• -Var:BaseMatNId
-• -Var:BaseId
+- -Var:BaseMatNId
+- -Var:BaseId
 
 To override Suite Variables
 
 By executing the following example, Test Suite settings will be overwritten.
-
-52
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 53
-
-How to Perform Execution-Related Operations via Scripts
-Performing Execution-Related Operations via OpcenterEXFNTesterAgent.exe
 
 Example
 <LocalPath>\OpcenterEXFNTesterAgent.exe -File=<LocalPath>\<TestSuiteName>.opexts
@@ -2397,17 +1638,8 @@ Example
 <LocalPath>\OpcenterEXFNTesterAgent.exe -File=<LocalPath>\<TestSuiteName>.opexts
 -Reset -Test=<TestName> -Save
 
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
+## 5 How to Review the Test Suite Execution
 
-53
-
-
-## Pagina 54
-
-How to Review the Test Suite Execution
-Performing Execution-Related Operations via OpcenterEXFNTesterAgent.exe
-
-5 How to Review the Test Suite Execution
 When the execution of the Test Suite is completed or, especially, when an error occurs, it is useful to review the
 status of each executed Steps. For this purpose, the tool interface provides many tabs.
 Tab
@@ -2441,14 +1673,11 @@ grid you can set Asserts. You can refer to an attribute in the text box of the R
 standard Json Token Path and select the check type from the drop down. Succeeded asserts are
 displayed in green, while failed asserts in red.
 
-
+Execution Log
 
-Execution
-Log
-
-• For the first value in Entity result data, you can omit value[]. and use the parameter
-name.
-• To check boolean values, use [IsTrue] and [IsFalse].
+> Note:
+> - For the first value in Entity result data, you can omit value[]. and use the parameter name.
+> - To check boolean values, use [IsTrue] and [IsFalse].
 
 To see the execution log containing all information about executed Tests and Steps. You can see
 the log both at the end and during the Test Suite execution.
@@ -2460,17 +1689,3 @@ the problem. If the problem cannot be solved during the execution, you can skip 
 on the Execution).
 If the execution of the Test Suite is successfully completed, you can anyway take a look at this information, in order
 to review the status of each executed Steps.
-
-54
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-
-## Pagina 55
-
-How to Review the Test Suite Execution
-Performing Execution-Related Operations via OpcenterEXFNTesterAgent.exe
-
-Opcenter Execution Foundation 2401.0001 - Tester Tool User Guide
-
-55
